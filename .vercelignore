@@ -1,0 +1,35 @@
+# Only the application source and build inputs may be uploaded.
+# Browser exports, documentation screenshots, reports, caches and local
+# Vercel metadata are excluded by the root-level default deny rule.
+/*
+!app
+!components
+!data
+!lib
+!types
+!scripts
+/scripts/*
+!/scripts/require-preview.mjs
+!research-universities.json
+!package.json
+!pnpm-lock.yaml
+!pnpm-workspace.yaml
+!.npmrc
+!next.config.ts
+!next-env.d.ts
+!tsconfig.json
+!postcss.config.mjs
+!vercel.json
+!.vercelignore
+
+# Exclude sensitive file types even if later placed in a source directory.
+**/.env*
+**/*.env*
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.csv
+**/*.log
+**/*backup*.json
+**/*export*.json

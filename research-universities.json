@@ -1,0 +1,942 @@
+[
+  {
+    "slug": "harvard",
+    "name": "Harvard University",
+    "city": "Cambridge",
+    "state": "Massachusetts",
+    "website": "https://college.harvard.edu",
+    "initials": "H",
+    "color": "#A51C30",
+    "subjects": ["Computer Science", "Economics", "Engineering", "English"],
+    "checkedAt": "2026-10-18",
+    "findings": [
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "title": "How Aid Works",
+        "cycle": null,
+        "note": "International undergraduates qualify for the same aid available to American students. General policy, not a Fall 2027-specific guarantee.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "needBlind",
+        "value": true,
+        "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "title": "How Aid Works",
+        "cycle": null,
+        "note": "Harvard says a request for financial assistance has no effect on its admission decision.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "title": "How Aid Works",
+        "cycle": null,
+        "note": "Harvard covers all demonstrated financial need under its own assessment. This does not mean every admitted student pays nothing.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meritAid",
+        "value": false,
+        "sourceUrl": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "title": "How Aid Works",
+        "cycle": null,
+        "note": "Harvard awards its aid according to financial need rather than achievement.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidForms",
+        "value": [
+          "2027–28 CSS Profile (3434)",
+          "IDOC packet",
+          "2025 parent income and tax documents; English translations where needed"
+        ],
+        "sourceUrl": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+        "title": "Prospective Students",
+        "cycle": "2027-2028",
+        "note": "The page explicitly covers 2027–28. International applicants unable to pay the CSS fee or use College Board payments can follow the linked alternative process.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": "2026-11-01",
+        "sourceUrl": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+        "title": "Prospective Students",
+        "cycle": "2027-2028",
+        "note": "CSS Profile deadline for Restrictive Early Action; this is a financial aid deadline, not the admission application deadline.",
+        "round": "Restrictive Early Action",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": "2027-02-01",
+        "sourceUrl": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+        "title": "Prospective Students",
+        "cycle": "2027-2028",
+        "note": "CSS Profile deadline for Regular Decision; late aid submissions are accepted, but aid decisions may be delayed.",
+        "round": "Regular Decision",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "testPolicy",
+        "value": "SAT or ACT required; access-related exceptions",
+        "sourceUrl": "https://college.harvard.edu/admissions/apply/international-applicants",
+        "title": "International Applicants",
+        "cycle": null,
+        "note": "Where SAT/ACT access is genuinely unavailable, Harvard permits specified AP, IB, GCSE/A-level or externally assessed national exams or predictions.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English proficiency exam optional",
+        "sourceUrl": "https://college.harvard.edu/admissions/apply/international-applicants",
+        "title": "International Applicants",
+        "cycle": null,
+        "note": "First-year and transfer applicants need strong English, but Harvard does not require a separate English test. English tests cannot replace SAT/ACT.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Economics",
+          "Engineering Sciences",
+          "English"
+        ],
+        "sourceUrl": "https://college.harvard.edu/academics/liberal-arts-sciences/concentrations",
+        "title": "Concentrations",
+        "cycle": null,
+        "note": "These four fields are included in Harvard College's undergraduate concentration list.",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 total cost of attendance not verified; keep null.",
+      "Fall 2027 admission application deadlines not verified in this research; keep separate from aid deadlines.",
+      "General aid and testing policies are not explicitly labeled Fall 2027."
+    ]
+  },
+  {
+    "slug": "yale",
+    "name": "Yale University",
+    "city": "New Haven",
+    "state": "Connecticut",
+    "website": "https://admissions.yale.edu",
+    "initials": "Y",
+    "color": "#00356B",
+    "subjects": ["Computer Science", "Economics", "Engineering", "Humanities"],
+    "checkedAt": "2026-10-18",
+    "findings": [
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://admissions.yale.edu/international",
+        "title": "International Students",
+        "cycle": null,
+        "note": "International applicants are eligible for Yale's undergraduate need-based aid on the same basis as domestic applicants.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "needBlind",
+        "value": true,
+        "sourceUrl": "https://admissions.yale.edu/international",
+        "title": "International Students",
+        "cycle": null,
+        "note": "Yale evaluates applicants without considering ability to pay.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://admissions.yale.edu/international",
+        "title": "International Students",
+        "cycle": null,
+        "note": "Yale commits to covering the full financial need that it calculates for each family. International offers include housing, meals and travel allowances.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meritAid",
+        "value": false,
+        "sourceUrl": "https://finaid.yale.edu/terminology",
+        "title": "Financial Aid Terminology",
+        "cycle": null,
+        "note": "Yale distinguishes its need-based scholarship from external merit awards; it does not award institutional merit scholarships.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidForms",
+        "value": [
+          "Indicate interest in aid on admission application",
+          "Follow personalized Yale portal checklist and direct office instructions",
+          "2025 income documents as requested"
+        ],
+        "sourceUrl": "https://finaid.yale.edu/apply/prospective",
+        "title": "Prospective Students",
+        "cycle": "2027-2028",
+        "note": "International applicants, including Canadians, receive individualized instructions. Yale does not accept ISFAA as a substitute.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidFormsDetail",
+        "value": "CSS Profile only if Yale requests it",
+        "sourceUrl": "https://finaid.yale.edu/faq",
+        "title": "Frequently Asked Questions",
+        "cycle": null,
+        "note": "Yale's current FAQ says international applicants need not submit CSS Profile for admissions or aid evaluation unless the office asks for it.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": "2026-12-01",
+        "sourceUrl": "https://finaid.yale.edu/apply/prospective",
+        "title": "Prospective Students",
+        "cycle": "2027-2028",
+        "note": "International Early Action financial aid priority deadline. This is not the admission application deadline.",
+        "round": "Early Action",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": "2027-02-15",
+        "sourceUrl": "https://finaid.yale.edu/apply/prospective",
+        "title": "Prospective Students",
+        "cycle": "2027-2028",
+        "note": "Regular Decision financial aid priority deadline. Late completion does not itself reduce eligibility or the offer.",
+        "round": "Regular Decision",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "testPolicy",
+        "value": "SAT or ACT required",
+        "sourceUrl": "https://admissions.yale.edu/standardized-testing",
+        "title": "Standardized Testing",
+        "cycle": null,
+        "note": "The current page requires SAT/ACT for first-year and transfer applicants. AP/IB scores may supplement these scores but do not replace them.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English test required unless English-medium schooling exemption applies",
+        "sourceUrl": "https://admissions.yale.edu/standardized-testing",
+        "title": "Standardized Testing",
+        "cycle": null,
+        "note": "Non-native English speakers without at least two years of English-medium education must provide English proficiency evidence in addition to SAT/ACT.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Economics",
+          "Mechanical Engineering",
+          "Humanities"
+        ],
+        "sourceUrl": "https://admissions.yale.edu/majors",
+        "title": "Majors & Academic Programs",
+        "cycle": null,
+        "note": "The Yale College major list includes these fields.",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 total cost of attendance not verified; keep null.",
+      "Fall 2027 admission application deadlines not verified; aid priority dates are a separate process.",
+      "The SAT/ACT policy is current general policy, not explicitly tagged Fall 2027 on the reviewed page."
+    ]
+  },
+  {
+    "slug": "princeton",
+    "name": "Princeton University",
+    "city": "Princeton",
+    "state": "New Jersey",
+    "website": "https://admission.princeton.edu",
+    "initials": "P",
+    "color": "#E77500",
+    "subjects": ["Computer Science", "Economics", "Engineering", "English"],
+    "checkedAt": "2026-10-18",
+    "findings": [
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://admission.princeton.edu/apply/international-students",
+        "title": "International Students",
+        "cycle": null,
+        "note": "Princeton applies the same undergraduate aid policy to international and US students.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "needBlind",
+        "value": true,
+        "sourceUrl": "https://admission.princeton.edu/apply/international-students",
+        "title": "International Students",
+        "cycle": null,
+        "note": "Seeking aid does not disadvantage an applicant in Princeton's admission review.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://admission.princeton.edu/apply/international-students",
+        "title": "International Students",
+        "cycle": null,
+        "note": "Princeton funds all assessed need for admitted international students using grants. The family's expected contribution is calculated from its aid application.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meritAid",
+        "value": false,
+        "sourceUrl": "https://admission.princeton.edu/apply/international-students",
+        "title": "International Students",
+        "cycle": null,
+        "note": "Princeton does not provide academic or athletic merit scholarships.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidForms",
+        "value": [
+          "2027–28 Princeton Financial Aid Application (PFAA)",
+          "2025 tax or non-filer income documents",
+          "Noncustodial parent information where required"
+        ],
+        "sourceUrl": "https://finaid.princeton.edu/apply-aid-prospective-students",
+        "title": "Apply for Aid: Prospective Students",
+        "cycle": "2027-2028",
+        "note": "Class of 2031 instructions use Princeton's own application and upload system. CSS Profile and IDOC are not used. Non-English international tax returns require translation.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": null,
+        "sourceUrl": "https://finaid.princeton.edu/apply-aid-prospective-students",
+        "title": "Apply for Aid: Prospective Students",
+        "cycle": "2027-2028",
+        "note": "No confirmed date recorded: the page is headed 2027–28 but its deadline table still labels tax returns as 2024. Confirm with Princeton before assigning its Nov 9 / Feb 1 dates to Fall 2027.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "testPolicy",
+        "value": "Test optional for Fall 2027",
+        "sourceUrl": "https://admission.princeton.edu/apply/standardized-testing",
+        "title": "Standardized Testing",
+        "cycle": "Fall 2027",
+        "note": "The page explicitly keeps SAT/ACT optional for Fall 2027 entrants. Mandatory testing returns for Fall 2028, not Fall 2027.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English test required for non-native speakers whose school does not teach in English",
+        "sourceUrl": "https://admission.princeton.edu/apply/standardized-testing",
+        "title": "Standardized Testing",
+        "cycle": "2026-2027 admission cycle",
+        "note": "Accepted options listed include TOEFL, IELTS Academic, Duolingo and PTE Academic.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Economics",
+          "Electrical and Computer Engineering",
+          "English"
+        ],
+        "sourceUrl": "https://admission.princeton.edu/academics/degrees-departments",
+        "title": "Degrees & Departments",
+        "cycle": null,
+        "note": "The undergraduate department list documents these areas; CS can be studied in either the A.B. or B.S.E. program.",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 cost of attendance not verified; keep null.",
+      "Aid deadline table has a tax-year inconsistency; dates need confirmation.",
+      "Fall 2027 admission application deadlines not verified."
+    ]
+  },
+  {
+    "slug": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "city": "Cambridge",
+    "state": "Massachusetts",
+    "website": "https://mitadmissions.org",
+    "initials": "MIT",
+    "color": "#A31F34",
+    "subjects": ["Computer Science", "Economics", "Engineering", "History"],
+    "checkedAt": "2026-10-18",
+    "findings": [
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://sfs.mit.edu/undergraduate-students/apply-for-aid/international/",
+        "title": "International students",
+        "cycle": null,
+        "note": "MIT's international aid process applies to applicants who are ineligible for US federal student aid, regardless of where they live.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "needBlind",
+        "value": true,
+        "sourceUrl": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/making-mit-affordable/",
+        "title": "Making MIT affordable",
+        "cycle": null,
+        "note": "MIT states that its need-blind policy includes domestic and international undergraduates.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/making-mit-affordable/",
+        "title": "Making MIT affordable",
+        "cycle": null,
+        "note": "MIT commits to covering all demonstrated undergraduate need as assessed by the institution.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meritAid",
+        "value": false,
+        "sourceUrl": "https://mitadmissions.org/help/faq/scholarships/",
+        "title": "Does MIT provide any academic or athletic scholarships?",
+        "cycle": null,
+        "note": "MIT institutional scholarships are awarded for financial need, not academic, athletic or artistic achievement.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidForms",
+        "value": [
+          "CSS Profile (3514)",
+          "Parent tax returns or income documentation via IDOC"
+        ],
+        "sourceUrl": "https://sfs.mit.edu/undergraduate-students/apply-for-aid/international/",
+        "title": "International students",
+        "cycle": null,
+        "note": "Parents outside the US supply their local tax documents with English translations where needed. Separated or divorced parents each complete CSS and provide income documents.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": null,
+        "sourceUrl": "https://sfs.mit.edu/undergraduate-students/apply-for-aid/deadlines-process/",
+        "title": "Aid deadlines and process",
+        "cycle": null,
+        "note": "The general page lists Early Action November 30 and Regular Action February 15, but does not identify a Fall 2027 entry cycle; no ISO date assigned.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "testPolicy",
+        "value": "SAT or ACT required",
+        "sourceUrl": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+        "title": "Tests & scores",
+        "cycle": null,
+        "note": "MIT requires SAT/ACT for first-year and transfer applicants. ACT writing and science are optional.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English test strongly recommended in specified circumstances",
+        "sourceUrl": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+        "title": "Tests & scores",
+        "cycle": null,
+        "note": "MIT recommends English testing for non-native speakers with under five years using English or who do not use it at home or school.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science and Engineering",
+          "Economics",
+          "Mechanical Engineering",
+          "History"
+        ],
+        "sourceUrl": "https://mitadmissions.org/discover/the-mit-education/majors-minors/",
+        "title": "Majors & minors",
+        "cycle": null,
+        "note": "The official major/minor table lists these four as undergraduate majors.",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 cost of attendance not verified; keep null.",
+      "General deadlines lack a verified Fall 2027 cycle label; keep calendar dates null.",
+      "Fall 2027 admission application deadlines not verified.",
+      "General aid and testing policies are not explicitly labeled Fall 2027."
+    ]
+  },
+  {
+    "slug": "amherst",
+    "name": "Amherst College",
+    "city": "Amherst",
+    "state": "Massachusetts",
+    "website": "https://www.amherst.edu",
+    "initials": "A",
+    "color": "#4C1D6F",
+    "subjects": ["Computer Science", "Economics", "English", "Biology"],
+    "checkedAt": "2026-10-18",
+    "findings": [
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.amherst.edu/admission/apply/international",
+        "title": "International Applicants",
+        "cycle": null,
+        "note": "Amherst makes its need-based aid available to international students under the same basis as domestic students.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "needBlind",
+        "value": true,
+        "sourceUrl": "https://www.amherst.edu/admission/apply/international",
+        "title": "International Applicants",
+        "cycle": null,
+        "note": "Amherst's admission evaluation does not depend on an international applicant's aid request or ability to pay.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://www.amherst.edu/admission/apply/international",
+        "title": "International Applicants",
+        "cycle": null,
+        "note": "The College covers all calculated need for admitted international students who apply for aid.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meritAid",
+        "value": null,
+        "sourceUrl": "https://admission.amherst.edu/www/documents/International%20Amherst%202019.pdf",
+        "title": "International Amherst brochure",
+        "cycle": "2019 brochure",
+        "note": "This official historical brochure says no merit or athletic scholarships. A current explicit no-merit statement was not located; do not label Fall 2027 merit policy verified from this source.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidForms",
+        "value": [
+          "2027–28 CSS Profile (3003) or approved ISFAA alternative",
+          "2025 parent income and wage documents",
+          "Business/Farm Supplement where applicable"
+        ],
+        "sourceUrl": "https://www.amherst.edu/offices/financialaid/international_students/appleton",
+        "title": "International Students: Applying for Financial Aid",
+        "cycle": "2027-2028",
+        "note": "The page was updated October 2, 2026. Fee-hardship applicants may request ISFAA through their admission account. Upload original-currency documents and English translations after portal instructions arrive.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": "2026-11-13",
+        "sourceUrl": "https://www.amherst.edu/offices/financialaid/international_students/appleton",
+        "title": "International Students: Applying for Financial Aid",
+        "cycle": "2027-2028",
+        "note": "International Early Decision financial aid submission date; distinct from the admissions deadline.",
+        "round": "Early Decision",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": "2027-01-15",
+        "sourceUrl": "https://www.amherst.edu/offices/financialaid/international_students/appleton",
+        "title": "International Students: Applying for Financial Aid",
+        "cycle": "2027-2028",
+        "note": "International Regular Decision financial aid submission date; distinct from the admissions deadline.",
+        "round": "Regular Decision",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "testPolicy",
+        "value": "SAT or ACT optional",
+        "sourceUrl": "https://www.amherst.edu/admission/apply/international",
+        "title": "International Applicants",
+        "cycle": "2026-2027 admission cycle",
+        "note": "The international applicant page explicitly labels optional SAT/ACT testing for the 2026–27 admission cycle.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English test required unless waiver criteria apply",
+        "sourceUrl": "https://www.amherst.edu/admission/apply/international",
+        "title": "International Applicants",
+        "cycle": "2026-2027 admission cycle",
+        "note": "Non-native speakers may qualify for a waiver after the two most recent school years taught in English. Otherwise TOEFL, IELTS Academic or Duolingo is required.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "programs",
+        "value": ["Computer Science", "Economics", "English", "Biology"],
+        "sourceUrl": "https://www.amherst.edu/academiclife/departments",
+        "title": "Majors",
+        "cycle": null,
+        "note": "The official majors list includes these four fields.",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 total cost of attendance not verified; keep null.",
+      "No current explicit no-merit statement located; 2019 evidence is historical.",
+      "Fall 2027 admission application deadlines not verified.",
+      "Do not interpret study areas as a complete majors inventory or a ranking."
+    ]
+  },
+  {
+    "slug": "dartmouth",
+    "name": "Dartmouth College",
+    "city": "Hanover",
+    "state": "New Hampshire",
+    "website": "https://admissions.dartmouth.edu",
+    "initials": "D",
+    "color": "#00693E",
+    "subjects": ["Computer Science", "Economics", "Engineering", "English"],
+    "checkedAt": "2026-10-18",
+    "findings": [
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://financialaid.dartmouth.edu/apply-aid/international-students",
+        "title": "International Students",
+        "cycle": null,
+        "note": "Dartmouth offers undergraduate aid to admitted students from other countries, including an allowance for travel.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "needBlind",
+        "value": true,
+        "sourceUrl": "https://financialaid.dartmouth.edu/apply-aid/international-students",
+        "title": "International Students",
+        "cycle": null,
+        "note": "Need-blind admission includes international citizens, beginning with the Class of 2026.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://financialaid.dartmouth.edu/how-aid-works/how-much-help-will-i-get",
+        "title": "How Much Help Will I Get?",
+        "cycle": null,
+        "note": "Dartmouth meets all demonstrated need regardless of citizenship or admission round, using scholarships and employment without a required student loan.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meritAid",
+        "value": false,
+        "sourceUrl": "https://admissions.dartmouth.edu/estimate-your-cost/types-financial-aid",
+        "title": "Types of Financial Aid",
+        "cycle": null,
+        "note": "Dartmouth's institutional scholarships depend on financial need; academic, artistic and athletic merit do not determine awards.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidForms",
+        "value": [
+          "CSS Profile (3351)",
+          "Income and tax documents according to parents' country of residence"
+        ],
+        "sourceUrl": "https://financialaid.dartmouth.edu/apply-aid/prospective-transfer-students/how-apply-aid/international-students",
+        "title": "International Students",
+        "cycle": null,
+        "note": "Parents in the US use IDOC; parents in Canada or other countries send required tax and income documents to Dartmouth's aid office.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidFormsDetail",
+        "value": "ISFAA alternative for serious CSS fee hardship",
+        "sourceUrl": "https://admissions.dartmouth.edu/estimate-your-cost/apply-financial-aid",
+        "title": "Apply for Financial Aid",
+        "cycle": "2027-2028",
+        "note": "The admissions aid page permits international applicants facing serious CSS fee hardship to use ISFAA and specifies 2025 income statements.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": "2026-11-01",
+        "sourceUrl": "https://financialaid.dartmouth.edu/apply-aid/prospective-transfer-students/how-apply-aid",
+        "title": "How to Apply for Aid",
+        "cycle": "2027-2028",
+        "note": "Early Decision CSS Profile financial aid date on the page discussing the 2027–28 application process; use country-specific document instructions.",
+        "round": "Early Decision",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": "2027-02-01",
+        "sourceUrl": "https://financialaid.dartmouth.edu/apply-aid/prospective-transfer-students/how-apply-aid",
+        "title": "How to Apply for Aid",
+        "cycle": "2027-2028",
+        "note": "Regular Decision CSS Profile financial aid date, not the admission application deadline.",
+        "round": "Regular Decision",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "testPolicy",
+        "value": "Testing required; international-school alternatives accepted",
+        "sourceUrl": "https://admissions.dartmouth.edu/apply/testing-policy",
+        "title": "Dartmouth's Testing Guidelines",
+        "cycle": null,
+        "note": "US-school applicants submit SAT/ACT. Applicants at schools outside the US may instead use three APs, IB Diploma results/predictions, A-level results/predictions, or eligible final national exams.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English proficiency test required unless English-medium education condition is met",
+        "sourceUrl": "https://admissions.dartmouth.edu/apply/testing-policy",
+        "title": "Dartmouth's Testing Guidelines",
+        "cycle": null,
+        "note": "Applicants whose first language is not English and whose curriculum has not been taught in English for at least two years must submit English testing.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Economics",
+          "Engineering Sciences",
+          "English"
+        ],
+        "sourceUrl": "https://admissions.dartmouth.edu/academics/areas-study",
+        "title": "Areas of Study",
+        "cycle": null,
+        "note": "Dartmouth's official area list documents these four fields.",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 total cost of attendance not verified; keep null.",
+      "Fall 2027 admission application deadlines not verified.",
+      "General international aid and testing policies are not explicitly labeled Fall 2027."
+    ]
+  },
+  {
+    "slug": "bowdoin",
+    "name": "Bowdoin College",
+    "city": "Brunswick",
+    "state": "Maine",
+    "website": "https://www.bowdoin.edu",
+    "initials": "B",
+    "color": "#242424",
+    "subjects": ["Computer Science", "Economics", "English"],
+    "checkedAt": "2026-10-18",
+    "findings": [
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.bowdoin.edu/admissions/apply/international-students/",
+        "title": "International Students",
+        "cycle": null,
+        "note": "International applicants can receive Bowdoin need-based aid; the page defines international applicants as those requiring a US visa to attend.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "needBlind",
+        "value": true,
+        "sourceUrl": "https://www.bowdoin.edu/admissions/apply/international-students/",
+        "title": "International Students",
+        "cycle": null,
+        "note": "The international admissions page says ability to pay does not affect admission.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "needBlindException",
+        "value": "Waitlist and transfer admission may be need-aware",
+        "sourceUrl": "https://www.bowdoin.edu/student-aid/faqs/index.html",
+        "title": "FAQs",
+        "cycle": null,
+        "note": "Bowdoin's aid FAQ lists possible need-aware exceptions for waitlisted and transfer students. Restrict the standard need-blind claim to first-year admission.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://www.bowdoin.edu/student-aid/apply-for-aid/international-students.html",
+        "title": "International Students",
+        "cycle": null,
+        "note": "Bowdoin meets admitted international students' calculated need with scholarships and a small campus employment expectation.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meritAid",
+        "value": false,
+        "sourceUrl": "https://www.bowdoin.edu/student-aid/types-of-aid/index.html",
+        "title": "Types of Aid",
+        "cycle": null,
+        "note": "Bowdoin's aid office says its institutional aid is based on need and that it does not provide merit aid.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidForms",
+        "value": [
+          "Non-Canadian international applicants: wait for admission and Student Aid Office instructions",
+          "Canadian applicants: 2027–28 CSS Profile (3089), 2025 tax and wage documentation via IDOC"
+        ],
+        "sourceUrl": "https://www.bowdoin.edu/student-aid/apply-for-aid/international-students.html",
+        "title": "International Students",
+        "cycle": "2027-2028 / Class of 2031",
+        "note": "For the Class of 2031, non-Canadian international applicants do not submit aid materials before admission. Canadians have a separate checklist.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": null,
+        "sourceUrl": "https://www.bowdoin.edu/student-aid/apply-for-aid/international-students.html",
+        "title": "International Students",
+        "cycle": "2027-2028 / Class of 2031",
+        "note": "Non-Canadian admitted applicants should submit the requested aid materials within seven days of the admission offer. This is relative timing, not a fixed ISO calendar date.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "testPolicy",
+        "value": "SAT or ACT optional",
+        "sourceUrl": "https://www.bowdoin.edu/admissions/apply/test-optional-policy/",
+        "title": "Test Optional Policy",
+        "cycle": null,
+        "note": "Applicants choose whether Bowdoin should consider SAT or ACT scores in its review.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English proficiency test optional",
+        "sourceUrl": "https://www.bowdoin.edu/admissions/apply/international-students/",
+        "title": "International Students",
+        "cycle": null,
+        "note": "English test scores are optional. Official national school-leaving results remain required where applicable, with IB/A-level predictions or final results expected.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "programs",
+        "value": ["Computer Science", "Economics", "English"],
+        "sourceUrl": "https://www.bowdoin.edu/academics/departments-and-programs/",
+        "title": "Departments and Programs",
+        "cycle": null,
+        "note": "The official academic list includes these three fields.",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 total cost of attendance not verified; keep null.",
+      "Fall 2027 admissions calendar dates not confirmed by an explicitly cycle-labeled source.",
+      "Need-aware waitlist/transfer exception appears in the official FAQ even though other pages use broader need-blind language.",
+      "Do not copy returning international students' CSS/ISFAA checklist into the Class of 2031 prospective checklist."
+    ]
+  },
+  {
+    "slug": "brown",
+    "name": "Brown University",
+    "city": "Providence",
+    "state": "Rhode Island",
+    "website": "https://admission.brown.edu",
+    "initials": "B",
+    "color": "#4E3629",
+    "subjects": ["Computer Science", "Economics", "Engineering", "English"],
+    "checkedAt": "2026-10-18",
+    "findings": [
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://admission.brown.edu/international/financial-aid",
+        "title": "Financial Aid for International Applicants",
+        "cycle": null,
+        "note": "International students are eligible to request Brown institutional financial aid.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "needBlind",
+        "value": true,
+        "sourceUrl": "https://admission.brown.edu/financial-aid",
+        "title": "Financial Aid",
+        "cycle": "Class of 2029 onward",
+        "note": "Brown applies need-blind review to all first-year applicants, including international citizens, beginning with the Class of 2029.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://admission.brown.edu/financial-aid",
+        "title": "Financial Aid",
+        "cycle": null,
+        "note": "Brown commits to covering all demonstrated financial need for eligible admitted undergraduates, using its financial aid office's assessment.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "meritAid",
+        "value": false,
+        "sourceUrl": "https://admission.brown.edu/international/financial-aid",
+        "title": "Financial Aid for International Applicants",
+        "cycle": null,
+        "note": "Brown's aid is need-based; the university does not offer merit awards.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidForms",
+        "value": [
+          "Electronic CSS Profile (3189)",
+          "Separate CSS submissions for divorced/separated parents",
+          "2025 tax or employer income documents through IDOC if requested"
+        ],
+        "sourceUrl": "https://finaid.brown.edu/apply/first-year-international",
+        "title": "First Year International Applicants",
+        "cycle": "2027-2028",
+        "note": "CSS opens October 1, 2026. Brown does not accept ISFAA or paper CSS, and does not provide CSS fee waivers. Iran/North Korea applicants should contact the office. IDOC is not required from every family.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": "2026-11-02",
+        "sourceUrl": "https://finaid.brown.edu/apply/first-year-international",
+        "title": "First Year International Applicants",
+        "cycle": "2027-2028",
+        "note": "Early Decision financial aid application deadline, not the admissions application deadline.",
+        "round": "Early Decision",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidDeadline",
+        "value": "2027-02-01",
+        "sourceUrl": "https://finaid.brown.edu/apply/first-year-international",
+        "title": "First Year International Applicants",
+        "cycle": "2027-2028",
+        "note": "Regular Decision financial aid application deadline, not the admissions application deadline.",
+        "round": "Regular Decision",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "testPolicy",
+        "value": "SAT or ACT required",
+        "sourceUrl": "https://admission.brown.edu/first-year/standardized-tests",
+        "title": "Standardized Tests",
+        "cycle": "2024-2025 admission cycle onward",
+        "note": "Brown restored SAT/ACT requirements for first-year applicants beginning in the 2024–25 admission cycle.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English proficiency test strongly recommended for specified international applicants",
+        "sourceUrl": "https://admission.brown.edu/international/english-proficiency",
+        "title": "English Proficiency",
+        "cycle": "Fall 2027",
+        "note": "Applicants without English as a first/home language or throughout secondary instruction are strongly encouraged to submit an accepted English test. Fall 2027 entrants who self-report need official score reports by May 2027.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "programs",
+        "value": ["Computer Science", "Economics", "Engineering", "English"],
+        "sourceUrl": "https://www.brown.edu/undergraduate-programs",
+        "title": "Undergraduate Programs",
+        "cycle": null,
+        "note": "These fields appear in Brown's official undergraduate concentration directory.",
+        "checkedAt": "2026-10-18"
+      },
+      {
+        "field": "aidPolicyCaveat",
+        "value": "Current first-year and older-cohort rules differ",
+        "sourceUrl": "https://admission.brown.edu/financial-aid",
+        "title": "Financial Aid",
+        "cycle": null,
+        "note": "The general FAQ permits first-year admits with changed circumstances to seek aid later; older international cohorts admitted under need-aware rules have different restrictions.",
+        "checkedAt": "2026-10-18"
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 total cost of attendance not verified; keep null.",
+      "Fall 2027 admission application deadlines not verified.",
+      "The international overview still tells students to apply for aid with admission; the newer general FAQ allows later aid for first-year admits with changed circumstances. Apply for aid when applying to avoid relying on this discrepancy."
+    ]
+  }
+]
