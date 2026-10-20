@@ -67,13 +67,18 @@ function CalculatorBody() {
   const [universityId, setUniversityId] = useState(
     saved?.universityId ?? params.get("university") ?? "",
   );
-  const [currency, setCurrency] = useState<Currency>(saved?.currency ?? "USD");
-  const [costs, setCosts] = useState<CostItems>(
-    saved?.costs ?? findUniversity(universityId)?.costs ?? { ...emptyCosts },
+  const [currency, setCurrency] = useState<Currency>(
+    saved?.currency ?? findUniversity(universityId)?.costCurrency ?? "USD",
   );
-  const [contribution, setContribution] = useState(
-    saved?.contribution ??
-      (state.profile?.currency === "USD" ? (state.profile?.budget ?? 0) : 0),
+  const [costs, setCosts] = useState<CostItems>(
+    saved?.costs ?? { ...emptyCosts },
+  );
+  const [contribution, setContribution] = useState<number | null>(
+    saved
+      ? saved.contribution
+      : state.profile?.currency === currency
+        ? state.profile.budget
+        : null,
   );
   const [confirmed, setConfirmed] = useState<number | null>(
     saved?.confirmedAward ?? null,
@@ -117,7 +122,7 @@ function CalculatorBody() {
   function resetAmounts(next: Currency) {
     setCurrency(next);
     setCosts({ ...emptyCosts });
-    setContribution(0);
+    setContribution(null);
     setConfirmed(null);
     setAttested(false);
     setHypothetical(null);
@@ -140,7 +145,7 @@ function CalculatorBody() {
       <PageHeading
         eyebrow="AIDMAP / THE WHOLE FINANCIAL PICTURE"
         title="Big plans. Clear numbers."
-        description="Understand what’s covered, what remains, and what still needs an answer."
+        description="Estimate expenses that funding may leave uncovered. This is a planning tool, not an official financial aid offer."
       >
         <LocalNote />
       </PageHeading>
@@ -157,7 +162,7 @@ function CalculatorBody() {
                 setCosts({ ...emptyCosts });
                 setConfirmed(null);
                 setHypothetical(null);
-                setContribution(0);
+                setContribution(null);
                 setAttested(false);
                 setIsExample(false);
               }}
@@ -220,8 +225,9 @@ function CalculatorBody() {
             <span className="tag neutral">Your estimates · {currency}</span>
           </div>
           <p className="tiny-note">
-            Fall 2027 institutional costs are not yet verified. Enter your own
-            annual estimates; enter 0 only when a cost is genuinely zero.
+            Enter annual estimates in one currency. Leave an unknown cost blank;
+            enter 0 only when it is genuinely zero. Published cost baselines and
+            their years are on university profiles.
           </p>
           <div className="form-grid">
             {costKeys.map((k) => (
@@ -255,10 +261,27 @@ function CalculatorBody() {
               type="number"
               min="0"
               step="0.01"
-              value={contribution}
-              onChange={(e) => setContribution(Number(e.target.value))}
+              value={contribution ?? ""}
+              placeholder="Unknown"
+              aria-describedby={
+                result?.contributionError
+                  ? "contribution-help contribution-error"
+                  : "contribution-help"
+              }
+              aria-invalid={!!result?.contributionError}
+              onChange={(e) => setContribution(readNumber(e.target.value))}
             />
           </label>
+          <p className="tiny-note" id="contribution-help">
+            The amount you or your family can pay each year. Blank means
+            unknown; 0 means no contribution. Your budget gap needs this amount,
+            but your cost total does not.
+          </p>
+          {result?.contributionError && (
+            <p id="contribution-error" className="form-error" role="alert">
+              {result?.contributionError}
+            </p>
+          )}
           <div className="form-section-label">
             <span>03</span> YOUR FUNDING
           </div>
@@ -396,7 +419,13 @@ function CalculatorBody() {
               </div>
               <div>
                 <span>Your annual contribution</span>
-                <strong>{money(contribution, currency)}</strong>
+                <strong>
+                  {result?.contributionError
+                    ? "Check your entry"
+                    : contribution === null
+                      ? "Unknown"
+                      : money(contribution, currency)}
+                </strong>
               </div>
               <div className="gap-row">
                 <span>Above your stated budget</span>
@@ -412,13 +441,25 @@ function CalculatorBody() {
               <p>
                 {!result || result.total === null
                   ? "Add every cost category to estimate the funding gap. Missing costs cannot be assumed to be zero."
-                  : result.aboveBudget! > 0
-                    ? "This scenario leaves a gap above your budget. Additional confirmed support or a lower-cost option would be needed."
-                    : "Your entered amounts fit your stated budget. Verify costs, award conditions, renewal and payment timing before making a commitment."}
+                  : result.contributionUnknown
+                    ? "Your expenses are calculated above. Enter a valid annual contribution to calculate your budget gap."
+                    : result.aboveBudget! > 0
+                      ? "This scenario leaves a gap above your budget. Additional confirmed support or a lower-cost option would be needed."
+                      : "Your entered amounts fit your stated budget. Verify costs, award conditions, renewal and payment timing before making a commitment."}
                 {result?.awardUnknown &&
                   " No individual award is known; the base case subtracts no speculative aid."}
               </p>
             </div>
+            {result?.remaining != null &&
+              result.aboveBudget != null &&
+              !error && (
+                <p className="calculation-summary">
+                  Your estimated annual expenses after confirmed aid are{" "}
+                  {money(result.remaining, currency)}. Your stated contribution
+                  is {money(contribution!, currency)}, leaving a{" "}
+                  {money(result.aboveBudget, currency)} funding gap.
+                </p>
+              )}
             {hypotheticalResult && (
               <div className="hypothetical-result">
                 <span className="tag amber">WHAT IF · NOT CONFIRMED</span>
@@ -456,7 +497,12 @@ function CalculatorBody() {
             </label>
             <Button
               className="full-width"
-              disabled={!!error || !name.trim() || blocked}
+              disabled={
+                !!error ||
+                !!result?.contributionError ||
+                !name.trim() ||
+                blocked
+              }
               onClick={() => {
                 const scenario: FundingScenario = {
                   id: crypto.randomUUID(),

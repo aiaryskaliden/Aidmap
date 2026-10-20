@@ -15,6 +15,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { universities } from "@/data/universities";
 import { UniversityCard } from "@/components/universities/card";
+import { searchUniversities } from "@/lib/search";
 export default function Home() {
   return (
     <>
@@ -47,6 +48,9 @@ export default function Home() {
             <ShieldCheck size={16} />
             <span>Official sources. Clear costs. No false promises.</span>
           </div>
+          <Link className="text-link onboarding-link" href="/start">
+            New to university applications? Start here <ArrowRight size={16} />
+          </Link>
         </div>
         <div className="hero-map">
           <div className="map-grid" />
@@ -152,14 +156,22 @@ export default function Home() {
             ["United States", "region=United+States"],
             ["Europe", "region=Europe"],
             ["Computer Science", "major=Computer+Science"],
-            ["Business", "q=Business"],
+            ["Business", "major=Business+%2F+Management"],
             ["Full tuition opportunities", "aid=tuition"],
-          ].map(([label, query]) => (
-            <Link key={label} href={`/explore?${query}`}>
-              {label}
-              <ArrowUpRight size={12} />
-            </Link>
-          ))}
+          ].map(([label, query]) => {
+            const count = searchUniversities(
+              universities,
+              Object.fromEntries(new URLSearchParams(query)),
+            ).length;
+            return count ? (
+              <Link key={label} href={`/explore?${query}`}>
+                {label} · {count}
+                <ArrowUpRight size={12} />
+              </Link>
+            ) : (
+              <span key={label}>{label} · no verified records yet</span>
+            );
+          })}
         </div>
       </section>
       <section className="how-section page-container" id="how-it-works">

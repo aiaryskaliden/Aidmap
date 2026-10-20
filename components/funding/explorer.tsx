@@ -12,7 +12,8 @@ import { opportunities, findUniversity } from "@/data/universities";
 import { useApp } from "@/components/providers";
 import { Button } from "@/components/ui/button";
 import { PageHeading, PolicyNote, ExternalLink } from "@/components/ui/shared";
-import { dateLabel } from "@/lib/utils";
+import { dateLabel, money } from "@/lib/utils";
+import { Help } from "@/components/ui/help";
 export default function FundingExplorer() {
   const { state, update, ready } = useApp();
   const [query, setQuery] = useState("");
@@ -41,6 +42,8 @@ export default function FundingExplorer() {
         title="Potential, with the fine print."
         description="Understand international funding policies before you build them into your plans."
       />
+      <Help term="fullNeed" />
+      <Help term="priority" />
       <div className="funding-intro-grid">
         {[
           {
@@ -84,6 +87,8 @@ export default function FundingExplorer() {
           <option value="">All opportunity types</option>
           <option>Institutional policy</option>
           <option>Competitive scholarship</option>
+          <option>Government scholarship</option>
+          <option>Fee reduction</option>
         </select>
         <select
           aria-label="Funding type"
@@ -93,6 +98,8 @@ export default function FundingExplorer() {
           <option value="">All funding</option>
           <option>Need-based</option>
           <option>Merit</option>
+          <option>Government</option>
+          <option>Fee reduction</option>
         </select>
         <select
           aria-label="Funding eligibility"
@@ -115,10 +122,12 @@ export default function FundingExplorer() {
         </label>
       </div>
       <div className="section-heading compact-heading">
-        <strong>{results.length} funding policies</strong>
+        <strong>
+          {results.length} funding {results.length === 1 ? "option" : "options"}
+        </strong>
         <span className="tiny-note">
-          Undergraduate · United States · No verified competitive awards in this
-          initial release
+          Undergraduate · Check citizenship, program and academic-year
+          conditions
         </span>
       </div>
       <PolicyNote />
@@ -167,23 +176,40 @@ export default function FundingExplorer() {
                     <span>Eligibility</span>
                     <strong>
                       {o.eligibilityUnknown
-                        ? "Not yet verified"
-                        : "International undergraduate applicants"}
+                        ? "Check citizenship / applicant conditions below"
+                        : o.eligibleCitizenships?.join(", ")}
                     </strong>
                   </div>
                   <div>
-                    <span>Individual amount</span>
-                    <strong>Unknown until assessed</strong>
+                    <span>
+                      {o.amount === null
+                        ? "Individual amount"
+                        : "Documented award / maximum"}
+                    </span>
+                    <strong>
+                      {o.amount === null
+                        ? "Unknown until assessed"
+                        : `${money(o.amount, o.currency)} · conditions apply`}
+                    </strong>
                   </div>
                   <div>
-                    <span>RD financial aid deadline</span>
+                    <span>
+                      Funding deadline ·{" "}
+                      {o.deadline.cycle ?? "intake not verified"}
+                    </span>
                     <strong>{dateLabel(o.deadline.value)}</strong>
+                    {o.deadline.value && o.deadline.cycle !== "Fall 2027" && (
+                      <small>
+                        Previous-cycle reference; not an upcoming deadline
+                      </small>
+                    )}
                   </div>
                   <div>
                     <span>Renewal conditions / major restrictions</span>
-                    <strong>Not yet verified</strong>
+                    <strong>{o.renewal ?? "Renewal not yet verified"}</strong>
                   </div>
                 </div>
+                <p className="award-conditions">{o.source.note}</p>
                 <details>
                   <summary>Application process & conditions</summary>
                   <p>{o.separateApplication || "Not yet verified"}</p>
@@ -215,8 +241,8 @@ export default function FundingExplorer() {
         <div className="empty-state">
           <h3>No sourced opportunities match these filters.</h3>
           <p>
-            This initial collection focuses on university need-based policies.
-            We won’t fill gaps with unverified scholarship listings.
+            Try a broader funding type or remove the saved-only filter.
+            Restricted citizenship and program conditions still apply.
           </p>
           <Button
             onClick={() => {

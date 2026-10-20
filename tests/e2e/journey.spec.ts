@@ -28,11 +28,13 @@ test("student can discover, save, compare, calculate and plan", async ({
   await expect(
     page.getByRole("heading", { name: "Find a place for your ambition." }),
   ).toBeVisible();
-  if (testInfo.project.name === "mobile")
+  if (testInfo.project.name !== "desktop")
     await page.getByRole("button", { name: "Filters", exact: true }).click();
   await page
     .getByRole("combobox", { name: "Subject", exact: true })
     .selectOption("Computer Science");
+  if (testInfo.project.name !== "desktop")
+    await page.getByRole("button", { name: "Close filters" }).click();
   await page
     .getByRole("textbox", { name: "Search universities", exact: true })
     .fill("Princeton");

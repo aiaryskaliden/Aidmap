@@ -23,10 +23,30 @@ import { WorkspaceNav } from "@/components/layout/shell";
 import { UniversityCard } from "@/components/universities/card";
 import { dateLabel } from "@/lib/utils";
 import { matchUniversity } from "@/lib/matching/match";
+import { currentDeadlines, nextAdmissionDeadline } from "@/lib/admissions";
+import { statuses } from "@/types/domain";
 export default function Dashboard() {
   const { state, update, ready } = useApp();
   const tasks = state.saved.flatMap((s) => s.tasks);
   const completed = tasks.filter((t) => t.done).length;
+  const today = new Date().toISOString().slice(0, 10);
+  const upcoming = state.saved
+    .flatMap((s) => {
+      const u = findUniversity(s.universityId);
+      return u
+        ? currentDeadlines(u, `Fall ${state.profile?.entryYear ?? 2027}`)
+            .filter((d) => d.date! >= today)
+            .map((d) => ({ u, d }))
+        : [];
+    })
+    .sort((a, b) => a.d.date!.localeCompare(b.d.date!));
+  const unverified = state.saved.flatMap((s) => {
+    const u = findUniversity(s.universityId);
+    return u &&
+      !nextAdmissionDeadline(u, `Fall ${state.profile?.entryYear ?? 2027}`)
+      ? [u]
+      : [];
+  });
   const deadlines = state.saved
     .filter((s) => s.deadline)
     .sort((a, b) => a.deadline!.localeCompare(b.deadline!));
@@ -42,9 +62,9 @@ export default function Dashboard() {
     <div className="page-container workspace-page">
       <WorkspaceNav />
       <PageHeading
-        eyebrow="YOUR WORKSPACE / FALL 2027"
+        eyebrow={`YOUR WORKSPACE / FALL ${state.profile?.entryYear ?? 2027}`}
         title="Your next chapter starts here."
-        description="A little clarity, a little progress. Make your next move count."
+        description="Review your shortlist, unfinished tasks and verified dates. Choose one next step to move your application forward."
       >
         <LocalNote />
       </PageHeading>
@@ -92,6 +112,25 @@ export default function Dashboard() {
       </div>
       <div className="dashboard-layout">
         <div>
+          {state.saved.length > 0 && (
+            <section className="panel stage-summary">
+              <h2>Applications by stage</h2>
+              <div className="subject-tags">
+                {statuses.map((status) => (
+                  <span key={status}>
+                    {status}:{" "}
+                    {state.saved.filter((s) => s.status === status).length}
+                  </span>
+                ))}
+              </div>
+              <p>
+                {tasks.length - completed} unfinished tasks.{" "}
+                <Link className="text-link" href="/planner">
+                  Review your checklist →
+                </Link>
+              </p>
+            </section>
+          )}
           <section className="workspace-section">
             <div className="section-heading">
               <div>
@@ -236,6 +275,32 @@ export default function Dashboard() {
         </div>
         <aside className="dashboard-aside">
           <div className="panel">
+            <h3>Verified upcoming deadlines</h3>
+            {upcoming.length ? (
+              upcoming.slice(0, 6).map(({ u, d }, i) => (
+                <Link
+                  className="deadline-row"
+                  key={`${u.id}-${i}`}
+                  href={`/universities/${u.id}#deadlines`}
+                >
+                  <strong>
+                    {u.shortName}: {d.label}
+                  </strong>
+                  <span>
+                    {dateLabel(d.date)} · {d.cycle}
+                  </span>
+                  <small>{d.kind} · review before adding</small>
+                </Link>
+              ))
+            ) : (
+              <p>
+                No upcoming official dates are verified for your saved
+                universities and target intake. Check official sources before
+                planning submission.
+              </p>
+            )}
+          </div>
+          <div className="panel">
             <div className="panel-heading">
               <h3>Your next steps</h3>
               <span className="tag neutral">START HERE</span>
@@ -286,7 +351,11 @@ export default function Dashboard() {
                       s.universityId}
                   </span>
                   <strong>{dateLabel(s.deadline)}</strong>
-                  <small>User-defined date</small>
+                  <small>
+                    {s.deadlineSource
+                      ? `${s.deadlineSource.cycle} · ${s.deadlineSource.kind}`
+                      : "User-defined date"}
+                  </small>
                 </Link>
               ))
             ) : (
@@ -305,9 +374,18 @@ export default function Dashboard() {
             <h3>Keep the unknowns in view.</h3>
             <p>
               {state.saved.length
-                ? `${state.saved.length} saved institutions have costs or cycle-specific requirements to verify.`
+                ? `${unverified.length} saved institutions need an admission deadline check for Fall 2027.`
                 : "University aid policies don’t establish your individual award or your final contribution."}
             </p>
+            {unverified.slice(0, 3).map((u) => (
+              <Link
+                className="saved-scenario-link"
+                key={u.id}
+                href={`/universities/${u.id}#deadlines`}
+              >
+                Check {u.shortName} deadlines →
+              </Link>
+            ))}
             <Link href="/about">
               How we handle uncertainty
               <ArrowUpRight size={14} />

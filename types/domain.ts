@@ -21,12 +21,24 @@ const fact = <T extends z.ZodType>(value: T) =>
     sourceIds: z.array(z.string()),
     cycle: z.string().nullable(),
     note: z.string().optional(),
+    scope: z
+      .object({
+        program: z.string(),
+        subjects: z.array(z.string()),
+        purpose: z.enum(["admission", "scholarship"]),
+      })
+      .optional(),
   });
 export type Fact<T> = {
   value: T | null;
   sourceIds: string[];
   cycle: string | null;
   note?: string;
+  scope?: {
+    program: string;
+    subjects: string[];
+    purpose: "admission" | "scholarship";
+  };
 };
 export const costKeys = [
   "tuition",
@@ -57,6 +69,22 @@ export const costsSchema = z.object({
   transportation: amountSchema.nullable(),
 });
 export type CostItems = z.infer<typeof costsSchema>;
+export const testPolicySchema = z.enum([
+  "required",
+  "optional",
+  "not-accepted",
+  "flexible",
+]);
+export const deadlineSchema = z.object({
+  label: z.string(),
+  date: z.iso.date().nullable(),
+  cycle: z.string().nullable(),
+  kind: z.enum(["fixed", "priority", "recommended", "relative"]),
+  note: z.string(),
+  sourceIds: z.array(z.string()).optional(),
+});
+export type AdmissionDeadline = z.infer<typeof deadlineSchema>;
+const unknownFact = { value: null, sourceIds: [], cycle: null };
 export const emptyCosts: CostItems = {
   tuition: null,
   fees: null,
@@ -89,6 +117,41 @@ export const universitySchema = z.object({
   aidForms: fact(z.string()),
   testPolicy: fact(z.string()),
   englishPolicy: fact(z.string()),
+  satPolicy: fact(testPolicySchema).default(unknownFact),
+  satMinimum: fact(z.number().min(400).max(1600)).default(unknownFact),
+  satMedian: fact(z.number().min(400).max(1600)).default(unknownFact),
+  satMiddle50: fact(
+    z.object({
+      low: z.number().min(400).max(1600),
+      high: z.number().min(400).max(1600),
+    }),
+  ).default(unknownFact),
+  actPolicy: fact(testPolicySchema).default(unknownFact),
+  englishTests: fact(z.array(z.string())).default(unknownFact),
+  englishWaiver: fact(z.boolean()).default(unknownFact),
+  englishMinimums: fact(
+    z.array(
+      z.object({
+        test: z.string(),
+        score: z.number(),
+        kind: z.enum(["minimum", "recommended"]),
+        condition: z.string(),
+      }),
+    ),
+  ).default(unknownFact),
+  admissionEligibility: fact(z.string()).default(unknownFact),
+  citizenshipEligibility: fact(z.array(z.string())).default(unknownFact),
+  requirements: fact(
+    z.array(
+      z.object({
+        label: z.string(),
+        status: z.enum(["Required", "Optional", "Conditional"]),
+        condition: z.string().nullable(),
+      }),
+    ),
+  ).default(unknownFact),
+  deadlines: fact(z.array(deadlineSchema)).default(unknownFact),
+  annualCost: fact(amountSchema).default(unknownFact),
   admissionDeadline: fact(z.iso.date()),
   aidDeadline: fact(z.iso.date()),
   applicationPlatform: fact(z.string()),
@@ -133,6 +196,7 @@ export const profileSchema = z
     act: z.number().int().min(1).max(36).nullable(),
     englishTest: z.enum(["", "IELTS", "TOEFL", "Duolingo"]),
     englishScore: z.number().nonnegative().max(160).nullable(),
+    toeflScale: z.enum(["120", "6"]).optional(),
     gradingScale: z.enum(["", "4.0", "5.0", "10", "100", "Other"]),
     grades: z.string().max(100),
     budget: z.number().nonnegative().max(10000000).nullable(),
@@ -161,12 +225,13 @@ export const profileSchema = z
     if (
       p.englishTest === "TOEFL" &&
       p.englishScore !== null &&
-      p.englishScore > 120
+      p.englishScore > (p.toeflScale === "6" ? 6 : 120)
     )
       ctx.addIssue({
         code: "custom",
         path: ["englishScore"],
-        message: "Use the TOEFL 0–120 scale; other scales need verification.",
+        message:
+          "Enter a TOEFL score within the selected scale. Scores are not converted.",
       });
     if (p.grades && !p.gradingScale)
       ctx.addIssue({
@@ -210,6 +275,11 @@ export const taskSchema = z.object({
   id: z.string(),
   text: z.string().min(1).max(500),
   done: z.boolean(),
+  sourceUrl: z
+    .url()
+    .refine((v) => v.startsWith("https://"))
+    .optional(),
+  kind: z.enum(["research", "official", "user"]).optional(),
 });
 export type ApplicationTask = z.infer<typeof taskSchema>;
 export const statuses = [
@@ -224,6 +294,14 @@ export const savedUniversitySchema = z.object({
   universityId: z.string(),
   status: z.enum(statuses),
   deadline: z.iso.date().nullable(),
+  deadlineSource: z
+    .object({
+      url: z.url().refine((v) => v.startsWith("https://")),
+      cycle: z.string(),
+      kind: z.enum(["fixed", "priority", "recommended", "relative"]),
+      label: z.string(),
+    })
+    .optional(),
   notes: z.string().max(10000),
   applicationType: z.string().max(100),
   tasks: z.array(taskSchema).max(500),
@@ -235,7 +313,7 @@ export const scenarioSchema = z.object({
   universityId: z.string(),
   currency: currencySchema,
   costs: costsSchema,
-  contribution: amountSchema,
+  contribution: amountSchema.nullable(),
   confirmedAward: amountSchema.nullable(),
   hypotheticalAward: amountSchema.nullable(),
   createdAt: z.iso.datetime(),
@@ -247,8 +325,12 @@ export type Scholarship = {
   provider: string;
   universityId: string;
   level: "Undergraduate";
-  kind: "Institutional policy" | "Competitive scholarship";
-  fundingType: "Need-based" | "Merit";
+  kind:
+    | "Institutional policy"
+    | "Competitive scholarship"
+    | "Government scholarship"
+    | "Fee reduction";
+  fundingType: "Need-based" | "Merit" | "Government" | "Fee reduction";
   eligibleCitizenships: string[] | null;
   eligibleMajors: string[] | null;
   coverage: string;

@@ -17,10 +17,19 @@ function minorUnits(value: number) {
 export function calculateFunding(
   costs: CostItems,
   currency: Currency,
-  contribution: number,
+  contribution: number | null,
   award: Award | null = null,
 ) {
-  const contributionMinor = minorUnits(contribution);
+  let contributionMinor: number | null = null;
+  let contributionError: string | null = null;
+  if (contribution !== null) {
+    try {
+      contributionMinor = minorUnits(contribution);
+    } catch {
+      contributionError =
+        "Enter a contribution from 0 to 1 trillion, or leave it blank if unknown.";
+    }
+  }
   const missing = costKeys.filter((k) => costs[k] === null);
   const knownCostMinor = costKeys.reduce((sum, key) => {
     const v = costs[key];
@@ -44,8 +53,10 @@ export function calculateFunding(
     confirmedAward,
     awardUnknown: award === null || award.kind !== "confirmed",
     remaining,
+    contributionError,
+    contributionUnknown: contributionMinor === null,
     aboveBudget:
-      remaining === null
+      remaining === null || contributionMinor === null
         ? null
         : Math.max(0, remainingMinor - contributionMinor) / 100,
     excessAward:
@@ -57,7 +68,7 @@ export function calculateFunding(
 export function hypotheticalFunding(
   costs: CostItems,
   currency: Currency,
-  contribution: number,
+  contribution: number | null,
   amount: number,
 ) {
   // Reuse the same arithmetic for this explicitly separate what-if result.

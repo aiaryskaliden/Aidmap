@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { Button } from "./button";
 import type { Fact, University } from "@/types/domain";
+import { cycleLabel, fieldStatus } from "@/lib/admissions";
 export function PageHeading({
   eyebrow,
   title,
@@ -101,15 +102,15 @@ export function Evidence({
     );
   return (
     <a
-      className={`evidence ${source.status === "verified" ? "verified" : "pending"}`}
-      href={`#source-${source.id}`}
+      className={`evidence ${fieldStatus(field, university) === "verified_current" ? "verified" : "pending"}`}
+      href={source.url}
+      target="_blank"
+      rel="noopener noreferrer"
       title={`${source.title}; checked ${source.checkedAt}. ${field.cycle || "General policy; recheck for Fall 2027."}`}
     >
       <ShieldCheck size={13} />
-      {label ||
-        (source.status === "verified"
-          ? "Verified from official source"
-          : "Needs rechecking")}
+      {label || cycleLabel(field, university)}
+      <span className="sr-only"> (official source, opens in a new tab)</span>
     </a>
   );
 }
@@ -119,8 +120,9 @@ export function PolicyNote() {
       <ShieldCheck size={18} />
       <p>
         <strong>Policies are a starting point, not a funding promise.</strong>{" "}
-        An aid policy does not establish your award. Fall 2027 deadlines and
-        costs are shown only when that cycle is verified.
+        An aid policy does not establish your award. Check each source’s year:
+        older costs are planning references, and older deadlines are not
+        upcoming dates.
       </p>
     </div>
   );

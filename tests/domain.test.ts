@@ -137,7 +137,11 @@ describe("funding arithmetic and uncertainty", () => {
       expect(() =>
         calculateFunding({ ...costs, tuition: n }, "USD", 0),
       ).toThrow();
-      expect(() => calculateFunding(costs, "USD", n)).toThrow();
+      expect(calculateFunding(costs, "USD", n)).toMatchObject({
+        total: 71000,
+        aboveBudget: null,
+      });
+      expect(calculateFunding(costs, "USD", n).contributionError).toBeTruthy();
       expect(() => hypotheticalFunding(costs, "USD", 0, n)).toThrow();
     }
   });
@@ -191,21 +195,26 @@ describe("discovery and explainable research matches", () => {
     ).toEqual([u.id]);
   });
   it("does not label full-need policies as full-tuition awards", () => {
-    expect(searchUniversities(universities, { aid: "tuition" })).toHaveLength(
-      0,
-    );
-  });
-  it("does not treat unknown cost or deadline as matching a numeric filter", () => {
-    expect(searchUniversities(universities, { cost: "1000000" })).toHaveLength(
-      0,
-    );
     expect(
-      searchUniversities(universities, { deadline: "2027-12-31" }),
+      searchUniversities(universities.slice(0, 8), { aid: "tuition" }),
     ).toHaveLength(0);
   });
-  it("honors Europe without inventing records", () => {
+  it("does not treat unknown cost or deadline as matching a numeric filter", () => {
+    const unknown = [
+      {
+        ...universities[0],
+        annualCost: { value: null, sourceIds: [], cycle: null },
+        deadlines: { value: null, sourceIds: [], cycle: null },
+      },
+    ];
+    expect(searchUniversities(unknown, { cost: "1000000" })).toHaveLength(0);
+    expect(
+      searchUniversities(unknown, { deadline: "2027-12-31" }),
+    ).toHaveLength(0);
+  });
+  it("honors Europe with researched undergraduate records", () => {
     expect(searchUniversities(universities, { region: "Europe" })).toHaveLength(
-      0,
+      10,
     );
   });
   it("explains country, interest, policy, and affordability limitations", () => {
@@ -323,8 +332,8 @@ describe("local persistence and application workflow", () => {
   });
 });
 describe("source-backed data integrity and profile validation", () => {
-  it("validates eight records with traceable evidence", () => {
-    expect(validateUniversities(universities)).toHaveLength(8);
+  it("validates the expanded catalogue with traceable evidence", () => {
+    expect(validateUniversities(universities)).toHaveLength(30);
   });
   it("rejects duplicate universities", () => {
     expect(() =>
@@ -359,7 +368,7 @@ describe("source-backed data integrity and profile validation", () => {
     );
   });
   it("does not infer costs or admission dates from aid dates", () => {
-    for (const u of universities) {
+    for (const u of universities.slice(0, 8)) {
       expect(u.admissionDeadline.value).toBeNull();
       expect(Object.values(u.costs).every((x) => x === null)).toBe(true);
     }

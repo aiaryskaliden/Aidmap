@@ -1,0 +1,1689 @@
+[
+  {
+    "slug": "williams",
+    "name": "Williams College",
+    "initials": "W",
+    "city": "Williamstown",
+    "state": "Massachusetts",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.williams.edu/",
+    "color": "#582C83",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Mathematics / Statistics",
+          "Economics",
+          "Natural Sciences",
+          "Social Sciences",
+          "Humanities"
+        ],
+        "sourceUrl": "https://www.williams.edu/academics/areas-of-study/",
+        "title": "Areas of Study",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Majors include Computer Science, Mathematics, Statistics, Economics, Biology, Political Science and English. Data Science is a coordinate program, not a standalone major."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/",
+        "title": "International applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Request aid on admission application; submit financial documents only after admission."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://www.williams.edu/admission-aid/tuition-aid/",
+        "title": "Tuition & Aid",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Institution-calculated need is met with grants; no loans or work expectation."
+      },
+      {
+        "field": "aidForms",
+        "value": "Indicate aid interest in admission application; follow post-admission Student Financial Services instructions.",
+        "sourceUrl": "https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/",
+        "title": "International applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English scores are encouraged when English is neither your first language nor your school's instructional language.",
+        "sourceUrl": "https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/",
+        "title": "International applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "englishTests",
+        "value": ["TOEFL", "IELTS", "Duolingo"],
+        "sourceUrl": "https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/",
+        "title": "International applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "meritAid",
+        "value": false,
+        "sourceUrl": "https://hub.williams.edu/sfs/glossary/",
+        "title": "Student Financial Services Glossary",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Only need-based institutional aid."
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.williams.edu/admission-aid/how-to-apply/first-year/",
+        "title": "First-Year Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.williams.edu/admission-aid/how-to-apply/first-year/",
+        "title": "First-Year Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "applicationFee",
+        "value": 65,
+        "sourceUrl": "https://www.williams.edu/admission-aid/how-to-apply/first-year/",
+        "title": "First-Year Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "feeWaiver",
+        "value": true,
+        "sourceUrl": "https://www.williams.edu/admission-aid/how-to-apply/first-year/",
+        "title": "First-Year Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Hardship waiver available in application."
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Counselor recommendation",
+            "status": "Required",
+            "condition": null
+          },
+          {
+            "label": "Two teacher recommendations",
+            "status": "Required",
+            "condition": null
+          }
+        ],
+        "sourceUrl": "https://www.williams.edu/admission-aid/how-to-apply/first-year/",
+        "title": "First-Year Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      }
+    ],
+    "scholarships": []
+  },
+  {
+    "slug": "swarthmore",
+    "name": "Swarthmore College",
+    "initials": "S",
+    "city": "Swarthmore",
+    "state": "Pennsylvania",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.swarthmore.edu/",
+    "color": "#861F41",
+    "findings": [
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://digital.swarthmore.edu/viewbook/",
+        "title": "Swarthmore Viewbook",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "International applicants may receive need-based aid."
+      },
+      {
+        "field": "needBlind",
+        "value": false,
+        "sourceUrl": "https://digital.swarthmore.edu/viewbook/",
+        "title": "Swarthmore Viewbook",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "International applicants' financial need is considered."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://digital.swarthmore.edu/viewbook/",
+        "title": "Swarthmore Viewbook",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Full determined need met; grants and campus work can form the package."
+      },
+      {
+        "field": "meritAid",
+        "value": null,
+        "sourceUrl": "https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-College-CDS-2024-2025.pdf",
+        "title": "Common Data Set 2024–2025",
+        "checkedAt": "2026-10-20",
+        "cycle": "2024-2025",
+        "note": "Historical Section H6 reported need-based institutional aid for nonresidents. The document returned HTTP 404 during the October 20 link check and the replacement page blocked automated access. Current merit eligibility needs manual verification."
+      },
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Mathematics / Statistics",
+          "Economics",
+          "Engineering",
+          "Natural Sciences",
+          "Social Sciences",
+          "Humanities"
+        ],
+        "sourceUrl": "https://digital.swarthmore.edu/viewbook/",
+        "title": "Swarthmore Viewbook",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "CS, Engineering, Economics, Mathematics, Biology, Political Science and English undergraduate offerings."
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://digital.swarthmore.edu/viewbook/",
+        "title": "Swarthmore Viewbook",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "SAT/ACT optional."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://digital.swarthmore.edu/viewbook/",
+        "title": "Swarthmore Viewbook",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "testPolicy",
+        "value": "SAT/ACT optional.",
+        "sourceUrl": "https://digital.swarthmore.edu/viewbook/",
+        "title": "Swarthmore Viewbook",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      }
+    ],
+    "scholarships": []
+  },
+  {
+    "slug": "wellesley",
+    "name": "Wellesley College",
+    "initials": "W",
+    "city": "Wellesley",
+    "state": "Massachusetts",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.wellesley.edu/",
+    "color": "#003B71",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Mathematics / Statistics",
+          "Economics",
+          "Natural Sciences",
+          "Social Sciences",
+          "Humanities",
+          "Artificial Intelligence / Data Science"
+        ],
+        "sourceUrl": "https://www.wellesley.edu/programs-of-study",
+        "title": "Programs of Study",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Majors include Computer Science, Data Science, Economics, Mathematics, Biology, Political Science and English."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/student-financial-services/understanding-financial-aid/apply-for-aid/international-students",
+        "title": "International Students",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Limited international aid; must request it during admission."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/student-financial-services/understanding-financial-aid/apply-for-aid/international-students",
+        "title": "International Students",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Calculated need met for admitted international aid applicants. Travel excluded from international cost of attendance."
+      },
+      {
+        "field": "needBlind",
+        "value": false,
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/faqs",
+        "title": "Admission FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Need-sensitive for international citizens."
+      },
+      {
+        "field": "meritAid",
+        "value": false,
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/student-financial-services/policies-faqs-stats-more/faqs",
+        "title": "Student Financial Services FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "No academic, athletic or other merit scholarships."
+      },
+      {
+        "field": "aidForms",
+        "value": "Financial Aid Intent Form in applicant portal; CSS Profile and documents when requested.",
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/student-financial-services/understanding-financial-aid/apply-for-aid/international-students",
+        "title": "International Students",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/faqs",
+        "title": "Admission FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": "SAT/ACT optional for Fall 2027."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/faqs",
+        "title": "Admission FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English exams optional; strongly recommended for non-native speakers with fewer than four years in an English curriculum.",
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/faqs",
+        "title": "Admission FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Women's college: review Wellesley's gender policy before applying.",
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/faqs",
+        "title": "Admission FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "englishTests",
+        "value": ["TOEFL", "IELTS", "Duolingo", "Cambridge"],
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/faqs",
+        "title": "Admission FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "applicationPlans",
+        "value": ["Early Decision", "Regular Decision"],
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/faqs",
+        "title": "Admission FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "ED I and II."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Common App, Coalition with Scoir, or QuestBridge.",
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/faqs",
+        "title": "Admission FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Applicants must live as women and consistently identify as women.",
+        "sourceUrl": "https://www.wellesley.edu/about-us/policies-procedures/gender-policy",
+        "title": "Gender Policy",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      }
+    ],
+    "scholarships": []
+  },
+  {
+    "slug": "wesleyan",
+    "name": "Wesleyan University",
+    "initials": "W",
+    "city": "Middletown",
+    "state": "Connecticut",
+    "country": "United States",
+    "region": "United States",
+    "type": "Private university",
+    "website": "https://www.wesleyan.edu/",
+    "color": "#D72130",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Mathematics / Statistics",
+          "Economics",
+          "Natural Sciences",
+          "Social Sciences",
+          "Humanities"
+        ],
+        "sourceUrl": "https://www.wesleyan.edu/academics/areas-of-study/",
+        "title": "Explore Areas of Study",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Undergraduate fields include Computer Science, Mathematics, Economics, Biology, Government and English."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/",
+        "title": "International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Applicants from all countries considered; request aid with initial admission application."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://www.wesleyan.edu/finaid/",
+        "title": "Financial Aid",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Institution-determined need met; grants and campus work, without packaged loans."
+      },
+      {
+        "field": "meritAid",
+        "value": false,
+        "sourceUrl": "https://www.wesleyan.edu/finaid/",
+        "title": "Financial Aid",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Wesleyan does not offer merit-based financial aid."
+      },
+      {
+        "field": "aidForms",
+        "value": "CSS Profile; ISFAA alternative if CSS cost/access is a barrier; noncustodial parent information when applicable.",
+        "sourceUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/",
+        "title": "International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/",
+        "title": "International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/",
+        "title": "International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English tests optional but strongly recommended for non-native speakers; admissions may request results.",
+        "sourceUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/",
+        "title": "International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "englishTests",
+        "value": ["TOEFL", "IELTS", "Duolingo", "Cambridge"],
+        "sourceUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/",
+        "title": "International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "applicationPlans",
+        "value": ["Early Decision", "Regular Decision"],
+        "sourceUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/",
+        "title": "International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "ED I, ED II and Regular Decision."
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "School examination results",
+            "status": "Conditional",
+            "condition": "Actual or predicted results required for exam-based curricula."
+          },
+          {
+            "label": "Certified English translations",
+            "status": "Conditional",
+            "condition": "When required documents are not in English."
+          }
+        ],
+        "sourceUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/",
+        "title": "International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      }
+    ],
+    "scholarships": []
+  },
+  {
+    "slug": "uchicago",
+    "name": "University of Chicago",
+    "initials": "UC",
+    "city": "Chicago",
+    "state": "Illinois",
+    "country": "United States",
+    "region": "United States",
+    "type": "Private university",
+    "website": "https://www.uchicago.edu/",
+    "color": "#800000",
+    "findings": [
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://collegeadmissions.uchicago.edu/financial-support/financial-overview/",
+        "title": "Financial Aid Overview",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "International first-year need-based aid available; international transfers ineligible."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://collegeadmissions.uchicago.edu/financial-support/financial-overview/",
+        "title": "Financial Aid Overview",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Demonstrated need met through grants rather than loans."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://collegeadmissions.uchicago.edu/financial-support/financial-overview/",
+        "title": "Financial Aid Overview",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "All applicants automatically considered; selection is competitive."
+      },
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Artificial Intelligence / Data Science",
+          "Mathematics / Statistics",
+          "Economics",
+          "Engineering",
+          "Natural Sciences",
+          "Social Sciences",
+          "Humanities"
+        ],
+        "sourceUrl": "https://college.uchicago.edu/academics/programs-study",
+        "title": "Programs of Study",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "CS, Data Science, Mathematics, Economics, Molecular Engineering, Biology, Political Science and humanities majors."
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+        "title": "Required Materials",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "SAT/ACT optional for international applicants; 'No Harm' score policy."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+        "title": "Required Materials",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "testPolicy",
+        "value": "SAT/ACT optional for international applicants; 'No Harm' score policy.",
+        "sourceUrl": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+        "title": "Required Materials",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "aidForms",
+        "value": "International Student Financial Aid Worksheet through UChicago Account.",
+        "sourceUrl": "https://collegeadmissions.uchicago.edu/financial-support/financial-overview/",
+        "title": "Financial Aid Overview",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Form for non-U.S. citizens/non-permanent-residents."
+      }
+    ],
+    "scholarships": []
+  },
+  {
+    "slug": "duke",
+    "name": "Duke University",
+    "initials": "D",
+    "city": "Durham",
+    "state": "North Carolina",
+    "country": "United States",
+    "region": "United States",
+    "type": "Private university",
+    "website": "https://www.duke.edu/",
+    "color": "#003087",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Mathematics / Statistics",
+          "Economics",
+          "Natural Sciences",
+          "Social Sciences",
+          "Humanities",
+          "Engineering"
+        ],
+        "sourceUrl": "https://admissions.duke.edu/academic-possibilities/",
+        "title": "Majors, Minors, and More",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "CS, Economics, Statistical Science, Biology and engineering majors; Finance is a minor, not a major."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://admissions.duke.edu/financial-support/",
+        "title": "Financial Support",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Indicate aid interest with initial application; those admitted without aid interest cannot apply later."
+      },
+      {
+        "field": "needBlind",
+        "value": false,
+        "sourceUrl": "https://admissions.duke.edu/apply/",
+        "title": "Apply to Duke",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "International aid seekers reviewed in a separate, more competitive pool."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://ousf.duke.edu/merit-scholarships/karsh-international-scholars-program/",
+        "title": "Karsh International Scholars Program",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Karsh requires both academic merit and demonstrated financial need."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://ousf.duke.edu/merit-scholarships/karsh-international-scholars-program/",
+        "title": "Karsh International Scholars Program",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Competitive Karsh award covers tuition, housing, meals and mandatory fees."
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admissions.duke.edu/resources/",
+        "title": "Resources and FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": "Applies to 2026–27 application cycle, including international and merit applicants."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admissions.duke.edu/resources/",
+        "title": "Resources and FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Karsh International Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants (no U.S. citizenship, including dual U.S. citizenship)"
+        ],
+        "coverage": "Tuition, housing, meals, mandatory fees, demonstrated need beyond these costs, and three funded summers.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": null,
+        "separateApplication": "No separate scholarship application. Apply to Duke and request financial aid.",
+        "sourceUrl": "https://ousf.duke.edu/merit-scholarships/karsh-international-scholars-program/",
+        "title": "Karsh International Scholars Program",
+        "cycle": null,
+        "note": "Requires strong academic preparation and documented financial need. Applicants who already hold a bachelor's degree are ineligible.",
+        "deadline": null,
+        "deadlineCycle": null
+      }
+    ]
+  },
+  {
+    "slug": "vanderbilt",
+    "name": "Vanderbilt University",
+    "initials": "V",
+    "city": "Nashville",
+    "state": "Tennessee",
+    "country": "United States",
+    "region": "United States",
+    "type": "Private university",
+    "website": "https://www.vanderbilt.edu/",
+    "color": "#866D4B",
+    "findings": [
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://admissions.vanderbilt.edu/affordability/international-costs-and-finances/",
+        "title": "International Costs and Finances",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Limited international need-based scholarships."
+      },
+      {
+        "field": "needBlind",
+        "value": false,
+        "sourceUrl": "https://www.vanderbilt.edu/financialaid/undergraduate/international/",
+        "title": "International Students",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Aid request and required amount may affect admission."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://admissions.vanderbilt.edu/affordability/international-costs-and-finances/",
+        "title": "International Costs and Finances",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "International first-year applicants eligible for all Vanderbilt merit programs."
+      },
+      {
+        "field": "aidForms",
+        "value": "CSS Profile or ISFAA.",
+        "sourceUrl": "https://admissions.vanderbilt.edu/affordability/international-costs-and-finances/",
+        "title": "International Costs and Finances",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://www.vanderbilt.edu/scholarships/ingram/",
+        "title": "Ingram Scholars Program",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Competitive award; includes tuition, fees and housing."
+      },
+      {
+        "field": "fundingCaveats",
+        "value": "Chancellor's Scholarship retired for Fall 2027 entrants; Ingram and Cornelius Vanderbilt programs continue.",
+        "sourceUrl": "https://www.vanderbilt.edu/scholarships/chancellor/",
+        "title": "Chancellor's Scholars (retired)",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "ED I need-based aid",
+            "date": "2026-11-01",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "CSS Profile or ISFAA."
+          },
+          {
+            "label": "ED II need-based aid",
+            "date": "2027-01-01",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "CSS Profile or ISFAA."
+          },
+          {
+            "label": "Regular Decision need-based aid",
+            "date": "2027-02-01",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "CSS Profile or ISFAA."
+          }
+        ],
+        "sourceUrl": "https://admissions.vanderbilt.edu/affordability/international-costs-and-finances/",
+        "title": "International Costs and Finances",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Mathematics / Statistics",
+          "Economics",
+          "Engineering",
+          "Natural Sciences",
+          "Social Sciences",
+          "Humanities"
+        ],
+        "sourceUrl": "https://as.vanderbilt.edu/undergraduate-programs/majors-minors/",
+        "title": "Majors and Minors",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Economics, Mathematics, Biology, Political Science and English majors; CS and engineering separately verified below. Data Science and Business Studies are minors."
+      },
+      {
+        "field": "programsDetail",
+        "value": "Computer Science BA; engineering majors including civil, chemical and mechanical engineering.",
+        "sourceUrl": "https://engineering.vanderbilt.edu/academics/undergraduate/academic-services/",
+        "title": "Engineering Academic Services",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026-2027",
+        "note": "2026–27 undergraduate curricula list CS and engineering programs."
+      },
+      {
+        "field": "programsDetail",
+        "value": "Computer Science BA launched Fall 2026.",
+        "sourceUrl": "https://computing.vanderbilt.edu/undergraduate-programs/computer-science-bachelor-of-arts/",
+        "title": "Bachelor of Arts in Computer Science",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admissions.vanderbilt.edu/apply/testing-policies",
+        "title": "Testing Policies",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": "Optional for Fall 2027 and Fall 2028; required beginning Fall 2029."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admissions.vanderbilt.edu/apply/testing-policies",
+        "title": "Testing Policies",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "testPolicy",
+        "value": "Optional for Fall 2027 and Fall 2028; required beginning Fall 2029.",
+        "sourceUrl": "https://admissions.vanderbilt.edu/apply/testing-policies",
+        "title": "Testing Policies",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Ingram Scholars Program",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "Domestic and international first-year applicants"
+        ],
+        "coverage": "Tuition, required fees, on-campus housing value and summer service-project stipend.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": "Renewable through senior year with at least 3.0 GPA and service requirements.",
+        "separateApplication": "MyAppVU scholarship application strongly encouraged; applicants who apply receive preference.",
+        "sourceUrl": "https://www.vanderbilt.edu/scholarships/ingram/",
+        "title": "Ingram Scholars Program",
+        "cycle": "Fall 2027",
+        "note": "20 service hours monthly and a summer service project; finalists interview. International eligibility confirmed by Vanderbilt International Costs and Finances.",
+        "deadline": "2026-12-01",
+        "deadlineCycle": "Fall 2027"
+      },
+      {
+        "name": "Cornelius Vanderbilt Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "Domestic and international first-year applicants"
+        ],
+        "coverage": "Full tuition plus a one-time summer immersive-experience stipend.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": "Annual renewal requires at least a 3.0 GPA.",
+        "separateApplication": "MyAppVU scholarship application strongly encouraged; preference given to applicants who submit it.",
+        "sourceUrl": "https://www.vanderbilt.edu/scholarships/signature/",
+        "title": "Cornelius Vanderbilt Scholarship",
+        "cycle": "Fall 2027",
+        "note": "Competitive academic, leadership and extracurricular selection. Additional need-based aid possible; international eligibility verified by International Costs and Finances.",
+        "deadline": "2026-12-01",
+        "deadlineCycle": "Fall 2027"
+      }
+    ]
+  },
+  {
+    "slug": "rice",
+    "name": "Rice University",
+    "initials": "R",
+    "city": "Houston",
+    "state": "Texas",
+    "country": "United States",
+    "region": "United States",
+    "type": "Private university",
+    "website": "https://www.rice.edu/",
+    "color": "#00205B",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Mathematics / Statistics",
+          "Economics",
+          "Natural Sciences",
+          "Social Sciences",
+          "Humanities",
+          "Engineering",
+          "Business / Management",
+          "Artificial Intelligence / Data Science"
+        ],
+        "sourceUrl": "https://www.rice.edu/majors-minors-and-programs",
+        "title": "Majors, Minors and Programs",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Majors include Artificial Intelligence, Computer Science, Business, Statistics, Economics and engineering."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Limited international first-year aid; request it initially, not after enrolling."
+      },
+      {
+        "field": "needBlind",
+        "value": false,
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Required financial aid amount considered in admission."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-domestic-applicants",
+        "title": "First-Year Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "All admitted domestic and international students automatically considered; no separate application."
+      },
+      {
+        "field": "aidForms",
+        "value": "CSS Profile plus International Student Financial Statement and supporting financial evidence.",
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "SAT/ACT recommended, not required."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "testPolicy",
+        "value": "SAT/ACT recommended, not required.",
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "englishTests",
+        "value": ["TOEFL", "IELTS", "Duolingo", "Cambridge"],
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "englishPolicy",
+        "value": "Non-native speakers demonstrate proficiency through two years of full-time English-medium study or an accepted test.",
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "englishWaiver",
+        "value": true,
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Two years full-time English-medium study before applying."
+      },
+      {
+        "field": "feeWaiver",
+        "value": false,
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "International application-fee waivers unavailable."
+      },
+      {
+        "field": "applicationFee",
+        "value": 75,
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Common App",
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "applicationPlans",
+        "value": ["Early Decision", "Regular Decision"],
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "First-Year International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "ED I and II; music applicants use separate schedule."
+      }
+    ],
+    "scholarships": []
+  },
+  {
+    "slug": "northwestern",
+    "name": "Northwestern University",
+    "initials": "N",
+    "city": "Evanston",
+    "state": "Illinois",
+    "country": "United States",
+    "region": "United States",
+    "type": "Private university",
+    "website": "https://www.northwestern.edu/",
+    "color": "#4E2A84",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Mathematics / Statistics",
+          "Economics",
+          "Natural Sciences",
+          "Social Sciences",
+          "Humanities",
+          "Engineering",
+          "Artificial Intelligence / Data Science"
+        ],
+        "sourceUrl": "https://admissions.northwestern.edu/academics/majors-minors/",
+        "title": "Majors and Minors",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Majors include Computer Science, Data Science, Economics, Mathematics, engineering, sciences and humanities."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://admissions.northwestern.edu/apply/identities/international.html",
+        "title": "International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "needBlind",
+        "value": false,
+        "sourceUrl": "https://admissions.northwestern.edu/apply/identities/international.html",
+        "title": "International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Aid request and amount may affect admission."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://admissions.northwestern.edu/apply/identities/international.html",
+        "title": "International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "All admitted first-year students' demonstrated need met for four years."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://music.northwestern.edu/admission/undergraduate/faq",
+        "title": "Bienen Undergraduate FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Music-school merit scholarships include international applicants; not general academic merit awards."
+      },
+      {
+        "field": "fundingCaveats",
+        "value": "No general academic merit scholarships. Bienen music scholarships are a specific exception.",
+        "sourceUrl": "https://undergradaid.northwestern.edu/faqs/eligibility-aid-applications/",
+        "title": "Eligibility and Aid Applications FAQs",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English proficiency score required if first language is not English or secondary schooling was not in English.",
+        "sourceUrl": "https://admissions.northwestern.edu/apply/identities/international.html",
+        "title": "International Applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admissions.northwestern.edu/apply/requirements.html",
+        "title": "Application Materials",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": "SAT/ACT optional."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admissions.northwestern.edu/apply/requirements.html",
+        "title": "Application Materials",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "testPolicy",
+        "value": "SAT/ACT optional.",
+        "sourceUrl": "https://admissions.northwestern.edu/apply/requirements.html",
+        "title": "Application Materials",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      }
+    ],
+    "scholarships": []
+  },
+  {
+    "slug": "notre-dame",
+    "name": "University of Notre Dame",
+    "initials": "ND",
+    "city": "Notre Dame",
+    "state": "Indiana",
+    "country": "United States",
+    "region": "United States",
+    "type": "Private university",
+    "website": "https://www.nd.edu/",
+    "color": "#0C2340",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Mathematics / Statistics",
+          "Economics",
+          "Natural Sciences",
+          "Social Sciences",
+          "Humanities",
+          "Business / Management",
+          "Finance",
+          "Engineering"
+        ],
+        "sourceUrl": "https://catalog.nd.edu/undergraduate/general-information/academic-profile/",
+        "title": "Academic Profile",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "CS, engineering, Mathematics/Statistics, Finance and Strategic Management undergraduate degrees; Arts and Letters and sciences."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://financialaid.nd.edu/contact/frequently-asked-questions/pathways-to-notre-dame/",
+        "title": "Pathways to Notre Dame",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "needBlind",
+        "value": true,
+        "sourceUrl": "https://financialaid.nd.edu/contact/frequently-asked-questions/pathways-to-notre-dame/",
+        "title": "Pathways to Notre Dame",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Domestic and international applications reviewed need-blind."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://financialaid.nd.edu/contact/frequently-asked-questions/pathways-to-notre-dame/",
+        "title": "Pathways to Notre Dame",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Full institution-calculated need met without packaged loans."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://financialaid.nd.edu/contact/frequently-asked-questions/pathways-to-notre-dame/",
+        "title": "Pathways to Notre Dame",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026-2027",
+        "note": "From 2026–27, families up to $150,000 income with typical assets receive at least tuition support; international students eligible."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://financialaid.nd.edu/aid-types/merit-based-scholarships/",
+        "title": "Merit-Based Scholarships",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "All admission applications considered; limited awards, semifinalists may need additional application."
+      },
+      {
+        "field": "aidForms",
+        "value": "CSS Profile required for international applicants seeking need-based aid; renew aid application annually.",
+        "sourceUrl": "https://financialaid.nd.edu/contact/frequently-asked-questions/pathways-to-notre-dame/",
+        "title": "Pathways to Notre Dame",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admissions.nd.edu/apply/resources-for/international-applicants/application-information/",
+        "title": "International Application Information",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": "Optional for Fall 2027. Testing returns for Fall 2028, with some overseas credential alternatives."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admissions.nd.edu/apply/resources-for/international-applicants/application-information/",
+        "title": "International Application Information",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "englishTests",
+        "value": ["TOEFL", "IELTS", "Duolingo"],
+        "sourceUrl": "https://admissions.nd.edu/apply/resources-for/international-applicants/application-information/",
+        "title": "International Application Information",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "PTE Academic also accepted."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English test required if first language or secondary instruction is not English; qualifying SAT/ACT results allow waiver.",
+        "sourceUrl": "https://admissions.nd.edu/apply/resources-for/international-applicants/application-information/",
+        "title": "International Application Information",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "englishWaiver",
+        "value": true,
+        "sourceUrl": "https://admissions.nd.edu/apply/resources-for/international-applicants/application-information/",
+        "title": "International Application Information",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "SAT Reading/Writing 650+ or ACT English or Reading 26+."
+      }
+    ],
+    "scholarships": []
+  },
+  {
+    "slug": "berea",
+    "name": "Berea College",
+    "initials": "B",
+    "city": "Berea",
+    "state": "Kentucky",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.berea.edu/",
+    "color": "#005A9C",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Mathematics / Statistics",
+          "Economics",
+          "Natural Sciences",
+          "Social Sciences",
+          "Humanities",
+          "Business / Management",
+          "Finance"
+        ],
+        "sourceUrl": "https://www.berea.edu/academics/departments-programs",
+        "title": "Departments and Programs",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "CS, Mathematics, Economics and Business, Biology, Politics, English. Finance concentration verified separately."
+      },
+      {
+        "field": "programsDetail",
+        "value": "Business Administration includes Finance concentration; Economics and Quantitative Economics also offer Finance tracks.",
+        "sourceUrl": "https://www.berea.edu/academics/departments-programs/economics-and-business/eco-bus-majors-and-minors",
+        "title": "Economics and Business Majors and Minors",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International Applicant Info",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "All admitted international students receive tuition, housing, food and fee support."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International Applicant Info",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "meritAid",
+        "value": null,
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International Applicant Info",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Separate international merit-award policy not verified."
+      },
+      {
+        "field": "fundingCaveats",
+        "value": "Work Program participation; personal expenses remain. $2,200 enrollment deposit, with additional aid available for inability to pay.",
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International Applicant Info",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "satPolicy",
+        "value": "flexible",
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International Applicant Info",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "actPolicy",
+        "value": "flexible",
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International Applicant Info",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "testPolicy",
+        "value": "One recent IELTS, TOEFL, Duolingo, SAT or ACT result required; international applicants cannot apply test-optional.",
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International Applicant Info",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "englishTests",
+        "value": ["TOEFL", "IELTS", "Duolingo"],
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International Applicant Info",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "applicationFee",
+        "value": 0,
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International Applicant Info",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "aidForms",
+        "value": "Berea International Financial Questionnaire; CSS/ISFAA not substitutes.",
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International Applicant Info",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "No previous bachelor's degree; fall entry only.",
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International Applicant Info",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Berea international student funding",
+        "kind": "Institutional policy",
+        "fundingType": "Need-based",
+        "eligibleCitizenships": ["Admitted international students"],
+        "coverage": "Tuition, housing, food and fees.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": null,
+        "separateApplication": null,
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International Applicant Info",
+        "cycle": null,
+        "note": "Work Program participation; save for personal expenses. $2,200 deposit; hardship assistance available. Not a guarantee for travel or every expense.",
+        "deadline": null,
+        "deadlineCycle": null
+      }
+    ]
+  },
+  {
+    "slug": "washington-and-lee",
+    "name": "Washington and Lee University",
+    "initials": "WL",
+    "city": "Lexington",
+    "state": "Virginia",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.wlu.edu/",
+    "color": "#003087",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Mathematics / Statistics",
+          "Economics",
+          "Natural Sciences",
+          "Social Sciences",
+          "Humanities",
+          "Business / Management",
+          "Engineering"
+        ],
+        "sourceUrl": "https://www.wlu.edu/academics/areas-of-study",
+        "title": "Areas of Study",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "CS BA/BS, Business Administration BS, Engineering BS, Economics BA, Mathematics BA/BS; Data Science minors and Finance coursework are not standalone majors."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid",
+        "title": "International Student Aid",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "needBlind",
+        "value": true,
+        "sourceUrl": "https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid",
+        "title": "International Student Aid",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Need-blind policy includes international applicants."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid",
+        "title": "International Student Aid",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Full institution-determined need without loans."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid",
+        "title": "International Student Aid",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "International merit assistance through Johnson program."
+      },
+      {
+        "field": "aidForms",
+        "value": "W&L International Grant Supplement plus CSS Profile; portal instructions govern waiver timing.",
+        "sourceUrl": "https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid",
+        "title": "International Student Aid",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027-2028",
+        "note": "Award fixed for four years except tuition increases; initial aid request required."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://www.wlu.edu/admissions/the-johnson-scholarship",
+        "title": "The Johnson Scholarship",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Competitive award covers tuition, fees, housing and food."
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.wlu.edu/admissions/apply",
+        "title": "Apply to W&L",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": "SAT/ACT optional."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.wlu.edu/admissions/apply",
+        "title": "Apply to W&L",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "testPolicy",
+        "value": "SAT/ACT optional.",
+        "sourceUrl": "https://www.wlu.edu/admissions/apply",
+        "title": "Apply to W&L",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Common App, Coalition or QuestBridge.",
+        "sourceUrl": "https://www.wlu.edu/admissions/apply",
+        "title": "Apply to W&L",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": ""
+      },
+      {
+        "field": "applicationPlans",
+        "value": ["Early Decision", "Regular Decision"],
+        "sourceUrl": "https://www.wlu.edu/admissions/apply",
+        "title": "Apply to W&L",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "ED I and II."
+      },
+      {
+        "field": "feeWaiver",
+        "value": true,
+        "sourceUrl": "https://www.wlu.edu/admissions/apply",
+        "title": "Apply to W&L",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Eligibility request required."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Early Decision I admission",
+            "date": "2026-11-01",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Binding."
+          },
+          {
+            "label": "Early Decision II admission",
+            "date": "2027-01-05",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Binding."
+          },
+          {
+            "label": "Regular Decision admission",
+            "date": "2027-01-05",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": ""
+          }
+        ],
+        "sourceUrl": "https://www.wlu.edu/admissions/apply",
+        "title": "Apply to W&L",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "scholarshipDeadline",
+        "value": "2026-12-01",
+        "sourceUrl": "https://www.wlu.edu/admissions/apply",
+        "title": "Apply to W&L",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": "Table and dedicated bullet agree on Johnson deadline; one prose sentence still says 2025."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Johnson Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "Domestic and international first-year applicants"
+        ],
+        "coverage": "Tuition, fees, housing and food, plus $10,000 summer enhancement funding. Additional need may cover other expenses.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": null,
+        "separateApplication": "Johnson essay in Common App or Coalition application by December 1, 2026.",
+        "sourceUrl": "https://www.wlu.edu/admissions/the-johnson-scholarship",
+        "title": "The Johnson Scholarship",
+        "cycle": null,
+        "note": "Up to 44 recipients annually. Deadline source: https://www.wlu.edu/admissions/apply (table and dedicated bullet agree; one older prose sentence says 2025). International eligibility: International Student Aid page.",
+        "deadline": "2026-12-01",
+        "deadlineCycle": "Fall 2027"
+      }
+    ]
+  }
+]

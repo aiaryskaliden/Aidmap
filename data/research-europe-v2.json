@@ -1,0 +1,1456 @@
+[
+  {
+    "slug": "bocconi",
+    "name": "Bocconi University",
+    "initials": "BU",
+    "city": "Milan",
+    "state": "Lombardy",
+    "country": "Italy",
+    "region": "Europe",
+    "type": "Private university",
+    "website": "https://www.unibocconi.it/en",
+    "color": "#0759A0",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Artificial Intelligence / Data Science",
+          "Mathematics / Statistics",
+          "Computer Science",
+          "Business / Management",
+          "Economics",
+          "Finance",
+          "Social Sciences"
+        ],
+        "sourceUrl": "https://www.unibocconi.it/sites/default/files/media/attachments/BScPrograms_7.pdf?CVID=mTPZwSO&MOD=AJPERES&VersionId=1vd.3bppwyM2YwqZSnxJIrMw9Bm5ZDzr",
+        "title": "Bachelor Programs 2027–2028",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "English options: Management; Finance; Economics; Management and Computer Science; International Politics and Government; Mathematical and Computing Sciences for AI. Double-degree routes have separate rules."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/funding",
+        "title": "Undergraduate funding",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "International funding page offers need-sensitive tuition waivers; awards depend on available budget."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/funding",
+        "title": "Undergraduate funding",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "A competitive 100% waiver is available; receiving it is not automatic."
+      },
+      {
+        "field": "aidForms",
+        "value": "Bocconi4Access to Education application and family financial information",
+        "sourceUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/funding",
+        "title": "Undergraduate funding",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": ""
+      },
+      {
+        "field": "testPolicy",
+        "value": "Submit an accepted selection test: SAT/ACT or Bocconi online test; route-specific conditions apply.",
+        "sourceUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions",
+        "title": "Bachelor and Law: application and admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": ""
+      },
+      {
+        "field": "satPolicy",
+        "value": "flexible",
+        "sourceUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions",
+        "title": "Bachelor and Law: application and admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "SAT is an alternative to ACT/Bocconi test, not a test-optional policy."
+      },
+      {
+        "field": "actPolicy",
+        "value": "flexible",
+        "sourceUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions",
+        "title": "Bachelor and Law: application and admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "ACT is an alternative accepted selection test."
+      },
+      {
+        "field": "tuition",
+        "value": 17000,
+        "sourceUrl": "https://www.unibocconi.it/sites/default/files/media/attachments/BScPrograms_7.pdf?CVID=mTPZwSO&MOD=AJPERES&VersionId=1vd.3bppwyM2YwqZSnxJIrMw9Bm5ZDzr",
+        "title": "Bachelor Programs 2027–2028",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "Approximately EUR 17,000 annually; tuition/fees only, not total attendance costs."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Apply2B (Bocconi online application)",
+        "sourceUrl": "https://www.unibocconi.it/sites/default/files/media/attachments/BScPrograms_7.pdf?CVID=mTPZwSO&MOD=AJPERES&VersionId=1vd.3bppwyM2YwqZSnxJIrMw9Bm5ZDzr",
+        "title": "Bachelor Programs 2027–2028",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": ""
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Early session",
+            "date": "2026-09-29",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "15:00 Italian time; this named session is not a US Early Decision commitment."
+          },
+          {
+            "label": "Winter session",
+            "date": "2027-01-26",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "15:00 Italian time."
+          }
+        ],
+        "sourceUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+        "title": "Admissions 2027–2028",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Recognised secondary diploma normally following 12 years of schooling; shorter qualifications need an accepted university/foundation supplement.",
+        "sourceUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/secondary-school-diplomas",
+        "title": "Secondary School Diplomas",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Diploma-specific and national university-entrance requirements also apply."
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Selection test",
+            "status": "Required",
+            "condition": "SAT, ACT or Bocconi test for the undergraduate school."
+          },
+          {
+            "label": "School transcripts",
+            "status": "Required",
+            "condition": "Selection considers school results."
+          },
+          {
+            "label": "English requirement",
+            "status": "Required",
+            "condition": "Must satisfy the admitted programme's language requirement for enrolment."
+          },
+          {
+            "label": "Recognised school-leaving diploma",
+            "status": "Required",
+            "condition": "Due by the relevant enrolment deadline."
+          }
+        ],
+        "sourceUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions",
+        "title": "Application and admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "Separate Law School and double-degree procedures may differ."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Bocconi4Access to Education",
+        "kind": "Institutional policy",
+        "fundingType": "Need-based",
+        "eligibleCitizenships": null,
+        "coverage": "20%, 40%, 60%, 80% or 100% tuition waiver.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": null,
+        "separateApplication": "Submit the single Bocconi4Access to Education application.",
+        "sourceUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/funding",
+        "title": "Undergraduate funding",
+        "cycle": "2027/2028",
+        "note": "Family income/assets and available funds matter. A tuition waiver does not cover all attendance costs.",
+        "deadline": null,
+        "deadlineCycle": null
+      }
+    ],
+    "unknowns": [
+      "A published annual total cost of attendance was not verified; tuition amounts are not total costs.",
+      "A university-wide international need-blind or full-demonstrated-need commitment was not verified."
+    ]
+  },
+  {
+    "slug": "bologna",
+    "name": "University of Bologna",
+    "initials": "UNIBO",
+    "city": "Bologna",
+    "state": "Emilia-Romagna",
+    "country": "Italy",
+    "region": "Europe",
+    "type": "Public university",
+    "website": "https://www.unibo.it/en",
+    "color": "#A52B28",
+    "findings": [
+      {
+        "field": "programs",
+        "value": ["Economics", "Finance"],
+        "sourceUrl": "https://corsi.unibo.it/1cycle/EconomicsAndFinance",
+        "title": "Economics and Finance: first cycle degree",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Economics and Finance is a first-cycle/Bachelor programme; programme-specific admission conditions apply."
+      },
+      {
+        "field": "aidForms",
+        "value": "ER.GO portal: financial-status or reduced-fixed-fee declaration, as appropriate",
+        "sourceUrl": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/reduced-fixed-fee-for-citizens-of-particularly-poor-and-developing-countries-or-non-eu-non-oecd-countries",
+        "title": "Reduced fixed fees",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026/2027",
+        "note": "Flat fee and income-assessed No Tax Area are different, incompatible routes."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/reduced-fixed-fee-for-citizens-of-particularly-poor-and-developing-countries-or-non-eu-non-oecd-countries",
+        "title": "Reduced fixed fees",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026/2027",
+        "note": "ER.GO-eligible students receive a university-fee exemption but still owe the published mandatory first instalment."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/submitting-the-isee-or-documents-for-foreign-income-for-university-fee-exemptions",
+        "title": "University fee exemptions: foreign income",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026/2027",
+        "note": "Income-assessed university tuition exemptions are available using foreign-income documents; this is not a promise of full demonstrated need."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Income-based university fee-exemption data",
+            "date": "2026-10-30",
+            "cycle": "Fall 2026",
+            "kind": "fixed",
+            "note": "18:00 Italy time. Late route: 16 November 2026 with EUR 100 charge; foreign-income documents by 20 November. Separate ER.GO scholarship deadlines apply."
+          }
+        ],
+        "sourceUrl": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/submitting-the-isee-or-documents-for-foreign-income-for-university-fee-exemptions",
+        "title": "University fee exemptions: foreign income",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2026",
+        "note": ""
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Reduced fixed fee for eligible international citizens",
+        "kind": "Fee reduction",
+        "fundingType": "Fee reduction",
+        "eligibleCitizenships": null,
+        "coverage": "First-cycle newcomers: EUR 500 plus EUR 157.04 for the listed poor/developing-country group, or EUR 1,000 plus EUR 157.04 for the listed non-OECD group.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": null,
+        "separateApplication": "Use the ER.GO declaration route; do not confuse it with a scholarship application.",
+        "sourceUrl": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/reduced-fixed-fee-for-citizens-of-particularly-poor-and-developing-countries-or-non-eu-non-oecd-countries",
+        "title": "Reduced fixed fees",
+        "cycle": "2026/2027",
+        "note": "Not all non-EU applicants qualify. Citizenship must appear on the university list and family income/assets must be entirely abroad. Dual-citizenship and study-duration conditions apply.",
+        "deadline": null,
+        "deadlineCycle": null
+      },
+      {
+        "name": "Income-assessed university fee exemption (No Tax Area)",
+        "kind": "Institutional policy",
+        "fundingType": "Need-based",
+        "eligibleCitizenships": null,
+        "coverage": "Partial or full university-fee exemption after assessment of family income/assets; mandatory charges can remain.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": null,
+        "separateApplication": "Provide ISEE and/or foreign-income documents via ER.GO, with required translations and authentication.",
+        "sourceUrl": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/submitting-the-isee-or-documents-for-foreign-income-for-university-fee-exemptions",
+        "title": "Submitting ISEE or foreign-income documents",
+        "cycle": "2026/2027",
+        "note": "Separate from the reduced flat fee and from the ER.GO cash scholarship. These are not interchangeable applications.",
+        "deadline": "2026-10-30",
+        "deadlineCycle": "Fall 2026"
+      }
+    ],
+    "unknowns": [
+      "A published annual total cost of attendance was not verified; tuition amounts are not total costs.",
+      "A university-wide international need-blind or full-demonstrated-need commitment was not verified.",
+      "Some funding evidence covers 2026/2027; a Fall 2027 award call or deadline still needs checking."
+    ]
+  },
+  {
+    "slug": "sciences-po",
+    "name": "Sciences Po",
+    "initials": "SP",
+    "city": "Paris and regional campuses",
+    "state": "Île-de-France",
+    "country": "France",
+    "region": "Europe",
+    "type": "Public university",
+    "website": "https://www.sciencespo.fr/en/",
+    "color": "#C12B35",
+    "findings": [
+      {
+        "field": "programs",
+        "value": ["Social Sciences", "Humanities", "Economics"],
+        "sourceUrl": "https://www.sciencespo.fr/en/education/undergraduate-studies",
+        "title": "Undergraduate College",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Bachelor of Arts with social-science/humanities disciplines; language and geographic minor vary by campus."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/emile-boutmy-scholarship/",
+        "title": "Émile Boutmy scholarship",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Non-EU eligibility and household-tax conditions apply."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/emile-boutmy-scholarship/",
+        "title": "Émile Boutmy scholarship",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Some recipients receive full tuition exemption; other awards are partial."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Sciences Po admissions portal for foreign secondary diplomas; Parcoursup for the French pathway",
+        "sourceUrl": "https://www.sciencespo.fr/admissions/en/undergraduate/foreign-secondary-schools/",
+        "title": "International Undergraduate Admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": "Pathway is determined by school diploma, not nationality."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Émile Boutmy scholarship",
+            "date": "2027-01-13",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Scholarship deadline for the international undergraduate route."
+          }
+        ],
+        "sourceUrl": "https://www.sciencespo.fr/admissions/en/undergraduate/foreign-secondary-schools/",
+        "title": "International Undergraduate Admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": "The page has an inconsistent general admissions-calendar sentence; do not reuse that sentence as a 2027 deadline."
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.sciencespo.fr/admissions/en/undergraduate/faq/",
+        "title": "Undergraduate admissions FAQ",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Scores are optional but encouraged for international undergraduate admission."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.sciencespo.fr/admissions/en/undergraduate/faq/",
+        "title": "Undergraduate admissions FAQ",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Scores are optional but encouraged for international undergraduate admission."
+      },
+      {
+        "field": "testPolicy",
+        "value": "SAT/ACT scores may be submitted voluntarily and are considered alongside the application.",
+        "sourceUrl": "https://www.sciencespo.fr/admissions/en/undergraduate/faq/",
+        "title": "Undergraduate admissions FAQ",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Partner-managed dual degrees can differ."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "A language test is recommended, not mandatory for the standard international undergraduate application; required language proficiency depends on the chosen campus/programme.",
+        "sourceUrl": "https://www.sciencespo.fr/admissions/en/undergraduate/faq/",
+        "title": "Undergraduate admissions FAQ",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "This is not an exemption from being able to study in the instruction language."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Normally apply in the last year of secondary school; limited one-year-later dispensations require approval. No transfer admission.",
+        "sourceUrl": "https://www.sciencespo.fr/admissions/en/undergraduate/faq/",
+        "title": "Undergraduate admissions FAQ",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "The secondary qualification determines the application route."
+      },
+      {
+        "field": "feeWaiver",
+        "value": true,
+        "sourceUrl": "https://www.sciencespo.fr/admissions/en/undergraduate/faq/",
+        "title": "Undergraduate admissions FAQ",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Documented refugee status can qualify after verification; not a blanket international fee waiver."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Émile Boutmy Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "Full tuition exemption or EUR 9,500 tuition reduction.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": "Pass the academic year; deferral or failure can cancel the award.",
+        "separateApplication": "Request it in Financial information within the admissions application; no application after admission.",
+        "sourceUrl": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/emile-boutmy-scholarship/",
+        "title": "Émile Boutmy scholarship",
+        "cycle": null,
+        "note": "First-time entrants from non-EU states whose household does not pay EU taxes; dual-EU citizenship and most undergraduate dual degrees are excluded. The scheme is not an all-cost award.",
+        "deadline": "2027-01-13",
+        "deadlineCycle": "Fall 2027"
+      }
+    ],
+    "unknowns": [
+      "A published annual total cost of attendance was not verified; tuition amounts are not total costs.",
+      "A university-wide international need-blind or full-demonstrated-need commitment was not verified."
+    ]
+  },
+  {
+    "slug": "erasmus-rotterdam",
+    "name": "Erasmus University Rotterdam",
+    "initials": "EUR",
+    "city": "Rotterdam",
+    "state": "South Holland",
+    "country": "Netherlands",
+    "region": "Europe",
+    "type": "Public university",
+    "website": "https://www.eur.nl/en",
+    "color": "#006B67",
+    "findings": [
+      {
+        "field": "programs",
+        "value": ["Business / Management"],
+        "sourceUrl": "https://www.rsm.nl/education/scholarships/iba-scholarships/",
+        "title": "BSc International Business Administration funding",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Verified programme is RSM's BSc International Business Administration."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.rsm.nl/education/scholarships/iba-scholarships/entrepreneurial-spirit-scholarship/",
+        "title": "Entrepreneurial Spirit Scholarship",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "This undergraduate scholarship is restricted to EEA nationals eligible for the statutory fee."
+      },
+      {
+        "field": "tuition",
+        "value": 15200,
+        "sourceUrl": "https://www.rsm.nl/education/scholarships/iba-scholarships/",
+        "title": "IBA scholarships and funding",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "Non-EEA annual IBA tuition only; excludes living costs and other expenses."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Studielink followed by RSM Online Application Form (OLAF)",
+        "sourceUrl": "https://www.rsm.nl/education/scholarships/iba-scholarships/entrepreneurial-spirit-scholarship/",
+        "title": "Entrepreneurial Spirit Scholarship",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": ""
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Entrepreneurial Spirit Scholarship (IBA)",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "Austria",
+          "Belgium",
+          "Bulgaria",
+          "Croatia",
+          "Cyprus",
+          "Czech Republic",
+          "Denmark",
+          "Estonia",
+          "Finland",
+          "France",
+          "Germany",
+          "Greece",
+          "Hungary",
+          "Iceland",
+          "Ireland",
+          "Italy",
+          "Latvia",
+          "Liechtenstein",
+          "Lithuania",
+          "Luxembourg",
+          "Malta",
+          "Netherlands",
+          "Norway",
+          "Poland",
+          "Portugal",
+          "Romania",
+          "Slovakia",
+          "Slovenia",
+          "Spain",
+          "Sweden"
+        ],
+        "coverage": "Statutory annual tuition (EUR 2,771 in 2027/2028) plus up to EUR 700 yearly for books, for three years subject to review.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": "Annual evaluation of study progress, entrepreneurship and programme participation.",
+        "separateApplication": "Select scholarship in OLAF; submit the entrepreneurial essay and financial-assessment form.",
+        "sourceUrl": "https://www.rsm.nl/education/scholarships/iba-scholarships/entrepreneurial-spirit-scholarship/",
+        "title": "Entrepreneurial Spirit Scholarship",
+        "cycle": "2027/2028",
+        "note": "EEA nationality AND entitlement to statutory tuition required. This is not available to a Kazakhstan-only or other non-EEA citizen. Old non-EEA scholarship search snippets were not used because the live page no longer lists that award.",
+        "deadline": "2027-01-31",
+        "deadlineCycle": "Fall 2027"
+      }
+    ],
+    "unknowns": [
+      "A published annual total cost of attendance was not verified; tuition amounts are not total costs.",
+      "A university-wide international need-blind or full-demonstrated-need commitment was not verified.",
+      "No current non-EEA IBA scholarship was verified; the listed award is EEA-only."
+    ]
+  },
+  {
+    "slug": "amsterdam",
+    "name": "University of Amsterdam",
+    "initials": "UvA",
+    "city": "Amsterdam",
+    "state": "North Holland",
+    "country": "Netherlands",
+    "region": "Europe",
+    "type": "Public university",
+    "website": "https://www.uva.nl/en",
+    "color": "#B52630",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Mathematics / Statistics",
+          "Artificial Intelligence / Data Science",
+          "Business / Management",
+          "Economics"
+        ],
+        "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/actuarial-science/tuition-fee/scholarships.html",
+        "title": "Economics and Business Bachelor's scholarships",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Actuarial Science, Business Analytics, Econometrics and Data Science, Business Administration, and Economics and Business Economics are explicitly listed."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/actuarial-science/tuition-fee/scholarships.html",
+        "title": "Amsterdam Merit Scholarship",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Limited awards for outstanding non-EU-only nationals in the listed Economics and Business programmes."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Studielink and UvA SIS My Applications",
+        "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/actuarial-science/tuition-fee/scholarships.html",
+        "title": "Amsterdam Merit Scholarship",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Scholarship consideration is requested within the degree application."
+      },
+      {
+        "field": "englishTests",
+        "value": ["IELTS", "TOEFL", "Cambridge"],
+        "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/actuarial-science/tuition-fee/scholarships.html",
+        "title": "Amsterdam Merit Scholarship",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Verified for the Economics and Business scholarship; scholarship thresholds may exceed admission thresholds.",
+        "scope": {
+          "purpose": "scholarship",
+          "subjects": [
+            "Economics",
+            "Business / Management",
+            "Artificial Intelligence / Data Science",
+            "Mathematics / Statistics"
+          ],
+          "program": "Economics and Business scholarship"
+        }
+      },
+      {
+        "field": "englishWaiver",
+        "value": true,
+        "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/actuarial-science/tuition-fee/scholarships.html",
+        "title": "Amsterdam Merit Scholarship",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Specified accredited school diplomas from named English-speaking countries qualify; check programme exemptions.",
+        "scope": {
+          "purpose": "scholarship",
+          "subjects": [
+            "Economics",
+            "Business / Management",
+            "Artificial Intelligence / Data Science",
+            "Mathematics / Statistics"
+          ],
+          "program": "Economics and Business scholarship"
+        }
+      },
+      {
+        "field": "englishPolicy",
+        "value": "For this scholarship: IELTS 7.0, TOEFL iBT 100 or Cambridge 190; component conditions and country-based exemptions apply.",
+        "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/actuarial-science/tuition-fee/scholarships.html",
+        "title": "Amsterdam Merit Scholarship",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Programme-specific scholarship requirement, not a university-wide threshold.",
+        "scope": {
+          "purpose": "scholarship",
+          "subjects": [
+            "Economics",
+            "Business / Management",
+            "Artificial Intelligence / Data Science",
+            "Mathematics / Statistics"
+          ],
+          "program": "Economics and Business scholarship"
+        }
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Amsterdam Merit Scholarship — Economics and Business Bachelor's",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "Annual amount is published separately; paid as reimbursement in 12 instalments, not as an upfront tuition waiver.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": null,
+        "separateApplication": "Check scholarship consideration in SIS; upload the scholarship motivation material.",
+        "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/actuarial-science/tuition-fee/scholarships.html",
+        "title": "Amsterdam Merit Scholarship",
+        "cycle": null,
+        "note": "Non-EU-only nationality, excellent grades/selection and no Dutch study-finance eligibility; very few awards. Current amount and dated cycle not yet published on this page.",
+        "deadline": null,
+        "deadlineCycle": null
+      }
+    ],
+    "unknowns": [
+      "A published annual total cost of attendance was not verified; tuition amounts are not total costs.",
+      "A university-wide international need-blind or full-demonstrated-need commitment was not verified.",
+      "The scholarship amount and deadline year are not published on the checked programme page."
+    ]
+  },
+  {
+    "slug": "luiss",
+    "name": "Luiss Guido Carli",
+    "initials": "LUISS",
+    "city": "Rome",
+    "state": "Lazio",
+    "country": "Italy",
+    "region": "Europe",
+    "type": "Private university",
+    "website": "https://www.luiss.it/en",
+    "color": "#073B65",
+    "findings": [
+      {
+        "field": "programs",
+        "value": ["Economics", "Business / Management", "Finance"],
+        "sourceUrl": "https://www.luiss.it/en/courses-and-masters-programmes/undergraduate-school/economics-and-business",
+        "title": "Bachelor's Degree in Economics and Business",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "English-taught three-year bachelor with Economics, Management and Finance majors."
+      },
+      {
+        "field": "tuition",
+        "value": 15000,
+        "sourceUrl": "https://www.luiss.it/en/courses-and-masters-programmes/undergraduate-school/economics-and-business",
+        "title": "Bachelor's Degree in Economics and Business",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "First-year annual tuition only; regional tax and living costs extra."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://www.luiss.it/en/orientation-and-admissions/incentives-and-support/exemptions-and-scholarships/previous-years/anno-accademico-20262027",
+        "title": "Scholarships 2026/2027 — closed calls",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026/2027",
+        "note": "The archived non-EU bachelor call offered full or partial annual fee exemptions; no 2027 renewal of the call verified."
+      },
+      {
+        "field": "aidForms",
+        "value": "Separate online scholarship application after the relevant admission pathway",
+        "sourceUrl": "https://www.luiss.it/en/orientation-and-admissions/incentives-and-support/exemptions-and-scholarships/previous-years/anno-accademico-20262027",
+        "title": "Scholarships 2026/2027 — closed calls",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026/2027",
+        "note": "Citizenship and admission-route-specific competitions."
+      },
+      {
+        "field": "satPolicy",
+        "value": "flexible",
+        "sourceUrl": "https://www.luiss.it/en/orientation-and-admissions/admission-procedures/admission-to-bachelor's-degrees-and-the-single-cycle-law-degree/non-eu-schengen-students/direct-admission-to-bachelor's-and-master's-degrees-for-non-eu-students-with-certificates",
+        "title": "Non-EU certification admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "Certification route accepts SAT 1200; alternatives apply. Threshold does not guarantee admission."
+      },
+      {
+        "field": "actPolicy",
+        "value": "flexible",
+        "sourceUrl": "https://www.luiss.it/en/orientation-and-admissions/admission-procedures/admission-to-bachelor's-degrees-and-the-single-cycle-law-degree/non-eu-schengen-students/direct-admission-to-bachelor's-and-master's-degrees-for-non-eu-students-with-certificates",
+        "title": "Non-EU certification admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "Certification route accepts ACT 25; alternatives apply."
+      },
+      {
+        "field": "testPolicy",
+        "value": "Non-EU certification route: SAT, ACT or accepted IB/other certification; a separate Luiss-test route also exists.",
+        "sourceUrl": "https://www.luiss.it/en/orientation-and-admissions/admission-procedures/admission-bachelors-and-masters-degree-programs-law/non-eu-students",
+        "title": "Non-EU undergraduate admission routes",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "Confirm the current call for the chosen route."
+      },
+      {
+        "field": "applicationFee",
+        "value": 150,
+        "sourceUrl": "https://www.luiss.it/en/orientation-and-admissions/admission-procedures/admission-to-bachelor's-degrees-and-the-single-cycle-law-degree/non-eu-schengen-students/direct-admission-to-bachelor's-and-master's-degrees-for-non-eu-students-with-certificates",
+        "title": "Non-EU certification admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "EUR; non-refundable participation fee."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Luiss dedicated online admissions platform",
+        "sourceUrl": "https://www.luiss.it/en/orientation-and-admissions/admission-procedures/admission-to-bachelor's-degrees-and-the-single-cycle-law-degree/non-eu-schengen-students/direct-admission-to-bachelor's-and-master's-degrees-for-non-eu-students-with-certificates",
+        "title": "Non-EU certification admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": "One binding programme choice per application."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Non-EU certification route, first session",
+            "date": "2027-02-10",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Check the full notice for final operational requirements; other routes have different dates."
+          }
+        ],
+        "sourceUrl": "https://www.luiss.it/en/orientation-and-admissions/admission-procedures/admission-to-bachelor's-degrees-and-the-single-cycle-law-degree/non-eu-schengen-students/direct-admission-to-bachelor's-and-master's-degrees-for-non-eu-students-with-certificates",
+        "title": "Non-EU certification admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Passport or identity document",
+            "status": "Required",
+            "condition": "Non-EU certification route."
+          },
+          {
+            "label": "School records and qualification evidence",
+            "status": "Required",
+            "condition": "Diploma must qualify for Italian university entry."
+          },
+          {
+            "label": "Accepted certification",
+            "status": "Required",
+            "condition": "SAT/ACT/IB or another listed certification for this route."
+          }
+        ],
+        "sourceUrl": "https://www.luiss.it/en/orientation-and-admissions/admission-procedures/admission-to-bachelor's-degrees-and-the-single-cycle-law-degree/non-eu-schengen-students/direct-admission-to-bachelor's-and-master's-degrees-for-non-eu-students-with-certificates",
+        "title": "Non-EU certification admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": "2027/2028",
+        "note": ""
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Non-EU / non-Schengen undergraduate scholarships",
+        "kind": "Competitive scholarship",
+        "fundingType": "Fee reduction",
+        "eligibleCitizenships": null,
+        "coverage": "Twelve full or partial annual Single Fee exemptions in the 2026/2027 call.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": null,
+        "separateApplication": "Separate online form; 2026 deadline was noon Italian time.",
+        "sourceUrl": "https://www.luiss.it/en/orientation-and-admissions/incentives-and-support/exemptions-and-scholarships/previous-years/anno-accademico-20262027",
+        "title": "Scholarships 2026/2027 — closed calls",
+        "cycle": "2026/2027",
+        "note": "Only students admitted through the non-EU/non-Schengen route. Archived call is closed; future-cycle awards are not promised.",
+        "deadline": "2026-03-25",
+        "deadlineCycle": "Fall 2026"
+      }
+    ],
+    "unknowns": [
+      "A published annual total cost of attendance was not verified; tuition amounts are not total costs.",
+      "A university-wide international need-blind or full-demonstrated-need commitment was not verified.",
+      "Some funding evidence covers 2026/2027; a Fall 2027 award call or deadline still needs checking."
+    ]
+  },
+  {
+    "slug": "corvinus-budapest",
+    "name": "Corvinus University of Budapest",
+    "initials": "CUB",
+    "city": "Budapest",
+    "state": "Budapest",
+    "country": "Hungary",
+    "region": "Europe",
+    "type": "University",
+    "website": "https://www.uni-corvinus.hu/?lang=en",
+    "color": "#08746B",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Economics",
+          "Business / Management",
+          "Artificial Intelligence / Data Science",
+          "Social Sciences",
+          "Humanities"
+        ],
+        "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/start-here/?lang=en",
+        "title": "International Bachelor's programmes",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Applied Economics; Business and Management; Data Science in Business; International Relations; Philosophy, Politics, Economy. Confirm the chosen programme in the scholarship catalogue."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/application/scholarships-and-discounts/?lang=en",
+        "title": "Scholarships and discounts",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Via competitive Stipendium Hungaricum for eligible nominated candidates; not automatic institutional funding."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Stipendium Hungaricum portal for the scholarship pathway",
+        "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/application/scholarships-and-discounts/?lang=en",
+        "title": "Scholarships and discounts",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "University admission and government selection are separate decisions."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Stipendium Hungaricum (closed cycle)",
+            "date": "2026-01-15",
+            "cycle": "Fall 2026",
+            "kind": "fixed",
+            "note": "September 2027 call expected later; its deadline is not yet verified."
+          }
+        ],
+        "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/application/scholarships-and-discounts/?lang=en",
+        "title": "Scholarships and discounts",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2026",
+        "note": ""
+      },
+      {
+        "field": "englishTests",
+        "value": ["IELTS", "TOEFL", "Duolingo", "Cambridge"],
+        "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/application/admissions-requirements/bsc-in-data-science-in-business-admissions-requirements/?lang=en",
+        "title": "Data Science in Business admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Verified for this BSc; other programmes must be checked.",
+        "scope": {
+          "purpose": "admission",
+          "subjects": ["Artificial Intelligence / Data Science"],
+          "program": "BSc Data Science in Business"
+        }
+      },
+      {
+        "field": "englishWaiver",
+        "value": true,
+        "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/application/admissions-requirements/bsc-in-data-science-in-business-admissions-requirements/?lang=en",
+        "title": "Data Science in Business admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Native-English declaration or official evidence that all exams, including final school exams, were in English; medium-of-instruction alone is insufficient.",
+        "scope": {
+          "purpose": "admission",
+          "subjects": ["Artificial Intelligence / Data Science"],
+          "program": "BSc Data Science in Business"
+        }
+      },
+      {
+        "field": "englishPolicy",
+        "value": "For Data Science in Business: B2 proof, including IELTS 6.0, TOEFL iBT 72 or Duolingo 100; accepted school qualifications/exemptions also exist.",
+        "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/application/admissions-requirements/bsc-in-data-science-in-business-admissions-requirements/?lang=en",
+        "title": "Data Science in Business admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Programme-specific; do not extrapolate across the university.",
+        "scope": {
+          "purpose": "admission",
+          "subjects": ["Artificial Intelligence / Data Science"],
+          "program": "BSc Data Science in Business"
+        }
+      },
+      {
+        "field": "testPolicy",
+        "value": "Data Science in Business requires an accepted mathematics qualification or the university's mathematics entrance examination.",
+        "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/application/admissions-requirements/bsc-in-data-science-in-business-admissions-requirements/?lang=en",
+        "title": "Data Science in Business admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "The listed historical SAT Math II is not today's general SAT; do not classify the university as universally SAT-optional."
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Secondary-school certificate and transcripts",
+            "status": "Required",
+            "condition": "Translated where necessary."
+          },
+          {
+            "label": "English proof",
+            "status": "Conditional",
+            "condition": "Programme-specific certificate, school qualification or documented exemption."
+          },
+          {
+            "label": "Mathematics examination",
+            "status": "Conditional",
+            "condition": "Required unless an accepted mathematics qualification meets the threshold."
+          }
+        ],
+        "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/application/admissions-requirements/bsc-in-data-science-in-business-admissions-requirements/?lang=en",
+        "title": "Data Science in Business admissions",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "This checklist describes Data Science in Business, not every Corvinus programme.",
+        "scope": {
+          "purpose": "admission",
+          "subjects": ["Artificial Intelligence / Data Science"],
+          "program": "BSc Data Science in Business"
+        }
+      },
+      {
+        "field": "fullCost",
+        "value": null,
+        "sourceUrl": "https://stipendiumhungaricum.hu/about/",
+        "title": "Stipendium Hungaricum: provisions",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "This verified government scheme contributes to living costs and explicitly does not cover all of them; no other full-cost award was verified."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Stipendium Hungaricum",
+        "kind": "Government scholarship",
+        "fundingType": "Government",
+        "eligibleCitizenships": null,
+        "coverage": "Tuition exemption, a living allowance, accommodation support and medical insurance.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": null,
+        "separateApplication": "Apply through the Stipendium Hungaricum portal and follow the sending partner's nomination process.",
+        "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/application/scholarships-and-discounts/?lang=en",
+        "title": "Corvinus scholarships and discounts",
+        "cycle": "2026/2027",
+        "note": "Restricted to eligible sending-partner countries and approved study fields; nomination and university admission required. Not a guarantee of all living expenses. 2027 call not yet verified.",
+        "deadline": "2026-01-15",
+        "deadlineCycle": "Fall 2026"
+      }
+    ],
+    "unknowns": [
+      "A published annual total cost of attendance was not verified; tuition amounts are not total costs.",
+      "A university-wide international need-blind or full-demonstrated-need commitment was not verified.",
+      "Some funding evidence covers 2026/2027; a Fall 2027 award call or deadline still needs checking."
+    ]
+  },
+  {
+    "slug": "debrecen",
+    "name": "University of Debrecen",
+    "initials": "UD",
+    "city": "Debrecen",
+    "state": "Hajdú-Bihar",
+    "country": "Hungary",
+    "region": "Europe",
+    "type": "University",
+    "website": "https://edu.unideb.hu/",
+    "color": "#127356",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Engineering",
+          "Mathematics / Statistics",
+          "Business / Management",
+          "Natural Sciences",
+          "Humanities",
+          "Social Sciences"
+        ],
+        "sourceUrl": "https://edu.unideb.hu/p/programs-a-z",
+        "title": "Programs A–Z",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Bachelor examples: Computer Science; Civil/Electrical/Mechanical Engineering; Mathematics; Business Administration and Management; Biology/Chemistry/Physics; English and American Studies; Psychology. Scholarship eligibility depends on country and programme."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://edu.unideb.hu/p/faq-stipendium-hungaricum-scholarship",
+        "title": "Stipendium Hungaricum FAQ",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Tuition exemption applies only after a scholarship award."
+      },
+      {
+        "field": "feeWaiver",
+        "value": true,
+        "sourceUrl": "https://edu.unideb.hu/p/faq-stipendium-hungaricum-scholarship",
+        "title": "Stipendium Hungaricum FAQ",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026/2027",
+        "note": "Only the scholarship application/entrance process is free; self-financed admissions differ."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Recognised high-school graduation after at least 12 years; O-level/IGCSE alone is insufficient. Scholarship nomination is required.",
+        "sourceUrl": "https://edu.unideb.hu/p/faq-stipendium-hungaricum-scholarship",
+        "title": "Stipendium Hungaricum FAQ",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026/2027",
+        "note": "Programme and sending-partner requirements also apply."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "Proof is programme-specific; the scholarship FAQ accepts a proctored language examination at the required level and does not require IELTS specifically.",
+        "sourceUrl": "https://edu.unideb.hu/p/faq-stipendium-hungaricum-scholarship",
+        "title": "Stipendium Hungaricum FAQ",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026/2027",
+        "note": ""
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Stipendium Hungaricum (closed cycle)",
+            "date": "2026-01-15",
+            "cycle": "Fall 2026",
+            "kind": "fixed",
+            "note": "14:00 CET; a sending partner may impose an earlier deadline."
+          }
+        ],
+        "sourceUrl": "https://stipendiumhungaricum.hu/apply/",
+        "title": "Stipendium Hungaricum application process",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2026",
+        "note": ""
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Stipendium Hungaricum online application for the scholarship route",
+        "sourceUrl": "https://stipendiumhungaricum.hu/apply/",
+        "title": "Stipendium Hungaricum application process",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026/2027",
+        "note": "Follow sending-partner procedures too."
+      },
+      {
+        "field": "fullCost",
+        "value": null,
+        "sourceUrl": "https://stipendiumhungaricum.hu/about/",
+        "title": "Stipendium Hungaricum: provisions",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "This verified government scheme contributes to living costs and explicitly does not cover all of them; no other full-cost award was verified."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Stipendium Hungaricum",
+        "kind": "Government scholarship",
+        "fundingType": "Government",
+        "eligibleCitizenships": null,
+        "coverage": "Tuition exemption, a living allowance, accommodation support and medical insurance.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": null,
+        "separateApplication": "Apply through the Stipendium Hungaricum portal and follow the sending partner's nomination process.",
+        "sourceUrl": "https://edu.unideb.hu/p/faq-stipendium-hungaricum-scholarship",
+        "title": "Debrecen Stipendium Hungaricum FAQ",
+        "cycle": "2026/2027",
+        "note": "Restricted to eligible sending-partner countries and approved study fields; nomination and university admission required. Not a guarantee of all living expenses. 2027 call not yet verified.",
+        "deadline": "2026-01-15",
+        "deadlineCycle": "Fall 2026"
+      }
+    ],
+    "unknowns": [
+      "A published annual total cost of attendance was not verified; tuition amounts are not total costs.",
+      "A university-wide international need-blind or full-demonstrated-need commitment was not verified.",
+      "Some funding evidence covers 2026/2027; a Fall 2027 award call or deadline still needs checking."
+    ]
+  },
+  {
+    "slug": "szeged",
+    "name": "University of Szeged",
+    "initials": "SZTE",
+    "city": "Szeged",
+    "state": "Csongrád-Csanád",
+    "country": "Hungary",
+    "region": "Europe",
+    "type": "University",
+    "website": "https://u-szeged.hu/english",
+    "color": "#23569C",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Engineering",
+          "Business / Management",
+          "Humanities",
+          "Social Sciences"
+        ],
+        "sourceUrl": "https://u-szeged.hu/prospective-students/full-time-programs/bachelor-programs",
+        "title": "Bachelor's programmes",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Computer Science; Biochemical/Agricultural Engineering; Business Administration and Management; English and American Studies; Psychology. French/German/Italian/Spanish degrees use those languages; CS Engineering is partner-only."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://u-szeged.hu/prospective-students/printed-publications/250313-szte-stipendium",
+        "title": "Szeged Stipendium Hungaricum brochure",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Government scholarship includes undergraduate tuition exemption, subject to country/programme eligibility."
+      },
+      {
+        "field": "englishTests",
+        "value": ["IELTS", "TOEFL", "Cambridge"],
+        "sourceUrl": "https://sci.u-szeged.hu/english/undergraduate-programs/computer-science-bsc",
+        "title": "Computer Science BSc",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Verified for Computer Science only; other degrees have separate requirements.",
+        "scope": {
+          "purpose": "admission",
+          "subjects": ["Computer Science"],
+          "program": "BSc Computer Science"
+        }
+      },
+      {
+        "field": "englishPolicy",
+        "value": "Computer Science: B2; examples IELTS 5.5, TOEFL iBT 72, Cambridge First Certificate B, plus an oral entrance assessment.",
+        "sourceUrl": "https://sci.u-szeged.hu/english/undergraduate-programs/computer-science-bsc",
+        "title": "Computer Science BSc",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Do not extrapolate thresholds to all degrees.",
+        "scope": {
+          "purpose": "admission",
+          "subjects": ["Computer Science"],
+          "program": "BSc Computer Science"
+        }
+      },
+      {
+        "field": "englishWaiver",
+        "value": true,
+        "sourceUrl": "https://sci.u-szeged.hu/english/undergraduate-programs/computer-science-bsc",
+        "title": "Computer Science BSc",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Native applicants from the page's named countries must also prove English-medium academic study.",
+        "scope": {
+          "purpose": "admission",
+          "subjects": ["Computer Science"],
+          "program": "BSc Computer Science"
+        }
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "High-school diploma",
+            "status": "Required",
+            "condition": "Computer Science BSc."
+          },
+          {
+            "label": "English B2 evidence",
+            "status": "Conditional",
+            "condition": "Unless the faculty's specified country plus English-medium-study exemption applies."
+          },
+          {
+            "label": "Oral entrance examination/interview",
+            "status": "Required",
+            "condition": "Computer Science: mathematics, English and computing background."
+          }
+        ],
+        "sourceUrl": "https://sci.u-szeged.hu/english/undergraduate-programs/computer-science-bsc",
+        "title": "Computer Science BSc",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Programme-specific checklist.",
+        "scope": {
+          "purpose": "admission",
+          "subjects": ["Computer Science"],
+          "program": "BSc Computer Science"
+        }
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Computer Science self-funded application (closed cycle)",
+            "date": "2026-05-15",
+            "cycle": "Fall 2026",
+            "kind": "fixed",
+            "note": "The scholarship route has its own earlier deadline."
+          }
+        ],
+        "sourceUrl": "https://sci.u-szeged.hu/english/undergraduate-programs/computer-science-bsc",
+        "title": "Computer Science BSc",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2026",
+        "note": ""
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Szeged DreamApply for self-funded study; Stipendium Hungaricum portal for government scholarships",
+        "sourceUrl": "https://u-szeged.hu/prospective-students/full-time-programs/bachelor-programs",
+        "title": "Bachelor's programmes",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Use the correct funding route."
+      },
+      {
+        "field": "scholarshipDeadline",
+        "value": "2026-01-15",
+        "sourceUrl": "https://stipendiumhungaricum.hu/apply/",
+        "title": "Stipendium Hungaricum application process",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2026",
+        "note": "14:00 CET; past Fall 2026 call, not a verified Fall 2027 deadline."
+      },
+      {
+        "field": "fullCost",
+        "value": null,
+        "sourceUrl": "https://stipendiumhungaricum.hu/about/",
+        "title": "Stipendium Hungaricum: provisions",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "This verified government scheme contributes to living costs and explicitly does not cover all of them; no other full-cost award was verified."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Stipendium Hungaricum",
+        "kind": "Government scholarship",
+        "fundingType": "Government",
+        "eligibleCitizenships": null,
+        "coverage": "Tuition exemption, a living allowance, accommodation support and medical insurance.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": null,
+        "separateApplication": "Apply through the Stipendium Hungaricum portal and follow the sending partner's nomination process.",
+        "sourceUrl": "https://u-szeged.hu/prospective-students/printed-publications/250313-szte-stipendium",
+        "title": "Szeged Stipendium Hungaricum brochure",
+        "cycle": "2026/2027",
+        "note": "Restricted to eligible sending-partner countries and approved study fields; nomination and university admission required. Not a guarantee of all living expenses. 2027 call not yet verified.",
+        "deadline": "2026-01-15",
+        "deadlineCycle": "Fall 2026"
+      }
+    ],
+    "unknowns": [
+      "A published annual total cost of attendance was not verified; tuition amounts are not total costs.",
+      "A university-wide international need-blind or full-demonstrated-need commitment was not verified.",
+      "Some funding evidence covers 2026/2027; a Fall 2027 award call or deadline still needs checking."
+    ]
+  },
+  {
+    "slug": "rhine-waal",
+    "name": "Rhine-Waal University of Applied Sciences",
+    "initials": "HSRW",
+    "city": "Kleve / Kamp-Lintfort",
+    "state": "North Rhine-Westphalia",
+    "country": "Germany",
+    "region": "Europe",
+    "type": "Public university",
+    "website": "https://www.hochschule-rhein-waal.de/en",
+    "color": "#B63B80",
+    "findings": [
+      {
+        "field": "programs",
+        "value": ["Engineering"],
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/en/engineering-bsc",
+        "title": "Engineering BSc",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "English-taught seven-semester Engineering BSc with specialisations including electronics, robotics and business engineering."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/en/get-involved/companies/germany-scholarship",
+        "title": "Germany Scholarship",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Deutschlandstipendium also considers engagement and personal circumstances."
+      },
+      {
+        "field": "aidForms",
+        "value": "Deutschlandstipendium online application, CV, motivation and academic documents",
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/fileadmin/upload_redaktion/Einrichtungen/ZFIT/Wirtschaft/Deutschlandstipendium/Awarding_Guidelines_Deutschlandstipendium_15_July_2026.pdf",
+        "title": "Deutschlandstipendium awarding guidelines",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026/2027",
+        "note": "First-semester undergraduates can apply; admission/enrolment conditions apply."
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Recognised university entrance qualification",
+            "status": "Required",
+            "condition": "International qualifications must be checked."
+          },
+          {
+            "label": "English proficiency",
+            "status": "Conditional",
+            "condition": "Verify the certificate/exemption rules for the English-taught programme."
+          }
+        ],
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/en/engineering-bsc",
+        "title": "Engineering BSc",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Unrestricted admission does not waive entrance-qualification assessment."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Deutschlandstipendium (closed cycle)",
+            "date": "2026-05-31",
+            "cycle": "Fall 2026",
+            "kind": "fixed",
+            "note": "The verified award window was 1–31 May 2026; no 2027 deadline inferred."
+          }
+        ],
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/en/get-involved/companies/germany-scholarship",
+        "title": "Germany Scholarship",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2026",
+        "note": ""
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "uni-assist for a university entrance qualification obtained outside Germany",
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/en/study/before-starting-university/application-process/guide-for-international-applicants",
+        "title": "Guide for international applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "German qualifications use the university's application route."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English-taught bachelor's programmes require B2 proof; no German certificate is needed for these programmes.",
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/en/study/before-starting-university/application-process/guide-for-international-applicants",
+        "title": "Guide for international applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "German-taught programmes have separate German-language requirements."
+      },
+      {
+        "field": "englishTests",
+        "value": ["IELTS", "TOEFL", "Cambridge"],
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/fileadmin/upload_redaktion/Dezernate/Studierendenangelegenheiten/Studierendenservice/Accepted_English_Language_Proofs__15_.pdf",
+        "title": "Accepted English-language proofs",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "B2 examples: IELTS Academic 5.5; TOEFL iBT 72 or 4 on the scale used from 21 January 2026. Check the current table."
+      },
+      {
+        "field": "scholarshipEligibility",
+        "value": "Deutschlandstipendium includes international students; university admission/enrolment and local award rules still apply.",
+        "sourceUrl": "https://www.daad.de/en/studying-in-germany/scholarships/funding-options/",
+        "title": "DAAD: funding opportunities from other organisations",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "note": "Read together with HSRW's specific current award guidelines."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Deutschlandstipendium — Rhine-Waal",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "EUR 300 per month; partial financial support.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": "Continuation requires performance review and compliance with the standard study period.",
+        "separateApplication": "Apply through HSRW's scholarship platform with supporting documents.",
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/en/get-involved/companies/germany-scholarship",
+        "title": "Germany Scholarship",
+        "cycle": "2026/2027",
+        "note": "For enrolled or eligible incoming students, including first-year undergraduates. Programme is open under the published university guidelines; it does not cover full living costs.",
+        "deadline": "2026-05-31",
+        "deadlineCycle": "Fall 2026"
+      }
+    ],
+    "unknowns": [
+      "A published annual total cost of attendance was not verified; tuition amounts are not total costs.",
+      "A university-wide international need-blind or full-demonstrated-need commitment was not verified.",
+      "Some funding evidence covers 2026/2027; a Fall 2027 award call or deadline still needs checking."
+    ]
+  }
+]

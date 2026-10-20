@@ -6,7 +6,8 @@ import { universities, findUniversity } from "@/data/universities";
 import { useApp } from "@/components/providers";
 import { toggleCompare } from "@/lib/storage/state";
 import { PageHeading, PolicyNote } from "@/components/ui/shared";
-import { dateLabel } from "@/lib/utils";
+import { dateLabel, money } from "@/lib/utils";
+import { nextAdmissionDeadline, cycleLabel } from "@/lib/admissions";
 import type { University } from "@/types/domain";
 const unknown = "Not yet verified";
 const rows: {
@@ -48,7 +49,9 @@ const rows: {
     value: (u) =>
       u.needBlind.value
         ? `Need-blind first-year review. ${u.needBlind.note ?? ""}`
-        : unknown,
+        : u.needBlind.value === false
+          ? "Need-aware"
+          : unknown,
   },
   {
     label: "Explicit full-tuition award",
@@ -69,8 +72,11 @@ const rows: {
           : "None verified",
   },
   {
-    label: "Annual cost · Fall 2027",
-    value: () => "Not yet verified (USD)",
+    label: "Annual cost baseline · check year and exclusions",
+    value: (u) =>
+      u.annualCost.value === null
+        ? unknown
+        : `${money(u.annualCost.value, u.costCurrency)} · ${u.annualCost.cycle}. ${u.annualCost.note ?? ""}`,
     section: "THE WHOLE COST",
   },
   {
@@ -89,11 +95,13 @@ const rows: {
   },
   {
     label: "Admission deadline",
-    value: (u) => dateLabel(u.admissionDeadline.value),
+    value: (u) =>
+      `${dateLabel(nextAdmissionDeadline(u)?.date ?? null)} · Fall 2027`,
   },
   {
     label: "Regular Decision aid deadline",
-    value: (u) => dateLabel(u.aidDeadline.value),
+    value: (u) =>
+      `${dateLabel(u.aidDeadline.value)} · ${u.aidDeadline.cycle ?? "intake not specified"}`,
   },
   {
     label: "Financial aid forms",
@@ -102,13 +110,19 @@ const rows: {
   },
   {
     label: "Evidence last checked",
-    value: () => "October 18, 2026",
+    value: (u) =>
+      dateLabel(
+        u.sources
+          .map((s) => s.checkedAt)
+          .sort()
+          .at(-1) ?? null,
+      ),
     section: "RESEARCH CONTEXT",
   },
   {
     label: "Cycle coverage",
-    value: () =>
-      "Mixed: general policies and selected Fall 2027 aid instructions. Review field-level sources.",
+    value: (u) =>
+      `SAT: ${cycleLabel(u.satPolicy, u)}. Costs: ${cycleLabel(u.annualCost, u)}.`,
   },
 ];
 export default function Compare() {
@@ -165,6 +179,11 @@ export default function Compare() {
         <span>{selected.length} / 4 selected</span>
       </div>
       <PolicyNote />
+      <p className="notice amber-notice">
+        Cost baselines may cover different academic years, currencies and
+        expenses. They are not directly equivalent or confirmed Fall 2027
+        prices. No currency conversion is applied.
+      </p>
       {!selected.length ? (
         <div className="empty-state">
           <h3>A clearer comparison starts with two.</h3>

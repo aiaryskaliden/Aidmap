@@ -1,4 +1,5 @@
 import type { ApplicantProfile, University } from "@/types/domain";
+import { englishAdvice, normalizeMajor } from "@/lib/admissions";
 export function matchUniversity(
   university: University,
   profile: ApplicantProfile | null,
@@ -13,7 +14,9 @@ export function matchUniversity(
   if (
     profile.major &&
     university.programs.value?.some(
-      (p) => p.toLowerCase() === profile.major.toLowerCase(),
+      (p) =>
+        normalizeMajor(p).toLowerCase() ===
+        normalizeMajor(profile.major).toLowerCase(),
     )
   )
     reasons.push({
@@ -43,6 +46,15 @@ export function matchUniversity(
       category: "Affordability not established",
       text: "Your budget cannot establish affordability until complete costs and an individual award are known. No currency conversion is assumed.",
     });
+  reasons.push({
+    category: "English requirement",
+    text: englishAdvice(
+      university,
+      profile.englishTest,
+      profile.englishScore,
+      profile.major,
+    ),
+  });
   reasons.push({
     category: "Requirements need verification",
     text: "Review cycle-specific tests, deadlines and citizenship restrictions. This is a research match, not an admission prediction.",

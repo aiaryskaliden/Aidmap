@@ -263,13 +263,33 @@ function PreferencesForm() {
               profile.englishTest === "IELTS"
                 ? "0–9"
                 : profile.englishTest === "TOEFL"
-                  ? "0–120 scale only"
+                  ? profile.toeflScale === "6"
+                    ? "1–6"
+                    : "0–120"
                   : "Test score"
             }
             value={profile.englishScore ?? ""}
             onChange={(e) => field("englishScore", number(e.target.value))}
           />
         </label>
+        {profile.englishTest === "TOEFL" && (
+          <label className="field-label">
+            TOEFL score scale
+            <select
+              value={profile.toeflScale ?? "120"}
+              onChange={(e) => {
+                field("toeflScale", e.target.value as "120" | "6");
+                field("englishScore", null);
+              }}
+            >
+              <option value="120">0–120</option>
+              <option value="6">1–6</option>
+            </select>
+            <small>
+              Use the scale on your score report. Scores are not converted.
+            </small>
+          </label>
+        )}
         <label className="field-label">
           School grading scale
           <select

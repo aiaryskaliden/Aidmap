@@ -5422,3 +5422,436 @@ strong {
     transform: none;
   }
 }
+
+/* Applicant-facing reading and interaction sizes. Decorative map labels retain their scale. */
+body {
+  font-size: 15px;
+}
+.page-container .tiny-note,
+.page-container .evidence,
+.page-container .field-label small,
+.page-container .section-footnote,
+.page-container .local-note,
+.page-container .card-verification,
+.page-container .card-label,
+.page-container .card-deadline,
+.page-container .source-list small,
+.page-container .tag,
+.page-container .subject-tags span {
+  font-size: 13px;
+  line-height: 1.55;
+}
+.page-container .field-label,
+.page-container .check-label,
+.page-container input,
+.page-container select,
+.page-container textarea,
+.page-container .button,
+.page-container .notice,
+.page-container .form-error,
+.page-container .risk-note p,
+.page-container .funding-math,
+.page-container .cost-legend,
+.page-container .fact-row,
+.page-container .compare-table td,
+.page-container .compare-table tbody th,
+.page-container .planner-official-date,
+.page-container .task-check,
+.page-container .funding-facts,
+.page-container .funding-card p,
+.page-container .filter-group summary {
+  font-size: 14px;
+}
+.page-container .detail-section > p,
+.page-container .about-grid p,
+.page-container .planner-card p,
+.page-container .fact-row dd p,
+.page-container .fact-row dt,
+.page-container .source-list p,
+.page-container .profile-layout p,
+.page-container .dashboard-aside p,
+.page-container .panel > p,
+.page-container .funding-intro p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.page-container .button {
+  min-height: 42px;
+}
+.page-container .eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.09em;
+}
+.filter-options {
+  margin: 14px 0;
+  padding: 0;
+  border: 0;
+}
+.filter-options legend {
+  font-size: 14px;
+  font-weight: 650;
+  margin-bottom: 8px;
+}
+.filter-options .check-label {
+  align-items: flex-start;
+  margin: 9px 0;
+}
+.filter-options input {
+  flex: 0 0 auto;
+  margin-top: 4px;
+}
+.filter-sidebar {
+  width: 255px;
+}
+.explorer-layout {
+  grid-template-columns: 255px minmax(0, 1fr);
+}
+.filter-title {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.filter-title button,
+.results-toolbar,
+.results-controls select,
+.active-filters button {
+  font-size: 13px;
+}
+.uncertainty-panel {
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  padding: 16px;
+  border-radius: 12px;
+  margin: 16px 0;
+}
+.uncertainty-panel p {
+  margin: 0 0 8px;
+}
+.uncertainty-panel .tiny-note {
+  margin: 8px 0 0;
+}
+.unknown-match {
+  color: var(--amber);
+  background: var(--amber-bg);
+  border-radius: 7px;
+  padding: 10px;
+  font-size: 13px;
+}
+.filter-dialog {
+  width: min(440px, 100%);
+  height: 100dvh;
+  max-height: 100dvh;
+  max-width: 100vw;
+  margin: 0 0 0 auto;
+  border: 0;
+  padding: 22px;
+  color: var(--text);
+  background: var(--surface);
+  overflow-y: auto;
+}
+.filter-dialog::backdrop {
+  background: #10172980;
+}
+.filter-dialog .field-label,
+.filter-dialog .check-label,
+.filter-dialog .tiny-note {
+  font-size: 14px;
+}
+.drawer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.context-help {
+  display: inline-block;
+  max-width: 100%;
+  margin: 8px 12px 8px 0;
+}
+.help-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: 0;
+  padding: 5px 0;
+  color: var(--accent);
+  text-align: left;
+  font-size: 13px;
+}
+.help-button svg {
+  flex-shrink: 0;
+}
+.help-popover {
+  margin: auto;
+  width: min(430px, calc(100vw - 32px));
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: 0 12px 60px #0003;
+}
+.help-popover > span {
+  display: block;
+  margin: 12px 0;
+  font-size: 15px;
+}
+.help-popover button {
+  border: 0;
+  background: var(--accent-soft);
+  color: var(--accent);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+.requirements-list {
+  list-style: none;
+  padding: 0;
+  margin: 18px 0;
+}
+.requirement-item {
+  border-bottom: 1px solid var(--border);
+  padding: 14px 0;
+  font-size: 14px;
+}
+.requirement-item p {
+  color: var(--muted);
+  margin: 6px 0 0;
+}
+.profile-award {
+  margin: 18px 0;
+}
+.profile-award p,
+.award-conditions,
+.program-conditions {
+  font-size: 14px;
+}
+.profile-award .external-link {
+  display: flex;
+  margin-top: 12px;
+}
+.deadline-table-scroll {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+.deadline-table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 580px;
+  font-size: 14px;
+}
+.deadline-table th,
+.deadline-table td {
+  padding: 14px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--border);
+}
+.deadline-table small {
+  display: block;
+  color: var(--muted);
+  margin-top: 5px;
+}
+.deadline-table th {
+  font-weight: 600;
+}
+.deadline-table p {
+  margin: 8px 0;
+}
+.detail-section details > summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 12px 0;
+}
+.detail-section .notice {
+  align-items: flex-start;
+}
+.task-source {
+  flex: 0 0 auto;
+  font-size: 13px;
+  color: var(--accent);
+}
+.stage-summary {
+  margin-bottom: 24px;
+}
+.onboarding-link {
+  margin-top: 18px;
+}
+.onboarding-progress {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+.onboarding-progress li {
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--surface-alt);
+  color: var(--muted);
+}
+.onboarding-progress li[aria-current] {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+}
+.onboarding-panel {
+  max-width: 860px;
+  padding: 30px;
+}
+.onboarding-panel > p {
+  margin-bottom: 20px;
+}
+.onboarding-results {
+  margin-top: 30px;
+}
+.onboarding-panel .form-actions {
+  flex-wrap: wrap;
+}
+.onboarding-panel .button-outline {
+  margin: 8px;
+}
+.calculation-summary {
+  padding: 14px;
+  border-radius: 8px;
+  background: var(--accent-soft);
+  font-size: 14px;
+}
+.program-conditions,
+.source-list p,
+.award-conditions,
+.funding-facts strong {
+  overflow-wrap: anywhere;
+}
+.card-top,
+.card-verification,
+.results-toolbar,
+.results-controls,
+.funding-filters {
+  flex-wrap: wrap;
+}
+.university-card .location {
+  font-size: 13px;
+}
+.university-card .card-aid p {
+  font-size: 16px;
+}
+.university-card .card-aid > span:last-child {
+  font-size: 13px;
+}
+.card-verification {
+  gap: 7px;
+}
+.cost-legend strong,
+.funding-math strong {
+  overflow-wrap: anywhere;
+}
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+@media (max-width: 1150px) {
+  .explorer-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 900px) {
+  .explorer-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .filter-sidebar {
+    display: none;
+  }
+  .filter-mobile-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 680px) {
+  .explorer-grid,
+  .onboarding-results {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .results-toolbar {
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .results-controls {
+    gap: 8px;
+  }
+  .onboarding-panel {
+    padding: 20px;
+  }
+  .onboarding-progress li {
+    font-size: 13px;
+    padding: 8px;
+  }
+  .task-row {
+    flex-wrap: wrap;
+  }
+  .task-check {
+    min-width: 0;
+    flex: 1 1 65%;
+  }
+  .page-container .planner-form-grid,
+  .page-container .form-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .source-list article {
+    overflow-wrap: anywhere;
+  }
+}
+
+/* Keep secondary explanations readable alongside the larger primary text. */
+.notice p,
+.explore-results .notice p,
+.cost-legend > div,
+.funding-math > div > span,
+.card-verification > span:last-child,
+.dashboard-universities .card-verification > span:last-child {
+  font-size: 13px;
+  line-height: 1.6;
+}
+.funding-math > div > strong {
+  font-size: 15px;
+}
+
+/* Reflow controls when text zoom leaves less usable inline space. */
+.button {
+  max-width: 100%;
+  white-space: normal;
+}
+.site-header {
+  container-type: inline-size;
+}
+.header-inner,
+.footer-top {
+  flex-wrap: wrap;
+}
+.header-inner {
+  height: auto;
+  min-height: 68px;
+}
+.footer-links {
+  min-width: 0;
+  max-width: 100%;
+}
+@container (max-width: 600px) {
+  .header-inner {
+    gap: 12px;
+    padding: 12px 20px;
+  }
+  .desktop-nav,
+  .header-actions .dashboard-link {
+    display: none;
+  }
+  .mobile-menu {
+    display: inline-flex;
+  }
+  .header-actions {
+    margin-left: auto;
+  }
+}

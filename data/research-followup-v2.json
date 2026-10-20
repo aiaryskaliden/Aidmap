@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "bowdoin",
+    "findings": [
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.bowdoin.edu/admissions/apply/test-optional-policy/",
+        "title": "Test Optional Policy",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "note": "Applicants decide whether to submit SAT results for consideration; scores may be self-reported and are verified on enrolment."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.bowdoin.edu/admissions/apply/test-optional-policy/",
+        "title": "Test Optional Policy",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "note": "Applicants may choose ACT consideration independently of SAT. No test submission requirement under this general policy."
+      }
+    ]
+  },
+  {
+    "slug": "yale",
+    "findings": [
+      {
+        "field": "annualCost",
+        "value": 97985,
+        "sourceUrl": "https://finaid.yale.edu/coa",
+        "title": "Undergraduate Cost of Attendance",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–27",
+        "note": "Calculated baseline from the six published components: tuition 72,500 + activity fee 185 + housing 12,080 + food 9,520 + books 1,000 + personal expenses 2,700 USD. Travel varies and is additional; this is not a complete individual budget or a Fall 2027 price."
+      }
+    ]
+  },
+  {
+    "slug": "amherst",
+    "findings": [
+      {
+        "field": "annualCost",
+        "value": 98160,
+        "sourceUrl": "https://www.amherst.edu/tuition",
+        "title": "Tuition, Fees & Other Costs",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–27",
+        "note": "Calculated baseline: tuition 75,330 + housing 10,980 + meals 9,340 + fees 710 + personal expenses 1,800 USD. Travel varies; health insurance is additional unless comparable coverage is accepted. Required course materials are included in the comprehensive fee. Not Fall 2027 pricing."
+      }
+    ]
+  },
+  {
+    "slug": "dartmouth",
+    "findings": [
+      {
+        "field": "annualCost",
+        "value": 98427,
+        "sourceUrl": "https://financialaid.dartmouth.edu/cost-attendance/cost-attendance-2026-2027",
+        "title": "Cost of Attendance 2026–2027",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–27",
+        "note": "Published standard three-term budget in USD. Additional first-year charges include 269 for records/class dues and 250 for orientation meals. Health insurance is 5,216 unless waived; computer and individual travel expenses also require planning. The page's travel allowance wording needs individual confirmation. Not a final Fall 2027 price."
+      }
+    ]
+  },
+  {
+    "slug": "mit",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Business / Management",
+          "Finance",
+          "Artificial Intelligence / Data Science",
+          "Mathematics / Statistics"
+        ],
+        "sourceUrl": "https://catalog.mit.edu/degree-charts/",
+        "title": "MIT Undergraduate Degree Charts",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "note": "Verified undergraduate degrees include Management (15-1), Business Analytics (15-2), Finance (15-3), Artificial Intelligence and Decision Making (6-4), and Mathematics (18). Graduate degrees are separately listed and are not used for these categories."
+      }
+    ]
+  }
+]

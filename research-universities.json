@@ -503,11 +503,11 @@
       {
         "field": "meritAid",
         "value": null,
-        "sourceUrl": "https://admission.amherst.edu/www/documents/International%20Amherst%202019.pdf",
-        "title": "International Amherst brochure",
-        "cycle": "2019 brochure",
-        "note": "This official historical brochure says no merit or athletic scholarships. A current explicit no-merit statement was not located; do not label Fall 2027 merit policy verified from this source.",
-        "checkedAt": "2026-10-18"
+        "sourceUrl": "https://www.amherst.edu/admission/apply/international",
+        "title": "International Applicants — merit policy needs verification",
+        "cycle": null,
+        "note": "The current page confirms need-based aid but does not explicitly establish the merit scholarship policy. The formerly linked 2019 brochure returned HTTP 404 on October 20, 2026; merit eligibility remains unknown.",
+        "checkedAt": "2026-10-20"
       },
       {
         "field": "aidForms",

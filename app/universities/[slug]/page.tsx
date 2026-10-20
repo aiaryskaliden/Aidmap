@@ -9,7 +9,14 @@ import {
   Info,
   Check,
 } from "lucide-react";
-import { findUniversity, universities } from "@/data/universities";
+import {
+  findUniversity,
+  universities,
+  opportunities,
+} from "@/data/universities";
+import { fieldStatus } from "@/lib/admissions";
+import { Help } from "@/components/ui/help";
+import { DeadlineTable } from "@/components/universities/deadlines";
 import { dateLabel, money } from "@/lib/utils";
 import {
   costKeys,
@@ -54,9 +61,21 @@ function FactRow({
         <strong>
           {field.value === null
             ? "Not yet verified"
-            : (text ?? String(field.value))}
+            : (text ??
+              (typeof field.value === "boolean"
+                ? field.value
+                  ? "Available; check conditions"
+                  : "Not available under this policy"
+                : String(field.value)))}
         </strong>
         <Evidence university={u} field={field} />
+        {field.scope && (
+          <p>
+            <strong>
+              Applies to: {field.scope.program} · {field.scope.purpose}
+            </strong>
+          </p>
+        )}
         {field.note && <p>{field.note}</p>}
         {field.value !== null && (
           <small>
@@ -74,6 +93,26 @@ export default async function UniversityPage({
 }) {
   const u = findUniversity((await params).slug);
   if (!u) notFound();
+  const awards = opportunities.filter((o) => o.universityId === u.id);
+  const currentSourceIds = new Set(
+    Object.values(u).flatMap((value) =>
+      value && typeof value === "object" && "sourceIds" in value
+        ? (value.sourceIds as string[])
+        : [],
+    ),
+  );
+  const displayedSources = u.sources.filter(
+    (s) => currentSourceIds.has(s.id) || u.costSourceIds.includes(s.id),
+  );
+  const admissionsUrl =
+    u.sources.find((s) =>
+      [
+        "admissionEligibility",
+        "applicationPlatform",
+        "requirements",
+        "testPolicy",
+      ].some((f) => s.fields.includes(f)),
+    )?.url ?? u.website;
   return (
     <div className="page-container detail-page">
       <Link className="back-link" href="/explore">
@@ -92,7 +131,8 @@ export default async function UniversityPage({
           <h1>{u.name}</h1>
           <p className="location">
             <MapPin size={15} />
-            {u.city}, {u.state}, United States
+            {u.city}
+            {u.state ? `, ${u.state}` : ""} · {u.country}
           </p>
         </div>
         <UniversityActions id={u.id} />
@@ -101,7 +141,11 @@ export default async function UniversityPage({
         <div>
           <span>International student aid</span>
           <strong>
-            {u.internationalAid.value ? "Need-based aid" : "Not yet verified"}
+            {u.internationalAid.value
+              ? "Need-based aid"
+              : awards.length
+                ? "Scholarships / fee support"
+                : "Not yet verified"}
           </strong>
         </div>
         <div>
@@ -109,16 +153,31 @@ export default async function UniversityPage({
           <strong>
             {u.needBlind.value
               ? "Need-blind, with conditions"
-              : "Not yet verified"}
+              : u.needBlind.value === false
+                ? "Need-aware"
+                : "Not yet verified"}
           </strong>
         </div>
         <div>
-          <span>Individual funding award</span>
-          <strong>Not yet known</strong>
+          <span>
+            Annual cost baseline · {u.annualCost.cycle ?? "year not verified"}
+          </span>
+          <strong>
+            {u.annualCost.value === null
+              ? "Not yet verified"
+              : money(u.annualCost.value, u.costCurrency)}
+          </strong>
         </div>
         <div>
           <span>Research checked</span>
-          <strong>Oct 18, 2026</strong>
+          <strong>
+            {dateLabel(
+              [...u.sources]
+                .map((s) => s.checkedAt)
+                .sort()
+                .at(-1) ?? null,
+            )}
+          </strong>
         </div>
       </div>
       <PolicyNote />
@@ -128,6 +187,7 @@ export default async function UniversityPage({
           "Admissions",
           "Financial aid",
           "Estimated cost",
+          "Deadlines",
           "Checklist",
           "Sources",
         ].map((s) => (
@@ -155,12 +215,25 @@ export default async function UniversityPage({
               )) ?? <span>Not yet verified</span>}
             </div>
             <Evidence university={u} field={u.programs} />
+            <p className="program-conditions">{u.programs.note}</p>
+            <Help term="selectivity" />
             <MatchPanel university={u} />
           </section>
           <section id="admissions" className="detail-section">
             <span className="eyebrow">02 / KNOW WHAT’S REQUIRED</span>
             <h2>Admissions, with the details.</h2>
+            <p>
+              Review the requirements that apply to your curriculum, program and
+              intake before submitting an application.
+            </p>
+            <Help term="testing" />
+            <Help term="english" />
             <dl>
+              <FactRow
+                u={u}
+                field={u.admissionEligibility}
+                label="Applicant and curriculum conditions"
+              />
               <FactRow u={u} field={u.testPolicy} label="SAT / ACT policy" />
               <FactRow
                 u={u}
@@ -169,9 +242,13 @@ export default async function UniversityPage({
               />
               <FactRow
                 u={u}
-                field={u.admissionDeadline}
-                label="Fall 2027 admission deadline"
-                text={dateLabel(u.admissionDeadline.value)}
+                field={u.englishWaiver}
+                label="English test exemption"
+                text={
+                  u.englishWaiver.value
+                    ? "Possible under the conditions below"
+                    : "No exemption verified under this policy"
+                }
               />
               <FactRow
                 u={u}
@@ -191,7 +268,7 @@ export default async function UniversityPage({
                 text={
                   u.applicationFee.value === null
                     ? undefined
-                    : money(u.applicationFee.value)
+                    : money(u.applicationFee.value, u.costCurrency)
                 }
               />
               <FactRow
@@ -205,16 +282,73 @@ export default async function UniversityPage({
                 }
               />
             </dl>
+            {u.englishMinimums.value && (
+              <div className="requirements-list">
+                <h3>Published English scores</h3>
+                <p>
+                  Minimums and recommendations have different meanings. Use the
+                  correct version and score scale; these are not admission
+                  guarantees.
+                </p>
+                {u.englishMinimums.value.map((m, i) => (
+                  <div className="requirement-item" key={i}>
+                    <strong>
+                      {m.test}: {m.score} · {m.kind}
+                    </strong>
+                    <p>{m.condition}</p>
+                  </div>
+                ))}
+                <Evidence university={u} field={u.englishMinimums} />
+              </div>
+            )}
+            <h3>Documents to prepare</h3>
+            {u.requirements.scope && (
+              <p className="notice amber-notice">
+                This checklist applies to {u.requirements.scope.program}. Other
+                programs may have different requirements.
+              </p>
+            )}
+            {u.requirements.value ? (
+              <>
+                <ul className="requirements-list">
+                  {u.requirements.value.map((r, i) => (
+                    <li className="requirement-item" key={i}>
+                      <strong>{r.label}</strong>{" "}
+                      <span className="tag neutral">{r.status}</span>
+                      <p>
+                        {r.condition ??
+                          "Check the applicant-specific instructions."}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+                <Evidence university={u} field={u.requirements} />
+              </>
+            ) : (
+              <p>
+                Not yet verified. Check the official application instructions
+                for transcripts, essays, recommendations and translations.
+              </p>
+            )}
+            <ExternalLink href={admissionsUrl}>
+              Official admissions instructions
+            </ExternalLink>
           </section>
           <section id="financial-aid" className="detail-section">
             <span className="eyebrow">03 / UNDERSTAND THE POSSIBILITIES</span>
             <h2>Funding is personal. Policies are a start.</h2>
+            <Help term="needBlind" />
+            <Help term="fullNeed" />
             <dl>
               <FactRow
                 u={u}
                 field={u.internationalAid}
                 label="International aid eligibility"
-                text="International applicants may apply for need-based aid"
+                text={
+                  u.internationalAid.value
+                    ? "Eligible international applicants may apply for need-based aid"
+                    : "Institutional need-based aid is not available under this policy"
+                }
               />
               <FactRow
                 u={u}
@@ -230,7 +364,11 @@ export default async function UniversityPage({
                 u={u}
                 field={u.meetsFullNeed}
                 label="Demonstrated financial need"
-                text="Meets full institution-calculated need"
+                text={
+                  u.meetsFullNeed.value
+                    ? "Meets full institution-calculated need"
+                    : "Does not promise to meet full demonstrated need"
+                }
               />
               <FactRow
                 u={u}
@@ -264,6 +402,35 @@ export default async function UniversityPage({
                 text={dateLabel(u.aidDeadline.value)}
               />
             </dl>
+            {awards
+              .filter((o) => o.kind !== "Institutional policy")
+              .map((o) => (
+                <article className="profile-award panel" key={o.id}>
+                  <h3>{o.name}</h3>
+                  <p>{o.coverage}</p>
+                  <p>
+                    <strong>Eligibility: </strong>
+                    {o.eligibleCitizenships?.join(", ") ??
+                      "Citizenship and applicant conditions must be checked individually."}
+                  </p>
+                  <p>{o.source.note}</p>
+                  <p>
+                    <strong>Apply: </strong>
+                    {o.separateApplication ?? "Not yet verified"}
+                  </p>
+                  <p>
+                    <strong>Renewal: </strong>
+                    {o.renewal ?? "Not yet verified"}
+                  </p>
+                  <small>
+                    {o.source.cycle ?? "Intake not specified"} · checked{" "}
+                    {dateLabel(o.source.checkedAt)}
+                  </small>
+                  <ExternalLink href={o.source.url}>
+                    Official award terms
+                  </ExternalLink>
+                </article>
+              ))}
             <div className="notice amber-notice">
               <Info size={18} />
               <p>
@@ -278,25 +445,54 @@ export default async function UniversityPage({
             <span className="eyebrow">04 / LOOK AT THE WHOLE PICTURE</span>
             <h2>Annual cost of attendance.</h2>
             <p>
-              Fall 2027 · USD. Missing costs remain unknown and are never added
-              as zero.
+              {u.costCurrency} ·{" "}
+              {u.costCycle ?? "Academic year not yet verified"}. Costs are a
+              planning baseline. Missing expenses remain unknown.
             </p>
-            <div className="cost-table">
-              {costKeys.map((k) => (
-                <div key={k}>
-                  <span>{costLabels[k]}</span>
+            {u.annualCost.value !== null && (
+              <div className="notice amber-notice">
+                <div>
                   <strong>
-                    {u.costs[k] === null
-                      ? "Not yet verified"
-                      : money(u.costs[k]!, u.costCurrency)}
+                    Official cost baseline:{" "}
+                    {money(u.annualCost.value, u.costCurrency)} ·{" "}
+                    {u.annualCost.cycle}
+                  </strong>
+                  <p>{u.annualCost.note}</p>
+                  <p>
+                    {fieldStatus(u.annualCost, u) === "verified_current"
+                      ? "Check the included expenses and your individual circumstances."
+                      : "Fall 2027 / 2027–28 costs are not yet verified. This older baseline is not your final price."}
+                  </p>
+                  <Evidence university={u} field={u.annualCost} />
+                </div>
+              </div>
+            )}
+            <details>
+              <summary>Cost categories and missing expenses</summary>
+              <div className="cost-table">
+                {costKeys.map((k) => (
+                  <div key={k}>
+                    <span>{costLabels[k]}</span>
+                    <strong>
+                      {u.costs[k] === null
+                        ? "Not yet verified"
+                        : money(u.costs[k]!, u.costCurrency)}
+                    </strong>
+                  </div>
+                ))}
+                <div className="cost-total">
+                  <span>Complete itemized total</span>
+                  <strong>
+                    {costKeys.some((k) => u.costs[k] === null)
+                      ? "Not yet known"
+                      : money(
+                          costKeys.reduce((s, k) => s + u.costs[k]!, 0),
+                          u.costCurrency,
+                        )}
                   </strong>
                 </div>
-              ))}
-              <div className="cost-total">
-                <span>Total annual cost</span>
-                <strong>Insufficient verified information</strong>
               </div>
-            </div>
+            </details>
             <Link
               className="button button-primary"
               href={`/calculator?university=${u.id}`}
@@ -304,6 +500,10 @@ export default async function UniversityPage({
               Build your own funding scenario
               <ArrowRight size={16} />
             </Link>
+          </section>
+          <section id="deadlines" className="detail-section">
+            <h2>Application and funding deadlines</h2>
+            <DeadlineTable university={u} />
           </section>
           <section id="checklist" className="detail-section">
             <span className="eyebrow">05 / ONE STEP AT A TIME</span>
@@ -332,6 +532,7 @@ export default async function UniversityPage({
           <section id="sources" className="detail-section">
             <span className="eyebrow">06 / CHECK OUR WORK</span>
             <h2>Sources, dates, and open questions.</h2>
+            <Help term="sources" />
             <p>
               Each finding has its own evidence. A general policy is not
               automatically a verified Fall 2027 rule.
@@ -347,28 +548,31 @@ export default async function UniversityPage({
                 ))}
               </ul>
             </div>
-            <div className="source-list">
-              {u.sources.map((s) => (
-                <article id={`source-${s.id}`} key={s.id}>
-                  <div>
-                    <span
-                      className={`tag ${s.status === "verified" ? "green" : "amber"}`}
-                    >
-                      {s.status === "verified"
-                        ? "Official source"
-                        : "Needs rechecking"}
-                    </span>
-                    <span>Checked {dateLabel(s.checkedAt)}</span>
-                  </div>
-                  <ExternalLink href={s.url}>{s.title}</ExternalLink>
-                  <p>{s.note}</p>
-                  <small>
-                    Supports: {s.fields.join(", ")} · Cycle:{" "}
-                    {s.cycle || "General policy"}
-                  </small>
-                </article>
-              ))}
-            </div>
+            <details>
+              <summary>
+                Sources and verification ({displayedSources.length})
+              </summary>
+              <div className="source-list">
+                {displayedSources.map((s) => (
+                  <article id={`source-${s.id}`} key={s.id}>
+                    <div>
+                      <span className="tag neutral">
+                        {s.status === "verified"
+                          ? "Official source"
+                          : "Needs rechecking"}
+                      </span>
+                      <span>Checked {dateLabel(s.checkedAt)}</span>
+                    </div>
+                    <ExternalLink href={s.url}>{s.title}</ExternalLink>
+                    <p>{s.note}</p>
+                    <small>
+                      {s.cycle ||
+                        "General official policy; intake not specified"}
+                    </small>
+                  </article>
+                ))}
+              </div>
+            </details>
           </section>
         </div>
         <aside className="detail-aside">
@@ -381,8 +585,11 @@ export default async function UniversityPage({
               Confirm your requirements with the university before making a
               decision or submitting an application.
             </p>
-            <ExternalLink className="button button-primary" href={u.website}>
-              Visit official university website
+            <ExternalLink
+              className="button button-primary"
+              href={admissionsUrl}
+            >
+              Visit official admissions website
             </ExternalLink>
             <hr />
             <Link href={`/calculator?university=${u.id}`}>

@@ -4,6 +4,7 @@ import { useApp } from "@/components/providers";
 import { matchUniversity } from "@/lib/matching/match";
 import { toggleSaved, updateSaved } from "@/lib/storage/state";
 import type { University } from "@/types/domain";
+import { findUniversity } from "@/data/universities";
 import { Button } from "@/components/ui/button";
 export function MatchPanel({ university }: { university: University }) {
   const { state } = useApp();
@@ -47,21 +48,27 @@ export function AddChecklist({ universityId }: { universityId: string }) {
           const saved = next.saved.find(
             (u) => u.universityId === universityId,
           )!;
-          const texts = [
-            "Confirm Fall 2027 admissions deadline",
-            "Review transcript and test requirements",
-            "Check essays and recommendations",
-            "Verify international aid forms and deadline",
+          const u = findUniversity(universityId)!;
+          const prompts = [
+            ["Confirm Fall 2027 admissions deadline", "deadlines"],
+            ["Review transcript and test requirements", "requirements"],
+            ["Confirm English evidence and exemptions", "englishPolicy"],
+            ["Check essays and recommendations", "requirements"],
+            ["Verify international aid forms and deadline", "aidForms"],
           ];
           return updateSaved(next, universityId, {
             tasks: [
               ...saved.tasks,
-              ...texts
-                .filter((t) => !saved.tasks.some((x) => x.text === t))
-                .map((text) => ({
+              ...prompts
+                .filter(([text]) => !saved.tasks.some((x) => x.text === text))
+                .map(([text, field]) => ({
                   id: crypto.randomUUID(),
                   text,
                   done: false,
+                  kind: "research" as const,
+                  sourceUrl:
+                    u.sources.find((s) => s.fields.includes(field))?.url ??
+                    u.website,
                 })),
             ],
           });

@@ -30,6 +30,38 @@ export function validateUniversities(input: unknown) {
       throw new Error(`Costs need a cycle and evidence: ${u.id}`);
     if (u.costSourceIds.some((id) => !ids.has(id)))
       throw new Error(`Missing cost source: ${u.id}`);
+    if (
+      u.annualCost.value !== null &&
+      (!u.annualCost.cycle || !/20\d{2}/.test(u.annualCost.cycle))
+    )
+      throw new Error(`Annual cost baseline needs an academic year: ${u.id}`);
+    for (const d of u.deadlines.value ?? []) {
+      if (d.date && !d.cycle)
+        throw new Error(`Dated deadline needs an intake: ${u.id}.${d.label}`);
+      if (
+        d.cycle === "Fall 2027" &&
+        d.date &&
+        (d.date < "2026-01-01" || d.date >= "2027-09-01")
+      )
+        throw new Error(
+          `Deadline conflicts with Fall 2027: ${u.id}.${d.label}`,
+        );
+      if (d.sourceIds?.some((id) => !ids.has(id)))
+        throw new Error(`Missing deadline source: ${u.id}`);
+    }
+    const dates = new Map<string, string>();
+    for (const d of u.deadlines.value ?? [])
+      if (d.date) {
+        const key = `${d.label}-${d.cycle}`;
+        if (dates.has(key) && dates.get(key) !== d.date)
+          throw new Error(`Conflicting deadlines: ${u.id}.${key}`);
+        dates.set(key, d.date);
+      }
+    if (
+      u.satMiddle50.value &&
+      u.satMiddle50.value.low > u.satMiddle50.value.high
+    )
+      throw new Error(`Invalid SAT range: ${u.id}`);
   }
   return universities;
 }

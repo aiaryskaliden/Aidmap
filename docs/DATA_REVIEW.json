@@ -1,0 +1,1331 @@
+{
+  "summary": {
+    "reviewDate": "2026-10-20",
+    "previousUniversityCount": 8,
+    "universityCount": 30,
+    "us": 20,
+    "europe": 10,
+    "countries": [
+      "United States",
+      "Italy",
+      "France",
+      "Netherlands",
+      "Hungary",
+      "Germany"
+    ],
+    "withInternationalFundingEvidence": 30,
+    "withInternationalNeedBasedAid": 22,
+    "withVerifiedUndergraduatePrograms": 30,
+    "withCurrentAdmissionInformation": 14,
+    "withPreviousCycleReferences": 15,
+    "withDatedCostBaselines": 8,
+    "withCurrentDatedDeadlines": 6,
+    "fieldEvidenceRecords": 397,
+    "fundingOpportunities": 38
+  },
+  "linkCheckDate": "2026-10-20",
+  "universities": [
+    {
+      "id": "harvard",
+      "name": "Harvard University",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": true,
+      "costYear": "2026–27",
+      "currentDates": 0,
+      "review": [
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "yale",
+      "name": "Yale University",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": true,
+      "costBaseline": true,
+      "costYear": "2026–27",
+      "currentDates": 0,
+      "review": [
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "princeton",
+      "name": "Princeton University",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": true,
+      "costBaseline": true,
+      "costYear": "2026–27",
+      "currentDates": 0,
+      "review": [
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "mit",
+      "name": "Massachusetts Institute of Technology",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": true,
+      "costBaseline": true,
+      "costYear": "2026–27",
+      "currentDates": 0,
+      "review": [
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "amherst",
+      "name": "Amherst College",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": true,
+      "costBaseline": true,
+      "costYear": "2026–27",
+      "currentDates": 2,
+      "review": [
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "dartmouth",
+      "name": "Dartmouth College",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": true,
+      "costYear": "2026–27",
+      "currentDates": 0,
+      "review": [
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "bowdoin",
+      "name": "Bowdoin College",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": true,
+      "costYear": "2026–27",
+      "currentDates": 0,
+      "review": [
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "brown",
+      "name": "Brown University",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": true,
+      "costYear": "2026–27",
+      "currentDates": 0,
+      "review": [
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "williams",
+      "name": "Williams College",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "annual cost",
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "swarthmore",
+      "name": "Swarthmore College",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "English admission evidence",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "wellesley",
+      "name": "Wellesley College",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents"
+      ]
+    },
+    {
+      "id": "wesleyan",
+      "name": "Wesleyan University",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "annual cost",
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "uchicago",
+      "name": "University of Chicago",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "English admission evidence",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents"
+      ]
+    },
+    {
+      "id": "duke",
+      "name": "Duke University",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "English admission evidence",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents"
+      ]
+    },
+    {
+      "id": "vanderbilt",
+      "name": "Vanderbilt University",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 3,
+      "review": [
+        "English admission evidence",
+        "annual cost",
+        "application documents"
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice University",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents"
+      ]
+    },
+    {
+      "id": "northwestern",
+      "name": "Northwestern University",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "English admission evidence",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents"
+      ]
+    },
+    {
+      "id": "notre-dame",
+      "name": "University of Notre Dame",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents"
+      ]
+    },
+    {
+      "id": "berea",
+      "name": "Berea College",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "washington-and-lee",
+      "name": "Washington and Lee University",
+      "country": "United States",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 3,
+      "review": [
+        "English admission evidence",
+        "annual cost",
+        "application documents"
+      ]
+    },
+    {
+      "id": "bocconi",
+      "name": "Bocconi University",
+      "country": "Italy",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 2,
+      "review": [
+        "English admission evidence",
+        "annual cost",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "bologna",
+      "name": "University of Bologna",
+      "country": "Italy",
+      "programs": true,
+      "internationalNeedAid": true,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "English admission evidence",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "sciences-po",
+      "name": "Sciences Po",
+      "country": "France",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 1,
+      "review": [
+        "English admission evidence",
+        "annual cost",
+        "application documents"
+      ]
+    },
+    {
+      "id": "erasmus-rotterdam",
+      "name": "Erasmus University Rotterdam",
+      "country": "Netherlands",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "English admission evidence",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents"
+      ]
+    },
+    {
+      "id": "amsterdam",
+      "name": "University of Amsterdam",
+      "country": "Netherlands",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "English admission evidence",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents"
+      ]
+    },
+    {
+      "id": "luiss",
+      "name": "Luiss Guido Carli",
+      "country": "Italy",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 1,
+      "review": [
+        "English admission evidence",
+        "annual cost",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "corvinus-budapest",
+      "name": "Corvinus University of Budapest",
+      "country": "Hungary",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "debrecen",
+      "name": "University of Debrecen",
+      "country": "Hungary",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "English admission evidence",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "szeged",
+      "name": "University of Szeged",
+      "country": "Hungary",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "rhine-waal",
+      "name": "Rhine-Waal University of Applied Sciences",
+      "country": "Germany",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "url": "https://admission.brown.edu/ask/international-applicants",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.brown.edu/financial-aid",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.brown.edu/first-year/application-checklist",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.brown.edu/first-year/standardized-tests",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.brown.edu/international/english-proficiency",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.brown.edu/international/financial-aid",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.princeton.edu/academics/degrees-departments",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.princeton.edu/apply/application-checklist",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.princeton.edu/apply/counselors",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.princeton.edu/apply/international-students",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.princeton.edu/apply/standardized-testing",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.princeton.edu/cost-aid/fees-payment-options",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.rice.edu/apply/first-year-domestic-applicants",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admission.rice.edu/apply/first-year-international-applicants",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://admissions.dartmouth.edu/academics/areas-study",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.dartmouth.edu/apply-dartmouth",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.dartmouth.edu/apply/testing-policy",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.dartmouth.edu/estimate-your-cost/apply-financial-aid",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.dartmouth.edu/estimate-your-cost/types-financial-aid",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.dartmouth.edu/glossary-question/if-english-not-my-first-language-am-i-required-submit-language-proficiency-test",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.duke.edu/academic-possibilities/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.duke.edu/apply/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.duke.edu/financial-support/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.duke.edu/resources/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.nd.edu/apply/resources-for/international-applicants/application-information/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.northwestern.edu/academics/majors-minors/",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://admissions.northwestern.edu/apply/identities/international.html",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://admissions.northwestern.edu/apply/requirements.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.vanderbilt.edu/affordability/international-costs-and-finances/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.vanderbilt.edu/apply/testing-policies",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.yale.edu/international",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://admissions.yale.edu/majors",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.yale.edu/posts/2026-08-17-application-update-2026-2027",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.yale.edu/requirements",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.yale.edu/standardized-testing",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://admissions.yale.edu/timelines",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://apply.mitadmissions.org/portal/apply",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://as.vanderbilt.edu/undergraduate-programs/majors-minors/",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://catalog.mit.edu/degree-charts/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://catalog.nd.edu/undergraduate/general-information/academic-profile/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://college.harvard.edu/academics/liberal-arts-sciences/concentrations",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://college.harvard.edu/admissions/apply",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://college.uchicago.edu/academics/programs-study",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://collegeadmissions.uchicago.edu/apply/application/required-materials/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://collegeadmissions.uchicago.edu/financial-support/financial-overview/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://computing.vanderbilt.edu/undergraduate-programs/computer-science-bachelor-of-arts/",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://corsi.unibo.it/1cycle/EconomicsAndFinance",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://digital.swarthmore.edu/viewbook/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://edu.unideb.hu/p/faq-stipendium-hungaricum-scholarship",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://edu.unideb.hu/p/programs-a-z",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://engineering.vanderbilt.edu/academics/undergraduate/academic-services/",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://finaid.brown.edu/apply/first-year-international",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://finaid.brown.edu/estimate-cost-aid/cost",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://finaid.princeton.edu/apply-aid-prospective-students",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://finaid.yale.edu/apply/prospective",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://finaid.yale.edu/coa",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://finaid.yale.edu/faq",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://finaid.yale.edu/terminology",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://financialaid.dartmouth.edu/apply-aid/international-students",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://financialaid.dartmouth.edu/apply-aid/prospective-transfer-students/how-apply-aid",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://financialaid.dartmouth.edu/apply-aid/prospective-transfer-students/how-apply-aid/international-students",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://financialaid.dartmouth.edu/cost-attendance/cost-attendance-2026-2027",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://financialaid.dartmouth.edu/how-aid-works/how-much-help-will-i-get",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://financialaid.nd.edu/aid-types/merit-based-scholarships/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://financialaid.nd.edu/contact/frequently-asked-questions/pathways-to-notre-dame/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://hub.williams.edu/sfs/glossary/",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://mitadmissions.org/discover/the-mit-education/majors-minors/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://mitadmissions.org/help/faq/scholarships/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://music.northwestern.edu/admission/undergraduate/faq",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://ousf.duke.edu/merit-scholarships/karsh-international-scholars-program/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://sci.u-szeged.hu/english/undergraduate-programs/computer-science-bsc",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://sfs.mit.edu/cost-of-attendance-class-of-2030/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://sfs.mit.edu/undergraduate-students/apply-for-aid/deadlines-process/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://sfs.mit.edu/undergraduate-students/apply-for-aid/international/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/making-mit-affordable/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://stipendiumhungaricum.hu/about/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://stipendiumhungaricum.hu/apply/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://u-szeged.hu/prospective-students/full-time-programs/bachelor-programs",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://u-szeged.hu/prospective-students/printed-publications/250313-szte-stipendium",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://undergradaid.northwestern.edu/faqs/eligibility-aid-applications/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.amherst.edu/academiclife/departments",
+      "status": 405,
+      "result": "manual check"
+    },
+    {
+      "url": "https://www.amherst.edu/admission/apply/firstyear",
+      "status": 405,
+      "result": "manual check"
+    },
+    {
+      "url": "https://www.amherst.edu/admission/apply/international",
+      "status": 405,
+      "result": "manual check"
+    },
+    {
+      "url": "https://www.amherst.edu/offices/financialaid/international_students/appleton",
+      "status": 405,
+      "result": "manual check"
+    },
+    {
+      "url": "https://www.amherst.edu/tuition",
+      "status": 405,
+      "result": "manual check"
+    },
+    {
+      "url": "https://www.berea.edu/academics/departments-programs",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.berea.edu/academics/departments-programs/economics-and-business/eco-bus-majors-and-minors",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.bowdoin.edu/academics/departments-and-programs/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.bowdoin.edu/admissions/apply/index.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.bowdoin.edu/admissions/apply/international-students/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.bowdoin.edu/admissions/apply/international-students/index.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.bowdoin.edu/admissions/apply/test-optional-policy/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.bowdoin.edu/student-aid/apply-for-aid/international-students.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.bowdoin.edu/student-aid/cost-of-attendance/index.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.bowdoin.edu/student-aid/faqs/index.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.bowdoin.edu/student-aid/types-of-aid/index.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.brown.edu/undergraduate-programs",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.daad.de/en/studying-in-germany/scholarships/funding-options/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.hochschule-rhein-waal.de/en/engineering-bsc",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.hochschule-rhein-waal.de/en/get-involved/companies/germany-scholarship",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.hochschule-rhein-waal.de/en/study/before-starting-university/application-process/guide-for-international-applicants",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.hochschule-rhein-waal.de/fileadmin/upload_redaktion/Dezernate/Studierendenangelegenheiten/Studierendenservice/Accepted_English_Language_Proofs__15_.pdf",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.hochschule-rhein-waal.de/fileadmin/upload_redaktion/Einrichtungen/ZFIT/Wirtschaft/Deutschlandstipendium/Awarding_Guidelines_Deutschlandstipendium_15_July_2026.pdf",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.luiss.it/en/courses-and-masters-programmes/undergraduate-school/economics-and-business",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.luiss.it/en/orientation-and-admissions/admission-procedures/admission-bachelors-and-masters-degree-programs-law/non-eu-students",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.luiss.it/en/orientation-and-admissions/admission-procedures/admission-to-bachelor's-degrees-and-the-single-cycle-law-degree/non-eu-schengen-students/direct-admission-to-bachelor's-and-master's-degrees-for-non-eu-students-with-certificates",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.luiss.it/en/orientation-and-admissions/incentives-and-support/exemptions-and-scholarships/previous-years/anno-accademico-20262027",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.rice.edu/majors-minors-and-programs",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://www.rsm.nl/education/scholarships/iba-scholarships/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.rsm.nl/education/scholarships/iba-scholarships/entrepreneurial-spirit-scholarship/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sciencespo.fr/admissions/en/undergraduate/faq/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sciencespo.fr/admissions/en/undergraduate/foreign-secondary-schools/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sciencespo.fr/en/education/undergraduate-studies",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sciencespo.fr/students/en/fees-funding/bursaries-financial-aid/emile-boutmy-scholarship/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-College-CDS-2024-2025.pdf",
+      "status": 404,
+      "result": "broken or moved"
+    },
+    {
+      "url": "https://www.uni-corvinus.hu/post/landing-page/application/admissions-requirements/bsc-in-data-science-in-business-admissions-requirements/?lang=en",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.uni-corvinus.hu/post/landing-page/application/scholarships-and-discounts/?lang=en",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.uni-corvinus.hu/post/landing-page/start-here/?lang=en",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/reduced-fixed-fee-for-citizens-of-particularly-poor-and-developing-countries-or-non-eu-non-oecd-countries",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.unibo.it/en/study/enrolment-fees-and-other-procedures/degree-programmes/tuition-fees-and-exemptions/submitting-the-isee-or-documents-for-foreign-income-for-university-fee-exemptions",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/admissions",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/secondary-school-diplomas",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/funding",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://www.unibocconi.it/sites/default/files/media/attachments/BScPrograms_7.pdf?CVID=mTPZwSO&MOD=AJPERES&VersionId=1vd.3bppwyM2YwqZSnxJIrMw9Bm5ZDzr",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://www.uva.nl/en/programmes/bachelors/actuarial-science/tuition-fee/scholarships.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.vanderbilt.edu/financialaid/undergraduate/international/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.vanderbilt.edu/scholarships/chancellor/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.vanderbilt.edu/scholarships/ingram/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.vanderbilt.edu/scholarships/signature/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.wellesley.edu/about-us/policies-procedures/gender-policy",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.wellesley.edu/admission-aid/faqs",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.wellesley.edu/admission-aid/student-financial-services/policies-faqs-stats-more/faqs",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.wellesley.edu/admission-aid/student-financial-services/understanding-financial-aid/apply-for-aid/international-students",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.wellesley.edu/programs-of-study",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.wesleyan.edu/academics/areas-of-study/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.wesleyan.edu/admission/undergraduate-admission/international/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.wesleyan.edu/finaid/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.williams.edu/academics/areas-of-study/",
+      "status": 403,
+      "result": "access limited; manual check"
+    },
+    {
+      "url": "https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/",
+      "status": 403,
+      "result": "access limited; manual check"
+    },
+    {
+      "url": "https://www.williams.edu/admission-aid/how-to-apply/first-year/",
+      "status": 403,
+      "result": "access limited; manual check"
+    },
+    {
+      "url": "https://www.williams.edu/admission-aid/tuition-aid/",
+      "status": 403,
+      "result": "access limited; manual check"
+    },
+    {
+      "url": "https://www.wlu.edu/academics/areas-of-study",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.wlu.edu/admissions/apply",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.wlu.edu/admissions/the-johnson-scholarship",
+      "status": 200,
+      "result": "reachable"
+    }
+  ]
+}

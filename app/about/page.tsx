@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ArrowRight, ShieldCheck, BookOpen, CircleHelp } from "lucide-react";
 import { PageHeading, ExternalLink } from "@/components/ui/shared";
+import { universities } from "@/data/universities";
 export const metadata = {
   title: "About & methodology",
   description:
@@ -28,8 +29,9 @@ export default function AboutPage() {
           <span className="eyebrow">01 / THE RESEARCH</span>
           <h2>A smaller database, carefully sourced.</h2>
           <p>
-            This initial release contains eight US institutions with official
-            evidence for international aid policies. It focuses on Fall 2027
+            This catalogue contains {universities.length} institutions across{" "}
+            {[...new Set(universities.map((u) => u.country))].length} countries,
+            with official academic and funding sources. It focuses on Fall 2027
             planning, but source dates and admission-cycle coverage are recorded
             separately.
           </p>
@@ -37,7 +39,8 @@ export default function AboutPage() {
             Official admissions, financial aid and academic pages support each
             field. Every source records a URL, a check date, the fields it
             supports, its cycle where available, and the important conditions.
-            Initial research was checked on October 18, 2026.
+            Each claim has its own review date. Older academic-year costs and
+            entry-cycle dates are labelled separately.
           </p>
           <p>
             These institutions are highly selective and are not a representative
@@ -74,9 +77,9 @@ export default function AboutPage() {
                 Not yet verified
               </dt>
               <dd>
-                No sufficient evidence was collected. We store null, display the
-                uncertainty, and exclude the field from filters requiring a
-                known value.
+                Reliable information is not yet available. You can include these
+                universities in search results, clearly marked as needing
+                verification. Unknown does not mean ineligible.
               </dd>
             </div>
           </dl>

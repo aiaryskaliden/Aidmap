@@ -1,6 +1,10 @@
-# Protected Vercel Preview
+# AidMap Preview access
 
-AidMap is deployed as a protected **Preview**. Public access and promotion of the application to Production require the owner's separate confirmation.
+Current state, October 20, 2026: the owner explicitly requested public access, then selected **only the already deployed version**. Vercel Authentication was disabled for the AidMap project (`ssoProtection: null`); no new deployment or Production promotion was performed. The existing site is public at https://aidmap-aiaryskaliden.vercel.app. AidMap 2.0 remains local and requires separate deployment permission.
+
+Anonymous GET requests to `/`, `/explore`, `/calculator`, `/planner` and `/dashboard` returned HTTP 200 without login redirects. A fresh browser successfully searched Princeton and loaded the illustrative calculator result ($71,000), with no page exceptions. The assistant's separate web retrieval tool could not read either URL; this is not proof that every GPT browsing mode can access it. Application source/build logs were not made public, and no applicant browser data was uploaded.
+
+The protected-deployment details below are the **October 18 history**, superseded only for website access by the explicit October 20 request. Do not infer permission to upload AidMap 2.0 or future changes. Before a future deployment, separately confirm the intended access settings.
 
 - Preferred URL: https://aidmap-aiaryskaliden.vercel.app
 - Original deployment URL: https://aidmap-px86r0bds-musorlegend-1144.vercel.app

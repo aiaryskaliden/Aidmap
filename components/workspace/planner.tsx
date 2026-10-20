@@ -20,6 +20,8 @@ import { PageHeading, EmptyState, LocalNote } from "@/components/ui/shared";
 import { WorkspaceNav } from "@/components/layout/shell";
 import { Button } from "@/components/ui/button";
 import { dateLabel } from "@/lib/utils";
+import { nextAdmissionDeadline } from "@/lib/admissions";
+import { AddChecklist } from "@/components/universities/detail-actions";
 function PlannerCard({ item }: { item: SavedUniversity }) {
   const { update, toast } = useApp();
   const [task, setTask] = useState("");
@@ -79,9 +81,28 @@ function PlannerCard({ item }: { item: SavedUniversity }) {
             type="date"
             aria-label={`Custom deadline for ${u.name}`}
             value={item.deadline ?? ""}
-            onChange={(e) => change({ deadline: e.target.value || null })}
+            onChange={(e) =>
+              change({
+                deadline: e.target.value || null,
+                deadlineSource: undefined,
+              })
+            }
           />
-          <small>User-defined · not an official date</small>
+          <small>
+            {item.deadlineSource
+              ? `${item.deadlineSource.label} · ${item.deadlineSource.cycle} · ${item.deadlineSource.kind}`
+              : "User-defined · not an official date"}
+          </small>
+          {item.deadlineSource && (
+            <a
+              className="external-link"
+              href={item.deadlineSource.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Review deadline source ↗
+            </a>
+          )}
         </label>
         <label className="field-label">
           Application type
@@ -103,12 +124,14 @@ function PlannerCard({ item }: { item: SavedUniversity }) {
       </div>
       <div className="planner-official-date">
         Official admission deadline:{" "}
-        <strong>{dateLabel(u.admissionDeadline.value)}</strong> ·{" "}
-        <Link href={`/universities/${u.id}#admissions`}>
+        <strong>{dateLabel(nextAdmissionDeadline(u)?.date ?? null)}</strong> ·
+        Fall 2027 ·{" "}
+        <Link href={`/universities/${u.id}#deadlines`}>
           Check requirements
           <ArrowUpRight size={12} />
         </Link>
       </div>
+      <AddChecklist universityId={u.id} />
       <div className="task-list">
         {item.tasks.map((t) => (
           <div className="task-row" key={t.id}>
@@ -161,6 +184,17 @@ function PlannerCard({ item }: { item: SavedUniversity }) {
                   />
                   <span>{t.text}</span>
                 </label>
+                {t.sourceUrl && (
+                  <a
+                    className="task-source"
+                    href={t.sourceUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Official source for ${t.text}`}
+                  >
+                    Source ↗
+                  </a>
+                )}
                 <button
                   className="icon-button"
                   aria-label={`Edit task ${t.text}`}

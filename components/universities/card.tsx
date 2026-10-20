@@ -4,14 +4,18 @@ import { ArrowUpRight, MapPin, ShieldCheck, CircleHelp } from "lucide-react";
 import type { University } from "@/types/domain";
 import { UniversityActions } from "./actions";
 import { dateLabel } from "@/lib/utils";
+import { nextAdmissionDeadline, cycleLabel } from "@/lib/admissions";
+import { opportunities } from "@/data/universities";
 import { matchUniversity } from "@/lib/matching/match";
 import { useApp } from "@/components/providers";
 export function UniversityCard({
   university: u,
   compact = false,
+  unknownFilters = [],
 }: {
   university: University;
   compact?: boolean;
+  unknownFilters?: string[];
 }) {
   const { state } = useApp();
   const match = matchUniversity(u, state.profile).find(
@@ -34,7 +38,7 @@ export function UniversityCard({
         </h3>
         <p className="location">
           <MapPin size={13} />
-          {u.city}, {u.state} · USA
+          {u.city} · {u.country}
         </p>
       </div>
       <div className="subject-tags">
@@ -48,7 +52,11 @@ export function UniversityCard({
         <p>
           {u.internationalAid.value === true
             ? "Need-based financial aid"
-            : "Not yet verified"}
+            : opportunities.some((o) => o.universityId === u.id)
+              ? "Scholarships / fee support"
+              : u.meritAid.value
+                ? "Merit scholarships"
+                : "Not yet verified"}
         </p>
         <span>
           {u.meetsFullNeed.value
@@ -56,10 +64,26 @@ export function UniversityCard({
             : "Coverage needs verification"}
         </span>
       </div>
+      <p className="card-policy-note">
+        SAT: {u.satPolicy.value ?? "not yet verified"} ·{" "}
+        {cycleLabel(u.satPolicy, u)}
+      </p>
+      {u.englishTests.scope && (
+        <p className="card-policy-note">
+          English evidence: {u.englishTests.scope.program} only (
+          {u.englishTests.scope.purpose}).
+        </p>
+      )}
       <div className="card-deadline">
         <span>Fall 2027 application deadline</span>
-        <strong>{dateLabel(u.admissionDeadline.value)}</strong>
+        <strong>{dateLabel(nextAdmissionDeadline(u)?.date ?? null)}</strong>
       </div>
+      {unknownFilters.length > 0 && (
+        <p className="unknown-match">
+          Needs verification: {unknownFilters.join(", ")}. This is not a
+          confirmed match.
+        </p>
+      )}
       {match && (
         <p className="match-hint">
           {match.category}: {state.profile?.major}
