@@ -1,4 +1,7 @@
 import { notFound } from "next/navigation";
+import { findDossier } from "@/data/core-admissions";
+import { CoreProfile } from "@/components/universities/core-profile";
+import { TestScoreSection } from "@/components/universities/test-scores";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -93,6 +96,8 @@ export default async function UniversityPage({
 }) {
   const u = findUniversity((await params).slug);
   if (!u) notFound();
+  const dossier = findDossier(u.id);
+  if (dossier) return <CoreProfile university={u} dossier={dossier} />;
   const awards = opportunities.filter((o) => o.universityId === u.id);
   const currentSourceIds = new Set(
     Object.values(u).flatMap((value) =>
@@ -180,11 +185,13 @@ export default async function UniversityPage({
           </strong>
         </div>
       </div>
+      <TestScoreSection university={u} />
       <PolicyNote />
       <nav className="detail-nav" aria-label="Profile sections">
         {[
           "Overview",
           "Admissions",
+          "Test scores",
           "Financial aid",
           "Estimated cost",
           "Deadlines",
@@ -282,9 +289,15 @@ export default async function UniversityPage({
                 }
               />
             </dl>
-            {u.englishMinimums.value && (
+            {u.englishMinimums.value && u.englishMinimums.value.length > 0 && (
               <div className="requirements-list">
                 <h3>Published English scores</h3>
+                {u.englishMinimums.scope && (
+                  <p className="test-scope">
+                    Applies to: {u.englishMinimums.scope.program} only ·{" "}
+                    {u.englishMinimums.scope.purpose}
+                  </p>
+                )}
                 <p>
                   Minimums and recommendations have different meanings. Use the
                   correct version and score scale; these are not admission

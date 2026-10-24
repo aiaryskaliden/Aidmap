@@ -3,6 +3,7 @@ import existingUpdates from "./research-existing-v2.json";
 import followupUpdates from "./research-followup-v2.json";
 import usExpansion from "./research-us-v2.json";
 import europeanExpansion from "./research-europe-v2.json";
+import testingUpdates from "./research-testing.json";
 import {
   emptyCosts,
   type EvidenceSource,
@@ -14,6 +15,9 @@ import {
 } from "@/types/domain";
 import { validateUniversities } from "@/lib/validation/universities";
 import { normalizeMajor } from "@/lib/admissions";
+import { withCoreResearch } from "@/lib/core-catalogue";
+import { findDossier } from "./core-admissions";
+import type { IeltsGuidance } from "@/types/test-scores";
 type Finding = {
   field: string;
   value: unknown;
@@ -56,19 +60,28 @@ type Research = {
   scholarships?: ResearchAward[];
   unknowns?: string[];
 };
-const research: Research[] = [
-  ...original.map((r) => ({
-    ...r,
-    findings: [
-      ...r.findings,
-      ...(existingUpdates.find((x) => x.slug === r.slug)?.findings ?? []),
-      ...(followupUpdates.find((x) => x.slug === r.slug)?.findings ?? []),
-    ],
-  })),
-  ...(usExpansion as Research[]),
-  ...(europeanExpansion as Research[]),
-];
-export const universities = validateUniversities(
+const research: Research[] = (
+  [
+    ...original.map((r) => ({
+      ...r,
+      findings: [
+        ...r.findings,
+        ...(existingUpdates.find((x) => x.slug === r.slug)?.findings ?? []),
+        ...(followupUpdates.find((x) => x.slug === r.slug)?.findings ?? []),
+      ],
+    })),
+    ...(usExpansion as Research[]),
+    ...(europeanExpansion as Research[]),
+  ] as Research[]
+).map((r) => ({
+  ...r,
+  findings: [
+    ...r.findings,
+    ...((testingUpdates.find((x) => x.slug === r.slug)?.findings ??
+      []) as Finding[]),
+  ],
+}));
+const baseUniversities = validateUniversities(
   research.map((r) => {
     const sources: EvidenceSource[] = r.findings.map((f, i) => ({
       id: `${r.slug}-${i + 1}`,
@@ -84,6 +97,7 @@ export const universities = validateUniversities(
         ...(f.field === "needBlindException" ? ["needBlind"] : []),
         ...(f.field === "satPolicy" ? ["testPolicy"] : []),
         ...(f.field === "englishTests" ? ["englishPolicy"] : []),
+        ...(f.field === "ielts" ? ["englishMinimums"] : []),
       ],
       note: f.note,
     }));
@@ -158,6 +172,28 @@ export const universities = validateUniversities(
                 : "SAT or other testing alternatives; check conditions",
       };
     const englishTests = get<string[]>("englishTests");
+    const ielts = get<IeltsGuidance>("ielts");
+    const englishMinimums = ielts.value
+      ? {
+          ...ielts,
+          value: ielts.value.scores.length
+            ? ielts.value.scores.flatMap((s) =>
+                s.kind === "minimum" || s.kind === "recommended"
+                  ? [
+                      {
+                        test: "IELTS",
+                        score: s.score,
+                        kind: s.kind,
+                        condition: `${s.condition} English evidence: ${ielts.value!.requirement}.`,
+                      },
+                    ]
+                  : [],
+              )
+            : null,
+        }
+      : get<NonNullable<University["englishMinimums"]["value"]>>(
+          "englishMinimums",
+        );
     let englishPolicy = get<string>("englishPolicy");
     if (
       englishTests.value !== null &&
@@ -219,11 +255,15 @@ export const universities = validateUniversities(
       aidForms: get<string>("aidForms"),
       testPolicy,
       englishPolicy,
+      ielts,
       satPolicy,
+      satMinimum: get("satMinimum"),
+      satMedian: get("satMedian"),
+      satMiddle50: get("satMiddle50"),
       actPolicy: get("actPolicy"),
       englishTests,
       englishWaiver: get("englishWaiver"),
-      englishMinimums: get("englishMinimums"),
+      englishMinimums,
       admissionEligibility: get("admissionEligibility"),
       citizenshipEligibility: get("citizenshipEligibility"),
       requirements: get("requirements"),
@@ -257,6 +297,9 @@ export const universities = validateUniversities(
     };
   }),
 );
+export const universities = validateUniversities(
+  baseUniversities.map((u) => withCoreResearch(u, findDossier(u.id))),
+);
 export const findUniversity = (id: string) =>
   universities.find((u) => u.id === id);
 export const academicFields = [
@@ -283,7 +326,7 @@ export const opportunities: Scholarship[] = [
           "Need-based support is available; verify coverage and conditions.",
       amount: null,
       currency: u.costCurrency,
-      renewal: null,
+      renewal: findDossier(u.id)?.funding.renewal ?? null,
       deadline: u.aidDeadline,
       separateApplication: u.aidForms.value,
       source: u.sources.find((s) =>

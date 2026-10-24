@@ -1,0 +1,2577 @@
+[
+  {
+    "universityId": "harvard",
+    "sources": [
+      {
+        "id": "first-year",
+        "title": "Harvard first-year application and timeline",
+        "url": "https://college.harvard.edu/admissions/apply/first-year-applicants",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "requirements",
+        "title": "Harvard application requirements",
+        "url": "https://college.harvard.edu/admissions/apply/application-requirements",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "international",
+        "title": "Harvard international applicants",
+        "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "aid-2027",
+        "title": "Harvard prospective financial aid: 2027–28",
+        "url": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+        "checkedAt": "2026-10-20",
+        "cycle": "2027–2028",
+        "status": "target-cycle",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "cost-aid",
+        "title": "Harvard aid policy and 2026–27 costs",
+        "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–2027",
+        "status": "historical",
+        "applicability": "Undergraduate cost baseline and general aid policy"
+      },
+      {
+        "id": "cds-2024",
+        "title": "Harvard Common Data Set 2024–25, C7/C9",
+        "url": "https://bpb-us-e1.wpmucdn.com/sites.harvard.edu/dist/6/210/files/2025/06/HarvardUniversity_CDS_2024-2025.pdf",
+        "checkedAt": "2026-10-20",
+        "cycle": "Fall 2024",
+        "status": "historical",
+        "applicability": "Enrolled first-year score submitters"
+      },
+      {
+        "id": "programs",
+        "title": "Harvard undergraduate concentrations",
+        "url": "https://college.harvard.edu/academics/liberal-arts-sciences/concentrations",
+        "checkedAt": "2026-10-21",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "Undergraduate concentrations; selected examples"
+      },
+      {
+        "id": "renewal",
+        "title": "Harvard current-student aid renewal",
+        "url": "https://college.harvard.edu/financial-aid/apply-financial-aid/current-students",
+        "checkedAt": "2026-10-21",
+        "cycle": "2026–27",
+        "status": "historical",
+        "applicability": "Returning students; a process reference, not Fall 2027 entry forms"
+      }
+    ],
+    "route": {
+      "text": "Common Application for a first bachelor’s degree; dual enrollment during secondary school is eligible. Prior post-school university enrollment cannot be erased to restart. Bachelor’s degree holders are ineligible. QuestBridge has separate eligibility.",
+      "sourceIds": [
+        "first-year"
+      ]
+    },
+    "rounds": [
+      {
+        "name": "Restrictive Early Action",
+        "policy": "Nonbinding; restricts other private early applications and binding public early plans. Nonbinding public, military and overseas plans, qualifying scholarship deadlines and later ED II have exceptions. Decisions: mid-December; reply May 1.",
+        "sourceIds": [
+          "first-year"
+        ]
+      },
+      {
+        "name": "Regular Decision",
+        "policy": "Nonbinding; decisions by late March, reply May 1.",
+        "sourceIds": [
+          "first-year"
+        ]
+      }
+    ],
+    "fee": {
+      "amount": 95,
+      "currency": "USD",
+      "waiver": "Hardship waiver available to international applicants planning to seek aid; request through application guidance.",
+      "sourceIds": [
+        "first-year",
+        "international"
+      ]
+    },
+    "programs": [
+      {
+        "name": "Computer Science",
+        "category": "Computer Science",
+        "credential": "concentration",
+        "sourceIds": [
+          "programs"
+        ]
+      },
+      {
+        "name": "Economics",
+        "category": "Economics",
+        "credential": "concentration",
+        "sourceIds": [
+          "programs"
+        ]
+      },
+      {
+        "name": "Engineering Sciences",
+        "category": "Engineering",
+        "credential": "concentration",
+        "sourceIds": [
+          "programs"
+        ]
+      },
+      {
+        "name": "English",
+        "category": "Humanities",
+        "credential": "concentration",
+        "sourceIds": [
+          "programs"
+        ]
+      }
+    ],
+    "requirements": [
+      {
+        "id": "application",
+        "label": "Application, activities and personal essay",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Common Application",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "first-year"
+        ]
+      },
+      {
+        "id": "harvard-questions",
+        "label": "Five Harvard responses, 150 words each",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Common App Harvard questions; see official prompts",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "requirements"
+        ]
+      },
+      {
+        "id": "application-fee",
+        "label": "Pay $95 or request fee waiver",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Application payment/waiver",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "first-year"
+        ]
+      },
+      {
+        "id": "school-report",
+        "label": "School report, transcript and counselor letter",
+        "level": "Required",
+        "condition": "",
+        "owner": "Counselor",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "School submits supporting materials",
+        "due": "Up to one week after application deadline",
+        "sourceIds": [
+          "first-year"
+        ],
+        "reusableKey": "school-report"
+      },
+      {
+        "id": "teacher-letters",
+        "label": "Two teachers from different academic subjects",
+        "level": "Required",
+        "condition": "",
+        "owner": "Teacher",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Teacher recommendation forms",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "requirements"
+        ],
+        "reusableKey": "teacher-recommendations"
+      },
+      {
+        "id": "standardized-test",
+        "label": "SAT/ACT or documented access exception",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Self-report; SAT 3434 / ACT 1840",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "requirements"
+        ]
+      },
+      {
+        "id": "midyear",
+        "label": "Midyear report or predicted IB/A-level grades",
+        "level": "Conditional",
+        "condition": "Current pupils when grades exist; not required at REA submission",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "School report",
+        "due": "When available; deferred applicants in February",
+        "sourceIds": [
+          "requirements"
+        ],
+        "reusableKey": "midyear-report"
+      },
+      {
+        "id": "translation",
+        "label": "Translations with originals and translator identity",
+        "level": "Conditional",
+        "condition": "When supplying translated credentials or letters",
+        "owner": "Other",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "School/recommender; English teacher acceptable, applicant cannot translate",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "international"
+        ],
+        "reusableKey": "transcript-translation"
+      },
+      {
+        "id": "portal",
+        "label": "Activate portal and review missing materials",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "PIN in confirmation email",
+        "due": "After submission",
+        "sourceIds": [
+          "requirements"
+        ]
+      },
+      {
+        "id": "english-evidence",
+        "label": "English proficiency score",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Optional score submission",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "international"
+        ]
+      },
+      {
+        "id": "interview",
+        "label": "Alumni interview if available",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Follow invitation",
+        "due": "If invited; absence carries no penalty",
+        "sourceIds": [
+          "international"
+        ]
+      },
+      {
+        "id": "supplement",
+        "label": "Exceptional research or arts material",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Portal documents / SlideRoom media",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "requirements"
+        ]
+      },
+      {
+        "id": "css-profile",
+        "label": "2027–28 CSS Profile, school code 3434",
+        "level": "Conditional",
+        "condition": "Seeking institutional aid; alternative process for payment/access hardship",
+        "owner": "Student",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "College Board CSS Profile",
+        "due": "REA November 1, 2026; RD February 1, 2027",
+        "sourceIds": [
+          "aid-2027"
+        ]
+      },
+      {
+        "id": "idoc-income",
+        "label": "IDOC packet and 2025 family income evidence",
+        "level": "Conditional",
+        "condition": "Seeking aid; income tax return or wage/employer evidence if nonfiling",
+        "owner": "Parent",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "IDOC after CSS; English translations may be self-prepared",
+        "due": "Same aid deadline",
+        "sourceIds": [
+          "aid-2027"
+        ],
+        "reusableKey": "family-income-evidence"
+      },
+      {
+        "id": "final-report",
+        "label": "Final transcript and school report",
+        "level": "Conditional",
+        "condition": "Admitted and enrolling",
+        "owner": "School",
+        "stage": "enrollment",
+        "rounds": [],
+        "submission": "School via credential exchange or Common App",
+        "due": "July 1; final IB mid-July and A-levels mid-August",
+        "sourceIds": [
+          "requirements"
+        ],
+        "reusableKey": "final-school-report"
+      },
+      {
+        "id": "official-scores",
+        "label": "Official verification of reported test scores",
+        "level": "Conditional",
+        "condition": "Admitted and enrolling",
+        "owner": "Student",
+        "stage": "enrollment",
+        "rounds": [],
+        "submission": "Testing agencies",
+        "due": "Before enrollment",
+        "sourceIds": [
+          "requirements"
+        ]
+      }
+    ],
+    "testing": {
+      "text": "SAT/ACT required. In exceptional cost/access cases, AP, IB, GCSE/A-level or externally assessed leaving-exam results/predictions may substitute. Self-reporting and Score Choice are accepted; ACT uses highest composite. No cutoff.",
+      "sourceIds": [
+        "requirements"
+      ]
+    },
+    "scores": {
+      "cohort": "Fall 2024",
+      "population": "Enrolled first-year students who submitted each exam; CDS 2024–25",
+      "satComposite": null,
+      "satReading": [
+        740,
+        780
+      ],
+      "satMath": [
+        770,
+        800
+      ],
+      "actComposite": [
+        34,
+        36
+      ],
+      "satMedian": null,
+      "satSubmissionPercent": 54,
+      "actSubmissionPercent": 19,
+      "sourceIds": [
+        "cds-2024"
+      ],
+      "note": "The composite SAT cells are blank; section percentiles cannot be added. Historical context, not admission thresholds."
+    },
+    "english": {
+      "text": "English exams are optional for first-year applicants; they do not replace required academic testing. No numeric English minimum is specified on this page.",
+      "tests": [
+        {
+          "name": "IELTS",
+          "kind": "accepted",
+          "score": null,
+          "scale": "0–9",
+          "condition": "Optional evidence"
+        },
+        {
+          "name": "TOEFL",
+          "kind": "accepted",
+          "score": null,
+          "scale": "Version-dependent",
+          "condition": "Optional evidence"
+        },
+        {
+          "name": "Duolingo English Test",
+          "kind": "accepted",
+          "score": null,
+          "scale": "10–160",
+          "condition": "Optional evidence"
+        }
+      ],
+      "waiver": null,
+      "sourceIds": [
+        "international"
+      ],
+      "requirement": "Optional"
+    },
+    "selection": {
+      "text": "Harvard considers academic accomplishment, contribution, talents, life context and engagement with differing ideas. Prepare evidence of sustained work and thoughtful writing rather than chasing a numerical formula.",
+      "sourceIds": [
+        "first-year"
+      ],
+      "cdsYear": "2024–2025",
+      "factors": [
+        {
+          "name": "Rigor of secondary school record",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Class rank",
+          "importance": "Not considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Academic GPA",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Standardized tests",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Application essay",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Recommendations",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Interview",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Extracurricular activities",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Talent or ability",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Character and personal qualities",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "First generation",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Alumni relation",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Geographical residence",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "State residency",
+          "importance": "Not considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Religious affiliation",
+          "importance": "Not considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Volunteer work",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Work experience",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        },
+        {
+          "name": "Applicant interest",
+          "importance": "Not considered",
+          "sourceIds": [
+            "cds-2024"
+          ]
+        }
+      ]
+    },
+    "funding": {
+      "text": "International students receive the same need-based aid consideration. Harvard assesses each family’s resources and meets demonstrated need; personal budget and assessed contribution can differ.",
+      "forms": "CSS Profile and IDOC; FAFSA only for eligible US citizens/permanent residents. See the alternative process if CSS payment is inaccessible.",
+      "renewal": "Renew each year. The currently published 2026–27 returning-student process uses CSS Profile, IDOC and the student-completed FAADS; my.harvard lists individual requirements. Renewal instructions arrive in February, with a May 1 deadline. Update for the actual renewal year; these dates are not the prospective-student aid deadline.",
+      "exceptions": "Aid income-document translations may be prepared by students; admission credentials have a different translator rule.",
+      "sourceIds": [
+        "international",
+        "cost-aid",
+        "aid-2027",
+        "renewal"
+      ]
+    },
+    "costs": {
+      "year": "2026–2027",
+      "currency": "USD",
+      "total": 95134,
+      "components": [
+        {
+          "label": "Tuition",
+          "amount": 62226,
+          "kind": "billed",
+          "sourceIds": [
+            "cost-aid"
+          ]
+        },
+        {
+          "label": "Fees",
+          "amount": 6216,
+          "kind": "billed",
+          "sourceIds": [
+            "cost-aid"
+          ]
+        },
+        {
+          "label": "Housing",
+          "amount": 14250,
+          "kind": "billed",
+          "sourceIds": [
+            "cost-aid"
+          ]
+        },
+        {
+          "label": "Food",
+          "amount": 8942,
+          "kind": "billed",
+          "sourceIds": [
+            "cost-aid"
+          ]
+        },
+        {
+          "label": "Books",
+          "amount": 1000,
+          "kind": "estimated",
+          "sourceIds": [
+            "cost-aid"
+          ]
+        },
+        {
+          "label": "Personal expenses",
+          "amount": 2500,
+          "kind": "estimated",
+          "sourceIds": [
+            "cost-aid"
+          ]
+        },
+        {
+          "label": "Travel ($0–5,000)",
+          "amount": null,
+          "kind": "estimated",
+          "sourceIds": [
+            "cost-aid"
+          ]
+        },
+        {
+          "label": "Health insurance, additional unless waived",
+          "amount": 4954,
+          "kind": "waivable",
+          "sourceIds": [
+            "cost-aid"
+          ]
+        }
+      ],
+      "exclusions": "Total is the $95,134 lower end before variable travel; published range $95,134–100,134. Add insurance unless waived. This is not Fall 2027 pricing.",
+      "sourceIds": [
+        "cost-aid"
+      ]
+    },
+    "deadlines": [
+      {
+        "id": "rea-application",
+        "label": "REA application",
+        "category": "admission",
+        "rounds": [
+          "Restrictive Early Action"
+        ],
+        "date": null,
+        "monthDay": "11-01",
+        "cycle": null,
+        "timezone": "Applicant local time",
+        "time": "23:59",
+        "relative": null,
+        "sourceIds": [
+          "first-year"
+        ],
+        "note": ""
+      },
+      {
+        "id": "rd-application",
+        "label": "RD application",
+        "category": "admission",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": null,
+        "monthDay": "01-01",
+        "cycle": null,
+        "timezone": "Applicant local time",
+        "time": "23:59",
+        "relative": null,
+        "sourceIds": [
+          "first-year"
+        ],
+        "note": ""
+      },
+      {
+        "id": "rea-aid",
+        "label": "REA CSS Profile and IDOC",
+        "category": "aid",
+        "rounds": [
+          "Restrictive Early Action"
+        ],
+        "date": "2026-11-01",
+        "monthDay": "11-01",
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "aid-2027"
+        ],
+        "note": " Source academic aid year: 2027–2028."
+      },
+      {
+        "id": "rd-aid",
+        "label": "RD CSS Profile and IDOC",
+        "category": "aid",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": "2027-02-01",
+        "monthDay": "02-01",
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "aid-2027"
+        ],
+        "note": " Source academic aid year: 2027–2028."
+      },
+      {
+        "id": "rea-tests",
+        "label": "REA testing received",
+        "category": "testing",
+        "rounds": [
+          "Restrictive Early Action"
+        ],
+        "date": null,
+        "monthDay": "11-30",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "first-year"
+        ],
+        "note": "November testing accepted; October recommended."
+      },
+      {
+        "id": "final-school",
+        "label": "Final school report",
+        "category": "enrollment",
+        "rounds": [],
+        "date": null,
+        "monthDay": "07-01",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "requirements"
+        ],
+        "note": "Enrolling students; later IB/A-level release exceptions."
+      }
+    ],
+    "gaps": [
+      "General admission dates do not explicitly confirm Fall 2027; calendar planning must label the assigned year.",
+      "Latest accessible Harvard CDS verified here is 2024–25; a 2025–26 link could not be retrieved.",
+      "No verified English test-version, superscore, validity or section-score conditions on the first-year international page."
+    ]
+  },
+  {
+    "universityId": "yale",
+    "sources": [
+      {
+        "id": "requirements",
+        "title": "Yale first-year requirements",
+        "url": "https://admissions.yale.edu/requirements",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "apply",
+        "title": "Yale application platforms",
+        "url": "https://admissions.yale.edu/apply",
+        "checkedAt": "2026-10-21",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "eligibility",
+        "title": "Yale transfer and nontraditional prospectus",
+        "url": "https://admissions.yale.edu/trewprospectus",
+        "checkedAt": "2026-10-21",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "timeline",
+        "title": "Yale application timelines",
+        "url": "https://admissions.yale.edu/timelines",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "essays-2027",
+        "title": "Yale 2026–27 essay questions",
+        "url": "https://admissions.yale.edu/essay-topics",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–2027 admission cycle",
+        "status": "target-cycle",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "testing",
+        "title": "Yale standardized and English testing",
+        "url": "https://admissions.yale.edu/standardized-testing",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "testing-update",
+        "title": "Yale 2026–27 application update",
+        "url": "https://admissions.yale.edu/posts/2026-08-17-application-update-2026-2027",
+        "checkedAt": "2026-10-21",
+        "cycle": "2026–2027 admission cycle",
+        "status": "target-cycle",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "international",
+        "title": "Yale international admission and renewal",
+        "url": "https://admissions.yale.edu/international",
+        "checkedAt": "2026-10-21",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "supplements",
+        "title": "Yale optional supplements",
+        "url": "https://admissions.yale.edu/supplementary",
+        "checkedAt": "2026-10-21",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "interviews",
+        "title": "Yale interviews",
+        "url": "https://admissions.yale.edu/interviews",
+        "checkedAt": "2026-10-21",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "selection",
+        "title": "What Yale looks for",
+        "url": "https://admissions.yale.edu/what-yale-looks-for",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "programs",
+        "title": "Yale majors and academic programs",
+        "url": "https://admissions.yale.edu/majors",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "cds-2025",
+        "title": "Yale Common Data Set 2025–26, C7/C9/C13",
+        "url": "https://oir.yale.edu/sites/default/files/yale_cds_2025-26_md_20260616.pdf",
+        "checkedAt": "2026-10-20",
+        "cycle": "Fall 2025",
+        "status": "historical",
+        "applicability": "Enrolled first-year score submitters and historical selection categories"
+      },
+      {
+        "id": "aid-2027",
+        "title": "Yale prospective financial aid 2027–28",
+        "url": "https://finaid.yale.edu/apply/prospective",
+        "checkedAt": "2026-10-20",
+        "cycle": "2027–2028",
+        "status": "target-cycle",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "aid-faq",
+        "title": "Yale financial aid FAQ",
+        "url": "https://finaid.yale.edu/faq",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "cost",
+        "title": "Yale undergraduate costs 2026–27",
+        "url": "https://finaid.yale.edu/coa",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–2027",
+        "status": "historical",
+        "applicability": "Undergraduate annual cost baseline"
+      },
+      {
+        "id": "continuing-aid",
+        "title": "Yale continuing international aid",
+        "url": "https://finaid.yale.edu/apply/continuing",
+        "checkedAt": "2026-10-21",
+        "cycle": "2027–2028",
+        "status": "target-cycle",
+        "applicability": "Continuing students, not first-year application"
+      }
+    ],
+    "route": {
+      "text": "Submit one Common Application or Coalition Application on Scoir; QuestBridge is a distinct eligibility-limited route. First-year applicants have not completed a full year of postsecondary coursework; review transfer/Eli Whitney routes if prior study changes eligibility.",
+      "sourceIds": [
+        "apply",
+        "eligibility"
+      ]
+    },
+    "rounds": [
+      {
+        "name": "Single-Choice Early Action",
+        "policy": "Nonbinding; generally excludes other EA/ED plans. Exceptions include nonbinding public or rolling admission, programs notifying after January 1, and institutions outside the US. Decision mid-December; reply May 1.",
+        "sourceIds": [
+          "timeline"
+        ]
+      },
+      {
+        "name": "Regular Decision",
+        "policy": "Nonbinding. Decision late March; reply May 1.",
+        "sourceIds": [
+          "timeline"
+        ]
+      }
+    ],
+    "fee": {
+      "amount": 80,
+      "currency": "USD",
+      "waiver": "The 2025–26 CDS reports $80; confirm the current amount in the application. Common App/Coalition eligibility-based waivers are accepted; QuestBridge is free.",
+      "sourceIds": [
+        "cds-2025",
+        "requirements"
+      ]
+    },
+    "programs": [
+      {
+        "name": "Computer Science",
+        "category": "Computer Science",
+        "credential": "major",
+        "sourceIds": [
+          "programs"
+        ]
+      },
+      {
+        "name": "Electrical Engineering & Computer Science",
+        "category": "Engineering",
+        "credential": "major",
+        "sourceIds": [
+          "programs"
+        ]
+      },
+      {
+        "name": "Statistics and Data Science",
+        "category": "Artificial Intelligence / Data Science",
+        "credential": "major",
+        "sourceIds": [
+          "programs"
+        ]
+      },
+      {
+        "name": "Mathematics",
+        "category": "Mathematics / Statistics",
+        "credential": "major",
+        "sourceIds": [
+          "programs"
+        ]
+      },
+      {
+        "name": "Economics",
+        "category": "Economics",
+        "credential": "major",
+        "sourceIds": [
+          "programs"
+        ]
+      },
+      {
+        "name": "English",
+        "category": "Humanities",
+        "credential": "major",
+        "sourceIds": [
+          "programs"
+        ]
+      }
+    ],
+    "requirements": [
+      {
+        "id": "application",
+        "label": "Application, activities and personal writing",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Common App or Coalition on Scoir; submit once",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "apply"
+        ]
+      },
+      {
+        "id": "yale-academic",
+        "label": "Academic interests and one response up to 200 words",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Select up to three fields and explain an intellectual interest",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "essays-2027"
+        ]
+      },
+      {
+        "id": "yale-short-takes",
+        "label": "Three short takes, up to 200 characters each",
+        "level": "Required",
+        "condition": "Common App/Coalition route",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Creative idea, personal growth and something not elsewhere included",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "essays-2027"
+        ]
+      },
+      {
+        "id": "yale-essay",
+        "label": "One Yale essay, up to 400 words",
+        "level": "Required",
+        "condition": "Common App/Coalition route",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Choose disagreement, community or personal experience prompt",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "essays-2027"
+        ]
+      },
+      {
+        "id": "application-fee",
+        "label": "Pay application fee or obtain platform waiver",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Application platform",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "requirements"
+        ]
+      },
+      {
+        "id": "teacher-letters",
+        "label": "Two recent core-subject teacher recommendations",
+        "level": "Required",
+        "condition": "",
+        "owner": "Teacher",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Platform recommender tools; eligible academic electives count",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "requirements"
+        ],
+        "reusableKey": "teacher-recommendations"
+      },
+      {
+        "id": "counselor-letter",
+        "label": "Counselor or school administrator recommendation",
+        "level": "Required",
+        "condition": "",
+        "owner": "Counselor",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Application platform",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "requirements"
+        ],
+        "reusableKey": "counselor-recommendation"
+      },
+      {
+        "id": "school-report",
+        "label": "School report and official transcripts",
+        "level": "Required",
+        "condition": "",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "School submits all secondary courses, including separate college transcripts if omitted",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "requirements"
+        ],
+        "reusableKey": "school-report"
+      },
+      {
+        "id": "midyear",
+        "label": "Midyear report with first available senior grades",
+        "level": "Conditional",
+        "condition": "Current secondary-school seniors",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "School report",
+        "due": "When available, usually January/February",
+        "sourceIds": [
+          "requirements"
+        ],
+        "reusableKey": "midyear-report"
+      },
+      {
+        "id": "translation",
+        "label": "Certified English translations with original documents",
+        "level": "Conditional",
+        "condition": "Documents are not in English",
+        "owner": "Other",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Certified translator; applicants cannot translate their own materials",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "international"
+        ],
+        "reusableKey": "transcript-translation"
+      },
+      {
+        "id": "standardized-test",
+        "label": "Self-report SAT or ACT",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Application or portal update",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "testing-update"
+        ]
+      },
+      {
+        "id": "english-test",
+        "label": "English proficiency evidence when required",
+        "level": "Conditional",
+        "condition": "Non-native speaker without two years of English-medium secondary education",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Follow testing and portal instructions",
+        "due": "Selected round deadline",
+        "sourceIds": [
+          "international"
+        ],
+        "reusableKey": "english-test"
+      },
+      {
+        "id": "portal",
+        "label": "Activate portal and check outstanding materials",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Confirmation email link",
+        "due": "After applying",
+        "sourceIds": [
+          "requirements"
+        ]
+      },
+      {
+        "id": "supplement",
+        "label": "Optional arts portfolio or research supplement",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Indicate interest in application; portal portfolio plus questionnaire or STEM form",
+        "due": "SCEA November 8; RD January 9",
+        "sourceIds": [
+          "supplements"
+        ]
+      },
+      {
+        "id": "interview",
+        "label": "Evaluative interview if invited",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Reply to email invitation; cannot request an interview",
+        "due": "SCEA late November/early December; RD January–early March",
+        "sourceIds": [
+          "interviews"
+        ]
+      },
+      {
+        "id": "aid-interest",
+        "label": "Indicate interest in financial aid",
+        "level": "Conditional",
+        "condition": "Seeking need-based aid",
+        "owner": "Student",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Admission application",
+        "due": "When applying",
+        "sourceIds": [
+          "aid-2027"
+        ]
+      },
+      {
+        "id": "aid-checklist",
+        "label": "Complete Yale’s individualized international aid checklist",
+        "level": "Conditional",
+        "condition": "Seeking aid; requirements arrive directly from Yale",
+        "owner": "Student",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Portal and financial aid office instructions",
+        "due": "International SCEA December 1, 2026; RD February 15, 2027",
+        "sourceIds": [
+          "aid-2027"
+        ]
+      },
+      {
+        "id": "income-documents",
+        "label": "Provide requested 2025 family income documents",
+        "level": "Conditional",
+        "condition": "As requested; both parents ordinarily included, waiver petitions possible",
+        "owner": "Parent",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Yale-designated channel; follow portal list",
+        "due": "Aid priority deadline",
+        "sourceIds": [
+          "aid-2027"
+        ],
+        "reusableKey": "family-income-evidence"
+      },
+      {
+        "id": "official-scores",
+        "label": "Verify reported scores officially before enrolling",
+        "level": "Conditional",
+        "condition": "Admitted and matriculating",
+        "owner": "Student",
+        "stage": "enrollment",
+        "rounds": [],
+        "submission": "SAT/AP code 3987; ACT 0618",
+        "due": "Before enrollment",
+        "sourceIds": [
+          "testing"
+        ]
+      }
+    ],
+    "testing": {
+      "text": "SAT or ACT is required for 2026–27 applicants; AP/IB no longer substitute. Self-reporting is accepted. SAT and agency-calculated ACT superscores are accepted; do not combine incompatible ACT versions yourself. ACT Science/Writing are optional.",
+      "sourceIds": [
+        "testing-update",
+        "testing"
+      ]
+    },
+    "scores": {
+      "cohort": "Fall 2025",
+      "population": "Enrolled first-year students submitting each exam; CDS 2025–26",
+      "satComposite": [
+        1480,
+        1560
+      ],
+      "satReading": [
+        730,
+        780
+      ],
+      "satMath": [
+        740,
+        790
+      ],
+      "actComposite": [
+        33,
+        35
+      ],
+      "satMedian": 1540,
+      "satSubmissionPercent": 67,
+      "actSubmissionPercent": 25,
+      "sourceIds": [
+        "cds-2025"
+      ],
+      "note": "Historical score-submitters under the earlier testing policy; not cutoffs or admission probabilities."
+    },
+    "english": {
+      "text": "Required for non-native speakers without two years of English-medium schooling. Listed scores describe competitive applicants, not hard admission minima. TOEFL at-home and test-center versions are accepted.",
+      "tests": [
+        {
+          "name": "IELTS",
+          "kind": "typical",
+          "score": 7,
+          "scale": "0–9",
+          "condition": "Competitive-applicant context; confirm Academic version"
+        },
+        {
+          "name": "TOEFL iBT",
+          "kind": "typical",
+          "score": 5,
+          "scale": "1–6",
+          "condition": "Tests after January 21, 2026"
+        },
+        {
+          "name": "TOEFL iBT",
+          "kind": "typical",
+          "score": 100,
+          "scale": "0–120",
+          "condition": "Tests before January 21, 2026"
+        },
+        {
+          "name": "Duolingo English Test",
+          "kind": "typical",
+          "score": 120,
+          "scale": "10–160",
+          "condition": "Competitive-applicant context"
+        },
+        {
+          "name": "Cambridge English",
+          "kind": "typical",
+          "score": 185,
+          "scale": "Cambridge English Scale",
+          "condition": "C1 Advanced, C2 Proficiency or B2 First"
+        },
+        {
+          "name": "InitialView",
+          "kind": "accepted",
+          "score": null,
+          "scale": "Unscored interview",
+          "condition": "Listed English proficiency option"
+        }
+      ],
+      "waiver": {
+        "englishMediumYears": 2,
+        "nativeEnglish": true,
+        "rule": "Native English speakers, or at least two years of English-medium secondary education, are outside the testing requirement."
+      },
+      "sourceIds": [
+        "testing",
+        "international"
+      ],
+      "requirement": "Required unless exempt"
+    },
+    "selection": {
+      "text": "Yale prioritizes academic potential, support for others and willingness to explore. The transcript, writing, recommendations and activities are evaluated in the opportunities available to the student. Historical C7 categories are not percentage weights.",
+      "sourceIds": [
+        "selection",
+        "cds-2025"
+      ],
+      "cdsYear": "2025–2026",
+      "factors": [
+        {
+          "name": "Curriculum rigor",
+          "importance": "Very important",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Class rank",
+          "importance": "Very important",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Academic GPA",
+          "importance": "Very important",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Application essay",
+          "importance": "Very important",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Recommendations",
+          "importance": "Very important",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Extracurricular activities",
+          "importance": "Very important",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Talent/ability",
+          "importance": "Very important",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Character/personal qualities",
+          "importance": "Very important",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Standardized tests",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Interview",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "First generation",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Alumni relation",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Geographic residence",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "State residency",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Volunteer work",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Work experience",
+          "importance": "Considered",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Religious affiliation",
+          "importance": "Not considered",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        },
+        {
+          "name": "Demonstrated interest",
+          "importance": "Not considered",
+          "sourceIds": [
+            "cds-2025"
+          ]
+        }
+      ]
+    },
+    "funding": {
+      "text": "Need-blind for international applicants; meets Yale-assessed full need. Institutional aid is need-based, with no merit or athletic scholarships.",
+      "forms": "Declare aid interest and follow Yale’s individualized checklist. The domestic CSS/IDOC list is not a universal international requirement. ISFAA is not accepted; FAFSA is not required from federally ineligible international citizens.",
+      "renewal": "International enrollees do not normally reapply annually. Monitor Yale Hub for any individualized requests; cost increases are reflected in need-based support.",
+      "exceptions": "Ask the office about unavailable documents or exceptional parental circumstances. Late applications remain eligible. Yale’s US-family cost calculators do not estimate international awards reliably.",
+      "sourceIds": [
+        "international",
+        "aid-2027",
+        "aid-faq",
+        "continuing-aid",
+        "cost"
+      ]
+    },
+    "costs": {
+      "year": "2026–2027",
+      "currency": "USD",
+      "total": 97985,
+      "components": [
+        {
+          "label": "Tuition",
+          "amount": 72500,
+          "kind": "billed",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Student activity fee",
+          "amount": 185,
+          "kind": "billed",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Housing",
+          "amount": 12080,
+          "kind": "billed",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Food",
+          "amount": 9520,
+          "kind": "billed",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Books and supplies",
+          "amount": 1000,
+          "kind": "estimated",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Personal expenses",
+          "amount": 2700,
+          "kind": "estimated",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Travel, based on home address",
+          "amount": null,
+          "kind": "estimated",
+          "sourceIds": [
+            "cost"
+          ]
+        }
+      ],
+      "exclusions": "AidMap sums the six published amounts to $97,985 before travel. Insurance is not included in this table and remains an additional item to verify. Not Fall 2027 prices.",
+      "sourceIds": [
+        "cost"
+      ]
+    },
+    "deadlines": [
+      {
+        "id": "scea-application",
+        "label": "SCEA application",
+        "category": "admission",
+        "rounds": [
+          "Single-Choice Early Action"
+        ],
+        "date": null,
+        "monthDay": "11-01",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "timeline"
+        ],
+        "note": ""
+      },
+      {
+        "id": "rd-application",
+        "label": "RD application",
+        "category": "admission",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": null,
+        "monthDay": "01-02",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "timeline"
+        ],
+        "note": ""
+      },
+      {
+        "id": "scea-aid",
+        "label": "International SCEA aid priority",
+        "category": "aid",
+        "rounds": [
+          "Single-Choice Early Action"
+        ],
+        "date": "2026-12-01",
+        "monthDay": "12-01",
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "aid-2027"
+        ],
+        "note": " Source academic aid year: 2027–2028."
+      },
+      {
+        "id": "rd-aid",
+        "label": "RD aid priority",
+        "category": "aid",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": "2027-02-15",
+        "monthDay": "02-15",
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "aid-2027"
+        ],
+        "note": " Source academic aid year: 2027–2028."
+      },
+      {
+        "id": "scea-supplement",
+        "label": "Optional SCEA supplement",
+        "category": "supplement",
+        "rounds": [
+          "Single-Choice Early Action"
+        ],
+        "date": null,
+        "monthDay": "11-08",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "supplements"
+        ],
+        "note": ""
+      },
+      {
+        "id": "rd-supplement",
+        "label": "Optional RD supplement",
+        "category": "supplement",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": null,
+        "monthDay": "01-09",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "supplements"
+        ],
+        "note": ""
+      },
+      {
+        "id": "scea-testing",
+        "label": "SCEA late testing guidance",
+        "category": "testing",
+        "rounds": [
+          "Single-Choice Early Action"
+        ],
+        "date": null,
+        "monthDay": null,
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "testing"
+        ],
+        "note": "October/November exams may arrive in time; no guaranteed late-score acceptance."
+      },
+      {
+        "id": "rd-testing",
+        "label": "RD late testing guidance",
+        "category": "testing",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": null,
+        "monthDay": null,
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "testing"
+        ],
+        "note": "January/February exams may arrive in time; submit promptly."
+      },
+      {
+        "id": "midyear",
+        "label": "Senior midyear grades",
+        "category": "documents",
+        "rounds": [],
+        "date": null,
+        "monthDay": null,
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "requirements"
+        ],
+        "note": "When available, usually January/February."
+      },
+      {
+        "id": "reply",
+        "label": "Admitted student reply",
+        "category": "enrollment",
+        "rounds": [],
+        "date": null,
+        "monthDay": "05-01",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "timeline"
+        ],
+        "note": ""
+      }
+    ],
+    "gaps": [
+      "Application and supplement dates are recurring guidance, not explicitly dated Fall 2027 confirmations; timezone not verified.",
+      "Current application fee not stated on the newly redesigned requirements page; $80 is the 2025–26 CDS reference.",
+      "Individual international aid forms and hardship alternatives must be confirmed through the personalized portal.",
+      "English score validity, One Skill Retake, section requirements and final-school-report timing remain unverified."
+    ]
+  },
+  {
+    "universityId": "princeton",
+    "sources": [
+      {
+        "id": "checklist",
+        "title": "First-year application checklist",
+        "url": "https://admission.princeton.edu/apply/application-checklist",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "International first-year undergraduate applicants"
+      },
+      {
+        "id": "international",
+        "title": "International applicants",
+        "url": "https://admission.princeton.edu/apply/international-students",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "International first-year undergraduate applicants"
+      },
+      {
+        "id": "testing-2027",
+        "title": "Standardized testing",
+        "url": "https://admission.princeton.edu/apply/standardized-testing",
+        "checkedAt": "2026-10-20",
+        "cycle": "Fall 2027",
+        "status": "target-cycle",
+        "applicability": "International first-year undergraduate applicants"
+      },
+      {
+        "id": "essays-2027",
+        "title": "Princeton-specific questions",
+        "url": "https://admission.princeton.edu/apply/princeton-specific-questions",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026-27 application",
+        "status": "target-cycle",
+        "applicability": "International first-year undergraduate applicants"
+      },
+      {
+        "id": "graded-paper",
+        "title": "Graded written paper",
+        "url": "https://admission.princeton.edu/apply/graded-written-paper",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "International first-year undergraduate applicants"
+      },
+      {
+        "id": "timeline",
+        "title": "First-year dates and deadlines",
+        "url": "https://admission.princeton.edu/apply/first-year-application-dates-deadlines",
+        "checkedAt": "2026-10-21",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "International first-year undergraduate applicants"
+      },
+      {
+        "id": "programs",
+        "title": "Degrees and departments",
+        "url": "https://admission.princeton.edu/academics/degrees-departments",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "International first-year undergraduate applicants"
+      },
+      {
+        "id": "aid-2027",
+        "title": "Prospective student financial aid",
+        "url": "https://finaid.princeton.edu/apply-aid-prospective-students",
+        "checkedAt": "2026-10-20",
+        "cycle": "2027-28 / Class of 2031",
+        "status": "target-cycle",
+        "applicability": "International first-year undergraduate applicants",
+        "note": "Detailed instructions request 2025 income; the timeline table still refers to 2024. Confirm the portal checklist."
+      },
+      {
+        "id": "cost",
+        "title": "Fees and payment options",
+        "url": "https://admission.princeton.edu/cost-aid/fees-payment-options",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026-27",
+        "status": "historical",
+        "applicability": "International first-year undergraduate applicants"
+      },
+      {
+        "id": "selection",
+        "title": "Before you apply",
+        "url": "https://admission.princeton.edu/apply/before-you-apply",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "International first-year undergraduate applicants"
+      },
+      {
+        "id": "eligibility",
+        "title": "Transfer eligibility",
+        "url": "https://admission.princeton.edu/transfer-students",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "International first-year undergraduate applicants"
+      },
+      {
+        "id": "fee",
+        "title": "Counselor information",
+        "url": "https://admission.princeton.edu/apply/counselors",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "International first-year undergraduate applicants"
+      },
+      {
+        "id": "cds-2025",
+        "title": "Common Data Set 2025-26",
+        "url": "https://ir.princeton.edu/sites/g/files/toruqf2041/files/documents/CDS_2526_Princeton_v2.pdf",
+        "checkedAt": "2026-10-20",
+        "cycle": "2025-26 / Fall 2025 entrants",
+        "status": "historical",
+        "applicability": "International first-year undergraduate applicants"
+      }
+    ],
+    "route": {
+      "text": "Apply through Common App; QuestBridge is a separate route for eligible applicants. Apply to Princeton, indicating A.B./B.S.E. interests. Less than one full postsecondary year generally uses first-year admission; one or more uses transfer. Dual enrollment during secondary school remains first-year; no second bachelor degree.",
+      "sourceIds": [
+        "checklist",
+        "eligibility",
+        "programs"
+      ]
+    },
+    "rounds": [
+      {
+        "name": "Single-Choice Early Action",
+        "policy": "Nonbinding. Restricts other U.S. private early applications; exceptions include nonbinding public institutions, service academies, international institutions and rolling admission. Review the current restrictions before combining applications.",
+        "sourceIds": [
+          "timeline"
+        ]
+      },
+      {
+        "name": "Regular Decision",
+        "policy": "Regular application round; decisions generally arrive in late March. Enrollment response is due May 1.",
+        "sourceIds": [
+          "timeline"
+        ]
+      }
+    ],
+    "fee": {
+      "amount": 75,
+      "currency": "USD",
+      "waiver": "Common App waiver requires counselor confirmation. Princeton-specific hardship waivers, including for international applicants, do not require counselor approval; qualifying U.S. military applicants also qualify.",
+      "sourceIds": [
+        "fee",
+        "checklist"
+      ]
+    },
+    "programs": [
+      {
+        "name": "Computer Science",
+        "category": "Computer Science",
+        "credential": "concentration",
+        "sourceIds": [
+          "programs"
+        ]
+      },
+      {
+        "name": "Economics",
+        "category": "Economics",
+        "credential": "concentration",
+        "sourceIds": [
+          "programs"
+        ]
+      },
+      {
+        "name": "Electrical and Computer Engineering",
+        "category": "Engineering",
+        "credential": "concentration",
+        "sourceIds": [
+          "programs"
+        ]
+      },
+      {
+        "name": "Mathematics",
+        "category": "Mathematics / Statistics",
+        "credential": "concentration",
+        "sourceIds": [
+          "programs"
+        ]
+      },
+      {
+        "name": "English",
+        "category": "Humanities",
+        "credential": "concentration",
+        "sourceIds": [
+          "programs"
+        ]
+      }
+    ],
+    "requirements": [
+      {
+        "id": "common-app",
+        "label": "Application and personal essay",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Common App, including activities and personal essay.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "checklist"
+        ],
+        "reusableKey": "personal-essay"
+      },
+      {
+        "id": "princeton-questions",
+        "label": "Princeton questions and short answers",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Academic interest (A.B./undecided or B.S.E.): up to 250 words; lived experience: 400-500 words; service: up to 250 words; three short answers: up to 50 words each.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "essays-2027"
+        ]
+      },
+      {
+        "id": "graded-paper",
+        "label": "Graded analytical paper",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "At least one complete page from the last three secondary-school years; original English expository work, with assignment, grade, comments and rubric where used. No translation or creative writing. Submit with application or through the applicant portal.",
+        "due": "November 1 / January 1",
+        "sourceIds": [
+          "graded-paper"
+        ]
+      },
+      {
+        "id": "school-transcript",
+        "label": "Official secondary transcript",
+        "level": "Required",
+        "condition": "",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "School submits courses and results; retain the original grading system.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "checklist",
+          "international"
+        ],
+        "reusableKey": "school-transcript"
+      },
+      {
+        "id": "school-report",
+        "label": "School Report",
+        "level": "Required",
+        "condition": "",
+        "owner": "Counselor",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Counselor or school official submits the Common App School Report.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "checklist"
+        ],
+        "reusableKey": "school-report"
+      },
+      {
+        "id": "counselor-recommendation",
+        "label": "Counselor recommendation",
+        "level": "Required",
+        "condition": "",
+        "owner": "Counselor",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Separate counselor recommendation listed on the current checklist.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "checklist"
+        ],
+        "reusableKey": "counselor-recommendation"
+      },
+      {
+        "id": "teacher-recommendations",
+        "label": "Two academic teacher recommendations",
+        "level": "Required",
+        "condition": "",
+        "owner": "Teacher",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Two teachers from different core academic subjects who taught higher-level courses.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "checklist"
+        ],
+        "reusableKey": "teacher-recommendations"
+      },
+      {
+        "id": "midyear-report",
+        "label": "Midyear grades or predictions",
+        "level": "Conditional",
+        "condition": "Still in secondary school and the school issues midyear results.",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "School submits available midyear grades or predictions.",
+        "due": "When available",
+        "sourceIds": [
+          "international",
+          "checklist"
+        ],
+        "reusableKey": "midyear-report"
+      },
+      {
+        "id": "national-exams",
+        "label": "National examination results",
+        "level": "Conditional",
+        "condition": "Your school system uses national leaving examinations.",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Submit predicted or achieved leaving-examination results where applicable.",
+        "due": "When available",
+        "sourceIds": [
+          "international"
+        ],
+        "reusableKey": "national-exams"
+      },
+      {
+        "id": "document-translations",
+        "label": "School-document translations",
+        "level": "Conditional",
+        "condition": "Documents are not in English.",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "School official or third party supplies English translations; paid translation is not required. The graded paper must originally be written in English.",
+        "due": "With the relevant document",
+        "sourceIds": [
+          "international",
+          "graded-paper"
+        ],
+        "reusableKey": "document-translations"
+      },
+      {
+        "id": "english-proof",
+        "label": "English proficiency results",
+        "level": "Conditional",
+        "condition": "English is not your native language and fewer than three years of secondary instruction were primarily in English.",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Send official TOEFL, IELTS Academic, Duolingo English Test or PTE Academic results directly. TOEFL code: 2672.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "international"
+        ],
+        "reusableKey": "english-test"
+      },
+      {
+        "id": "optional-sat-act",
+        "label": "Optional SAT or ACT results",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "For Fall 2027, send official agency results if choosing testing consideration; self-report alone is insufficient. SAT 2672; ACT 2588.",
+        "due": "Test by October for early action or December for regular decision",
+        "sourceIds": [
+          "testing-2027"
+        ],
+        "reusableKey": "sat-act"
+      },
+      {
+        "id": "arts-supplement",
+        "label": "Arts supplement",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Indicate interest in the application, then follow the portal submission instructions.",
+        "due": "November 6 / January 8",
+        "sourceIds": [
+          "timeline",
+          "checklist"
+        ]
+      },
+      {
+        "id": "alumni-interview",
+        "label": "Alumni interview",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "If offered, arrange with the alumni interviewer; declining carries no disadvantage.",
+        "due": "After applying",
+        "sourceIds": [
+          "checklist"
+        ]
+      },
+      {
+        "id": "portal-review",
+        "label": "Review applicant portal",
+        "level": "Recommended",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Use the confirmation instructions to monitor missing items.",
+        "due": "After submission",
+        "sourceIds": [
+          "checklist"
+        ]
+      },
+      {
+        "id": "princeton-aid-app",
+        "label": "Princeton Financial Aid Application",
+        "level": "Conditional",
+        "condition": "Requesting Princeton financial aid.",
+        "owner": "Student",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Submit the free PFAA after submitting admission materials; Princeton uses its own application.",
+        "due": "November 9, 2026 / February 1, 2027",
+        "sourceIds": [
+          "aid-2027"
+        ],
+        "reusableKey": "institution-aid-application"
+      },
+      {
+        "id": "aid-income",
+        "label": "Family income documentation",
+        "level": "Conditional",
+        "condition": "Requesting aid and documents are requested for the family.",
+        "owner": "Parent",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Detailed 2027-28 instructions request 2025 tax/income records; nonfilers provide a statement and income evidence. International documents require full certified English translation. Verify the conflicting table year in the portal.",
+        "due": "With the aid application",
+        "sourceIds": [
+          "aid-2027"
+        ],
+        "reusableKey": "income-documents"
+      },
+      {
+        "id": "noncustodial-parent",
+        "label": "Noncustodial parent form",
+        "level": "Conditional",
+        "condition": "Parents live separately and custodial parent is not remarried, unless an approved exception applies.",
+        "owner": "Parent",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Submit the noncustodial form or seek an exception; prior approved waivers persist.",
+        "due": "Aid deadline",
+        "sourceIds": [
+          "aid-2027"
+        ],
+        "reusableKey": "noncustodial-parent"
+      },
+      {
+        "id": "fafsa",
+        "label": "FAFSA",
+        "level": "Conditional",
+        "condition": "U.S. citizen or permanent resident eligible for federal aid.",
+        "owner": "Student",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Submit only when eligible for U.S. federal aid.",
+        "due": "Follow the applicable aid checklist",
+        "sourceIds": [
+          "aid-2027"
+        ],
+        "reusableKey": "fafsa"
+      },
+      {
+        "id": "final-results",
+        "label": "Final school results",
+        "level": "Conditional",
+        "condition": "Admitted and enrolling.",
+        "owner": "School",
+        "stage": "enrollment",
+        "rounds": [],
+        "submission": "Provide final internal and external examination results; send delayed external results once released.",
+        "due": "After graduation; confirm the admitted-student checklist",
+        "sourceIds": [
+          "international"
+        ],
+        "reusableKey": "final-report"
+      }
+    ],
+    "testing": {
+      "text": "Fall 2027 remains test optional; Fall 2028 restores required SAT/ACT. Submitted scores must be official. SAT section combinations are permitted within a format, not across paper and digital tests. ACT uses one complete sitting, not superscoring; science is optional on the revised ACT. Earlier ACT sittings retain their four-section structure.",
+      "sourceIds": [
+        "testing-2027"
+      ]
+    },
+    "scores": {
+      "cohort": "Fall 2025",
+      "population": "Enrolled first-year students who submitted the relevant test; 25th-75th percentiles.",
+      "satComposite": [
+        1490,
+        1560
+      ],
+      "satReading": [
+        740,
+        780
+      ],
+      "satMath": [
+        760,
+        800
+      ],
+      "actComposite": [
+        34,
+        35
+      ],
+      "satMedian": 1530,
+      "satSubmissionPercent": 60,
+      "actSubmissionPercent": 20,
+      "sourceIds": [
+        "cds-2025"
+      ],
+      "note": "Historical test-optional cohort; these are descriptive ranges, not admission thresholds or individual probabilities."
+    },
+    "english": {
+      "text": "English testing is conditional on language background and secondary instruction. No numeric admission minimum was verified on the current international page.",
+      "tests": [
+        {
+          "name": "TOEFL",
+          "kind": "accepted",
+          "score": null,
+          "scale": "Test-date-dependent TOEFL scale",
+          "condition": "Official results sent directly; confirm accepted versions and validity."
+        },
+        {
+          "name": "IELTS Academic",
+          "kind": "accepted",
+          "score": null,
+          "scale": "9",
+          "condition": "Official results sent directly; confirm accepted versions and validity."
+        },
+        {
+          "name": "Duolingo English Test",
+          "kind": "accepted",
+          "score": null,
+          "scale": "160",
+          "condition": "Official results sent directly; confirm accepted versions and validity."
+        },
+        {
+          "name": "PTE Academic",
+          "kind": "accepted",
+          "score": null,
+          "scale": "90",
+          "condition": "Official results sent directly; confirm accepted versions and validity."
+        }
+      ],
+      "waiver": {
+        "englishMediumYears": 3,
+        "nativeEnglish": true,
+        "rule": "Exempt if English is native, or at least three years of secondary instruction were primarily in English."
+      },
+      "sourceIds": [
+        "international"
+      ],
+      "requirement": "Required unless exempt"
+    },
+    "selection": {
+      "text": "Princeton evaluates academic preparation and potential in school context, writing, talents and likely contribution. Recommended secondary coursework is guidance, not a universal required curriculum.",
+      "sourceIds": [
+        "selection"
+      ],
+      "cdsYear": "2025-26",
+      "factors": []
+    },
+    "funding": {
+      "text": "Need-based aid; consult the financial aid application and award for the university-assessed contribution.",
+      "forms": "Free PFAA and requested family income documents. FAFSA applies to eligible U.S. applicants; CSS Profile is not Princeton's institutional application.",
+      "renewal": "Aid is reassessed annually; reapply each year. Awards respond to family circumstances and attendance costs.",
+      "exceptions": "Separated-parent documentation has exceptions. The 2027-28 detailed instructions say 2025 income, while a table still says 2024; confirm the portal.",
+      "sourceIds": [
+        "aid-2027",
+        "cost"
+      ]
+    },
+    "costs": {
+      "year": "2026-27",
+      "currency": "USD",
+      "total": 94624,
+      "components": [
+        {
+          "label": "Tuition",
+          "amount": 68140,
+          "kind": "billed",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Housing",
+          "amount": 13010,
+          "kind": "billed",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Food",
+          "amount": 9110,
+          "kind": "billed",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Student activity fee",
+          "amount": 314,
+          "kind": "billed",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Books and course materials",
+          "amount": 1050,
+          "kind": "estimated",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Personal expenses",
+          "amount": 3000,
+          "kind": "estimated",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Travel (individual estimate; published range $50-$5,000)",
+          "amount": null,
+          "kind": "estimated",
+          "sourceIds": [
+            "cost"
+          ]
+        },
+        {
+          "label": "Student health plan (unless waived)",
+          "amount": null,
+          "kind": "waivable",
+          "sourceIds": [
+            "cost"
+          ]
+        }
+      ],
+      "exclusions": "Published $94,624 total excludes travel and any required health-plan charge. Travel varies; insurance amount was not verified. This is an earlier cost baseline, not a 2027-28 quote.",
+      "sourceIds": [
+        "cost"
+      ]
+    },
+    "deadlines": [
+      {
+        "id": "scea-application",
+        "label": "Early application and required materials",
+        "category": "admission",
+        "rounds": [
+          "Single-Choice Early Action"
+        ],
+        "date": null,
+        "monthDay": "11-01",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "timeline"
+        ],
+        "note": "Recurring guidance; the admission page does not assign an entry year."
+      },
+      {
+        "id": "rd-application",
+        "label": "Regular application and required materials",
+        "category": "admission",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": null,
+        "monthDay": "01-01",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "timeline"
+        ],
+        "note": "Recurring guidance; the admission page does not assign an entry year."
+      },
+      {
+        "id": "scea-arts",
+        "label": "Early arts supplement",
+        "category": "supplement",
+        "rounds": [
+          "Single-Choice Early Action"
+        ],
+        "date": null,
+        "monthDay": "11-06",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "timeline"
+        ],
+        "note": "Recurring guidance; the admission page does not assign an entry year."
+      },
+      {
+        "id": "rd-arts",
+        "label": "Regular arts supplement",
+        "category": "supplement",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": null,
+        "monthDay": "01-08",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "timeline"
+        ],
+        "note": "Recurring guidance; the admission page does not assign an entry year."
+      },
+      {
+        "id": "scea-aid",
+        "label": "Early financial aid application",
+        "category": "aid",
+        "rounds": [
+          "Single-Choice Early Action"
+        ],
+        "date": "2026-11-09",
+        "monthDay": "11-09",
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "aid-2027"
+        ],
+        "note": "2027-28 / Class of 2031 aid instructions. Source academic aid year: 2027-28."
+      },
+      {
+        "id": "rd-aid",
+        "label": "Regular financial aid application",
+        "category": "aid",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": "2027-02-01",
+        "monthDay": "02-01",
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "aid-2027"
+        ],
+        "note": "2027-28 / Class of 2031 aid instructions. Source academic aid year: 2027-28."
+      },
+      {
+        "id": "enrollment-reply",
+        "label": "Enrollment reply",
+        "category": "enrollment",
+        "rounds": [],
+        "date": null,
+        "monthDay": "05-01",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "timeline"
+        ],
+        "note": "Recurring guidance; the admission page does not assign an entry year."
+      }
+    ],
+    "gaps": [
+      "Application and supplement dates are recurring guidance; target admission year and deadline timezone were not explicit.",
+      "Aid page conflicts on tax year: detailed instructions use 2025, timeline table still uses 2024. Confirm the personalized checklist.",
+      "C7 factor-column verification remains pending.",
+      "English validity, retake/version rules and numeric thresholds were not verified; final-report timing and health-plan price require follow-up."
+    ]
+  }
+]

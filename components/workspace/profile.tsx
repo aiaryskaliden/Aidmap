@@ -1,5 +1,6 @@
 "use client";
 import { useRef, useState } from "react";
+import { countLabel } from "@/lib/format";
 import {
   Download,
   Upload,
@@ -98,11 +99,7 @@ function PreferencesForm() {
         e.preventDefault();
         const parsed = profileSchema.safeParse(profile);
         if (!parsed.success) {
-          setError(
-            parsed.error.issues
-              .map((i) => `${i.path.join(" ")}: ${i.message}`)
-              .join(" "),
-          );
+          setError(parsed.error.issues.map((i) => i.message).join(" "));
           return;
         }
         update((s) => ({ ...s, profile: parsed.data }));
@@ -251,6 +248,46 @@ function PreferencesForm() {
             <option>IELTS</option>
             <option>TOEFL</option>
             <option>Duolingo</option>
+          </select>
+        </label>
+        <label className="field-label">
+          Recent consecutive secondary-school years taught primarily in English
+          (optional)
+          <input
+            type="number"
+            min="0"
+            max="20"
+            step="1"
+            value={profile.englishMediumYears ?? ""}
+            onChange={(e) =>
+              field("englishMediumYears", number(e.target.value))
+            }
+          />
+          <small>
+            Language of instruction, not English-language classes. Each
+            university defines its own exemption.
+          </small>
+        </label>
+        <label className="field-label">
+          Is English your first language? (optional)
+          <select
+            value={
+              profile.nativeEnglish == null
+                ? ""
+                : profile.nativeEnglish
+                  ? "yes"
+                  : "no"
+            }
+            onChange={(e) =>
+              field(
+                "nativeEnglish",
+                e.target.value === "" ? null : e.target.value === "yes",
+              )
+            }
+          >
+            <option value="">Not provided</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
           </select>
         </label>
         <label className="field-label">
@@ -540,9 +577,12 @@ function DataControls() {
         <div className="import-preview">
           <h3>Review your backup</h3>
           <p>
-            {pending.saved.length} universities · {pending.scenarios.length}{" "}
-            scenarios · {pending.saved.reduce((s, u) => s + u.tasks.length, 0)}{" "}
-            tasks
+            {countLabel(pending.saved.length, "university", "universities")} ·{" "}
+            {countLabel(pending.scenarios.length, "scenario")} ·{" "}
+            {countLabel(
+              pending.saved.reduce((s, u) => s + u.tasks.length, 0),
+              "task",
+            )}
           </p>
           <p>
             Importing replaces the current workspace, including preferences and

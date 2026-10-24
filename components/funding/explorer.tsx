@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useURLFilters } from "@/lib/url-filters";
+import { countLabel } from "@/lib/format";
 import {
   Bookmark,
   ArrowUpRight,
@@ -16,11 +17,17 @@ import { dateLabel, money } from "@/lib/utils";
 import { Help } from "@/components/ui/help";
 export default function FundingExplorer() {
   const { state, update, ready } = useApp();
-  const [query, setQuery] = useState("");
-  const [kind, setKind] = useState("");
-  const [type, setType] = useState("");
-  const [onlySaved, setOnlySaved] = useState(false);
-  const [eligibility, setEligibility] = useState("");
+  const { params, set, reset } = useURLFilters();
+  const query = params.get("q") ?? "",
+    kind = params.get("kind") ?? "",
+    type = params.get("type") ?? "",
+    onlySaved = params.get("saved") === "1",
+    eligibility = params.get("eligibility") ?? "";
+  const setQuery = (v: string) => set("q", v),
+    setKind = (v: string) => set("kind", v),
+    setType = (v: string) => set("type", v),
+    setOnlySaved = (v: boolean) => set("saved", v ? "1" : ""),
+    setEligibility = (v: string) => set("eligibility", v);
   const results = opportunities.filter(
     (o) =>
       (!query ||
@@ -74,6 +81,7 @@ export default function FundingExplorer() {
           <Search size={17} />
           <input
             aria-label="Search funding"
+            disabled={!ready}
             placeholder="Search aid programs or providers…"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -81,6 +89,7 @@ export default function FundingExplorer() {
         </div>
         <select
           aria-label="Opportunity kind"
+          disabled={!ready}
           value={kind}
           onChange={(e) => setKind(e.target.value)}
         >
@@ -92,6 +101,7 @@ export default function FundingExplorer() {
         </select>
         <select
           aria-label="Funding type"
+          disabled={!ready}
           value={type}
           onChange={(e) => setType(e.target.value)}
         >
@@ -103,6 +113,7 @@ export default function FundingExplorer() {
         </select>
         <select
           aria-label="Funding eligibility"
+          disabled={!ready}
           value={eligibility}
           onChange={(e) => setEligibility(e.target.value)}
         >
@@ -115,6 +126,7 @@ export default function FundingExplorer() {
         <label className="check-label">
           <input
             type="checkbox"
+            disabled={!ready}
             checked={onlySaved}
             onChange={(e) => setOnlySaved(e.target.checked)}
           />
@@ -122,9 +134,10 @@ export default function FundingExplorer() {
         </label>
       </div>
       <div className="section-heading compact-heading">
-        <strong>
-          {results.length} funding {results.length === 1 ? "option" : "options"}
-        </strong>
+        <strong>{countLabel(results.length, "funding option")}</strong>
+        <button className="text-link" onClick={reset}>
+          Reset funding filters
+        </button>
         <span className="tiny-note">
           Undergraduate · Check citizenship, program and academic-year
           conditions

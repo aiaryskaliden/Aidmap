@@ -1,0 +1,23 @@
+# Core eight research format
+
+The core research modules contain a JSON array with one record per institution. The schema below supports the Fall 2027 first-year international workflow. Use null/empty plus an explicit gap when evidence is unavailable. Reopen official sources before updating a fact and record the actual check date. Write concise original summaries rather than copying source pages.
+
+Each record:
+
+- universityId: existing slug
+- sources: [{id,title,url,checkedAt,cycle: string|null,status: target-cycle|general-policy|historical|not-researched|unpublished|conflicting|not-applicable,applicability,note?}]. Use stable descriptive local IDs. All URLs HTTPS, source checked date actual. Only official primary sources.
+- route: {text,sourceIds: string[]}; first-year eligibility, prior university study, platforms and links
+- rounds: [{name,policy,sourceIds}]; names e.g. Early Action, Restrictive Early Action, Single-Choice Early Action, Early Decision, Early Decision II, Regular Decision
+- fee: {amount: number|null,currency: USD,waiver: string,sourceIds}
+- programs: [{name,category,credential: major|concentration|minor|certificate|related field,sourceIds}]; verified sample of genuine undergraduate options, preserve exact official titles. canonical categories Computer Science; Artificial Intelligence / Data Science; Mathematics / Statistics; Engineering; Business / Management; Economics; Finance; Natural Sciences; Social Sciences; Humanities
+- requirements: [{id,label,level: Required|Recommended|Optional|Conditional,condition,owner: Student|School|Counselor|Teacher|Parent|Other,stage: admission|aid|enrollment,rounds: string[],submission,due,sourceIds: string[],reusableKey?: string}]. Empty rounds applies to all. Stable meaningful IDs, not ordinal. Mandatory essays with count/word limits if verified, translations, graded paper, recommenders/roles, midyear/final, ED agreement, portal followup, optional material, international aid forms and stage, no fabricated tasks. due is human guidance, not fake calendar date. Applicant-specific conditions must be explicit.
+- testing: {text,sourceIds}; policy, cycle, alternatives, score choice/superscore/selfreport/reporting rules
+- scores: {cohort: string|null,population: string,satComposite: [number,number]|null,satReading: [number,number]|null,satMath: [number,number]|null,actComposite: [number,number]|null,satMedian:number|null,satSubmissionPercent:number|null,actSubmissionPercent:number|null,sourceIds,note}. Actual CDS C9/C10, do not add section percentiles to fabricate composite. Preserve admitted vs enrolled and score-submitters.
+- english: {text,tests:[{name,kind: minimum|recommended|typical|accepted,score:number|null,scale:string,condition}],waiver:{englishMediumYears:number|null,nativeEnglish:boolean,rule:string}|null,sourceIds}. Required vs recommended vs optional explicit; unknown waiver null; avoid invented conversions, include policy conflicts.
+- selection: {text,sourceIds,cdsYear:string|null,factors:[{name,importance: Very important|Important|Considered|Not considered,sourceIds}]}. At least institution's current qualitative selection guidance. Don't fabricate C7 categories; if inaccessible list gap.
+- funding: {text,forms:string,renewal:string,exceptions:string,sourceIds}. Relevant first-year aid, FAFSA exceptions, CSS/IDOC/own app, annual renewal source, hardship, scope, merit.
+- costs: {year:string|null,currency:USD,total:number|null,components:[{label,amount:number|null,kind:billed|estimated|waivable,sourceIds}],exclusions:string,sourceIds}. All actual latest official cost baselines; combine categories only with explicit labels; unknown travel/insurance stay unknown not zero. No double counting.
+- deadlines: [{id,label,category:admission|aid|testing|documents|supplement|enrollment,rounds:string[],date:string|null,monthDay:string|null,cycle:string|null,timezone:string|null,time:string|null,relative:{event:string,days:number}|null,sourceIds,note}]. date only explicit target-cycle year, monthDay MM-DD only recurring official guidance. Relative e.g. Bowdoin non-Canadian aid after offer+7d date null. Avoid interpreting recurring as confirmed Fall2027.
+- gaps: string[] explicit remaining source gaps, conflicts, unpublished details.
+
+Prefer substantive coverage to many shallow sources. Previous records are research leads, not proof of new verification. Preserve IDs when updating evidence; research changes must not reset applicant progress or personal dates. Run `scripts/validate-data.ts` after edits. Research maintenance does not itself authorize deployment or access to applicant data.

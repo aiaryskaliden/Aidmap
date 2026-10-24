@@ -1,0 +1,919 @@
+[
+  {
+    "slug": "williams",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Recommended",
+          "scores": [
+            {
+              "score": 7.5,
+              "kind": "typical",
+              "condition": "Competitive applicants typically report IELTS 7.5–9.0. This is not an admission cutoff.",
+              "high": 9
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "English scores are encouraged when English is neither your first language nor your school's instructional language. Williams describes a typical competitive range, not a required minimum."
+        },
+        "sourceUrl": "https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English scores are encouraged when English is neither your first language nor your school's instructional language. Williams describes a typical competitive range, not a required minimum."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English scores are encouraged when English is neither your first language nor your school's instructional language. Williams describes a typical competitive range, not a required minimum.",
+        "sourceUrl": "https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English scores are encouraged when English is neither your first language nor your school's instructional language. Williams describes a typical competitive range, not a required minimum."
+      },
+      {
+        "field": "satMedian",
+        "value": 1520,
+        "sourceUrl": "https://hub.williams.edu/institutional-research/files/2026/04/Williams-CDS-2025-2026-V2.pdf",
+        "title": "Common Data Set · SAT percentiles",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2025 · CDS 2025–26",
+        "note": "Enrolled first-year students who submitted SAT scores; includes domestic and international students. Not an international-only cutoff."
+      },
+      {
+        "field": "satMiddle50",
+        "value": {
+          "low": 1490,
+          "high": 1550
+        },
+        "sourceUrl": "https://hub.williams.edu/institutional-research/files/2026/04/Williams-CDS-2025-2026-V2.pdf",
+        "title": "Common Data Set · SAT percentiles",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2025 · CDS 2025–26",
+        "note": "Enrolled first-year students who submitted SAT scores; includes domestic and international students. Not an international-only cutoff."
+      }
+    ]
+  },
+  {
+    "slug": "wellesley",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Recommended",
+          "scores": [],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "English testing is not required. Wellesley strongly recommends it for non-native speakers with fewer than four years in an English-based curriculum; the committee may request testing."
+        },
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/faqs",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English testing is not required. Wellesley strongly recommends it for non-native speakers with fewer than four years in an English-based curriculum; the committee may request testing."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English testing is not required. Wellesley strongly recommends it for non-native speakers with fewer than four years in an English-based curriculum; the committee may request testing.",
+        "sourceUrl": "https://www.wellesley.edu/admission-aid/faqs",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English testing is not required. Wellesley strongly recommends it for non-native speakers with fewer than four years in an English-based curriculum; the committee may request testing."
+      },
+      {
+        "field": "satMedian",
+        "value": 1500,
+        "sourceUrl": "https://wellesley-college.files.svdcdn.com/production/administrative-departments/OIR/CDS_2025-2026-FINAL.pdf?dm=1773253066",
+        "title": "Common Data Set · SAT percentiles",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2025 · CDS 2025–26",
+        "note": "Enrolled first-year students who submitted SAT scores; includes domestic and international students. Not an international-only cutoff."
+      },
+      {
+        "field": "satMiddle50",
+        "value": {
+          "low": 1460,
+          "high": 1540
+        },
+        "sourceUrl": "https://wellesley-college.files.svdcdn.com/production/administrative-departments/OIR/CDS_2025-2026-FINAL.pdf?dm=1773253066",
+        "title": "Common Data Set · SAT percentiles",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2025 · CDS 2025–26",
+        "note": "Enrolled first-year students who submitted SAT scores; includes domestic and international students. Not an international-only cutoff."
+      }
+    ]
+  },
+  {
+    "slug": "wesleyan",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Recommended",
+          "scores": [
+            {
+              "score": 7.5,
+              "kind": "expected",
+              "condition": "IELTS Academic 7.5 is the minimum expected score when submitting this optional evidence."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "English testing is optional but strongly recommended for international applicants whose first language is not English. Admissions may request results individually."
+        },
+        "sourceUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English testing is optional but strongly recommended for international applicants whose first language is not English. Admissions may request results individually."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English testing is optional but strongly recommended for international applicants whose first language is not English. Admissions may request results individually.",
+        "sourceUrl": "https://www.wesleyan.edu/admission/undergraduate-admission/international/",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English testing is optional but strongly recommended for international applicants whose first language is not English. Admissions may request results individually."
+      },
+      {
+        "field": "satMedian",
+        "value": null,
+        "sourceUrl": "https://www.wesleyan.edu/admission/class-profile.html",
+        "title": "Official first-year class profile",
+        "checkedAt": "2026-10-23",
+        "cycle": "Class of 2029 · Fall 2025",
+        "note": "Class of 2029 enrolled-student section medians: reading/writing 750 and math 750. Composite median not verified; section medians cannot be added to infer it."
+      }
+    ]
+  },
+  {
+    "slug": "duke",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Recommended",
+          "scores": [
+            {
+              "score": 7,
+              "kind": "expected",
+              "condition": "IELTS Academic 7.0 is Duke's minimum expected band within its recommended, optional testing policy."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "Duke recommends, but does not require, English testing for non-native speakers or students outside an English-medium curriculum."
+        },
+        "sourceUrl": "https://admissions.duke.edu/apply/",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "Duke recommends, but does not require, English testing for non-native speakers or students outside an English-medium curriculum."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "Duke recommends, but does not require, English testing for non-native speakers or students outside an English-medium curriculum.",
+        "sourceUrl": "https://admissions.duke.edu/apply/",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "Duke recommends, but does not require, English testing for non-native speakers or students outside an English-medium curriculum."
+      },
+      {
+        "field": "satMiddle50",
+        "value": {
+          "low": 1520,
+          "high": 1570
+        },
+        "sourceUrl": "https://admissions.duke.edu/wp-content/uploads/2026/02/2029ClassProfile.pdf",
+        "title": "Official class profile · SAT scores",
+        "checkedAt": "2026-10-23",
+        "cycle": "Class of 2029 · Fall 2025",
+        "note": "Admitted students who submitted scores, not just enrolled students. The profile does not supply a composite median."
+      }
+    ]
+  },
+  {
+    "slug": "vanderbilt",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [
+            {
+              "score": 7,
+              "kind": "recommended",
+              "condition": "Recommended minimum IELTS 7.0; this is the university's recommendation, not an admitted-student median."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "English evidence is required where applicable. First language or language of instruction in English, ACT English above 26, or SAT reading/writing above 630 can qualify for exemption."
+        },
+        "sourceUrl": "https://admissions.vanderbilt.edu/apply/first-year-process",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English evidence is required where applicable. First language or language of instruction in English, ACT English above 26, or SAT reading/writing above 630 can qualify for exemption."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English evidence is required where applicable. First language or language of instruction in English, ACT English above 26, or SAT reading/writing above 630 can qualify for exemption.",
+        "sourceUrl": "https://admissions.vanderbilt.edu/apply/first-year-process",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English evidence is required where applicable. First language or language of instruction in English, ACT English above 26, or SAT reading/writing above 630 can qualify for exemption."
+      },
+      {
+        "field": "satMedian",
+        "value": 1530,
+        "sourceUrl": "https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/70/2026/07/CDS_2025-2026.xlsx",
+        "title": "Common Data Set · SAT score distribution",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2025 · CDS 2025–26",
+        "note": "Enrolled first-year SAT submitters, including domestic and international students. Historical reference, not an admission cutoff."
+      },
+      {
+        "field": "satMiddle50",
+        "value": {
+          "low": 1510,
+          "high": 1560
+        },
+        "sourceUrl": "https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/70/2026/07/CDS_2025-2026.xlsx",
+        "title": "Common Data Set · SAT score distribution",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2025 · CDS 2025–26",
+        "note": "Enrolled first-year SAT submitters, including domestic and international students. Historical reference, not an admission cutoff."
+      }
+    ]
+  },
+  {
+    "slug": "rice",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [
+            {
+              "score": 7,
+              "kind": "minimum",
+              "condition": "IELTS overall 7.0 if using IELTS to meet the language requirement."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "Applicants whose first language is not English must show proficiency through at least two years of full-time study in an English curriculum before application, or an accepted official test."
+        },
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "Applicants whose first language is not English must show proficiency through at least two years of full-time study in an English curriculum before application, or an accepted official test."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "Applicants whose first language is not English must show proficiency through at least two years of full-time study in an English curriculum before application, or an accepted official test.",
+        "sourceUrl": "https://admission.rice.edu/apply/first-year-international-applicants",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "Applicants whose first language is not English must show proficiency through at least two years of full-time study in an English curriculum before application, or an accepted official test."
+      },
+      {
+        "field": "satMedian",
+        "value": 1540,
+        "sourceUrl": "https://ideas.rice.edu/wp-content/uploads/2026/10/CDS_2025-26_WEBSITE_Updated_10-7-2026.pdf",
+        "title": "Common Data Set · SAT percentiles",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2025 · CDS 2025–26",
+        "note": "Enrolled first-year students who submitted SAT scores; includes domestic and international students. Not an international-only cutoff."
+      },
+      {
+        "field": "satMiddle50",
+        "value": {
+          "low": 1510,
+          "high": 1560
+        },
+        "sourceUrl": "https://ideas.rice.edu/wp-content/uploads/2026/10/CDS_2025-26_WEBSITE_Updated_10-7-2026.pdf",
+        "title": "Common Data Set · SAT percentiles",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2025 · CDS 2025–26",
+        "note": "Enrolled first-year students who submitted SAT scores; includes domestic and international students. Not an international-only cutoff."
+      }
+    ]
+  },
+  {
+    "slug": "northwestern",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [],
+          "noScoreLabel": "No minimum score required",
+          "detail": "English testing is required if your first/primary language is not English or your secondary schooling was not in English. Northwestern explicitly sets no minimum test score."
+        },
+        "sourceUrl": "https://admissions.northwestern.edu/faqs/international-applicants/",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English testing is required if your first/primary language is not English or your secondary schooling was not in English. Northwestern explicitly sets no minimum test score."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English testing is required if your first/primary language is not English or your secondary schooling was not in English. Northwestern explicitly sets no minimum test score.",
+        "sourceUrl": "https://admissions.northwestern.edu/faqs/international-applicants/",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English testing is required if your first/primary language is not English or your secondary schooling was not in English. Northwestern explicitly sets no minimum test score."
+      },
+      {
+        "field": "satMedian",
+        "value": 1540,
+        "sourceUrl": "https://enrollment.northwestern.edu/data/2025-2026.pdf",
+        "title": "Common Data Set · SAT percentiles",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2025 · CDS 2025–26",
+        "note": "Enrolled first-year students who submitted SAT scores; includes domestic and international students. Not an international-only cutoff."
+      },
+      {
+        "field": "satMiddle50",
+        "value": {
+          "low": 1520,
+          "high": 1560
+        },
+        "sourceUrl": "https://enrollment.northwestern.edu/data/2025-2026.pdf",
+        "title": "Common Data Set · SAT percentiles",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2025 · CDS 2025–26",
+        "note": "Enrolled first-year students who submitted SAT scores; includes domestic and international students. Not an international-only cutoff."
+      }
+    ]
+  },
+  {
+    "slug": "notre-dame",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [
+            {
+              "score": 7.5,
+              "kind": "recommended",
+              "condition": "The page strongly recommends 7.5 while its table calls this a required minimum. Confirm how this applies to your application."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "English testing is required if your primary language or secondary instruction is not English. Waivers include SAT reading/writing at least 650 or ACT English/Reading at least 26. Official wording mixes recommended and required score labels."
+        },
+        "sourceUrl": "https://admissions.nd.edu/apply/resources-for/international-applicants/application-information/",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English testing is required if your primary language or secondary instruction is not English. Waivers include SAT reading/writing at least 650 or ACT English/Reading at least 26. Official wording mixes recommended and required score labels."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English testing is required if your primary language or secondary instruction is not English. Waivers include SAT reading/writing at least 650 or ACT English/Reading at least 26. Official wording mixes recommended and required score labels.",
+        "sourceUrl": "https://admissions.nd.edu/apply/resources-for/international-applicants/application-information/",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English testing is required if your primary language or secondary instruction is not English. Waivers include SAT reading/writing at least 650 or ACT English/Reading at least 26. Official wording mixes recommended and required score labels."
+      },
+      {
+        "field": "satMedian",
+        "value": 1510,
+        "sourceUrl": "https://www3.nd.edu/~instres/CDS/2024-2025/CDS_2024-2025.pdf",
+        "title": "Common Data Set · SAT score distribution",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2024 · CDS 2024–25",
+        "note": "Enrolled first-year SAT submitters, including domestic and international students. Historical reference, not an admission cutoff. Newer cohort values have not been verified."
+      },
+      {
+        "field": "satMiddle50",
+        "value": {
+          "low": 1470,
+          "high": 1540
+        },
+        "sourceUrl": "https://www3.nd.edu/~instres/CDS/2024-2025/CDS_2024-2025.pdf",
+        "title": "Common Data Set · SAT score distribution",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2024 · CDS 2024–25",
+        "note": "Enrolled first-year SAT submitters, including domestic and international students. Historical reference, not an admission cutoff. Newer cohort values have not been verified."
+      }
+    ]
+  },
+  {
+    "slug": "berea",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "One of several options",
+          "scores": [
+            {
+              "score": 6,
+              "kind": "minimum",
+              "condition": "IELTS 6.0 overall and at least 5.0 in each subscore."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "International applicants must submit one accepted test: IELTS, TOEFL, Duolingo, SAT or ACT. IELTS itself is one option; even students from English-speaking countries must provide a test."
+        },
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "International applicants must submit one accepted test: IELTS, TOEFL, Duolingo, SAT or ACT. IELTS itself is one option; even students from English-speaking countries must provide a test."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "International applicants must submit one accepted test: IELTS, TOEFL, Duolingo, SAT or ACT. IELTS itself is one option; even students from English-speaking countries must provide a test.",
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "International applicants must submit one accepted test: IELTS, TOEFL, Duolingo, SAT or ACT. IELTS itself is one option; even students from English-speaking countries must provide a test."
+      },
+      {
+        "field": "satMinimum",
+        "value": 980,
+        "sourceUrl": "https://www.berea.edu/admissions/admission-information/apply/checklist-items/international-faqs",
+        "title": "International applicant test requirements",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "SAT 980 is the published minimum if using the SAT route. International applicants may instead submit IELTS, TOEFL, Duolingo or ACT. This is not a competitive median."
+      }
+    ]
+  },
+  {
+    "slug": "washington-and-lee",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "One of several options",
+          "scores": [
+            {
+              "score": 7,
+              "kind": "typical",
+              "condition": "Successful applicants typically report IELTS 7.0 or above; scores are reviewed in context."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "English proficiency can be demonstrated through English-medium secondary schooling, specified IB English results, an accepted test or InitialView. The score guidance is typical, not a mandatory cutoff."
+        },
+        "sourceUrl": "https://www.wlu.edu/admissions/apply/for-international-applicants/english-proficiency-policy",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English proficiency can be demonstrated through English-medium secondary schooling, specified IB English results, an accepted test or InitialView. The score guidance is typical, not a mandatory cutoff."
+      },
+      {
+        "field": "englishPolicy",
+        "value": "English proficiency can be demonstrated through English-medium secondary schooling, specified IB English results, an accepted test or InitialView. The score guidance is typical, not a mandatory cutoff.",
+        "sourceUrl": "https://www.wlu.edu/admissions/apply/for-international-applicants/english-proficiency-policy",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "English proficiency can be demonstrated through English-medium secondary schooling, specified IB English results, an accepted test or InitialView. The score guidance is typical, not a mandatory cutoff."
+      },
+      {
+        "field": "satMedian",
+        "value": 1480,
+        "sourceUrl": "https://my.wlu.edu/document/2025-common-data-set",
+        "title": "Common Data Set · SAT percentiles",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2025 · CDS 2025–26",
+        "note": "Enrolled first-year students who submitted SAT scores; includes domestic and international students. Not an international-only cutoff."
+      },
+      {
+        "field": "satMiddle50",
+        "value": {
+          "low": 1430,
+          "high": 1530
+        },
+        "sourceUrl": "https://my.wlu.edu/document/2025-common-data-set",
+        "title": "Common Data Set · SAT percentiles",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2025 · CDS 2025–26",
+        "note": "Enrolled first-year students who submitted SAT scores; includes domestic and international students. Not an international-only cutoff."
+      }
+    ]
+  },
+  {
+    "slug": "bocconi",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "One of several options",
+          "scores": [
+            {
+              "score": 6.5,
+              "kind": "minimum",
+              "condition": "IELTS Academic or IELTS Online: overall 6.5, at least 6.0 in every section, when using a certificate for English-taught program enrollment."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "These certificate scores apply to enrollment in English-taught Bachelor programs. Bocconi also lists its own language test and qualifying English-language schooling/native-speaker routes; Italian-taught programs have different thresholds."
+        },
+        "sourceUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/english-certificates-accepted-enrollment",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "These certificate scores apply to enrollment in English-taught Bachelor programs. Bocconi also lists its own language test and qualifying English-language schooling/native-speaker routes; Italian-taught programs have different thresholds.",
+        "scope": {
+          "program": "English-taught Bachelor programs",
+          "subjects": [],
+          "purpose": "enrollment"
+        }
+      },
+      {
+        "field": "englishPolicy",
+        "value": "These certificate scores apply to enrollment in English-taught Bachelor programs. Bocconi also lists its own language test and qualifying English-language schooling/native-speaker routes; Italian-taught programs have different thresholds.",
+        "sourceUrl": "https://www.unibocconi.it/en/applying-bocconi/bachelor-and-law-programs/application-and-admissions/english-certificates-accepted-enrollment",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "These certificate scores apply to enrollment in English-taught Bachelor programs. Bocconi also lists its own language test and qualifying English-language schooling/native-speaker routes; Italian-taught programs have different thresholds.",
+        "scope": {
+          "program": "English-taught Bachelor programs",
+          "subjects": [],
+          "purpose": "enrollment"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "sciences-po",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Optional",
+          "scores": [],
+          "noScoreLabel": "Certificate optional · check program language level",
+          "detail": "For the international undergraduate route, submitting a language certificate is optional. Language ability is assessed through the application/interview; English-taught tracks generally require CEFR C1. Dual-degree and exchange rules must be checked separately."
+        },
+        "sourceUrl": "https://www.sciencespo.fr/admissions/en/undergraduate/foreign-secondary-schools/language-requirements/",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "For the international undergraduate route, submitting a language certificate is optional. Language ability is assessed through the application/interview; English-taught tracks generally require CEFR C1. Dual-degree and exchange rules must be checked separately.",
+        "scope": {
+          "program": "International undergraduate route",
+          "subjects": [],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "englishPolicy",
+        "value": "For the international undergraduate route, submitting a language certificate is optional. Language ability is assessed through the application/interview; English-taught tracks generally require CEFR C1. Dual-degree and exchange rules must be checked separately.",
+        "sourceUrl": "https://www.sciencespo.fr/admissions/en/undergraduate/foreign-secondary-schools/language-requirements/",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "For the international undergraduate route, submitting a language certificate is optional. Language ability is assessed through the application/interview; English-taught tracks generally require CEFR C1. Dual-degree and exchange rules must be checked separately.",
+        "scope": {
+          "program": "International undergraduate route",
+          "subjects": [],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "erasmus-rotterdam",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [
+            {
+              "score": 6,
+              "kind": "minimum",
+              "condition": "IELTS Academic overall 6.0; this program does not require specific subscores. Format restrictions and exemptions apply."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "IBEB applicants whose diploma does not satisfy the English requirement must provide an accepted certificate. Check the diploma-specific exemption and permitted test format."
+        },
+        "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "IBEB applicants whose diploma does not satisfy the English requirement must provide an accepted certificate. Check the diploma-specific exemption and permitted test format.",
+        "scope": {
+          "program": "International Bachelor Economics and Business Economics",
+          "subjects": ["Economics", "Business / Management"],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "englishPolicy",
+        "value": "IBEB applicants whose diploma does not satisfy the English requirement must provide an accepted certificate. Check the diploma-specific exemption and permitted test format.",
+        "sourceUrl": "https://www.eur.nl/en/bachelor/international-bachelor-economics-and-business-economics/admission",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "IBEB applicants whose diploma does not satisfy the English requirement must provide an accepted certificate. Check the diploma-specific exemption and permitted test format.",
+        "scope": {
+          "program": "International Bachelor Economics and Business Economics",
+          "subjects": ["Economics", "Business / Management"],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "amsterdam",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [
+            {
+              "score": 6.5,
+              "kind": "minimum",
+              "condition": "IELTS Academic 6.5 overall, with at least 6.0 in every subscore. This is the admission requirement, not the separate scholarship threshold."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "The Economics and Business Economics Bachelor requires English proficiency; specified secondary diplomas can satisfy it without a test. Check the official test versions, validity period and diploma exemption."
+        },
+        "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/international-prior-education/entry-requirements.html",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2027",
+        "note": "The Economics and Business Economics Bachelor requires English proficiency; specified secondary diplomas can satisfy it without a test. Check the official test versions, validity period and diploma exemption.",
+        "scope": {
+          "program": "BSc Economics and Business Economics",
+          "subjects": ["Economics", "Business / Management"],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "englishPolicy",
+        "value": "The Economics and Business Economics Bachelor requires English proficiency; specified secondary diplomas can satisfy it without a test. Check the official test versions, validity period and diploma exemption.",
+        "sourceUrl": "https://www.uva.nl/en/programmes/bachelors/economics--business-economics/application-and-admission/international-prior-education/entry-requirements.html",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2027",
+        "note": "The Economics and Business Economics Bachelor requires English proficiency; specified secondary diplomas can satisfy it without a test. Check the official test versions, validity period and diploma exemption.",
+        "scope": {
+          "program": "BSc Economics and Business Economics",
+          "subjects": ["Economics", "Business / Management"],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "corvinus-budapest",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [
+            {
+              "score": 6,
+              "kind": "minimum",
+              "condition": "IELTS overall 6.0 is one accepted form of B2 evidence."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "For BSc Data Science in Business, accepted evidence includes IELTS and specified school qualifications. English-medium instruction alone is not sufficient: the institution must document that all exams, including final diploma exams, were in English."
+        },
+        "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/application/admissions-requirements/bsc-in-data-science-in-business-admissions-requirements/?lang=en",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "For BSc Data Science in Business, accepted evidence includes IELTS and specified school qualifications. English-medium instruction alone is not sufficient: the institution must document that all exams, including final diploma exams, were in English.",
+        "scope": {
+          "program": "BSc Data Science in Business",
+          "subjects": ["Artificial Intelligence / Data Science"],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "englishPolicy",
+        "value": "For BSc Data Science in Business, accepted evidence includes IELTS and specified school qualifications. English-medium instruction alone is not sufficient: the institution must document that all exams, including final diploma exams, were in English.",
+        "sourceUrl": "https://www.uni-corvinus.hu/post/landing-page/application/admissions-requirements/bsc-in-data-science-in-business-admissions-requirements/?lang=en",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "For BSc Data Science in Business, accepted evidence includes IELTS and specified school qualifications. English-medium instruction alone is not sufficient: the institution must document that all exams, including final diploma exams, were in English.",
+        "scope": {
+          "program": "BSc Data Science in Business",
+          "subjects": ["Artificial Intelligence / Data Science"],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "debrecen",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Program-specific",
+          "scores": [],
+          "noScoreLabel": "B2 required · IELTS score unverified",
+          "detail": "The current Computer Science BSc page requires CEFR B2 English and a mathematics entrance exam. A numerical IELTS threshold was not verified on this page; do not convert B2 into an invented IELTS minimum."
+        },
+        "sourceUrl": "https://edu.unideb.hu/p/computer-science-bsc",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "The current Computer Science BSc page requires CEFR B2 English and a mathematics entrance exam. A numerical IELTS threshold was not verified on this page; do not convert B2 into an invented IELTS minimum.",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": ["Computer Science"],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "englishPolicy",
+        "value": "The current Computer Science BSc page requires CEFR B2 English and a mathematics entrance exam. A numerical IELTS threshold was not verified on this page; do not convert B2 into an invented IELTS minimum.",
+        "sourceUrl": "https://edu.unideb.hu/p/computer-science-bsc",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "The current Computer Science BSc page requires CEFR B2 English and a mathematics entrance exam. A numerical IELTS threshold was not verified on this page; do not convert B2 into an invented IELTS minimum.",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": ["Computer Science"],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "szeged",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [
+            {
+              "score": 5.5,
+              "kind": "minimum",
+              "condition": "IELTS 5.5 is one accepted B2 certificate for Computer Science BSc. The program also has an oral entrance examination."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "Computer Science BSc requires B2 evidence. A defined exemption applies to applicants from listed countries who can document English-language academic study. The page describes the 2026–27 intake; recheck for Fall 2027."
+        },
+        "sourceUrl": "https://sci.u-szeged.hu/english/undergraduate-programs/computer-science-bsc",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": "2026–27",
+        "note": "Computer Science BSc requires B2 evidence. A defined exemption applies to applicants from listed countries who can document English-language academic study. The page describes the 2026–27 intake; recheck for Fall 2027.",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": ["Computer Science"],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "englishPolicy",
+        "value": "Computer Science BSc requires B2 evidence. A defined exemption applies to applicants from listed countries who can document English-language academic study. The page describes the 2026–27 intake; recheck for Fall 2027.",
+        "sourceUrl": "https://sci.u-szeged.hu/english/undergraduate-programs/computer-science-bsc",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": "2026–27",
+        "note": "Computer Science BSc requires B2 evidence. A defined exemption applies to applicants from listed countries who can document English-language academic study. The page describes the 2026–27 intake; recheck for Fall 2027.",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": ["Computer Science"],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "rhine-waal",
+    "findings": [
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [
+            {
+              "score": 5.5,
+              "kind": "minimum",
+              "condition": "IELTS Academic 5.5 meets the published B2 certificate threshold. C1 and individual program requirements differ."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "This is the B2 English-certificate threshold. Confirm that your chosen degree requires B2 and whether your prior education qualifies as alternative evidence."
+        },
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/de/media/21449/download?attachment=",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "This is the B2 English-certificate threshold. Confirm that your chosen degree requires B2 and whether your prior education qualifies as alternative evidence.",
+        "scope": {
+          "program": "Programs requiring B2 English",
+          "subjects": [],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "englishPolicy",
+        "value": "This is the B2 English-certificate threshold. Confirm that your chosen degree requires B2 and whether your prior education qualifies as alternative evidence.",
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/de/media/21449/download?attachment=",
+        "title": "Undergraduate English-language guidance",
+        "checkedAt": "2026-10-23",
+        "cycle": null,
+        "note": "This is the B2 English-certificate threshold. Confirm that your chosen degree requires B2 and whether your prior education qualifies as alternative evidence.",
+        "scope": {
+          "program": "Programs requiring B2 English",
+          "subjects": [],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "swarthmore",
+    "findings": [
+      {
+        "field": "satMedian",
+        "value": 1530,
+        "sourceUrl": "https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-College-CDS-2024-2025.pdf",
+        "title": "Common Data Set · SAT percentiles",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2024 · CDS 2024–25",
+        "note": "Enrolled first-year SAT submitters. Historical baseline; newer CDS values have not been verified."
+      },
+      {
+        "field": "satMiddle50",
+        "value": {
+          "low": 1500,
+          "high": 1550
+        },
+        "sourceUrl": "https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-College-CDS-2024-2025.pdf",
+        "title": "Common Data Set · SAT percentiles",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2024 · CDS 2024–25",
+        "note": "Enrolled first-year SAT submitters. Historical baseline; newer CDS values have not been verified."
+      }
+    ]
+  },
+  {
+    "slug": "luiss",
+    "findings": [
+      {
+        "field": "satMinimum",
+        "value": 1200,
+        "sourceUrl": "https://www.luiss.it/en/orientation-and-admissions/admission-procedures/admission-to-bachelor's-degrees-and-the-single-cycle-law-degree/non-eu-schengen-students/direct-admission-to-bachelor's-and-master's-degrees-for-non-eu-students-with-certificates",
+        "title": "Non-EU/Schengen certification route",
+        "checkedAt": "2026-10-23",
+        "cycle": "2027/2028",
+        "note": "SAT 1200 is the minimum for this certification route, not a median or guaranteed admission. Other certificates are accepted.",
+        "scope": {
+          "program": "Non-EU/Schengen certification route",
+          "subjects": [],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "uchicago",
+    "findings": [
+      {
+        "field": "satMedian",
+        "value": 1540,
+        "sourceUrl": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/8/2077/files/2025/08/CDS_2024-2025_to_publish.pdf",
+        "title": "Common Data Set · SAT score distribution",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2024 · CDS 2024–25",
+        "note": "Enrolled first-year SAT submitters, including domestic and international students. Historical reference, not an admission cutoff. Newer cohort values have not been verified."
+      },
+      {
+        "field": "satMiddle50",
+        "value": {
+          "low": 1510,
+          "high": 1560
+        },
+        "sourceUrl": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/8/2077/files/2025/08/CDS_2024-2025_to_publish.pdf",
+        "title": "Common Data Set · SAT score distribution",
+        "checkedAt": "2026-10-23",
+        "cycle": "Fall 2024 · CDS 2024–25",
+        "note": "Enrolled first-year SAT submitters, including domestic and international students. Historical reference, not an admission cutoff. Newer cohort values have not been verified."
+      }
+    ]
+  }
+]

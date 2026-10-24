@@ -1,6 +1,25 @@
 # AidMap Preview access
 
-Current state, October 20, 2026: the owner explicitly requested public access, then selected **only the already deployed version**. Vercel Authentication was disabled for the AidMap project (`ssoProtection: null`); no new deployment or Production promotion was performed. The existing site is public at https://aidmap-aiaryskaliden.vercel.app. AidMap 2.0 remains local and requires separate deployment permission.
+## Current release — October 24, 2026
+
+The owner explicitly authorized publishing the updated AidMap and making its GitHub source public on October 23. The updated website was uploaded with Vercel CLI using `--target preview`; installation and build both confirmed the Preview environment. The deployment reached Ready on October 23. On October 24, the existing `aidmap-aiaryskaliden.vercel.app` alias was assigned to this deployment and anonymous access was checked again.
+
+- Public website: https://aidmap-aiaryskaliden.vercel.app
+- Exact Preview: https://aidmap-9wi1w51ev-musorlegend-1144.vercel.app
+- Deployment ID: `dpl_32TXDe1FfvaGPrksXJh2j2HCG29K`.
+- CLI inspection: `target: preview`, `status: Ready`.
+- Anonymous `/universities/mit` response: HTTP 200, with the new SAT/IELTS summary and published 1550 median present.
+- GitHub source destination: https://github.com/aiaryskaliden/Aidmap
+
+The upload manifest contained 82 application/build files. A scoped scan of the working source and existing Git history found no credential patterns, applicant email or local user-directory paths. Environment files, credentials, exports, caches, deployment tooling and metadata are excluded. The application initializes applicant state empty and retains personal work only in each visitor's browser. Curated repository screenshots use synthetic test inputs; they are excluded from Vercel uploads.
+
+The current project has no Vercel Authentication or password protection. The site's public audience is intentional. Vercel deployment source/log visibility remains separate (`public: false`); source publication is through GitHub. The Preview guard remains enabled, and this release did not promote the application to Production. GitHub is a source repository; automatic Git-based Vercel deployments are not configured.
+
+The sections below are historical records; their earlier local-only and protected-access statements do not describe the current release.
+
+## Access history — October 20, 2026
+
+On October 20, the owner explicitly requested public access, then selected **only the already deployed version**. Vercel Authentication was disabled for the AidMap project (`ssoProtection: null`); no new deployment or Production promotion was performed at that time. AidMap 2.0 remained local until the subsequent October 23 authorization.
 
 Anonymous GET requests to `/`, `/explore`, `/calculator`, `/planner` and `/dashboard` returned HTTP 200 without login redirects. A fresh browser successfully searched Princeton and loaded the illustrative calculator result ($71,000), with no page exceptions. The assistant's separate web retrieval tool could not read either URL; this is not proof that every GPT browsing mode can access it. Application source/build logs were not made public, and no applicant browser data was uploaded.
 

@@ -97,7 +97,7 @@ export function nextAdmissionDeadline(
   today = new Date().toISOString().slice(0, 10),
 ) {
   return currentDeadlines(u, intake)
-    .filter((d) => d.date! >= today && !/aid|scholarship/i.test(d.label))
+    .filter((d) => d.date! >= today && (d.category ? d.category === "admission" : !/aid|scholarship/i.test(d.label)))
     .sort((a, b) => a.date!.localeCompare(b.date!))[0];
 }
 export function englishAdvice(

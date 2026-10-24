@@ -34,6 +34,9 @@ import { money } from "@/lib/utils";
 import { useApp } from "@/components/providers";
 import { PageHeading, LocalNote } from "@/components/ui/shared";
 import { Button } from "@/components/ui/button";
+import { ScenarioComparison } from "@/components/funding/scenario-comparison";
+import { findDossier } from "@/data/core-admissions";
+import { countLabel } from "@/lib/format";
 const colors = [
   "#465bea",
   "#7988ed",
@@ -64,6 +67,7 @@ function CalculatorBody() {
   const params = useSearchParams();
   const { state, update, toast, blocked } = useApp();
   const saved = state.scenarios.find((s) => s.id === params.get("scenario"));
+  const [editingId, setEditingId] = useState<string | null>(saved?.id ?? null);
   const [universityId, setUniversityId] = useState(
     saved?.universityId ?? params.get("university") ?? "",
   );
@@ -90,36 +94,48 @@ function CalculatorBody() {
     saved?.hypotheticalAward ?? null,
   );
   const [name, setName] = useState(saved?.name ?? "My funding scenario");
+  const [costYear, setCostYear] = useState(saved?.costYear ?? "");
+  const [provenance, setProvenance] = useState(
+    saved?.provenance ?? "Your own estimates",
+  );
+  const [restrictions, setRestrictions] = useState(saved?.restrictions ?? "");
   const [isExample, setIsExample] = useState(false);
   const u = findUniversity(universityId);
   let error = "";
   let result: ReturnType<typeof calculateFunding> | null = null;
   let hypotheticalResult: ReturnType<typeof hypotheticalFunding> | null = null;
+  const awardError =
+    confirmed !== null && !amountSchema.safeParse(confirmed).success
+      ? "Enter a confirmed grant from 0 to 1 trillion, or leave it blank."
+      : "";
+  const hypotheticalError =
+    hypothetical !== null && !amountSchema.safeParse(hypothetical).success
+      ? "Enter a hypothetical total award from 0 to 1 trillion, or leave it blank."
+      : "";
   try {
     result = calculateFunding(
       costs,
       currency,
       contribution,
-      attested && confirmed !== null
+      attested && confirmed !== null && !awardError
         ? { amount: confirmed, currency, kind: "confirmed" }
         : null,
     );
-    if (hypothetical !== null)
+    if (attested && awardError)
+      result = { ...result, remaining: null, aboveBudget: null };
+    if (hypothetical !== null && !hypotheticalError)
       hypotheticalResult = hypotheticalFunding(
         costs,
         currency,
         contribution,
         hypothetical,
       );
-    if (confirmed !== null && !amountSchema.safeParse(confirmed).success)
-      throw new Error(
-        "Confirmed awards must be between 0 and 1 trillion in the selected currency.",
-      );
   } catch (e) {
     error = e instanceof Error ? e.message : "Check your values.";
   }
   const readNumber = (v: string) => (v.trim() === "" ? null : Number(v));
   function resetAmounts(next: Currency) {
+    setEditingId(null);
     setCurrency(next);
     setCosts({ ...emptyCosts });
     setContribution(null);
@@ -127,9 +143,13 @@ function CalculatorBody() {
     setAttested(false);
     setHypothetical(null);
     setIsExample(false);
+    setCostYear("");
+    setProvenance("Your own estimates");
+    setRestrictions("");
     toast("Currency changed. Amounts cleared; no exchange rate was applied.");
   }
   function loadScenario(s: FundingScenario) {
+    setEditingId(s.id);
     setUniversityId(s.universityId);
     setCurrency(s.currency);
     setCosts(s.costs);
@@ -138,6 +158,9 @@ function CalculatorBody() {
     setAttested(s.confirmedAward !== null);
     setHypothetical(s.hypotheticalAward);
     setName(s.name);
+    setCostYear(s.costYear ?? "");
+    setProvenance(s.provenance ?? "Legacy scenario; source not recorded");
+    setRestrictions(s.restrictions ?? "");
     setIsExample(false);
   }
   return (
@@ -159,6 +182,7 @@ function CalculatorBody() {
             <button
               className="text-link"
               onClick={() => {
+                setEditingId(null);
                 setCosts({ ...emptyCosts });
                 setConfirmed(null);
                 setHypothetical(null);
@@ -175,14 +199,19 @@ function CalculatorBody() {
             <label className="field-label">
               University
               <select
+                aria-label="University"
                 value={universityId}
                 onChange={(e) => {
+                  setEditingId(null);
                   setUniversityId(e.target.value);
                   setCosts({ ...emptyCosts });
                   setConfirmed(null);
                   setAttested(false);
                   setHypothetical(null);
                   setIsExample(false);
+                  setCostYear("");
+                  setProvenance("Your own estimates");
+                  setRestrictions("");
                 }}
               >
                 <option value="">Custom scenario</option>
@@ -196,6 +225,7 @@ function CalculatorBody() {
             <label className="field-label">
               Currency
               <select
+                aria-label="Currency"
                 value={currency}
                 onChange={(e) => resetAmounts(e.target.value as Currency)}
               >
@@ -229,6 +259,38 @@ function CalculatorBody() {
             enter 0 only when it is genuinely zero. Published cost baselines and
             their years are on university profiles.
           </p>
+          <div className="form-grid">
+            <label className="field-label">
+              Cost academic year
+              <input
+                value={costYear}
+                maxLength={100}
+                placeholder="For example, 2027–28"
+                onChange={(e) => setCostYear(e.target.value)}
+              />
+            </label>
+            <label className="field-label">
+              Cost source / assumptions
+              <textarea
+                value={provenance}
+                maxLength={2000}
+                onChange={(e) => setProvenance(e.target.value)}
+              />
+            </label>
+          </div>
+          {u && findDossier(u.id) && (
+            <p className="tiny-note">
+              Published reference: {findDossier(u.id)!.costs.year} ·{" "}
+              {findDossier(u.id)!.costs.total === null
+                ? "Total not verified"
+                : money(findDossier(u.id)!.costs.total!, u.costCurrency)}
+              .{" "}
+              <Link href={`/universities/${u.id}#estimated-cost`}>
+                Review components and exclusions before entering estimates
+              </Link>
+              .
+            </p>
+          )}
           <div className="form-grid">
             {costKeys.map((k) => (
               <label className="field-label" key={k}>
@@ -293,9 +355,16 @@ function CalculatorBody() {
               step="0.01"
               placeholder="Unknown — no award received"
               value={confirmed ?? ""}
+              aria-invalid={!!awardError}
+              aria-describedby={awardError ? "award-error" : undefined}
               onChange={(e) => setConfirmed(readNumber(e.target.value))}
             />
           </label>
+          {awardError && (
+            <p id="award-error" className="form-error" role="alert">
+              {awardError}
+            </p>
+          )}
           <label className="check-label">
             <input
               type="checkbox"
@@ -317,7 +386,25 @@ function CalculatorBody() {
               step="0.01"
               placeholder="Explore a what-if scenario"
               value={hypothetical ?? ""}
+              aria-invalid={!!hypotheticalError}
+              aria-describedby={
+                hypotheticalError ? "hypothetical-error" : undefined
+              }
               onChange={(e) => setHypothetical(readNumber(e.target.value))}
+            />
+          </label>
+          {hypotheticalError && (
+            <p id="hypothetical-error" className="form-error" role="alert">
+              {hypotheticalError}
+            </p>
+          )}
+          <label className="field-label">
+            Grant restrictions and renewal assumptions
+            <textarea
+              value={restrictions}
+              maxLength={2000}
+              placeholder="For example, tuition-only; renewal subject to annual review"
+              onChange={(e) => setRestrictions(e.target.value)}
             />
           </label>
           <p className="tiny-note">
@@ -352,7 +439,7 @@ function CalculatorBody() {
             </strong>
             <p className="tiny-note">
               {result?.missing.length
-                ? `${result.missing.length} cost categories still unknown. Known subtotal: ${money(result.knownCost, currency)}.`
+                ? `${countLabel(result.missing.length, "cost category", "cost categories")} still unknown. Known subtotal: ${money(result.knownCost, currency)}.`
                 : "Based on your entered estimates, not verified institutional costs."}
             </p>
             {result?.total !== null && result && !error && result.total > 0 && (
@@ -404,9 +491,11 @@ function CalculatorBody() {
               <div>
                 <span>Confirmed award applied</span>
                 <strong>
-                  {attested && confirmed !== null
-                    ? money(confirmed, currency)
-                    : "No confirmed award"}
+                  {attested && awardError
+                    ? "Check award entry"
+                    : attested && confirmed !== null
+                      ? money(confirmed, currency)
+                      : "No confirmed award"}
                 </strong>
               </div>
               <div>
@@ -441,11 +530,13 @@ function CalculatorBody() {
               <p>
                 {!result || result.total === null
                   ? "Add every cost category to estimate the funding gap. Missing costs cannot be assumed to be zero."
-                  : result.contributionUnknown
-                    ? "Your expenses are calculated above. Enter a valid annual contribution to calculate your budget gap."
-                    : result.aboveBudget! > 0
-                      ? "This scenario leaves a gap above your budget. Additional confirmed support or a lower-cost option would be needed."
-                      : "Your entered amounts fit your stated budget. Verify costs, award conditions, renewal and payment timing before making a commitment."}
+                  : attested && awardError
+                    ? "Your total costs are calculated above. Correct the confirmed award to calculate remaining cost."
+                    : result.contributionUnknown
+                      ? "Your expenses are calculated above. Enter a valid annual contribution to calculate your budget gap."
+                      : result.aboveBudget! > 0
+                        ? "This scenario leaves a gap above your budget. Additional confirmed support or a lower-cost option would be needed."
+                        : "Your entered amounts fit your stated budget. Verify costs, award conditions, renewal and payment timing before making a commitment."}
                 {result?.awardUnknown &&
                   " No individual award is known; the base case subtracts no speculative aid."}
               </p>
@@ -499,13 +590,15 @@ function CalculatorBody() {
               className="full-width"
               disabled={
                 !!error ||
+                !!awardError ||
+                !!hypotheticalError ||
                 !!result?.contributionError ||
                 !name.trim() ||
                 blocked
               }
               onClick={() => {
                 const scenario: FundingScenario = {
-                  id: crypto.randomUUID(),
+                  id: editingId ?? crypto.randomUUID(),
                   name: name.trim(),
                   universityId,
                   currency,
@@ -513,19 +606,35 @@ function CalculatorBody() {
                   contribution,
                   confirmedAward: attested ? confirmed : null,
                   hypotheticalAward: hypothetical,
-                  createdAt: new Date().toISOString(),
+                  createdAt:
+                    state.scenarios.find((s) => s.id === editingId)
+                      ?.createdAt ?? new Date().toISOString(),
+                  costYear,
+                  provenance,
+                  restrictions,
                 };
                 const accepted = update((s) => ({
                   ...s,
-                  scenarios: [...s.scenarios, scenario],
+                  scenarios: s.scenarios.some((item) => item.id === editingId)
+                    ? s.scenarios.map((item) =>
+                        item.id === editingId ? scenario : item,
+                      )
+                    : [...s.scenarios, scenario],
                 }));
-                if (accepted)
+                if (accepted) {
+                  setEditingId(scenario.id);
                   toast("Funding scenario saved to your dashboard.");
+                }
               }}
             >
               <Bookmark size={16} />
-              Save funding scenario
+              {editingId ? "Update funding scenario" : "Save funding scenario"}
             </Button>
+            {editingId && (
+              <button className="text-link" onClick={() => setEditingId(null)}>
+                Create a separate scenario from these assumptions
+              </button>
+            )}
           </div>
           <div className="panel example-panel">
             <CircleHelp size={21} />
@@ -538,6 +647,7 @@ function CalculatorBody() {
               variant="outline"
               size="sm"
               onClick={() => {
+                setEditingId(null);
                 setUniversityId("");
                 setCurrency("USD");
                 setCosts({ ...exampleCosts });
@@ -547,6 +657,9 @@ function CalculatorBody() {
                 setContribution(5000);
                 setName("Illustrative full-tuition scenario");
                 setIsExample(true);
+                setCostYear("Illustrative year");
+                setProvenance("Synthetic example, not university costs");
+                setRestrictions("Hypothetical award; no renewal assumed.");
               }}
             >
               Load illustrative example
@@ -570,6 +683,7 @@ function CalculatorBody() {
           )}
         </aside>
       </div>
+      <ScenarioComparison onLoad={loadScenario} />
       <div className="notice">
         <ShieldCheck size={18} />
         <p>

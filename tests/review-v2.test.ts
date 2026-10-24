@@ -267,6 +267,33 @@ describe("typed requirements and filter combinations", () => {
       ).state,
     ).toBe("unknown");
   });
+  it("includes unknown costs only when other selected requirements are known matches", () => {
+    const missingCost = {
+      ...u,
+      annualCost: { value: null, sourceIds: [], cycle: null },
+    };
+    const missingTest = {
+      ...missingCost,
+      id: "missing-test",
+      satPolicy: { value: null, sourceIds: [], cycle: null },
+    };
+    const tooExpensive = {
+      ...u,
+      id: "expensive",
+      annualCost: { ...u.annualCost, value: 90000 },
+    };
+    const result = discoverUniversities(
+      [missingCost, missingTest, tooExpensive],
+      {
+        cost: "50000",
+        test: "required",
+        includeUnknownCosts: "yes",
+      },
+    );
+    expect(result.results.map((r) => r.university.id)).toEqual([u.id]);
+    expect(result.results[0].unknowns).toEqual(["Annual cost"]);
+    expect(result.matches).toHaveLength(0);
+  });
   it("does not use medians or middle-50% statistics as eligibility thresholds", () => {
     const stats = {
       ...u,

@@ -22,12 +22,21 @@ import { Button } from "@/components/ui/button";
 import { dateLabel } from "@/lib/utils";
 import { nextAdmissionDeadline } from "@/lib/admissions";
 import { AddChecklist } from "@/components/universities/detail-actions";
+import { findDossier } from "@/data/core-admissions";
+import {
+  RequirementWorkspace,
+  RequirementMatrix,
+} from "@/components/workspace/requirements";
+import { DeadlineTimeline } from "@/components/workspace/timeline";
+import { ApplicationBrief } from "@/components/workspace/brief";
+import { countLabel } from "@/lib/format";
 function PlannerCard({ item }: { item: SavedUniversity }) {
   const { update, toast } = useApp();
   const [task, setTask] = useState("");
   const [editing, setEditing] = useState<string | null>(null);
   const [editText, setEditText] = useState("");
   const u = findUniversity(item.universityId);
+  const dossier = findDossier(item.universityId);
   if (!u) return null;
   const change = (patch: Partial<Omit<SavedUniversity, "universityId">>) =>
     update((s) => updateSaved(s, u.id, patch));
@@ -48,8 +57,8 @@ function PlannerCard({ item }: { item: SavedUniversity }) {
             </Link>
           </h2>
           <p>
-            {item.tasks.filter((t) => t.done).length} of {item.tasks.length}{" "}
-            tasks complete
+            {item.tasks.filter((t) => t.done).length} of{" "}
+            {countLabel(item.tasks.length, "personal task")} complete
           </p>
         </div>
         <label className="sr-only" htmlFor={`status-${u.id}`}>
@@ -111,12 +120,10 @@ function PlannerCard({ item }: { item: SavedUniversity }) {
             onChange={(e) => change({ applicationType: e.target.value })}
           >
             <option value="">Not selected</option>
-            {[
-              "Early Action",
-              "Early Decision",
-              "Regular Decision",
-              "Other",
-            ].map((p) => (
+            {(dossier
+              ? dossier.rounds.map((r) => r.name)
+              : ["Early Action", "Early Decision", "Regular Decision", "Other"]
+            ).map((p) => (
               <option key={p}>{p}</option>
             ))}
           </select>
@@ -131,7 +138,14 @@ function PlannerCard({ item }: { item: SavedUniversity }) {
           <ArrowUpRight size={12} />
         </Link>
       </div>
-      <AddChecklist universityId={u.id} />
+      {dossier ? (
+        <details className="planner-requirements">
+          <summary>Requirements, roles and progress</summary>
+          <RequirementWorkspace dossier={dossier} />
+        </details>
+      ) : (
+        <AddChecklist universityId={u.id} />
+      )}
       <div className="task-list">
         {item.tasks.map((t) => (
           <div className="task-row" key={t.id}>
@@ -300,6 +314,24 @@ export default function Planner() {
             <Columns3 size={16} />
             Status board
           </button>
+          <button
+            aria-pressed={view === "requirements"}
+            onClick={() => setView("requirements")}
+          >
+            Requirements matrix
+          </button>
+          <button
+            aria-pressed={view === "dates"}
+            onClick={() => setView("dates")}
+          >
+            Deadline calendar
+          </button>
+          <button
+            aria-pressed={view === "brief"}
+            onClick={() => setView("brief")}
+          >
+            Print brief
+          </button>
         </div>
         <Link className="text-link" href="/explore">
           <Plus size={15} />
@@ -313,6 +345,12 @@ export default function Planner() {
           title="Good plans begin with a possibility."
           text="Save a university to create its application workspace. Then add your own tasks, notes and dates."
         />
+      ) : view === "requirements" ? (
+        <RequirementMatrix />
+      ) : view === "dates" ? (
+        <DeadlineTimeline />
+      ) : view === "brief" ? (
+        <ApplicationBrief />
       ) : view === "timeline" ? (
         <div className="planner-list">
           {sorted.map((s) => (

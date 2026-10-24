@@ -9,11 +9,14 @@ import { PageHeading, PolicyNote } from "@/components/ui/shared";
 import { dateLabel, money } from "@/lib/utils";
 import { nextAdmissionDeadline, cycleLabel } from "@/lib/admissions";
 import type { University } from "@/types/domain";
+import { findDossier } from "@/data/core-admissions";
+import { satComparison, ieltsComparison } from "@/lib/test-scores";
 const unknown = "Not yet verified";
 const rows: {
   label: string;
   value: (u: University) => string;
   section?: string;
+  key?: (u: University) => string;
 }[] = [
   { label: "Country", value: (u) => u.country, section: "THE BASICS" },
   {
@@ -33,7 +36,11 @@ const rows: {
   {
     label: "Need-based support",
     value: (u) =>
-      u.meetsFullNeed.value ? "Meets institution-calculated need" : unknown,
+      u.meetsFullNeed.value === null
+        ? unknown
+        : u.meetsFullNeed.value
+          ? "Meets institution-calculated need"
+          : "No full-need commitment",
   },
   {
     label: "Merit scholarships",
@@ -48,10 +55,15 @@ const rows: {
     label: "Admission & financial need",
     value: (u) =>
       u.needBlind.value
-        ? `Need-blind first-year review. ${u.needBlind.note ?? ""}`
+        ? "Need-blind first-year review; individual conditions below"
         : u.needBlind.value === false
           ? "Need-aware"
           : unknown,
+  },
+  {
+    label: "Aid scope and exceptions",
+    value: (u) =>
+      findDossier(u.id)?.funding.exceptions ?? u.needBlind.note ?? unknown,
   },
   {
     label: "Explicit full-tuition award",
@@ -86,20 +98,38 @@ const rows: {
   },
   {
     label: "SAT / ACT",
-    value: (u) => u.testPolicy.value ?? unknown,
+    value: (u) =>
+      u.satPolicy.value === null
+        ? unknown
+        : {
+            required: "SAT or ACT required",
+            optional: "Test optional",
+            "not-accepted": "Not considered",
+            flexible: "Documented alternatives accepted",
+          }[u.satPolicy.value],
     section: "APPLICATION REQUIREMENTS",
+  },
+  {
+    label: "Testing conditions and reporting",
+    value: (u) =>
+      findDossier(u.id)?.testing.text ?? u.testPolicy.note ?? unknown,
   },
   {
     label: "English proficiency",
     value: (u) => u.englishPolicy.value ?? unknown,
   },
   {
+    label: "SAT score benchmark · historical, not a cutoff",
+    value: satComparison,
+  },
+  { label: "IELTS score guidance · check conditions", value: ieltsComparison },
+  {
     label: "Admission deadline",
     value: (u) =>
       `${dateLabel(nextAdmissionDeadline(u)?.date ?? null)} · Fall 2027`,
   },
   {
-    label: "Regular Decision aid deadline",
+    label: "Earliest confirmed aid deadline · review round",
     value: (u) =>
       `${dateLabel(u.aidDeadline.value)} · ${u.aidDeadline.cycle ?? "intake not specified"}`,
   },
@@ -128,6 +158,22 @@ const rows: {
 export default function Compare() {
   const { state, update, ready } = useApp();
   const [differences, setDifferences] = useState(false);
+  const [section, setSection] = useState("");
+  const groupedRows = rows.map((row, index) => ({
+    ...row,
+    group:
+      rows.slice(0, index + 1).findLast((r) => r.section)?.section ??
+      "THE BASICS",
+  }));
+  const different = (row: (typeof rows)[number]) =>
+    new Set(
+      selected.map((u) =>
+        (row.key?.(u) ?? row.value(u))
+          .trim()
+          .replace(/\s+/g, " ")
+          .toLowerCase(),
+      ),
+    ).size > 1;
   const selected = state.compare.flatMap((id) => {
     const u = findUniversity(id);
     return u ? [u] : [];
@@ -177,6 +223,15 @@ export default function Compare() {
           Show differences only
         </label>
         <span>{selected.length} / 4 selected</span>
+        <label className="field-label">
+          Comparison section
+          <select value={section} onChange={(e) => setSection(e.target.value)}>
+            <option value="">All sections</option>
+            {[...new Set(groupedRows.map((r) => r.group))].map((s) => (
+              <option key={s}>{s}</option>
+            ))}
+          </select>
+        </label>
       </div>
       <PolicyNote />
       <p className="notice amber-notice">
@@ -260,19 +315,16 @@ export default function Compare() {
                 </tr>
               </thead>
               <tbody>
-                {rows
+                {groupedRows
                   .filter(
                     (row) =>
-                      !differences || new Set(selected.map(row.value)).size > 1,
+                      (!section || row.group === section) &&
+                      (!differences || different(row)),
                   )
                   .map((row) => (
                     <tr
                       key={row.label}
-                      className={
-                        new Set(selected.map(row.value)).size > 1
-                          ? "different-row"
-                          : ""
-                      }
+                      className={different(row) ? "different-row" : ""}
                     >
                       <th scope="row">
                         {row.section && (
@@ -281,7 +333,19 @@ export default function Compare() {
                         {row.label}
                       </th>
                       {selected.map((u) => (
-                        <td key={u.id}>{row.value(u)}</td>
+                        <td key={u.id}>
+                          {row.value(u).length > 200 ? (
+                            <details>
+                              <summary>{row.value(u).slice(0, 110)}…</summary>
+                              <p>{row.value(u)}</p>
+                              <Link href={`/universities/${u.id}#sources`}>
+                                Sources and applicability →
+                              </Link>
+                            </details>
+                          ) : (
+                            row.value(u)
+                          )}
+                        </td>
                       ))}
                     </tr>
                   ))}

@@ -53,7 +53,7 @@ test("student can discover, save, compare, calculate and plan", async ({
     page.getByRole("heading", { name: "Princeton University", exact: true }),
   ).toBeVisible();
   await expect(
-    page.getByText("Test optional for Fall 2027", { exact: true }),
+    page.locator("#admissions").getByText(/Fall 2027 remains test optional/),
   ).toBeVisible();
   await page
     .getByRole("button", { name: "Save university", exact: true })

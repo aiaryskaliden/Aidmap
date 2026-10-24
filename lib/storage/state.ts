@@ -5,7 +5,7 @@ import {
 } from "@/types/domain";
 export const STORAGE_KEY = "aidmap:v1";
 export const emptyState = (): LocalState => ({
-  version: 1,
+  version: 2,
   profile: null,
   saved: [],
   compare: [],
@@ -85,7 +85,7 @@ export function shortlistCSV(
   }[],
 ) {
   const cell = (v: string) =>
-    '"' + (/^[=+@\-\t\r]/.test(v) ? "'" : "") + v.replaceAll('"', '""') + '"';
+    '"' + (/^[\s]*[=+@\-\t\r]/.test(v) ? "'" : "") + v.replaceAll('"', '""') + '"';
   return [
     ["University", "Country", "Status", "Custom deadline"],
     ...rows.map((r) => [r.name, r.country, r.status, r.deadline ?? ""]),

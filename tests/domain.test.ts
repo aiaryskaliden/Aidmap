@@ -369,7 +369,10 @@ describe("source-backed data integrity and profile validation", () => {
   });
   it("does not infer costs or admission dates from aid dates", () => {
     for (const u of universities.slice(0, 8)) {
-      expect(u.admissionDeadline.value).toBeNull();
+      if(u.admissionDeadline.value) expect(u.deadlines.value?.some(d=>d.category==="admission" && d.date===u.admissionDeadline.value)).toBe(true);
+      expect(u.annualCost.value).toBeGreaterThan(0);
+      expect(u.annualCost.cycle).toMatch(/2026/);
+      // Published totals do not invent a complete calculator component breakdown.
       expect(Object.values(u.costs).every((x) => x === null)).toBe(true);
     }
   });

@@ -1,4 +1,5 @@
 "use client";
+import { countLabel } from "@/lib/format";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -124,7 +125,7 @@ export default function Dashboard() {
                 ))}
               </div>
               <p>
-                {tasks.length - completed} unfinished tasks.{" "}
+                {countLabel(tasks.length - completed, "unfinished task")}.{" "}
                 <Link className="text-link" href="/planner">
                   Review your checklist →
                 </Link>
@@ -374,7 +375,7 @@ export default function Dashboard() {
             <h3>Keep the unknowns in view.</h3>
             <p>
               {state.saved.length
-                ? `${unverified.length} saved institutions need an admission deadline check for Fall 2027.`
+                ? `${countLabel(unverified.length, "saved institution")} ${unverified.length === 1 ? "needs" : "need"} an admission deadline check for Fall 2027.`
                 : "University aid policies don’t establish your individual award or your final contribution."}
             </p>
             {unverified.slice(0, 3).map((u) => (

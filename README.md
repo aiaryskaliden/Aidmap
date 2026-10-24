@@ -2,9 +2,13 @@
 
 **Find universities. Understand funding. Plan your future.**
 
+[Explore AidMap](https://aidmap-aiaryskaliden.vercel.app/) · [Source code](https://github.com/aiaryskaliden/Aidmap) · [Developer profile](https://github.com/aiaryskaliden)
+
 AidMap is a local-first university research and application-planning product for international undergraduate applicants. It connects 30 source-backed US and European university profiles with funding research, a whole-cost calculator, and a private applicant workspace. Target planning cycle: **Fall 2027**; general policies, historical references and cost years are labeled separately.
 
 There are no accounts, paid APIs, applicant uploads, analytics, or required environment variables. AidMap does not submit applications or predict admissions decisions.
+
+AidMap was created to make researching universities less fragmented: discover and compare options, understand funding, and organize an application shortlist. The live website and this repository include the core planning upgrade and the SAT/IELTS score summaries. The website is public; each visitor's applicant workspace stays in their own browser.
 
 ## Run locally
 
@@ -59,9 +63,9 @@ Light/dark themes, responsive navigation, reduced-motion support, keyboard-acces
 
 ## Data and evidence
 
-The expanded dataset contains **30 institutions** (20 US, 10 European), **397 field-level evidence records**, and **38 funding entries**, researched from official pages on **October 18–20, 2026**. These are researched profiles, not a claim that every field or Fall 2027 deadline is verified. See [the coverage report](docs/DATA_REVIEW.md) for institution-level gaps and source link checks.
+The expanded dataset contains **30 institutions** (20 US, 10 European), **558 field-level evidence records**, and **38 funding entries**, researched from official pages on **October 18–23, 2026**. Eight detailed dossiers include 180 sourced requirement records and 77 dated, recurring or relative events. These are researched profiles, not a claim that every field or Fall 2027 deadline is verified. See [the coverage report](docs/DATA_REVIEW.md), [the core upgrade report](docs/MVP_UPGRADE_REPORT.md), and [SAT/IELTS coverage](docs/TEST_SCORE_BENCHMARKS.md) for institution-level gaps and source checks.
 
-- Raw findings: `research-universities.json` and `data/research-*-v2.json`.
+- Raw findings: `research-universities.json`, `data/research-*-v2.json`, `data/core-research-*.json`, and `data/research-testing.json`.
 - Normalized typed records and policy opportunities: `data/universities.ts`.
 - Zod schemas and nullable facts: `types/domain.ts`.
 - Consistency checks: `lib/validation/universities.ts` and `scripts/validate-data.ts`.
@@ -151,20 +155,22 @@ The script uses an isolated browser context and synthetic calculator inputs. Set
 
 ## Vercel deployment preparation
 
-See [docs/VERCEL_PREVIEW.md](docs/VERCEL_PREVIEW.md) for the protected Preview workflow and deployment privacy review. `.vercelignore` restricts CLI uploads to application and build inputs.
+The current version is publicly accessible at **[aidmap-aiaryskaliden.vercel.app](https://aidmap-aiaryskaliden.vercel.app)**. The owner authorized publishing the updated website and its source code on October 23, 2026. The Preview build completed that day; the personalized URL was updated and verified anonymously on October 24.
 
-A protected **Preview of the previous version** is available at [aidmap-aiaryskaliden.vercel.app](https://aidmap-aiaryskaliden.vercel.app). The AidMap 2.0 review changes are local and require the owner's permission before deployment. The existing Preview requires Vercel access, with Vercel Authentication enabled for all deployment URLs. The temporary Production placeholder separately authorized for project initialization was deleted. No paid plan or public sharing was enabled.
+The application remains a **Vercel Preview**. Production deployment is blocked by `scripts/require-preview.mjs`. `.vercelignore` restricts CLI uploads to application and build inputs; `public: false` keeps Vercel source/build-log access separate from website access. The source code is available independently in this public GitHub repository. No applicant browser data is uploaded.
+
+Exact Preview URL: [aidmap-9wi1w51ev-musorlegend-1144.vercel.app](https://aidmap-9wi1w51ev-musorlegend-1144.vercel.app). See [the deployment record](docs/VERCEL_PREVIEW.md) for validation and earlier access history.
 
 For subsequent Preview deployments:
 
 1. Use Node.js 24, matching `engines.node`, and Vercel CLI.
 2. Sign in yourself with `vercel login` and link to the existing AidMap project.
-3. Confirm Vercel Authentication still protects Preview deployments.
+3. Review the intended website audience; the current AidMap project is public.
 4. Run `vercel deploy --dry --json` and review the upload manifest.
 5. Run `vercel deploy --target preview`. Keep the commands in `vercel.json`: they enforce Preview before installation and build.
-6. Confirm Ready status, Preview classification and unauthenticated login redirects before sharing the protected URL.
+6. Confirm Ready status and Preview classification, then update the personalized alias and verify anonymous access to the intended version.
 
-No application environment variables, external services or applicant-data backend are required. Do not delete the last remaining deployment and blindly retry: a new/empty project's first deployment can be assigned to Production even with an explicit Preview target. See the deployment record for the initialization workaround and authorization history. Publishing publicly or deploying the application to Production requires separate authorization.
+No application environment variables, external services or applicant-data backend are required. Do not delete the last remaining deployment and blindly retry: a new/empty project's first deployment can be assigned to Production even with an explicit Preview target. See the deployment record for the initialization workaround and authorization history. Production deployment has not been authorized for the application. GitHub pushes are not configured to trigger automatic Vercel deployments.
 
 The core product has no runtime API/backend dependency after pages and client assets load. The default distribution still needs a Next.js host to serve routes; it is not a fully offline PWA.
 
@@ -181,7 +187,3 @@ The core product has no runtime API/backend dependency after pages and client as
 See [docs/ROADMAP.md](docs/ROADMAP.md) and [CONTRIBUTING.md](CONTRIBUTING.md). No project license has been selected; dependency licenses remain their own.
 
 > AidMap is an independent university research and planning tool. Admissions and financial aid decisions are made by the institutions. Always verify requirements with official sources.
-
-## Access update — October 20, 2026
-
-The owner subsequently authorized public access to **only the existing deployed version** at https://aidmap-aiaryskaliden.vercel.app. Vercel Authentication is now disabled for this project, with anonymous HTTP/browser checks passing. AidMap 2.0 changes in this working tree remain local and were not deployed. Earlier references to protected website access above describe the previous state; source/build logs remain private. See docs/VERCEL_PREVIEW.md for the access record.

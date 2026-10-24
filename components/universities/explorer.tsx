@@ -57,6 +57,7 @@ const labels: Record<string, string> = {
   type: "Institution",
   minimum: "Published minimum",
   includeUnknown: "Include unknowns",
+  includeUnknownCosts: "Include unknown costs",
   platform: "Platform",
   citizenship: "Citizenship",
 };
@@ -78,11 +79,13 @@ function FiltersPanel({
   setFilter: (key: string, value: string) => void;
   reset: () => void;
 }) {
+  const { ready } = useApp();
   function select(key: string, label: string, options: string[] | string[][]) {
     return (
       <label className="field-label">
         {label}
         <select
+          disabled={!ready}
           aria-label={label}
           value={filters[key] || ""}
           onChange={(e) => setFilter(key, e.target.value)}
@@ -102,7 +105,7 @@ function FiltersPanel({
   }
   function checks(key: string, label: string, options: string[][]) {
     return (
-      <fieldset className="filter-options">
+      <fieldset className="filter-options" disabled={!ready}>
         <legend>{label}</legend>
         {options.map(([value, text]) => (
           <label className="check-label" key={value}>
@@ -130,7 +133,9 @@ function FiltersPanel({
     <>
       <div className="filter-title">
         <strong>Refine your search</strong>
-        <button onClick={reset}>Reset all</button>
+        <button disabled={!ready} onClick={reset}>
+          Reset all
+        </button>
       </div>
       <p className="tiny-note">
         Choose any options within a group (OR). Different groups must all match
@@ -178,11 +183,12 @@ function FiltersPanel({
           "plan",
           "Application round",
           [
-            "Early Action",
-            "Early Decision",
-            "Regular Decision",
-            "Rolling Admission",
-          ].map((v) => [v, v]),
+            ...new Set(
+              universities.flatMap((u) => u.applicationPlans.value ?? []),
+            ),
+          ]
+            .sort()
+            .map((v) => [v, v]),
         )}
         <Help term="rounds" />
         {select("waiver", "Application fee waiver", [
@@ -197,6 +203,7 @@ function FiltersPanel({
           Deadline from
           <input
             type="date"
+            disabled={!ready}
             value={filters.from || ""}
             onChange={(e) => setFilter("from", e.target.value)}
           />
@@ -205,6 +212,7 @@ function FiltersPanel({
           Deadline by
           <input
             type="date"
+            disabled={!ready}
             value={filters.deadline || ""}
             onChange={(e) => setFilter("deadline", e.target.value)}
           />
@@ -224,19 +232,32 @@ function FiltersPanel({
         )}
         {select("currency", "Cost currency", ["USD", "EUR", "GBP", "KZT"])}
         <label className="field-label">
-          Maximum published annual cost
+          Maximum published gross annual cost
           <input
             type="number"
+            disabled={!ready}
             min="0"
             value={filters.cost || ""}
             placeholder="No limit"
             onChange={(e) => setFilter("cost", e.target.value)}
           />
         </label>
+        <label className="check-label">
+          <input
+            type="checkbox"
+            disabled={!ready}
+            checked={filters.includeUnknownCosts === "yes"}
+            onChange={(e) =>
+              setFilter("includeUnknownCosts", e.target.checked ? "yes" : "")
+            }
+          />
+          Include universities with unknown costs
+        </label>
         <p className="tiny-note">
           Uses dated official cost baselines, including older years. Currency
           defaults to USD; currencies are never converted. Tuition alone is not
-          a total.
+          a total. This filters gross costs before aid, not your eventual net
+          price.
         </p>
         {select("quality", "Verification", [
           ["current", "Has Fall 2027 admission information"],
@@ -249,7 +270,7 @@ function FiltersPanel({
 }
 export default function Explorer() {
   const params = useSearchParams();
-  const { state } = useApp();
+  const { state, ready } = useApp();
   // Keep controlled inputs synchronous while Next updates its navigation state.
   const search = useSyncExternalStore(
     subscribeToFilters,
@@ -303,6 +324,7 @@ export default function Explorer() {
         <Search size={20} />
         <input
           aria-label="Search universities"
+          disabled={!ready}
           placeholder="University, city, country, or subject…"
           value={filters.q || ""}
           onChange={(e) => setFilter("q", e.target.value)}
@@ -350,6 +372,7 @@ export default function Explorer() {
             <div className="results-controls">
               <button
                 className="filter-mobile-button"
+                disabled={!ready}
                 onClick={() => drawer.current?.showModal()}
               >
                 <SlidersHorizontal size={16} />
@@ -357,6 +380,7 @@ export default function Explorer() {
               </button>
               <select
                 aria-label="Sort universities"
+                disabled={!ready}
                 value={filters.sort || "name"}
                 onChange={(e) => setFilter("sort", e.target.value)}
               >
@@ -425,6 +449,7 @@ export default function Explorer() {
             <label className="check-label">
               <input
                 type="checkbox"
+                disabled={!ready}
                 checked={filters.includeUnknown === "yes"}
                 onChange={(e) =>
                   setFilter("includeUnknown", e.target.checked ? "yes" : "")

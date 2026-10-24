@@ -12,7 +12,16 @@ playwright-report/
 .env*
 !.env.example
 *.log
+tmp/
 .DS_Store
+desktop.ini
+Thumbs.db
+*.pem
+*.key
+*.p12
+*.pfx
+*workspace-export*.json
+*workspace-backup*.json
 
 .vercel
 .env*

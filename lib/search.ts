@@ -102,12 +102,13 @@ export function evaluateUniversity(u: University, f: Filters) {
       : is(u.englishTests.value.includes(v), true);
   });
   group("minimum", "Published English minimum", (v) =>
-    u.englishMinimums.scope?.purpose === "scholarship" ||
     (u.englishMinimums.scope &&
-      f.major &&
-      !selectedValues(f.major).some((m) =>
-        u.englishMinimums.scope!.subjects.includes(normalizeMajor(m)),
-      )) ||
+      u.englishMinimums.scope.purpose !== "admission") ||
+    (u.englishMinimums.scope &&
+      (!f.major ||
+        !selectedValues(f.major).some((m) =>
+          u.englishMinimums.scope!.subjects.includes(normalizeMajor(m)),
+        ))) ||
     u.englishMinimums.value === null
       ? "unknown"
       : is(
@@ -143,8 +144,10 @@ export function evaluateUniversity(u: University, f: Filters) {
   if (f.intake && f.intake !== TARGET_INTAKE)
     groups.push({ label: "Target intake", state: "unknown" });
   if (f.deadline || f.from) {
-    const dates = currentDeadlines(u, f.intake || TARGET_INTAKE).filter(
-      (d) => !/aid|scholarship/i.test(d.label),
+    const dates = currentDeadlines(u, f.intake || TARGET_INTAKE).filter((d) =>
+      d.category
+        ? d.category === "admission"
+        : !/aid|scholarship/i.test(d.label),
     );
     groups.push({
       label: "Admission deadline",
@@ -231,7 +234,15 @@ export function discoverUniversities(universities: University[], f: Filters) {
   return {
     matches,
     unknown,
-    results: [...matches, ...(f.includeUnknown === "yes" ? unknown : [])],
+    results: [
+      ...matches,
+      ...unknown.filter(
+        (x) =>
+          f.includeUnknown === "yes" ||
+          (f.includeUnknownCosts === "yes" &&
+            x.unknowns.every((label) => label === "Annual cost")),
+      ),
+    ],
   };
 }
 export function searchUniversities(universities: University[], f: Filters) {

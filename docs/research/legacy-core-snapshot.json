@@ -1,0 +1,4838 @@
+[
+  {
+    "id": "harvard",
+    "name": "Harvard University",
+    "shortName": "Harvard",
+    "initials": "H",
+    "country": "United States",
+    "region": "United States",
+    "city": "Cambridge",
+    "state": "Massachusetts",
+    "type": "Private university",
+    "website": "https://college.harvard.edu",
+    "color": "#A51C30",
+    "degree": "Undergraduate",
+    "programs": {
+      "value": [
+        "Computer Science",
+        "Economics",
+        "Engineering",
+        "Humanities"
+      ],
+      "sourceIds": [
+        "harvard-10"
+      ],
+      "cycle": null,
+      "note": "Computer Science, Economics, Engineering Sciences, English. These four fields are included in Harvard College's undergraduate concentration list."
+    },
+    "internationalAid": {
+      "value": true,
+      "sourceIds": [
+        "harvard-1"
+      ],
+      "cycle": null,
+      "note": "International undergraduates qualify for the same aid available to American students. General policy, not a Fall 2027-specific guarantee."
+    },
+    "needBlind": {
+      "value": true,
+      "sourceIds": [
+        "harvard-2"
+      ],
+      "cycle": null,
+      "note": "Harvard says a request for financial assistance has no effect on its admission decision."
+    },
+    "meetsFullNeed": {
+      "value": true,
+      "sourceIds": [
+        "harvard-3"
+      ],
+      "cycle": null,
+      "note": "Harvard covers all demonstrated financial need under its own assessment. This does not mean every admitted student pays nothing."
+    },
+    "meritAid": {
+      "value": false,
+      "sourceIds": [
+        "harvard-4"
+      ],
+      "cycle": null,
+      "note": "Harvard awards its aid according to financial need rather than achievement."
+    },
+    "fullTuition": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "fullCost": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidForms": {
+      "value": "2027–28 CSS Profile (3434); IDOC packet; 2025 parent income and tax documents; English translations where needed",
+      "sourceIds": [
+        "harvard-5"
+      ],
+      "cycle": "2027-2028",
+      "note": "The page explicitly covers 2027–28. International applicants unable to pay the CSS fee or use College Board payments can follow the linked alternative process."
+    },
+    "testPolicy": {
+      "value": "SAT or ACT required",
+      "sourceIds": [
+        "harvard-11"
+      ],
+      "cycle": null,
+      "note": "SAT or ACT required. Access/cost exceptions permit specified AP, IB, GCSE/A-level or externally assessed national results/predictions; English tests cannot substitute."
+    },
+    "englishPolicy": {
+      "value": "Accepted evidence: IELTS, TOEFL, Duolingo. English proficiency exams are optional for first-year applicants. No waiver is needed.",
+      "sourceIds": [
+        "harvard-13"
+      ],
+      "cycle": null,
+      "note": "English proficiency exams are optional for first-year applicants. No waiver is needed."
+    },
+    "satPolicy": {
+      "value": "required",
+      "sourceIds": [
+        "harvard-11"
+      ],
+      "cycle": null,
+      "note": "SAT or ACT required. Access/cost exceptions permit specified AP, IB, GCSE/A-level or externally assessed national results/predictions; English tests cannot substitute."
+    },
+    "satMinimum": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMedian": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMiddle50": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "actPolicy": {
+      "value": "required",
+      "sourceIds": [
+        "harvard-12"
+      ],
+      "cycle": null,
+      "note": "Either SAT or ACT satisfies the requirement; exceptional access/cost alternatives exist."
+    },
+    "englishTests": {
+      "value": [
+        "IELTS",
+        "TOEFL",
+        "Duolingo"
+      ],
+      "sourceIds": [
+        "harvard-13"
+      ],
+      "cycle": null,
+      "note": "English proficiency exams are optional for first-year applicants. No waiver is needed."
+    },
+    "englishWaiver": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "englishMinimums": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "admissionEligibility": {
+      "value": "Applications welcomed regardless of nationality; common admission process.",
+      "sourceIds": [
+        "harvard-14"
+      ],
+      "cycle": null,
+      "note": "No nationality quotas. This is a general policy."
+    },
+    "citizenshipEligibility": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "requirements": {
+      "value": [
+        {
+          "label": "Application and Harvard questions",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "School report, counselor letter and transcript",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Two teacher reports",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Midyear school report",
+          "status": "Conditional",
+          "condition": "When semester grades are available."
+        },
+        {
+          "label": "Final school report",
+          "status": "Conditional",
+          "condition": "Admitted students."
+        }
+      ],
+      "sourceIds": [
+        "harvard-19"
+      ],
+      "cycle": null,
+      "note": "First-year checklist."
+    },
+    "deadlines": {
+      "value": [
+        {
+          "label": "Restrictive Early Action",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "November 1; page does not specify entry year.",
+          "sourceIds": [
+            "harvard-20"
+          ]
+        },
+        {
+          "label": "Regular Decision",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "January 1; page does not specify entry year.",
+          "sourceIds": [
+            "harvard-20"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "harvard-20"
+      ],
+      "cycle": null,
+      "note": "Yearless dates are not converted into Fall 2027 deadlines."
+    },
+    "annualCost": {
+      "value": 95134,
+      "sourceIds": [
+        "harvard-21"
+      ],
+      "cycle": "2026–27",
+      "note": "Lower end of published USD 95,134–100,134 range, including billed costs, books/personal and travel of $0–5,000. Required health insurance adds $4,954 unless waived. Baseline, not Fall 2027 pricing."
+    },
+    "admissionDeadline": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidDeadline": {
+      "value": "2027-02-01",
+      "sourceIds": [
+        "harvard-7"
+      ],
+      "cycle": "2027-2028",
+      "note": "CSS Profile deadline for Regular Decision; late aid submissions are accepted, but aid decisions may be delayed."
+    },
+    "applicationPlatform": {
+      "value": "Common Application",
+      "sourceIds": [
+        "harvard-15"
+      ],
+      "cycle": null,
+      "note": "Standard first-year application platform."
+    },
+    "applicationPlans": {
+      "value": [
+        "Early Action",
+        "Regular Decision"
+      ],
+      "sourceIds": [
+        "harvard-16"
+      ],
+      "cycle": null,
+      "note": "Early Action is restrictive."
+    },
+    "feeWaiver": {
+      "value": true,
+      "sourceIds": [
+        "harvard-18"
+      ],
+      "cycle": null,
+      "note": "Request through Common Application; hardship alternatives available."
+    },
+    "applicationFee": {
+      "value": 95,
+      "sourceIds": [
+        "harvard-17"
+      ],
+      "cycle": null,
+      "note": "USD; waiver available."
+    },
+    "costs": {
+      "tuition": null,
+      "fees": null,
+      "housing": null,
+      "food": null,
+      "insurance": null,
+      "books": null,
+      "transportation": null
+    },
+    "costCurrency": "USD",
+    "costCycle": "2026–27",
+    "costSourceIds": [],
+    "sources": [
+      {
+        "id": "harvard-1",
+        "title": "How Aid Works",
+        "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "internationalAid"
+        ],
+        "note": "International undergraduates qualify for the same aid available to American students. General policy, not a Fall 2027-specific guarantee."
+      },
+      {
+        "id": "harvard-2",
+        "title": "How Aid Works",
+        "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "needBlind"
+        ],
+        "note": "Harvard says a request for financial assistance has no effect on its admission decision."
+      },
+      {
+        "id": "harvard-3",
+        "title": "How Aid Works",
+        "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meetsFullNeed"
+        ],
+        "note": "Harvard covers all demonstrated financial need under its own assessment. This does not mean every admitted student pays nothing."
+      },
+      {
+        "id": "harvard-4",
+        "title": "How Aid Works",
+        "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meritAid"
+        ],
+        "note": "Harvard awards its aid according to financial need rather than achievement."
+      },
+      {
+        "id": "harvard-5",
+        "title": "Prospective Students",
+        "url": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidForms"
+        ],
+        "note": "The page explicitly covers 2027–28. International applicants unable to pay the CSS fee or use College Board payments can follow the linked alternative process."
+      },
+      {
+        "id": "harvard-6",
+        "title": "Prospective Students",
+        "url": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "CSS Profile deadline for Restrictive Early Action; this is a financial aid deadline, not the admission application deadline."
+      },
+      {
+        "id": "harvard-7",
+        "title": "Prospective Students",
+        "url": "https://college.harvard.edu/financial-aid/apply-financial-aid/prospective-students",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "CSS Profile deadline for Regular Decision; late aid submissions are accepted, but aid decisions may be delayed."
+      },
+      {
+        "id": "harvard-8",
+        "title": "International Applicants",
+        "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "testPolicy"
+        ],
+        "note": "Where SAT/ACT access is genuinely unavailable, Harvard permits specified AP, IB, GCSE/A-level or externally assessed national exams or predictions."
+      },
+      {
+        "id": "harvard-9",
+        "title": "International Applicants",
+        "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishPolicy"
+        ],
+        "note": "First-year and transfer applicants need strong English, but Harvard does not require a separate English test. English tests cannot replace SAT/ACT."
+      },
+      {
+        "id": "harvard-10",
+        "title": "Concentrations",
+        "url": "https://college.harvard.edu/academics/liberal-arts-sciences/concentrations",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "programs"
+        ],
+        "note": "These four fields are included in Harvard College's undergraduate concentration list."
+      },
+      {
+        "id": "harvard-11",
+        "title": "International Applicants",
+        "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "satPolicy",
+          "testPolicy"
+        ],
+        "note": "SAT or ACT required. Access/cost exceptions permit specified AP, IB, GCSE/A-level or externally assessed national results/predictions; English tests cannot substitute."
+      },
+      {
+        "id": "harvard-12",
+        "title": "International Applicants",
+        "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "actPolicy"
+        ],
+        "note": "Either SAT or ACT satisfies the requirement; exceptional access/cost alternatives exist."
+      },
+      {
+        "id": "harvard-13",
+        "title": "International Applicants",
+        "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishTests",
+          "englishPolicy"
+        ],
+        "note": "English proficiency exams are optional for first-year applicants. No waiver is needed."
+      },
+      {
+        "id": "harvard-14",
+        "title": "International Applicants",
+        "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "admissionEligibility"
+        ],
+        "note": "No nationality quotas. This is a general policy."
+      },
+      {
+        "id": "harvard-15",
+        "title": "Apply",
+        "url": "https://college.harvard.edu/admissions/apply",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlatform"
+        ],
+        "note": "Standard first-year application platform."
+      },
+      {
+        "id": "harvard-16",
+        "title": "Apply",
+        "url": "https://college.harvard.edu/admissions/apply",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlans"
+        ],
+        "note": "Early Action is restrictive."
+      },
+      {
+        "id": "harvard-17",
+        "title": "Apply",
+        "url": "https://college.harvard.edu/admissions/apply",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationFee"
+        ],
+        "note": "USD; waiver available."
+      },
+      {
+        "id": "harvard-18",
+        "title": "International Applicants",
+        "url": "https://college.harvard.edu/admissions/apply/international-applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "feeWaiver"
+        ],
+        "note": "Request through Common Application; hardship alternatives available."
+      },
+      {
+        "id": "harvard-19",
+        "title": "Apply",
+        "url": "https://college.harvard.edu/admissions/apply",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "requirements"
+        ],
+        "note": "First-year checklist."
+      },
+      {
+        "id": "harvard-20",
+        "title": "Apply",
+        "url": "https://college.harvard.edu/admissions/apply",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "deadlines"
+        ],
+        "note": "Yearless dates are not converted into Fall 2027 deadlines."
+      },
+      {
+        "id": "harvard-21",
+        "title": "How Aid Works",
+        "url": "https://college.harvard.edu/financial-aid/how-aid-works",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026–27",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "annualCost"
+        ],
+        "note": "Lower end of published USD 95,134–100,134 range, including billed costs, books/personal and travel of $0–5,000. Required health insurance adds $4,954 unless waived. Baseline, not Fall 2027 pricing."
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 admission dates need checking.",
+      "Individual aid eligibility and award amounts depend on your circumstances."
+    ]
+  },
+  {
+    "id": "yale",
+    "name": "Yale University",
+    "shortName": "Yale",
+    "initials": "Y",
+    "country": "United States",
+    "region": "United States",
+    "city": "New Haven",
+    "state": "Connecticut",
+    "type": "Private university",
+    "website": "https://admissions.yale.edu",
+    "color": "#00356B",
+    "degree": "Undergraduate",
+    "programs": {
+      "value": [
+        "Computer Science",
+        "Economics",
+        "Engineering",
+        "Humanities"
+      ],
+      "sourceIds": [
+        "yale-11"
+      ],
+      "cycle": null,
+      "note": "Computer Science, Economics, Mechanical Engineering, Humanities. The Yale College major list includes these fields."
+    },
+    "internationalAid": {
+      "value": true,
+      "sourceIds": [
+        "yale-1"
+      ],
+      "cycle": null,
+      "note": "International applicants are eligible for Yale's undergraduate need-based aid on the same basis as domestic applicants."
+    },
+    "needBlind": {
+      "value": true,
+      "sourceIds": [
+        "yale-2"
+      ],
+      "cycle": null,
+      "note": "Yale evaluates applicants without considering ability to pay."
+    },
+    "meetsFullNeed": {
+      "value": true,
+      "sourceIds": [
+        "yale-3"
+      ],
+      "cycle": null,
+      "note": "Yale commits to covering the full financial need that it calculates for each family. International offers include housing, meals and travel allowances."
+    },
+    "meritAid": {
+      "value": false,
+      "sourceIds": [
+        "yale-4"
+      ],
+      "cycle": null,
+      "note": "Yale distinguishes its need-based scholarship from external merit awards; it does not award institutional merit scholarships."
+    },
+    "fullTuition": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "fullCost": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidForms": {
+      "value": "Indicate interest in aid on admission application; Follow personalized Yale portal checklist and direct office instructions; 2025 income documents as requested; CSS Profile only if Yale requests it",
+      "sourceIds": [
+        "yale-5",
+        "yale-6"
+      ],
+      "cycle": "2027-2028",
+      "note": "International applicants, including Canadians, receive individualized instructions. Yale does not accept ISFAA as a substitute. Yale's current FAQ says international applicants need not submit CSS Profile for admissions or aid evaluation unless the office asks for it."
+    },
+    "testPolicy": {
+      "value": "SAT or ACT required",
+      "sourceIds": [
+        "yale-12"
+      ],
+      "cycle": "Fall 2027",
+      "note": "SAT or ACT required this cycle; AP/IB alone no longer fulfills the requirement."
+    },
+    "englishPolicy": {
+      "value": "Accepted evidence: IELTS, TOEFL, Duolingo, Cambridge. Required for non-native speakers without two years in English-medium education. InitialView is also listed, separately from scored tests.",
+      "sourceIds": [
+        "yale-14"
+      ],
+      "cycle": null,
+      "note": "Required for non-native speakers without two years in English-medium education. InitialView is also listed, separately from scored tests."
+    },
+    "satPolicy": {
+      "value": "required",
+      "sourceIds": [
+        "yale-12"
+      ],
+      "cycle": "Fall 2027",
+      "note": "SAT or ACT required this cycle; AP/IB alone no longer fulfills the requirement."
+    },
+    "satMinimum": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMedian": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMiddle50": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "actPolicy": {
+      "value": "required",
+      "sourceIds": [
+        "yale-13"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Either ACT or SAT required; replaces previous flexible testing."
+    },
+    "englishTests": {
+      "value": [
+        "IELTS",
+        "TOEFL",
+        "Duolingo",
+        "Cambridge"
+      ],
+      "sourceIds": [
+        "yale-14"
+      ],
+      "cycle": null,
+      "note": "Required for non-native speakers without two years in English-medium education. InitialView is also listed, separately from scored tests."
+    },
+    "englishWaiver": {
+      "value": true,
+      "sourceIds": [
+        "yale-15"
+      ],
+      "cycle": null,
+      "note": "Not required for native English speakers or students with at least two years of English-medium education."
+    },
+    "englishMinimums": {
+      "value": [
+        {
+          "test": "TOEFL",
+          "score": 100,
+          "kind": "recommended",
+          "condition": "Competitive benchmark, not minimum; exams before January 21, 2026."
+        },
+        {
+          "test": "TOEFL",
+          "score": 5,
+          "kind": "recommended",
+          "condition": "Competitive benchmark, not minimum; exams after January 21, 2026 on 1–6 scale."
+        },
+        {
+          "test": "IELTS",
+          "score": 7,
+          "kind": "recommended",
+          "condition": "Competitive benchmark, not minimum."
+        },
+        {
+          "test": "Duolingo",
+          "score": 120,
+          "kind": "recommended",
+          "condition": "Competitive benchmark, not minimum."
+        },
+        {
+          "test": "Cambridge",
+          "score": 185,
+          "kind": "recommended",
+          "condition": "Competitive benchmark for B2 First, C1 Advanced or C2 Proficiency."
+        }
+      ],
+      "sourceIds": [
+        "yale-16"
+      ],
+      "cycle": null,
+      "note": "Yale describes typical competitive scores, not required cutoffs."
+    },
+    "admissionEligibility": {
+      "value": "Students from every country use the same application requirements.",
+      "sourceIds": [
+        "yale-20"
+      ],
+      "cycle": null,
+      "note": "Foreign-language materials require certified English translations; applicant self-translations not accepted."
+    },
+    "citizenshipEligibility": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "requirements": {
+      "value": [
+        {
+          "label": "Application",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Two teacher recommendations and counselor recommendation",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "School report with official transcript",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "SAT or ACT",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Midyear report",
+          "status": "Conditional",
+          "condition": "Current high-school seniors, when grades available."
+        }
+      ],
+      "sourceIds": [
+        "yale-19"
+      ],
+      "cycle": null,
+      "note": "English testing may additionally apply; see English policy."
+    },
+    "deadlines": {
+      "value": [
+        {
+          "label": "Single-choice Early Action",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "November 1; entry year not stated.",
+          "sourceIds": [
+            "yale-22"
+          ]
+        },
+        {
+          "label": "Regular Decision",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "January 2; entry year not stated.",
+          "sourceIds": [
+            "yale-22"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "yale-22"
+      ],
+      "cycle": null,
+      "note": "Yearless dates; no Fall 2027 date inferred."
+    },
+    "annualCost": {
+      "value": 97985,
+      "sourceIds": [
+        "yale-23"
+      ],
+      "cycle": "2026–27",
+      "note": "Calculated baseline from the six published components: tuition 72,500 + activity fee 185 + housing 12,080 + food 9,520 + books 1,000 + personal expenses 2,700 USD. Travel varies and is additional; this is not a complete individual budget or a Fall 2027 price."
+    },
+    "admissionDeadline": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidDeadline": {
+      "value": "2027-02-15",
+      "sourceIds": [
+        "yale-8"
+      ],
+      "cycle": "2027-2028",
+      "note": "Regular Decision financial aid priority deadline. Late completion does not itself reduce eligibility or the offer."
+    },
+    "applicationPlatform": {
+      "value": "Common Application, Coalition on Scoir, or QuestBridge",
+      "sourceIds": [
+        "yale-17"
+      ],
+      "cycle": null,
+      "note": "Choose one accepted application."
+    },
+    "applicationPlans": {
+      "value": [
+        "Early Action",
+        "Regular Decision"
+      ],
+      "sourceIds": [
+        "yale-21"
+      ],
+      "cycle": null,
+      "note": "Single-choice Early Action is nonbinding but restricts other early applications."
+    },
+    "feeWaiver": {
+      "value": true,
+      "sourceIds": [
+        "yale-18"
+      ],
+      "cycle": null,
+      "note": "Eligibility determined through selected application platform; QuestBridge is free."
+    },
+    "applicationFee": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "costs": {
+      "tuition": null,
+      "fees": null,
+      "housing": null,
+      "food": null,
+      "insurance": null,
+      "books": null,
+      "transportation": null
+    },
+    "costCurrency": "USD",
+    "costCycle": "2026–27",
+    "costSourceIds": [],
+    "sources": [
+      {
+        "id": "yale-1",
+        "title": "International Students",
+        "url": "https://admissions.yale.edu/international",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "internationalAid"
+        ],
+        "note": "International applicants are eligible for Yale's undergraduate need-based aid on the same basis as domestic applicants."
+      },
+      {
+        "id": "yale-2",
+        "title": "International Students",
+        "url": "https://admissions.yale.edu/international",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "needBlind"
+        ],
+        "note": "Yale evaluates applicants without considering ability to pay."
+      },
+      {
+        "id": "yale-3",
+        "title": "International Students",
+        "url": "https://admissions.yale.edu/international",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meetsFullNeed"
+        ],
+        "note": "Yale commits to covering the full financial need that it calculates for each family. International offers include housing, meals and travel allowances."
+      },
+      {
+        "id": "yale-4",
+        "title": "Financial Aid Terminology",
+        "url": "https://finaid.yale.edu/terminology",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meritAid"
+        ],
+        "note": "Yale distinguishes its need-based scholarship from external merit awards; it does not award institutional merit scholarships."
+      },
+      {
+        "id": "yale-5",
+        "title": "Prospective Students",
+        "url": "https://finaid.yale.edu/apply/prospective",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidForms"
+        ],
+        "note": "International applicants, including Canadians, receive individualized instructions. Yale does not accept ISFAA as a substitute."
+      },
+      {
+        "id": "yale-6",
+        "title": "Frequently Asked Questions",
+        "url": "https://finaid.yale.edu/faq",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidFormsDetail",
+          "aidForms"
+        ],
+        "note": "Yale's current FAQ says international applicants need not submit CSS Profile for admissions or aid evaluation unless the office asks for it."
+      },
+      {
+        "id": "yale-7",
+        "title": "Prospective Students",
+        "url": "https://finaid.yale.edu/apply/prospective",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "International Early Action financial aid priority deadline. This is not the admission application deadline."
+      },
+      {
+        "id": "yale-8",
+        "title": "Prospective Students",
+        "url": "https://finaid.yale.edu/apply/prospective",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "Regular Decision financial aid priority deadline. Late completion does not itself reduce eligibility or the offer."
+      },
+      {
+        "id": "yale-9",
+        "title": "Standardized Testing",
+        "url": "https://admissions.yale.edu/standardized-testing",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "testPolicy"
+        ],
+        "note": "The current page requires SAT/ACT for first-year and transfer applicants. AP/IB scores may supplement these scores but do not replace them."
+      },
+      {
+        "id": "yale-10",
+        "title": "Standardized Testing",
+        "url": "https://admissions.yale.edu/standardized-testing",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishPolicy"
+        ],
+        "note": "Non-native English speakers without at least two years of English-medium education must provide English proficiency evidence in addition to SAT/ACT."
+      },
+      {
+        "id": "yale-11",
+        "title": "Majors & Academic Programs",
+        "url": "https://admissions.yale.edu/majors",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "programs"
+        ],
+        "note": "The Yale College major list includes these fields."
+      },
+      {
+        "id": "yale-12",
+        "title": "Application Update 2026-2027",
+        "url": "https://admissions.yale.edu/posts/2026-08-17-application-update-2026-2027",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "satPolicy",
+          "testPolicy"
+        ],
+        "note": "SAT or ACT required this cycle; AP/IB alone no longer fulfills the requirement."
+      },
+      {
+        "id": "yale-13",
+        "title": "Application Update 2026-2027",
+        "url": "https://admissions.yale.edu/posts/2026-08-17-application-update-2026-2027",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "actPolicy"
+        ],
+        "note": "Either ACT or SAT required; replaces previous flexible testing."
+      },
+      {
+        "id": "yale-14",
+        "title": "Standardized Testing",
+        "url": "https://admissions.yale.edu/standardized-testing",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishTests",
+          "englishPolicy"
+        ],
+        "note": "Required for non-native speakers without two years in English-medium education. InitialView is also listed, separately from scored tests."
+      },
+      {
+        "id": "yale-15",
+        "title": "Standardized Testing",
+        "url": "https://admissions.yale.edu/standardized-testing",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishWaiver"
+        ],
+        "note": "Not required for native English speakers or students with at least two years of English-medium education."
+      },
+      {
+        "id": "yale-16",
+        "title": "Standardized Testing",
+        "url": "https://admissions.yale.edu/standardized-testing",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishMinimums"
+        ],
+        "note": "Yale describes typical competitive scores, not required cutoffs."
+      },
+      {
+        "id": "yale-17",
+        "title": "Requirements",
+        "url": "https://admissions.yale.edu/requirements",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlatform"
+        ],
+        "note": "Choose one accepted application."
+      },
+      {
+        "id": "yale-18",
+        "title": "Requirements",
+        "url": "https://admissions.yale.edu/requirements",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "feeWaiver"
+        ],
+        "note": "Eligibility determined through selected application platform; QuestBridge is free."
+      },
+      {
+        "id": "yale-19",
+        "title": "Requirements",
+        "url": "https://admissions.yale.edu/requirements",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "requirements"
+        ],
+        "note": "English testing may additionally apply; see English policy."
+      },
+      {
+        "id": "yale-20",
+        "title": "International Students",
+        "url": "https://admissions.yale.edu/international",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "admissionEligibility"
+        ],
+        "note": "Foreign-language materials require certified English translations; applicant self-translations not accepted."
+      },
+      {
+        "id": "yale-21",
+        "title": "Timelines",
+        "url": "https://admissions.yale.edu/timelines",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlans"
+        ],
+        "note": "Single-choice Early Action is nonbinding but restricts other early applications."
+      },
+      {
+        "id": "yale-22",
+        "title": "Timelines",
+        "url": "https://admissions.yale.edu/timelines",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "deadlines"
+        ],
+        "note": "Yearless dates; no Fall 2027 date inferred."
+      },
+      {
+        "id": "yale-23",
+        "title": "Undergraduate Cost of Attendance",
+        "url": "https://finaid.yale.edu/coa",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–27",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "annualCost"
+        ],
+        "note": "Calculated baseline from the six published components: tuition 72,500 + activity fee 185 + housing 12,080 + food 9,520 + books 1,000 + personal expenses 2,700 USD. Travel varies and is additional; this is not a complete individual budget or a Fall 2027 price."
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 admission dates need checking.",
+      "Individual aid eligibility and award amounts depend on your circumstances."
+    ]
+  },
+  {
+    "id": "princeton",
+    "name": "Princeton University",
+    "shortName": "Princeton",
+    "initials": "P",
+    "country": "United States",
+    "region": "United States",
+    "city": "Princeton",
+    "state": "New Jersey",
+    "type": "Private university",
+    "website": "https://admission.princeton.edu",
+    "color": "#E77500",
+    "degree": "Undergraduate",
+    "programs": {
+      "value": [
+        "Computer Science",
+        "Economics",
+        "Engineering",
+        "Humanities"
+      ],
+      "sourceIds": [
+        "princeton-9"
+      ],
+      "cycle": null,
+      "note": "Computer Science, Economics, Electrical and Computer Engineering, English. The undergraduate department list documents these areas; CS can be studied in either the A.B. or B.S.E. program."
+    },
+    "internationalAid": {
+      "value": true,
+      "sourceIds": [
+        "princeton-1"
+      ],
+      "cycle": null,
+      "note": "Princeton applies the same undergraduate aid policy to international and US students."
+    },
+    "needBlind": {
+      "value": true,
+      "sourceIds": [
+        "princeton-2"
+      ],
+      "cycle": null,
+      "note": "Seeking aid does not disadvantage an applicant in Princeton's admission review."
+    },
+    "meetsFullNeed": {
+      "value": true,
+      "sourceIds": [
+        "princeton-3"
+      ],
+      "cycle": null,
+      "note": "Princeton funds all assessed need for admitted international students using grants. The family's expected contribution is calculated from its aid application."
+    },
+    "meritAid": {
+      "value": false,
+      "sourceIds": [
+        "princeton-4"
+      ],
+      "cycle": null,
+      "note": "Princeton does not provide academic or athletic merit scholarships."
+    },
+    "fullTuition": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "fullCost": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidForms": {
+      "value": "2027–28 Princeton Financial Aid Application (PFAA); 2025 tax or non-filer income documents; Noncustodial parent information where required",
+      "sourceIds": [
+        "princeton-5"
+      ],
+      "cycle": "2027-2028",
+      "note": "Class of 2031 instructions use Princeton's own application and upload system. CSS Profile and IDOC are not used. Non-English international tax returns require translation."
+    },
+    "testPolicy": {
+      "value": "Test optional for Fall 2027",
+      "sourceIds": [
+        "princeton-10"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Optional for Fall 2027. Required again for Fall 2028; do not apply that future policy early."
+    },
+    "englishPolicy": {
+      "value": "Accepted evidence: IELTS, TOEFL, Duolingo. Also accepts PTE Academic, outside current filter taxonomy. Required for non-native speakers without qualifying English-medium schooling.",
+      "sourceIds": [
+        "princeton-12"
+      ],
+      "cycle": null,
+      "note": "Also accepts PTE Academic, outside current filter taxonomy. Required for non-native speakers without qualifying English-medium schooling."
+    },
+    "satPolicy": {
+      "value": "optional",
+      "sourceIds": [
+        "princeton-10"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Optional for Fall 2027. Required again for Fall 2028; do not apply that future policy early."
+    },
+    "satMinimum": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMedian": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMiddle50": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "actPolicy": {
+      "value": "optional",
+      "sourceIds": [
+        "princeton-11"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Optional for Fall 2027; applicants without scores are not disadvantaged."
+    },
+    "englishTests": {
+      "value": [
+        "IELTS",
+        "TOEFL",
+        "Duolingo"
+      ],
+      "sourceIds": [
+        "princeton-12"
+      ],
+      "cycle": null,
+      "note": "Also accepts PTE Academic, outside current filter taxonomy. Required for non-native speakers without qualifying English-medium schooling."
+    },
+    "englishWaiver": {
+      "value": true,
+      "sourceIds": [
+        "princeton-13"
+      ],
+      "cycle": null,
+      "note": "Exempt if English is native language or at least three secondary-school years used English as primary instruction."
+    },
+    "englishMinimums": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "admissionEligibility": {
+      "value": "International applicants are evaluated in their school's curriculum context.",
+      "sourceIds": [
+        "princeton-18"
+      ],
+      "cycle": null,
+      "note": "Do not convert grades to U.S. GPA. Graded paper and teacher comments must be originally written in English."
+    },
+    "citizenshipEligibility": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "requirements": {
+      "value": [
+        {
+          "label": "Application and Princeton questions",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Graded written paper",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Official transcript and school report",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Counselor and two teacher recommendations",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Midyear school report",
+          "status": "Conditional",
+          "condition": "When grades available."
+        }
+      ],
+      "sourceIds": [
+        "princeton-17"
+      ],
+      "cycle": null,
+      "note": "Paper and comments must originally be in English; see international guidance."
+    },
+    "deadlines": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "annualCost": {
+      "value": 94624,
+      "sourceIds": [
+        "princeton-19"
+      ],
+      "cycle": "2026–27",
+      "note": "Published USD budget includes tuition, housing, food, fees, books and personal expenses. Travel varies ($50–5,000); health plan extra if not covered. Not Fall 2027 pricing."
+    },
+    "admissionDeadline": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidDeadline": {
+      "value": null,
+      "sourceIds": [
+        "princeton-6"
+      ],
+      "cycle": "2027-2028",
+      "note": "No confirmed date recorded: the page is headed 2027–28 but its deadline table still labels tax returns as 2024. Confirm with Princeton before assigning its Nov 9 / Feb 1 dates to Fall 2027."
+    },
+    "applicationPlatform": {
+      "value": "Common Application",
+      "sourceIds": [
+        "princeton-14"
+      ],
+      "cycle": null,
+      "note": "Standard first-year route; QuestBridge has a separate route."
+    },
+    "applicationPlans": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "feeWaiver": {
+      "value": true,
+      "sourceIds": [
+        "princeton-15"
+      ],
+      "cycle": null,
+      "note": "Princeton-specific waiver for low-income applicants and U.S. military; counselor approval not needed for this specific waiver."
+    },
+    "applicationFee": {
+      "value": 75,
+      "sourceIds": [
+        "princeton-16"
+      ],
+      "cycle": "2025–26",
+      "note": "USD 75 published under the 2025–26 cycle; current fee should be reconfirmed for Fall 2027."
+    },
+    "costs": {
+      "tuition": null,
+      "fees": null,
+      "housing": null,
+      "food": null,
+      "insurance": null,
+      "books": null,
+      "transportation": null
+    },
+    "costCurrency": "USD",
+    "costCycle": "2026–27",
+    "costSourceIds": [],
+    "sources": [
+      {
+        "id": "princeton-1",
+        "title": "International Students",
+        "url": "https://admission.princeton.edu/apply/international-students",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "internationalAid"
+        ],
+        "note": "Princeton applies the same undergraduate aid policy to international and US students."
+      },
+      {
+        "id": "princeton-2",
+        "title": "International Students",
+        "url": "https://admission.princeton.edu/apply/international-students",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "needBlind"
+        ],
+        "note": "Seeking aid does not disadvantage an applicant in Princeton's admission review."
+      },
+      {
+        "id": "princeton-3",
+        "title": "International Students",
+        "url": "https://admission.princeton.edu/apply/international-students",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meetsFullNeed"
+        ],
+        "note": "Princeton funds all assessed need for admitted international students using grants. The family's expected contribution is calculated from its aid application."
+      },
+      {
+        "id": "princeton-4",
+        "title": "International Students",
+        "url": "https://admission.princeton.edu/apply/international-students",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meritAid"
+        ],
+        "note": "Princeton does not provide academic or athletic merit scholarships."
+      },
+      {
+        "id": "princeton-5",
+        "title": "Apply for Aid: Prospective Students",
+        "url": "https://finaid.princeton.edu/apply-aid-prospective-students",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidForms"
+        ],
+        "note": "Class of 2031 instructions use Princeton's own application and upload system. CSS Profile and IDOC are not used. Non-English international tax returns require translation."
+      },
+      {
+        "id": "princeton-6",
+        "title": "Apply for Aid: Prospective Students",
+        "url": "https://finaid.princeton.edu/apply-aid-prospective-students",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "needs-rechecking",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "No confirmed date recorded: the page is headed 2027–28 but its deadline table still labels tax returns as 2024. Confirm with Princeton before assigning its Nov 9 / Feb 1 dates to Fall 2027."
+      },
+      {
+        "id": "princeton-7",
+        "title": "Standardized Testing",
+        "url": "https://admission.princeton.edu/apply/standardized-testing",
+        "checkedAt": "2026-10-18",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "testPolicy"
+        ],
+        "note": "The page explicitly keeps SAT/ACT optional for Fall 2027 entrants. Mandatory testing returns for Fall 2028, not Fall 2027."
+      },
+      {
+        "id": "princeton-8",
+        "title": "Standardized Testing",
+        "url": "https://admission.princeton.edu/apply/standardized-testing",
+        "checkedAt": "2026-10-18",
+        "cycle": "2026-2027 admission cycle",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishPolicy"
+        ],
+        "note": "Accepted options listed include TOEFL, IELTS Academic, Duolingo and PTE Academic."
+      },
+      {
+        "id": "princeton-9",
+        "title": "Degrees & Departments",
+        "url": "https://admission.princeton.edu/academics/degrees-departments",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "programs"
+        ],
+        "note": "The undergraduate department list documents these areas; CS can be studied in either the A.B. or B.S.E. program."
+      },
+      {
+        "id": "princeton-10",
+        "title": "Standardized Testing",
+        "url": "https://admission.princeton.edu/apply/standardized-testing",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "satPolicy",
+          "testPolicy"
+        ],
+        "note": "Optional for Fall 2027. Required again for Fall 2028; do not apply that future policy early."
+      },
+      {
+        "id": "princeton-11",
+        "title": "Standardized Testing",
+        "url": "https://admission.princeton.edu/apply/standardized-testing",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "actPolicy"
+        ],
+        "note": "Optional for Fall 2027; applicants without scores are not disadvantaged."
+      },
+      {
+        "id": "princeton-12",
+        "title": "International Students",
+        "url": "https://admission.princeton.edu/apply/international-students",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishTests",
+          "englishPolicy"
+        ],
+        "note": "Also accepts PTE Academic, outside current filter taxonomy. Required for non-native speakers without qualifying English-medium schooling."
+      },
+      {
+        "id": "princeton-13",
+        "title": "International Students",
+        "url": "https://admission.princeton.edu/apply/international-students",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishWaiver"
+        ],
+        "note": "Exempt if English is native language or at least three secondary-school years used English as primary instruction."
+      },
+      {
+        "id": "princeton-14",
+        "title": "Application Checklist",
+        "url": "https://admission.princeton.edu/apply/application-checklist",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlatform"
+        ],
+        "note": "Standard first-year route; QuestBridge has a separate route."
+      },
+      {
+        "id": "princeton-15",
+        "title": "Application Checklist",
+        "url": "https://admission.princeton.edu/apply/application-checklist",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "feeWaiver"
+        ],
+        "note": "Princeton-specific waiver for low-income applicants and U.S. military; counselor approval not needed for this specific waiver."
+      },
+      {
+        "id": "princeton-16",
+        "title": "For Counselors",
+        "url": "https://admission.princeton.edu/apply/counselors",
+        "checkedAt": "2026-10-19",
+        "cycle": "2025–26",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationFee"
+        ],
+        "note": "USD 75 published under the 2025–26 cycle; current fee should be reconfirmed for Fall 2027."
+      },
+      {
+        "id": "princeton-17",
+        "title": "Application Checklist",
+        "url": "https://admission.princeton.edu/apply/application-checklist",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "requirements"
+        ],
+        "note": "Paper and comments must originally be in English; see international guidance."
+      },
+      {
+        "id": "princeton-18",
+        "title": "International Students",
+        "url": "https://admission.princeton.edu/apply/international-students",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "admissionEligibility"
+        ],
+        "note": "Do not convert grades to U.S. GPA. Graded paper and teacher comments must be originally written in English."
+      },
+      {
+        "id": "princeton-19",
+        "title": "Fees & Payment Options",
+        "url": "https://admission.princeton.edu/cost-aid/fees-payment-options",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026–27",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "annualCost"
+        ],
+        "note": "Published USD budget includes tuition, housing, food, fees, books and personal expenses. Travel varies ($50–5,000); health plan extra if not covered. Not Fall 2027 pricing."
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 admission dates need checking.",
+      "Individual aid eligibility and award amounts depend on your circumstances."
+    ]
+  },
+  {
+    "id": "mit",
+    "name": "Massachusetts Institute of Technology",
+    "shortName": "MIT",
+    "initials": "MIT",
+    "country": "United States",
+    "region": "United States",
+    "city": "Cambridge",
+    "state": "Massachusetts",
+    "type": "Private university",
+    "website": "https://mitadmissions.org",
+    "color": "#A31F34",
+    "degree": "Undergraduate",
+    "programs": {
+      "value": [
+        "Computer Science",
+        "Economics",
+        "Engineering",
+        "Humanities",
+        "Business / Management",
+        "Finance",
+        "Artificial Intelligence / Data Science",
+        "Mathematics / Statistics"
+      ],
+      "sourceIds": [
+        "mit-9",
+        "mit-22"
+      ],
+      "cycle": null,
+      "note": "Computer Science and Engineering, Economics, Mechanical Engineering, History. The official major/minor table lists these four as undergraduate majors. Business / Management, Finance, Artificial Intelligence / Data Science, Mathematics / Statistics. Verified undergraduate degrees include Management (15-1), Business Analytics (15-2), Finance (15-3), Artificial Intelligence and Decision Making (6-4), and Mathematics (18). Graduate degrees are separately listed and are not used for these categories."
+    },
+    "internationalAid": {
+      "value": true,
+      "sourceIds": [
+        "mit-1"
+      ],
+      "cycle": null,
+      "note": "MIT's international aid process applies to applicants who are ineligible for US federal student aid, regardless of where they live."
+    },
+    "needBlind": {
+      "value": true,
+      "sourceIds": [
+        "mit-2"
+      ],
+      "cycle": null,
+      "note": "MIT states that its need-blind policy includes domestic and international undergraduates."
+    },
+    "meetsFullNeed": {
+      "value": true,
+      "sourceIds": [
+        "mit-3"
+      ],
+      "cycle": null,
+      "note": "MIT commits to covering all demonstrated undergraduate need as assessed by the institution."
+    },
+    "meritAid": {
+      "value": false,
+      "sourceIds": [
+        "mit-4"
+      ],
+      "cycle": null,
+      "note": "MIT institutional scholarships are awarded for financial need, not academic, athletic or artistic achievement."
+    },
+    "fullTuition": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "fullCost": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidForms": {
+      "value": "CSS Profile (3514); Parent tax returns or income documentation via IDOC",
+      "sourceIds": [
+        "mit-5"
+      ],
+      "cycle": null,
+      "note": "Parents outside the US supply their local tax documents with English translations where needed. Separated or divorced parents each complete CSS and provide income documents."
+    },
+    "testPolicy": {
+      "value": "SAT or ACT required",
+      "sourceIds": [
+        "mit-10"
+      ],
+      "cycle": null,
+      "note": "SAT or ACT required; no SAT/ACT minimum."
+    },
+    "englishPolicy": {
+      "value": "Accepted evidence: IELTS, TOEFL, Duolingo, Cambridge. Strongly recommended when English use is under five years or English is not spoken at home/school. Also accepts PTE Academic.",
+      "sourceIds": [
+        "mit-12"
+      ],
+      "cycle": null,
+      "note": "Strongly recommended when English use is under five years or English is not spoken at home/school. Also accepts PTE Academic."
+    },
+    "satPolicy": {
+      "value": "required",
+      "sourceIds": [
+        "mit-10"
+      ],
+      "cycle": null,
+      "note": "SAT or ACT required; no SAT/ACT minimum."
+    },
+    "satMinimum": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMedian": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMiddle50": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "actPolicy": {
+      "value": "required",
+      "sourceIds": [
+        "mit-11"
+      ],
+      "cycle": null,
+      "note": "Either test accepted; ACT writing and science not required."
+    },
+    "englishTests": {
+      "value": [
+        "IELTS",
+        "TOEFL",
+        "Duolingo",
+        "Cambridge"
+      ],
+      "sourceIds": [
+        "mit-12"
+      ],
+      "cycle": null,
+      "note": "Strongly recommended when English use is under five years or English is not spoken at home/school. Also accepts PTE Academic."
+    },
+    "englishWaiver": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "englishMinimums": {
+      "value": [
+        {
+          "test": "TOEFL",
+          "score": 90,
+          "kind": "minimum",
+          "condition": "Before January 21, 2026."
+        },
+        {
+          "test": "TOEFL",
+          "score": 100,
+          "kind": "recommended",
+          "condition": "Before January 21, 2026."
+        },
+        {
+          "test": "TOEFL",
+          "score": 5,
+          "kind": "minimum",
+          "condition": "On/after January 21, 2026; 1–6 scale."
+        },
+        {
+          "test": "TOEFL",
+          "score": 5.5,
+          "kind": "recommended",
+          "condition": "On/after January 21, 2026; 1–6 scale."
+        },
+        {
+          "test": "IELTS",
+          "score": 7,
+          "kind": "minimum",
+          "condition": "IELTS."
+        },
+        {
+          "test": "IELTS",
+          "score": 7.5,
+          "kind": "recommended",
+          "condition": "IELTS."
+        },
+        {
+          "test": "Duolingo",
+          "score": 120,
+          "kind": "minimum",
+          "condition": "DET."
+        },
+        {
+          "test": "Duolingo",
+          "score": 125,
+          "kind": "recommended",
+          "condition": "DET."
+        },
+        {
+          "test": "Cambridge",
+          "score": 185,
+          "kind": "minimum",
+          "condition": "C1 Advanced or C2 Proficiency."
+        },
+        {
+          "test": "Cambridge",
+          "score": 190,
+          "kind": "recommended",
+          "condition": "C1 Advanced or C2 Proficiency."
+        }
+      ],
+      "sourceIds": [
+        "mit-13"
+      ],
+      "cycle": null,
+      "note": "Minimum and recommended English scores are distinct."
+    },
+    "admissionEligibility": {
+      "value": "First-year Fall 2027 applicants must not have matriculated at another degree-granting institution.",
+      "sourceIds": [
+        "mit-20"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Students completing at least one college year use the transfer route."
+    },
+    "citizenshipEligibility": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "requirements": {
+      "value": [
+        {
+          "label": "MIT application with essays",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Secondary school report and transcripts",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Two teacher recommendations",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "SAT or ACT",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Interview",
+          "status": "Conditional",
+          "condition": "Offered if an Educational Counselor is available; otherwise waived."
+        }
+      ],
+      "sourceIds": [
+        "mit-18"
+      ],
+      "cycle": null,
+      "note": "Teacher letters: one math/science and one humanities/social science/language recommended."
+    },
+    "deadlines": {
+      "value": [
+        {
+          "label": "Early Action",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "November 1; schedule itself is yearless.",
+          "sourceIds": [
+            "mit-19"
+          ]
+        },
+        {
+          "label": "Regular Action",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "January 4; schedule itself is yearless.",
+          "sourceIds": [
+            "mit-19"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "mit-19"
+      ],
+      "cycle": null,
+      "note": "MIT portal separately confirms Fall 2027 applications open; yearless schedule not assigned an inferred year."
+    },
+    "annualCost": {
+      "value": 92760,
+      "sourceIds": [
+        "mit-21"
+      ],
+      "cycle": "2026–27",
+      "note": "Published USD annual budget includes tuition, fee, housing, food, books, personal expenses. Health insurance additional; travel allowance varies. Not Fall 2027 pricing."
+    },
+    "admissionDeadline": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidDeadline": {
+      "value": null,
+      "sourceIds": [
+        "mit-6"
+      ],
+      "cycle": null,
+      "note": "The general page lists Early Action November 30 and Regular Action February 15, but does not identify a Fall 2027 entry cycle; no ISO date assigned."
+    },
+    "applicationPlatform": {
+      "value": "MIT application portal",
+      "sourceIds": [
+        "mit-14"
+      ],
+      "cycle": null,
+      "note": "MIT uses its own application."
+    },
+    "applicationPlans": {
+      "value": [
+        "Early Action",
+        "Regular Decision"
+      ],
+      "sourceIds": [
+        "mit-15"
+      ],
+      "cycle": null,
+      "note": "MIT names its regular round Regular Action."
+    },
+    "feeWaiver": {
+      "value": true,
+      "sourceIds": [
+        "mit-17"
+      ],
+      "cycle": null,
+      "note": "Application fee may be waived."
+    },
+    "applicationFee": {
+      "value": 75,
+      "sourceIds": [
+        "mit-16"
+      ],
+      "cycle": null,
+      "note": "USD; fee waiver available."
+    },
+    "costs": {
+      "tuition": null,
+      "fees": null,
+      "housing": null,
+      "food": null,
+      "insurance": null,
+      "books": null,
+      "transportation": null
+    },
+    "costCurrency": "USD",
+    "costCycle": "2026–27",
+    "costSourceIds": [],
+    "sources": [
+      {
+        "id": "mit-1",
+        "title": "International students",
+        "url": "https://sfs.mit.edu/undergraduate-students/apply-for-aid/international/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "internationalAid"
+        ],
+        "note": "MIT's international aid process applies to applicants who are ineligible for US federal student aid, regardless of where they live."
+      },
+      {
+        "id": "mit-2",
+        "title": "Making MIT affordable",
+        "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/making-mit-affordable/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "needBlind"
+        ],
+        "note": "MIT states that its need-blind policy includes domestic and international undergraduates."
+      },
+      {
+        "id": "mit-3",
+        "title": "Making MIT affordable",
+        "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/making-mit-affordable/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meetsFullNeed"
+        ],
+        "note": "MIT commits to covering all demonstrated undergraduate need as assessed by the institution."
+      },
+      {
+        "id": "mit-4",
+        "title": "Does MIT provide any academic or athletic scholarships?",
+        "url": "https://mitadmissions.org/help/faq/scholarships/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meritAid"
+        ],
+        "note": "MIT institutional scholarships are awarded for financial need, not academic, athletic or artistic achievement."
+      },
+      {
+        "id": "mit-5",
+        "title": "International students",
+        "url": "https://sfs.mit.edu/undergraduate-students/apply-for-aid/international/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidForms"
+        ],
+        "note": "Parents outside the US supply their local tax documents with English translations where needed. Separated or divorced parents each complete CSS and provide income documents."
+      },
+      {
+        "id": "mit-6",
+        "title": "Aid deadlines and process",
+        "url": "https://sfs.mit.edu/undergraduate-students/apply-for-aid/deadlines-process/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "needs-rechecking",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "The general page lists Early Action November 30 and Regular Action February 15, but does not identify a Fall 2027 entry cycle; no ISO date assigned."
+      },
+      {
+        "id": "mit-7",
+        "title": "Tests & scores",
+        "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "testPolicy"
+        ],
+        "note": "MIT requires SAT/ACT for first-year and transfer applicants. ACT writing and science are optional."
+      },
+      {
+        "id": "mit-8",
+        "title": "Tests & scores",
+        "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishPolicy"
+        ],
+        "note": "MIT recommends English testing for non-native speakers with under five years using English or who do not use it at home or school."
+      },
+      {
+        "id": "mit-9",
+        "title": "Majors & minors",
+        "url": "https://mitadmissions.org/discover/the-mit-education/majors-minors/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "programs"
+        ],
+        "note": "The official major/minor table lists these four as undergraduate majors."
+      },
+      {
+        "id": "mit-10",
+        "title": "Tests & scores",
+        "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "satPolicy",
+          "testPolicy"
+        ],
+        "note": "SAT or ACT required; no SAT/ACT minimum."
+      },
+      {
+        "id": "mit-11",
+        "title": "Tests & scores",
+        "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "actPolicy"
+        ],
+        "note": "Either test accepted; ACT writing and science not required."
+      },
+      {
+        "id": "mit-12",
+        "title": "Tests & scores",
+        "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishTests",
+          "englishPolicy"
+        ],
+        "note": "Strongly recommended when English use is under five years or English is not spoken at home/school. Also accepts PTE Academic."
+      },
+      {
+        "id": "mit-13",
+        "title": "Tests & scores",
+        "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishMinimums"
+        ],
+        "note": "Minimum and recommended English scores are distinct."
+      },
+      {
+        "id": "mit-14",
+        "title": "Deadlines & requirements",
+        "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlatform"
+        ],
+        "note": "MIT uses its own application."
+      },
+      {
+        "id": "mit-15",
+        "title": "Deadlines & requirements",
+        "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlans"
+        ],
+        "note": "MIT names its regular round Regular Action."
+      },
+      {
+        "id": "mit-16",
+        "title": "Deadlines & requirements",
+        "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationFee"
+        ],
+        "note": "USD; fee waiver available."
+      },
+      {
+        "id": "mit-17",
+        "title": "Deadlines & requirements",
+        "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "feeWaiver"
+        ],
+        "note": "Application fee may be waived."
+      },
+      {
+        "id": "mit-18",
+        "title": "Deadlines & requirements",
+        "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "requirements"
+        ],
+        "note": "Teacher letters: one math/science and one humanities/social science/language recommended."
+      },
+      {
+        "id": "mit-19",
+        "title": "Deadlines & requirements",
+        "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "deadlines"
+        ],
+        "note": "MIT portal separately confirms Fall 2027 applications open; yearless schedule not assigned an inferred year."
+      },
+      {
+        "id": "mit-20",
+        "title": "MIT application portal",
+        "url": "https://apply.mitadmissions.org/portal/apply",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "admissionEligibility"
+        ],
+        "note": "Students completing at least one college year use the transfer route."
+      },
+      {
+        "id": "mit-21",
+        "title": "Cost of attendance for the Class of 2030",
+        "url": "https://sfs.mit.edu/cost-of-attendance-class-of-2030/",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026–27",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "annualCost"
+        ],
+        "note": "Published USD annual budget includes tuition, fee, housing, food, books, personal expenses. Health insurance additional; travel allowance varies. Not Fall 2027 pricing."
+      },
+      {
+        "id": "mit-22",
+        "title": "MIT Undergraduate Degree Charts",
+        "url": "https://catalog.mit.edu/degree-charts/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "programs"
+        ],
+        "note": "Verified undergraduate degrees include Management (15-1), Business Analytics (15-2), Finance (15-3), Artificial Intelligence and Decision Making (6-4), and Mathematics (18). Graduate degrees are separately listed and are not used for these categories."
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 admission dates need checking.",
+      "Individual aid eligibility and award amounts depend on your circumstances."
+    ]
+  },
+  {
+    "id": "amherst",
+    "name": "Amherst College",
+    "shortName": "Amherst",
+    "initials": "A",
+    "country": "United States",
+    "region": "United States",
+    "city": "Amherst",
+    "state": "Massachusetts",
+    "type": "Liberal arts college",
+    "website": "https://www.amherst.edu",
+    "color": "#4C1D6F",
+    "degree": "Undergraduate",
+    "programs": {
+      "value": [
+        "Computer Science",
+        "Economics",
+        "Humanities",
+        "Natural Sciences"
+      ],
+      "sourceIds": [
+        "amherst-10"
+      ],
+      "cycle": null,
+      "note": "Computer Science, Economics, English, Biology. The official majors list includes these four fields."
+    },
+    "internationalAid": {
+      "value": true,
+      "sourceIds": [
+        "amherst-1"
+      ],
+      "cycle": null,
+      "note": "Amherst makes its need-based aid available to international students under the same basis as domestic students."
+    },
+    "needBlind": {
+      "value": true,
+      "sourceIds": [
+        "amherst-2"
+      ],
+      "cycle": null,
+      "note": "Amherst's admission evaluation does not depend on an international applicant's aid request or ability to pay."
+    },
+    "meetsFullNeed": {
+      "value": true,
+      "sourceIds": [
+        "amherst-3"
+      ],
+      "cycle": null,
+      "note": "The College covers all calculated need for admitted international students who apply for aid."
+    },
+    "meritAid": {
+      "value": null,
+      "sourceIds": [
+        "amherst-4"
+      ],
+      "cycle": null,
+      "note": "The current page confirms need-based aid but does not explicitly establish the merit scholarship policy. The formerly linked 2019 brochure returned HTTP 404 on October 20, 2026; merit eligibility remains unknown."
+    },
+    "fullTuition": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "fullCost": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidForms": {
+      "value": "2027–28 CSS Profile (3003) or approved ISFAA alternative; 2025 parent income and wage documents; Business/Farm Supplement where applicable",
+      "sourceIds": [
+        "amherst-5"
+      ],
+      "cycle": "2027-2028",
+      "note": "The page was updated October 2, 2026. Fee-hardship applicants may request ISFAA through their admission account. Upload original-currency documents and English translations after portal instructions arrive."
+    },
+    "testPolicy": {
+      "value": "Test optional for Fall 2027",
+      "sourceIds": [
+        "amherst-11"
+      ],
+      "cycle": "Fall 2027",
+      "note": "SAT/ACT optional in 2026–27 admissions cycle."
+    },
+    "englishPolicy": {
+      "value": "Accepted evidence: IELTS, TOEFL, Duolingo. Required unless native English or eligible English-medium exemption.",
+      "sourceIds": [
+        "amherst-13"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Required unless native English or eligible English-medium exemption."
+    },
+    "satPolicy": {
+      "value": "optional",
+      "sourceIds": [
+        "amherst-11"
+      ],
+      "cycle": "Fall 2027",
+      "note": "SAT/ACT optional in 2026–27 admissions cycle."
+    },
+    "satMinimum": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMedian": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMiddle50": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "actPolicy": {
+      "value": "optional",
+      "sourceIds": [
+        "amherst-12"
+      ],
+      "cycle": "Fall 2027",
+      "note": "SAT/ACT optional in 2026–27 admissions cycle."
+    },
+    "englishTests": {
+      "value": [
+        "IELTS",
+        "TOEFL",
+        "Duolingo"
+      ],
+      "sourceIds": [
+        "amherst-13"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Required unless native English or eligible English-medium exemption."
+    },
+    "englishWaiver": {
+      "value": true,
+      "sourceIds": [
+        "amherst-14"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Native English or two most recent secondary-school years in English-medium instruction. No other waiver grounds."
+    },
+    "englishMinimums": {
+      "value": [
+        {
+          "test": "TOEFL",
+          "score": 100,
+          "kind": "recommended",
+          "condition": "Before January 21, 2026; strongly recommended."
+        },
+        {
+          "test": "TOEFL",
+          "score": 5.5,
+          "kind": "recommended",
+          "condition": "New 1–6 scale; strongly recommended."
+        },
+        {
+          "test": "IELTS",
+          "score": 7.5,
+          "kind": "recommended",
+          "condition": "Overall IELTS Academic."
+        },
+        {
+          "test": "Duolingo",
+          "score": 130,
+          "kind": "recommended",
+          "condition": "Strongly recommended."
+        }
+      ],
+      "sourceIds": [
+        "amherst-15"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Page labels these strongly recommended scores."
+    },
+    "admissionEligibility": {
+      "value": "All nationalities apply; high-school diploma or recognized equivalent required before enrollment.",
+      "sourceIds": [
+        "amherst-21"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Applicants already holding a bachelor's degree are ineligible."
+    },
+    "citizenshipEligibility": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "requirements": {
+      "value": [
+        {
+          "label": "Application and Amherst writing supplement",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "School report and transcript",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Counselor and two teacher recommendations",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Midyear report and transcript",
+          "status": "Conditional",
+          "condition": "When available."
+        },
+        {
+          "label": "Early Decision agreement and first-period grades",
+          "status": "Conditional",
+          "condition": "Early Decision applicants."
+        }
+      ],
+      "sourceIds": [
+        "amherst-20"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Official documents submitted by school."
+    },
+    "deadlines": {
+      "value": [
+        {
+          "label": "Early Decision",
+          "date": "2026-11-09",
+          "cycle": "Fall 2027",
+          "kind": "fixed",
+          "note": "Binding ED.",
+          "sourceIds": [
+            "amherst-22"
+          ]
+        },
+        {
+          "label": "Regular Decision",
+          "date": "2027-01-05",
+          "cycle": "Fall 2027",
+          "kind": "fixed",
+          "note": "RD; reply May 1, 2027.",
+          "sourceIds": [
+            "amherst-22"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "amherst-22"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Page explicitly supplies years."
+    },
+    "annualCost": {
+      "value": 98160,
+      "sourceIds": [
+        "amherst-23"
+      ],
+      "cycle": "2026–27",
+      "note": "Calculated baseline: tuition 75,330 + housing 10,980 + meals 9,340 + fees 710 + personal expenses 1,800 USD. Travel varies; health insurance is additional unless comparable coverage is accepted. Required course materials are included in the comprehensive fee. Not Fall 2027 pricing."
+    },
+    "admissionDeadline": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidDeadline": {
+      "value": "2027-01-15",
+      "sourceIds": [
+        "amherst-7"
+      ],
+      "cycle": "2027-2028",
+      "note": "International Regular Decision financial aid submission date; distinct from the admissions deadline."
+    },
+    "applicationPlatform": {
+      "value": "Common Application, Coalition with Scoir, or QuestBridge",
+      "sourceIds": [
+        "amherst-16"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Choose one platform."
+    },
+    "applicationPlans": {
+      "value": [
+        "Early Decision",
+        "Regular Decision"
+      ],
+      "sourceIds": [
+        "amherst-17"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Early Decision is binding."
+    },
+    "feeWaiver": {
+      "value": true,
+      "sourceIds": [
+        "amherst-19"
+      ],
+      "cycle": "Fall 2027",
+      "note": "Request through application or Amherst Quick Pass."
+    },
+    "applicationFee": {
+      "value": 75,
+      "sourceIds": [
+        "amherst-18"
+      ],
+      "cycle": "Fall 2027",
+      "note": "USD; nonrefundable unless waived."
+    },
+    "costs": {
+      "tuition": null,
+      "fees": null,
+      "housing": null,
+      "food": null,
+      "insurance": null,
+      "books": null,
+      "transportation": null
+    },
+    "costCurrency": "USD",
+    "costCycle": "2026–27",
+    "costSourceIds": [],
+    "sources": [
+      {
+        "id": "amherst-1",
+        "title": "International Applicants",
+        "url": "https://www.amherst.edu/admission/apply/international",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "internationalAid"
+        ],
+        "note": "Amherst makes its need-based aid available to international students under the same basis as domestic students."
+      },
+      {
+        "id": "amherst-2",
+        "title": "International Applicants",
+        "url": "https://www.amherst.edu/admission/apply/international",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "needBlind"
+        ],
+        "note": "Amherst's admission evaluation does not depend on an international applicant's aid request or ability to pay."
+      },
+      {
+        "id": "amherst-3",
+        "title": "International Applicants",
+        "url": "https://www.amherst.edu/admission/apply/international",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meetsFullNeed"
+        ],
+        "note": "The College covers all calculated need for admitted international students who apply for aid."
+      },
+      {
+        "id": "amherst-4",
+        "title": "International Applicants — merit policy needs verification",
+        "url": "https://www.amherst.edu/admission/apply/international",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "type": "official",
+        "status": "needs-rechecking",
+        "fields": [
+          "meritAid"
+        ],
+        "note": "The current page confirms need-based aid but does not explicitly establish the merit scholarship policy. The formerly linked 2019 brochure returned HTTP 404 on October 20, 2026; merit eligibility remains unknown."
+      },
+      {
+        "id": "amherst-5",
+        "title": "International Students: Applying for Financial Aid",
+        "url": "https://www.amherst.edu/offices/financialaid/international_students/appleton",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidForms"
+        ],
+        "note": "The page was updated October 2, 2026. Fee-hardship applicants may request ISFAA through their admission account. Upload original-currency documents and English translations after portal instructions arrive."
+      },
+      {
+        "id": "amherst-6",
+        "title": "International Students: Applying for Financial Aid",
+        "url": "https://www.amherst.edu/offices/financialaid/international_students/appleton",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "International Early Decision financial aid submission date; distinct from the admissions deadline."
+      },
+      {
+        "id": "amherst-7",
+        "title": "International Students: Applying for Financial Aid",
+        "url": "https://www.amherst.edu/offices/financialaid/international_students/appleton",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "International Regular Decision financial aid submission date; distinct from the admissions deadline."
+      },
+      {
+        "id": "amherst-8",
+        "title": "International Applicants",
+        "url": "https://www.amherst.edu/admission/apply/international",
+        "checkedAt": "2026-10-18",
+        "cycle": "2026-2027 admission cycle",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "testPolicy"
+        ],
+        "note": "The international applicant page explicitly labels optional SAT/ACT testing for the 2026–27 admission cycle."
+      },
+      {
+        "id": "amherst-9",
+        "title": "International Applicants",
+        "url": "https://www.amherst.edu/admission/apply/international",
+        "checkedAt": "2026-10-18",
+        "cycle": "2026-2027 admission cycle",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishPolicy"
+        ],
+        "note": "Non-native speakers may qualify for a waiver after the two most recent school years taught in English. Otherwise TOEFL, IELTS Academic or Duolingo is required."
+      },
+      {
+        "id": "amherst-10",
+        "title": "Majors",
+        "url": "https://www.amherst.edu/academiclife/departments",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "programs"
+        ],
+        "note": "The official majors list includes these four fields."
+      },
+      {
+        "id": "amherst-11",
+        "title": "International Applicants",
+        "url": "https://www.amherst.edu/admission/apply/international",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "satPolicy",
+          "testPolicy"
+        ],
+        "note": "SAT/ACT optional in 2026–27 admissions cycle."
+      },
+      {
+        "id": "amherst-12",
+        "title": "International Applicants",
+        "url": "https://www.amherst.edu/admission/apply/international",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "actPolicy"
+        ],
+        "note": "SAT/ACT optional in 2026–27 admissions cycle."
+      },
+      {
+        "id": "amherst-13",
+        "title": "International Applicants",
+        "url": "https://www.amherst.edu/admission/apply/international",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishTests",
+          "englishPolicy"
+        ],
+        "note": "Required unless native English or eligible English-medium exemption."
+      },
+      {
+        "id": "amherst-14",
+        "title": "International Applicants",
+        "url": "https://www.amherst.edu/admission/apply/international",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishWaiver"
+        ],
+        "note": "Native English or two most recent secondary-school years in English-medium instruction. No other waiver grounds."
+      },
+      {
+        "id": "amherst-15",
+        "title": "International Applicants",
+        "url": "https://www.amherst.edu/admission/apply/international",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishMinimums"
+        ],
+        "note": "Page labels these strongly recommended scores."
+      },
+      {
+        "id": "amherst-16",
+        "title": "First-Year Applicants",
+        "url": "https://www.amherst.edu/admission/apply/firstyear",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlatform"
+        ],
+        "note": "Choose one platform."
+      },
+      {
+        "id": "amherst-17",
+        "title": "First-Year Applicants",
+        "url": "https://www.amherst.edu/admission/apply/firstyear",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlans"
+        ],
+        "note": "Early Decision is binding."
+      },
+      {
+        "id": "amherst-18",
+        "title": "First-Year Applicants",
+        "url": "https://www.amherst.edu/admission/apply/firstyear",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationFee"
+        ],
+        "note": "USD; nonrefundable unless waived."
+      },
+      {
+        "id": "amherst-19",
+        "title": "First-Year Applicants",
+        "url": "https://www.amherst.edu/admission/apply/firstyear",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "feeWaiver"
+        ],
+        "note": "Request through application or Amherst Quick Pass."
+      },
+      {
+        "id": "amherst-20",
+        "title": "First-Year Applicants",
+        "url": "https://www.amherst.edu/admission/apply/firstyear",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "requirements"
+        ],
+        "note": "Official documents submitted by school."
+      },
+      {
+        "id": "amherst-21",
+        "title": "First-Year Applicants",
+        "url": "https://www.amherst.edu/admission/apply/firstyear",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "admissionEligibility"
+        ],
+        "note": "Applicants already holding a bachelor's degree are ineligible."
+      },
+      {
+        "id": "amherst-22",
+        "title": "First-Year Applicants",
+        "url": "https://www.amherst.edu/admission/apply/firstyear",
+        "checkedAt": "2026-10-19",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "deadlines"
+        ],
+        "note": "Page explicitly supplies years."
+      },
+      {
+        "id": "amherst-23",
+        "title": "Tuition, Fees & Other Costs",
+        "url": "https://www.amherst.edu/tuition",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–27",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "annualCost"
+        ],
+        "note": "Calculated baseline: tuition 75,330 + housing 10,980 + meals 9,340 + fees 710 + personal expenses 1,800 USD. Travel varies; health insurance is additional unless comparable coverage is accepted. Required course materials are included in the comprehensive fee. Not Fall 2027 pricing."
+      }
+    ],
+    "unknowns": [
+      "Individual aid eligibility and award amounts depend on your circumstances."
+    ]
+  },
+  {
+    "id": "dartmouth",
+    "name": "Dartmouth College",
+    "shortName": "Dartmouth",
+    "initials": "D",
+    "country": "United States",
+    "region": "United States",
+    "city": "Hanover",
+    "state": "New Hampshire",
+    "type": "Private university",
+    "website": "https://admissions.dartmouth.edu",
+    "color": "#00693E",
+    "degree": "Undergraduate",
+    "programs": {
+      "value": [
+        "Computer Science",
+        "Economics",
+        "Engineering",
+        "Humanities"
+      ],
+      "sourceIds": [
+        "dartmouth-11"
+      ],
+      "cycle": null,
+      "note": "Computer Science, Economics, Engineering Sciences, English. Dartmouth's official area list documents these four fields."
+    },
+    "internationalAid": {
+      "value": true,
+      "sourceIds": [
+        "dartmouth-1"
+      ],
+      "cycle": null,
+      "note": "Dartmouth offers undergraduate aid to admitted students from other countries, including an allowance for travel."
+    },
+    "needBlind": {
+      "value": true,
+      "sourceIds": [
+        "dartmouth-2"
+      ],
+      "cycle": null,
+      "note": "Need-blind admission includes international citizens, beginning with the Class of 2026."
+    },
+    "meetsFullNeed": {
+      "value": true,
+      "sourceIds": [
+        "dartmouth-3"
+      ],
+      "cycle": null,
+      "note": "Dartmouth meets all demonstrated need regardless of citizenship or admission round, using scholarships and employment without a required student loan."
+    },
+    "meritAid": {
+      "value": false,
+      "sourceIds": [
+        "dartmouth-4"
+      ],
+      "cycle": null,
+      "note": "Dartmouth's institutional scholarships depend on financial need; academic, artistic and athletic merit do not determine awards."
+    },
+    "fullTuition": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "fullCost": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidForms": {
+      "value": "CSS Profile (3351); Income and tax documents according to parents' country of residence; ISFAA alternative for serious CSS fee hardship",
+      "sourceIds": [
+        "dartmouth-5",
+        "dartmouth-6"
+      ],
+      "cycle": null,
+      "note": "Parents in the US use IDOC; parents in Canada or other countries send required tax and income documents to Dartmouth's aid office. The admissions aid page permits international applicants facing serious CSS fee hardship to use ISFAA and specifies 2025 income statements."
+    },
+    "testPolicy": {
+      "value": "SAT or other testing alternatives; check conditions",
+      "sourceIds": [
+        "dartmouth-12"
+      ],
+      "cycle": null,
+      "note": "U.S.-school applicants require SAT/ACT. Outside U.S.: SAT/ACT, three APs, IB diploma predictions/results, A-level predictions/results, or final equivalent national exams."
+    },
+    "englishPolicy": {
+      "value": "Accepted evidence: IELTS, TOEFL, Duolingo, Cambridge. Required for non-native speakers without two years of English-medium curriculum.",
+      "sourceIds": [
+        "dartmouth-14"
+      ],
+      "cycle": null,
+      "note": "Required for non-native speakers without two years of English-medium curriculum."
+    },
+    "satPolicy": {
+      "value": "flexible",
+      "sourceIds": [
+        "dartmouth-12"
+      ],
+      "cycle": null,
+      "note": "U.S.-school applicants require SAT/ACT. Outside U.S.: SAT/ACT, three APs, IB diploma predictions/results, A-level predictions/results, or final equivalent national exams."
+    },
+    "satMinimum": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMedian": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMiddle50": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "actPolicy": {
+      "value": "flexible",
+      "sourceIds": [
+        "dartmouth-13"
+      ],
+      "cycle": null,
+      "note": "Flexibility depends on school location, not citizenship. National-exam predictions cannot substitute; final results after February require another option."
+    },
+    "englishTests": {
+      "value": [
+        "IELTS",
+        "TOEFL",
+        "Duolingo",
+        "Cambridge"
+      ],
+      "sourceIds": [
+        "dartmouth-14"
+      ],
+      "cycle": null,
+      "note": "Required for non-native speakers without two years of English-medium curriculum."
+    },
+    "englishWaiver": {
+      "value": true,
+      "sourceIds": [
+        "dartmouth-15"
+      ],
+      "cycle": null,
+      "note": "Exempt if English is first language or curriculum delivered in English for at least two years."
+    },
+    "englishMinimums": {
+      "value": [
+        {
+          "test": "TOEFL",
+          "score": 100,
+          "kind": "recommended",
+          "condition": "Successful applicants typically ABOVE 100 before January 21, 2026; no cutoff."
+        },
+        {
+          "test": "TOEFL",
+          "score": 5,
+          "kind": "recommended",
+          "condition": "Successful applicants typically 5 or above on/after January 21, 2026."
+        },
+        {
+          "test": "IELTS",
+          "score": 7,
+          "kind": "recommended",
+          "condition": "Typical successful scores ABOVE 7; no cutoff."
+        },
+        {
+          "test": "Duolingo",
+          "score": 135,
+          "kind": "recommended",
+          "condition": "Typical successful scores ABOVE 135; no cutoff."
+        },
+        {
+          "test": "Cambridge",
+          "score": 185,
+          "kind": "recommended",
+          "condition": "Typical successful scores ABOVE 185; no cutoff."
+        }
+      ],
+      "sourceIds": [
+        "dartmouth-16"
+      ],
+      "cycle": null,
+      "note": "Benchmarks only; Dartmouth states no required English minimum."
+    },
+    "admissionEligibility": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "citizenshipEligibility": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "requirements": {
+      "value": [
+        {
+          "label": "Application and Dartmouth writing supplement",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "School report, transcript, profile and counselor evaluation",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Two teacher evaluations",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Standardized testing",
+          "status": "Conditional",
+          "condition": "Alternatives for applicants schooled outside U.S."
+        },
+        {
+          "label": "Peer recommendation",
+          "status": "Optional",
+          "condition": "Recommended by Dartmouth."
+        },
+        {
+          "label": "Arts portfolio",
+          "status": "Optional",
+          "condition": "If applicable."
+        }
+      ],
+      "sourceIds": [
+        "dartmouth-19"
+      ],
+      "cycle": null,
+      "note": "English proficiency testing may also be required."
+    },
+    "deadlines": {
+      "value": [
+        {
+          "label": "Early Decision",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "November 1; yearless.",
+          "sourceIds": [
+            "dartmouth-20"
+          ]
+        },
+        {
+          "label": "Regular Decision",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "Conflicting page text: January 1 timeline versus January 2 in QuestBridge non-finalist section. Confirm directly.",
+          "sourceIds": [
+            "dartmouth-20"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "dartmouth-20"
+      ],
+      "cycle": null,
+      "note": "No exact current-cycle dates asserted because source is yearless and contains an RD conflict."
+    },
+    "annualCost": {
+      "value": 98427,
+      "sourceIds": [
+        "dartmouth-21"
+      ],
+      "cycle": "2026–27",
+      "note": "Published standard three-term budget in USD. Additional first-year charges include 269 for records/class dues and 250 for orientation meals. Health insurance is 5,216 unless waived; computer and individual travel expenses also require planning. The page's travel allowance wording needs individual confirmation. Not a final Fall 2027 price."
+    },
+    "admissionDeadline": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidDeadline": {
+      "value": "2027-02-01",
+      "sourceIds": [
+        "dartmouth-8"
+      ],
+      "cycle": "2027-2028",
+      "note": "Regular Decision CSS Profile financial aid date, not the admission application deadline."
+    },
+    "applicationPlatform": {
+      "value": "Common Application; QuestBridge for eligible finalists",
+      "sourceIds": [
+        "dartmouth-17"
+      ],
+      "cycle": null,
+      "note": "Different transfer application."
+    },
+    "applicationPlans": {
+      "value": [
+        "Early Decision",
+        "Regular Decision"
+      ],
+      "sourceIds": [
+        "dartmouth-18"
+      ],
+      "cycle": null,
+      "note": "Early Decision binding."
+    },
+    "feeWaiver": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "applicationFee": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "costs": {
+      "tuition": null,
+      "fees": null,
+      "housing": null,
+      "food": null,
+      "insurance": null,
+      "books": null,
+      "transportation": null
+    },
+    "costCurrency": "USD",
+    "costCycle": "2026–27",
+    "costSourceIds": [],
+    "sources": [
+      {
+        "id": "dartmouth-1",
+        "title": "International Students",
+        "url": "https://financialaid.dartmouth.edu/apply-aid/international-students",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "internationalAid"
+        ],
+        "note": "Dartmouth offers undergraduate aid to admitted students from other countries, including an allowance for travel."
+      },
+      {
+        "id": "dartmouth-2",
+        "title": "International Students",
+        "url": "https://financialaid.dartmouth.edu/apply-aid/international-students",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "needBlind"
+        ],
+        "note": "Need-blind admission includes international citizens, beginning with the Class of 2026."
+      },
+      {
+        "id": "dartmouth-3",
+        "title": "How Much Help Will I Get?",
+        "url": "https://financialaid.dartmouth.edu/how-aid-works/how-much-help-will-i-get",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meetsFullNeed"
+        ],
+        "note": "Dartmouth meets all demonstrated need regardless of citizenship or admission round, using scholarships and employment without a required student loan."
+      },
+      {
+        "id": "dartmouth-4",
+        "title": "Types of Financial Aid",
+        "url": "https://admissions.dartmouth.edu/estimate-your-cost/types-financial-aid",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meritAid"
+        ],
+        "note": "Dartmouth's institutional scholarships depend on financial need; academic, artistic and athletic merit do not determine awards."
+      },
+      {
+        "id": "dartmouth-5",
+        "title": "International Students",
+        "url": "https://financialaid.dartmouth.edu/apply-aid/prospective-transfer-students/how-apply-aid/international-students",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidForms"
+        ],
+        "note": "Parents in the US use IDOC; parents in Canada or other countries send required tax and income documents to Dartmouth's aid office."
+      },
+      {
+        "id": "dartmouth-6",
+        "title": "Apply for Financial Aid",
+        "url": "https://admissions.dartmouth.edu/estimate-your-cost/apply-financial-aid",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidFormsDetail",
+          "aidForms"
+        ],
+        "note": "The admissions aid page permits international applicants facing serious CSS fee hardship to use ISFAA and specifies 2025 income statements."
+      },
+      {
+        "id": "dartmouth-7",
+        "title": "How to Apply for Aid",
+        "url": "https://financialaid.dartmouth.edu/apply-aid/prospective-transfer-students/how-apply-aid",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "Early Decision CSS Profile financial aid date on the page discussing the 2027–28 application process; use country-specific document instructions."
+      },
+      {
+        "id": "dartmouth-8",
+        "title": "How to Apply for Aid",
+        "url": "https://financialaid.dartmouth.edu/apply-aid/prospective-transfer-students/how-apply-aid",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "Regular Decision CSS Profile financial aid date, not the admission application deadline."
+      },
+      {
+        "id": "dartmouth-9",
+        "title": "Dartmouth's Testing Guidelines",
+        "url": "https://admissions.dartmouth.edu/apply/testing-policy",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "testPolicy"
+        ],
+        "note": "US-school applicants submit SAT/ACT. Applicants at schools outside the US may instead use three APs, IB Diploma results/predictions, A-level results/predictions, or eligible final national exams."
+      },
+      {
+        "id": "dartmouth-10",
+        "title": "Dartmouth's Testing Guidelines",
+        "url": "https://admissions.dartmouth.edu/apply/testing-policy",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishPolicy"
+        ],
+        "note": "Applicants whose first language is not English and whose curriculum has not been taught in English for at least two years must submit English testing."
+      },
+      {
+        "id": "dartmouth-11",
+        "title": "Areas of Study",
+        "url": "https://admissions.dartmouth.edu/academics/areas-study",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "programs"
+        ],
+        "note": "Dartmouth's official area list documents these four fields."
+      },
+      {
+        "id": "dartmouth-12",
+        "title": "Dartmouth's Testing Guidelines",
+        "url": "https://admissions.dartmouth.edu/apply/testing-policy",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "satPolicy",
+          "testPolicy"
+        ],
+        "note": "U.S.-school applicants require SAT/ACT. Outside U.S.: SAT/ACT, three APs, IB diploma predictions/results, A-level predictions/results, or final equivalent national exams."
+      },
+      {
+        "id": "dartmouth-13",
+        "title": "Dartmouth's Testing Guidelines",
+        "url": "https://admissions.dartmouth.edu/apply/testing-policy",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "actPolicy"
+        ],
+        "note": "Flexibility depends on school location, not citizenship. National-exam predictions cannot substitute; final results after February require another option."
+      },
+      {
+        "id": "dartmouth-14",
+        "title": "English proficiency FAQ",
+        "url": "https://admissions.dartmouth.edu/glossary-question/if-english-not-my-first-language-am-i-required-submit-language-proficiency-test",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishTests",
+          "englishPolicy"
+        ],
+        "note": "Required for non-native speakers without two years of English-medium curriculum."
+      },
+      {
+        "id": "dartmouth-15",
+        "title": "English proficiency FAQ",
+        "url": "https://admissions.dartmouth.edu/glossary-question/if-english-not-my-first-language-am-i-required-submit-language-proficiency-test",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishWaiver"
+        ],
+        "note": "Exempt if English is first language or curriculum delivered in English for at least two years."
+      },
+      {
+        "id": "dartmouth-16",
+        "title": "English proficiency FAQ",
+        "url": "https://admissions.dartmouth.edu/glossary-question/if-english-not-my-first-language-am-i-required-submit-language-proficiency-test",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishMinimums"
+        ],
+        "note": "Benchmarks only; Dartmouth states no required English minimum."
+      },
+      {
+        "id": "dartmouth-17",
+        "title": "Apply to Dartmouth",
+        "url": "https://admissions.dartmouth.edu/apply-dartmouth",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlatform"
+        ],
+        "note": "Different transfer application."
+      },
+      {
+        "id": "dartmouth-18",
+        "title": "Apply to Dartmouth",
+        "url": "https://admissions.dartmouth.edu/apply-dartmouth",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlans"
+        ],
+        "note": "Early Decision binding."
+      },
+      {
+        "id": "dartmouth-19",
+        "title": "Apply to Dartmouth",
+        "url": "https://admissions.dartmouth.edu/apply-dartmouth",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "requirements"
+        ],
+        "note": "English proficiency testing may also be required."
+      },
+      {
+        "id": "dartmouth-20",
+        "title": "Apply to Dartmouth",
+        "url": "https://admissions.dartmouth.edu/apply-dartmouth",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "deadlines"
+        ],
+        "note": "No exact current-cycle dates asserted because source is yearless and contains an RD conflict."
+      },
+      {
+        "id": "dartmouth-21",
+        "title": "Cost of Attendance 2026–2027",
+        "url": "https://financialaid.dartmouth.edu/cost-attendance/cost-attendance-2026-2027",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–27",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "annualCost"
+        ],
+        "note": "Published standard three-term budget in USD. Additional first-year charges include 269 for records/class dues and 250 for orientation meals. Health insurance is 5,216 unless waived; computer and individual travel expenses also require planning. The page's travel allowance wording needs individual confirmation. Not a final Fall 2027 price."
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 admission dates need checking.",
+      "Individual aid eligibility and award amounts depend on your circumstances."
+    ]
+  },
+  {
+    "id": "bowdoin",
+    "name": "Bowdoin College",
+    "shortName": "Bowdoin",
+    "initials": "B",
+    "country": "United States",
+    "region": "United States",
+    "city": "Brunswick",
+    "state": "Maine",
+    "type": "Liberal arts college",
+    "website": "https://www.bowdoin.edu",
+    "color": "#242424",
+    "degree": "Undergraduate",
+    "programs": {
+      "value": [
+        "Computer Science",
+        "Economics",
+        "Humanities"
+      ],
+      "sourceIds": [
+        "bowdoin-10"
+      ],
+      "cycle": null,
+      "note": "Computer Science, Economics, English. The official academic list includes these three fields."
+    },
+    "internationalAid": {
+      "value": true,
+      "sourceIds": [
+        "bowdoin-1"
+      ],
+      "cycle": null,
+      "note": "International applicants can receive Bowdoin need-based aid; the page defines international applicants as those requiring a US visa to attend."
+    },
+    "needBlind": {
+      "value": true,
+      "sourceIds": [
+        "bowdoin-2",
+        "bowdoin-3"
+      ],
+      "cycle": null,
+      "note": "The international admissions page says ability to pay does not affect admission. Bowdoin's aid FAQ lists possible need-aware exceptions for waitlisted and transfer students. Restrict the standard need-blind claim to first-year admission."
+    },
+    "meetsFullNeed": {
+      "value": true,
+      "sourceIds": [
+        "bowdoin-4"
+      ],
+      "cycle": null,
+      "note": "Bowdoin meets admitted international students' calculated need with scholarships and a small campus employment expectation."
+    },
+    "meritAid": {
+      "value": false,
+      "sourceIds": [
+        "bowdoin-5"
+      ],
+      "cycle": null,
+      "note": "Bowdoin's aid office says its institutional aid is based on need and that it does not provide merit aid."
+    },
+    "fullTuition": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "fullCost": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidForms": {
+      "value": "Non-Canadian international applicants: wait for admission and Student Aid Office instructions; Canadian applicants: 2027–28 CSS Profile (3089), 2025 tax and wage documentation via IDOC",
+      "sourceIds": [
+        "bowdoin-6"
+      ],
+      "cycle": "2027-2028 / Class of 2031",
+      "note": "For the Class of 2031, non-Canadian international applicants do not submit aid materials before admission. Canadians have a separate checklist."
+    },
+    "testPolicy": {
+      "value": "Test optional",
+      "sourceIds": [
+        "bowdoin-20"
+      ],
+      "cycle": null,
+      "note": "Applicants decide whether to submit SAT results for consideration; scores may be self-reported and are verified on enrolment."
+    },
+    "englishPolicy": {
+      "value": "Accepted evidence: IELTS, TOEFL, Duolingo, Cambridge. Optional for international applicants; no minimum qualifying score. No waiver needed.",
+      "sourceIds": [
+        "bowdoin-11"
+      ],
+      "cycle": null,
+      "note": "Optional for international applicants; no minimum qualifying score. No waiver needed."
+    },
+    "satPolicy": {
+      "value": "optional",
+      "sourceIds": [
+        "bowdoin-20"
+      ],
+      "cycle": null,
+      "note": "Applicants decide whether to submit SAT results for consideration; scores may be self-reported and are verified on enrolment."
+    },
+    "satMinimum": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMedian": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMiddle50": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "actPolicy": {
+      "value": "optional",
+      "sourceIds": [
+        "bowdoin-21"
+      ],
+      "cycle": null,
+      "note": "Applicants may choose ACT consideration independently of SAT. No test submission requirement under this general policy."
+    },
+    "englishTests": {
+      "value": [
+        "IELTS",
+        "TOEFL",
+        "Duolingo",
+        "Cambridge"
+      ],
+      "sourceIds": [
+        "bowdoin-11"
+      ],
+      "cycle": null,
+      "note": "Optional for international applicants; no minimum qualifying score. No waiver needed."
+    },
+    "englishWaiver": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "englishMinimums": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "admissionEligibility": {
+      "value": "International applicants welcome; national examination evidence depends on curriculum.",
+      "sourceIds": [
+        "bowdoin-12"
+      ],
+      "cycle": null,
+      "note": "Official national entrance exam results required where applicable; A-level/IB predictions for final-year students or final results for graduates."
+    },
+    "citizenshipEligibility": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "requirements": {
+      "value": [
+        {
+          "label": "Application and Bowdoin supplement",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Counselor, teacher, and other recommendation",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "School report and official transcript",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Midyear grades",
+          "status": "Conditional",
+          "condition": "ED2/RD when available."
+        },
+        {
+          "label": "ED agreement and first-period grades",
+          "status": "Conditional",
+          "condition": "ED applicants; first-period grades specifically ED1."
+        },
+        {
+          "label": "Graded paper/lab or test scores",
+          "status": "Conditional",
+          "condition": "Homeschool applicants."
+        }
+      ],
+      "sourceIds": [
+        "bowdoin-17"
+      ],
+      "cycle": null,
+      "note": "Other recommendation may be a second teacher or community contact."
+    },
+    "deadlines": {
+      "value": [
+        {
+          "label": "Early Decision I",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "November 15; yearless.",
+          "sourceIds": [
+            "bowdoin-18"
+          ]
+        },
+        {
+          "label": "Early Decision II",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "January 5; yearless.",
+          "sourceIds": [
+            "bowdoin-18"
+          ]
+        },
+        {
+          "label": "Regular Decision",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "January 5; yearless.",
+          "sourceIds": [
+            "bowdoin-18"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "bowdoin-18"
+      ],
+      "cycle": null,
+      "note": "No entry year inferred."
+    },
+    "annualCost": {
+      "value": 97900,
+      "sourceIds": [
+        "bowdoin-19"
+      ],
+      "cycle": "2026–27",
+      "note": "Published USD 97,900+ includes tuition/fees, housing/food, books and personal costs. Travel varies and is additional; insurance may add cost. Not Fall 2027 pricing."
+    },
+    "admissionDeadline": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidDeadline": {
+      "value": null,
+      "sourceIds": [
+        "bowdoin-7"
+      ],
+      "cycle": "2027-2028 / Class of 2031",
+      "note": "Non-Canadian admitted applicants should submit the requested aid materials within seven days of the admission offer. This is relative timing, not a fixed ISO calendar date."
+    },
+    "applicationPlatform": {
+      "value": "Common Application, Coalition on Scoir, or QuestBridge",
+      "sourceIds": [
+        "bowdoin-13"
+      ],
+      "cycle": null,
+      "note": "All platforms treated equally."
+    },
+    "applicationPlans": {
+      "value": [
+        "Early Decision",
+        "Regular Decision"
+      ],
+      "sourceIds": [
+        "bowdoin-14"
+      ],
+      "cycle": null,
+      "note": "Two Early Decision rounds."
+    },
+    "feeWaiver": {
+      "value": true,
+      "sourceIds": [
+        "bowdoin-16"
+      ],
+      "cycle": null,
+      "note": "Automatically waived for aid applicants, first-generation students, veterans, Explore Bowdoin applicants, or significant financial hardship."
+    },
+    "applicationFee": {
+      "value": 70,
+      "sourceIds": [
+        "bowdoin-15"
+      ],
+      "cycle": null,
+      "note": "USD; automatic waivers available."
+    },
+    "costs": {
+      "tuition": null,
+      "fees": null,
+      "housing": null,
+      "food": null,
+      "insurance": null,
+      "books": null,
+      "transportation": null
+    },
+    "costCurrency": "USD",
+    "costCycle": "2026–27",
+    "costSourceIds": [],
+    "sources": [
+      {
+        "id": "bowdoin-1",
+        "title": "International Students",
+        "url": "https://www.bowdoin.edu/admissions/apply/international-students/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "internationalAid"
+        ],
+        "note": "International applicants can receive Bowdoin need-based aid; the page defines international applicants as those requiring a US visa to attend."
+      },
+      {
+        "id": "bowdoin-2",
+        "title": "International Students",
+        "url": "https://www.bowdoin.edu/admissions/apply/international-students/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "needBlind"
+        ],
+        "note": "The international admissions page says ability to pay does not affect admission."
+      },
+      {
+        "id": "bowdoin-3",
+        "title": "FAQs",
+        "url": "https://www.bowdoin.edu/student-aid/faqs/index.html",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "needBlindException",
+          "needBlind"
+        ],
+        "note": "Bowdoin's aid FAQ lists possible need-aware exceptions for waitlisted and transfer students. Restrict the standard need-blind claim to first-year admission."
+      },
+      {
+        "id": "bowdoin-4",
+        "title": "International Students",
+        "url": "https://www.bowdoin.edu/student-aid/apply-for-aid/international-students.html",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meetsFullNeed"
+        ],
+        "note": "Bowdoin meets admitted international students' calculated need with scholarships and a small campus employment expectation."
+      },
+      {
+        "id": "bowdoin-5",
+        "title": "Types of Aid",
+        "url": "https://www.bowdoin.edu/student-aid/types-of-aid/index.html",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meritAid"
+        ],
+        "note": "Bowdoin's aid office says its institutional aid is based on need and that it does not provide merit aid."
+      },
+      {
+        "id": "bowdoin-6",
+        "title": "International Students",
+        "url": "https://www.bowdoin.edu/student-aid/apply-for-aid/international-students.html",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028 / Class of 2031",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidForms"
+        ],
+        "note": "For the Class of 2031, non-Canadian international applicants do not submit aid materials before admission. Canadians have a separate checklist."
+      },
+      {
+        "id": "bowdoin-7",
+        "title": "International Students",
+        "url": "https://www.bowdoin.edu/student-aid/apply-for-aid/international-students.html",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028 / Class of 2031",
+        "type": "official",
+        "status": "needs-rechecking",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "Non-Canadian admitted applicants should submit the requested aid materials within seven days of the admission offer. This is relative timing, not a fixed ISO calendar date."
+      },
+      {
+        "id": "bowdoin-8",
+        "title": "Test Optional Policy",
+        "url": "https://www.bowdoin.edu/admissions/apply/test-optional-policy/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "testPolicy"
+        ],
+        "note": "Applicants choose whether Bowdoin should consider SAT or ACT scores in its review."
+      },
+      {
+        "id": "bowdoin-9",
+        "title": "International Students",
+        "url": "https://www.bowdoin.edu/admissions/apply/international-students/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishPolicy"
+        ],
+        "note": "English test scores are optional. Official national school-leaving results remain required where applicable, with IB/A-level predictions or final results expected."
+      },
+      {
+        "id": "bowdoin-10",
+        "title": "Departments and Programs",
+        "url": "https://www.bowdoin.edu/academics/departments-and-programs/",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "programs"
+        ],
+        "note": "The official academic list includes these three fields."
+      },
+      {
+        "id": "bowdoin-11",
+        "title": "International Students",
+        "url": "https://www.bowdoin.edu/admissions/apply/international-students/index.html",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishTests",
+          "englishPolicy"
+        ],
+        "note": "Optional for international applicants; no minimum qualifying score. No waiver needed."
+      },
+      {
+        "id": "bowdoin-12",
+        "title": "International Students",
+        "url": "https://www.bowdoin.edu/admissions/apply/international-students/index.html",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "admissionEligibility"
+        ],
+        "note": "Official national entrance exam results required where applicable; A-level/IB predictions for final-year students or final results for graduates."
+      },
+      {
+        "id": "bowdoin-13",
+        "title": "Apply",
+        "url": "https://www.bowdoin.edu/admissions/apply/index.html",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlatform"
+        ],
+        "note": "All platforms treated equally."
+      },
+      {
+        "id": "bowdoin-14",
+        "title": "Apply",
+        "url": "https://www.bowdoin.edu/admissions/apply/index.html",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlans"
+        ],
+        "note": "Two Early Decision rounds."
+      },
+      {
+        "id": "bowdoin-15",
+        "title": "Apply",
+        "url": "https://www.bowdoin.edu/admissions/apply/index.html",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationFee"
+        ],
+        "note": "USD; automatic waivers available."
+      },
+      {
+        "id": "bowdoin-16",
+        "title": "Apply",
+        "url": "https://www.bowdoin.edu/admissions/apply/index.html",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "feeWaiver"
+        ],
+        "note": "Automatically waived for aid applicants, first-generation students, veterans, Explore Bowdoin applicants, or significant financial hardship."
+      },
+      {
+        "id": "bowdoin-17",
+        "title": "Apply",
+        "url": "https://www.bowdoin.edu/admissions/apply/index.html",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "requirements"
+        ],
+        "note": "Other recommendation may be a second teacher or community contact."
+      },
+      {
+        "id": "bowdoin-18",
+        "title": "International Students",
+        "url": "https://www.bowdoin.edu/admissions/apply/international-students/index.html",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "deadlines"
+        ],
+        "note": "No entry year inferred."
+      },
+      {
+        "id": "bowdoin-19",
+        "title": "Cost of Attendance",
+        "url": "https://www.bowdoin.edu/student-aid/cost-of-attendance/index.html",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026–27",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "annualCost"
+        ],
+        "note": "Published USD 97,900+ includes tuition/fees, housing/food, books and personal costs. Travel varies and is additional; insurance may add cost. Not Fall 2027 pricing."
+      },
+      {
+        "id": "bowdoin-20",
+        "title": "Test Optional Policy",
+        "url": "https://www.bowdoin.edu/admissions/apply/test-optional-policy/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "satPolicy",
+          "testPolicy"
+        ],
+        "note": "Applicants decide whether to submit SAT results for consideration; scores may be self-reported and are verified on enrolment."
+      },
+      {
+        "id": "bowdoin-21",
+        "title": "Test Optional Policy",
+        "url": "https://www.bowdoin.edu/admissions/apply/test-optional-policy/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "actPolicy"
+        ],
+        "note": "Applicants may choose ACT consideration independently of SAT. No test submission requirement under this general policy."
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 admission dates need checking.",
+      "Individual aid eligibility and award amounts depend on your circumstances."
+    ]
+  },
+  {
+    "id": "brown",
+    "name": "Brown University",
+    "shortName": "Brown",
+    "initials": "B",
+    "country": "United States",
+    "region": "United States",
+    "city": "Providence",
+    "state": "Rhode Island",
+    "type": "Private university",
+    "website": "https://admission.brown.edu",
+    "color": "#4E3629",
+    "degree": "Undergraduate",
+    "programs": {
+      "value": [
+        "Computer Science",
+        "Economics",
+        "Engineering",
+        "Humanities"
+      ],
+      "sourceIds": [
+        "brown-10"
+      ],
+      "cycle": null,
+      "note": "Computer Science, Economics, Engineering, English. These fields appear in Brown's official undergraduate concentration directory."
+    },
+    "internationalAid": {
+      "value": true,
+      "sourceIds": [
+        "brown-1"
+      ],
+      "cycle": null,
+      "note": "International students are eligible to request Brown institutional financial aid."
+    },
+    "needBlind": {
+      "value": true,
+      "sourceIds": [
+        "brown-2"
+      ],
+      "cycle": "Class of 2029 onward",
+      "note": "Brown applies need-blind review to all first-year applicants, including international citizens, beginning with the Class of 2029."
+    },
+    "meetsFullNeed": {
+      "value": true,
+      "sourceIds": [
+        "brown-3"
+      ],
+      "cycle": null,
+      "note": "Brown commits to covering all demonstrated financial need for eligible admitted undergraduates, using its financial aid office's assessment."
+    },
+    "meritAid": {
+      "value": false,
+      "sourceIds": [
+        "brown-4"
+      ],
+      "cycle": null,
+      "note": "Brown's aid is need-based; the university does not offer merit awards."
+    },
+    "fullTuition": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "fullCost": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidForms": {
+      "value": "Electronic CSS Profile (3189); Separate CSS submissions for divorced/separated parents; 2025 tax or employer income documents through IDOC if requested",
+      "sourceIds": [
+        "brown-5"
+      ],
+      "cycle": "2027-2028",
+      "note": "CSS opens October 1, 2026. Brown does not accept ISFAA or paper CSS, and does not provide CSS fee waivers. Iran/North Korea applicants should contact the office. IDOC is not required from every family."
+    },
+    "testPolicy": {
+      "value": "SAT or ACT required",
+      "sourceIds": [
+        "brown-12"
+      ],
+      "cycle": null,
+      "note": "SAT or ACT required for first-years since 2024–25 cycle; no minimum admission score."
+    },
+    "englishPolicy": {
+      "value": "Accepted evidence: IELTS, TOEFL, Duolingo, Cambridge. Strongly recommended unless English is first language, primary home language, or secondary-school instructional language throughout. PTE also accepted.",
+      "sourceIds": [
+        "brown-14"
+      ],
+      "cycle": null,
+      "note": "Strongly recommended unless English is first language, primary home language, or secondary-school instructional language throughout. PTE also accepted."
+    },
+    "satPolicy": {
+      "value": "required",
+      "sourceIds": [
+        "brown-12"
+      ],
+      "cycle": null,
+      "note": "SAT or ACT required for first-years since 2024–25 cycle; no minimum admission score."
+    },
+    "satMinimum": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMedian": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "satMiddle50": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "actPolicy": {
+      "value": "required",
+      "sourceIds": [
+        "brown-13"
+      ],
+      "cycle": null,
+      "note": "Either SAT or ACT accepted."
+    },
+    "englishTests": {
+      "value": [
+        "IELTS",
+        "TOEFL",
+        "Duolingo",
+        "Cambridge"
+      ],
+      "sourceIds": [
+        "brown-14"
+      ],
+      "cycle": null,
+      "note": "Strongly recommended unless English is first language, primary home language, or secondary-school instructional language throughout. PTE also accepted."
+    },
+    "englishWaiver": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "englishMinimums": {
+      "value": [
+        {
+          "test": "TOEFL",
+          "score": 105,
+          "kind": "minimum",
+          "condition": "Expected in most cases; before January 2026."
+        },
+        {
+          "test": "TOEFL",
+          "score": 5.5,
+          "kind": "minimum",
+          "condition": "Expected in most cases; January 2026 and later, 1–6 scale."
+        },
+        {
+          "test": "IELTS",
+          "score": 8,
+          "kind": "minimum",
+          "condition": "Expected in most cases."
+        },
+        {
+          "test": "Duolingo",
+          "score": 130,
+          "kind": "minimum",
+          "condition": "Expected in most cases."
+        },
+        {
+          "test": "Cambridge",
+          "score": 191,
+          "kind": "minimum",
+          "condition": "C1 Advanced/C2 Proficiency; expected in most cases."
+        }
+      ],
+      "sourceIds": [
+        "brown-15"
+      ],
+      "cycle": null,
+      "note": "Qualified expectations accompany a strongly recommended test policy, not an unconditional testing requirement."
+    },
+    "admissionEligibility": {
+      "value": "International applicants may apply to all undergraduate program options.",
+      "sourceIds": [
+        "brown-16"
+      ],
+      "cycle": null,
+      "note": "Common Application used for all educational systems. Original documents plus official English translations required."
+    },
+    "citizenshipEligibility": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "requirements": {
+      "value": [
+        {
+          "label": "Application and Brown essays",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Transcript, school report and counselor recommendation",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "Two teacher recommendations",
+          "status": "Required",
+          "condition": "All first-year applicants."
+        },
+        {
+          "label": "ED agreement and first-quarter grades",
+          "status": "Conditional",
+          "condition": "ED applicants."
+        },
+        {
+          "label": "Midyear report and transcript",
+          "status": "Conditional",
+          "condition": "When available."
+        },
+        {
+          "label": "Final school report",
+          "status": "Conditional",
+          "condition": "Enrolling students."
+        }
+      ],
+      "sourceIds": [
+        "brown-21"
+      ],
+      "cycle": null,
+      "note": "At least one math/science teacher recommended for ScB or PLME."
+    },
+    "deadlines": {
+      "value": [
+        {
+          "label": "Early Decision",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "November 1 at 11:59 p.m. applicant local time; yearless.",
+          "sourceIds": [
+            "brown-22"
+          ]
+        },
+        {
+          "label": "Regular Decision",
+          "date": null,
+          "cycle": null,
+          "kind": "fixed",
+          "note": "January 5 at 11:59 p.m. applicant local time; yearless.",
+          "sourceIds": [
+            "brown-22"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "brown-22"
+      ],
+      "cycle": null,
+      "note": "No entry year inferred."
+    },
+    "annualCost": {
+      "value": 99994,
+      "sourceIds": [
+        "brown-23"
+      ],
+      "cycle": "2026–27",
+      "note": "Published USD incoming first-year total including personal allowance. Travel and insurance added individually; books add $1,300 outside BCMS support. Not Fall 2027 pricing."
+    },
+    "admissionDeadline": {
+      "value": null,
+      "sourceIds": [],
+      "cycle": null
+    },
+    "aidDeadline": {
+      "value": "2027-02-01",
+      "sourceIds": [
+        "brown-7"
+      ],
+      "cycle": "2027-2028",
+      "note": "Regular Decision financial aid application deadline, not the admissions application deadline."
+    },
+    "applicationPlatform": {
+      "value": "Common Application",
+      "sourceIds": [
+        "brown-17"
+      ],
+      "cycle": null,
+      "note": "Standard first-year route."
+    },
+    "applicationPlans": {
+      "value": [
+        "Early Decision",
+        "Regular Decision"
+      ],
+      "sourceIds": [
+        "brown-18"
+      ],
+      "cycle": null,
+      "note": "Early Decision binding."
+    },
+    "feeWaiver": {
+      "value": true,
+      "sourceIds": [
+        "brown-20"
+      ],
+      "cycle": null,
+      "note": "Fee waiver accepted."
+    },
+    "applicationFee": {
+      "value": 80,
+      "sourceIds": [
+        "brown-19"
+      ],
+      "cycle": null,
+      "note": "USD; non-refundable, or request waiver."
+    },
+    "costs": {
+      "tuition": null,
+      "fees": null,
+      "housing": null,
+      "food": null,
+      "insurance": null,
+      "books": null,
+      "transportation": null
+    },
+    "costCurrency": "USD",
+    "costCycle": "2026–27",
+    "costSourceIds": [],
+    "sources": [
+      {
+        "id": "brown-1",
+        "title": "Financial Aid for International Applicants",
+        "url": "https://admission.brown.edu/international/financial-aid",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "internationalAid"
+        ],
+        "note": "International students are eligible to request Brown institutional financial aid."
+      },
+      {
+        "id": "brown-2",
+        "title": "Financial Aid",
+        "url": "https://admission.brown.edu/financial-aid",
+        "checkedAt": "2026-10-18",
+        "cycle": "Class of 2029 onward",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "needBlind"
+        ],
+        "note": "Brown applies need-blind review to all first-year applicants, including international citizens, beginning with the Class of 2029."
+      },
+      {
+        "id": "brown-3",
+        "title": "Financial Aid",
+        "url": "https://admission.brown.edu/financial-aid",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meetsFullNeed"
+        ],
+        "note": "Brown commits to covering all demonstrated financial need for eligible admitted undergraduates, using its financial aid office's assessment."
+      },
+      {
+        "id": "brown-4",
+        "title": "Financial Aid for International Applicants",
+        "url": "https://admission.brown.edu/international/financial-aid",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "meritAid"
+        ],
+        "note": "Brown's aid is need-based; the university does not offer merit awards."
+      },
+      {
+        "id": "brown-5",
+        "title": "First Year International Applicants",
+        "url": "https://finaid.brown.edu/apply/first-year-international",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidForms"
+        ],
+        "note": "CSS opens October 1, 2026. Brown does not accept ISFAA or paper CSS, and does not provide CSS fee waivers. Iran/North Korea applicants should contact the office. IDOC is not required from every family."
+      },
+      {
+        "id": "brown-6",
+        "title": "First Year International Applicants",
+        "url": "https://finaid.brown.edu/apply/first-year-international",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "Early Decision financial aid application deadline, not the admissions application deadline."
+      },
+      {
+        "id": "brown-7",
+        "title": "First Year International Applicants",
+        "url": "https://finaid.brown.edu/apply/first-year-international",
+        "checkedAt": "2026-10-18",
+        "cycle": "2027-2028",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidDeadline"
+        ],
+        "note": "Regular Decision financial aid application deadline, not the admissions application deadline."
+      },
+      {
+        "id": "brown-8",
+        "title": "Standardized Tests",
+        "url": "https://admission.brown.edu/first-year/standardized-tests",
+        "checkedAt": "2026-10-18",
+        "cycle": "2024-2025 admission cycle onward",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "testPolicy"
+        ],
+        "note": "Brown restored SAT/ACT requirements for first-year applicants beginning in the 2024–25 admission cycle."
+      },
+      {
+        "id": "brown-9",
+        "title": "English Proficiency",
+        "url": "https://admission.brown.edu/international/english-proficiency",
+        "checkedAt": "2026-10-18",
+        "cycle": "Fall 2027",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishPolicy"
+        ],
+        "note": "Applicants without English as a first/home language or throughout secondary instruction are strongly encouraged to submit an accepted English test. Fall 2027 entrants who self-report need official score reports by May 2027."
+      },
+      {
+        "id": "brown-10",
+        "title": "Undergraduate Programs",
+        "url": "https://www.brown.edu/undergraduate-programs",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "programs"
+        ],
+        "note": "These fields appear in Brown's official undergraduate concentration directory."
+      },
+      {
+        "id": "brown-11",
+        "title": "Financial Aid",
+        "url": "https://admission.brown.edu/financial-aid",
+        "checkedAt": "2026-10-18",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "aidPolicyCaveat"
+        ],
+        "note": "The general FAQ permits first-year admits with changed circumstances to seek aid later; older international cohorts admitted under need-aware rules have different restrictions."
+      },
+      {
+        "id": "brown-12",
+        "title": "Application Checklist for First-Year Applicants",
+        "url": "https://admission.brown.edu/first-year/application-checklist",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "satPolicy",
+          "testPolicy"
+        ],
+        "note": "SAT or ACT required for first-years since 2024–25 cycle; no minimum admission score."
+      },
+      {
+        "id": "brown-13",
+        "title": "Application Checklist for First-Year Applicants",
+        "url": "https://admission.brown.edu/first-year/application-checklist",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "actPolicy"
+        ],
+        "note": "Either SAT or ACT accepted."
+      },
+      {
+        "id": "brown-14",
+        "title": "International Applicants",
+        "url": "https://admission.brown.edu/ask/international-applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishTests",
+          "englishPolicy"
+        ],
+        "note": "Strongly recommended unless English is first language, primary home language, or secondary-school instructional language throughout. PTE also accepted."
+      },
+      {
+        "id": "brown-15",
+        "title": "International Applicants",
+        "url": "https://admission.brown.edu/ask/international-applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "englishMinimums"
+        ],
+        "note": "Qualified expectations accompany a strongly recommended test policy, not an unconditional testing requirement."
+      },
+      {
+        "id": "brown-16",
+        "title": "International Applicants",
+        "url": "https://admission.brown.edu/ask/international-applicants",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "admissionEligibility"
+        ],
+        "note": "Common Application used for all educational systems. Original documents plus official English translations required."
+      },
+      {
+        "id": "brown-17",
+        "title": "Application Checklist for First-Year Applicants",
+        "url": "https://admission.brown.edu/first-year/application-checklist",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlatform"
+        ],
+        "note": "Standard first-year route."
+      },
+      {
+        "id": "brown-18",
+        "title": "Application Checklist for First-Year Applicants",
+        "url": "https://admission.brown.edu/first-year/application-checklist",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationPlans"
+        ],
+        "note": "Early Decision binding."
+      },
+      {
+        "id": "brown-19",
+        "title": "Application Checklist for First-Year Applicants",
+        "url": "https://admission.brown.edu/first-year/application-checklist",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "applicationFee"
+        ],
+        "note": "USD; non-refundable, or request waiver."
+      },
+      {
+        "id": "brown-20",
+        "title": "Application Checklist for First-Year Applicants",
+        "url": "https://admission.brown.edu/first-year/application-checklist",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "feeWaiver"
+        ],
+        "note": "Fee waiver accepted."
+      },
+      {
+        "id": "brown-21",
+        "title": "Application Checklist for First-Year Applicants",
+        "url": "https://admission.brown.edu/first-year/application-checklist",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "requirements"
+        ],
+        "note": "At least one math/science teacher recommended for ScB or PLME."
+      },
+      {
+        "id": "brown-22",
+        "title": "Application Checklist for First-Year Applicants",
+        "url": "https://admission.brown.edu/first-year/application-checklist",
+        "checkedAt": "2026-10-19",
+        "cycle": null,
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "deadlines"
+        ],
+        "note": "No entry year inferred."
+      },
+      {
+        "id": "brown-23",
+        "title": "Cost of Attendance",
+        "url": "https://finaid.brown.edu/estimate-cost-aid/cost",
+        "checkedAt": "2026-10-19",
+        "cycle": "2026–27",
+        "type": "official",
+        "status": "verified",
+        "fields": [
+          "annualCost"
+        ],
+        "note": "Published USD incoming first-year total including personal allowance. Travel and insurance added individually; books add $1,300 outside BCMS support. Not Fall 2027 pricing."
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 admission dates need checking.",
+      "Individual aid eligibility and award amounts depend on your circumstances."
+    ]
+  }
+]

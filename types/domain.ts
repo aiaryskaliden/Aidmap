@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { ieltsGuidanceSchema } from "./test-scores";
 
 export const currencySchema = z.enum(["USD", "EUR", "GBP", "KZT"]);
 export type Currency = z.infer<typeof currencySchema>;
@@ -25,7 +26,7 @@ const fact = <T extends z.ZodType>(value: T) =>
       .object({
         program: z.string(),
         subjects: z.array(z.string()),
-        purpose: z.enum(["admission", "scholarship"]),
+        purpose: z.enum(["admission", "scholarship", "enrollment"]),
       })
       .optional(),
   });
@@ -37,7 +38,7 @@ export type Fact<T> = {
   scope?: {
     program: string;
     subjects: string[];
-    purpose: "admission" | "scholarship";
+    purpose: "admission" | "scholarship" | "enrollment";
   };
 };
 export const costKeys = [
@@ -77,6 +78,16 @@ export const testPolicySchema = z.enum([
 ]);
 export const deadlineSchema = z.object({
   label: z.string(),
+  category: z
+    .enum([
+      "admission",
+      "aid",
+      "testing",
+      "documents",
+      "supplement",
+      "enrollment",
+    ])
+    .optional(),
   date: z.iso.date().nullable(),
   cycle: z.string().nullable(),
   kind: z.enum(["fixed", "priority", "recommended", "relative"]),
@@ -117,6 +128,7 @@ export const universitySchema = z.object({
   aidForms: fact(z.string()),
   testPolicy: fact(z.string()),
   englishPolicy: fact(z.string()),
+  ielts: fact(ieltsGuidanceSchema).default(unknownFact),
   satPolicy: fact(testPolicySchema).default(unknownFact),
   satMinimum: fact(z.number().min(400).max(1600)).default(unknownFact),
   satMedian: fact(z.number().min(400).max(1600)).default(unknownFact),
@@ -145,7 +157,7 @@ export const universitySchema = z.object({
     z.array(
       z.object({
         label: z.string(),
-        status: z.enum(["Required", "Optional", "Conditional"]),
+        status: z.enum(["Required", "Recommended", "Optional", "Conditional"]),
         condition: z.string().nullable(),
       }),
     ),
@@ -204,6 +216,8 @@ export const profileSchema = z
     aidPreference: z.enum(["Any", "Need-based", "Merit"]),
     priorities: z.array(z.string()),
     isDemo: z.boolean(),
+    englishMediumYears: z.number().int().min(0).max(20).nullable().optional(),
+    nativeEnglish: z.boolean().nullable().optional(),
   })
   .superRefine((p, ctx) => {
     if (p.englishScore !== null && !p.englishTest)
@@ -305,6 +319,22 @@ export const savedUniversitySchema = z.object({
   notes: z.string().max(10000),
   applicationType: z.string().max(100),
   tasks: z.array(taskSchema).max(500),
+  requirementProgress: z
+    .record(
+      z.string(),
+      z.object({
+        status: z.enum([
+          "Not started",
+          "In progress",
+          "Prepared",
+          "Self-reported sent or completed",
+          "Not applicable",
+        ]),
+        reason: z.string().max(500).optional(),
+      }),
+    )
+    .optional(),
+  triggerDates: z.record(z.string(), z.iso.date()).optional(),
 });
 export type SavedUniversity = z.infer<typeof savedUniversitySchema>;
 export const scenarioSchema = z.object({
@@ -317,6 +347,9 @@ export const scenarioSchema = z.object({
   confirmedAward: amountSchema.nullable(),
   hypotheticalAward: amountSchema.nullable(),
   createdAt: z.iso.datetime(),
+  costYear: z.string().max(100).optional(),
+  provenance: z.string().max(2000).optional(),
+  restrictions: z.string().max(2000).optional(),
 });
 export type FundingScenario = z.infer<typeof scenarioSchema>;
 export type Scholarship = {
@@ -344,13 +377,14 @@ export type Scholarship = {
 };
 export const storageSchema = z
   .object({
-    version: z.literal(1),
+    version: z.union([z.literal(1), z.literal(2)]).transform(() => 2 as const),
     profile: profileSchema.nullable(),
     saved: z.array(savedUniversitySchema).max(100),
     compare: z.array(z.string()).max(4),
     scenarios: z.array(scenarioSchema).max(100),
     savedFunding: z.array(z.string()).max(100),
     theme: z.enum(["light", "dark"]),
+    preparation: z.record(z.string(), z.boolean()).optional(),
   })
   .superRefine((s, ctx) => {
     for (const [key, ids] of [

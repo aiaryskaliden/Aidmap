@@ -113,7 +113,7 @@
       }
     ],
     "unknowns": [
-      "Fall 2027 total cost of attendance not verified; keep null.",
+      "Fall 2027 total cost of attendance not verified.",
       "Fall 2027 admission application deadlines not verified in this research; keep separate from aid deadlines.",
       "General aid and testing policies are not explicitly labeled Fall 2027."
     ]
@@ -241,7 +241,7 @@
       }
     ],
     "unknowns": [
-      "Fall 2027 total cost of attendance not verified; keep null.",
+      "Fall 2027 total cost of attendance not verified.",
       "Fall 2027 admission application deadlines not verified; aid priority dates are a separate process.",
       "The SAT/ACT policy is current general policy, not explicitly tagged Fall 2027 on the reviewed page."
     ]
@@ -349,7 +349,7 @@
       }
     ],
     "unknowns": [
-      "Fall 2027 cost of attendance not verified; keep null.",
+      "Fall 2027 cost of attendance not verified.",
       "Aid deadline table has a tax-year inconsistency; dates need confirmation.",
       "Fall 2027 admission application deadlines not verified."
     ]
@@ -456,7 +456,7 @@
       }
     ],
     "unknowns": [
-      "Fall 2027 cost of attendance not verified; keep null.",
+      "Fall 2027 cost of attendance not verified.",
       "General deadlines lack a verified Fall 2027 cycle label; keep calendar dates null.",
       "Fall 2027 admission application deadlines not verified.",
       "General aid and testing policies are not explicitly labeled Fall 2027."
@@ -571,7 +571,7 @@
       }
     ],
     "unknowns": [
-      "Fall 2027 total cost of attendance not verified; keep null.",
+      "Fall 2027 total cost of attendance not verified.",
       "No current explicit no-merit statement located; 2019 evidence is historical.",
       "Fall 2027 admission application deadlines not verified.",
       "Do not interpret study areas as a complete majors inventory or a ranking."
@@ -699,7 +699,7 @@
       }
     ],
     "unknowns": [
-      "Fall 2027 total cost of attendance not verified; keep null.",
+      "Fall 2027 total cost of attendance not verified.",
       "Fall 2027 admission application deadlines not verified.",
       "General international aid and testing policies are not explicitly labeled Fall 2027."
     ]
@@ -739,7 +739,7 @@
         "sourceUrl": "https://www.bowdoin.edu/student-aid/faqs/index.html",
         "title": "FAQs",
         "cycle": null,
-        "note": "Bowdoin's aid FAQ lists possible need-aware exceptions for waitlisted and transfer students. Restrict the standard need-blind claim to first-year admission.",
+        "note": "Bowdoin's aid FAQ lists possible need-aware exceptions for waitlisted and transfer students. The standard need-blind policy applies to first-year admission; waitlist and transfer circumstances may differ.",
         "checkedAt": "2026-10-18"
       },
       {
@@ -810,7 +810,7 @@
       }
     ],
     "unknowns": [
-      "Fall 2027 total cost of attendance not verified; keep null.",
+      "Fall 2027 total cost of attendance not verified.",
       "Fall 2027 admissions calendar dates not confirmed by an explicitly cycle-labeled source.",
       "Need-aware waitlist/transfer exception appears in the official FAQ even though other pages use broader need-blind language.",
       "Do not copy returning international students' CSS/ISFAA checklist into the Class of 2031 prospective checklist."
@@ -934,7 +934,7 @@
       }
     ],
     "unknowns": [
-      "Fall 2027 total cost of attendance not verified; keep null.",
+      "Fall 2027 total cost of attendance not verified.",
       "Fall 2027 admission application deadlines not verified.",
       "The international overview still tells students to apply for aid with admission; the newer general FAQ allows later aid for first-year admits with changed circumstances. Apply for aid when applying to avoid relying on this discrepancy."
     ]

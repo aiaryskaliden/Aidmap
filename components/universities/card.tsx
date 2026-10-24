@@ -4,7 +4,8 @@ import { ArrowUpRight, MapPin, ShieldCheck, CircleHelp } from "lucide-react";
 import type { University } from "@/types/domain";
 import { UniversityActions } from "./actions";
 import { dateLabel } from "@/lib/utils";
-import { nextAdmissionDeadline, cycleLabel } from "@/lib/admissions";
+import { nextAdmissionDeadline } from "@/lib/admissions";
+import { TestScores } from "./test-scores";
 import { opportunities } from "@/data/universities";
 import { matchUniversity } from "@/lib/matching/match";
 import { useApp } from "@/components/providers";
@@ -64,10 +65,7 @@ export function UniversityCard({
             : "Coverage needs verification"}
         </span>
       </div>
-      <p className="card-policy-note">
-        SAT: {u.satPolicy.value ?? "not yet verified"} ·{" "}
-        {cycleLabel(u.satPolicy, u)}
-      </p>
+      <TestScores university={u} compact />
       {u.englishTests.scope && (
         <p className="card-policy-note">
           English evidence: {u.englishTests.scope.program} only (

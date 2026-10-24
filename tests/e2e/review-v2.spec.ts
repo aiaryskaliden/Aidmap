@@ -37,7 +37,7 @@ test("AM-004 and AM-005 preserve expense totals and distinguish blank from zero"
   await expect(page.getByTestId("remaining-cost")).toHaveText("$71,000");
   await expect(page.getByTestId("budget-gap")).toHaveText("Unknown");
   await expect(
-    page.getByRole("button", { name: "Save funding scenario" }),
+    page.getByRole("button", { name: "Update funding scenario" }),
   ).toBeDisabled();
 });
 test("filters persist in URL, unknowns stay distinct, reset and mobile focus work", async ({
@@ -64,6 +64,27 @@ test("filters persist in URL, unknowns stay distinct, reset and mobile focus wor
     .getByRole("button", { name: "Reset all", exact: true })
     .click();
   await expect(page.locator(".university-card")).toHaveCount(30);
+  await filters(page);
+  await page
+    .getByText("Application & deadlines", { exact: true })
+    .filter({ visible: true })
+    .click();
+  await page
+    .getByRole("checkbox", { name: "Regular Action", exact: true })
+    .filter({ visible: true })
+    .check();
+  await closeFilters(page);
+  await expect(
+    page.getByRole("link", {
+      name: "Massachusetts Institute of Technology",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await expect(page).toHaveURL(/plan=Regular\+Action/);
+  await page
+    .locator(".active-filters")
+    .getByRole("button", { name: "Reset all", exact: true })
+    .click();
   await filters(page);
   await page
     .getByRole("combobox", { name: "Subject", exact: true })
@@ -103,7 +124,7 @@ test("U02 JSON and CSV downloads contain full data; invalid imports preserve sto
     .click();
   await page
     .getByRole("button", {
-      name: "Add research checklist to my planner",
+      name: "Add sourced checklist to my planner",
       exact: true,
     })
     .click();
@@ -122,14 +143,18 @@ test("U02 JSON and CSV downloads contain full data; invalid imports preserve sto
   const json = await jsonPromise;
   const jsonPath = (await json.path())!;
   const parsed = JSON.parse(await readFile(jsonPath, "utf8"));
-  expect(parsed.version).toBe(1);
+  expect(parsed.version).toBe(2);
   expect(parsed.saved[0]).toMatchObject({
     universityId: "princeton",
     deadline: "2026-12-19",
     status: "Preparing",
   });
-  expect(parsed.saved[0].tasks.length).toBe(5);
-  expect(parsed.saved[0].tasks[0].sourceUrl).toMatch(/^https:/);
+  expect(
+    Object.keys(parsed.saved[0].requirementProgress).length,
+  ).toBeGreaterThan(10);
+  expect(parsed.saved[0].requirementProgress["graded-paper"].status).toBe(
+    "Not started",
+  );
   const csvPromise = page.waitForEvent("download");
   await page.getByRole("button", { name: "Export shortlist (CSV)" }).click();
   const csv = await csvPromise;
@@ -165,6 +190,9 @@ test("source dates require confirmation and historical deadlines stay references
   page,
 }) => {
   await page.goto("/universities/amherst#deadlines");
+  await page
+    .getByText("Save a confirmed date as your planning target", { exact: true })
+    .click();
   const add = page.getByRole("button", { name: "Add to planner" }).first();
   await expect(add).toBeEnabled();
   page.once("dialog", (d) => d.dismiss());

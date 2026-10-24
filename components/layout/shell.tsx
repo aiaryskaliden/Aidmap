@@ -27,7 +27,7 @@ export function Logo() {
 }
 export function Header() {
   const pathname = usePathname();
-  const { state, update } = useApp();
+  const { state, update, ready, blocked } = useApp();
   const [open, setOpen] = useState(false);
   const links = [
     ["/explore", "Explore"],
@@ -56,6 +56,7 @@ export function Header() {
         <div className="header-actions">
           <button
             className="theme-toggle"
+            disabled={!ready || blocked}
             aria-label={`Switch to ${state.theme === "light" ? "dark" : "light"} theme`}
             onClick={() =>
               update((s) => ({
@@ -74,6 +75,7 @@ export function Header() {
           </Button>
           <button
             className="mobile-menu"
+            disabled={!ready}
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
             onClick={() => setOpen(!open)}

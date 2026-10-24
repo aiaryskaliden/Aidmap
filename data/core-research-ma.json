@@ -1,0 +1,2329 @@
+[
+  {
+    "universityId": "mit",
+    "sources": [
+      {
+        "id": "mit-route",
+        "title": "MIT: international first-year applicants",
+        "url": "https://mitadmissions.org/apply/firstyear/international/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-deadlines",
+        "title": "MIT: deadlines and requirements",
+        "url": "https://mitadmissions.org/apply/firstyear/deadlines-requirements/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-rounds",
+        "title": "MIT: Early vs Regular",
+        "url": "https://mitadmissions.org/apply/firstyear/early-vs-regular/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-fee",
+        "title": "MIT: request an application fee waiver",
+        "url": "https://mitadmissions.org/help/faq/application-fee-fee-waiver/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-essays",
+        "title": "MIT: essays, activities and academics",
+        "url": "https://mitadmissions.org/apply/firstyear/essays-activities-academics/",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–27 application / Fall 2027",
+        "status": "target-cycle",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-transcripts",
+        "title": "MIT: transcript submission",
+        "url": "https://mitadmissions.org/apply/firstyear/transcripts/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-letters",
+        "title": "MIT: teacher recommendations",
+        "url": "https://mitadmissions.org/apply/firstyear/letters-of-recommendation/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-translation",
+        "title": "MIT: application translations",
+        "url": "https://mitadmissions.org/help/faq/translated-materials-materials-in-english/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-testing",
+        "title": "MIT: tests and scores",
+        "url": "https://mitadmissions.org/apply/firstyear/tests-scores/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-fun",
+        "title": "MIT: February Updates and Notes form",
+        "url": "https://mitadmissions.org/apply/firstyear/february-updates-notes-form/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-cds",
+        "title": "MIT Common Data Set 2025–26: C7 and C9",
+        "url": "https://ir.mit.edu/projects/2025-26-common-data-set/",
+        "checkedAt": "2026-10-20",
+        "cycle": "CDS 2025–26 / Fall 2025 enrollees",
+        "status": "historical",
+        "applicability": "First-time first-year enrollees; C7 general admission factors. C8 separately identifies Fall 2027 SAT/ACT requirement."
+      },
+      {
+        "id": "mit-programs",
+        "title": "MIT undergraduate degree charts",
+        "url": "https://catalog.mit.edu/degree-charts/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-selection",
+        "title": "MIT: what we look for",
+        "url": "https://mitadmissions.org/apply/process/what-we-look-for/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-aid",
+        "title": "MIT: international financial aid application",
+        "url": "https://sfs.mit.edu/undergraduate-students/apply-for-aid/international/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "Undergraduates ineligible for US federal aid, regardless of residence"
+      },
+      {
+        "id": "mit-aid-dates",
+        "title": "MIT: aid deadlines, renewal and late applications",
+        "url": "https://sfs.mit.edu/undergraduate-students/apply-for-aid/deadlines-process/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-afford",
+        "title": "MIT: making MIT affordable",
+        "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/making-mit-affordable/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-aid-fee",
+        "title": "MIT financial aid FAQ: CSS Profile fees",
+        "url": "https://sfs.mit.edu/?post_type=faq",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "mit-cost",
+        "title": "MIT 2026–27 cost of attendance",
+        "url": "https://sfs.mit.edu/undergraduate-students/the-cost-of-attendance/coa/",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–27 academic year",
+        "status": "historical",
+        "applicability": "Full-time undergraduate annual budget before aid"
+      },
+      {
+        "id": "mit-scholarships",
+        "title": "MIT Scholarships and grants",
+        "url": "https://sfs.mit.edu/undergraduate-students/types-of-aid/mit-scholarships-grants/",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      }
+    ],
+    "route": {
+      "text": "Use MIT's own first-year application portal. University enrollment normally requires the transfer route; limited alternate-calendar exceptions may apply. International applicants usually apply during their final secondary-school year. MIT evaluates the original grading system.",
+      "sourceIds": [
+        "mit-route",
+        "mit-deadlines"
+      ]
+    },
+    "rounds": [
+      {
+        "name": "Early Action",
+        "policy": "Nonbinding and open internationally. MIT imposes no additional-application restriction, but you must respect another college's restrictive or binding plan. Decisions: mid-December.",
+        "sourceIds": [
+          "mit-rounds",
+          "mit-deadlines"
+        ]
+      },
+      {
+        "name": "Regular Action",
+        "policy": "Nonbinding; decisions in mid-March. One application per entry year; an EA denial cannot be followed by an RA application.",
+        "sourceIds": [
+          "mit-rounds",
+          "mit-deadlines"
+        ]
+      }
+    ],
+    "fee": {
+      "amount": 75,
+      "currency": "USD",
+      "waiver": "International applicants may request a hardship waiver in the application's Fee Waiver Request section.",
+      "sourceIds": [
+        "mit-deadlines",
+        "mit-fee"
+      ]
+    },
+    "programs": [
+      {
+        "name": "Computer Science and Engineering (Course 6-3)",
+        "category": "Computer Science",
+        "credential": "major",
+        "sourceIds": [
+          "mit-programs"
+        ]
+      },
+      {
+        "name": "Artificial Intelligence and Decision Making (Course 6-4)",
+        "category": "Artificial Intelligence / Data Science",
+        "credential": "major",
+        "sourceIds": [
+          "mit-programs"
+        ]
+      },
+      {
+        "name": "Electrical Engineering with Computing (Course 6-5)",
+        "category": "Engineering",
+        "credential": "major",
+        "sourceIds": [
+          "mit-programs"
+        ]
+      },
+      {
+        "name": "Mechanical Engineering (Course 2)",
+        "category": "Engineering",
+        "credential": "major",
+        "sourceIds": [
+          "mit-programs"
+        ]
+      },
+      {
+        "name": "Mathematics (Course 18)",
+        "category": "Mathematics / Statistics",
+        "credential": "major",
+        "sourceIds": [
+          "mit-programs"
+        ]
+      },
+      {
+        "name": "Management (Course 15-1)",
+        "category": "Business / Management",
+        "credential": "major",
+        "sourceIds": [
+          "mit-programs"
+        ]
+      },
+      {
+        "name": "Finance (Course 15-3)",
+        "category": "Finance",
+        "credential": "major",
+        "sourceIds": [
+          "mit-programs"
+        ]
+      },
+      {
+        "name": "Economics (Course 14-1)",
+        "category": "Economics",
+        "credential": "major",
+        "sourceIds": [
+          "mit-programs"
+        ]
+      },
+      {
+        "name": "Physics (Course 8)",
+        "category": "Natural Sciences",
+        "credential": "major",
+        "sourceIds": [
+          "mit-programs"
+        ]
+      },
+      {
+        "name": "Political Science (Course 17)",
+        "category": "Social Sciences",
+        "credential": "major",
+        "sourceIds": [
+          "mit-programs"
+        ]
+      },
+      {
+        "name": "History (Course 21H)",
+        "category": "Humanities",
+        "credential": "major",
+        "sourceIds": [
+          "mit-programs"
+        ]
+      }
+    ],
+    "requirements": [
+      {
+        "id": "application",
+        "label": "MIT application and fee or waiver",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "MIT application portal",
+        "due": "EA Nov 1; RA Jan 4",
+        "sourceIds": [
+          "mit-deadlines"
+        ]
+      },
+      {
+        "id": "main-responses",
+        "label": "Four main written responses",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "MIT application: interests, educational path, intended impact, unexpected challenge. About 100–200 words each; follow portal limits.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "mit-essays"
+        ]
+      },
+      {
+        "id": "short-responses",
+        "label": "Four short written responses",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "MIT application: enjoyment, admired person, favorite topic, breadth or depth of interests. About 40–50 words each.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "mit-essays"
+        ]
+      },
+      {
+        "id": "activities",
+        "label": "Activities section",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Use MIT's form, with space for four meaningful activities; no replacement résumé.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "mit-essays"
+        ]
+      },
+      {
+        "id": "coursework",
+        "label": "Self-reported coursework",
+        "level": "Conditional",
+        "condition": "Students in US school systems",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "MIT coursework form; international school records are read from the transcript.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "mit-essays"
+        ]
+      },
+      {
+        "id": "school-report",
+        "label": "Secondary School Report and official transcripts",
+        "level": "Required",
+        "condition": "",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Counselor/official uploads through MIT's SSR form, including each school and college attended.",
+        "due": "Application deadline; later recommender materials accepted",
+        "sourceIds": [
+          "mit-transcripts"
+        ],
+        "reusableKey": "school-transcript"
+      },
+      {
+        "id": "predicted-exams",
+        "label": "External examinations and predicted grades",
+        "level": "Conditional",
+        "condition": "Applicable national or international examinations",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Include entrance-exam results in school records; send predicted grades if available.",
+        "due": "With school records",
+        "sourceIds": [
+          "mit-route"
+        ],
+        "reusableKey": "predicted-exams"
+      },
+      {
+        "id": "teacher-math-science",
+        "label": "First teacher recommendation",
+        "level": "Required",
+        "condition": "",
+        "owner": "Teacher",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Request through MIT portal. Math/science is recommended, not a strict subject mandate.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "mit-letters"
+        ],
+        "reusableKey": "teacher-letter-stem"
+      },
+      {
+        "id": "teacher-humanities",
+        "label": "Second teacher recommendation",
+        "level": "Required",
+        "condition": "",
+        "owner": "Teacher",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Request through MIT portal. Humanities/social science/language is recommended; exact pairing is not mandatory.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "mit-letters"
+        ],
+        "reusableKey": "teacher-letter-humanities"
+      },
+      {
+        "id": "counselor-letter",
+        "label": "Counselor letter and school profile",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Counselor",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Counselor may attach them with SSR.",
+        "due": "With SSR",
+        "sourceIds": [
+          "mit-transcripts"
+        ]
+      },
+      {
+        "id": "translations",
+        "label": "English translations with originals",
+        "level": "Conditional",
+        "condition": "Documents are not in English",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Teacher or professional translates; teacher signs/dates. Applicant cannot translate admissions materials.",
+        "due": "With each document",
+        "sourceIds": [
+          "mit-translation"
+        ],
+        "reusableKey": "transcript-translation"
+      },
+      {
+        "id": "sat-act",
+        "label": "SAT or ACT results",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Self-report full sittings; MIT calculates superscores.",
+        "due": "EA tests before Nov 30; RA before Dec 31",
+        "sourceIds": [
+          "mit-testing"
+        ],
+        "reusableKey": "sat-act"
+      },
+      {
+        "id": "english-test",
+        "label": "English proficiency results",
+        "level": "Recommended",
+        "condition": "Non-native English speakers using English under five years, or not speaking English at home or school",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Self-report accepted test sittings.",
+        "due": "EA November testing; RA January testing accepted",
+        "sourceIds": [
+          "mit-route",
+          "mit-testing"
+        ],
+        "reusableKey": "english-test"
+      },
+      {
+        "id": "exam-results",
+        "label": "Other completed or planned examination results",
+        "level": "Conditional",
+        "condition": "If taken or planned",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Self-report AP, IB, A-level or similar exams in test section.",
+        "due": "Application and portal updates",
+        "sourceIds": [
+          "mit-testing"
+        ]
+      },
+      {
+        "id": "portal",
+        "label": "Review MIT portal checklist and updates",
+        "level": "Recommended",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Use application portal for recommenders, scores and decisions.",
+        "due": "After application",
+        "sourceIds": [
+          "mit-deadlines"
+        ]
+      },
+      {
+        "id": "fun-form",
+        "label": "February Updates and Notes form",
+        "level": "Conditional",
+        "condition": "All RA applicants and EA applicants admitted or deferred",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Self-report official midyear grades; graduates select the graduated option. Counselor need not mail grades separately.",
+        "due": "As soon as fall-term grades arrive; check portal deadline",
+        "sourceIds": [
+          "mit-fun"
+        ]
+      },
+      {
+        "id": "interview",
+        "label": "Educational Counselor interview",
+        "level": "Conditional",
+        "condition": "MIT offers an interview",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Respond if contacted by an available MIT interviewer; unavailable interviews are waived without disadvantage.",
+        "due": "After application, if offered",
+        "sourceIds": [
+          "mit-deadlines"
+        ]
+      },
+      {
+        "id": "portfolio",
+        "label": "Creative, research or maker portfolio",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Submit relevant significant work through SlideRoom.",
+        "due": "Application deadline",
+        "sourceIds": [
+          "mit-deadlines"
+        ]
+      },
+      {
+        "id": "css-profile",
+        "label": "CSS Profile, code 3514",
+        "level": "Conditional",
+        "condition": "Requesting need-based aid",
+        "owner": "Student",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Complete MIT supplemental questions in CSS Profile.",
+        "due": "EA Nov 30; RA Feb 15",
+        "sourceIds": [
+          "mit-aid"
+        ],
+        "reusableKey": "css-profile"
+      },
+      {
+        "id": "parent-income",
+        "label": "Parental income and tax documentation",
+        "level": "Conditional",
+        "condition": "Requesting need-based aid",
+        "owner": "Parent",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Submit through IDOC, not directly to MIT; allow processing time.",
+        "due": "Aid deadline",
+        "sourceIds": [
+          "mit-aid"
+        ],
+        "reusableKey": "parent-income"
+      },
+      {
+        "id": "separated-parent",
+        "label": "Separate parent CSS and income documents",
+        "level": "Conditional",
+        "condition": "Aid applicant with separated or divorced parents",
+        "owner": "Parent",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Each parent completes CSS Profile; provide both income records.",
+        "due": "Aid deadline",
+        "sourceIds": [
+          "mit-aid"
+        ]
+      },
+      {
+        "id": "aid-translations",
+        "label": "Translate financial documents",
+        "level": "Conditional",
+        "condition": "Financial records are not in English",
+        "owner": "Parent",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Supply original country tax records and English translations through IDOC; family translation is allowed.",
+        "due": "Aid deadline",
+        "sourceIds": [
+          "mit-aid"
+        ],
+        "reusableKey": "income-translation"
+      },
+      {
+        "id": "enrollment-reply",
+        "label": "Enrollment response",
+        "level": "Conditional",
+        "condition": "Admitted student",
+        "owner": "Student",
+        "stage": "enrollment",
+        "rounds": [],
+        "submission": "Reply through the admitted-student process.",
+        "due": "May 1",
+        "sourceIds": [
+          "mit-deadlines"
+        ]
+      },
+      {
+        "id": "final-grades",
+        "label": "Final school and examination grades",
+        "level": "Conditional",
+        "condition": "Admitted student",
+        "owner": "School",
+        "stage": "enrollment",
+        "rounds": [],
+        "submission": "Follow admitted-student instructions; summer availability is understood.",
+        "due": "When final grades become available",
+        "sourceIds": [
+          "mit-route"
+        ],
+        "reusableKey": "final-transcript"
+      },
+      {
+        "id": "verified-scores",
+        "label": "Official verification of reported scores",
+        "level": "Conditional",
+        "condition": "Enrolling student who self-reported scores",
+        "owner": "Student",
+        "stage": "enrollment",
+        "rounds": [],
+        "submission": "Follow MIT enrollment verification instructions.",
+        "due": "Upon enrollment",
+        "sourceIds": [
+          "mit-testing"
+        ]
+      }
+    ],
+    "testing": {
+      "text": "SAT or ACT required; paper and digital SAT accepted. ACT writing/science and SAT essay are not required. Self-report all full sittings; MIT superscores and verifies on enrollment. No SAT/ACT minimum or recommended cutoff. C8 of the 2025–26 CDS specifically confirms required testing for Fall 2027.",
+      "sourceIds": [
+        "mit-testing",
+        "mit-cds"
+      ]
+    },
+    "scores": {
+      "cohort": "Fall 2025 (CDS 2025–26)",
+      "population": "Enrolled first-time first-year students submitting each test; domestic and international combined.",
+      "satComposite": [
+        1520,
+        1570
+      ],
+      "satReading": [
+        740,
+        780
+      ],
+      "satMath": [
+        780,
+        800
+      ],
+      "actComposite": [
+        34,
+        35
+      ],
+      "satMedian": 1550,
+      "satSubmissionPercent": 83,
+      "actSubmissionPercent": 31,
+      "sourceIds": [
+        "mit-cds"
+      ],
+      "note": "Historical middle 50%; SAT and ACT shares overlap. These are descriptive enrollee statistics, not admission thresholds."
+    },
+    "english": {
+      "text": "Strongly recommended in the specified non-native-speaker circumstances, rather than required universally. Self-report full sittings; MIT verifies after enrollment. Published numeric minima and recommendations are distinct.",
+      "tests": [
+        {
+          "name": "IELTS",
+          "kind": "minimum",
+          "score": 7,
+          "scale": "0–9",
+          "condition": "English testing recommendation applies"
+        },
+        {
+          "name": "IELTS",
+          "kind": "recommended",
+          "score": 7.5,
+          "scale": "0–9",
+          "condition": "English testing recommendation applies"
+        },
+        {
+          "name": "TOEFL",
+          "kind": "minimum",
+          "score": 90,
+          "scale": "0–120",
+          "condition": "Taken before January 21, 2026"
+        },
+        {
+          "name": "TOEFL",
+          "kind": "recommended",
+          "score": 100,
+          "scale": "0–120",
+          "condition": "Taken before January 21, 2026"
+        },
+        {
+          "name": "TOEFL",
+          "kind": "minimum",
+          "score": 5,
+          "scale": "1–6",
+          "condition": "Taken January 21, 2026 or later"
+        },
+        {
+          "name": "TOEFL",
+          "kind": "recommended",
+          "score": 5.5,
+          "scale": "1–6",
+          "condition": "Taken January 21, 2026 or later"
+        },
+        {
+          "name": "Duolingo",
+          "kind": "minimum",
+          "score": 120,
+          "scale": "10–160",
+          "condition": "English testing recommendation applies"
+        },
+        {
+          "name": "Duolingo",
+          "kind": "recommended",
+          "score": 125,
+          "scale": "10–160",
+          "condition": "English testing recommendation applies"
+        },
+        {
+          "name": "PTE Academic",
+          "kind": "minimum",
+          "score": 65,
+          "scale": "10–90",
+          "condition": "English testing recommendation applies"
+        },
+        {
+          "name": "PTE Academic",
+          "kind": "recommended",
+          "score": 70,
+          "scale": "10–90",
+          "condition": "English testing recommendation applies"
+        },
+        {
+          "name": "Cambridge C1 Advanced / C2 Proficiency",
+          "kind": "minimum",
+          "score": 185,
+          "scale": "Cambridge English Scale",
+          "condition": "English testing recommendation applies"
+        },
+        {
+          "name": "Cambridge C1 Advanced / C2 Proficiency",
+          "kind": "recommended",
+          "score": 190,
+          "scale": "Cambridge English Scale",
+          "condition": "English testing recommendation applies"
+        }
+      ],
+      "waiver": null,
+      "sourceIds": [
+        "mit-testing",
+        "mit-route"
+      ],
+      "requirement": "Recommended"
+    },
+    "selection": {
+      "text": "MIT emphasizes academic preparation alongside collaboration, initiative, curiosity, thoughtful risk-taking, practical creativity and care for community. Depth and personal meaning matter more than collecting activities. The CDS categories describe general review, not a points formula.",
+      "sourceIds": [
+        "mit-selection",
+        "mit-cds"
+      ],
+      "cdsYear": "2025–26",
+      "factors": [
+        {
+          "name": "Rigor of secondary school record",
+          "importance": "Important",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Class rank",
+          "importance": "Considered",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Academic GPA",
+          "importance": "Important",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Standardized test scores",
+          "importance": "Important",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Application essay",
+          "importance": "Important",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Recommendations",
+          "importance": "Important",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Interview",
+          "importance": "Important",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Extracurricular activities",
+          "importance": "Important",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Talent / ability",
+          "importance": "Important",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Character / personal qualities",
+          "importance": "Very important",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "First generation",
+          "importance": "Considered",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Alumni relation",
+          "importance": "Not considered",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Geographical residence",
+          "importance": "Considered",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "State residency",
+          "importance": "Not considered",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Religious affiliation",
+          "importance": "Not considered",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Volunteer work",
+          "importance": "Considered",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Work experience",
+          "importance": "Considered",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        },
+        {
+          "name": "Demonstrated interest",
+          "importance": "Not considered",
+          "sourceIds": [
+            "mit-cds"
+          ]
+        }
+      ]
+    },
+    "funding": {
+      "text": "Need-blind admission and full demonstrated-need aid apply to domestic and international undergraduates. The institutional assessment may include a student work/savings contribution; a family-income policy is not an individual full-cost award.",
+      "forms": "CSS Profile and parental tax/income records through IDOC. FAFSA is for eligible domestic applicants, not applicants following MIT's international aid process.",
+      "renewal": "Apply each year with CSS Profile and income records by February 15; reassessment follows current family finances.",
+      "exceptions": "MIT's FAQ says international CSS fee waivers are unavailable. Ask Student Financial Services about individual obstacles. Late aid submissions are reviewed without a lateness penalty but must meet the academic-year final limit.",
+      "sourceIds": [
+        "mit-afford",
+        "mit-aid",
+        "mit-aid-dates",
+        "mit-aid-fee"
+      ]
+    },
+    "costs": {
+      "year": "2026–27",
+      "currency": "USD",
+      "total": 92760,
+      "components": [
+        {
+          "label": "Tuition (includes basic health services)",
+          "amount": 66720,
+          "kind": "billed",
+          "sourceIds": [
+            "mit-cost"
+          ]
+        },
+        {
+          "label": "Student life fee",
+          "amount": 420,
+          "kind": "billed",
+          "sourceIds": [
+            "mit-cost"
+          ]
+        },
+        {
+          "label": "Housing budget",
+          "amount": 14090,
+          "kind": "estimated",
+          "sourceIds": [
+            "mit-cost"
+          ]
+        },
+        {
+          "label": "Food budget",
+          "amount": 8104,
+          "kind": "estimated",
+          "sourceIds": [
+            "mit-cost"
+          ]
+        },
+        {
+          "label": "Books, materials, supplies and equipment",
+          "amount": 930,
+          "kind": "estimated",
+          "sourceIds": [
+            "mit-cost"
+          ]
+        },
+        {
+          "label": "Personal expenses",
+          "amount": 2496,
+          "kind": "estimated",
+          "sourceIds": [
+            "mit-cost"
+          ]
+        },
+        {
+          "label": "Travel (address-specific)",
+          "amount": null,
+          "kind": "estimated",
+          "sourceIds": [
+            "mit-cost"
+          ]
+        },
+        {
+          "label": "MIT health insurance if not waived (excluded)",
+          "amount": null,
+          "kind": "waivable",
+          "sourceIds": [
+            "mit-cost"
+          ]
+        }
+      ],
+      "exclusions": "Published total excludes individualized travel and separate health insurance. Housing/food are budget allowances; actual billed choices vary. The housing explanation retains an older room-price example; the 2026–27 table's $14,090 is used. Fall 2027 costs are not verified.",
+      "sourceIds": [
+        "mit-cost"
+      ]
+    },
+    "deadlines": [
+      {
+        "id": "ea-application",
+        "label": "Early Action application",
+        "category": "admission",
+        "rounds": [
+          "Early Action"
+        ],
+        "date": null,
+        "monthDay": "11-01",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-deadlines"
+        ],
+        "note": "Recurring guidance; decisions mid-December."
+      },
+      {
+        "id": "ra-application",
+        "label": "Regular Action application",
+        "category": "admission",
+        "rounds": [
+          "Regular Action"
+        ],
+        "date": null,
+        "monthDay": "01-04",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-deadlines"
+        ],
+        "note": "Recurring guidance; decisions mid-March."
+      },
+      {
+        "id": "ea-school",
+        "label": "EA school documents and recommendations",
+        "category": "documents",
+        "rounds": [
+          "Early Action"
+        ],
+        "date": null,
+        "monthDay": "11-01",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-deadlines"
+        ],
+        "note": "Later recommender submissions are accepted; applicant must submit on time."
+      },
+      {
+        "id": "ra-school",
+        "label": "RA school documents and recommendations",
+        "category": "documents",
+        "rounds": [
+          "Regular Action"
+        ],
+        "date": null,
+        "monthDay": "01-04",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-deadlines"
+        ],
+        "note": "Later recommender submissions are accepted; applicant must submit on time."
+      },
+      {
+        "id": "ea-tests",
+        "label": "EA testing boundary",
+        "category": "testing",
+        "rounds": [
+          "Early Action"
+        ],
+        "date": null,
+        "monthDay": "11-30",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-testing"
+        ],
+        "note": "MIT says required tests must be taken before November 30; schedule before this boundary."
+      },
+      {
+        "id": "ra-tests",
+        "label": "RA SAT/ACT testing boundary",
+        "category": "testing",
+        "rounds": [
+          "Regular Action"
+        ],
+        "date": null,
+        "monthDay": "12-31",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-testing"
+        ],
+        "note": "MIT says required tests must be taken before December 31."
+      },
+      {
+        "id": "ra-english",
+        "label": "RA English testing: January dates",
+        "category": "testing",
+        "rounds": [
+          "Regular Action"
+        ],
+        "date": null,
+        "monthDay": null,
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-testing"
+        ],
+        "note": "January test dates accepted; check portal reporting instructions."
+      },
+      {
+        "id": "fun",
+        "label": "February Updates and Notes",
+        "category": "documents",
+        "rounds": [],
+        "date": null,
+        "monthDay": null,
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-fun",
+          "mit-deadlines"
+        ],
+        "note": "Mid-February guidance; actual portal deadline controls. EA admitted/deferred and all RA applicants."
+      },
+      {
+        "id": "ea-portfolio",
+        "label": "EA optional portfolio",
+        "category": "supplement",
+        "rounds": [
+          "Early Action"
+        ],
+        "date": null,
+        "monthDay": "11-01",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-deadlines"
+        ],
+        "note": ""
+      },
+      {
+        "id": "ra-portfolio",
+        "label": "RA optional portfolio",
+        "category": "supplement",
+        "rounds": [
+          "Regular Action"
+        ],
+        "date": null,
+        "monthDay": "01-04",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-deadlines"
+        ],
+        "note": ""
+      },
+      {
+        "id": "ea-aid",
+        "label": "EA financial aid",
+        "category": "aid",
+        "rounds": [
+          "Early Action"
+        ],
+        "date": null,
+        "monthDay": "11-30",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-aid-dates"
+        ],
+        "note": ""
+      },
+      {
+        "id": "ra-aid",
+        "label": "RA financial aid",
+        "category": "aid",
+        "rounds": [
+          "Regular Action"
+        ],
+        "date": null,
+        "monthDay": "02-15",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-aid-dates"
+        ],
+        "note": ""
+      },
+      {
+        "id": "reply",
+        "label": "Admitted-student enrollment response",
+        "category": "enrollment",
+        "rounds": [],
+        "date": null,
+        "monthDay": "05-01",
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "mit-deadlines"
+        ],
+        "note": ""
+      }
+    ],
+    "gaps": [
+      "Recurring MIT dates have not been independently confirmed with an explicit Fall 2027 year or submission timezone; portal instructions control.",
+      "Exact per-question essay limits are in the application; public page gives approximate ranges.",
+      "IELTS subtype, One Skill Retake policy, score validity and enrollment reporting codes were not verified.",
+      "Separate insurance premium and 2027–28 costs are not verified.",
+      "The CDS lists a February 15 score-receipt date; current first-year instructions impose earlier test-taking deadlines. Follow the first-year instructions."
+    ]
+  },
+  {
+    "universityId": "amherst",
+    "sources": [
+      {
+        "id": "amherst-firstyear",
+        "title": "Amherst first-year requirements and evaluation",
+        "url": "https://www.amherst.edu/admission/apply/firstyear",
+        "checkedAt": "2026-10-20",
+        "cycle": "Fall 2027",
+        "status": "target-cycle",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "amherst-options",
+        "title": "Amherst application platforms",
+        "url": "https://www.amherst.edu/admission/apply/firstyear/app_options",
+        "checkedAt": "2026-10-20",
+        "cycle": "Fall 2027",
+        "status": "target-cycle",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "amherst-dates",
+        "title": "Amherst Fall 2027 calendar",
+        "url": "https://www.amherst.edu/admission/apply/firstyear/calendar_deadlines",
+        "checkedAt": "2026-10-20",
+        "cycle": "Fall 2027",
+        "status": "target-cycle",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "amherst-writing",
+        "title": "Amherst 2026–27 writing supplement",
+        "url": "https://www.amherst.edu/admission/apply/firstyear/writingsupplement",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–27 application / Fall 2027",
+        "status": "target-cycle",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "amherst-testing",
+        "title": "Amherst SAT/ACT reporting policy",
+        "url": "https://www.amherst.edu/admission/apply/firstyear/testing",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "amherst-international",
+        "title": "Amherst international and English requirements",
+        "url": "https://www.amherst.edu/admission/apply/international",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–27 admission cycle",
+        "status": "target-cycle",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "amherst-arts",
+        "title": "Amherst arts supplements and deadlines",
+        "url": "https://www.amherst.edu/admission/apply/firstyear/arts",
+        "checkedAt": "2026-10-20",
+        "cycle": "Fall 2027",
+        "status": "target-cycle",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "amherst-portal",
+        "title": "Amherst current-applicant portals",
+        "url": "https://www.amherst.edu/admission/applicants",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "amherst-cds",
+        "title": "Amherst Common Data Set 2025–26: admission",
+        "url": "https://www.amherst.edu/system/files/C.%20First-Time%20First-Year%20Admission%202025-26_0.pdf",
+        "checkedAt": "2026-10-20",
+        "cycle": "CDS 2025–26",
+        "status": "historical",
+        "applicability": "First-time first-year enrollees; C9 wording says Fall 2024 although C1 describes Fall 2025."
+      },
+      {
+        "id": "amherst-cds-aid",
+        "title": "Amherst Common Data Set 2025–26: financial aid",
+        "url": "https://www.amherst.edu/system/files/H.%20Financial%20Aid%202025-26.pdf",
+        "checkedAt": "2026-10-20",
+        "cycle": "CDS 2025–26",
+        "status": "historical",
+        "applicability": "Undergraduate financial aid reporting"
+      },
+      {
+        "id": "amherst-programs",
+        "title": "Amherst undergraduate majors",
+        "url": "https://www.amherst.edu/academiclife/departments",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "amherst-aid-policy",
+        "title": "Amherst international financial aid policy",
+        "url": "https://www.amherst.edu/offices/financialaid/international_students",
+        "checkedAt": "2026-10-20",
+        "cycle": null,
+        "status": "general-policy",
+        "applicability": "First-year international undergraduate applicants"
+      },
+      {
+        "id": "amherst-aid",
+        "title": "Amherst international aid application 2027–28",
+        "url": "https://www.amherst.edu/offices/financialaid/international_students/appleton",
+        "checkedAt": "2026-10-20",
+        "cycle": "2027–28 aid year / Fall 2027",
+        "status": "target-cycle",
+        "applicability": "International aid applicants; separate domestic/US-resident instructions may apply"
+      },
+      {
+        "id": "amherst-renewal",
+        "title": "Amherst aid renewal and upperclass applicants",
+        "url": "https://www.amherst.edu/offices/financialaid/renewal_upperclassapps",
+        "checkedAt": "2026-10-20",
+        "cycle": "2027–28 aid year",
+        "status": "target-cycle",
+        "applicability": "Continuing students; residence-specific document routes"
+      },
+      {
+        "id": "amherst-cost",
+        "title": "Amherst tuition, fees and other costs",
+        "url": "https://www.amherst.edu/tuition",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–27 academic year",
+        "status": "historical",
+        "applicability": "Full-time undergraduate cost baseline before aid"
+      },
+      {
+        "id": "amherst-billing",
+        "title": "Amherst student accounts 2026–27 charges",
+        "url": "https://www.amherst.edu/offices/controller/student-accounts/tuition-and-fees",
+        "checkedAt": "2026-10-20",
+        "cycle": "2026–27 academic year",
+        "status": "historical",
+        "applicability": "Annual and semester billed undergraduate charges"
+      }
+    ],
+    "route": {
+      "text": "Choose one: Common Application or Apply Coalition with Scoir. QuestBridge is a separate eligibility-based route. Prior college coursework does not bar first-year application if all credits are forfeited and four full-time Amherst years are intended; holders of a bachelor's degree cannot apply.",
+      "sourceIds": [
+        "amherst-options",
+        "amherst-firstyear"
+      ]
+    },
+    "rounds": [
+      {
+        "name": "Early Decision",
+        "policy": "Binding first-choice plan; no other simultaneous ED application. If admitted, withdraw other applications. Decisions early to mid-December 2026.",
+        "sourceIds": [
+          "amherst-firstyear",
+          "amherst-dates"
+        ]
+      },
+      {
+        "name": "Regular Decision",
+        "policy": "Nonbinding. Decisions around March 20, 2027; enrollment response May 1, 2027.",
+        "sourceIds": [
+          "amherst-dates"
+        ]
+      }
+    ],
+    "fee": {
+      "amount": 75,
+      "currency": "USD",
+      "waiver": "Request through Common App, Scoir or Amherst Quick Pass; confirm your eligibility in the chosen mechanism.",
+      "sourceIds": [
+        "amherst-firstyear"
+      ]
+    },
+    "programs": [
+      {
+        "name": "Computer Science",
+        "category": "Computer Science",
+        "credential": "major",
+        "sourceIds": [
+          "amherst-programs"
+        ]
+      },
+      {
+        "name": "Mathematics",
+        "category": "Mathematics / Statistics",
+        "credential": "major",
+        "sourceIds": [
+          "amherst-programs"
+        ]
+      },
+      {
+        "name": "Statistics",
+        "category": "Mathematics / Statistics",
+        "credential": "major",
+        "sourceIds": [
+          "amherst-programs"
+        ]
+      },
+      {
+        "name": "Economics",
+        "category": "Economics",
+        "credential": "major",
+        "sourceIds": [
+          "amherst-programs"
+        ]
+      },
+      {
+        "name": "Biology",
+        "category": "Natural Sciences",
+        "credential": "major",
+        "sourceIds": [
+          "amherst-programs"
+        ]
+      },
+      {
+        "name": "Physics",
+        "category": "Natural Sciences",
+        "credential": "major",
+        "sourceIds": [
+          "amherst-programs"
+        ]
+      },
+      {
+        "name": "Political Science",
+        "category": "Social Sciences",
+        "credential": "major",
+        "sourceIds": [
+          "amherst-programs"
+        ]
+      },
+      {
+        "name": "English",
+        "category": "Humanities",
+        "credential": "major",
+        "sourceIds": [
+          "amherst-programs"
+        ]
+      },
+      {
+        "name": "History",
+        "category": "Humanities",
+        "credential": "major",
+        "sourceIds": [
+          "amherst-programs"
+        ]
+      }
+    ],
+    "requirements": [
+      {
+        "id": "application",
+        "label": "Application, activities and personal essay",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Complete your chosen platform and Amherst questions.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-options",
+          "amherst-writing"
+        ]
+      },
+      {
+        "id": "fee",
+        "label": "Application fee or waiver",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Pay $75 or request a waiver.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-firstyear"
+        ]
+      },
+      {
+        "id": "writing-supplement",
+        "label": "One Amherst writing supplement",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Choose A: personal response (maximum 350 words) about curiosity, perspective or disagreement; B: eligible graded analytical paper; or C: reuse eligible A2A writing.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-writing"
+        ]
+      },
+      {
+        "id": "graded-paper-option",
+        "label": "Graded analytical paper (Option B)",
+        "level": "Conditional",
+        "condition": "Choosing Option B",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Junior/senior analytical writing; no lab report, journal, creative writing or in-class essay. Avoid duplicating an analytical main essay.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-writing"
+        ]
+      },
+      {
+        "id": "a2a-option",
+        "label": "A2A essay reuse (Option C)",
+        "level": "Conditional",
+        "condition": "Previous Access to Amherst applicant choosing Option C",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Select Option C to reuse the A2A essay; use A for an updated response.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-writing"
+        ]
+      },
+      {
+        "id": "school-report",
+        "label": "School Report",
+        "level": "Required",
+        "condition": "",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "School submits via application platform, Slate.org or official email.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-firstyear"
+        ],
+        "reusableKey": "school-report"
+      },
+      {
+        "id": "transcript",
+        "label": "Secondary-school transcript",
+        "level": "Required",
+        "condition": "",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "School submits directly; applicant-emailed official documents are not accepted.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-firstyear"
+        ],
+        "reusableKey": "school-transcript"
+      },
+      {
+        "id": "counselor",
+        "label": "Counselor recommendation",
+        "level": "Required",
+        "condition": "",
+        "owner": "Counselor",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "School submission channel.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-firstyear"
+        ],
+        "reusableKey": "counselor-letter"
+      },
+      {
+        "id": "teacher-one",
+        "label": "First academic teacher recommendation",
+        "level": "Required",
+        "condition": "",
+        "owner": "Teacher",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "English, mathematics, science, social studies or foreign-language teacher.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-firstyear"
+        ],
+        "reusableKey": "academic-teacher-one"
+      },
+      {
+        "id": "teacher-two",
+        "label": "Second academic teacher recommendation",
+        "level": "Required",
+        "condition": "",
+        "owner": "Teacher",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "English, mathematics, science, social studies or foreign-language teacher.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-firstyear"
+        ],
+        "reusableKey": "academic-teacher-two"
+      },
+      {
+        "id": "ed-agreement",
+        "label": "Early Decision Agreement",
+        "level": "Required",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [
+          "Early Decision"
+        ],
+        "submission": "Complete the chosen platform's agreement and required approvals.",
+        "due": "ED deadline",
+        "sourceIds": [
+          "amherst-firstyear"
+        ]
+      },
+      {
+        "id": "ed-grades",
+        "label": "Senior first-marking-period grades",
+        "level": "Required",
+        "condition": "",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [
+          "Early Decision"
+        ],
+        "submission": "School submits directly.",
+        "due": "When available for ED review",
+        "sourceIds": [
+          "amherst-firstyear"
+        ]
+      },
+      {
+        "id": "midyear",
+        "label": "Midyear report and transcript",
+        "level": "Required",
+        "condition": "",
+        "owner": "School",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "School submits first-trimester/semester grades.",
+        "due": "As soon as available",
+        "sourceIds": [
+          "amherst-firstyear",
+          "amherst-options"
+        ],
+        "reusableKey": "midyear-transcript"
+      },
+      {
+        "id": "sat-act",
+        "label": "Optional SAT/ACT results",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Self-report through platform or applicant portal; official reports also accepted.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-testing"
+        ],
+        "reusableKey": "sat-act"
+      },
+      {
+        "id": "english",
+        "label": "English proficiency results or waiver",
+        "level": "Conditional",
+        "condition": "Non-native speaker without the most recent two secondary-school years taught primarily in English",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Self-report accepted results, or answer supplement/portal waiver questions.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-international"
+        ],
+        "reusableKey": "english-test"
+      },
+      {
+        "id": "portal",
+        "label": "Activate and check applicant portal",
+        "level": "Recommended",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Monitor receipt of school materials and accuracy of contact details.",
+        "due": "After application",
+        "sourceIds": [
+          "amherst-portal"
+        ]
+      },
+      {
+        "id": "arts",
+        "label": "Arts supplement",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Upload through applicant portal. Follow discipline-specific media and résumé instructions.",
+        "due": "ED Nov 13, 2026; RD Jan 15, 2027",
+        "sourceIds": [
+          "amherst-arts"
+        ]
+      },
+      {
+        "id": "arts-recommendation",
+        "label": "Arts teacher recommendation",
+        "level": "Conditional",
+        "condition": "Submitting dance, theater or visual-arts supplement",
+        "owner": "Teacher",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Submit with the selected arts supplement; music recommendation is optional.",
+        "due": "Arts deadline",
+        "sourceIds": [
+          "amherst-arts"
+        ]
+      },
+      {
+        "id": "research",
+        "label": "Independent research description",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "Use optional research questions for substantial work outside the school curriculum.",
+        "due": "Round deadline",
+        "sourceIds": [
+          "amherst-firstyear"
+        ]
+      },
+      {
+        "id": "initialview",
+        "label": "Existing InitialView interview",
+        "level": "Optional",
+        "condition": "",
+        "owner": "Student",
+        "stage": "admission",
+        "rounds": [],
+        "submission": "An already completed InitialView interview may be shared; Amherst does not offer applicant interviews.",
+        "due": "During application review",
+        "sourceIds": [
+          "amherst-international"
+        ]
+      },
+      {
+        "id": "css",
+        "label": "CSS Profile or approved ISFAA",
+        "level": "Conditional",
+        "condition": "Seeking need-based aid",
+        "owner": "Student",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "2027–28 CSS, code 3003, in home currency. Request ISFAA through admission account if CSS fees cause serious hardship.",
+        "due": "ED Nov 13, 2026; RD Jan 15, 2027",
+        "sourceIds": [
+          "amherst-aid"
+        ],
+        "reusableKey": "css-profile"
+      },
+      {
+        "id": "aid-income",
+        "label": "2025 parent income and tax records",
+        "level": "Conditional",
+        "condition": "Seeking need-based aid",
+        "owner": "Parent",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Upload originals and English translations as PDFs to Financial Aid Portal after credentials arrive. Own translations accepted.",
+        "due": "Aid deadline",
+        "sourceIds": [
+          "amherst-aid"
+        ],
+        "reusableKey": "parent-income"
+      },
+      {
+        "id": "aid-student-income",
+        "label": "Student income documentation",
+        "level": "Conditional",
+        "condition": "Aid applicant with student income/tax documentation",
+        "owner": "Student",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Follow financial aid office email/fax instructions for student records.",
+        "due": "Aid deadline",
+        "sourceIds": [
+          "amherst-aid"
+        ]
+      },
+      {
+        "id": "aid-second-parent",
+        "label": "Separate second-parent financial application",
+        "level": "Conditional",
+        "condition": "Aid applicant with separated/divorced parents",
+        "owner": "Parent",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Both biological/adoptive parents complete separate CSS/ISFAA forms.",
+        "due": "Aid deadline",
+        "sourceIds": [
+          "amherst-aid"
+        ]
+      },
+      {
+        "id": "aid-business",
+        "label": "Business/Farm Supplement",
+        "level": "Conditional",
+        "condition": "Parent owns a business or farm interest",
+        "owner": "Parent",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Upload required business/farm details to Financial Aid Portal.",
+        "due": "Aid deadline",
+        "sourceIds": [
+          "amherst-aid"
+        ]
+      },
+      {
+        "id": "aid-signatures",
+        "label": "Original signatures on financial forms",
+        "level": "Conditional",
+        "condition": "Financial forms requiring signatures",
+        "owner": "Parent",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Use original signatures; digital signatures are not accepted.",
+        "due": "Aid deadline",
+        "sourceIds": [
+          "amherst-aid"
+        ]
+      },
+      {
+        "id": "aid-portal",
+        "label": "Check personalized financial-aid document list",
+        "level": "Recommended",
+        "condition": "Seeking financial aid",
+        "owner": "Student",
+        "stage": "aid",
+        "rounds": [],
+        "submission": "Use Financial Aid Portal linked from admission account.",
+        "due": "After requesting aid",
+        "sourceIds": [
+          "amherst-portal"
+        ]
+      },
+      {
+        "id": "enrollment-reply",
+        "label": "Enrollment response",
+        "level": "Conditional",
+        "condition": "Admitted student",
+        "owner": "Student",
+        "stage": "enrollment",
+        "rounds": [],
+        "submission": "Submit Admission Response Form.",
+        "due": "RD May 1, 2027; ED follow offer",
+        "sourceIds": [
+          "amherst-dates"
+        ]
+      },
+      {
+        "id": "diploma",
+        "label": "Secondary-school diploma or equivalent",
+        "level": "Conditional",
+        "condition": "Enrolling student",
+        "owner": "School",
+        "stage": "enrollment",
+        "rounds": [],
+        "submission": "Follow admitted-student document instructions.",
+        "due": "Before enrolling",
+        "sourceIds": [
+          "amherst-firstyear"
+        ],
+        "reusableKey": "final-transcript"
+      },
+      {
+        "id": "official-scores",
+        "label": "Official verification of submitted test scores",
+        "level": "Conditional",
+        "condition": "Enrolling student whose reported tests were considered",
+        "owner": "Student",
+        "stage": "enrollment",
+        "rounds": [],
+        "submission": "Provide official scores corresponding to self-reports; SAT code 3003, ACT 1774, TOEFL 3003.",
+        "due": "After deciding to enroll",
+        "sourceIds": [
+          "amherst-testing",
+          "amherst-international"
+        ]
+      }
+    ],
+    "testing": {
+      "text": "SAT/ACT optional for the 2026–27 admission cycle. Self-reported scores are accepted; enrolled score-submitters must verify officially. Amherst superscores SAT and ACT. Enhanced ACT science is optional. Submit scores by your application deadline; current instructions take precedence over the older CDS receipt date.",
+      "sourceIds": [
+        "amherst-international",
+        "amherst-testing",
+        "amherst-firstyear"
+      ]
+    },
+    "scores": {
+      "cohort": "CDS 2025–26; cohort wording inconsistent",
+      "population": "Enrolled first-time first-year students who submitted the respective test. The file's C1 describes Fall 2025, while C9 retains Fall 2024 wording.",
+      "satComposite": [
+        1470,
+        1540
+      ],
+      "satReading": [
+        730,
+        770
+      ],
+      "satMath": [
+        730,
+        790
+      ],
+      "actComposite": [
+        33,
+        35
+      ],
+      "satMedian": 1510,
+      "satSubmissionPercent": 40,
+      "actSubmissionPercent": 16,
+      "sourceIds": [
+        "amherst-cds"
+      ],
+      "note": "Published C9 figures, not a range for every enrollee or a cutoff. Test-optional submission selection affects interpretation; precise cohort label needs confirmation."
+    },
+    "english": {
+      "text": "Required for relevant non-native speakers unless the most recent two secondary-school years were primarily taught in English. IELTS Academic, TOEFL iBT/Home Edition and Duolingo accepted. The current international page allows self-reported superscores and requires official verification on enrollment. Listed scores are strongly recommended, not unconditional admission minima.",
+      "tests": [
+        {
+          "name": "IELTS Academic",
+          "kind": "recommended",
+          "score": 7.5,
+          "scale": "0–9",
+          "condition": "Applicants subject to English testing"
+        },
+        {
+          "name": "TOEFL iBT / Home Edition",
+          "kind": "recommended",
+          "score": 100,
+          "scale": "0–120",
+          "condition": "Taken before January 21, 2026"
+        },
+        {
+          "name": "TOEFL iBT / Home Edition",
+          "kind": "recommended",
+          "score": 5.5,
+          "scale": "1–6",
+          "condition": "New TOEFL scale"
+        },
+        {
+          "name": "Duolingo",
+          "kind": "recommended",
+          "score": 130,
+          "scale": "10–160",
+          "condition": "Applicants subject to English testing"
+        }
+      ],
+      "waiver": {
+        "englishMediumYears": 2,
+        "nativeEnglish": true,
+        "rule": "Native English speakers, or first-year applicants whose two most recent secondary-school years used English as the primary instruction language. Claim eligibility through supplement questions or portal attestation; no other waiver grounds are listed."
+      },
+      "sourceIds": [
+        "amherst-international"
+      ],
+      "requirement": "Required unless exempt"
+    },
+    "selection": {
+      "text": "Amherst gives the greatest weight to the academic transcript: challenge, performance and sustained effort. Recommendations, writing, meaningful activities and optional submitted tests add context. No single component determines the decision.",
+      "sourceIds": [
+        "amherst-firstyear",
+        "amherst-international"
+      ],
+      "cdsYear": null,
+      "factors": []
+    },
+    "funding": {
+      "text": "Need-blind admission and full calculated-need aid apply internationally. Initial offers exclude required student loans but can include student employment; this is not an automatic full-cost grant.",
+      "forms": "2027–28 CSS or approved ISFAA, 2025 income records and conditional parent/business supplements. International documents go to Amherst's Financial Aid Portal rather than a universal IDOC workflow. FAFSA is not required for ineligible international students.",
+      "renewal": "Reapply annually; international returning-student materials are due March 1. Current income and family circumstances are reassessed. Outside awards can replace employment and some student contribution before reducing institutional scholarship.",
+      "exceptions": "North Korean applicants use ISFAA. Serious CSS fee hardship can qualify for ISFAA without reducing aid eligibility. Residence-specific instructions and the personalized portal control. A significant exchange-rate change can qualify for a review.",
+      "sourceIds": [
+        "amherst-aid-policy",
+        "amherst-aid",
+        "amherst-renewal"
+      ]
+    },
+    "costs": {
+      "year": "2026–27",
+      "currency": "USD",
+      "total": 98160,
+      "components": [
+        {
+          "label": "Tuition",
+          "amount": 75330,
+          "kind": "billed",
+          "sourceIds": [
+            "amherst-cost"
+          ]
+        },
+        {
+          "label": "Housing",
+          "amount": 10980,
+          "kind": "billed",
+          "sourceIds": [
+            "amherst-cost"
+          ]
+        },
+        {
+          "label": "Meals",
+          "amount": 9340,
+          "kind": "billed",
+          "sourceIds": [
+            "amherst-cost"
+          ]
+        },
+        {
+          "label": "Student activities fee",
+          "amount": 710,
+          "kind": "billed",
+          "sourceIds": [
+            "amherst-cost"
+          ]
+        },
+        {
+          "label": "Personal expenses",
+          "amount": 1800,
+          "kind": "estimated",
+          "sourceIds": [
+            "amherst-cost"
+          ]
+        },
+        {
+          "label": "Travel (location-specific)",
+          "amount": null,
+          "kind": "estimated",
+          "sourceIds": [
+            "amherst-cost"
+          ]
+        },
+        {
+          "label": "Health insurance if not waived (excluded)",
+          "amount": 3627,
+          "kind": "waivable",
+          "sourceIds": [
+            "amherst-billing"
+          ]
+        }
+      ],
+      "exclusions": "$98,160 is the sum of published direct costs and personal allowance, excluding variable travel, insurance and the one-time $25 transcript charge. Required course materials are already included. International travel allowance covers one round trip. Health insurance is added to an aided student's budget when applicable. Tuition insurance is separately billed and waivable.",
+      "sourceIds": [
+        "amherst-cost",
+        "amherst-billing"
+      ]
+    },
+    "deadlines": [
+      {
+        "id": "ed-application",
+        "label": "Early Decision application",
+        "category": "admission",
+        "rounds": [
+          "Early Decision"
+        ],
+        "date": "2026-11-09",
+        "monthDay": null,
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "amherst-dates"
+        ],
+        "note": "Binding plan; decisions early to mid-December."
+      },
+      {
+        "id": "rd-application",
+        "label": "Regular Decision application",
+        "category": "admission",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": "2027-01-05",
+        "monthDay": null,
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "amherst-dates"
+        ],
+        "note": "Decisions around March 20, 2027."
+      },
+      {
+        "id": "ed-aid",
+        "label": "Early Decision financial aid",
+        "category": "aid",
+        "rounds": [
+          "Early Decision"
+        ],
+        "date": "2026-11-13",
+        "monthDay": null,
+        "cycle": "2027–28 aid year",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "amherst-aid",
+          "amherst-dates"
+        ],
+        "note": ""
+      },
+      {
+        "id": "rd-aid",
+        "label": "Regular Decision financial aid",
+        "category": "aid",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": "2027-01-15",
+        "monthDay": null,
+        "cycle": "2027–28 aid year",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "amherst-aid",
+          "amherst-dates"
+        ],
+        "note": ""
+      },
+      {
+        "id": "ed-test",
+        "label": "ED optional SAT/ACT score submission",
+        "category": "testing",
+        "rounds": [
+          "Early Decision"
+        ],
+        "date": "2026-11-09",
+        "monthDay": null,
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "amherst-testing",
+          "amherst-dates"
+        ],
+        "note": "If submitting scores; follows the application deadline."
+      },
+      {
+        "id": "rd-test",
+        "label": "RD optional SAT/ACT score submission",
+        "category": "testing",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": "2027-01-05",
+        "monthDay": null,
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "amherst-testing",
+          "amherst-dates"
+        ],
+        "note": "If submitting scores; follows the application deadline."
+      },
+      {
+        "id": "ed-arts",
+        "label": "ED optional arts supplement",
+        "category": "supplement",
+        "rounds": [
+          "Early Decision"
+        ],
+        "date": "2026-11-13",
+        "monthDay": null,
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "amherst-arts"
+        ],
+        "note": ""
+      },
+      {
+        "id": "rd-arts",
+        "label": "RD optional arts supplement",
+        "category": "supplement",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": "2027-01-15",
+        "monthDay": null,
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "amherst-arts"
+        ],
+        "note": ""
+      },
+      {
+        "id": "ed-grades",
+        "label": "ED first-marking-period grades",
+        "category": "documents",
+        "rounds": [
+          "Early Decision"
+        ],
+        "date": null,
+        "monthDay": null,
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "amherst-firstyear"
+        ],
+        "note": "Send when available; no separate fixed date verified."
+      },
+      {
+        "id": "midyear",
+        "label": "Midyear report and transcript",
+        "category": "documents",
+        "rounds": [],
+        "date": null,
+        "monthDay": null,
+        "cycle": null,
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "amherst-firstyear"
+        ],
+        "note": "As soon as first-trimester/semester grades become available."
+      },
+      {
+        "id": "rd-reply",
+        "label": "Regular Decision enrollment response",
+        "category": "enrollment",
+        "rounds": [
+          "Regular Decision"
+        ],
+        "date": "2027-05-01",
+        "monthDay": null,
+        "cycle": "Fall 2027",
+        "timezone": null,
+        "time": null,
+        "relative": null,
+        "sourceIds": [
+          "amherst-dates"
+        ],
+        "note": ""
+      }
+    ],
+    "gaps": [
+      "CDS 2025–26 score figures are verified, but the C9 cohort label says Fall 2024 while C1 says Fall 2025.",
+      "Formal C7 factor columns await visual verification; current qualitative evaluation guidance is provided.",
+      "Admissions-document translation, predicted-exam submission details and separate final-report instructions were not established from the reviewed checklist; confirm with Admissions.",
+      "Exact submission timezone, ED agreement signatories and English test validity/One Skill Retake rules require confirmation in the application or with Admissions.",
+      "The reviewed current international page permits English superscoring; any conflicting older official guidance should be resolved with Admissions.",
+      "Institutional merit policy and detailed academic-progress renewal conditions remain to be confirmed.",
+      "2027–28 costs are not yet verified; the 2026–27 baseline excludes personalized and waivable charges."
+    ]
+  }
+]
