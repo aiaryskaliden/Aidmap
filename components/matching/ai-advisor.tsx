@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import { Sparkles, ShieldCheck } from "lucide-react";
 import { universities } from "@/data/universities";
 import { Button } from "@/components/ui/button";
@@ -25,7 +25,7 @@ export function AIAdvisor({ universityId }: { universityId?: string }) {
     return () => { active = false; };
   }, []);
 
-  async function ask(e: React.FormEvent<HTMLFormElement>) {
+  async function ask(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (loading || !consent) return;
     setLoading(true);
