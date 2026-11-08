@@ -131,8 +131,7 @@ function PreferencesForm() {
         </div>
       )}
       <p className="muted">
-        Every field is optional. Add what helps your research; we don’t infer
-        admission chances or convert grades between systems.
+        Every field is optional. We compare sourced criteria, not admission chances, and do not convert grades between systems. No household income or financial documents are requested.
       </p>
       <div className="form-section-label">
         <span>01</span> WHERE YOU’RE HEADING
@@ -362,11 +361,11 @@ function PreferencesForm() {
         </p>
       </div>
       <div className="form-section-label">
-        <span>03</span> FUNDING & PRIORITIES
+        <span>03</span> SCHOLARSHIP PREFERENCES (OPTIONAL)
       </div>
       <div className="form-grid">
         <label className="field-label">
-          Maximum annual contribution
+          Optional annual planning budget
           <input
             type="number"
             min="0"
@@ -377,7 +376,7 @@ function PreferencesForm() {
           />
         </label>
         <label className="field-label">
-          Budget currency
+          Optional budget currency
           <select
             value={profile.currency}
             onChange={(e) => {
