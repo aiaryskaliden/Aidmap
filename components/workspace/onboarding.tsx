@@ -142,6 +142,16 @@ function Steps() {
                 />
               </label>
               <label className="field-label">
+                SAT Math (optional)
+                <input
+                  type="number"
+                  min="200"
+                  max="800"
+                  value={draft.satMath ?? ""}
+                  onChange={(e) => field("satMath", number(e.target.value))}
+                />
+              </label>
+              <label className="field-label">
                 ACT (optional)
                 <input
                   type="number"

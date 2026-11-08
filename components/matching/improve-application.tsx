@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { ArrowRight, CheckCircle2, LockKeyhole } from "lucide-react";
 import { useApp } from "@/components/providers";
+import { AIAdvisor } from "@/components/matching/ai-advisor";
 import { findUniversity } from "@/data/universities";
 import { applicationAdvice } from "@/lib/matching/advice";
 import { PageHeading, LocalNote } from "@/components/ui/shared";
@@ -68,6 +69,7 @@ export default function ImproveApplication() {
         Optional AI-powered essay or CV feedback can be added later with your explicit consent,
         a configured API key and clear privacy controls. It is not connected yet.
       </p>
+      <AIAdvisor />
       <LocalNote />
     </main>
   );

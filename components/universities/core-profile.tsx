@@ -1,9 +1,11 @@
+import { ApplicationRoadmap } from "@/components/universities/application-roadmap";
 import Link from "next/link";
 import type { AdmissionsDossier } from "@/types/admissions";
 import type { University } from "@/types/domain";
 import { money, dateLabel } from "@/lib/utils";
 import { UniversityActions } from "@/components/universities/actions";
 import { MatchPanel } from "@/components/universities/detail-actions";
+import { AIAdvisor } from "@/components/matching/ai-advisor";
 import { RequirementWorkspace } from "@/components/workspace/requirements";
 import { AcademicContext } from "./academic-context";
 import { ResearchEvidence } from "./research-evidence";
@@ -55,6 +57,7 @@ export function CoreProfile({
         <UniversityActions id={u.id} />
       </div>
       <TestScoreSection university={u} />
+      <ApplicationRoadmap university={u} />
       <section className="panel profile-summary">
         <h2>Your application at a glance</h2>
         <dl className="summary-grid">
@@ -178,6 +181,7 @@ export function CoreProfile({
           ))}
         </div>
         <MatchPanel university={u} />
+        <AIAdvisor universityId={u.id} />
       </section>
       <section id="admissions" className="detail-section">
         <h2>Route, rounds and submission</h2>

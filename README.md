@@ -8,7 +8,7 @@ AidMap is a local-first university research and application-planning product for
 
 There are no accounts, paid APIs, applicant uploads, analytics, or required environment variables. The applicant advice is rule-based and private; optional generative-AI review is not yet connected. AidMap does not submit applications or predict admissions decisions.
 
-AidMap was created to make researching universities less fragmented: discover and compare options, understand funding, and organize an application shortlist. The live website and this repository include the core planning upgrade and the SAT/IELTS score summaries. The website is public; each visitor's applicant workspace stays in their own browser.
+AidMap was created to make researching universities less fragmented: discover and compare options, understand funding, and organize an application shortlist. The live website and this repository include the core planning upgrade and the SAT/IELTS score summaries. The website is public; each visitor's applicant workspace stays in their own browser. The new application roadmaps, researched SAT percentiles and MBZUAI waiver guidance are designed for student self-service; the optional AI Advisor is not active until the owner sets up a provider and spending limits.
 
 ## Run locally
 
@@ -48,7 +48,7 @@ Playwright starts the development server if needed, or reuses port 3000 locally.
 | Route                  | Working behavior                                                                                                                        |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | `/`                    | Original AidMap identity, functional search/chips, official-data featured universities, funding explanations, planner introduction      |
-| `/match`               | Explanatory profile-fit checklist, evidence coverage, university ranking and local shortlist saving; never admission probability |\n| `/improve`             | Private, persistent application preparation checklist for test evidence, CV, projects, essays, recommendations and scholarships |\n| `/explore`             | Search, combined URL-backed filters, sorting, grid/list views, save and comparison actions, honest empty states                         |
+| `/match`               | Explanatory profile-fit checklist, evidence coverage, university ranking and local shortlist saving; never admission probability |\n| `/improve`             | Private, persistent application preparation checklist for tests, CV, essays, references, school-specific guidance; optional opt-in AI Advisor when configured |\n| `/explore`             | Search, combined URL-backed filters, sorting, grid/list views, save and comparison actions, honest empty states                         |
 | `/universities/[slug]` | Thirty typed profiles, program-specific requirements, admissions/funding policies, dated costs, evidence and confirmed deadline imports |
 | `/start`               | Optional four-step onboarding, skippable academic/funding preferences, explained research matches                                       |
 | `/compare`             | Up to four persistent selections, replacement/removal, optional differences-only view, horizontally scrollable table                    |
@@ -172,7 +172,7 @@ For subsequent Preview deployments:
 
 No application environment variables, external services or applicant-data backend are required. Do not delete the last remaining deployment and blindly retry: a new/empty project's first deployment can be assigned to Production even with an explicit Preview target. See the deployment record for the initialization workaround and authorization history. Production deployment has not been authorized for the application. GitHub pushes are not configured to trigger automatic Vercel deployments.
 
-The core product has no runtime API/backend dependency after pages and client assets load. The default distribution still needs a Next.js host to serve routes; it is not a fully offline PWA.
+The core product has no runtime API/backend dependency after pages and client assets load. An optional AI Advisor API route is disabled until model credentials and abuse/spend controls are configured; the main site needs no AI account. The default distribution still needs a Next.js host to serve routes; it is not a fully offline PWA.
 
 ## Current limits and next steps
 
@@ -187,3 +187,7 @@ The core product has no runtime API/backend dependency after pages and client as
 See [docs/ROADMAP.md](docs/ROADMAP.md) and [CONTRIBUTING.md](CONTRIBUTING.md). No project license has been selected; dependency licenses remain their own.
 
 > AidMap is an independent university research and planning tool. Admissions and financial aid decisions are made by the institutions. Always verify requirements with official sources.
+
+## Latest admissions guidance upgrade
+
+See [Admissions guidance upgrade](docs/ADMISSIONS_GUIDANCE_UPGRADE.md) for source-backed SAT CDS data, MBZUAI screening waiver requirements, clearer responsibility-based checklists, application roadmaps and safe AI Gateway setup instructions. Until Gateway is configured, AI responses are explicitly unavailable; local research and advice remain functional.

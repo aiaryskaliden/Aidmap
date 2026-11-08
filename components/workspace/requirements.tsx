@@ -34,9 +34,7 @@ export function RequirementWorkspace({
   return (
     <div className="requirements-workspace">
       <p className="notice">
-        These are your own progress records. AidMap does not send documents or
-        confirm receipt. Prepared materials still need to be submitted
-        separately to each university.
+        <strong>Your application action plan.</strong> Start with required items, check if conditional tasks apply to you, and ask your school to submit school-owned documents. AidMap does not send documents or confirm university receipt.
       </p>
       <div className="form-grid">
         <label className="field-label">
@@ -143,14 +141,19 @@ export function RequirementWorkspace({
                 <h3>{r.label}</h3>
                 <span className="tag neutral">{r.level}</span>
               </div>
-              <p>
-                <strong>{r.owner}</strong> · {r.due}
-              </p>
-              {r.condition && <p>{r.condition}</p>}
-              <p>
-                <strong>Submit: </strong>
-                {r.submission}
-              </p>
+              <div className="notice" style={{ marginTop: "0.8rem" }}>
+                <p>
+                  <strong>{r.owner === "Student" ? "Your action" : `Action for ${r.owner.toLowerCase()}`}:</strong>{" "}
+                  {r.owner === "School" || r.owner === "Counselor" || r.owner === "Teacher"
+                    ? `Ask your ${r.owner.toLowerCase()} to handle this requirement. You can prepare supporting information, but the school representative is responsible for submission.`
+                    : "Prepare this item following the university-specific instructions below."}
+                </p>
+                {r.level === "Conditional" && (
+                  <p><strong>Only applies when:</strong> {r.condition}</p>
+                )}
+                <p><strong>How to complete:</strong> {r.submission}</p>
+                <p><strong>When:</strong> {r.due}</p>
+              </div>
               {r.reusableKey && (
                 <label className="check-label">
                   <input
@@ -168,8 +171,7 @@ export function RequirementWorkspace({
                       }));
                     }}
                   />
-                  Preparation available for reuse · review this university’s
-                  requirements before sending
+                  I have a reusable draft ready to adapt (not submitted)
                 </label>
               )}
               {tracked && (

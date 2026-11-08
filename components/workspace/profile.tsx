@@ -221,6 +221,18 @@ function PreferencesForm() {
           />
         </label>
         <label className="field-label">
+          SAT Math section (optional)
+          <input
+            type="number"
+            min="200"
+            max="800"
+            placeholder="200–800"
+            value={profile.satMath ?? ""}
+            onChange={(e) => field("satMath", number(e.target.value))}
+          />
+          <small>Used for criteria such as the MBZUAI screening-exam waiver, not as an admission guarantee.</small>
+        </label>
+        <label className="field-label">
           ACT score
           <input
             type="number"

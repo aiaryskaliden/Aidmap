@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SATContext, MBZUAIWaiver } from "./sat-context";
 import type { University } from "@/types/domain";
 import { cycleLabel } from "@/lib/admissions";
 import {
@@ -29,7 +30,7 @@ export function TestScores({
             </small>
           )}
           <strong
-            className={`test-score-value ${sat.value === "Not verified" ? "test-score-unknown" : ""}`}
+            className={`test-score-value ${sat.value === "Statistics pending" ? "test-score-unknown" : ""}`}
           >
             {sat.value}
           </strong>
@@ -109,6 +110,8 @@ export function TestScores({
           )}
         </div>
       </div>
+      {!compact && <SATContext university={u} />}
+      {!compact && <MBZUAIWaiver university={u} />}
       {compact ? (
         <Link
           className="test-score-details"
