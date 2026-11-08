@@ -1,3 +1,4 @@
+import { ApplicationRoadmap } from "@/components/universities/application-roadmap";
 import { AIAdvisor } from "@/components/matching/ai-advisor";
 import { notFound } from "next/navigation";
 import { findDossier } from "@/data/core-admissions";
@@ -187,6 +188,7 @@ export default async function UniversityPage({
         </div>
       </div>
       <TestScoreSection university={u} />
+      <ApplicationRoadmap university={u} />
       <PolicyNote />
       <nav className="detail-nav" aria-label="Profile sections">
         {[
