@@ -1,0 +1,463 @@
+[
+  {
+    "slug": "cuhk-shenzhen",
+    "name": "The Chinese University of Hong Kong, Shenzhen",
+    "initials": "CUHKSZ",
+    "city": "Shenzhen",
+    "state": "Guangdong",
+    "country": "China",
+    "region": "Asia",
+    "type": "University",
+    "website": "https://intladmissions.cuhk.edu.cn/",
+    "color": "#4A3D78",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Engineering",
+          "Artificial Intelligence / Data Science"
+        ],
+        "sourceUrl": "https://intladmissions.cuhk.edu.cn/en/",
+        "title": "CUHK-Shenzhen International Undergraduate Admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": null,
+        "note": "Selected fields only; verify the exact degree and school before applying."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "2027 entry includes SAT 1190 plus recognized high-school graduation qualification as one of several possible qualification routes.",
+        "sourceUrl": "https://intladmissions.cuhk.edu.cn/en/article/441",
+        "title": "2027 Qualification Requirements",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "SAT-route minimum is not a universal admissions cutoff."
+      },
+      {
+        "field": "satPolicy",
+        "value": "flexible",
+        "sourceUrl": "https://intladmissions.cuhk.edu.cn/en/article/441",
+        "title": "2027 Qualification Requirements",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "SAT with a recognized secondary diploma is one possible route; other accepted qualifications exist."
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "IELTS",
+          "TOEFL"
+        ],
+        "sourceUrl": "https://intladmissions.cuhk.edu.cn/en/page/351",
+        "title": "English Language Requirements",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Other routes include qualifying SAT EBRW and additional certificates; the list here is not exhaustive."
+      },
+      {
+        "field": "englishMinimums",
+        "value": [
+          {
+            "test": "IELTS",
+            "score": 6.5,
+            "kind": "minimum",
+            "condition": "Overall IELTS minimum for standard English-language evidence; other accepted qualifications or exemptions may apply."
+          }
+        ],
+        "sourceUrl": "https://intladmissions.cuhk.edu.cn/en/page/351",
+        "title": "English Language Requirements",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "CUHK-Shenzhen International UG Admissions System",
+        "sourceUrl": "https://intladmissions.cuhk.edu.cn/en/",
+        "title": "International Students Undergraduate Admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "applicationFee",
+        "value": 0,
+        "sourceUrl": "https://intlugapply.cuhk.edu.cn/a/login",
+        "title": "International Admissions Login",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "The application portal displays No Application Fee."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Regular Round",
+            "date": "2027-03-07",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "category": "admission",
+            "note": ""
+          },
+          {
+            "label": "Late Round",
+            "date": "2027-04-18",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "category": "admission",
+            "note": ""
+          }
+        ],
+        "sourceUrl": "https://intladmissions.cuhk.edu.cn/en/page/190",
+        "title": "Application Rounds and Important Dates",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Late-round scholarships are very limited."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://intladmissions.cuhk.edu.cn/en/page/18",
+        "title": "Scholarships and Work-Study Opportunities",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Entry scholarships consider overall academic and non-academic profile; scholarship decisions are separate from admission."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://intladmissions.cuhk.edu.cn/en/page/18",
+        "title": "Scholarships and Work-Study Opportunities",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Full-tuition level entry awards can be competitive; the award is not guaranteed."
+      },
+      {
+        "field": "aidForms",
+        "value": "Scholarships are evaluated separately from admission. Check the 2027 official scholarship policy, category, eligibility, coverage and annual GPA renewal rules.",
+        "sourceUrl": "https://intladmissions.cuhk.edu.cn/en/page/18",
+        "title": "Scholarships and Work-Study Opportunities",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": ""
+      }
+    ],
+    "unknowns": [
+      "Complete current-cycle costs, program-specific restrictions, eligibility and scholarship award conditions need separate verification."
+    ]
+  },
+  {
+    "slug": "mbzuai",
+    "name": "Mohamed bin Zayed University of Artificial Intelligence",
+    "initials": "MBZUAI",
+    "city": "Abu Dhabi",
+    "state": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "region": "Asia",
+    "type": "University",
+    "website": "https://mbzuai.ac.ae/",
+    "color": "#157B87",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Artificial Intelligence / Data Science"
+        ],
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": null,
+        "note": "BSc in Artificial Intelligence; verify the selected track."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Recognized secondary qualification (final-year students may apply with interim or predicted transcripts); general academic guideline around 90% or curriculum equivalent, with holistic assessment.",
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Math achievement and the final years of school are important; equivalent grade scales assessed in context."
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "SAT/ACT not required for admission; qualifying scores may allow a screening-exam waiver."
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "IELTS",
+          "TOEFL",
+          "Duolingo"
+        ],
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Accepted tests have specific modality and exception rules; see official page."
+      },
+      {
+        "field": "englishMinimums",
+        "value": [
+          {
+            "test": "IELTS",
+            "score": 6.5,
+            "kind": "minimum",
+            "condition": "Academic IELTS overall, for applicants required to submit proficiency evidence; approved test-centre examination."
+          }
+        ],
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "MBZUAI undergraduate application portal",
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "feeWaiver",
+        "value": true,
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Available if screening-exam waived or other specified conditions satisfied; not automatic."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Regular Decision",
+            "date": "2027-02-01",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "category": "admission",
+            "note": ""
+          }
+        ],
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Decisions are released separately; earlier submission is encouraged."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Merit-based and needs-based scholarships are available subject to selection."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Some scholarship packages may cover up to 100% of tuition."
+      },
+      {
+        "field": "fullCost",
+        "value": true,
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Selected awards may cover up to 100% of cost of attendance, but not every award includes this."
+      },
+      {
+        "field": "aidForms",
+        "value": "Scholarship selection is competitive. Verify package coverage (tuition, housing, living expenses), conditions and any separate documents with MBZUAI.",
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": ""
+      }
+    ],
+    "unknowns": [
+      "Complete current-cycle costs, program-specific restrictions, eligibility and scholarship award conditions need separate verification."
+    ]
+  },
+  {
+    "slug": "nazarbayev-university",
+    "name": "Nazarbayev University",
+    "initials": "NU",
+    "city": "Astana",
+    "state": "Astana",
+    "country": "Kazakhstan",
+    "region": "Asia",
+    "type": "University",
+    "website": "https://nu.edu.kz/",
+    "color": "#0D7194",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Artificial Intelligence / Data Science"
+        ],
+        "sourceUrl": "https://apply.nu.edu.kz/en/programs/bsc-computer-science",
+        "title": "BSc Computer Science",
+        "checkedAt": "2026-11-08",
+        "cycle": null,
+        "note": "Undergraduate Computer Science curriculum includes AI and data science pathways; these are tracks, not necessarily separately admitted majors."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Nazarbayev University admissions portal",
+        "sourceUrl": "https://nu.edu.kz/news-ru/otkryt-priem-zayavok-na-programmu-preduniversitetskoj-podgotovki-nufyp-i-programmy-bakalavriata-na-2027-2028-uchebnyj-god/",
+        "title": "Admissions for 2027–2028",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "IELTS",
+          "TOEFL"
+        ],
+        "sourceUrl": "https://nu.edu.kz/admissions/how-to-apply/foundation-undergraduate/financial-aid-end-scholarships/",
+        "title": "Financial support information 2027–28",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Verify the exact program-specific English rules and section minima."
+      },
+      {
+        "field": "englishMinimums",
+        "value": [
+          {
+            "test": "IELTS",
+            "score": 6,
+            "kind": "minimum",
+            "condition": "Overall 6.0 for undergraduate financial-support testing route; Writing >=6.0, Reading/Speaking/Listening >=5.5. Confirm admission conditions separately."
+          }
+        ],
+        "sourceUrl": "https://nu.edu.kz/admissions/how-to-apply/foundation-undergraduate/financial-aid-end-scholarships/",
+        "title": "Financial support information 2027–28",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "The source discusses financial support eligibility, and should not be treated as a universal admission standard."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://nu.edu.kz/admissions/how-to-apply/foundation-undergraduate/financial-aid-end-scholarships/",
+        "title": "Financial support and scholarships",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "Competitive grants require a separate financial-support application after admission invitation."
+      },
+      {
+        "field": "aidForms",
+        "value": "Admission and grant selection are separate. Financial-support applicants must follow their qualifying category and separate application process after an invitation.",
+        "sourceUrl": "https://nu.edu.kz/news-ru/otkryt-priem-zayavok-na-programmu-preduniversitetskoj-podgotovki-nufyp-i-programmy-bakalavriata-na-2027-2028-uchebnyj-god/",
+        "title": "Admissions for 2027–2028",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Financial support: other categories",
+            "date": "2027-02-02",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "category": "aid",
+            "note": "Financial support application for eligible categories, not the general admission deadline."
+          }
+        ],
+        "sourceUrl": "https://nu.edu.kz/admissions/how-to-apply/foundation-undergraduate/financial-aid-end-scholarships/",
+        "title": "Financial support information 2027–28",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "General Fall 2027 admission deadlines are not established by this funding date."
+      }
+    ],
+    "unknowns": [
+      "Complete current-cycle costs, program-specific restrictions, eligibility and scholarship award conditions need separate verification."
+    ]
+  },
+  {
+    "slug": "university-of-hong-kong",
+    "name": "The University of Hong Kong",
+    "initials": "HKU",
+    "city": "Hong Kong",
+    "state": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Asia",
+    "type": "University",
+    "website": "https://www.hku.hk/",
+    "color": "#075F61",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Artificial Intelligence / Data Science"
+        ],
+        "sourceUrl": "https://www.admissions.hku.hk/programmes/undergraduate-programmes/computing-and-data-science",
+        "title": "Computing and Data Science undergraduate programmes",
+        "checkedAt": "2026-11-08",
+        "cycle": null,
+        "note": "Selected BEng Computer Science and AI & Data Science undergraduate options."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "International / Non-JUPAS Admissions Scheme",
+        "sourceUrl": "https://www.admissions.hku.hk/faqs/international",
+        "title": "International admissions FAQs",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": ""
+      },
+      {
+        "field": "applicationFee",
+        "value": 780,
+        "sourceUrl": "https://www.admissions.hku.hk/faqs/international",
+        "title": "International admissions FAQs",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "HKD 780 application fee for 2027 admission."
+      },
+      {
+        "field": "aidForms",
+        "value": "HKU offers separate scholarship schemes with distinct eligible nationalities, academic criteria and coverage. Check each current 2027 scheme before relying on an award.",
+        "sourceUrl": "https://www.admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship",
+        "title": "Belt and Road Scholarship",
+        "checkedAt": "2026-11-08",
+        "cycle": null,
+        "note": "Belt and Road information on this page refers to 2026 and may change for 2027."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.admissions.hku.hk/fees-and-scholarships/scholarships/belt-and-road-scholarship",
+        "title": "Belt and Road Scholarship",
+        "checkedAt": "2026-11-08",
+        "cycle": "2026",
+        "note": "Country-based award information refers to 2026; 2027 conditions unconfirmed."
+      }
+    ],
+    "unknowns": [
+      "Complete current-cycle costs, program-specific restrictions, eligibility and scholarship award conditions need separate verification."
+    ]
+  }
+]
