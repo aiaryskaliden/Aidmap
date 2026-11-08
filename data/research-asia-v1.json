@@ -144,6 +144,26 @@
     ],
     "unknowns": [
       "Complete current-cycle costs, program-specific restrictions, eligibility and scholarship award conditions need separate verification."
+    ],
+    "scholarships": [
+      {
+        "name": "CUHK-Shenzhen 2027 Entry Scholarship (full-tuition tier)",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "Competitive entry scholarship; one tier may cover full tuition. Accommodation, meals and travel are not automatically covered; scholarship decisions are separate from admission.",
+        "amount": null,
+        "currency": "CNY",
+        "renewal": "Generally renewed annually if GPA remains above 3.0; verify the award terms.",
+        "separateApplication": "Selection is reviewed separately from the admission offer.",
+        "sourceUrl": "https://intladmissions.cuhk.edu.cn/en/page/18",
+        "title": "2027 Scholarships and Work-Study Opportunities",
+        "cycle": "Fall 2027",
+        "note": "Confirm eligibility, source-year rules, and final scholarship conditions before relying on this award.",
+        "checkedAt": "2026-11-08",
+        "deadline": null,
+        "deadlineCycle": null
+      }
     ]
   },
   {
@@ -287,10 +307,39 @@
         "checkedAt": "2026-11-08",
         "cycle": "Fall 2027",
         "note": ""
+      },
+      {
+        "field": "applicationFee",
+        "value": 200,
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions and application fee",
+        "checkedAt": "2026-11-08",
+        "cycle": "Fall 2027",
+        "note": "AED 200; eligible applicants may obtain an official fee waiver."
       }
     ],
     "unknowns": [
       "Complete current-cycle costs, program-specific restrictions, eligibility and scholarship award conditions need separate verification."
+    ],
+    "scholarships": [
+      {
+        "name": "MBZUAI undergraduate scholarships",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "Merit-based and need-based awards are competitive. Some packages can cover up to 100% of tuition and cost of attendance; not all recipients obtain the maximum package.",
+        "amount": null,
+        "currency": "AED",
+        "renewal": null,
+        "separateApplication": "Follow official admissions/scholarship instructions and your individual award letter.",
+        "sourceUrl": "https://mbzuai.ac.ae/admissions/undergraduate-admissions",
+        "title": "Undergraduate admissions and scholarships",
+        "cycle": "Fall 2027",
+        "note": "Confirm eligibility, source-year rules, and final scholarship conditions before relying on this award.",
+        "checkedAt": "2026-11-08",
+        "deadline": null,
+        "deadlineCycle": null
+      }
     ]
   },
   {
@@ -336,7 +385,15 @@
         "title": "Financial support information 2027–28",
         "checkedAt": "2026-11-08",
         "cycle": "Fall 2027",
-        "note": "Verify the exact program-specific English rules and section minima."
+        "note": "Verify the exact program-specific English rules and section minima.",
+        "scope": {
+          "program": "Undergraduate financial-support eligibility",
+          "subjects": [
+            "Computer Science",
+            "Artificial Intelligence / Data Science"
+          ],
+          "purpose": "scholarship"
+        }
       },
       {
         "field": "englishMinimums",
@@ -392,6 +449,26 @@
     ],
     "unknowns": [
       "Complete current-cycle costs, program-specific restrictions, eligibility and scholarship award conditions need separate verification."
+    ],
+    "scholarships": [
+      {
+        "name": "NU competitive educational grants",
+        "kind": "Government scholarship",
+        "fundingType": "Government",
+        "eligibleCitizenships": null,
+        "coverage": "Separate competitive funding decisions after an admissions invitation; academic results, the funding category and availability influence grant awards. The exact coverage is defined by the offered grant.",
+        "amount": null,
+        "currency": "KZT",
+        "renewal": null,
+        "separateApplication": "Applicants follow a separate financial support application process after the admission invitation.",
+        "sourceUrl": "https://nu.edu.kz/admissions/how-to-apply/foundation-undergraduate/financial-aid-end-scholarships/",
+        "title": "Financial support and scholarships",
+        "cycle": "Fall 2027",
+        "note": "Confirm eligibility, source-year rules, and final scholarship conditions before relying on this award.",
+        "checkedAt": "2026-11-08",
+        "deadline": null,
+        "deadlineCycle": null
+      }
     ]
   },
   {
