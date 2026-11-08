@@ -45,6 +45,7 @@ type ResearchAward = {
   note: string;
   deadline: string | null;
   deadlineCycle: string | null;
+  checkedAt?: string;
 };
 type Research = {
   slug: string;
@@ -233,7 +234,7 @@ const baseUniversities = validateUniversities(
       shortName:
         r.slug === "mit"
           ? "MIT"
-          : r.name.replace(/^University of /, "").split(" ")[0],
+          : r.slug === "cuhk-shenzhen" ? "CUHK-Shenzhen" : r.slug === "mbzuai" ? "MBZUAI" : r.slug === "nazarbayev-university" ? "NU" : r.slug === "university-of-hong-kong" ? "HKU" : r.name.replace(/^University of /, "").split(" ")[0],
       initials: r.initials,
       country: r.country ?? "United States",
       region,
@@ -362,7 +363,7 @@ export const opportunities: Scholarship[] = [
         id: `${r.slug}-award-${i + 1}`,
         title: s.title,
         url: s.sourceUrl,
-        checkedAt: "2026-10-19",
+        checkedAt: s.checkedAt ?? "2026-10-19",
         cycle: s.cycle,
         type: "official",
         status: "verified",
