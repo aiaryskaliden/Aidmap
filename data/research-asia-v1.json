@@ -352,16 +352,15 @@
         "title": "Financial support information 2027–28",
         "checkedAt": "2026-11-08",
         "cycle": "Fall 2027",
-        "note": "The source discusses financial support eligibility, and should not be treated as a universal admission standard."
-      },
-      {
-        "field": "meritAid",
-        "value": true,
-        "sourceUrl": "https://nu.edu.kz/admissions/how-to-apply/foundation-undergraduate/financial-aid-end-scholarships/",
-        "title": "Financial support and scholarships",
-        "checkedAt": "2026-11-08",
-        "cycle": "Fall 2027",
-        "note": "Competitive grants require a separate financial-support application after admission invitation."
+        "note": "The source discusses financial support eligibility, and should not be treated as a universal admission standard.",
+        "scope": {
+          "program": "Undergraduate financial support testing route",
+          "subjects": [
+            "Computer Science",
+            "Artificial Intelligence / Data Science"
+          ],
+          "purpose": "scholarship"
+        }
       },
       {
         "field": "aidForms",
