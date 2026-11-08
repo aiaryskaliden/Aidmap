@@ -333,7 +333,7 @@ describe("local persistence and application workflow", () => {
 });
 describe("source-backed data integrity and profile validation", () => {
   it("validates the expanded catalogue with traceable evidence", () => {
-    expect(validateUniversities(universities)).toHaveLength(30);
+    expect(validateUniversities(universities)).toHaveLength(34);
   });
   it("rejects duplicate universities", () => {
     expect(() =>

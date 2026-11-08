@@ -63,7 +63,7 @@ test("filters persist in URL, unknowns stay distinct, reset and mobile focus wor
     .locator(".active-filters")
     .getByRole("button", { name: "Reset all", exact: true })
     .click();
-  await expect(page.locator(".university-card")).toHaveCount(30);
+  await expect(page.locator(".university-card")).toHaveCount(34);
   await filters(page);
   await page
     .getByText("Application & deadlines", { exact: true })

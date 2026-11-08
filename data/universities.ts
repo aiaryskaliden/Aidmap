@@ -4,6 +4,7 @@ import followupUpdates from "./research-followup-v2.json";
 import usExpansion from "./research-us-v2.json";
 import europeanExpansion from "./research-europe-v2.json";
 import testingUpdates from "./research-testing.json";
+import asiaExpansion from "./research-asia-v1.json";
 import {
   emptyCosts,
   type EvidenceSource,
@@ -44,6 +45,7 @@ type ResearchAward = {
   note: string;
   deadline: string | null;
   deadlineCycle: string | null;
+  checkedAt?: string;
 };
 type Research = {
   slug: string;
@@ -52,7 +54,7 @@ type Research = {
   city: string;
   state: string;
   country?: string;
-  region?: "United States" | "Europe";
+  region?: "United States" | "Europe" | "Asia";
   type?: string;
   website: string;
   color: string;
@@ -72,6 +74,7 @@ const research: Research[] = (
     })),
     ...(usExpansion as Research[]),
     ...(europeanExpansion as Research[]),
+    ...(asiaExpansion as Research[]),
   ] as Research[]
 ).map((r) => ({
   ...r,
@@ -231,7 +234,7 @@ const baseUniversities = validateUniversities(
       shortName:
         r.slug === "mit"
           ? "MIT"
-          : r.name.replace(/^University of /, "").split(" ")[0],
+          : r.slug === "cuhk-shenzhen" ? "CUHK-Shenzhen" : r.slug === "mbzuai" ? "MBZUAI" : r.slug === "nazarbayev-university" ? "NU" : r.slug === "university-of-hong-kong" ? "HKU" : r.name.replace(/^University of /, "").split(" ")[0],
       initials: r.initials,
       country: r.country ?? "United States",
       region,
@@ -276,7 +279,7 @@ const baseUniversities = validateUniversities(
       feeWaiver: get<boolean>("feeWaiver"),
       applicationFee: get<number>("applicationFee"),
       costs: { ...emptyCosts, tuition: tuition.value },
-      costCurrency: region === "United States" ? "USD" : "EUR",
+      costCurrency: region === "United States" ? "USD" : region === "Europe" ? "EUR" : r.country === "China" ? "CNY" : r.country === "Hong Kong" ? "HKD" : r.country === "Kazakhstan" ? "KZT" : r.country === "United Arab Emirates" ? "AED" : "USD",
       costCycle: tuition.cycle ?? annualCost.cycle,
       costSourceIds: tuition.sourceIds,
       sources,
@@ -360,7 +363,7 @@ export const opportunities: Scholarship[] = [
         id: `${r.slug}-award-${i + 1}`,
         title: s.title,
         url: s.sourceUrl,
-        checkedAt: "2026-10-19",
+        checkedAt: s.checkedAt ?? "2026-10-19",
         cycle: s.cycle,
         type: "official",
         status: "verified",

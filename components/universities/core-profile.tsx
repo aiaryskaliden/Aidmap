@@ -316,19 +316,17 @@ export function CoreProfile({
         </p>
       </section>
       <section id="financial-aid" className="detail-section">
-        <h2>International financial aid</h2>
+        <h2>Scholarships: what they cover and how to qualify</h2>
         <p>{d.funding.text}</p>
-        <h3>Forms and documents</h3>
+        <h3>How to apply / required documents</h3>
         <p>{d.funding.forms}</p>
-        <h3>Renewal and reassessment</h3>
+        <h3>How funding continues each year</h3>
         <p>{d.funding.renewal}</p>
         <h3>Conditions and exceptions</h3>
         <p>{d.funding.exceptions}</p>
         <ResearchEvidence dossier={d} ids={d.funding.sourceIds} />
         <p className="notice">
-          The institution calculates financial need. A policy does not establish
-          your individual award or guarantee a zero contribution. Aid dates and
-          tasks are separate below.
+          This section explains the university’s published funding rules. You do not need to enter your family finances to read it. An award is never guaranteed; check whether tuition, housing, meals, travel or other costs are covered.
         </p>
       </section>
       <section id="estimated-cost" className="detail-section">

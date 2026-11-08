@@ -349,7 +349,8 @@ export default async function UniversityPage({
           </section>
           <section id="financial-aid" className="detail-section">
             <span className="eyebrow">03 / UNDERSTAND THE POSSIBILITIES</span>
-            <h2>Funding is personal. Policies are a start.</h2>
+            <h2>Scholarships: coverage, eligibility and application</h2>
+            <p>Read the institution’s funding conditions, what may be covered, and how to apply. No financial questionnaire is required here. An award is not guaranteed.</p>
             <Help term="needBlind" />
             <Help term="fullNeed" />
             <dl>
