@@ -32,6 +32,7 @@ export function Header() {
   const links = [
     ["/explore", "Explore"],
     ["/match", "Find my fit"],
+    ["/improve", "Improve"],
     ["/compare", "Compare"],
     ["/planner", "My applications"],
   ];
