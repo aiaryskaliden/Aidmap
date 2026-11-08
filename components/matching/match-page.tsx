@@ -5,6 +5,7 @@ import { ArrowRight, Bookmark, CheckCircle2, CircleHelp, Sparkles } from "lucide
 import { universities } from "@/data/universities";
 import { useApp } from "@/components/providers";
 import { assessUniversityFit } from "@/lib/matching/fit";
+import { researchedSATContext, satBandText } from "@/data/cds-sat-2025";
 import { toggleSaved } from "@/lib/storage/state";
 import { PageHeading, LocalNote } from "@/components/ui/shared";
 import { Button } from "@/components/ui/button";
@@ -44,24 +45,24 @@ export default function MatchPage() {
     <main className="page-container">
       <PageHeading
         eyebrow="AIDMAP / EXPLAINABLE MATCHING"
-        title="Find your university fit."
+        title="Understand your university options."
         description="Compare your study interests and test results with sourced requirements, then save universities to your application planner."
       />
       <div className="panel" style={{ marginBottom: "1.5rem" }}>
         <div className="panel-heading">
-          <h2>How the percentage works</h2>
+          <h2>How the evidence score works</h2>
           <Sparkles size={22} aria-hidden="true" />
         </div>
         <p>
-          <strong>Fit % is not your probability of admission.</strong> It summarizes only comparable
+          <strong>These points are NOT your probability of admission.</strong> They summarize only comparable
           published criteria: selected subject (30 points), location (15), SAT minimum (20),
           English minimum (20), and funding policy (15). Unverified or inapplicable
-          items are excluded, and we show how much evidence was actually evaluated.
+          items earn no points, and we show how much evidence was actually evaluated.
         </p>
         <p className="muted">
           A high fit does not measure selectivity, interviews, grades, recommendations, essays,
           citizenship restrictions, scholarship competitiveness or admissions decisions.
-          A percentage appears only when at least 45 of 100 evidence points can be evaluated.
+          A score appears only when at least 45 of 100 evidence points can be evaluated. Unknown criteria do not inflate it to 100%.
         </p>
         <Link className="text-link" href="/profile">
           Review my profile <ArrowRight size={15} aria-hidden="true" />
@@ -108,12 +109,14 @@ export default function MatchPage() {
 
           <div className="section-heading">
             <strong>{filtered.length} researched universities</strong>
-            <span className="tiny-note">Ranked by fit among comparable evidence · not by admission probability</span>
+            <span className="tiny-note">Ranked by verified alignment points, not admission probability</span>
           </div>
 
           <div className="university-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 320px), 1fr))", gap: "1.2rem" }}>
             {visible.map(({ university: u, fit }) => {
               const saved = savedIds.has(u.id);
+              const satContext = researchedSATContext(u);
+              const studentSat = profile.sat;
               return (
                 <article className="university-card" key={u.id} style={{ display: "grid", gap: "0.8rem", alignContent: "start" }}>
                   <div className="card-identity">
@@ -122,10 +125,10 @@ export default function MatchPage() {
                   </div>
                   <div>
                     <strong style={{ fontSize: "1.35rem" }}>
-                      {fit.score === null ? "Not enough evidence" : `${fit.score}% fit`}
+                      {fit.score === null ? "Not enough verified data" : `${fit.score}/100 points`}
                     </strong>
                     <p className="tiny-note">
-                      {fit.coverage}/100 points supported by comparable criteria; not an admission chance
+                      {fit.coverage}/100 criteria points checked against published evidence. NOT an admission probability.
                     </p>
                     <div
                       aria-label={`Evidence coverage ${fit.coverage} out of 100`}
@@ -134,6 +137,16 @@ export default function MatchPage() {
                       <div style={{ background: "var(--accent, #346cb7)", width: `${fit.coverage}%`, height: "100%" }} />
                     </div>
                   </div>
+                  {satContext && (
+                    <div className="notice" style={{ padding: "0.8rem" }}>
+                      <strong>SAT 25th / Median / 75th:</strong>{" "}
+                      {satContext.p25} / {satContext.p50 ?? "—"} / {satContext.p75}
+                      {studentSat !== null && (
+                        <p className="tiny-note">Your {studentSat}: {satBandText(studentSat, satContext.p25, satContext.p50, satContext.p75)}.</p>
+                      )}
+                      <a href={satContext.source} target="_blank" rel="noopener noreferrer" className="text-link">Official historical score data ↗</a>
+                    </div>
+                  )}
                   <ul style={{ display: "grid", gap: 6, paddingLeft: "1.1rem" }}>
                     {fit.signals.map((signal) => (
                       <li key={signal.label}>
