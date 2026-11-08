@@ -92,7 +92,7 @@ export default function MatchPage() {
                 </li>
               ))}
             </ul>
-            <Link className="text-link" href="/planner">Manage application tasks <ArrowRight size={15} aria-hidden="true" /></Link>
+            <Link className="text-link" href="/improve">Open full application improvement checklist <ArrowRight size={15} aria-hidden="true" /></Link>
           </section>
 
           <label className="field-label" style={{ marginBottom: "1.25rem", display: "block" }}>
