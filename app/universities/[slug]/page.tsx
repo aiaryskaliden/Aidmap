@@ -1,3 +1,4 @@
+import { AIAdvisor } from "@/components/matching/ai-advisor";
 import { notFound } from "next/navigation";
 import { findDossier } from "@/data/core-admissions";
 import { CoreProfile } from "@/components/universities/core-profile";
@@ -225,6 +226,7 @@ export default async function UniversityPage({
             <p className="program-conditions">{u.programs.note}</p>
             <Help term="selectivity" />
             <MatchPanel university={u} />
+            <AIAdvisor universityId={u.id} />
           </section>
           <section id="admissions" className="detail-section">
             <span className="eyebrow">02 / KNOW WHAT’S REQUIRED</span>
