@@ -1,3 +1,4 @@
+import { ApplicationRoadmap } from "@/components/universities/application-roadmap";
 import Link from "next/link";
 import type { AdmissionsDossier } from "@/types/admissions";
 import type { University } from "@/types/domain";
@@ -56,6 +57,7 @@ export function CoreProfile({
         <UniversityActions id={u.id} />
       </div>
       <TestScoreSection university={u} />
+      <ApplicationRoadmap university={u} />
       <section className="panel profile-summary">
         <h2>Your application at a glance</h2>
         <dl className="summary-grid">
