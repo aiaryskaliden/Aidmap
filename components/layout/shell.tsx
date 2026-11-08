@@ -31,9 +31,9 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const links = [
     ["/explore", "Explore"],
-    ["/funding", "Funding"],
+    ["/match", "Find my fit"],
     ["/compare", "Compare"],
-    ["/calculator", "Gap calculator"],
+    ["/planner", "My applications"],
   ];
   return (
     <header className="site-header">
@@ -89,7 +89,7 @@ export function Header() {
           {[
             ...links,
             ["/dashboard", "My dashboard"],
-            ["/planner", "Application planner"],
+            ["/funding", "Funding guide"],
             ["/profile", "Preferences"],
           ].map(([href, label]) => (
             <Link key={href} href={href} onClick={() => setOpen(false)}>
@@ -116,7 +116,8 @@ export function Footer() {
         </div>
         <div className="footer-links">
           <Link href="/explore">Explore universities</Link>
-          <Link href="/calculator">Funding calculator</Link>
+          <Link href="/funding">Scholarship guide</Link>
+          <Link href="/calculator">Optional cost calculator</Link>
           <Link href="/about">Our methodology</Link>
           <Link href="/profile#data">Privacy & your data</Link>
         </div>
