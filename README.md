@@ -4,9 +4,9 @@
 
 [Explore AidMap](https://aidmap-aiaryskaliden.vercel.app/) · [Source code](https://github.com/aiaryskaliden/Aidmap) · [Developer profile](https://github.com/aiaryskaliden)
 
-AidMap is a local-first university research and application-planning product for international undergraduate applicants. It connects 30 source-backed US and European university profiles with funding research, a whole-cost calculator, and a private applicant workspace. Target planning cycle: **Fall 2027**; general policies, historical references and cost years are labeled separately.
+AidMap is a local-first university research and application-planning product for international undergraduate applicants. It connects 34 source-backed university research profiles across the US, Europe and Asia with funding research, a whole-cost calculator, and a private applicant workspace. Target planning cycle: **Fall 2027**; general policies, historical references and cost years are labeled separately.
 
-There are no accounts, paid APIs, applicant uploads, analytics, or required environment variables. AidMap does not submit applications or predict admissions decisions.
+There are no accounts, paid APIs, applicant uploads, analytics, or required environment variables. The applicant advice is rule-based and private; optional generative-AI review is not yet connected. AidMap does not submit applications or predict admissions decisions.
 
 AidMap was created to make researching universities less fragmented: discover and compare options, understand funding, and organize an application shortlist. The live website and this repository include the core planning upgrade and the SAT/IELTS score summaries. The website is public; each visitor's applicant workspace stays in their own browser.
 
@@ -48,7 +48,7 @@ Playwright starts the development server if needed, or reuses port 3000 locally.
 | Route                  | Working behavior                                                                                                                        |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | `/`                    | Original AidMap identity, functional search/chips, official-data featured universities, funding explanations, planner introduction      |
-| `/explore`             | Search, combined URL-backed filters, sorting, grid/list views, save and comparison actions, honest empty states                         |
+| `/match`               | Explanatory profile-fit checklist, evidence coverage, university ranking and local shortlist saving; never admission probability |\n| `/improve`             | Private, persistent application preparation checklist for test evidence, CV, projects, essays, recommendations and scholarships |\n| `/explore`             | Search, combined URL-backed filters, sorting, grid/list views, save and comparison actions, honest empty states                         |
 | `/universities/[slug]` | Thirty typed profiles, program-specific requirements, admissions/funding policies, dated costs, evidence and confirmed deadline imports |
 | `/start`               | Optional four-step onboarding, skippable academic/funding preferences, explained research matches                                       |
 | `/compare`             | Up to four persistent selections, replacement/removal, optional differences-only view, horizontally scrollable table                    |
@@ -63,7 +63,7 @@ Light/dark themes, responsive navigation, reduced-motion support, keyboard-acces
 
 ## Data and evidence
 
-The expanded dataset contains **30 institutions** (20 US, 10 European), **558 field-level evidence records**, and **38 funding entries**, researched from official pages on **October 18–23, 2026**. Eight detailed dossiers include 180 sourced requirement records and 77 dated, recurring or relative events. These are researched profiles, not a claim that every field or Fall 2027 deadline is verified. See [the coverage report](docs/DATA_REVIEW.md), [the core upgrade report](docs/MVP_UPGRADE_REPORT.md), and [SAT/IELTS coverage](docs/TEST_SCORE_BENCHMARKS.md) for institution-level gaps and source checks.
+The expanded dataset originally contained **30 institutions** (20 US, 10 European), **558 field-level evidence records**, and **38 funding entries**. The new Asia research expansion adds four initial profiles for CUHK-Shenzhen, MBZUAI, Nazarbayev University and HKU, with explicit unknowns and dated official sources, researched from official pages on **October 18–23, 2026**. Eight detailed dossiers include 180 sourced requirement records and 77 dated, recurring or relative events. These are researched profiles, not a claim that every field or Fall 2027 deadline is verified. See [the coverage report](docs/DATA_REVIEW.md), [the core upgrade report](docs/MVP_UPGRADE_REPORT.md), and [SAT/IELTS coverage](docs/TEST_SCORE_BENCHMARKS.md) for institution-level gaps and source checks.
 
 - Raw findings: `research-universities.json`, `data/research-*-v2.json`, `data/core-research-*.json`, and `data/research-testing.json`.
 - Normalized typed records and policy opportunities: `data/universities.ts`.
@@ -73,7 +73,7 @@ The expanded dataset contains **30 institutions** (20 US, 10 European), **558 fi
 
 **Source-checked is not the same as cycle-confirmed.** General policies retain a null/general cycle. Aid deadlines are distinct from admission deadlines. The UI links claims to exact source entries, including notes and check dates. Unknowns are stored as null, never zero. No live scraper updates the data automatically; maintenance requires editorial review.
 
-The catalogue includes six countries and actual undergraduate Business, European and full-tuition options. Its US coverage remains weighted toward selective institutions. Scholarship restrictions, personal expenses, partial stipends and historical award calls remain visible; none is an individual award or a guarantee of affordability.
+The original catalogue covered six countries; the current set also includes China, Hong Kong, the UAE and Kazakhstan. The catalogue includes actual undergraduate Business, European and full-tuition options. Its US coverage remains weighted toward selective institutions. Scholarship restrictions, personal expenses, partial stipends and historical award calls remain visible; none is an individual award or a guarantee of affordability.
 
 Filters use AND between groups and OR within a group. Unknown requirements have a separate result count and an explicit inclusion switch; known mismatches stay excluded. Test score statistics are not admission cutoffs. Program-specific and scholarship-only language evidence cannot silently become university-wide admission requirements.
 
