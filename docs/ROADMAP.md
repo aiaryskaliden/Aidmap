@@ -1,5 +1,7 @@
 # Remaining work after AidMap 2.0 review
 
+The [November branch review](CATALOGUE_RELEASE.md) tracks local catalogue and performance changes. The next research pass should prioritize annual costs and Fall 2027 deadlines for the profiles flagged in the coverage report.
+
 - Confirm missing Fall 2027 documents, English requirements and dated admissions rounds, following the per-institution gaps in DATA_REVIEW.md. Recheck Princeton's conflicting aid-date table and country/program exceptions individually.
 - Add complete, dated cost breakdowns beyond the eight published baselines. Keep tuition-only figures separate and do not infer individual awards.
 - Broaden less-selective US options and affordable European programs with official undergraduate evidence. The current 30 profiles do not establish a balanced application list.

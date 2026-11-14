@@ -4,7 +4,11 @@ Implemented on 23 October 2026 and included in the owner-authorized public Previ
 
 Every university card and profile now has a SAT/IELTS summary, with matching comparison rows. Profile summaries link directly to official evidence. SAT medians, middle-50% ranges and route-specific minimums have separate labels. IELTS guidance distinguishes minimum, recommendation, typical range and expected minimum; English-evidence applicability is displayed independently of the score.
 
-## Verified coverage
+## November branch
+
+The catalogue expansion keeps unknown scores visible. Haverford and Pomona have a published IELTS minimum of 7.0 for the applicant groups described on their profiles. Swarthmore’s historical percentiles link to the corrected 2024–25 institutional PDF. See the [coverage report](DATA_REVIEW.md) for outstanding checks.
+
+## October coverage
 
 - All 30 catalog universities render a summary, including explicit unknowns.
 - SAT: 15 published composite medians, 17 middle-50% ranges, and 2 route-specific minimums.

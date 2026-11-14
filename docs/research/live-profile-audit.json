@@ -1,0 +1,356 @@
+{
+  "deployment": "https://aidmap-775lc5j6z-musorlegend-1144.vercel.app",
+  "checkedAt": "2026-11-14T18:19:23.699Z",
+  "results": [
+    {
+      "id": "aalto-university",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "amherst",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "amsterdam",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "berea",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "bocconi",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "bologna",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "bowdoin",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "brown",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "carleton-college",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "city-university-of-hong-kong",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "clark-university",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "colby-college",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "colgate-university",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "corvinus-budapest",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "cuhk-shenzhen",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "dartmouth",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "davidson-college",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "debrecen",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "denison-university",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "duke",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "erasmus-rotterdam",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "gettysburg-college",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "grinnell-college",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "harvard",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "haverford-college",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "hong-kong-university-of-science-and-technology",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "iowa-state-university",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "kaist",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "lafayette-college",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "lehigh-university",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "luiss",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "macalester-college",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "mbzuai",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "michigan-state-university",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "mit",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "nazarbayev-university",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "northwestern",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "notre-dame",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "pomona-college",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "princeton",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "qatar-university",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "rhine-waal",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "rice",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "sciences-po",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "st-olaf-college",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "swarthmore",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "szeged",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "tampere-university",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "uchicago",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "university-of-alabama",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-alberta",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-arizona",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-british-columbia",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-hong-kong",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "university-of-kansas",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-mississippi",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-oulu",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-richmond",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-rochester",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-south-florida",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-southern-mississippi",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-toronto",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-twente",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "university-of-waterloo",
+      "status": 404,
+      "profile": false
+    },
+    {
+      "id": "vanderbilt",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "washington-and-lee",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "wellesley",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "wesleyan",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "williams",
+      "status": 200,
+      "profile": true
+    },
+    {
+      "id": "yale",
+      "status": 200,
+      "profile": true
+    }
+  ]
+}

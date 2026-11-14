@@ -1,6 +1,8 @@
 # Research and verification policy
 
-Review dates: **2026-10-18 through 2026-10-20**. Target entry cycle: **Fall 2027**. Scope: first-year international undergraduate research, not transfer admission or graduate funding. The current catalogue has 30 institutions in six countries; see [DATA_REVIEW.md](DATA_REVIEW.md) for generated coverage and gaps.
+The November 14, 2026 working branch covers first-year undergraduate applicants planning for Fall 2027. Earlier snapshots retain their original review dates. The generated [coverage report](DATA_REVIEW.md) gives the current local count and per-university gaps.
+
+The ordered [shortlist](research/CATALOGUE_SHORTLIST.md) precedes three batches in `data/research-expansion-need.json`, `data/research-expansion-merit.json` and `data/research-expansion-international.json`. Each finding records its official page, field, review date and applicable cycle. A null cycle identifies an undated policy. A null amount or date indicates missing evidence. A published zero fee applies only to the route described. A maximum across four years is recorded in the award terms, never as an annual award. Country and region labels follow the catalogue’s destination taxonomy, including Hong Kong.
 
 ## How records were assembled
 

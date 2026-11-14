@@ -1,4 +1,8 @@
-# AidMap 2.0 validation record
+# AidMap validation record
+
+The [November branch review](CATALOGUE_RELEASE.md) records current checks, performance evidence and deployment status.
+
+## October 2026 snapshot
 
 Local verification: **October 20, 2026**. Node 24.19.0, pnpm 11.25.0, Next.js 16.4.2, Microsoft Edge through Playwright. The starting source was preserved in local Git checkpoint `1335cba`; no remote push or deployment was performed for this review.
 
