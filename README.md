@@ -4,7 +4,7 @@
 
 [Explore AidMap](https://aidmap-aiaryskaliden.vercel.app/) · [Source code](https://github.com/aiaryskaliden/Aidmap) · [Developer profile](https://github.com/aiaryskaliden)
 
-AidMap is a local-first university research and application-planning product for international undergraduate applicants. The public Preview connects 34 source-backed university research profiles across the US, Europe and Asia with funding research, a whole-cost calculator, and a private applicant workspace. Target planning cycle: **Fall 2027**; general policies, historical references and cost years are labeled separately.
+AidMap is a local-first university research and application-planning product for international undergraduate applicants. The public Preview connects 70 source-backed undergraduate profiles across 14 destinations with funding research, a whole-cost calculator, and a private applicant workspace. Target planning cycle: **Fall 2027**; general policies, historical references and cost years are labeled separately.
 
 There are no accounts, paid APIs, applicant uploads, analytics, or required environment variables. The applicant advice is rule-based and private; optional generative-AI review is not yet connected. AidMap does not submit applications or predict admissions decisions.
 
@@ -12,7 +12,7 @@ AidMap was created to make researching universities less fragmented: discover an
 
 ## Current working branch
 
-The November catalogue update is available locally. The public Preview still serves the previous release. See the [branch review](docs/CATALOGUE_RELEASE.md) for the validated local count, admission and cost gaps, browser measurements and Preview verification instructions.
+The November catalogue update is live on the public Preview. See the [branch review](docs/CATALOGUE_RELEASE.md) for the validated local count, admission and cost gaps, browser measurements and Preview verification instructions.
 
 ## Run locally
 

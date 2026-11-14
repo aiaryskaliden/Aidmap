@@ -4,7 +4,7 @@
 
 Local branch `codex/catalogue-and-discovery` incorporates the November 10 admissions release on top of the current main branch. The three catalogue checkpoints are `c3264f8` (46), `97ba831` (58) and `75a6cd4` (70). The final review adds requirements, fees, score conditions and replacement source URLs.
 
-The local catalogue contains 70 distinct undergraduate institutions across 14 destinations, 829 field-level source entries, and 75 funding policies or opportunities. All original 34 IDs remain available. The [live audit](research/live-profile-audit.json) found 34 named profile pages and 36 HTTP 404 responses on the owner-supplied deployment. The public [Explore page](https://aidmap-aiaryskaliden.vercel.app/explore) still serves the previous release.
+The local catalogue contains 70 distinct undergraduate institutions across 14 destinations, 829 field-level source entries, and 75 funding policies or opportunities. All original 34 IDs remain available. The [live audit](research/live-profile-audit.json) found 34 named profile pages and 36 HTTP 404 responses on the owner-supplied deployment. After publication, the [public Explore page](https://aidmap-aiaryskaliden.vercel.app/explore) serves the expanded catalogue. All 70 named profiles returned HTTP 200 with their source sections on the public alias.
 
 ## Research and implementation
 
@@ -45,7 +45,7 @@ At 375 px, the first Explore keystroke to two animation frames fell from 304 ms 
 
 ## Verification and optional Preview
 
-On November 14, 2026 the production build, standalone data validation, lint and TypeScript checks passed. All 167 Vitest cases and all 45 Playwright cases passed. Browser tests used Microsoft Edge on desktop, tablet and mobile layouts, with keyboard and double-zoom checks. Direct local HTTP checks found the correct name and source section on all 70 profile routes. The host shell reported Node 26.13.0 and pnpm 11.25.0. The repository declares Node 24.x for deployment. Preview verification on that runtime is still pending.
+On November 14, 2026 the production build, standalone data validation, lint and TypeScript checks passed. All 167 Vitest cases and all 45 Playwright cases passed. Browser tests used Microsoft Edge on desktop, tablet and mobile layouts, with keyboard and double-zoom checks. Direct local HTTP checks found the correct name and source section on all 70 profile routes. The host shell reported Node 26.13.0 and pnpm 11.25.0. The repository declares Node 24.x for deployment. The subsequent Vercel Preview build completed successfully and the public routes passed anonymous verification.
 
 Run `pnpm validate:data`, `pnpm lint`, `pnpm typecheck`, `pnpm test` and `pnpm build`. Start the production build with `pnpm start`. In a second terminal run `pnpm test:e2e` and `node scripts/measure-catalogue.mjs after`. On this Windows host set `PLAYWRIGHT_CHANNEL=msedge` for the browser tests. Measurement uses disposable profiles without applicant information. The [raw baseline](research/performance/before.json) and [final run](research/performance/after.json) include navigation, main-thread work, the hydration proxy and transferred JavaScript for each route.
 

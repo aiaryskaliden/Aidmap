@@ -1,6 +1,10 @@
 # AidMap Preview access
 
-## Current release — November 10, 2026
+## Current public release — November 14, 2026
+
+The owner published the catalogue from commit `e5aa73b` to the existing [public address](https://aidmap-aiaryskaliden.vercel.app/explore). Vercel built the [exact Preview](https://aidmap-m2rhk00jd-musorlegend-1144.vercel.app/explore) and reported Ready. Anonymous checks passed on all 70 named university profiles, Explore, the Canadian search, Funding and Calculator on both addresses. The catalogue includes 75 funding options.
+
+## Previous release — November 10, 2026
 
 The owner requested the latest verified version for public use. The existing public alias `https://aidmap-aiaryskaliden.vercel.app` was reassigned to the already Ready deployment `https://aidmap-775lc5j6z-musorlegend-1144.vercel.app`, deployment ID `dpl_13Vm6gLS3KkEbPRqBKY72NQ4srGs`, source commit `8ae1f5e45d27b014a8ad0e6cb1ffe17a5b8a8efc` from `feature/admissions-guidance-cds-ai-advisor`.
 
