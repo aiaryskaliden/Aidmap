@@ -1,8 +1,12 @@
 # Research and verification policy
 
-The November 14, 2026 working branch covers first-year undergraduate applicants planning for Fall 2027. Earlier snapshots retain their original review dates. The generated [coverage report](DATA_REVIEW.md) gives the current local count and per-university gaps.
+The November 14, 2026 release covers first-year undergraduate applicants planning for Fall 2027. Earlier snapshots retain their original review dates. The generated [coverage report](DATA_REVIEW.md) gives the published catalogue count and per-university gaps.
 
 The ordered [shortlist](research/CATALOGUE_SHORTLIST.md) precedes three batches in `data/research-expansion-need.json`, `data/research-expansion-merit.json` and `data/research-expansion-international.json`. Each finding records its official page, field, review date and applicable cycle. A null cycle identifies an undated policy. A null amount or date indicates missing evidence. A published zero fee applies only to the route described. A maximum across four years is recorded in the award terms, never as an annual award. Country and region labels follow the catalogue’s destination taxonomy, including Hong Kong.
+
+## Reproducing the evidence count
+
+Run `pnpm validate:data` from the repository root. The validator sums `university.sources.length` over the 70 normalized profiles in `data/universities.ts`. Each record is identified by the university ID and its source ID. The November 15 recount yielded **829 evidence records** with source URLs. The same URL can support several records, giving **334 distinct URLs** across the university profiles. The separate funding catalogue has 75 entries. Its sources bring the combined link-check inventory to 335 distinct URLs.
 
 ## How records were assembled
 

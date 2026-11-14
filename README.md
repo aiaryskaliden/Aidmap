@@ -10,9 +10,9 @@ There are no accounts, paid APIs, applicant uploads, analytics, or required envi
 
 AidMap was created to make researching universities less fragmented: discover and compare options, understand funding, and organize an application shortlist. The live website and this repository include the core planning upgrade and the SAT/IELTS score summaries. The website is public; each visitor's applicant workspace stays in their own browser. The new application roadmaps, researched SAT percentiles and MBZUAI waiver guidance are designed for student self-service; the optional AI Advisor is not active until the owner sets up a provider and spending limits.
 
-## Current working branch
+## Published catalogue
 
-The November catalogue update is live on the public Preview. See the [branch review](docs/CATALOGUE_RELEASE.md) for the validated local count, admission and cost gaps, browser measurements and Preview verification instructions.
+The published catalogue contains **70 universities across 14 countries and territories**, **75 funding options**, and **829 source-linked evidence records**. Run `pnpm validate:data` to reproduce the evidence count. See the [release review](docs/CATALOGUE_RELEASE.md) for admissions coverage, cost gaps and browser checks.
 
 ## Run locally
 
@@ -52,8 +52,10 @@ Playwright starts the development server if needed, or reuses port 3000 locally.
 | Route                  | Working behavior                                                                                                                        |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | `/`                    | Original AidMap identity, functional search/chips, official-data featured universities, funding explanations, planner introduction      |
-| `/match`               | Explanatory profile-fit checklist, evidence coverage, university ranking and local shortlist saving; never admission probability |\n| `/improve`             | Private, persistent application preparation checklist for tests, CV, essays, references, school-specific guidance; optional opt-in AI Advisor when configured |\n| `/explore`             | Search, combined URL-backed filters, sorting, grid/list views, save and comparison actions, honest empty states                         |
-| `/universities/[slug]` | Thirty typed profiles, program-specific requirements, admissions/funding policies, dated costs, evidence and confirmed deadline imports |
+| `/match`               | Explanatory profile-fit checklist, evidence coverage, university ranking and local shortlist saving; never admission probability |
+| `/improve`             | Private, persistent application preparation checklist for tests, CV, essays, references, school-specific guidance; optional opt-in AI Advisor when configured |
+| `/explore`             | Search, combined URL-backed filters, sorting, grid/list views, save and comparison actions, honest empty states                         |
+| `/universities/[slug]` | 70 undergraduate profiles, program-specific requirements, admissions/funding policies, dated costs, evidence and confirmed deadline imports |
 | `/start`               | Optional four-step onboarding, skippable academic/funding preferences, explained research matches                                       |
 | `/compare`             | Up to four persistent selections, replacement/removal, optional differences-only view, horizontally scrollable table                    |
 | `/funding`             | Searchable/filterable institutional aid policies, save actions, eligibility/source links, separate aid deadlines                        |
@@ -67,9 +69,9 @@ Light/dark themes, responsive navigation, reduced-motion support, keyboard-acces
 
 ## Data and evidence
 
-The expanded dataset originally contained **30 institutions** (20 US, 10 European), **558 field-level evidence records**, and **38 funding entries**. The new Asia research expansion adds four initial profiles for CUHK-Shenzhen, MBZUAI, Nazarbayev University and HKU, with explicit unknowns and dated official sources, researched from official pages on **October 18–23, 2026**. Eight detailed dossiers include 180 sourced requirement records and 77 dated, recurring or relative events. These are researched profiles, not a claim that every field or Fall 2027 deadline is verified. See [the coverage report](docs/DATA_REVIEW.md), [the core upgrade report](docs/MVP_UPGRADE_REPORT.md), and [SAT/IELTS coverage](docs/TEST_SCORE_BENCHMARKS.md) for institution-level gaps and source checks.
+The November release added 36 undergraduate universities to the original 34. Eight detailed dossiers include 180 sourced requirement records and 77 dated, recurring or relative events. These are researched profiles, not a claim that every field or Fall 2027 deadline is verified. See [the coverage report](docs/DATA_REVIEW.md), [the core upgrade report](docs/MVP_UPGRADE_REPORT.md), and [SAT/IELTS coverage](docs/TEST_SCORE_BENCHMARKS.md) for institution-level gaps and source checks.
 
-- Raw findings: `research-universities.json`, `data/research-*-v2.json`, `data/core-research-*.json`, and `data/research-testing.json`.
+- Raw findings: `research-universities.json`, `data/research-*-v2.json`, `data/research-asia-v1.json`, `data/research-expansion-*.json`, `data/core-research-*.json`, and `data/research-testing.json`.
 - Normalized typed records and policy opportunities: `data/universities.ts`.
 - Zod schemas and nullable facts: `types/domain.ts`.
 - Consistency checks: `lib/validation/universities.ts` and `scripts/validate-data.ts`.
@@ -77,7 +79,7 @@ The expanded dataset originally contained **30 institutions** (20 US, 10 Europea
 
 **Source-checked is not the same as cycle-confirmed.** General policies retain a null/general cycle. Aid deadlines are distinct from admission deadlines. The UI links claims to exact source entries, including notes and check dates. Unknowns are stored as null, never zero. No live scraper updates the data automatically; maintenance requires editorial review.
 
-The original catalogue covered six countries; the current set also includes China, Hong Kong, the UAE and Kazakhstan. The catalogue includes actual undergraduate Business, European and full-tuition options. Its US coverage remains weighted toward selective institutions. Scholarship restrictions, personal expenses, partial stipends and historical award calls remain visible; none is an individual award or a guarantee of affordability.
+The November expansion adds universities in Canada, Finland, Qatar and South Korea, alongside new profiles in existing destinations. The catalogue includes actual undergraduate Business, European and full-tuition options. Its US coverage remains weighted toward selective institutions. Scholarship restrictions, personal expenses, partial stipends and historical award calls remain visible; none is an individual award or a guarantee of affordability.
 
 Filters use AND between groups and OR within a group. Unknown requirements have a separate result count and an explicit inclusion switch; known mismatches stay excluded. Test score statistics are not admission cutoffs. Program-specific and scholarship-only language evidence cannot silently become university-wide admission requirements.
 
@@ -159,11 +161,11 @@ The script uses an isolated browser context and synthetic calculator inputs. Set
 
 ## Vercel deployment preparation
 
-The current version is publicly accessible at **[aidmap-aiaryskaliden.vercel.app](https://aidmap-aiaryskaliden.vercel.app)**. The owner authorized publishing the updated website and its source code on October 23, 2026. The Preview build completed that day; the personalized URL was updated and verified anonymously on October 24.
+The current version is publicly accessible at **[aidmap-aiaryskaliden.vercel.app](https://aidmap-aiaryskaliden.vercel.app)**. The public address was switched to the 70-university release on November 14, 2026. All 70 profile URLs were verified again on November 15.
 
 The application remains a **Vercel Preview**. Production deployment is blocked by `scripts/require-preview.mjs`. `.vercelignore` restricts CLI uploads to application and build inputs; `public: false` keeps Vercel source/build-log access separate from website access. The source code is available independently in this public GitHub repository. No applicant browser data is uploaded.
 
-Exact Preview URL: [aidmap-9wi1w51ev-musorlegend-1144.vercel.app](https://aidmap-9wi1w51ev-musorlegend-1144.vercel.app). See [the deployment record](docs/VERCEL_PREVIEW.md) for validation and earlier access history.
+Exact Preview URL: [aidmap-m2rhk00jd-musorlegend-1144.vercel.app](https://aidmap-m2rhk00jd-musorlegend-1144.vercel.app). See [the deployment record](docs/VERCEL_PREVIEW.md) for validation and earlier access history.
 
 For subsequent Preview deployments:
 
@@ -180,7 +182,7 @@ The core product has no runtime API/backend dependency after pages and client as
 
 ## Current limits and next steps
 
-- Fourteen institutions have some current-cycle admission information; eight have dated 2026–27 cost baselines. Complete Fall 2027 costs and many application documents, language conditions and dates remain unverified. Check the per-institution coverage report.
+- 27 institutions have some current-cycle admission information, and nine have dated annual cost baselines. Complete Fall 2027 costs and many application documents, language conditions and dates remain unverified. Check the per-institution coverage report.
 - Aid dates and forms have differing cycle coverage. Princeton's aid deadline table needs confirmation; Bowdoin and Yale have country/process-specific caveats. See the source notes.
 - Competitive awards and European fee support have program, citizenship, income, renewal and cycle restrictions. Full-need policies are not labeled as full tuition or full-ride awards.
 - Matching currently uses documented interests, destinations and funding policies. Citizenship restrictions, test thresholds and deadline compatibility require individual review; there are no admission probabilities.

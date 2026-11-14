@@ -2,9 +2,11 @@
 
 ## Scope and release status
 
-Local branch `codex/catalogue-and-discovery` incorporates the November 10 admissions release on top of the current main branch. The three catalogue checkpoints are `c3264f8` (46), `97ba831` (58) and `75a6cd4` (70). The final review adds requirements, fees, score conditions and replacement source URLs.
+The November 14 public deployment was built from `e5aa73b` on `codex/catalogue-and-discovery`, which includes the November 10 admissions release. The three catalogue checkpoints are `c3264f8` (46), `97ba831` (58) and `75a6cd4` (70). The final review adds requirements, fees, score conditions and replacement source URLs.
 
-The local catalogue contains 70 distinct undergraduate institutions across 14 destinations, 829 field-level source entries, and 75 funding policies or opportunities. All original 34 IDs remain available. The [live audit](research/live-profile-audit.json) found 34 named profile pages and 36 HTTP 404 responses on the owner-supplied deployment. After publication, the [public Explore page](https://aidmap-aiaryskaliden.vercel.app/explore) serves the expanded catalogue. All 70 named profiles returned HTTP 200 with their source sections on the public alias.
+The published catalogue contains 70 distinct undergraduate institutions across 14 destinations, 829 field-level source entries, and 75 funding policies or opportunities. All original 34 IDs remain available. The [live audit](research/live-profile-audit.json) found 34 named profile pages and 36 HTTP 404 responses on the owner-supplied deployment. After publication, the [public Explore page](https://aidmap-aiaryskaliden.vercel.app/explore) serves the expanded catalogue. All 70 named profiles returned HTTP 200 with their source sections on the public alias.
+
+On November 15, all 70 public profile URLs returned their expected university name and source section without authentication. The data validator and all 167 unit tests passed again. The [methodology](DATA_METHODOLOGY.md) describes how to reproduce the 829-record total.
 
 ## Research and implementation
 
