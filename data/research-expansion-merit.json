@@ -805,6 +805,56 @@
         "checkedAt": "2026-11-14",
         "cycle": null,
         "note": "English scores are reviewed with other application materials."
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Two recommendations",
+            "status": "Required",
+            "condition": "Counselor and teacher, or two academic teachers if no counselor or university adviser."
+          }
+        ],
+        "sourceUrl": "https://www.clarku.edu/undergraduate-admissions/apply/international-students/",
+        "title": "International Students | Undergraduate Admissions | Clark University",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Selected first-year application documents. See the official checklist for remaining items."
+      },
+      {
+        "field": "applicationFee",
+        "value": 0,
+        "sourceUrl": "https://www.clarku.edu/undergraduate-admissions/apply/international-students/",
+        "title": "International Students | Undergraduate Admissions | Clark University",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "No application fee."
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.clarku.edu/undergraduate-admissions/apply/international-students/",
+        "title": "International Students | Undergraduate Admissions | Clark University",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Applicants decide whether to submit scores."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.clarku.edu/undergraduate-admissions/apply/international-students/",
+        "title": "International Students | Undergraduate Admissions | Clark University",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Applicants decide whether to submit scores."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Common App or Coalition App with Scoir",
+        "sourceUrl": "https://www.clarku.edu/undergraduate-admissions/apply/international-students/",
+        "title": "International Students | Undergraduate Admissions | Clark University",
+        "cycle": null,
+        "checkedAt": "2026-11-14"
       }
     ],
     "scholarships": [
@@ -1002,6 +1052,21 @@
         "title": "International Applicants | Admission & Financial Aid",
         "checkedAt": "2026-11-14",
         "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Official high-school transcript",
+            "status": "Required",
+            "condition": "Counselor submits."
+          }
+        ],
+        "sourceUrl": "https://denison.edu/campus/admission/international-applicants",
+        "title": "International Applicants | Admission & Financial Aid",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Selected first-year application documents. See the official checklist for remaining items."
       }
     ],
     "scholarships": [
@@ -1088,6 +1153,31 @@
         "checkedAt": "2026-11-14",
         "cycle": null,
         "note": "See the international admissions instructions for official reporting."
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Official secondary transcript and grading explanation",
+            "status": "Required",
+            "condition": null
+          },
+          {
+            "label": "Counselor and teacher recommendations",
+            "status": "Required",
+            "condition": null
+          },
+          {
+            "label": "Application essay",
+            "status": "Required",
+            "condition": null
+          }
+        ],
+        "sourceUrl": "https://gettysburg.edu/admissions-aid/admissions/international",
+        "title": "International Admissions | Gettysburg College",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Selected first-year application documents. See the official checklist for remaining items."
       }
     ]
   }

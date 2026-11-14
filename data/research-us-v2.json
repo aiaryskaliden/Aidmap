@@ -182,9 +182,9 @@
       {
         "field": "meritAid",
         "value": null,
-        "sourceUrl": "https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-College-CDS-2024-2025.pdf",
-        "title": "Common Data Set 2024–2025",
-        "checkedAt": "2026-10-20",
+        "sourceUrl": "https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-CDS-2024-2025-fillable-pdf-version.pdf",
+        "title": "Swarthmore Common Data Set 2024–25",
+        "checkedAt": "2026-11-14",
         "cycle": "2024-2025",
         "note": "Historical Section H6 reported need-based institutional aid for nonresidents. The document returned HTTP 404 during the October 20 link check and the replacement page blocked automated access. Current merit eligibility needs manual verification."
       },

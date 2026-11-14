@@ -1,6 +1,6 @@
 "use client";
-import { useRef, useState, useSyncExternalStore } from "react";
-import { useSearchParams } from "next/navigation";
+import { useMemo, useRef, useState, useSyncExternalStore } from "react";
+import { currencySchema } from "@/types/domain";
 import Link from "next/link";
 import {
   Search,
@@ -22,6 +22,10 @@ import { Help } from "@/components/ui/help";
 import { UniversityCard } from "./card";
 import { Button } from "@/components/ui/button";
 import { useApp } from "@/components/providers";
+const countries = [...new Set(universities.map((u) => u.country))].sort();
+const regions = [...new Set(universities.map((u) => u.region))].sort();
+const institutionTypes = [...new Set(universities.map((u) => u.type))].sort();
+const pageSize = 12;
 const aidOptions = [
   ["international", "International need-based aid"],
   ["need", "Meets full demonstrated need"],
@@ -138,8 +142,7 @@ function FiltersPanel({
         </button>
       </div>
       <p className="tiny-note">
-        Choose any options within a group (OR). Different groups must all match
-        (AND). Unknown requirements can be included below.
+        Select any options in a group. Results must match at least one choice in each selected group.
       </p>
       <div className="filter-group">
         <h3>Quick filters</h3>
@@ -147,7 +150,7 @@ function FiltersPanel({
         {select(
           "country",
           "Country",
-          [...new Set(universities.map((u) => u.country))].sort(),
+          countries,
         )}
         {select("major", "Subject", academicFields)}
         {select("intake", "Application intake", ["Fall 2027", "Fall 2028"])}
@@ -198,6 +201,7 @@ function FiltersPanel({
           "Common App",
           "Coalition",
           "Institutional portal",
+          "Studyinfo",
         ])}
         <label className="field-label">
           Deadline from
@@ -224,13 +228,13 @@ function FiltersPanel({
       </details>
       <details className="filter-group">
         <summary>Location, costs & source coverage</summary>
-        {select("region", "Region", ["United States", "Europe"])}
+        {select("region", "Region", regions)}
         {select(
           "type",
           "Institution type",
-          [...new Set(universities.map((u) => u.type))].sort(),
+          institutionTypes,
         )}
-        {select("currency", "Cost currency", ["USD", "EUR", "GBP", "KZT"])}
+        {select("currency", "Cost currency", currencySchema.options)}
         <label className="field-label">
           Maximum published gross annual cost
           <input
@@ -268,17 +272,18 @@ function FiltersPanel({
     </>
   );
 }
-export default function Explorer() {
-  const params = useSearchParams();
+export default function Explorer({ initialSearch }: { initialSearch: string }) {
   const { state, ready } = useApp();
   // Keep controlled inputs synchronous while Next updates its navigation state.
   const search = useSyncExternalStore(
     subscribeToFilters,
     getFilterSnapshot,
-    () => (params.size ? `?${params}` : ""),
+    () => initialSearch,
   );
-  const filters = Object.fromEntries(new URLSearchParams(search));
-  const found = discoverUniversities(universities, filters);
+  const filters = useMemo(() => Object.fromEntries(new URLSearchParams(search)), [search]);
+  const found = useMemo(() => discoverUniversities(universities, filters), [filters]);
+  const [page, setPage] = useState({ search, limit: pageSize });
+  const limit = page.search === search ? page.limit : pageSize;
   const [view, setView] = useState("grid");
   const drawer = useRef<HTMLDialogElement>(null);
   function setFilter(key: string, value: string) {
@@ -312,8 +317,8 @@ export default function Explorer() {
   return (
     <div className="page-container explore-page">
       <PageHeading
-        eyebrow="DISCOVER YOUR POSSIBILITIES"
-        title="Find a place for your ambition."
+        eyebrow="UNIVERSITY CATALOGUE"
+        title="Find undergraduate universities"
         description="Find undergraduate programs and funding options. Review requirements, then save universities to plan your next steps."
       >
         <span className="cycle-label">
@@ -471,7 +476,7 @@ export default function Explorer() {
                   : "university-list"
               }
             >
-              {found.results.map(({ university, unknowns }) => (
+              {found.results.slice(0, limit).map(({ university, unknowns }) => (
                 <UniversityCard
                   key={university.id}
                   university={university}
@@ -493,6 +498,11 @@ export default function Explorer() {
                 <ArrowRight size={16} />
               </Button>
             </div>
+          )}
+          {found.results.length > limit && (
+            <Button onClick={() => setPage({ search, limit: limit + pageSize })}>
+              Show {Math.min(pageSize, found.results.length - limit)} more universities
+            </Button>
           )}
           <p className="section-footnote">
             {universities.length} institutions across{" "}

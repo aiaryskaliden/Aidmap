@@ -293,7 +293,7 @@ export default function Planner() {
       <WorkspaceNav />
       <PageHeading
         eyebrow="YOUR WORKSPACE / APPLICATION PLANNER"
-        title="Make room for your next move."
+        title="Plan your applications"
         description="Turn a list of possibilities into a plan you can follow."
       >
         <LocalNote />
@@ -342,7 +342,7 @@ export default function Planner() {
         <p>Loading your local plan…</p>
       ) : !state.saved.length ? (
         <EmptyState
-          title="Good plans begin with a possibility."
+          title="No applications in your planner yet"
           text="Save a university to create its application workspace. Then add your own tasks, notes and dates."
         />
       ) : view === "requirements" ? (

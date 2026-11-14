@@ -17,7 +17,7 @@ import { useApp } from "@/components/providers";
 import { Button } from "@/components/ui/button";
 export function Logo() {
   return (
-    <Link className="logo" href="/" aria-label="AidMap home">
+    <Link prefetch={false} className="logo" href="/" aria-label="AidMap home">
       <span className="logo-mark">
         <Compass size={25} strokeWidth={1.7} />
       </span>
@@ -42,7 +42,7 @@ export function Header() {
         <Logo />
         <nav className="desktop-nav" aria-label="Main navigation">
           {links.map(([href, label]) => (
-            <Link
+            <Link prefetch={false}
               key={href}
               href={href}
               aria-current={pathname === href ? "page" : undefined}
@@ -69,7 +69,7 @@ export function Header() {
             {state.theme === "light" ? <Moon size={18} /> : <Sun size={18} />}
           </button>
           <Button asChild size="sm" className="dashboard-link">
-            <Link href="/dashboard">
+            <Link prefetch={false} href="/dashboard">
               <LayoutDashboard size={15} /> My dashboard{" "}
               <ArrowUpRight size={15} />
             </Link>
@@ -93,7 +93,7 @@ export function Header() {
             ["/funding", "Funding guide"],
             ["/profile", "Preferences"],
           ].map(([href, label]) => (
-            <Link key={href} href={href} onClick={() => setOpen(false)}>
+            <Link prefetch={false} key={href} href={href} onClick={() => setOpen(false)}>
               {label}
               <ArrowRight size={16} />
             </Link>
@@ -110,20 +110,18 @@ export function Footer() {
         <div>
           <Logo />
           <p>
-            Find universities. Understand funding.
-            <br />
-            Plan your future.
+            Undergraduate admissions and financial aid.
           </p>
         </div>
         <div className="footer-links">
-          <Link href="/explore">Explore universities</Link>
-          <Link href="/funding">Scholarship guide</Link>
-          <Link href="/calculator">Optional cost calculator</Link>
-          <Link href="/about">Our methodology</Link>
-          <Link href="/profile#data">Privacy & your data</Link>
+          <Link prefetch={false} href="/explore">Explore universities</Link>
+          <Link prefetch={false} href="/funding">Scholarship guide</Link>
+          <Link prefetch={false} href="/calculator">Optional cost calculator</Link>
+          <Link prefetch={false} href="/about">Our methodology</Link>
+          <Link prefetch={false} href="/profile#data">Privacy & your data</Link>
         </div>
         <span className="footer-note">
-          <ShieldCheck size={18} /> Independent. Source-backed. Student-first.
+          <ShieldCheck size={18} /> Official university sources
         </span>
       </div>
       <div className="footer-bottom">
@@ -132,7 +130,7 @@ export function Footer() {
           Admissions and financial aid decisions are made by the institutions.
           Always verify requirements with official sources.
         </p>
-        <span>Built for your next chapter.</span>
+
       </div>
     </footer>
   );
@@ -146,7 +144,7 @@ export function WorkspaceNav() {
         ["/planner", "Application planner"],
         ["/profile", "Preferences & data"],
       ].map(([href, label]) => (
-        <Link
+        <Link prefetch={false}
           key={href}
           href={href}
           aria-current={pathname === href ? "page" : undefined}

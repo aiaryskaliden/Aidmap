@@ -22,12 +22,12 @@ export default function Home() {
       <section className="hero page-container">
         <div className="hero-copy">
           <div className="pill">
-            <span /> YOUR FALL 2027 STARTS HERE
+            <span /> FALL 2027 · UNDERGRADUATE
           </div>
           <h1>
-            Your future,
+            Find universities
             <br />
-            <span>mapped.</span>
+            <span>and funding.</span>
           </h1>
           <p className="hero-description">
             Discover universities, understand financial aid, and build an

@@ -182,7 +182,7 @@ export default function Compare() {
     <div className="page-container">
       <PageHeading
         eyebrow="SIDE BY SIDE / UP TO FOUR UNIVERSITIES"
-        title="See the differences that matter."
+        title="Compare universities"
         description="Put funding, requirements, and unknowns in perspective."
       />
       <div className="compare-toolbar">

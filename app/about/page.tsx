@@ -11,8 +11,8 @@ export default function AboutPage() {
   return (
     <div className="page-container about-page">
       <PageHeading
-        eyebrow="ABOUT AIDMAP / TRUST THROUGH TRANSPARENCY"
-        title="Better decisions start with honest information."
+        eyebrow="ABOUT AIDMAP"
+        title="How AidMap checks university information"
         description="Find universities. Understand funding. Plan your future."
       />
       <div className="about-lead">

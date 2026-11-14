@@ -4,11 +4,11 @@ import "./globals.css";
 import { Providers } from "@/components/providers";
 import { Header, Footer } from "@/components/layout/shell";
 export const metadata: Metadata = {
-  title: { default: "AidMap — Your future, mapped.", template: "%s | AidMap" },
+  title: { default: "AidMap — Undergraduate universities and funding", template: "%s | AidMap" },
   description:
     "Discover universities, understand international financial aid, and build an application plan that fits your goals and budget.",
   openGraph: {
-    title: "AidMap — Your future, mapped.",
+    title: "AidMap — Undergraduate universities and funding",
     description:
       "A transparent university research and financial aid planning tool for international students.",
     type: "website",

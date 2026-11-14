@@ -91,8 +91,7 @@ const research: Research[] = (
       []) as Finding[]),
   ],
 }));
-const baseUniversities = validateUniversities(
-  research.map((r) => {
+const baseUniversities = research.map((r): University => {
     const sources: EvidenceSource[] = r.findings.map((f, i) => ({
       id: `${r.slug}-${i + 1}`,
       title: f.title,
@@ -183,6 +182,11 @@ const baseUniversities = validateUniversities(
       };
     const englishTests = get<string[]>("englishTests");
     const ielts = get<IeltsGuidance>("ielts");
+    if (ielts.value) {
+      ielts.value = { ...ielts.value, scores: ielts.value.scores.map((score) => ({
+        ...score, comparison: score.comparison ?? "at-least",
+      })) };
+    }
     const englishMinimums = ielts.value
       ? {
           ...ielts,
@@ -305,13 +309,12 @@ const baseUniversities = validateUniversities(
         "Individual aid eligibility and award amounts depend on your circumstances.",
       ],
     };
-  }),
-);
-export const universities = validateUniversities(
-  baseUniversities.map((u) => withCoreResearch(u, findDossier(u.id))),
-);
-export const findUniversity = (id: string) =>
-  universities.find((u) => u.id === id);
+});
+const catalogue = baseUniversities.map((u) => withCoreResearch(u, findDossier(u.id)));
+// The server and the standalone validator check the same bundled research before release.
+export const universities = typeof window === "undefined" ? validateUniversities(catalogue) : catalogue;
+const universityById = new Map(universities.map((u) => [u.id, u]));
+export const findUniversity = (id: string) => universityById.get(id);
 export const academicFields = [
   ...new Set(universities.flatMap((u) => u.programs.value ?? [])),
 ].sort();

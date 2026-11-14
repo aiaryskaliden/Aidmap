@@ -214,7 +214,7 @@ describe("discovery and explainable research matches", () => {
   });
   it("honors Europe with researched undergraduate records", () => {
     expect(searchUniversities(universities, { region: "Europe" })).toHaveLength(
-      10,
+      14,
     );
   });
   it("explains country, interest, policy, and affordability limitations", () => {
@@ -333,7 +333,20 @@ describe("local persistence and application workflow", () => {
 });
 describe("source-backed data integrity and profile validation", () => {
   it("validates the expanded catalogue with traceable evidence", () => {
-    expect(validateUniversities(universities)).toHaveLength(34);
+    expect(validateUniversities(universities)).toHaveLength(70);
+  });
+  it.each(universities)("supports discovery, private planning and budgets for $name", (u) => {
+    const subject = u.programs.value![0];
+    expect(searchUniversities(universities, { q: u.name, country: u.country, major: subject })).toContain(u);
+    expect(matchUniversity(u, { ...blankProfile, major: subject })).toContainEqual(
+      expect.objectContaining({ category: "Academic interest match" }),
+    );
+    const saved = toggleCompare(toggleSaved(emptyState(), u.id), u.id);
+    expect(parseStoredData(JSON.stringify(saved))).toEqual({ state: saved, error: null });
+    expect(toggleCompare(toggleSaved(saved, u.id), u.id)).toEqual(emptyState());
+    const calculation = calculateFunding(u.costs, u.costCurrency, null);
+    if (Object.values(u.costs).includes(null)) expect(calculation.total).toBeNull();
+    expect(u.programs.sourceIds.length).toBeGreaterThan(0);
   });
   it("rejects duplicate universities", () => {
     expect(() =>

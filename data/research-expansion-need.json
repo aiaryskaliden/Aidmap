@@ -282,6 +282,39 @@
         "checkedAt": "2026-11-14",
         "cycle": null,
         "note": "Same testing policy."
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Official school transcripts and exam results",
+            "status": "Required",
+            "condition": "School sends records; include predictions before final exams."
+          },
+          {
+            "label": "Two recommendation letters",
+            "status": "Required",
+            "condition": "One school counselor and one teacher."
+          }
+        ],
+        "sourceUrl": "https://www.macalester.edu/admissions/international/first-year/",
+        "title": "International First-Year Applicants - Admissions & Aid - Admissions & Aid - Macalester College",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Selected first-year application documents. See the official checklist for remaining items."
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "IELTS",
+          "Duolingo"
+        ],
+        "sourceUrl": "https://www.macalester.edu/admissions/international/first-year/",
+        "title": "International First-Year Applicants - Admissions & Aid - Admissions & Aid - Macalester College",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Recommended where English is not the first language and fewer than two years of secondary study were primarily in English. Other evidence is accepted."
       }
     ]
   },
@@ -364,6 +397,44 @@
         "checkedAt": "2026-11-14",
         "cycle": null,
         "note": "Normally sent by the testing agency. Contact admission about financial hardship."
+      },
+      {
+        "field": "applicationFee",
+        "value": 65,
+        "sourceUrl": "https://www.haverford.edu/admission/applying/international-students",
+        "title": "International Students | Office of Admission | Haverford College",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "USD, first-year application."
+      },
+      {
+        "field": "feeWaiver",
+        "value": true,
+        "sourceUrl": "https://www.haverford.edu/admission/applying/international-students",
+        "title": "International Students | Office of Admission | Haverford College",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "A school official may request a waiver in writing for financial hardship."
+      },
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [
+            {
+              "score": 7,
+              "kind": "minimum",
+              "comparison": "at-least",
+              "condition": "Applies when English is not the first language and the applicant has never attended an English-medium secondary school."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "Applies when English is not the first language and the applicant has never attended an English-medium secondary school."
+        },
+        "sourceUrl": "https://www.haverford.edu/admission/applying/international-students",
+        "title": "International Students | Office of Admission | Haverford College",
+        "cycle": null,
+        "checkedAt": "2026-11-14"
       }
     ]
   },
@@ -436,6 +507,57 @@
         "title": "International Applicants | Pomona College in Claremont, California - Pomona College",
         "checkedAt": "2026-11-14",
         "cycle": null
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "IELTS",
+          "Duolingo"
+        ],
+        "sourceUrl": "https://www.pomona.edu/admissions/apply/international-applicants",
+        "title": "International Applicants | Pomona College in Claremont, California - Pomona College",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Required for applicants whose school does not teach primarily in English."
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.pomona.edu/admissions/apply/international-applicants",
+        "title": "International Applicants | Pomona College in Claremont, California - Pomona College",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Applicants may self-report."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.pomona.edu/admissions/apply/international-applicants",
+        "title": "International Applicants | Pomona College in Claremont, California - Pomona College",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Applicants may self-report."
+      },
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [
+            {
+              "score": 7,
+              "kind": "minimum",
+              "comparison": "at-least",
+              "condition": "Applies when English is not the school’s primary language of instruction."
+            }
+          ],
+          "noScoreLabel": "No numeric guidance verified",
+          "detail": "Applies when English is not the school’s primary language of instruction."
+        },
+        "sourceUrl": "https://www.pomona.edu/admissions/apply/international-applicants",
+        "title": "International Applicants | Pomona College in Claremont, California - Pomona College",
+        "cycle": null,
+        "checkedAt": "2026-11-14"
       }
     ]
   },
@@ -508,6 +630,15 @@
         "title": "International Admission & Aid FAQs | Davidson",
         "checkedAt": "2026-11-14",
         "cycle": null
+      },
+      {
+        "field": "feeWaiver",
+        "value": true,
+        "sourceUrl": "https://www.davidson.edu/admission-and-financial-aid/apply/international-applicants",
+        "title": "International Applicants | Davidson",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "For non-US citizens the application fee is waived when citizenship is selected."
       }
     ]
   },
@@ -782,6 +913,44 @@
         "checkedAt": "2026-11-14",
         "cycle": "Fall 2027",
         "note": "Same admission policy."
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Official transcript and school report",
+            "status": "Required",
+            "condition": "Secondary school submits directly."
+          },
+          {
+            "label": "Recommendation letters",
+            "status": "Required",
+            "condition": "One school counselor and at least one teacher."
+          }
+        ],
+        "sourceUrl": "https://admissions.lafayette.edu/apply/international-students/",
+        "title": "Applying as an International Student - Admissions · Admissions · Lafayette College",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Selected first-year application documents. See the official checklist for remaining items."
+      },
+      {
+        "field": "applicationFee",
+        "value": 65,
+        "sourceUrl": "https://admissions.lafayette.edu/apply/international-students/",
+        "title": "Applying as an International Student - Admissions · Admissions · Lafayette College",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "USD, paid with application."
+      },
+      {
+        "field": "feeWaiver",
+        "value": true,
+        "sourceUrl": "https://admissions.lafayette.edu/apply/international-students/",
+        "title": "Applying as an International Student - Admissions · Admissions · Lafayette College",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Select the hardship option in the application."
       }
     ]
   },
@@ -846,6 +1015,15 @@
         "checkedAt": "2026-11-14",
         "cycle": null,
         "note": "TOEFL and IELTS preferred. Alternatives apply when the preferred exams are unavailable."
+      },
+      {
+        "field": "feeWaiver",
+        "value": true,
+        "sourceUrl": "https://www2.lehigh.edu/admissions/international-students",
+        "title": "International Students | Lehigh University",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Hardship waiver for families unable to contribute more than USD 10,000 yearly. Use the university’s current instructions."
       }
     ]
   },
@@ -948,6 +1126,44 @@
         "title": "How to Apply - Undergraduate Admission - University of Richmond",
         "checkedAt": "2026-11-14",
         "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Richmond supplemental essay",
+            "status": "Required",
+            "condition": null
+          },
+          {
+            "label": "School report, grades 9–11 and senior progress grades",
+            "status": "Required",
+            "condition": null
+          },
+          {
+            "label": "Recommendation from a school official",
+            "status": "Required",
+            "condition": null
+          }
+        ],
+        "sourceUrl": "https://admission.richmond.edu/process/",
+        "title": "How to Apply - Undergraduate Admission - University of Richmond",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Selected first-year application documents. See the official checklist for remaining items."
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "IELTS",
+          "Duolingo"
+        ],
+        "sourceUrl": "https://admission.richmond.edu/process/",
+        "title": "How to Apply - Undergraduate Admission - University of Richmond",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Official results or a university-approved waiver for non-native English speakers."
       }
     ]
   },
@@ -999,6 +1215,36 @@
         "title": "International Students - Undergraduate Admissions",
         "checkedAt": "2026-11-14",
         "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Secondary transcript",
+            "status": "Required",
+            "condition": null
+          },
+          {
+            "label": "Teacher recommendation",
+            "status": "Required",
+            "condition": null
+          },
+          {
+            "label": "School report or counselor recommendation",
+            "status": "Required",
+            "condition": null
+          },
+          {
+            "label": "Final transcript",
+            "status": "Required",
+            "condition": "Submit when available after graduation."
+          }
+        ],
+        "sourceUrl": "https://admissions.rochester.edu/applying/international-students/",
+        "title": "International Students - Undergraduate Admissions",
+        "cycle": null,
+        "checkedAt": "2026-11-14",
+        "note": "Selected first-year application documents. See the official checklist for remaining items."
       }
     ]
   }

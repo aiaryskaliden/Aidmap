@@ -1,4 +1,5 @@
 "use client";
+import { currencySchema } from "@/types/domain";
 import { useState } from "react";
 import Link from "next/link";
 import {
@@ -58,7 +59,7 @@ function Steps() {
     <div className="page-container onboarding-page">
       <PageHeading
         eyebrow="OPTIONAL / YOUR FIRST STEPS"
-        title="Find your starting point."
+        title="Set your search preferences"
         description="A few optional details help explain relevant opportunities. You can browse freely and edit your preferences later."
       >
         <LocalNote />
@@ -284,7 +285,7 @@ function Steps() {
                     }))
                   }
                 >
-                  {["USD", "EUR", "GBP", "KZT"].map((x) => (
+                  {currencySchema.options.map((x) => (
                     <option key={x}>{x}</option>
                   ))}
                 </select>

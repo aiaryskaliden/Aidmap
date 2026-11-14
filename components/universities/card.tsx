@@ -9,6 +9,7 @@ import { TestScores } from "./test-scores";
 import { opportunities } from "@/data/universities";
 import { matchUniversity } from "@/lib/matching/match";
 import { useApp } from "@/components/providers";
+const fundedUniversities = new Set(opportunities.map((o) => o.universityId));
 export function UniversityCard({
   university: u,
   compact = false,
@@ -35,7 +36,7 @@ export function UniversityCard({
       </div>
       <div className="card-identity">
         <h3>
-          <Link href={`/universities/${u.id}`}>{u.name}</Link>
+          <Link prefetch={false} href={`/universities/${u.id}`}>{u.name}</Link>
         </h3>
         <p className="location">
           <MapPin size={13} />
@@ -53,7 +54,7 @@ export function UniversityCard({
         <p>
           {u.internationalAid.value === true
             ? "Need-based financial aid"
-            : opportunities.some((o) => o.universityId === u.id)
+            : fundedUniversities.has(u.id)
               ? "Scholarships / fee support"
               : u.meritAid.value
                 ? "Merit scholarships"
@@ -91,14 +92,14 @@ export function UniversityCard({
         {u.internationalAid.value !== null ? (
           <>
             <ShieldCheck size={14} />
-            <Link href={`/universities/${u.id}#sources`}>
+            <Link prefetch={false} href={`/universities/${u.id}#sources`}>
               Aid policy sourced
             </Link>
           </>
         ) : (
           <>
             <CircleHelp size={14} />
-            Policy not verified
+            Need-based aid unknown
           </>
         )}
         <span>Individual award unknown</span>
@@ -106,6 +107,7 @@ export function UniversityCard({
       <div className="card-footer">
         <UniversityActions id={u.id} compact />
         <Link
+          prefetch={false}
           className="profile-link"
           href={`/universities/${u.id}`}
           aria-label={`View ${u.name} profile`}

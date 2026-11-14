@@ -64,7 +64,7 @@ export default function Dashboard() {
       <WorkspaceNav />
       <PageHeading
         eyebrow={`YOUR WORKSPACE / FALL ${state.profile?.entryYear ?? 2027}`}
-        title="Your next chapter starts here."
+        title="Your application dashboard"
         description="Review your shortlist, unfinished tasks and verified dates. Choose one next step to move your application forward."
       >
         <LocalNote />
@@ -159,7 +159,7 @@ export default function Dashboard() {
               </div>
             ) : (
               <EmptyState
-                title="Your shortlist is a blank canvas."
+                title="Your shortlist is empty"
                 text="Save a university that catches your interest. We’ll keep your research and next steps together here."
               />
             )}

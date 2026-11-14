@@ -47,7 +47,7 @@ async function main() {
   }));
   const summary = {
     reviewDate,
-    previousUniversityCount: 8,
+    previousUniversityCount: 34,
     universityCount: universities.length,
     us: universities.filter((u) => u.region === "United States").length,
     europe: universities.filter((u) => u.region === "Europe").length,
@@ -91,7 +91,7 @@ async function main() {
               redirect: "follow",
               signal: AbortSignal.timeout(12000),
             });
-            if (response.status === 405 || response.status === 501)
+            if ([403, 404, 405, 429, 501].includes(response.status))
               response = await fetch(url, {
                 signal: AbortSignal.timeout(12000),
               });

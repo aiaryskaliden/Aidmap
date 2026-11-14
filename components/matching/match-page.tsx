@@ -45,7 +45,7 @@ export default function MatchPage() {
     <main className="page-container">
       <PageHeading
         eyebrow="AIDMAP / EXPLAINABLE MATCHING"
-        title="Understand your university options."
+        title="Match universities to your preferences"
         description="Compare your study interests and test results with sourced requirements, then save universities to your application planner."
       />
       <div className="panel" style={{ marginBottom: "1.5rem" }}>

@@ -48,7 +48,7 @@ test("filters persist in URL, unknowns stay distinct, reset and mobile focus wor
   await page
     .getByLabel("Include universities with unknown requirements")
     .check();
-  await expect(page.locator(".university-card")).toHaveCount(2);
+  await expect(page.locator(".university-card")).toHaveCount(3);
   await expect(page.locator(".unknown-match").first()).toContainText(
     "SAT policy",
   );
@@ -56,14 +56,17 @@ test("filters persist in URL, unknowns stay distinct, reset and mobile focus wor
   await expect(
     page.getByLabel("Include universities with unknown requirements"),
   ).toBeChecked();
-  await expect(page.locator(".university-card")).toHaveCount(2);
+  await expect(page.locator(".university-card")).toHaveCount(3);
   await page.getByRole("button", { name: "Remove SAT: required" }).click();
   await expect(page).not.toHaveURL(/test=/);
   await page
     .locator(".active-filters")
     .getByRole("button", { name: "Reset all", exact: true })
     .click();
-  await expect(page.locator(".university-card")).toHaveCount(34);
+  await expect(page.locator(".university-card")).toHaveCount(12);
+  await expect(page.getByText("70 universities", { exact: true })).toBeVisible();
+  await page.getByRole("button", { name: "Show 12 more universities" }).click();
+  await expect(page.locator(".university-card")).toHaveCount(24);
   await filters(page);
   await page
     .getByText("Application & deadlines", { exact: true })

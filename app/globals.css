@@ -55,6 +55,9 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 110px;
 }
+main#main {
+  min-height: calc(100svh - 68px);
+}
 body {
   margin: 0;
   background: var(--bg);
@@ -2182,6 +2185,7 @@ strong {
   font-size: 10px;
 }
 .cost-chart {
+  display: flex;
   width: 100%;
   min-width: 0;
   height: 40px;
@@ -5962,6 +5966,10 @@ body {
 }
 .requirement-title .tag {
   flex-shrink: 0;
+}
+.requirement-card .notice {
+  display: block;
+  overflow-wrap: anywhere;
 }
 .requirement-card p {
   font-size: 14px;

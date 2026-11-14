@@ -17,7 +17,7 @@ export default function ImproveApplication() {
     <main className="page-container">
       <PageHeading
         eyebrow="AIDMAP / APPLICATION WORKSHOP"
-        title="Make your application stronger."
+        title="Review your application checklist"
         description="A practical, honest preparation checklist. Choose what to improve, collect proof, and track your progress privately."
       />
       <div className="panel" style={{ marginBottom: "1.25rem" }}>

@@ -13,7 +13,7 @@ test("student can discover, save, compare, calculate and plan", async ({
     page.getByRole("button", { name: "Save university", exact: true }).first(),
   ).toBeEnabled();
   await expect(
-    page.getByRole("heading", { name: "Your future, mapped." }),
+    page.getByRole("heading", { name: "Find universities and funding." }),
   ).toBeVisible();
   await page.evaluate(() => window.scrollTo({ top: 0, behavior: "instant" }));
   await page.screenshot({
@@ -26,7 +26,7 @@ test("student can discover, save, compare, calculate and plan", async ({
     .first()
     .click();
   await expect(
-    page.getByRole("heading", { name: "Find a place for your ambition." }),
+    page.getByRole("heading", { name: "Find undergraduate universities" }),
   ).toBeVisible();
   if (testInfo.project.name !== "desktop")
     await page.getByRole("button", { name: "Filters", exact: true }).click();

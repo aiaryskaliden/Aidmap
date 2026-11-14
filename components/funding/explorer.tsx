@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 import Link from "next/link";
 import { useURLFilters } from "@/lib/url-filters";
 import { countLabel } from "@/lib/format";
@@ -28,6 +29,9 @@ export default function FundingExplorer() {
     setType = (v: string) => set("type", v),
     setOnlySaved = (v: boolean) => set("saved", v ? "1" : ""),
     setEligibility = (v: string) => set("eligibility", v);
+  const search = params.toString();
+  const [page, setPage] = useState({ search, limit: 12 });
+  const limit = page.search === search ? page.limit : 12;
   const results = opportunities.filter(
     (o) =>
       (!query ||
@@ -46,7 +50,7 @@ export default function FundingExplorer() {
     <div className="page-container">
       <PageHeading
         eyebrow="FUNDING / KNOW YOUR OPTIONS"
-        title="Potential, with the fine print."
+        title="Find undergraduate funding"
         description="Understand international funding policies before you build them into your plans."
       />
       <Help term="fullNeed" />
@@ -146,7 +150,7 @@ export default function FundingExplorer() {
       <PolicyNote />
       {results.length ? (
         <div className="funding-grid">
-          {results.map((o) => {
+          {results.slice(0, limit).map((o) => {
             const u = findUniversity(o.universityId)!;
             const saved = state.savedFunding.includes(o.id);
             return (
@@ -234,7 +238,7 @@ export default function FundingExplorer() {
                     <ShieldCheck size={14} />
                     Official eligibility
                   </ExternalLink>
-                  <Link
+                  <Link prefetch={false}
                     className="text-link"
                     href={`/universities/${u.id}#financial-aid`}
                   >
@@ -271,9 +275,14 @@ export default function FundingExplorer() {
           </Button>
         </div>
       )}
+      {results.length > limit && (
+        <Button onClick={() => setPage({ search, limit: limit + 12 })}>
+          Show {Math.min(12, results.length - limit)} more funding options
+        </Button>
+      )}
       <div className="bottom-callout">
         <div>
-          <h3>A policy is only one part of the picture.</h3>
+          <h3>Estimate the costs an award leaves uncovered</h3>
           <p>Model annual costs and see which expenses could remain.</p>
         </div>
         <Link className="button button-primary" href="/calculator">

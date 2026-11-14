@@ -1,4 +1,5 @@
 "use client";
+import { currencySchema } from "@/types/domain";
 import { useRef, useState } from "react";
 import { countLabel } from "@/lib/format";
 import {
@@ -179,13 +180,7 @@ function PreferencesForm() {
       <fieldset>
         <legend>Target study countries</legend>
         <div className="country-checks">
-          {[
-            "United States",
-            "United Kingdom",
-            "Germany",
-            "Netherlands",
-            "France",
-          ].map((c) => (
+          {[...new Set([...universities.map((u) => u.country), "United Kingdom", ...profile.targetCountries])].sort().map((c) => (
             <label className="check-label" key={c}>
               <input
                 type="checkbox"
@@ -396,7 +391,7 @@ function PreferencesForm() {
               field("budget", null);
             }}
           >
-            {["USD", "EUR", "GBP", "KZT"].map((c) => (
+            {currencySchema.options.map((c) => (
               <option key={c}>{c}</option>
             ))}
           </select>
@@ -653,7 +648,7 @@ export default function Profile() {
       <WorkspaceNav />
       <PageHeading
         eyebrow="YOUR WORKSPACE / APPLICANT PREFERENCES"
-        title="A starting point that’s yours."
+        title="Your applicant preferences"
         description="Tell us what matters. Get research matches you can understand."
       >
         <LocalNote />

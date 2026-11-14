@@ -818,9 +818,9 @@
           "noScoreLabel": "No numeric guidance verified",
           "detail": "This is the B2 English-certificate threshold. Confirm that your chosen degree requires B2 and whether your prior education qualifies as alternative evidence."
         },
-        "sourceUrl": "https://www.hochschule-rhein-waal.de/de/media/21449/download?attachment=",
-        "title": "Undergraduate English-language guidance",
-        "checkedAt": "2026-10-23",
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/fileadmin/upload_redaktion/Dezernate/Studierendenangelegenheiten/Studierendenservice/Accepted_English_Language_Proofs__15_.pdf",
+        "title": "Accepted English language proofs",
+        "checkedAt": "2026-11-14",
         "cycle": null,
         "note": "This is the B2 English-certificate threshold. Confirm that your chosen degree requires B2 and whether your prior education qualifies as alternative evidence.",
         "scope": {
@@ -832,9 +832,9 @@
       {
         "field": "englishPolicy",
         "value": "This is the B2 English-certificate threshold. Confirm that your chosen degree requires B2 and whether your prior education qualifies as alternative evidence.",
-        "sourceUrl": "https://www.hochschule-rhein-waal.de/de/media/21449/download?attachment=",
-        "title": "Undergraduate English-language guidance",
-        "checkedAt": "2026-10-23",
+        "sourceUrl": "https://www.hochschule-rhein-waal.de/fileadmin/upload_redaktion/Dezernate/Studierendenangelegenheiten/Studierendenservice/Accepted_English_Language_Proofs__15_.pdf",
+        "title": "Accepted English language proofs",
+        "checkedAt": "2026-11-14",
         "cycle": null,
         "note": "This is the B2 English-certificate threshold. Confirm that your chosen degree requires B2 and whether your prior education qualifies as alternative evidence.",
         "scope": {
@@ -851,9 +851,9 @@
       {
         "field": "satMedian",
         "value": 1530,
-        "sourceUrl": "https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-College-CDS-2024-2025.pdf",
-        "title": "Common Data Set · SAT percentiles",
-        "checkedAt": "2026-10-23",
+        "sourceUrl": "https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-CDS-2024-2025-fillable-pdf-version.pdf",
+        "title": "Swarthmore Common Data Set 2024–25",
+        "checkedAt": "2026-11-14",
         "cycle": "Fall 2024 · CDS 2024–25",
         "note": "Enrolled first-year SAT submitters. Historical baseline; newer CDS values have not been verified."
       },
@@ -863,9 +863,9 @@
           "low": 1500,
           "high": 1550
         },
-        "sourceUrl": "https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-College-CDS-2024-2025.pdf",
-        "title": "Common Data Set · SAT percentiles",
-        "checkedAt": "2026-10-23",
+        "sourceUrl": "https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-CDS-2024-2025-fillable-pdf-version.pdf",
+        "title": "Swarthmore Common Data Set 2024–25",
+        "checkedAt": "2026-11-14",
         "cycle": "Fall 2024 · CDS 2024–25",
         "note": "Enrolled first-year SAT submitters. Historical baseline; newer CDS values have not been verified."
       }

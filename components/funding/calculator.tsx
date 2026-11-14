@@ -1,4 +1,5 @@
 "use client";
+import { currencySchema } from "@/types/domain";
 import { useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
@@ -11,14 +12,6 @@ import {
   RotateCcw,
   ShieldCheck,
 } from "lucide-react";
-import {
-  BarChart,
-  Bar,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
 import { universities, findUniversity } from "@/data/universities";
 import {
   costKeys,
@@ -166,8 +159,8 @@ function CalculatorBody() {
   return (
     <div className="page-container calculator-page">
       <PageHeading
-        eyebrow="AIDMAP / THE WHOLE FINANCIAL PICTURE"
-        title="Big plans. Clear numbers."
+        eyebrow="AIDMAP / ANNUAL BUDGET"
+        title="Estimate your annual costs"
         description="Estimate expenses that funding may leave uncovered. This is a planning tool, not an official financial aid offer."
       >
         <LocalNote />
@@ -229,7 +222,7 @@ function CalculatorBody() {
                 value={currency}
                 onChange={(e) => resetAmounts(e.target.value as Currency)}
               >
-                {["USD", "EUR", "GBP", "KZT"].map((c) => (
+                {currencySchema.options.map((c) => (
                   <option key={c}>{c}</option>
                 ))}
               </select>
@@ -453,27 +446,10 @@ function CalculatorBody() {
                   )
                   .join("; ")}
               >
-                <ResponsiveContainer width="100%" height={40} minWidth={0}>
-                  <BarChart
-                    layout="vertical"
-                    data={[{ ...costs }]}
-                    margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
-                  >
-                    <XAxis type="number" hide />
-                    <YAxis type="category" hide />
-                    <Tooltip formatter={(v) => money(Number(v), currency)} />
-                    {costKeys.map((k, i) => (
-                      <Bar
-                        key={k}
-                        dataKey={k}
-                        name={costLabels[k]}
-                        stackId="cost"
-                        fill={colors[i]}
-                        isAnimationActive={false}
-                      />
-                    ))}
-                  </BarChart>
-                </ResponsiveContainer>
+                {costKeys.map((key, index) => (
+                  <span key={key} style={{ flexGrow: costs[key] ?? 0, backgroundColor: colors[index] }}
+                    title={`${costLabels[key]}: ${costs[key] == null ? "Unknown" : money(costs[key], currency)}`} />
+                ))}
               </div>
             )}
             <div className="cost-legend">
