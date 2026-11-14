@@ -6,6 +6,7 @@ import europeanExpansion from "./research-europe-v2.json";
 import testingUpdates from "./research-testing.json";
 import asiaExpansion from "./research-asia-v1.json";
 import needExpansion from "./research-expansion-need.json";
+import meritExpansion from "./research-expansion-merit.json";
 import {
   emptyCosts,
   type EvidenceSource,
@@ -77,6 +78,7 @@ const research: Research[] = (
     ...(europeanExpansion as Research[]),
     ...(asiaExpansion as Research[]),
     ...(needExpansion as Research[]),
+    ...(meritExpansion as Research[]),
   ] as Research[]
 ).map((r) => ({
   ...r,

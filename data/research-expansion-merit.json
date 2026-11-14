@@ -1,0 +1,1094 @@
+[
+  {
+    "slug": "university-of-alabama",
+    "name": "University of Alabama",
+    "initials": "UA",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "United States",
+    "region": "United States",
+    "type": "University",
+    "website": "https://www.ua.edu/",
+    "color": "#244889",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://eng.ua.edu/majors/computer-science-bs/",
+        "title": "Computer Science, BS",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "BS in Computer Science, a 120-hour undergraduate curriculum."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://afford.ua.edu/scholarships/oos-international-freshman/",
+        "title": "Out-of-State & International Freshman Scholarships  | Afford",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "Presidential Elite requires a 4.0+ GPA and a single-sitting ACT 36 or SAT 1600. It covers tuition for up to eight semesters, first-year campus housing and specified supplements."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://afford.ua.edu/scholarships/oos-international-freshman/",
+        "title": "Out-of-State & International Freshman Scholarships  | Afford",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "Presidential Elite requires a 4.0+ GPA and a single-sitting ACT 36 or SAT 1600. It covers tuition for up to eight semesters, first-year campus housing and specified supplements."
+      },
+      {
+        "field": "aidForms",
+        "value": "Presidential Elite requires a 4.0+ GPA and a single-sitting ACT 36 or SAT 1600. It covers tuition for up to eight semesters, first-year campus housing and specified supplements.",
+        "sourceUrl": "https://afford.ua.edu/scholarships/oos-international-freshman/",
+        "title": "Out-of-State & International Freshman Scholarships  | Afford",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Applicants graduating outside the US are considered with a cumulative GPA of 3.0/4.0. English proficiency and college-preparatory coursework are reviewed.",
+        "sourceUrl": "https://admissions.ua.edu/international/freshman/",
+        "title": "International Freshman Admissions | Undergraduate Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Presidential Elite",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "Presidential Elite requires a 4.0+ GPA and a single-sitting ACT 36 or SAT 1600. It covers tuition for up to eight semesters, first-year campus housing and specified supplements.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": null,
+        "separateApplication": "Automatic consideration with the undergraduate application and qualifying scores.",
+        "sourceUrl": "https://afford.ua.edu/scholarships/oos-international-freshman/",
+        "title": "Out-of-State & International Freshman Scholarships  | Afford",
+        "cycle": "Fall 2027",
+        "note": "Presidential Elite requires a 4.0+ GPA and a single-sitting ACT 36 or SAT 1600. It covers tuition for up to eight semesters, first-year campus housing and specified supplements.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "university-of-southern-mississippi",
+    "name": "University of Southern Mississippi",
+    "initials": "USM",
+    "city": "Hattiesburg",
+    "state": "MS",
+    "country": "United States",
+    "region": "United States",
+    "type": "University",
+    "website": "https://www.usm.edu/",
+    "color": "#653e69",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.usm.edu/undergraduate-programs/computer-science.php",
+        "title": "Computer Science | Undergraduate Programs | The University of Southern Mississippi",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "BS in Computer Science offers concentrations and a minimum of 124 credit hours."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.usm.edu/isss/costsfinancial-aid.php",
+        "title": "Costs/Financial Aid | International Student and Scholar Services | The University of Southern Mississippi",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "International entrants admitted to the Honors College are listed for its freshman award of USD 3,000 per year for four years."
+      },
+      {
+        "field": "aidForms",
+        "value": "International entrants admitted to the Honors College are listed for its freshman award of USD 3,000 per year for four years.",
+        "sourceUrl": "https://www.usm.edu/isss/costsfinancial-aid.php",
+        "title": "Costs/Financial Aid | International Student and Scholar Services | The University of Southern Mississippi",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Applicants must be at least 17 when classes begin. Provide secondary transcripts or leaving exams and proof of English proficiency.",
+        "sourceUrl": "https://www.usm.edu/undergraduate-admissions/international-admissions/apply.php",
+        "title": "International Admissions Applications | International Admissions | The University of Southern Mississippi",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "applicationFee",
+        "value": 45,
+        "sourceUrl": "https://www.usm.edu/undergraduate-admissions/international-admissions/apply.php",
+        "title": "International Admissions Applications | International Admissions | The University of Southern Mississippi",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "USM Application or Common App",
+        "sourceUrl": "https://www.usm.edu/undergraduate-admissions/international-admissions/apply.php",
+        "title": "International Admissions Applications | International Admissions | The University of Southern Mississippi",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.usm.edu/undergraduate-admissions/international-admissions/apply.php",
+        "title": "International Admissions Applications | International Admissions | The University of Southern Mississippi",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Scores are required for freshman merit scholarship consideration."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.usm.edu/undergraduate-admissions/international-admissions/apply.php",
+        "title": "International Admissions Applications | International Admissions | The University of Southern Mississippi",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Scores are required for freshman merit scholarship consideration."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Freshman Honors College scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "Students entering the Honors College as first-year students"
+        ],
+        "coverage": "International entrants admitted to the Honors College are listed for its freshman award of USD 3,000 per year for four years.",
+        "amount": 3000,
+        "currency": "USD",
+        "renewal": null,
+        "separateApplication": null,
+        "sourceUrl": "https://www.usm.edu/isss/costsfinancial-aid.php",
+        "title": "Costs/Financial Aid | International Student and Scholar Services | The University of Southern Mississippi",
+        "cycle": null,
+        "note": "International entrants admitted to the Honors College are listed for its freshman award of USD 3,000 per year for four years.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "university-of-mississippi",
+    "name": "University of Mississippi",
+    "initials": "UM",
+    "city": "Oxford",
+    "state": "MS",
+    "country": "United States",
+    "region": "United States",
+    "type": "University",
+    "website": "https://www.olemiss.edu/",
+    "color": "#285e5e",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://olemiss.edu/programs/engr/bachelor-science-computer-science/",
+        "title": "Bachelor of Science in Computer Science | Ole Miss",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "BS in Computer Science in the School of Engineering."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://olemiss.edu/global/international-students-oge/scholarships-international-students/",
+        "title": "Scholarships | Ole Miss",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "International Academic Excellence scholarships use high school GPA for incoming international freshmen educated outside the United States. Transfer award rules are separate."
+      },
+      {
+        "field": "aidForms",
+        "value": "International Academic Excellence scholarships use high school GPA for incoming international freshmen educated outside the United States. Transfer award rules are separate.",
+        "sourceUrl": "https://olemiss.edu/global/international-students-oge/scholarships-international-students/",
+        "title": "Scholarships | Ole Miss",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Student-sent transcripts are unofficial. Follow the official school submission and arrival requirements.",
+        "sourceUrl": "https://olemiss.edu/admissions/undergraduate-admissions/application-process/international-students/",
+        "title": "International Students | Ole Miss",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "International Academic Excellence scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International freshmen who attended secondary school outside the US"
+        ],
+        "coverage": "International Academic Excellence scholarships use high school GPA for incoming international freshmen educated outside the United States. Transfer award rules are separate.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": null,
+        "separateApplication": null,
+        "sourceUrl": "https://olemiss.edu/global/international-students-oge/scholarships-international-students/",
+        "title": "Scholarships | Ole Miss",
+        "cycle": null,
+        "note": "International Academic Excellence scholarships use high school GPA for incoming international freshmen educated outside the United States. Transfer award rules are separate.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "university-of-arizona",
+    "name": "University of Arizona",
+    "initials": "UA",
+    "city": "Tucson",
+    "state": "AZ",
+    "country": "United States",
+    "region": "United States",
+    "type": "University",
+    "website": "https://www.arizona.edu/",
+    "color": "#244889",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://cs.arizona.edu/undergraduate/bachelor-science",
+        "title": "B.S. in Computer Science | Computer Science",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "BS in Computer Science covers theoretical foundations and applied computing."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://financialaid.arizona.edu/apply-for-aid/international",
+        "title": "Apply for Aid: International | Office of Scholarships & Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "International undergraduates may apply for merit tuition scholarships. Confirm the terms for the entering class. US federal aid has separate residency requirements."
+      },
+      {
+        "field": "aidForms",
+        "value": "International undergraduates may apply for merit tuition scholarships. Confirm the terms for the entering class. US federal aid has separate residency requirements.",
+        "sourceUrl": "https://financialaid.arizona.edu/apply-for-aid/international",
+        "title": "Apply for Aid: International | Office of Scholarships & Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Admission accepts English-language documents. Provide an English translation for materials issued in another language.",
+        "sourceUrl": "https://www.arizona.edu/admissions/undergraduate/international",
+        "title": "International Student Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "IELTS"
+        ],
+        "sourceUrl": "https://www.arizona.edu/admissions/undergraduate/international",
+        "title": "International Student Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "IELTS Academic is one accepted option. See the official list for other evidence and waivers."
+      },
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "One of several options",
+          "scores": [
+            {
+              "score": 6.5,
+              "kind": "minimum",
+              "condition": "For applicants using the IELTS Academic route."
+            }
+          ],
+          "noScoreLabel": "Unknown",
+          "detail": "Consult the admissions table for accepted IELTS versions."
+        },
+        "sourceUrl": "https://www.arizona.edu/admissions/undergraduate/international",
+        "title": "International Student Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "International undergraduate merit tuition scholarships",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "International undergraduates may apply for merit tuition scholarships. Confirm the terms for the entering class. US federal aid has separate residency requirements.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": null,
+        "separateApplication": null,
+        "sourceUrl": "https://financialaid.arizona.edu/apply-for-aid/international",
+        "title": "Apply for Aid: International | Office of Scholarships & Financial Aid",
+        "cycle": null,
+        "note": "International undergraduates may apply for merit tuition scholarships. Confirm the terms for the entering class. US federal aid has separate residency requirements.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "iowa-state-university",
+    "name": "Iowa State University",
+    "initials": "ISU",
+    "city": "Ames",
+    "state": "IA",
+    "country": "United States",
+    "region": "United States",
+    "type": "University",
+    "website": "https://www.iastate.edu/",
+    "color": "#653e69",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.cs.iastate.edu/majors-and-minors/computer-science",
+        "title": "Computer Science degrees",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "BA or BS in Computer Science. The department welcomes students without previous programming experience."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.iastate.edu/admission-and-aid/admissions/international-admissions/international-merit-scholarships",
+        "title": "International Merit Scholarships - Iowa State University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "The International Merit Scholarship applies to undergraduate tuition and fees. Complete the OneApp general application and the international admissions scholarship application."
+      },
+      {
+        "field": "aidForms",
+        "value": "The International Merit Scholarship applies to undergraduate tuition and fees. Complete the OneApp general application and the international admissions scholarship application.",
+        "sourceUrl": "https://www.iastate.edu/admission-and-aid/admissions/international-admissions/international-merit-scholarships",
+        "title": "International Merit Scholarships - Iowa State University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "SAT/ACT scores are optional. A 1200 SAT or 25 ACT can satisfy the published 3.0 GPA requirement.",
+        "sourceUrl": "https://www.iastate.edu/admission-and-aid/admissions/international-admissions/international-first-year-requirements",
+        "title": "International First-Year Requirements - Iowa State University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.iastate.edu/admission-and-aid/admissions/international-admissions/international-first-year-requirements",
+        "title": "International First-Year Requirements - Iowa State University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.iastate.edu/admission-and-aid/admissions/international-admissions/international-first-year-requirements",
+        "title": "International First-Year Requirements - Iowa State University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "International Merit Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "The International Merit Scholarship applies to undergraduate tuition and fees. Complete the OneApp general application and the international admissions scholarship application.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": "Maintain a 2.5 cumulative GPA, at least 12 credits each semester and international classification.",
+        "separateApplication": "Apply in OneApp.",
+        "sourceUrl": "https://www.iastate.edu/admission-and-aid/admissions/international-admissions/international-merit-scholarships",
+        "title": "International Merit Scholarships - Iowa State University",
+        "cycle": null,
+        "note": "The International Merit Scholarship applies to undergraduate tuition and fees. Complete the OneApp general application and the international admissions scholarship application.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "michigan-state-university",
+    "name": "Michigan State University",
+    "initials": "MSU",
+    "city": "East Lansing",
+    "state": "MI",
+    "country": "United States",
+    "region": "United States",
+    "type": "University",
+    "website": "https://www.msu.edu/",
+    "color": "#285e5e",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://engineering.msu.edu/academics/majors-degrees/computer-science-bs",
+        "title": "Computer Science (B.S.) | College of Engineering | Michigan State University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "BS in Computer Science with electives including machine learning and media processing."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://admissions.msu.edu/cost-aid/scholarships/international",
+        "title": "International student scholarships",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "MSU considers admitted international entrants automatically for its tiered nonresident academic scholarship. Award level depends on the academic record and curriculum."
+      },
+      {
+        "field": "aidForms",
+        "value": "MSU considers admitted international entrants automatically for its tiered nonresident academic scholarship. Award level depends on the academic record and curriculum.",
+        "sourceUrl": "https://admissions.msu.edu/cost-aid/scholarships/international",
+        "title": "International student scholarships",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Early Action requires the application, supporting materials and selection of that plan. Regular applicants are considered for remaining awards.",
+        "sourceUrl": "https://admissions.msu.edu/apply/international/dates-and-deadlines",
+        "title": "Application deadline | International applicants | Michigan State University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "applicationPlans",
+        "value": [
+          "Early Action",
+          "Regular Decision"
+        ],
+        "sourceUrl": "https://admissions.msu.edu/apply/international/dates-and-deadlines",
+        "title": "Application deadline | International applicants | Michigan State University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "MSU Non-resident Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "MSU considers admitted international entrants automatically for its tiered nonresident academic scholarship. Award level depends on the academic record and curriculum.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": null,
+        "separateApplication": "Automatic with admission.",
+        "sourceUrl": "https://admissions.msu.edu/cost-aid/scholarships/international",
+        "title": "International student scholarships",
+        "cycle": null,
+        "note": "MSU considers admitted international entrants automatically for its tiered nonresident academic scholarship. Award level depends on the academic record and curriculum.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "university-of-kansas",
+    "name": "University of Kansas",
+    "initials": "UK",
+    "city": "Lawrence",
+    "state": "KS",
+    "country": "United States",
+    "region": "United States",
+    "type": "University",
+    "website": "https://www.ku.edu/",
+    "color": "#244889",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://degrees.ku.edu/undergraduate/bachelors/computer-science/",
+        "title": "Bachelor of Science in Computer Science | Degrees at KU",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "BS in Computer Science covers algorithms, software systems and computer architecture."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://world.ku.edu/scholarships",
+        "title": "Scholarships | International Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Freshman scholarships use high-school GPA and require at least 12 credits in both fall and spring. Exclusively online degrees are excluded. First bachelor's degree or eight semesters, whichever comes first."
+      },
+      {
+        "field": "aidForms",
+        "value": "Freshman scholarships use high-school GPA and require at least 12 credits in both fall and spring. Exclusively online degrees are excluded. First bachelor's degree or eight semesters, whichever comes first.",
+        "sourceUrl": "https://world.ku.edu/scholarships",
+        "title": "Scholarships | International Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "International Admissions offers an online application. Fall deadlines differ for applicants inside and outside the United States.",
+        "sourceUrl": "https://world.ku.edu/",
+        "title": "International Admissions | International Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Institutional portal",
+        "sourceUrl": "https://world.ku.edu/",
+        "title": "International Admissions | International Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "International freshman scholarships",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "Eligible international freshmen in an on-campus first bachelor's degree"
+        ],
+        "coverage": "Freshman scholarships use high-school GPA and require at least 12 credits in both fall and spring. Exclusively online degrees are excluded. First bachelor's degree or eight semesters, whichever comes first.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": null,
+        "separateApplication": null,
+        "sourceUrl": "https://world.ku.edu/scholarships",
+        "title": "Scholarships | International Admissions",
+        "cycle": null,
+        "note": "Freshman scholarships use high-school GPA and require at least 12 credits in both fall and spring. Exclusively online degrees are excluded. First bachelor's degree or eight semesters, whichever comes first.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "university-of-south-florida",
+    "name": "University of South Florida",
+    "initials": "USF",
+    "city": "Tampa",
+    "state": "FL",
+    "country": "United States",
+    "region": "United States",
+    "type": "University",
+    "website": "https://www.usf.edu/",
+    "color": "#653e69",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.usf.edu/ai-cybersecurity-computing/academics/undergraduate/bscs.aspx",
+        "title": "Bachelor of Science in Computer Science",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "BS in Computer Science in the Bellini College of Artificial Intelligence, Cybersecurity and Computing."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+        "title": "International Scholarships | University of South Florida",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Admission merit waivers use academic and residency records. Applicants submit a complete admission file for consideration. Awards are limited."
+      },
+      {
+        "field": "aidForms",
+        "value": "Admission merit waivers use academic and residency records. Applicants submit a complete admission file for consideration. Awards are limited.",
+        "sourceUrl": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+        "title": "International Scholarships | University of South Florida",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "For the fall cycle distinguish the application date from the later materials date.",
+        "sourceUrl": "https://www.usf.edu/admissions/international/admission-information/undergraduate/freshmen-dates-deadlines.aspx",
+        "title": "International Freshman Admission Dates and Deadlines | University of South Florida",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Early Action",
+            "date": "2026-11-02",
+            "note": "Application deadline. Materials due November 16.",
+            "cycle": "Fall 2027",
+            "category": "admission",
+            "kind": "fixed"
+          },
+          {
+            "label": "Regular Decision",
+            "date": "2026-12-16",
+            "note": "Application deadline. Materials due January 15.",
+            "cycle": "Fall 2027",
+            "category": "admission",
+            "kind": "fixed"
+          },
+          {
+            "label": "Rolling",
+            "date": "2027-03-01",
+            "note": "Application deadline. Materials due March 15.",
+            "cycle": "Fall 2027",
+            "category": "admission",
+            "kind": "fixed"
+          }
+        ],
+        "sourceUrl": "https://www.usf.edu/admissions/international/admission-information/undergraduate/freshmen-dates-deadlines.aspx",
+        "title": "International Freshman Admission Dates and Deadlines | University of South Florida",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "International freshman admission schedule."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "International admission merit scholarships",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "Admission merit waivers use academic and residency records. Applicants submit a complete admission file for consideration. Awards are limited.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": null,
+        "separateApplication": "Automatic with complete admission file.",
+        "sourceUrl": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
+        "title": "International Scholarships | University of South Florida",
+        "cycle": null,
+        "note": "Admission merit waivers use academic and residency records. Applicants submit a complete admission file for consideration. Awards are limited.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "clark-university",
+    "name": "Clark University",
+    "initials": "CU",
+    "city": "Worcester",
+    "state": "MA",
+    "country": "United States",
+    "region": "United States",
+    "type": "Private university",
+    "website": "https://www.clarku.edu/",
+    "color": "#285e5e",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.clarku.edu/programs/major/computer-science-bs/",
+        "title": "Computer Science, B.S. | Programs | Clark University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science major combining theory and applied work. Confirm the degree designation with the department: its programme page uses both BA and BS."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.clarku.edu/financial-aid/apply/international-students/",
+        "title": "International Students | Undergraduate Financial Assistance | Clark University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Clark automatically considers undergraduates for merit funding. It uses need-aware admission and states that it cannot cover total attendance costs."
+      },
+      {
+        "field": "needBlind",
+        "value": false,
+        "sourceUrl": "https://www.clarku.edu/financial-aid/apply/international-students/",
+        "title": "International Students | Undergraduate Financial Assistance | Clark University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Clark automatically considers undergraduates for merit funding. It uses need-aware admission and states that it cannot cover total attendance costs."
+      },
+      {
+        "field": "fullCost",
+        "value": false,
+        "sourceUrl": "https://www.clarku.edu/financial-aid/apply/international-students/",
+        "title": "International Students | Undergraduate Financial Assistance | Clark University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Clark automatically considers undergraduates for merit funding. It uses need-aware admission and states that it cannot cover total attendance costs."
+      },
+      {
+        "field": "aidForms",
+        "value": "Clark automatically considers undergraduates for merit funding. It uses need-aware admission and states that it cannot cover total attendance costs.",
+        "sourceUrl": "https://www.clarku.edu/financial-aid/apply/international-students/",
+        "title": "International Students | Undergraduate Financial Assistance | Clark University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Send the last three years of transcripts. Non-native English speakers should check English test and exemption rules.",
+        "sourceUrl": "https://www.clarku.edu/undergraduate-admissions/apply/international-students/",
+        "title": "International Students | Undergraduate Admissions | Clark University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "IELTS",
+          "Duolingo",
+          "PTE"
+        ],
+        "sourceUrl": "https://www.clarku.edu/undergraduate-admissions/apply/international-students/",
+        "title": "International Students | Undergraduate Admissions | Clark University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "English scores are reviewed with other application materials."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Clark undergraduate merit scholarships",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "Clark automatically considers undergraduates for merit funding. It uses need-aware admission and states that it cannot cover total attendance costs.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": null,
+        "separateApplication": "Automatic consideration.",
+        "sourceUrl": "https://www.clarku.edu/financial-aid/apply/international-students/",
+        "title": "International Students | Undergraduate Financial Assistance | Clark University",
+        "cycle": null,
+        "note": "Clark automatically considers undergraduates for merit funding. It uses need-aware admission and states that it cannot cover total attendance costs.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "st-olaf-college",
+    "name": "St. Olaf College",
+    "initials": "OC",
+    "city": "Northfield",
+    "state": "MN",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.stolaf.edu/",
+    "color": "#244889",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://wp.stolaf.edu/cs/",
+        "title": "Computer Science major",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science major combines software design with collaborative projects and ethics."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://wp.stolaf.edu/financialaid/how-to-apply-for-financial-aid-international/",
+        "title": "Prospective International Student Financial Aid – Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "St. Olaf offers need-based and merit funding to international degree seekers. For need-based aid it accepts the CSS Profile or either international aid form named on its page."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://wp.stolaf.edu/financialaid/how-to-apply-for-financial-aid-international/",
+        "title": "Prospective International Student Financial Aid – Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "St. Olaf offers need-based and merit funding to international degree seekers. For need-based aid it accepts the CSS Profile or either international aid form named on its page."
+      },
+      {
+        "field": "aidForms",
+        "value": "St. Olaf offers need-based and merit funding to international degree seekers. For need-based aid it accepts the CSS Profile or either international aid form named on its page.",
+        "sourceUrl": "https://wp.stolaf.edu/financialaid/how-to-apply-for-financial-aid-international/",
+        "title": "Prospective International Student Financial Aid – Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "International applicants can choose Early Decision I or II, Early Action, or Regular Decision.",
+        "sourceUrl": "https://wp.stolaf.edu/international-applications/timeline/",
+        "title": "Deadlines – International Applications",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "applicationPlans",
+        "value": [
+          "Early Decision",
+          "Early Action",
+          "Early Decision II",
+          "Regular Decision"
+        ],
+        "sourceUrl": "https://wp.stolaf.edu/international-applications/timeline/",
+        "title": "Deadlines – International Applications",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ]
+  },
+  {
+    "slug": "denison-university",
+    "name": "Denison University",
+    "initials": "DU",
+    "city": "Granville",
+    "state": "OH",
+    "country": "United States",
+    "region": "United States",
+    "type": "Private university",
+    "website": "https://www.denison.edu/",
+    "color": "#653e69",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://denison.edu/academics/computer-science",
+        "title": "Computer Science (B.A., B.S.) | Denison University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science BA and BS degrees include the study and design of algorithms."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://denison.edu/campus/admission/international-applicant-financial-aid",
+        "title": "International Applicant Financial Aid | Admission & Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Denison meets the need it calculates for admitted international students. All applicants are also considered for merit scholarships ranging up to full tuition."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://denison.edu/campus/admission/international-applicant-financial-aid",
+        "title": "International Applicant Financial Aid | Admission & Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Denison meets the need it calculates for admitted international students. All applicants are also considered for merit scholarships ranging up to full tuition."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://denison.edu/campus/admission/international-applicant-financial-aid",
+        "title": "International Applicant Financial Aid | Admission & Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Denison meets the need it calculates for admitted international students. All applicants are also considered for merit scholarships ranging up to full tuition."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://denison.edu/campus/admission/international-applicant-financial-aid",
+        "title": "International Applicant Financial Aid | Admission & Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Denison meets the need it calculates for admitted international students. All applicants are also considered for merit scholarships ranging up to full tuition."
+      },
+      {
+        "field": "aidForms",
+        "value": "Denison meets the need it calculates for admitted international students. All applicants are also considered for merit scholarships ranging up to full tuition.",
+        "sourceUrl": "https://denison.edu/campus/admission/international-applicant-financial-aid",
+        "title": "International Applicant Financial Aid | Admission & Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "International first-years apply through Common App or Coalition and must demonstrate English proficiency. The admissions office lists several ways to satisfy it.",
+        "sourceUrl": "https://denison.edu/campus/admission/international-applicants",
+        "title": "International Applicants | Admission & Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://denison.edu/campus/admission/international-applicants",
+        "title": "International Applicants | Admission & Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://denison.edu/campus/admission/international-applicants",
+        "title": "International Applicants | Admission & Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Common App or Coalition Application",
+        "sourceUrl": "https://denison.edu/campus/admission/international-applicants",
+        "title": "International Applicants | Admission & Financial Aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Denison merit scholarships",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "Denison meets the need it calculates for admitted international students. All applicants are also considered for merit scholarships ranging up to full tuition.",
+        "amount": null,
+        "currency": "USD",
+        "renewal": null,
+        "separateApplication": "Automatic with admission.",
+        "sourceUrl": "https://denison.edu/campus/admission/international-applicant-financial-aid",
+        "title": "International Applicant Financial Aid | Admission & Financial Aid",
+        "cycle": null,
+        "note": "Denison meets the need it calculates for admitted international students. All applicants are also considered for merit scholarships ranging up to full tuition.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "gettysburg-college",
+    "name": "Gettysburg College",
+    "initials": "GC",
+    "city": "Gettysburg",
+    "state": "PA",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.gettysburg.edu/",
+    "color": "#285e5e",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.gettysburg.edu/academics/all-programs/computer-science",
+        "title": "Computer Science",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "BA in Computer Science requires eleven courses for the major."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.gettysburg.edu/admissions-aid/admissions/international/accepted-steps/financial-aid",
+        "title": "Accepted international students: financial aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "The college considers financial need with limited funds. Submit the international financial statement and the college's aid application by the admission deadline. Break housing and meals are excluded."
+      },
+      {
+        "field": "aidForms",
+        "value": "The college considers financial need with limited funds. Submit the international financial statement and the college's aid application by the admission deadline. Break housing and meals are excluded.",
+        "sourceUrl": "https://www.gettysburg.edu/admissions-aid/admissions/international/accepted-steps/financial-aid",
+        "title": "Accepted international students: financial aid",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Submit school transcripts with grading information, an essay and counselor and teacher recommendations.",
+        "sourceUrl": "https://gettysburg.edu/admissions-aid/admissions/international",
+        "title": "International Admissions | Gettysburg College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "Duolingo",
+          "IELTS"
+        ],
+        "sourceUrl": "https://gettysburg.edu/admissions-aid/admissions/international",
+        "title": "International Admissions | Gettysburg College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "See the international admissions instructions for official reporting."
+      }
+    ]
+  }
+]
