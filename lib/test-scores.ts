@@ -32,8 +32,8 @@ export function satBenchmark(u: University) {
       field: u.satMinimum,
     };
   return {
-    value: "Not verified",
-    label: "Composite median unavailable",
+    value: "Statistics pending",
+    label: "Historic SAT distribution not yet sourced",
     field: u.satMedian,
   };
 }

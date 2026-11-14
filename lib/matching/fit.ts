@@ -140,7 +140,7 @@ export function assessUniversityFit(
 
   const coverage = Math.round(evaluated);
   return {
-    score: evaluated >= 45 ? Math.round((earned / evaluated) * 100) : null,
+    score: evaluated >= 45 ? Math.round(earned) : null,
     coverage,
     signals,
     nextSteps: [...new Set(steps)],

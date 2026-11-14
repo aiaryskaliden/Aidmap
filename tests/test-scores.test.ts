@@ -13,7 +13,7 @@ import { evaluateUniversity } from "@/lib/search";
 const university = (id: string) => findUniversity(id)!;
 describe("sourced test benchmarks", () => {
   it("preserves missing composite statistics instead of adding sections or averaging endpoints", () => {
-    expect(satBenchmark(university("harvard")).value).toBe("Not verified");
+    expect(satBenchmark(university("harvard")).value).toBe("Statistics pending");
     expect(university("wesleyan").satMedian.value).toBeNull();
     expect(satBenchmark(university("brown")).label).toContain("Middle 50%");
     expect(university("brown").satMedian.value).toBeNull();
@@ -75,7 +75,7 @@ describe("sourced test benchmarks", () => {
     ).toBe("match");
   });
   it("provides honest unknowns for unverified guidance across the catalogue", () => {
-    expect(universities).toHaveLength(30);
+    expect(universities).toHaveLength(34);
     for (const u of universities) {
       expect(satBenchmark(u).value).toBeTruthy();
       expect(ieltsSummary(u)).toBeTruthy();

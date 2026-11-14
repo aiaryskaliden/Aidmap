@@ -1,6 +1,12 @@
 # AidMap Preview access
 
-## Current release — October 24, 2026
+## Current release — November 10, 2026
+
+The owner requested the latest verified version for public use. The existing public alias `https://aidmap-aiaryskaliden.vercel.app` was reassigned to the already Ready deployment `https://aidmap-775lc5j6z-musorlegend-1144.vercel.app`, deployment ID `dpl_13Vm6gLS3KkEbPRqBKY72NQ4srGs`, source commit `8ae1f5e45d27b014a8ad0e6cb1ffe17a5b8a8efc` from `feature/admissions-guidance-cds-ai-advisor`.
+
+This release includes 34 universities, Find my fit, Improve, and admissions guidance. Its source was imported locally and checked with a successful build, TypeScript, lint, data validation, 97 unit tests, and desktop/mobile browser smoke checks. Two stale unit-test expectations were corrected locally; application source matches this deployment. The alias update did not rebuild or promote the deployment, and existing public access settings were preserved.
+
+## Previous release — October 24, 2026
 
 The owner explicitly authorized publishing the updated AidMap and making its GitHub source public on October 23. The updated website was uploaded with Vercel CLI using `--target preview`; installation and build both confirmed the Preview environment. The deployment reached Ready on October 23. On October 24, the existing `aidmap-aiaryskaliden.vercel.app` alias was assigned to this deployment and anonymous access was checked again.
 
