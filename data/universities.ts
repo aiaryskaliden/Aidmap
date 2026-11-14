@@ -7,6 +7,7 @@ import testingUpdates from "./research-testing.json";
 import asiaExpansion from "./research-asia-v1.json";
 import needExpansion from "./research-expansion-need.json";
 import meritExpansion from "./research-expansion-merit.json";
+import internationalExpansion from "./research-expansion-international.json";
 import {
   emptyCosts,
   type EvidenceSource,
@@ -56,7 +57,8 @@ type Research = {
   city: string;
   state: string;
   country?: string;
-  region?: "United States" | "Europe" | "Asia";
+  region?: University["region"];
+  costCurrency?: Currency;
   type?: string;
   website: string;
   color: string;
@@ -79,6 +81,7 @@ const research: Research[] = (
     ...(asiaExpansion as Research[]),
     ...(needExpansion as Research[]),
     ...(meritExpansion as Research[]),
+    ...(internationalExpansion as Research[]),
   ] as Research[]
 ).map((r) => ({
   ...r,
@@ -236,7 +239,7 @@ const baseUniversities = validateUniversities(
       id: r.slug,
       name: r.name,
       shortName:
-        r.slug === "mit"
+        r.costCurrency ? r.name : r.slug === "mit"
           ? "MIT"
           : r.slug === "cuhk-shenzhen" ? "CUHK-Shenzhen" : r.slug === "mbzuai" ? "MBZUAI" : r.slug === "nazarbayev-university" ? "NU" : r.slug === "university-of-hong-kong" ? "HKU" : r.name.replace(/^University of /, "").split(" ")[0],
       initials: r.initials,
@@ -283,7 +286,7 @@ const baseUniversities = validateUniversities(
       feeWaiver: get<boolean>("feeWaiver"),
       applicationFee: get<number>("applicationFee"),
       costs: { ...emptyCosts, tuition: tuition.value },
-      costCurrency: region === "United States" ? "USD" : region === "Europe" ? "EUR" : r.country === "China" ? "CNY" : r.country === "Hong Kong" ? "HKD" : r.country === "Kazakhstan" ? "KZT" : r.country === "United Arab Emirates" ? "AED" : "USD",
+      costCurrency: r.costCurrency ?? (region === "United States" ? "USD" : region === "Europe" ? "EUR" : r.country === "China" ? "CNY" : r.country === "Hong Kong" ? "HKD" : r.country === "Kazakhstan" ? "KZT" : r.country === "United Arab Emirates" ? "AED" : "USD"),
       costCycle: tuition.cycle ?? annualCost.cycle,
       costSourceIds: tuition.sourceIds,
       sources,

@@ -1,0 +1,956 @@
+[
+  {
+    "slug": "university-of-british-columbia",
+    "name": "University of British Columbia",
+    "initials": "UBC",
+    "city": "Vancouver",
+    "state": "Vancouver",
+    "country": "Canada",
+    "region": "Canada",
+    "type": "University",
+    "website": "https://www.ubc.ca/",
+    "color": "#244889",
+    "costCurrency": "CAD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://you.ubc.ca/programs/computer-science-vancouver-bsc/",
+        "title": "Computer Science (BSc), Vancouver",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Vancouver BSc Computer Science covers software, algorithms and computer systems. Entry to the university and selection into the specialization are separate steps."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-entrance-scholarships",
+        "title": "International entrance scholarships | UBC | Undergraduate Programs and Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "International Major Entrance Scholarships are renewable for up to three additional years. Outstanding International Student Awards are one-time entrance awards. Selection is competitive and amounts vary."
+      },
+      {
+        "field": "aidForms",
+        "value": "International Major Entrance Scholarships are renewable for up to three additional years. Outstanding International Student Awards are one-time entrance awards. Selection is competitive and amounts vary.",
+        "sourceUrl": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-entrance-scholarships",
+        "title": "International entrance scholarships | UBC | Undergraduate Programs and Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "UBC lists a January application deadline for September entry. International Scholars applicants have earlier deadlines.",
+        "sourceUrl": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
+        "title": "Dates and deadlines | UBC | Undergraduate Programs and Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Winter Session application",
+            "category": "admission",
+            "date": "2027-01-15",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "By 11:59 p.m. Pacific. Earlier deadlines apply to certain awards."
+          }
+        ],
+        "sourceUrl": "https://you.ubc.ca/applying-ubc/dates-deadlines/",
+        "title": "Dates and deadlines | UBC | Undergraduate Programs and Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "Applies only to the listed entry route."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "International Major Entrance Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "International Major Entrance Scholarships are renewable for up to three additional years. Outstanding International Student Awards are one-time entrance awards. Selection is competitive and amounts vary.",
+        "amount": null,
+        "currency": "CAD",
+        "renewal": "Up to three additional years under award conditions.",
+        "separateApplication": "Eligible applicants are considered through admission.",
+        "sourceUrl": "https://you.ubc.ca/financial-planning/scholarships-awards-international-students/international-entrance-scholarships",
+        "title": "International entrance scholarships | UBC | Undergraduate Programs and Admissions",
+        "cycle": null,
+        "note": "International Major Entrance Scholarships are renewable for up to three additional years. Outstanding International Student Awards are one-time entrance awards. Selection is competitive and amounts vary.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "university-of-toronto",
+    "name": "University of Toronto",
+    "initials": "UT",
+    "city": "Toronto",
+    "state": "Toronto",
+    "country": "Canada",
+    "region": "Canada",
+    "type": "University",
+    "website": "https://www.utoronto.ca/",
+    "color": "#653e69",
+    "costCurrency": "CAD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://future.utoronto.ca/program/computer-science",
+        "title": "Computer Science | Future Students. University of Toronto",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science at St. George is offered through the Faculty of Arts & Science. Check the program admission category and requirements for progression."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://future.utoronto.ca/international-student-financial-aid",
+        "title": "International Student Financial Aid | Future Students. University of Toronto",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Many international entrance awards are assessed at admission. Amounts and selection rules vary by award and division. Do not assume the award covers the entire degree."
+      },
+      {
+        "field": "aidForms",
+        "value": "Many international entrance awards are assessed at admission. Amounts and selection rules vary by award and division. Do not assume the award covers the entire degree.",
+        "sourceUrl": "https://future.utoronto.ca/international-student-financial-aid",
+        "title": "International Student Financial Aid | Future Students. University of Toronto",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "The required school-leaving qualification depends on where you study. Senior-level English and program-specific prerequisites apply.",
+        "sourceUrl": "https://future.utoronto.ca/apply/requirements/international-high-school-secondary/",
+        "title": "International high school and secondary qualifications",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ]
+  },
+  {
+    "slug": "university-of-alberta",
+    "name": "University of Alberta",
+    "initials": "UA",
+    "city": "Edmonton",
+    "state": "Edmonton",
+    "country": "Canada",
+    "region": "Canada",
+    "type": "University",
+    "website": "https://www.ualberta.ca/",
+    "color": "#285e5e",
+    "costCurrency": "CAD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-computing-science.html",
+        "title": "Computing Science | Undergraduate Programs",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computing Science undergraduates study programming, algorithms and systems. Check the degree route for specialization options."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+        "title": "International Entrance Scholarships | Undergraduate Admissions + Programs",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "The President’s International Distinction Scholarship offers selected first-year students studying on a permit up to CAD 120,000 over four years. Academic achievement and leadership are considered."
+      },
+      {
+        "field": "aidForms",
+        "value": "The President’s International Distinction Scholarship offers selected first-year students studying on a permit up to CAD 120,000 over four years. Academic achievement and leadership are considered.",
+        "sourceUrl": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+        "title": "International Entrance Scholarships | Undergraduate Admissions + Programs",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Admission and document deadlines depend on the program. Check the faculty’s closing date and provide the documents listed for your curriculum.",
+        "sourceUrl": "https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html",
+        "title": "Dates + Deadlines for Admissions | Undergraduate Admissions + Programs",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "President’s International Distinction Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "The President’s International Distinction Scholarship offers selected first-year students studying on a permit up to CAD 120,000 over four years. Academic achievement and leadership are considered.",
+        "amount": null,
+        "currency": "CAD",
+        "renewal": "Maximum spread over four years. Check the terms of the offer.",
+        "separateApplication": "Apply for admission before submitting the scholarship application.",
+        "sourceUrl": "https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html",
+        "title": "International Entrance Scholarships | Undergraduate Admissions + Programs",
+        "cycle": null,
+        "note": "The President’s International Distinction Scholarship offers selected first-year students studying on a permit up to CAD 120,000 over four years. Academic achievement and leadership are considered.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "university-of-waterloo",
+    "name": "University of Waterloo",
+    "initials": "UW",
+    "city": "Waterloo",
+    "state": "Waterloo",
+    "country": "Canada",
+    "region": "Canada",
+    "type": "University",
+    "website": "https://uwaterloo.ca/",
+    "color": "#244889",
+    "costCurrency": "CAD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://uwaterloo.ca/future-students/programs/computer-science",
+        "title": "Computer Science degree | Undergraduate Programs | University of Waterloo",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "The Bachelor of Computer Science includes regular and co-op study routes. The Faculty of Mathematics administers the program."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://uwaterloo.ca/future-students/financing/international-scholarships",
+        "title": "Scholarships for international students | Undergraduate Programs | University of Waterloo",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Waterloo lists up to ten Faculty of Mathematics Global Scholarships worth CAD 12,000–40,000. Eligibility covers most programs in the faculty. Check the award listing for exclusions."
+      },
+      {
+        "field": "aidForms",
+        "value": "Waterloo lists up to ten Faculty of Mathematics Global Scholarships worth CAD 12,000–40,000. Eligibility covers most programs in the faculty. Check the award listing for exclusions.",
+        "sourceUrl": "https://uwaterloo.ca/future-students/financing/international-scholarships",
+        "title": "Scholarships for international students | Undergraduate Programs | University of Waterloo",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "The September-entry deadline for non-Engineering programs and the supporting-document deadline fall on different dates.",
+        "sourceUrl": "https://uwaterloo.ca/future-students/admissions/deadlines",
+        "title": "Application and document deadlines | Undergraduate Programs | University of Waterloo",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Computer Science application",
+            "category": "admission",
+            "date": "2027-02-01",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Non-Engineering application deadline."
+          },
+          {
+            "label": "Supporting documents",
+            "category": "documents",
+            "date": "2027-02-15",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "For September entry to programs outside Engineering."
+          }
+        ],
+        "sourceUrl": "https://uwaterloo.ca/future-students/admissions/deadlines",
+        "title": "Application and document deadlines | Undergraduate Programs | University of Waterloo",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "Applies only to the listed entry route."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Faculty of Mathematics Global Scholarships",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "Waterloo lists up to ten Faculty of Mathematics Global Scholarships worth CAD 12,000–40,000. Eligibility covers most programs in the faculty. Check the award listing for exclusions.",
+        "amount": null,
+        "currency": "CAD",
+        "renewal": null,
+        "separateApplication": "Waterloo lists no separate application.",
+        "sourceUrl": "https://uwaterloo.ca/future-students/financing/international-scholarships",
+        "title": "Scholarships for international students | Undergraduate Programs | University of Waterloo",
+        "cycle": null,
+        "note": "Waterloo lists up to ten Faculty of Mathematics Global Scholarships worth CAD 12,000–40,000. Eligibility covers most programs in the faculty. Check the award listing for exclusions.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "hong-kong-university-of-science-and-technology",
+    "name": "Hong Kong University of Science and Technology",
+    "initials": "HKUST",
+    "city": "Hong Kong",
+    "state": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Asia",
+    "type": "University",
+    "website": "https://www.hkust.edu.hk/",
+    "color": "#653e69",
+    "costCurrency": "HKD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://cse.hkust.edu.hk/ug/admissions/comp/",
+        "title": "BEng in Computer Science (COMP) | HKUST CSE",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "The BEng in Computer Science covers computing foundations, systems and software development."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://join.hkust.edu.hk/fees-and-scholarships",
+        "title": "Fees and Scholarships | HKUST Undergraduate Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "HKUST considers international applicants for academic entrance scholarships. Qualification-specific rules determine the amount, duration and possible renewal."
+      },
+      {
+        "field": "aidForms",
+        "value": "HKUST considers international applicants for academic entrance scholarships. Qualification-specific rules determine the amount, duration and possible renewal.",
+        "sourceUrl": "https://join.hkust.edu.hk/fees-and-scholarships",
+        "title": "Fees and Scholarships | HKUST Undergraduate Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Check both the requirements for your school qualification and the program’s subject and English-language requirements.",
+        "sourceUrl": "https://join.hkust.edu.hk/admissions/international-qualifications?cn=1",
+        "title": "International Qualifications | HKUST Undergraduate Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Academic admissions scholarships",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "HKUST considers international applicants for academic entrance scholarships. Qualification-specific rules determine the amount, duration and possible renewal.",
+        "amount": null,
+        "currency": "HKD",
+        "renewal": null,
+        "separateApplication": "Considered with the undergraduate application; check qualification-specific conditions.",
+        "sourceUrl": "https://join.hkust.edu.hk/fees-and-scholarships",
+        "title": "Fees and Scholarships | HKUST Undergraduate Admissions",
+        "cycle": null,
+        "note": "HKUST considers international applicants for academic entrance scholarships. Qualification-specific rules determine the amount, duration and possible renewal.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "city-university-of-hong-kong",
+    "name": "City University of Hong Kong",
+    "initials": "CUHK",
+    "city": "Hong Kong",
+    "state": "Hong Kong",
+    "country": "Hong Kong",
+    "region": "Asia",
+    "type": "University",
+    "website": "https://www.cityu.edu.hk/",
+    "color": "#285e5e",
+    "costCurrency": "HKD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Artificial Intelligence",
+          "Data Science"
+        ],
+        "sourceUrl": "https://www.cityu.edu.hk/admo/programmes/bsc-computer-science",
+        "title": "BSc Computer Science",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "The BSc in Computer Science offers streams in artificial intelligence and data science alongside computing fundamentals."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.cityu.edu.hk/admo/entrance-scholarship-international-students",
+        "title": "Entrance Scholarship for International Students",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "For eligible non-local entrants to full-time government-funded bachelor's programs, award tiers include half tuition, full tuition and a top award with a living allowance of up to HKD 60,000 a year. Renewal depends on academic standing."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://www.cityu.edu.hk/admo/entrance-scholarship-international-students",
+        "title": "Entrance Scholarship for International Students",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "For eligible non-local entrants to full-time government-funded bachelor's programs, award tiers include half tuition, full tuition and a top award with a living allowance of up to HKD 60,000 a year. Renewal depends on academic standing."
+      },
+      {
+        "field": "aidForms",
+        "value": "For eligible non-local entrants to full-time government-funded bachelor's programs, award tiers include half tuition, full tuition and a top award with a living allowance of up to HKD 60,000 a year. Renewal depends on academic standing.",
+        "sourceUrl": "https://www.cityu.edu.hk/admo/entrance-scholarship-international-students",
+        "title": "Entrance Scholarship for International Students",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Check the BSc admission route for your qualification. The program page separates local and non-local applications.",
+        "sourceUrl": "https://www.cityu.edu.hk/admo/programmes/bsc-computer-science",
+        "title": "BSc Computer Science",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Entrance Scholarship for International Students",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "For eligible non-local entrants to full-time government-funded bachelor's programs, award tiers include half tuition, full tuition and a top award with a living allowance of up to HKD 60,000 a year. Renewal depends on academic standing.",
+        "amount": null,
+        "currency": "HKD",
+        "renewal": "Annual renewal depends on the required cumulative GPA.",
+        "separateApplication": "Consideration with admission.",
+        "sourceUrl": "https://www.cityu.edu.hk/admo/entrance-scholarship-international-students",
+        "title": "Entrance Scholarship for International Students",
+        "cycle": null,
+        "note": "For eligible non-local entrants to full-time government-funded bachelor's programs, award tiers include half tuition, full tuition and a top award with a living allowance of up to HKD 60,000 a year. Renewal depends on academic standing.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "kaist",
+    "name": "KAIST",
+    "initials": "K",
+    "city": "Daejeon",
+    "state": "Daejeon",
+    "country": "South Korea",
+    "region": "Asia",
+    "type": "University",
+    "website": "https://www.kaist.ac.kr/",
+    "color": "#244889",
+    "costCurrency": "KRW",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://cs.kaist.ac.kr/education/undergraduate",
+        "title": "School of Computing undergraduate curriculum",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "The School of Computing undergraduate curriculum includes programming, algorithms and computer systems."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist/",
+        "title": "(26)KAIST admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "The KAIST scholarship covers eight semesters of tuition, KRW 350,000 per month and health insurance. Recipients must maintain a GPA above 2.7 out of 4.3 after their freshman year."
+      },
+      {
+        "field": "aidForms",
+        "value": "The KAIST scholarship covers eight semesters of tuition, KRW 350,000 per month and health insurance. Recipients must maintain a GPA above 2.7 out of 4.3 after their freshman year.",
+        "sourceUrl": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist/",
+        "title": "(26)KAIST admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "For regular Fall admission, submit the application and documents by the first deadline. The recommendation letter has a separate deadline.",
+        "sourceUrl": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+        "title": "(23)KAIST admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Regular application and documents",
+            "category": "admission",
+            "date": "2027-01-14",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "By 6 p.m. Korea Standard Time."
+          },
+          {
+            "label": "Recommendation letter",
+            "category": "documents",
+            "date": "2027-01-21",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "By 6 p.m. Korea Standard Time."
+          }
+        ],
+        "sourceUrl": "https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline",
+        "title": "(23)KAIST admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "Applies only to the listed entry route."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "KAIST Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "The KAIST scholarship covers eight semesters of tuition, KRW 350,000 per month and health insurance. Recipients must maintain a GPA above 2.7 out of 4.3 after their freshman year.",
+        "amount": null,
+        "currency": "KRW",
+        "renewal": "Maintain GPA above 2.7/4.3 after freshman year.",
+        "separateApplication": "Select the scholarship option on the admission application.",
+        "sourceUrl": "https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist/",
+        "title": "(26)KAIST admissions",
+        "cycle": null,
+        "note": "The KAIST scholarship covers eight semesters of tuition, KRW 350,000 per month and health insurance. Recipients must maintain a GPA above 2.7 out of 4.3 after their freshman year.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "qatar-university",
+    "name": "Qatar University",
+    "initials": "QU",
+    "city": "Doha",
+    "state": "Doha",
+    "country": "Qatar",
+    "region": "Asia",
+    "type": "University",
+    "website": "https://www.qu.edu.qa/",
+    "color": "#653e69",
+    "costCurrency": "QAR",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.qu.edu.qa/en-us/Colleges/engineering/academics/computer/cs",
+        "title": "B.Sc. in Computer Science",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "The BSc in Computer Science includes computing foundations and machine learning. Admission to the program is competitive."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.qu.edu.qa/en-us/students/admission/scholarships#scholarships-types",
+        "title": "Scholarship types: International Students Scholarship",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "International Students Scholarship applicants applying from abroad need final admission and a high school average of at least 95%. Benefits include tuition, textbooks, shared housing, transport, annual airfare and QAR 500 per month. Transfer, visiting and second-degree applicants are excluded."
+      },
+      {
+        "field": "fullTuition",
+        "value": true,
+        "sourceUrl": "https://www.qu.edu.qa/en-us/students/admission/scholarships#scholarships-types",
+        "title": "Scholarship types: International Students Scholarship",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "International Students Scholarship applicants applying from abroad need final admission and a high school average of at least 95%. Benefits include tuition, textbooks, shared housing, transport, annual airfare and QAR 500 per month. Transfer, visiting and second-degree applicants are excluded."
+      },
+      {
+        "field": "aidForms",
+        "value": "International Students Scholarship applicants applying from abroad need final admission and a high school average of at least 95%. Benefits include tuition, textbooks, shared housing, transport, annual airfare and QAR 500 per month. Transfer, visiting and second-degree applicants are excluded.",
+        "sourceUrl": "https://www.qu.edu.qa/en-us/students/admission/scholarships#scholarships-types",
+        "title": "Scholarship types: International Students Scholarship",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Applicants must meet the university’s secondary-school and College of Engineering admission requirements. Meeting the minimum does not guarantee a place.",
+        "sourceUrl": "https://www.qu.edu.qa/en-us/Colleges/engineering/academics/computer/cs",
+        "title": "B.Sc. in Computer Science",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "International Students Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "International Students Scholarship applicants applying from abroad need final admission and a high school average of at least 95%. Benefits include tuition, textbooks, shared housing, transport, annual airfare and QAR 500 per month. Transfer, visiting and second-degree applicants are excluded.",
+        "amount": null,
+        "currency": "QAR",
+        "renewal": "Maintain a cumulative GPA of at least 3.0 and complete at least 12 credit hours per semester.",
+        "separateApplication": "Apply through the undergraduate admission application.",
+        "sourceUrl": "https://www.qu.edu.qa/en-us/students/admission/scholarships#scholarships-types",
+        "title": "Scholarship types: International Students Scholarship",
+        "cycle": null,
+        "note": "International Students Scholarship applicants applying from abroad need final admission and a high school average of at least 95%. Benefits include tuition, textbooks, shared housing, transport, annual airfare and QAR 500 per month. Transfer, visiting and second-degree applicants are excluded.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "aalto-university",
+    "name": "Aalto University",
+    "initials": "AU",
+    "city": "Espoo",
+    "state": "Espoo",
+    "country": "Finland",
+    "region": "Europe",
+    "type": "University",
+    "website": "https://www.aalto.fi/",
+    "color": "#285e5e",
+    "costCurrency": "EUR",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Engineering"
+        ],
+        "sourceUrl": "https://www.aalto.fi/en/study-options/computer-engineering-bachelor-of-science-and-master-of-science-technology",
+        "title": "Computer Engineering, Bachelor of Science and Master of Science (Technology) | Aalto University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Engineering in the English-language science and technology bachelor’s program combines hardware, software and microelectronics."
+      },
+      {
+        "field": "aidForms",
+        "value": "Tuition scholarships are limited to eligible fee-paying students. Fee liability depends on citizenship and residence status. Budget separately for living costs.",
+        "sourceUrl": "https://www.aalto.fi/en/international-students/tuition-fees-and-scholarships",
+        "title": "Tuition fees and scholarships | Aalto University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Apply through Studyinfo. The admissions group depends on your qualification. Applicants rank their study options.",
+        "sourceUrl": "https://www.aalto.fi/en/admission-services/apply-to-bachelors-programmes-in-english",
+        "title": "Apply to Bachelor's programmes in English | Aalto University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Bachelor’s application",
+            "category": "admission",
+            "date": "2027-01-22",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "English-language application period starts January 7. Check the selection group."
+          }
+        ],
+        "sourceUrl": "https://www.aalto.fi/en/admission-services/apply-to-bachelors-programmes-in-english",
+        "title": "Apply to Bachelor's programmes in English | Aalto University",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "Applies only to the listed entry route."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Studyinfo",
+        "sourceUrl": "https://www.aalto.fi/en/admission-services/apply-to-bachelors-programmes-in-english",
+        "title": "Apply to Bachelor's programmes in English | Aalto University",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "English-language bachelor's admissions."
+      }
+    ]
+  },
+  {
+    "slug": "tampere-university",
+    "name": "Tampere University",
+    "initials": "TU",
+    "city": "Tampere",
+    "state": "Tampere",
+    "country": "Finland",
+    "region": "Europe",
+    "type": "University",
+    "website": "https://www.tuni.fi/",
+    "color": "#244889",
+    "costCurrency": "EUR",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Engineering"
+        ],
+        "sourceUrl": "https://www.tuni.fi/en/tau/bachelors-programmes/computing-sciences-and-electrical-engineering",
+        "title": "Computing Sciences and Electrical Engineering | Tampere University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computing Sciences and Electrical Engineering leads to a Bachelor of Science in Technology. Check the study track when selecting your courses."
+      },
+      {
+        "field": "aidForms",
+        "value": "Tampere University offers a limited number of 50% tuition scholarships for fee-paying applicants. Availability varies by program. Open university and transfer routes are excluded.",
+        "sourceUrl": "https://www.tuni.fi/en/tau/financial-matters/tuition-fees-and-scholarships",
+        "title": "Tuition Fees and Scholarships at Tampere University | Tampere University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Apply to the English-language bachelor’s programs through Studyinfo. Upload the required attachments by the separate deadline.",
+        "sourceUrl": "https://www.tuni.fi/en/tau/bachelors-programmes/applying",
+        "title": "Applying to Tampere University bachelor’s programmes | Tampere University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "English-language bachelor’s application",
+            "category": "admission",
+            "date": "2027-01-21",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "By 15:00 UTC+2."
+          },
+          {
+            "label": "Application attachments",
+            "category": "documents",
+            "date": "2027-01-28",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "By 15:00 UTC+2 unless separate instructions apply."
+          }
+        ],
+        "sourceUrl": "https://www.tuni.fi/en/tau/bachelors-programmes/applying",
+        "title": "Applying to Tampere University bachelor’s programmes | Tampere University",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "Applies only to the listed entry route."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Studyinfo",
+        "sourceUrl": "https://www.tuni.fi/en/tau/bachelors-programmes/applying",
+        "title": "Applying to Tampere University bachelor’s programmes | Tampere University",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "English-language bachelor's admissions."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Tampere University tuition fee scholarship",
+        "kind": "Fee reduction",
+        "fundingType": "Fee reduction",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "Tampere University offers a limited number of 50% tuition scholarships for fee-paying applicants. Availability varies by program. Open university and transfer routes are excluded.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": null,
+        "separateApplication": "Apply during the admissions application period.",
+        "sourceUrl": "https://www.tuni.fi/en/tau/financial-matters/tuition-fees-and-scholarships",
+        "title": "Tuition Fees and Scholarships at Tampere University | Tampere University",
+        "cycle": null,
+        "note": "Tampere University offers a limited number of 50% tuition scholarships for fee-paying applicants. Availability varies by program. Open university and transfer routes are excluded.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "university-of-oulu",
+    "name": "University of Oulu",
+    "initials": "UO",
+    "city": "Oulu",
+    "state": "Oulu",
+    "country": "Finland",
+    "region": "Europe",
+    "type": "University",
+    "website": "https://www.oulu.fi/",
+    "color": "#653e69",
+    "costCurrency": "EUR",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Engineering"
+        ],
+        "sourceUrl": "https://www.oulu.fi/en/apply/bachelors-computer-science-and-engineering",
+        "title": "Computer Science and Engineering",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science and Engineering is an English-taught bachelor’s program in technology."
+      },
+      {
+        "field": "aidForms",
+        "value": "For 2027 entrants paying tuition in Computer Science and Engineering, the listed annual tuition is EUR 10,000. A 30% first-year early payment discount requires payment within three weeks. The continuing-student 30% waiver requires 60 ECTS in the preceding year including specified Finnish studies.",
+        "sourceUrl": "https://www.oulu.fi/en/apply/how-apply/university-oulu-tuition-fees-and-scholarships-for-international-applicants",
+        "title": "University of Oulu tuition fees and scholarships for international applicants | University of Oulu",
+        "checkedAt": "2026-11-14",
+        "cycle": "2027 entry"
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "The January joint application and supporting documents have separate deadlines. Check which route accepts your qualification.",
+        "sourceUrl": "https://www.oulu.fi/en/bachelors-admissions-deadlines",
+        "title": "Bachelor’s admissions deadlines",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "January joint application",
+            "category": "admission",
+            "date": "2027-01-21",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "By 15:00 UTC+2. Other routes have different dates."
+          },
+          {
+            "label": "January joint application documents",
+            "category": "documents",
+            "date": "2027-01-28",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "By 15:00 UTC+2."
+          }
+        ],
+        "sourceUrl": "https://www.oulu.fi/en/bachelors-admissions-deadlines",
+        "title": "Bachelor’s admissions deadlines",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "Applies only to the listed entry route."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Computer Science and Engineering tuition fee reduction",
+        "kind": "Fee reduction",
+        "fundingType": "Fee reduction",
+        "eligibleCitizenships": [
+          "International applicants subject to the published award conditions"
+        ],
+        "coverage": "For 2027 entrants paying tuition in Computer Science and Engineering, the listed annual tuition is EUR 10,000. A 30% first-year early payment discount requires payment within three weeks. The continuing-student 30% waiver requires 60 ECTS in the preceding year including specified Finnish studies.",
+        "amount": null,
+        "currency": "EUR",
+        "renewal": "A separate continuing-student waiver has credit and language requirements.",
+        "separateApplication": "Follow Oulu’s payment instructions for the first-year discount.",
+        "sourceUrl": "https://www.oulu.fi/en/apply/how-apply/university-oulu-tuition-fees-and-scholarships-for-international-applicants",
+        "title": "University of Oulu tuition fees and scholarships for international applicants | University of Oulu",
+        "cycle": "2027 entry",
+        "note": "For 2027 entrants paying tuition in Computer Science and Engineering, the listed annual tuition is EUR 10,000. A 30% first-year early payment discount requires payment within three weeks. The continuing-student 30% waiver requires 60 ECTS in the preceding year including specified Finnish studies.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-14"
+      }
+    ]
+  },
+  {
+    "slug": "university-of-twente",
+    "name": "University of Twente",
+    "initials": "UT",
+    "city": "Enschede",
+    "state": "Enschede",
+    "country": "Netherlands",
+    "region": "Europe",
+    "type": "University",
+    "website": "https://www.utwente.nl/",
+    "color": "#285e5e",
+    "costCurrency": "EUR",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/index.html",
+        "title": "Technical Computer Science | University Bachelor Degree",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Technical Computer Science is a bachelor's degree covering software, systems and the mathematical foundations of computing."
+      },
+      {
+        "field": "aidForms",
+        "value": "Use Twente’s scholarship finder to check degree level, citizenship, documentation and deadlines. Undergraduate funding for this particular program remains unverified.",
+        "sourceUrl": "https://www.utwente.nl/en/education/scholarship-finder/faq-scholarships/",
+        "title": "FAQ Scholarships | Scholarship finder | Education",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Technical Computer Science requires a Dutch VWO-equivalent qualification, mathematics at the required B level, and the program’s matching procedure. Check English requirements for your qualification.",
+        "sourceUrl": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/enrolment/admission/",
+        "title": "Technical Computer Science admission requirements",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ]
+  }
+]
