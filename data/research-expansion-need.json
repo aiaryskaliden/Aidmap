@@ -1,0 +1,1005 @@
+[
+  {
+    "slug": "carleton-college",
+    "name": "Carleton College",
+    "initials": "CC",
+    "city": "Northfield",
+    "state": "MN",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.carleton.edu/",
+    "color": "#244889",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.carleton.edu/catalog/current/departments/cs/",
+        "title": "Carleton academic catalog: Computer Science",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science major with a team capstone in the senior year."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.carleton.edu/admissions/apply/steps/international/",
+        "title": "International Students",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Carleton meets the need it calculates without loans. All international applicants submit the certification of finances."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://www.carleton.edu/admissions/apply/steps/international/",
+        "title": "International Students",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Carleton meets the need it calculates without loans. All international applicants submit the certification of finances."
+      },
+      {
+        "field": "aidForms",
+        "value": "Carleton meets the need it calculates without loans. All international applicants submit the certification of finances.",
+        "sourceUrl": "https://www.carleton.edu/admissions/apply/steps/international/",
+        "title": "International Students",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Submit a school transcript and other documents in English or with an English translation. Applicants cannot translate their own documents.",
+        "sourceUrl": "https://www.carleton.edu/admissions/apply/steps/international/",
+        "title": "International Students",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "annualCost",
+        "value": 104746,
+        "sourceUrl": "https://www.carleton.edu/admissions/apply/steps/international/",
+        "title": "International Students",
+        "checkedAt": "2026-11-14",
+        "cycle": "2026–27",
+        "note": "Includes tuition, housing, food, insurance, travel and personal expenses."
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "IELTS",
+          "Duolingo"
+        ],
+        "sourceUrl": "https://www.carleton.edu/admissions/apply/steps/international/",
+        "title": "International Students",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Submit a score if English is not spoken at home and the last four years of instruction were not in English."
+      },
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [
+            {
+              "score": 7,
+              "kind": "recommended",
+              "condition": "Published as a preparedness range for students asked to submit English evidence."
+            }
+          ],
+          "noScoreLabel": "Unknown",
+          "detail": "Carleton describes scores associated with preparation for study."
+        },
+        "sourceUrl": "https://www.carleton.edu/admissions/apply/steps/international/",
+        "title": "International Students",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ]
+  },
+  {
+    "slug": "grinnell-college",
+    "name": "Grinnell College",
+    "initials": "GC",
+    "city": "Grinnell",
+    "state": "IA",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.grinnell.edu/",
+    "color": "#653e69",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.grinnell.edu/academics/majors-concentrations/computer-science",
+        "title": "Computer Science | Grinnell College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science major covering computational theory and problem solving."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.grinnell.edu/admission/apply/international",
+        "title": "International Applicants | Grinnell College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Apply for aid at entry using the CSS Profile or the college's own form. Grinnell meets calculated need for admitted international students who apply for aid on time."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://www.grinnell.edu/admission/apply/international",
+        "title": "International Applicants | Grinnell College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Apply for aid at entry using the CSS Profile or the college's own form. Grinnell meets calculated need for admitted international students who apply for aid on time."
+      },
+      {
+        "field": "needBlind",
+        "value": false,
+        "sourceUrl": "https://www.grinnell.edu/admission/apply/international",
+        "title": "International Applicants | Grinnell College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Apply for aid at entry using the CSS Profile or the college's own form. Grinnell meets calculated need for admitted international students who apply for aid on time."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://www.grinnell.edu/admission/apply/international",
+        "title": "International Applicants | Grinnell College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Apply for aid at entry using the CSS Profile or the college's own form. Grinnell meets calculated need for admitted international students who apply for aid on time."
+      },
+      {
+        "field": "aidForms",
+        "value": "Apply for aid at entry using the CSS Profile or the college's own form. Grinnell meets calculated need for admitted international students who apply for aid on time.",
+        "sourceUrl": "https://www.grinnell.edu/admission/apply/international",
+        "title": "International Applicants | Grinnell College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Use the international application route unless you hold US citizenship, permanent residency or approved asylum/refugee status.",
+        "sourceUrl": "https://www.grinnell.edu/admission/apply/international",
+        "title": "International Applicants | Grinnell College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "applicationFee",
+        "value": 0,
+        "sourceUrl": "https://www.grinnell.edu/admission/apply/international",
+        "title": "International Applicants | Grinnell College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "No admission application fee."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Common App",
+        "sourceUrl": "https://www.grinnell.edu/admission/apply/international",
+        "title": "International Applicants | Grinnell College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "IELTS",
+          "Duolingo"
+        ],
+        "sourceUrl": "https://www.grinnell.edu/admission/apply/international",
+        "title": "International Applicants | Grinnell College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Depends on native language and the language of secondary instruction."
+      }
+    ]
+  },
+  {
+    "slug": "macalester-college",
+    "name": "Macalester College",
+    "initials": "MC",
+    "city": "Saint Paul",
+    "state": "MN",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.macalester.edu/",
+    "color": "#285e5e",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://digitalcommons.macalester.edu/mathcs/",
+        "title": "Mathematics, Statistics, and Computer Science | Macalester College Research | DigitalCommons@Macalester College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science major includes algorithms, automata and programming languages."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.macalester.edu/admissions/international/first-year/",
+        "title": "International First-Year Applicants - Admissions & Aid - Admissions & Aid - Macalester College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Request aid with the admission application. Nonimmigrant visa applicants seeking aid must supply financial documentation and either a CSS Profile or ISAFA."
+      },
+      {
+        "field": "aidForms",
+        "value": "Request aid with the admission application. Nonimmigrant visa applicants seeking aid must supply financial documentation and either a CSS Profile or ISAFA.",
+        "sourceUrl": "https://www.macalester.edu/admissions/international/first-year/",
+        "title": "International First-Year Applicants - Admissions & Aid - Admissions & Aid - Macalester College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Have your school send official transcripts, external exams when applicable and predicted results for exams still to be taken.",
+        "sourceUrl": "https://www.macalester.edu/admissions/international/first-year/",
+        "title": "International First-Year Applicants - Admissions & Aid - Admissions & Aid - Macalester College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Common App",
+        "sourceUrl": "https://www.macalester.edu/admissions/international/first-year/",
+        "title": "International First-Year Applicants - Admissions & Aid - Admissions & Aid - Macalester College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.macalester.edu/admissions/international/first-year/",
+        "title": "International First-Year Applicants - Admissions & Aid - Admissions & Aid - Macalester College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Applicants receive equal admission consideration with or without scores."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://www.macalester.edu/admissions/international/first-year/",
+        "title": "International First-Year Applicants - Admissions & Aid - Admissions & Aid - Macalester College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Same testing policy."
+      }
+    ]
+  },
+  {
+    "slug": "haverford-college",
+    "name": "Haverford College",
+    "initials": "HC",
+    "city": "Haverford",
+    "state": "PA",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.haverford.edu/",
+    "color": "#244889",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://catalog.haverford.edu/programs/computer-science/",
+        "title": "Computer Science < Haverford College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science major studies how algorithms and data structures represent and transform information."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.haverford.edu/financial-aid/international-applicants",
+        "title": "International Applicants | Financial Aid | Haverford College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Institutional aid is based on need and limited to selected international entrants. Recipients have calculated need met. Travel and expenses between terms are excluded."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://www.haverford.edu/financial-aid/international-applicants",
+        "title": "International Applicants | Financial Aid | Haverford College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Institutional aid is based on need and limited to selected international entrants. Recipients have calculated need met. Travel and expenses between terms are excluded."
+      },
+      {
+        "field": "meritAid",
+        "value": false,
+        "sourceUrl": "https://www.haverford.edu/financial-aid/international-applicants",
+        "title": "International Applicants | Financial Aid | Haverford College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Institutional aid is based on need and limited to selected international entrants. Recipients have calculated need met. Travel and expenses between terms are excluded."
+      },
+      {
+        "field": "aidForms",
+        "value": "Institutional aid is based on need and limited to selected international entrants. Recipients have calculated need met. Travel and expenses between terms are excluded.",
+        "sourceUrl": "https://www.haverford.edu/financial-aid/international-applicants",
+        "title": "International Applicants | Financial Aid | Haverford College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Applicants whose first language is not English and who have never attended an English-medium secondary school must submit English proficiency results.",
+        "sourceUrl": "https://www.haverford.edu/admission/applying/international-students",
+        "title": "International Students | Office of Admission | Haverford College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "Duolingo",
+          "IELTS"
+        ],
+        "sourceUrl": "https://www.haverford.edu/admission/applying/international-students",
+        "title": "International Students | Office of Admission | Haverford College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Normally sent by the testing agency. Contact admission about financial hardship."
+      }
+    ]
+  },
+  {
+    "slug": "pomona-college",
+    "name": "Pomona College",
+    "initials": "PC",
+    "city": "Claremont",
+    "state": "CA",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.pomona.edu/",
+    "color": "#653e69",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.pomona.edu/academics/majors/computer-science",
+        "title": "Computer Science Major | Pomona College in Claremont, California - Pomona College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science major offers advanced work in AI, natural language processing and neural networks."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.pomona.edu/financial-aid/applying-for-aid/international-aid",
+        "title": "International Student Aid | Pomona College in Claremont, California - Pomona College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Request need-based aid at entry. Submit the CSS Profile or Pomona's alternative form if the fee is a burden, with translated income documentation."
+      },
+      {
+        "field": "needBlind",
+        "value": false,
+        "sourceUrl": "https://www.pomona.edu/financial-aid/applying-for-aid/international-aid",
+        "title": "International Student Aid | Pomona College in Claremont, California - Pomona College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Request need-based aid at entry. Submit the CSS Profile or Pomona's alternative form if the fee is a burden, with translated income documentation."
+      },
+      {
+        "field": "aidForms",
+        "value": "Request need-based aid at entry. Submit the CSS Profile or Pomona's alternative form if the fee is a burden, with translated income documentation.",
+        "sourceUrl": "https://www.pomona.edu/financial-aid/applying-for-aid/international-aid",
+        "title": "International Student Aid | Pomona College in Claremont, California - Pomona College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "International first-year applicants may use ED I, ED II or Regular Decision. Students already enrolled full time in postsecondary education apply as transfers.",
+        "sourceUrl": "https://www.pomona.edu/admissions/apply/international-applicants",
+        "title": "International Applicants | Pomona College in Claremont, California - Pomona College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "applicationPlans",
+        "value": [
+          "Early Decision",
+          "Early Decision II",
+          "Regular Decision"
+        ],
+        "sourceUrl": "https://www.pomona.edu/admissions/apply/international-applicants",
+        "title": "International Applicants | Pomona College in Claremont, California - Pomona College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ]
+  },
+  {
+    "slug": "davidson-college",
+    "name": "Davidson College",
+    "initials": "DC",
+    "city": "Davidson",
+    "state": "NC",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.davidson.edu/",
+    "color": "#285e5e",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.davidson.edu/academic-departments/mathematics-and-computer-science/computer-science-major-and-minor",
+        "title": "Computer Science Major and Minor | Davidson",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science is offered as both a major and a minor."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.davidson.edu/admission-and-financial-aid/admission-process-help/frequently-asked-questions/international-admission-aid-faqs",
+        "title": "International Admission & Aid FAQs | Davidson",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Need-based aid is available to international first-years entering through early or regular decision who have never enrolled at another college. Some named scholarships have their own selection process."
+      },
+      {
+        "field": "aidForms",
+        "value": "Need-based aid is available to international first-years entering through early or regular decision who have never enrolled at another college. Some named scholarships have their own selection process.",
+        "sourceUrl": "https://www.davidson.edu/admission-and-financial-aid/admission-process-help/frequently-asked-questions/international-admission-aid-faqs",
+        "title": "International Admission & Aid FAQs | Davidson",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Submit the financial verification form. English testing applies to applicants whose first language is not English, subject to the published exceptions.",
+        "sourceUrl": "https://www.davidson.edu/admission-and-financial-aid/apply/international-applicants",
+        "title": "International Applicants | Davidson",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "IELTS",
+          "Duolingo"
+        ],
+        "sourceUrl": "https://www.davidson.edu/admission-and-financial-aid/apply/international-applicants",
+        "title": "International Applicants | Davidson",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "SAT and ACT do not satisfy the English evidence requirement."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Common App or Coalition Application",
+        "sourceUrl": "https://www.davidson.edu/admission-and-financial-aid/admission-process-help/frequently-asked-questions/international-admission-aid-faqs",
+        "title": "International Admission & Aid FAQs | Davidson",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ]
+  },
+  {
+    "slug": "colby-college",
+    "name": "Colby College",
+    "initials": "CC",
+    "city": "Waterville",
+    "state": "ME",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.colby.edu/",
+    "color": "#244889",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://cs.colby.edu/curriculum.php",
+        "title": "Colby Computer Science",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science major and interdisciplinary computation options. The department recommends starting computational thinking in year one."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://afa.colby.edu/apply/requirements/international-applicants/",
+        "title": "International Applicants - Colby College Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Colby meets calculated need with grants and employment. Submit the CSS Profile, including noncustodial parent information when applicable. A fee waiver is available for hardship."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://afa.colby.edu/apply/requirements/international-applicants/",
+        "title": "International Applicants - Colby College Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Colby meets calculated need with grants and employment. Submit the CSS Profile, including noncustodial parent information when applicable. A fee waiver is available for hardship."
+      },
+      {
+        "field": "aidForms",
+        "value": "Colby meets calculated need with grants and employment. Submit the CSS Profile, including noncustodial parent information when applicable. A fee waiver is available for hardship.",
+        "sourceUrl": "https://afa.colby.edu/apply/requirements/international-applicants/",
+        "title": "International Applicants - Colby College Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "English evidence is required if neither the first language nor the current teaching language is English.",
+        "sourceUrl": "https://afa.colby.edu/apply/requirements/international-applicants/",
+        "title": "International Applicants - Colby College Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "IELTS",
+          "Duolingo"
+        ],
+        "sourceUrl": "https://afa.colby.edu/apply/requirements/international-applicants/",
+        "title": "International Applicants - Colby College Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Self-report initially. Check accepted formats on the admission page."
+      }
+    ]
+  },
+  {
+    "slug": "colgate-university",
+    "name": "Colgate University",
+    "initials": "CU",
+    "city": "Hamilton",
+    "state": "NY",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.colgate.edu/",
+    "color": "#653e69",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.colgate.edu/academics/departments-programs/department-computer-science/academic-program",
+        "title": "Academic Program in Computer Science | Colgate University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science major combines theory, systems design and experimentation."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.colgate.edu/admission-aid/apply/international-applicants",
+        "title": "International Applicants | Colgate University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Colgate considers financial need in selection and meets the calculated need of admitted international students. Submit the CSS Profile by the admission deadline."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://www.colgate.edu/admission-aid/apply/international-applicants",
+        "title": "International Applicants | Colgate University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Colgate considers financial need in selection and meets the calculated need of admitted international students. Submit the CSS Profile by the admission deadline."
+      },
+      {
+        "field": "needBlind",
+        "value": false,
+        "sourceUrl": "https://www.colgate.edu/admission-aid/apply/international-applicants",
+        "title": "International Applicants | Colgate University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Colgate considers financial need in selection and meets the calculated need of admitted international students. Submit the CSS Profile by the admission deadline."
+      },
+      {
+        "field": "aidForms",
+        "value": "Colgate considers financial need in selection and meets the calculated need of admitted international students. Submit the CSS Profile by the admission deadline.",
+        "sourceUrl": "https://www.colgate.edu/admission-aid/apply/international-applicants",
+        "title": "International Applicants | Colgate University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Final transcripts must come from the school. Applicants whose first language and secondary teaching language are both other than English submit an agency score report.",
+        "sourceUrl": "https://www.colgate.edu/admission-aid/apply/international-applicants",
+        "title": "International Applicants | Colgate University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "applicationFee",
+        "value": 0,
+        "sourceUrl": "https://www.colgate.edu/admission-aid/apply/international-applicants",
+        "title": "International Applicants | Colgate University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "International admission application."
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "IELTS",
+          "Duolingo"
+        ],
+        "sourceUrl": "https://www.colgate.edu/admission-aid/apply/international-applicants",
+        "title": "International Applicants | Colgate University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "SAT results do not waive English testing."
+      },
+      {
+        "field": "ielts",
+        "value": {
+          "requirement": "Required unless exempt",
+          "scores": [
+            {
+              "score": 7,
+              "kind": "minimum",
+              "condition": "Applies where English testing is required."
+            }
+          ],
+          "noScoreLabel": "Unknown",
+          "detail": "Have the test agency send the score."
+        },
+        "sourceUrl": "https://www.colgate.edu/admission-aid/apply/international-applicants",
+        "title": "International Applicants | Colgate University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ]
+  },
+  {
+    "slug": "lafayette-college",
+    "name": "Lafayette College",
+    "initials": "LC",
+    "city": "Easton",
+    "state": "PA",
+    "country": "United States",
+    "region": "United States",
+    "type": "Liberal arts college",
+    "website": "https://www.lafayette.edu/",
+    "color": "#285e5e",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://compsci.lafayette.edu/program/requirements-of-major/",
+        "title": "Bachelor of Science · Computer Science · Lafayette College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "BS in Computer Science with two laboratory science courses outside CS."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://admissions.lafayette.edu/first-year-international-students/",
+        "title": "First-Year International Students - Admissions · Admissions · Lafayette College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "International applicants seeking need-based grants file the CSS Profile. Applicants seeking only merit awards do not need the CSS Profile."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://admissions.lafayette.edu/first-year-international-students/",
+        "title": "First-Year International Students - Admissions · Admissions · Lafayette College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "International applicants seeking need-based grants file the CSS Profile. Applicants seeking only merit awards do not need the CSS Profile."
+      },
+      {
+        "field": "aidForms",
+        "value": "International applicants seeking need-based grants file the CSS Profile. Applicants seeking only merit awards do not need the CSS Profile.",
+        "sourceUrl": "https://admissions.lafayette.edu/first-year-international-students/",
+        "title": "First-Year International Students - Admissions · Admissions · Lafayette College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "The secondary school sends the official transcript and school report. A language waiver form is available for native English speakers or applicants taught in English for the last three years.",
+        "sourceUrl": "https://admissions.lafayette.edu/apply/international-students/",
+        "title": "Applying as an International Student - Admissions · Admissions · Lafayette College",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "IELTS",
+          "Duolingo"
+        ],
+        "sourceUrl": "https://admissions.lafayette.edu/apply/international-students/",
+        "title": "Applying as an International Student - Admissions · Admissions · Lafayette College",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Check waiver conditions."
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admissions.lafayette.edu/apply/international-students/",
+        "title": "Applying as an International Student - Admissions · Admissions · Lafayette College",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "Admission policy for fall 2027 and 2028."
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admissions.lafayette.edu/apply/international-students/",
+        "title": "Applying as an International Student - Admissions · Admissions · Lafayette College",
+        "checkedAt": "2026-11-14",
+        "cycle": "Fall 2027",
+        "note": "Same admission policy."
+      }
+    ]
+  },
+  {
+    "slug": "lehigh-university",
+    "name": "Lehigh University",
+    "initials": "LU",
+    "city": "Bethlehem",
+    "state": "PA",
+    "country": "United States",
+    "region": "United States",
+    "type": "Private university",
+    "website": "https://www.lehigh.edu/",
+    "color": "#244889",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://engineering.lehigh.edu/cse/academics/undergraduate/computer-science-ba-bs-cas",
+        "title": "Computer Science (B.A., B.S. in CAS) | P.C. Rossin College of Engineering & Applied Science",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science BA and BS in the College of Arts and Sciences include algorithms, languages and software engineering."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www2.lehigh.edu/admissions/international-students",
+        "title": "International Students | Lehigh University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Non-US citizens who expect to need aid in any year must file the CSS Profile by the appropriate admission deadline. Check eligible noncitizen rules."
+      },
+      {
+        "field": "aidForms",
+        "value": "Non-US citizens who expect to need aid in any year must file the CSS Profile by the appropriate admission deadline. Check eligible noncitizen rules.",
+        "sourceUrl": "https://www2.lehigh.edu/admissions/international-students",
+        "title": "International Students | Lehigh University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Submit English scores unless English is your first language or the last two completed years of schooling were in English.",
+        "sourceUrl": "https://www2.lehigh.edu/admissions/international-students",
+        "title": "International Students | Lehigh University",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "englishTests",
+        "value": [
+          "TOEFL",
+          "IELTS",
+          "Duolingo"
+        ],
+        "sourceUrl": "https://www2.lehigh.edu/admissions/international-students",
+        "title": "International Students | Lehigh University",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "TOEFL and IELTS preferred. Alternatives apply when the preferred exams are unavailable."
+      }
+    ]
+  },
+  {
+    "slug": "university-of-richmond",
+    "name": "University of Richmond",
+    "initials": "UR",
+    "city": "Richmond",
+    "state": "VA",
+    "country": "United States",
+    "region": "United States",
+    "type": "Private university",
+    "website": "https://www.richmond.edu/",
+    "color": "#653e69",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://cs.richmond.edu/Academics/major-minor/index.html",
+        "title": "Major & Minor Requirements - Computer Science - School of Arts & Sciences - University of Richmond",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Computer Science major includes independent study and summer research opportunities."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://financialaid.richmond.edu/applying/international.html",
+        "title": "International Students and Non-U.S. Citizens - Financial Aid - University of Richmond",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Richmond meets calculated need for admitted international applicants and considers need in admission. Merit consideration excludes Army ROTC for international students."
+      },
+      {
+        "field": "meetsFullNeed",
+        "value": true,
+        "sourceUrl": "https://financialaid.richmond.edu/applying/international.html",
+        "title": "International Students and Non-U.S. Citizens - Financial Aid - University of Richmond",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Richmond meets calculated need for admitted international applicants and considers need in admission. Merit consideration excludes Army ROTC for international students."
+      },
+      {
+        "field": "needBlind",
+        "value": false,
+        "sourceUrl": "https://financialaid.richmond.edu/applying/international.html",
+        "title": "International Students and Non-U.S. Citizens - Financial Aid - University of Richmond",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Richmond meets calculated need for admitted international applicants and considers need in admission. Merit consideration excludes Army ROTC for international students."
+      },
+      {
+        "field": "meritAid",
+        "value": true,
+        "sourceUrl": "https://financialaid.richmond.edu/applying/international.html",
+        "title": "International Students and Non-U.S. Citizens - Financial Aid - University of Richmond",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "Richmond meets calculated need for admitted international applicants and considers need in admission. Merit consideration excludes Army ROTC for international students."
+      },
+      {
+        "field": "aidForms",
+        "value": "Richmond meets calculated need for admitted international applicants and considers need in admission. Merit consideration excludes Army ROTC for international students.",
+        "sourceUrl": "https://financialaid.richmond.edu/applying/international.html",
+        "title": "International Students and Non-U.S. Citizens - Financial Aid - University of Richmond",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Submit a transcript, school report, recommendation, senior progress grades and the Richmond supplemental essay.",
+        "sourceUrl": "https://admission.richmond.edu/process/",
+        "title": "How to Apply - Undergraduate Admission - University of Richmond",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "satPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admission.richmond.edu/process/",
+        "title": "How to Apply - Undergraduate Admission - University of Richmond",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "actPolicy",
+        "value": "optional",
+        "sourceUrl": "https://admission.richmond.edu/process/",
+        "title": "How to Apply - Undergraduate Admission - University of Richmond",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "Common App or Coalition Application",
+        "sourceUrl": "https://admission.richmond.edu/process/",
+        "title": "How to Apply - Undergraduate Admission - University of Richmond",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ]
+  },
+  {
+    "slug": "university-of-rochester",
+    "name": "University of Rochester",
+    "initials": "UR",
+    "city": "Rochester",
+    "state": "NY",
+    "country": "United States",
+    "region": "United States",
+    "type": "Private university",
+    "website": "https://www.rochester.edu/",
+    "color": "#285e5e",
+    "costCurrency": "USD",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://cs.rochester.edu/undergraduate/bs-requirements.html",
+        "title": "BS in Computer Science : Undergraduate Program : Department of Computer Science : University of Rochester",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "BS in Computer Science starts with six core courses and continues into advanced technical work."
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.rochester.edu/financial-aid/international-undergraduates/",
+        "title": "International Undergraduates | URochester Financial Aid & Scholarships",
+        "checkedAt": "2026-11-14",
+        "cycle": null,
+        "note": "International undergraduates apply for institutional need-based grants with the CSS Profile. Check the aid deadline for your decision plan."
+      },
+      {
+        "field": "aidForms",
+        "value": "International undergraduates apply for institutional need-based grants with the CSS Profile. Check the aid deadline for your decision plan.",
+        "sourceUrl": "https://www.rochester.edu/financial-aid/international-undergraduates/",
+        "title": "International Undergraduates | URochester Financial Aid & Scholarships",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "First-year entrants must send a final transcript with the date of graduation once secondary school is complete.",
+        "sourceUrl": "https://admissions.rochester.edu/applying/international-students/",
+        "title": "International Students - Undergraduate Admissions",
+        "checkedAt": "2026-11-14",
+        "cycle": null
+      }
+    ]
+  }
+]
