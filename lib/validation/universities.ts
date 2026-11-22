@@ -1,9 +1,32 @@
 import { universitySchema } from "@/types/domain";
+
+function normalizedName(name: string) {
+  return name.normalize("NFKD").replace(/\p{M}/gu, "").toLowerCase()
+    .trim().replace(/^the\s+/, "")
+    .replace(/&/g, "and").replace(/[^\p{L}\p{N}]/gu, "");
+}
+
+function institutionDomain(website: string) {
+  const host = new URL(website).hostname.toLowerCase().replace(/\.$/, "");
+  const labels = host.split(".");
+  // Institutional suffixes such as ac.uk and edu.sg have two labels.
+  const compoundSuffix = /\.(?:ac|edu|co|org|com)\.[a-z]{2}$/.test(host);
+  return labels.slice(compoundSuffix ? -3 : -2).join(".");
+}
+
 export function validateUniversities(input: unknown) {
   const universities = universitySchema.array().parse(input);
   if (new Set(universities.map((u) => u.id)).size !== universities.length)
     throw new Error("Duplicate university IDs.");
+  const names = new Map<string, string>();
+  const domains = new Map<string, string>();
   for (const u of universities) {
+    const name = normalizedName(u.name);
+    const domain = institutionDomain(u.website);
+    const duplicate = names.get(name) ?? domains.get(domain);
+    if (duplicate) throw new Error(`Duplicate institution: ${duplicate} and ${u.id}`);
+    names.set(name, u.id);
+    domains.set(domain, u.id);
     const ids = new Set(u.sources.map((s) => s.id));
     if (ids.size !== u.sources.length)
       throw new Error(`Duplicate source IDs: ${u.id}`);

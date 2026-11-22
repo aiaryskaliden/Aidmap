@@ -1,12 +1,12 @@
 # Research and verification policy
 
-The November 14, 2026 release covers first-year undergraduate applicants planning for Fall 2027. Earlier snapshots retain their original review dates. The generated [coverage report](DATA_REVIEW.md) gives the published catalogue count and per-university gaps.
+The catalogue covers first-year undergraduate applicants planning for Fall 2027. Earlier snapshots retain their original review dates. The [November 22 expansion review](research/CATALOGUE_100.md) lists the additions and five updated profiles. The generated [coverage report](DATA_REVIEW.md) gives the local catalogue count and per-university gaps.
 
 The ordered [shortlist](research/CATALOGUE_SHORTLIST.md) precedes three batches in `data/research-expansion-need.json`, `data/research-expansion-merit.json` and `data/research-expansion-international.json`. Each finding records its official page, field, review date and applicable cycle. A null cycle identifies an undated policy. A null amount or date indicates missing evidence. A published zero fee applies only to the route described. A maximum across four years is recorded in the award terms, never as an annual award. Country and region labels follow the catalogue’s destination taxonomy, including Hong Kong.
 
 ## Reproducing the evidence count
 
-Run `pnpm validate:data` from the repository root. The validator sums `university.sources.length` over the 70 normalized profiles in `data/universities.ts`. Each record is identified by the university ID and its source ID. The November 15 recount yielded **829 evidence records** with source URLs. The same URL can support several records, giving **334 distinct URLs** across the university profiles. The separate funding catalogue has 75 entries. Its sources bring the combined link-check inventory to 335 distinct URLs.
+Run `pnpm validate:data` from the repository root. The validator sums `university.sources.length` over the normalized profiles in `data/universities.ts`. Each record is identified by the university ID and its source ID. The November 22 checkout contains **1,105 evidence records** across **100 institutions**. The same URL can support several records. The link check covers 461 distinct URLs from the profiles and funding catalogue.
 
 ## How records were assembled
 
@@ -35,8 +35,8 @@ These links are entry points; the raw findings retain the exact source for each 
 
 ## Unknowns and deliberate exclusions
 
-- Eight institutions have dated 2026–27 annual cost baselines. Some omit travel, insurance or personal amounts; exclusions remain explicit. No complete Fall 2027 budget is inferred from these totals. Partial tuition does not become total annual cost or a fabricated category breakdown.
-- Six profiles have current-cycle dated deadlines of some kind, including scholarship dates. Many others retain historical/yearless references or unknown dates. Fourteen have some current admission information; this does not mean all fields are confirmed.
+- Ten institutions have dated annual cost baselines. Check the year, the applicant category and which expenses are included. The tuition notes show published tariffs and fee ranges where an annual cost of attendance is unavailable.
+- Thirty-seven profiles have at least one dated Fall 2027 deadline, including document, testing and scholarship dates. Forty-four have some Fall 2027 admission information. Check the current coverage report for missing dates and requirements.
 - Application platform, fee, waiver and document coverage vary by institution. Program-specific requirements stay scoped; an Amsterdam scholarship English threshold does not become an undergraduate admission minimum.
 - Full demonstrated need is **not** evidence of an explicit full-tuition or full-cost scholarship award. Such flags require separately published award coverage. Hungarian housing/living stipends do not establish full expense coverage.
 - Academic subjects are samples from official undergraduate directories, not complete inventories. Economics is not automatically Business, and an MBA is not undergraduate evidence. Unknown fields produce reviewable unknown results rather than hidden eligibility decisions.

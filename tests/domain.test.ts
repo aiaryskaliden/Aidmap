@@ -214,7 +214,7 @@ describe("discovery and explainable research matches", () => {
   });
   it("honors Europe with researched undergraduate records", () => {
     expect(searchUniversities(universities, { region: "Europe" })).toHaveLength(
-      14,
+      30,
     );
   });
   it("explains country, interest, policy, and affordability limitations", () => {
@@ -333,7 +333,7 @@ describe("local persistence and application workflow", () => {
 });
 describe("source-backed data integrity and profile validation", () => {
   it("validates the expanded catalogue with traceable evidence", () => {
-    expect(validateUniversities(universities)).toHaveLength(70);
+    expect(validateUniversities(universities)).toHaveLength(100);
   });
   it.each(universities)("supports discovery, private planning and budgets for $name", (u) => {
     const subject = u.programs.value![0];
@@ -352,6 +352,15 @@ describe("source-backed data integrity and profile validation", () => {
     expect(() =>
       validateUniversities([...universities, universities[0]]),
     ).toThrow(/Duplicate/);
+  });
+  it("rejects equivalent institution names and campus subdomains", () => {
+    const u = universities.find((university) => university.id === "ku-leuven")!;
+    expect(() => validateUniversities([u, {
+      ...u, id: "another-leuven", name: "The K.U. Léuven", website: "https://example.edu/",
+    }])).toThrow(/Duplicate institution/);
+    expect(() => validateUniversities([u, {
+      ...u, id: "another-leuven", name: "Group T Leuven Campus", website: "https://group-t.kuleuven.be/",
+    }])).toThrow(/Duplicate institution/);
   });
   it("rejects facts without evidence", () => {
     expect(() =>

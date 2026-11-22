@@ -1,7 +1,23 @@
 import { z } from "zod";
 import { ieltsGuidanceSchema } from "./test-scores";
 
-export const currencySchema = z.enum(["USD", "EUR", "GBP", "KZT", "CNY", "HKD", "AED", "CAD", "KRW", "QAR"]);
+export const currencySchema = z.enum([
+  "USD",
+  "EUR",
+  "GBP",
+  "KZT",
+  "CNY",
+  "HKD",
+  "AED",
+  "CAD",
+  "KRW",
+  "QAR",
+  "SGD",
+  "JPY",
+  "AUD",
+  "NZD",
+  "SEK",
+]);
 export type Currency = z.infer<typeof currencySchema>;
 export const amountSchema = z.number().nonnegative().max(1_000_000_000_000);
 export const sourceSchema = z.object({
@@ -111,7 +127,7 @@ export const universitySchema = z.object({
   shortName: z.string(),
   initials: z.string(),
   country: z.string(),
-  region: z.enum(["United States", "Canada", "Europe", "Asia"]),
+  region: z.enum(["United States", "Canada", "Europe", "Asia", "Oceania"]),
   city: z.string(),
   state: z.string(),
   type: z.string(),

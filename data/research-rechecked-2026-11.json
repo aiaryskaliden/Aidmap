@@ -1,0 +1,153 @@
+[
+  {
+    "slug": "university-of-toronto",
+    "findings": [
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "St. George Arts & Science application",
+            "date": "2027-01-15",
+            "category": "admission",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "First-year Arts & Science application deadline, including the Computer Science admission category. Apply through OUAC."
+          },
+          {
+            "label": "St. George Arts & Science supporting documents",
+            "date": "2027-02-01",
+            "category": "documents",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Deadline for the Arts & Science program areas outside Rotman Commerce."
+          },
+          {
+            "label": "Computer Science supplementary application",
+            "date": "2027-02-01",
+            "category": "supplement",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "For the St. George Computer Science admission category. Complete it through the university’s applicant instructions."
+          }
+        ],
+        "sourceUrl": "https://future.utoronto.ca/deadlines",
+        "title": "Dates & Deadlines",
+        "checkedAt": "2026-11-22",
+        "cycle": "Fall 2027"
+      }
+    ],
+    "unknowns": [
+      "Fall 2027 Computer Science tuition and individual funding remain unverified."
+    ]
+  },
+  {
+    "slug": "hong-kong-university-of-science-and-technology",
+    "findings": [
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "International Priority Round",
+            "date": "2026-11-25",
+            "category": "admission",
+            "cycle": "Fall 2027",
+            "kind": "priority",
+            "note": "Published 2027/28 priority consideration date. Review later rounds on the HKUST admissions page."
+          }
+        ],
+        "sourceUrl": "https://join.hkust.edu.hk/apply",
+        "title": "Apply Now",
+        "checkedAt": "2026-11-22",
+        "cycle": "Fall 2027"
+      }
+    ],
+    "unknowns": [
+      "A dated later-round cutoff and exact international Computer Science attendance costs remain unverified."
+    ]
+  },
+  {
+    "slug": "university-of-hong-kong",
+    "findings": [
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "International qualifications first-round evaluation",
+            "date": "2026-11-25",
+            "category": "admission",
+            "cycle": "Fall 2027",
+            "kind": "priority",
+            "note": "Submit by noon Hong Kong time. Later applications are reviewed subject to availability."
+          },
+          {
+            "label": "International qualifications application closure",
+            "date": "2027-08-25",
+            "category": "admission",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Noon Hong Kong time. Admission remains subject to programme availability and applicable deadlines."
+          }
+        ],
+        "sourceUrl": "https://www.admissions.hku.hk/apply/international-qualifications",
+        "title": "International Qualifications",
+        "checkedAt": "2026-11-22",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "tuition",
+        "value": 280000,
+        "sourceUrl": "https://www.admissions.hku.hk/fees-and-scholarships/fees",
+        "title": "HKU tuition and living expenses, 2027/28",
+        "checkedAt": "2026-11-22",
+        "cycle": "2027–28",
+        "note": "Non-local annual tuition for STEM schools, including the School of Computing and Data Science. Most non-STEM programmes use a separate advertised rate of HKD 250,000. Confirm your programme’s fee category."
+      }
+    ],
+    "unknowns": [
+      "Accommodation, living expenses and individual awards depend on your circumstances. Faculty-specific document dates may differ."
+    ]
+  },
+  {
+    "slug": "university-of-twente",
+    "findings": [
+      {
+        "field": "tuition",
+        "value": 16869,
+        "sourceUrl": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/enrolment/tuition-fees/",
+        "title": "Technical Computer Science tuition fees",
+        "checkedAt": "2026-11-22",
+        "cycle": "2027–28",
+        "note": "Non-EU/EEA annual tuition for the BSc Technical Computer Science. The same page lists EUR 2,771 for the statutory EU/EEA category, subject to eligibility."
+      }
+    ],
+    "unknowns": [
+      "Technical Computer Science has mandatory matching. Confirm the specific matching and admissions deadlines for September 2027."
+    ]
+  },
+  {
+    "slug": "rice",
+    "findings": [
+      {
+        "field": "annualCost",
+        "value": 97309,
+        "sourceUrl": "https://financialaid.rice.edu/cost-attendance",
+        "title": "Cost of Attendance",
+        "checkedAt": "2026-11-22",
+        "cycle": "2026–27",
+        "note": "Standard on-campus estimate for undergraduate students who entered in 2024 or later. Includes tuition, mandatory fees, on-campus living, books and personal expenses at the published levels. Confirm additional international expenses separately."
+      },
+      {
+        "field": "tuition",
+        "value": 71140,
+        "sourceUrl": "https://financialaid.rice.edu/cost-attendance",
+        "title": "Cost of Attendance",
+        "checkedAt": "2026-11-22",
+        "cycle": "2026–27",
+        "note": "Published tuition for undergraduates who entered in 2024 or later. The table estimates on-campus attendance at USD 97,309."
+      }
+    ],
+    "unknowns": [
+      "The Fall 2027 annual budget and international-specific additions remain unverified."
+    ]
+  }
+]

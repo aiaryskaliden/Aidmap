@@ -8,6 +8,8 @@ import asiaExpansion from "./research-asia-v1.json";
 import needExpansion from "./research-expansion-need.json";
 import meritExpansion from "./research-expansion-merit.json";
 import internationalExpansion from "./research-expansion-international.json";
+import catalogueExpansion from "./research-expansion-100.json";
+import profileRechecks from "./research-rechecked-2026-11.json";
 import {
   emptyCosts,
   type EvidenceSource,
@@ -66,6 +68,9 @@ type Research = {
   scholarships?: ResearchAward[];
   unknowns?: string[];
 };
+const researchedUnknowns = new Map(
+  [...catalogueExpansion, ...profileRechecks].map((r) => [r.slug, r.unknowns]),
+);
 const research: Research[] = (
   [
     ...original.map((r) => ({
@@ -82,12 +87,15 @@ const research: Research[] = (
     ...(needExpansion as Research[]),
     ...(meritExpansion as Research[]),
     ...(internationalExpansion as Research[]),
+    ...(catalogueExpansion as Research[]),
   ] as Research[]
 ).map((r) => ({
   ...r,
   findings: [
     ...r.findings,
     ...((testingUpdates.find((x) => x.slug === r.slug)?.findings ??
+      []) as Finding[]),
+    ...((profileRechecks.find((x) => x.slug === r.slug)?.findings ??
       []) as Finding[]),
   ],
 }));
@@ -295,12 +303,14 @@ const baseUniversities = research.map((r): University => {
       costSourceIds: tuition.sourceIds,
       sources,
       unknowns: [
+        ...(researchedUnknowns.get(r.slug) ?? []),
         ...(get("requirements").value === null
           ? [
               "Application documents and program-specific requirements need checking.",
             ]
           : []),
-        ...(deadlines.value?.some((d) => d.cycle === "Fall 2027" && d.date)
+        ...(deadlines.value?.some((d) => d.cycle === "Fall 2027" && d.date &&
+          (d.category ? d.category === "admission" : !/aid|scholarship/i.test(d.label)))
           ? []
           : ["Fall 2027 admission dates need checking."]),
         ...(annualCost.value === null

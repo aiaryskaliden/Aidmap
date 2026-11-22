@@ -1,10 +1,10 @@
 {
   "summary": {
-    "reviewDate": "2026-11-14",
-    "previousUniversityCount": 34,
-    "universityCount": 70,
+    "reviewDate": "2026-11-22",
+    "previousUniversityCount": 70,
+    "universityCount": 100,
     "us": 44,
-    "europe": 14,
+    "europe": 30,
     "countries": [
       "United States",
       "Italy",
@@ -19,19 +19,32 @@
       "Canada",
       "South Korea",
       "Qatar",
-      "Finland"
+      "Finland",
+      "Singapore",
+      "Japan",
+      "Australia",
+      "New Zealand",
+      "United Kingdom",
+      "Ireland",
+      "Sweden",
+      "Denmark",
+      "Estonia",
+      "Türkiye",
+      "Belgium",
+      "Austria",
+      "Spain"
     ],
-    "withInternationalFundingEvidence": 66,
+    "withInternationalFundingEvidence": 80,
     "withInternationalNeedBasedAid": 37,
-    "withVerifiedUndergraduatePrograms": 70,
-    "withCurrentAdmissionInformation": 27,
-    "withPreviousCycleReferences": 25,
-    "withDatedCostBaselines": 9,
-    "withCurrentDatedDeadlines": 20,
-    "fieldEvidenceRecords": 829,
-    "fundingOpportunities": 75
+    "withVerifiedUndergraduatePrograms": 100,
+    "withCurrentAdmissionInformation": 44,
+    "withPreviousCycleReferences": 35,
+    "withDatedCostBaselines": 10,
+    "withCurrentDatedDeadlines": 37,
+    "fieldEvidenceRecords": 1105,
+    "fundingOpportunities": 89
   },
-  "linkCheckDate": "2026-11-14",
+  "linkCheckDate": "2026-11-22",
   "universities": [
     {
       "id": "harvard",
@@ -290,11 +303,10 @@
       "internationalFundingEvidence": true,
       "currentAdmission": false,
       "historical": true,
-      "costBaseline": false,
-      "costYear": null,
+      "costBaseline": true,
+      "costYear": "2026–27",
       "currentDates": 0,
       "review": [
-        "annual cost",
         "Fall 2027 deadlines",
         "application documents"
       ]
@@ -630,12 +642,11 @@
       "historical": true,
       "costBaseline": false,
       "costYear": null,
-      "currentDates": 0,
+      "currentDates": 2,
       "review": [
         "SAT policy",
         "English admission evidence",
         "annual cost",
-        "Fall 2027 deadlines",
         "application documents"
       ]
     },
@@ -1123,16 +1134,15 @@
       "programs": true,
       "internationalNeedAid": null,
       "internationalFundingEvidence": false,
-      "currentAdmission": false,
+      "currentAdmission": true,
       "historical": false,
       "costBaseline": false,
       "costYear": null,
-      "currentDates": 0,
+      "currentDates": 3,
       "review": [
         "SAT policy",
         "English admission evidence",
         "annual cost",
-        "Fall 2027 deadlines",
         "application documents"
       ]
     },
@@ -1182,16 +1192,15 @@
       "programs": true,
       "internationalNeedAid": null,
       "internationalFundingEvidence": true,
-      "currentAdmission": false,
+      "currentAdmission": true,
       "historical": false,
       "costBaseline": false,
       "costYear": null,
-      "currentDates": 0,
+      "currentDates": 1,
       "review": [
         "SAT policy",
         "English admission evidence",
         "annual cost",
-        "Fall 2027 deadlines",
         "application documents"
       ]
     },
@@ -1333,6 +1342,554 @@
         "annual cost",
         "Fall 2027 deadlines",
         "application documents",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "national-university-of-singapore",
+      "name": "National University of Singapore",
+      "country": "Singapore",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 1,
+      "review": [
+        "SAT policy",
+        "English admission evidence",
+        "annual cost"
+      ]
+    },
+    {
+      "id": "nanyang-technological-university",
+      "name": "Nanyang Technological University",
+      "country": "Singapore",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 1,
+      "review": [
+        "SAT policy",
+        "annual cost"
+      ]
+    },
+    {
+      "id": "singapore-university-of-technology-and-design",
+      "name": "Singapore University of Technology and Design",
+      "country": "Singapore",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "university-of-aizu",
+      "name": "University of Aizu",
+      "country": "Japan",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 2,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "ritsumeikan-university",
+      "name": "Ritsumeikan University",
+      "country": "Japan",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "kyushu-university",
+      "name": "Kyushu University",
+      "country": "Japan",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 2,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "unsw-sydney",
+      "name": "UNSW Sydney",
+      "country": "Australia",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "monash-university",
+      "name": "Monash University",
+      "country": "Australia",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "australian-national-university",
+      "name": "Australian National University",
+      "country": "Australia",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "English admission evidence",
+        "annual cost",
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "university-of-auckland",
+      "name": "University of Auckland",
+      "country": "New Zealand",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "university-of-canterbury",
+      "name": "University of Canterbury",
+      "country": "New Zealand",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "university-of-edinburgh",
+      "name": "University of Edinburgh",
+      "country": "United Kingdom",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 1,
+      "review": [
+        "SAT policy",
+        "English admission evidence",
+        "annual cost",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "university-of-manchester",
+      "name": "University of Manchester",
+      "country": "United Kingdom",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 1,
+      "review": [
+        "SAT policy",
+        "annual cost"
+      ]
+    },
+    {
+      "id": "university-of-bristol",
+      "name": "University of Bristol",
+      "country": "United Kingdom",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 3,
+      "review": [
+        "SAT policy",
+        "annual cost"
+      ]
+    },
+    {
+      "id": "trinity-college-dublin",
+      "name": "Trinity College Dublin",
+      "country": "Ireland",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": true,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 1,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "university-college-dublin",
+      "name": "University College Dublin",
+      "country": "Ireland",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": true,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "application documents",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "kth-royal-institute-of-technology",
+      "name": "KTH Royal Institute of Technology",
+      "country": "Sweden",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 2,
+      "review": [
+        "SAT policy",
+        "annual cost"
+      ]
+    },
+    {
+      "id": "linnaeus-university",
+      "name": "Linnaeus University",
+      "country": "Sweden",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 2,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "technical-university-of-denmark",
+      "name": "Technical University of Denmark",
+      "country": "Denmark",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "university-of-southern-denmark",
+      "name": "University of Southern Denmark",
+      "country": "Denmark",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "English admission evidence",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "university-of-tartu",
+      "name": "University of Tartu",
+      "country": "Estonia",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "tallinn-university-of-technology",
+      "name": "Tallinn University of Technology",
+      "country": "Estonia",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 3,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "bilkent-university",
+      "name": "Bilkent University",
+      "country": "Türkiye",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "sabanci-university",
+      "name": "Sabancı University",
+      "country": "Türkiye",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": true,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "English admission evidence",
+        "annual cost",
+        "Fall 2027 deadlines"
+      ]
+    },
+    {
+      "id": "ku-leuven",
+      "name": "KU Leuven",
+      "country": "Belgium",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 2,
+      "review": [
+        "SAT policy",
+        "annual cost"
+      ]
+    },
+    {
+      "id": "johannes-kepler-university-linz",
+      "name": "Johannes Kepler University Linz",
+      "country": "Austria",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "politecnico-di-torino",
+      "name": "Politecnico di Torino",
+      "country": "Italy",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": false,
+      "historical": true,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "English admission evidence",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "saarland-university",
+      "name": "Saarland University",
+      "country": "Germany",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": false,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 0,
+      "review": [
+        "SAT policy",
+        "annual cost",
+        "Fall 2027 deadlines",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "universidad-carlos-iii-de-madrid",
+      "name": "Universidad Carlos III de Madrid",
+      "country": "Spain",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 1,
+      "review": [
+        "SAT policy",
+        "English admission evidence",
+        "annual cost",
+        "merit eligibility"
+      ]
+    },
+    {
+      "id": "ulsan-national-institute-of-science-and-technology",
+      "name": "Ulsan National Institute of Science and Technology",
+      "country": "South Korea",
+      "programs": true,
+      "internationalNeedAid": null,
+      "internationalFundingEvidence": false,
+      "currentAdmission": true,
+      "historical": false,
+      "costBaseline": false,
+      "costYear": null,
+      "currentDates": 1,
+      "review": [
+        "annual cost",
         "merit eligibility"
       ]
     }
@@ -1659,6 +2216,11 @@
       "result": "reachable"
     },
     {
+      "url": "https://admu-intl.unist.ac.kr/admission-eng/admissions/admissions.do?articleNo=306812&attachNo=591437&mode=download",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://afa.colby.edu/apply/requirements/international-applicants/",
       "status": 403,
       "result": "access limited; manual check"
@@ -1814,6 +2376,11 @@
       "result": "reachable"
     },
     {
+      "url": "https://cse.unist.ac.kr/cse/education/undergraduate-program/curriculum01.do",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://degrees.ku.edu/undergraduate/bachelors/computer-science/",
       "status": 200,
       "result": "reachable"
@@ -1844,6 +2411,36 @@
       "result": "reachable"
     },
     {
+      "url": "https://dtu.dk/english/education/undergraduate/general-engineering",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/admission-requirements",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/deadlines-and-important-dates",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/fees-funding-and-permits",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/how-to-apply",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://dtu.dk/english/education/undergraduate/general-engineering/admission-and-deadlines/how-to-apply/required-documentation",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://edu.unideb.hu/p/computer-science-bsc",
       "status": 200,
       "result": "reachable"
@@ -1855,6 +2452,31 @@
     },
     {
       "url": "https://edu.unideb.hu/p/programs-a-z",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://en.ritsumei.ac.jp/e-ug/apply/aohb27.pdf",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://en.ritsumei.ac.jp/e-ug/apply/howto.html/?_hsmi=228126953",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://en.ritsumei.ac.jp/e-ug/financial_info/fees.html/?version=English",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://en.ritsumei.ac.jp/e-ug/financial_info/scholarships.html/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://en.ritsumei.ac.jp/ise/isse/about/",
       "status": 200,
       "result": "reachable"
     },
@@ -1974,12 +2596,22 @@
       "result": "reachable"
     },
     {
+      "url": "https://financialaid.rice.edu/cost-attendance",
+      "status": 406,
+      "result": "manual check"
+    },
+    {
       "url": "https://financialaid.richmond.edu/applying/international.html",
       "status": 200,
       "result": "reachable"
     },
     {
       "url": "https://future.utoronto.ca/apply/requirements/international-high-school-secondary/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://future.utoronto.ca/deadlines",
       "status": 200,
       "result": "reachable"
     },
@@ -1995,6 +2627,11 @@
     },
     {
       "url": "https://gettysburg.edu/admissions-aid/admissions/international",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://hub.ucd.ie/usis/%21W_HU_MENU.P_PUBLISH?AUDIENCE=&MAJR=CSSA&p_tag=COURSE",
       "status": 200,
       "result": "reachable"
     },
@@ -2015,8 +2652,8 @@
     },
     {
       "url": "https://intladmissions.cuhk.edu.cn/en/",
-      "status": null,
-      "result": "request failed or timed out; manual check"
+      "status": 200,
+      "result": "reachable"
     },
     {
       "url": "https://intladmissions.cuhk.edu.cn/en/article/441",
@@ -2054,7 +2691,37 @@
       "result": "reachable"
     },
     {
+      "url": "https://iro.sabanciuniv.edu/en/application-requirements",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://iro.sabanciuniv.edu/en/computer-science-and-engineering",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://iro.sabanciuniv.edu/en/degree-students/frequently-asked-questions/tuition-fees-and-scholarships",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://iro.sabanciuniv.edu/en/how-to-apply",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://iro.sabanciuniv.edu/en/tuition-fee",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://join.hkust.edu.hk/admissions/international-qualifications?cn=1",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://join.hkust.edu.hk/apply",
       "status": 200,
       "result": "reachable"
     },
@@ -2149,6 +2816,11 @@
       "result": "reachable"
     },
     {
+      "url": "https://oigusaktid.taltech.ee/en/admission-calendar-for-first-and-second-level-studies-in-the-academic-year-the-year-after-next/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://oir.brown.edu/institutional-data/common-data-set",
       "status": 200,
       "result": "reachable"
@@ -2174,7 +2846,22 @@
       "result": "reachable"
     },
     {
+      "url": "https://onderwijsaanbod-kuleuven.icts.kuleuven.be/opleidingen/e/SC_55554488/toelatingsvoorwaarden",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://ousf.duke.edu/merit-scholarships/karsh-international-scholars-program/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://programsandcourses.anu.edu.au/2027/program/aacom",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://scholarshipsforms.canterbury.ac.nz/regulations/UC_International_First_Year_Scholarship_%28Offshore%29.pdf",
       "status": 200,
       "result": "reachable"
     },
@@ -2224,6 +2911,71 @@
       "result": "reachable"
     },
     {
+      "url": "https://study.anu.edu.au/apply/international-applications",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://study.anu.edu.au/apply/international-applications/documentation-requirements",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://study.anu.edu.au/scholarships/find-scholarship/anu-chancellors-international-scholarship",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://study.ed.ac.uk/programmes/undergraduate-fees",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://study.ed.ac.uk/programmes/undergraduate/57-computer-science",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://study.ed.ac.uk/undergraduate/applying/making-application/when-apply",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://study.lnu.se/how-to-apply-to-sweden-step-by-step-guide-for-fall-2027/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://taltech.ee/en/bachelors-programmes/cyber-security-engineering",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://taltech.ee/en/language-requirements",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://u-aizu.ac.jp/en/admissions/tuition/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://u-aizu.ac.jp/en/admissions/undergraduate/schedule/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://u-aizu.ac.jp/sgu/en/ictg/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://u-aizu.ac.jp/sgu/en/ictg/ictg_course/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://u-szeged.hu/prospective-students/full-time-programs/bachelor-programs",
       "status": 200,
       "result": "reachable"
@@ -2234,7 +2986,32 @@
       "result": "reachable"
     },
     {
+      "url": "https://uc3m.es/bachelor-degree/admission/application/international-students/early-admission/application",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://uc3m.es/bachelor-degree/computer-science",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
       "url": "https://undergradaid.northwestern.edu/faqs/eligibility-aid-applications/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://ut.ee/en/content/cost-tuition",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://ut.ee/en/curriculum/science-and-technology",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://ut.ee/en/english-language-requirements",
       "status": 200,
       "result": "reachable"
     },
@@ -2250,6 +3027,31 @@
     },
     {
       "url": "https://uwaterloo.ca/future-students/programs/computer-science",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://w3.bilkent.edu.tr/en/international-and-other-students-tuition-fees/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://w3.bilkent.edu.tr/international/english-language-proficiency/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://w3.bilkent.edu.tr/international/how-to-apply/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://w3.bilkent.edu.tr/international/scholarships-for-international-students/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://w3.cs.bilkent.edu.tr/undergraduate-programs/",
       "status": 200,
       "result": "reachable"
     },
@@ -2299,7 +3101,17 @@
       "result": "reachable"
     },
     {
+      "url": "https://www.admissions.hku.hk/apply/international-qualifications",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://www.admissions.hku.hk/faqs/international",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.admissions.hku.hk/fees-and-scholarships/fees",
       "status": 200,
       "result": "reachable"
     },
@@ -2394,6 +3206,36 @@
       "result": "reachable"
     },
     {
+      "url": "https://www.auckland.ac.nz/assets/study/scholarships-and-funding/find-a-scholarship-or-award/regulations/university-of-auckland-international-student-excellence-scholarship.pdf",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.auckland.ac.nz/en/about-us/about-the-university/the-university/official-publications/university-calendar/current-calendar/key-university-dates/closing-dates-for-admission.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/entry-requirements/undergraduate-entry-requirements/undergraduate-english-language-requirements.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.auckland.ac.nz/en/study/applications-and-admissions/how-to-apply/supporting-documents.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.auckland.ac.nz/en/study/fees-and-money-matters/tuition-fees/international-student-fees/undergraduate-international-fees.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/computer-science/undergraduate.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://www.berea.edu/academics/departments-programs",
       "status": 200,
       "result": "reachable"
@@ -2474,7 +3316,42 @@
       "result": "reachable"
     },
     {
+      "url": "https://www.bristol.ac.uk/international/fees-finance/scholarships/?dm_i=5ZTP%2CERT4%2C3N5WHK%2C1S4Z9%2C1",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.bristol.ac.uk/study/undergraduate/2027/computer-science/bsc-computer-science/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.bristol.ac.uk/study/undergraduate/apply/international/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://www.brown.edu/undergraduate-programs",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.canterbury.ac.nz/study/academic-study/qualifications/bachelor-of-computer-science",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.canterbury.ac.nz/study/getting-started/admission-and-enrolment/enrol-international-student/1-check-you-are-eligible-international",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.canterbury.ac.nz/study/getting-started/admission-and-enrolment/enrol-international-student/2-apply-in-myuc-international",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.canterbury.ac.nz/study/getting-started/admission-and-enrolment/enrolment-topics/english-language-proficiency/english-language-requirements",
       "status": 200,
       "result": "reachable"
     },
@@ -2524,6 +3401,11 @@
       "result": "reachable"
     },
     {
+      "url": "https://www.comp.nus.edu.sg/programmes/ug/cs/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://www.cs.iastate.edu/majors-and-minors/computer-science",
       "status": 200,
       "result": "reachable"
@@ -2550,6 +3432,11 @@
     },
     {
       "url": "https://www.davidson.edu/admission-and-financial-aid/apply/international-applicants",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.eng.kyushu-u.ac.jp/en/undergraduate/undergraduate-international-programs/electrical-engineering-and-computer-science/",
       "status": 200,
       "result": "reachable"
     },
@@ -2624,6 +3511,81 @@
       "result": "reachable"
     },
     {
+      "url": "https://www.jku.at/en/degree-programs/prospective-students/register-to-enroll/bachelors-degree-diploma-degree/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.jku.at/en/degree-programs/students/start-your-studies/pay-austrian-student-union-fees-and-tuition/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.jku.at/en/degree-programs/students/start-your-studies/proof-of-language-proficiency/language-proficiency-in-english/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.jku.at/en/degree-programs/types-of-degree-programs/bachelors-and-diploma-degree-programs/ba-artificial-intelligence/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.kth.se/en/studies/bachelor/entry-requirements-for-information-and-communication-technology-1.450313",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.kth.se/en/studies/bachelor/fees-1.646274",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.kth.se/en/studies/bachelor/information-communication-technology",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.kth.se/en/studies/bachelor/information-communication-technology/how-to-apply-for-bachelor-s-studies-1.450312",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.kuleuven.be/english/apply/application-instructions/apply-to-kuleuven",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.kuleuven.be/programmes/bachelor-engineering-technology/index.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.kyushu-u.ac.jp/en/admission/faculty/foreign/foreign10",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.kyushu-u.ac.jp/en/admission/fees/expenses/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.kyushu-u.ac.jp/f/66827/ENG_2027_Application%20Instruction.pdf",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.lnu.se/en/education/study-at-linnaeus-university/application/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.lnu.se/en/programme/software-technology-programme/vaxjo-international-autumn/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://www.luiss.it/en/courses-and-masters-programmes/undergraduate-school/economics-and-business",
       "status": 200,
       "result": "reachable"
@@ -2649,19 +3611,114 @@
       "result": "reachable"
     },
     {
-      "url": "https://www.oulu.fi/en/apply/bachelors-computer-science-and-engineering",
+      "url": "https://www.manchester.ac.uk/study/international/finance-and-scholarships/funding/global-futures-scholarship/index.htm",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.manchester.ac.uk/study/undergraduate/applying/how-to-apply/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.manchester.ac.uk/study/undergraduate/courses/2027/00560/bsc-computer-science/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.manchester.ac.uk/study/undergraduate/key-dates/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.monash.edu/admissions/apply/international-ug",
+      "status": 403,
+      "result": "access limited; manual check"
+    },
+    {
+      "url": "https://www.monash.edu/admissions/entry-requirements/english-language",
+      "status": 403,
+      "result": "access limited; manual check"
+    },
+    {
+      "url": "https://www.monash.edu/study/courses/find-a-course/computer-science-c2001?international=true",
+      "status": 403,
+      "result": "access limited; manual check"
+    },
+    {
+      "url": "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/monash-international-leadership-scholarship-5571Z",
+      "status": 403,
+      "result": "access limited; manual check"
+    },
+    {
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/admissions/general-admission-requirements/international-qualifications/other-international-qualifications",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/scholarships-and-awards/scholarship-opportunities/detail/nanyang-scholarship",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.ntu.edu.sg/admissions/undergraduate/undergraduate-programme/bachelor-of-computing-in-computer-science",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.nus.edu.sg/oam/admissions/important-dates",
       "status": null,
       "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners/international-qualifications/other-high-school-qualifications",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://www.nus.edu.sg/oam/scholarships/scholarships-for-freshmen-international-students/nus-international-undergraduate-scholarship",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://www.oulu.fi/en/apply/bachelors-computer-science-and-engineering",
+      "status": 200,
+      "result": "reachable"
     },
     {
       "url": "https://www.oulu.fi/en/apply/how-apply/university-oulu-tuition-fees-and-scholarships-for-international-applicants",
-      "status": null,
-      "result": "request failed or timed out; manual check"
+      "status": 200,
+      "result": "reachable"
     },
     {
       "url": "https://www.oulu.fi/en/bachelors-admissions-deadlines",
-      "status": null,
-      "result": "request failed or timed out; manual check"
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/admission-test",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.polito.it/en/education/applying-studying-graduating/admissions-and-enrolment/bachelor-s-degree-programmes/applicants-with-a-non-italian-qualification",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.polito.it/en/education/bachelor-s-degree-programmes/computer-engineering",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.polito.it/en/education/services-and-life-at-politecnico/right-to-education-and-tuition-fees/tuition-fees",
+      "status": 200,
+      "result": "reachable"
     },
     {
       "url": "https://www.pomona.edu/academics/majors/computer-science",
@@ -2709,6 +3766,11 @@
       "result": "reachable"
     },
     {
+      "url": "https://www.scholarships.unsw.edu.au/scholarships/id/1988",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://www.sciencespo.fr/admissions/en/undergraduate/faq/",
       "status": 200,
       "result": "reachable"
@@ -2734,7 +3796,82 @@
       "result": "reachable"
     },
     {
+      "url": "https://www.sdu.dk/en/om-sdu/fakulteterne/teknik/uddannelse/tuitionteknik",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sdu.dk/en/uddannelse/bachelor/bachelor-admission/admission-requirements/documentation",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sdu.dk/en/uddannelse/bachelor/bachelor-admission/admission-requirements/language-requirements",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sdu.dk/en/uddannelse/bachelor/bachelor-admission/submit-application",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sdu.dk/en/uddannelse/bachelor/software-engineering",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sutd.edu.sg/admissions/undergraduate/admission-requirements/international-qualifications/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sutd.edu.sg/admissions/undergraduate/education-expenses/fees/tuition-fees/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sutd.edu.sg/admissions/undergraduate/other-international-qualifications/criteria-for-admission/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sutd.edu.sg/admissions/undergraduate/scholarship/sutd-administered/sutd-trailblazers-scholarship-intl/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.sutd.edu.sg/education/undergraduate/majors/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://www.swarthmore.edu/sites/default/files/assets/documents/institutional-effectiveness-research-assessment/Swarthmore-CDS-2024-2025-fillable-pdf-version.pdf",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.tcd.ie/academicregistry/fees-and-payments/annual-fee-rate/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.tcd.ie/courses/undergraduate/courses/computer-science/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.tcd.ie/study/apply/making-an-application/undergraduate/direct-applications/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.tcd.ie/study/english-language-requirements/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.tcd.ie/study/international/scholarships/undergraduate/geug.php",
       "status": 200,
       "result": "reachable"
     },
@@ -2769,6 +3906,21 @@
       "result": "access limited; manual check"
     },
     {
+      "url": "https://www.uc3m.es/bachelor-degree/admission/application/enrollment/prices/non-eu",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://www.uc3m.es/bachelor-degree/admission/application/international-students/early-admission/deadline",
+      "status": null,
+      "result": "request failed or timed out; manual check"
+    },
+    {
+      "url": "https://www.ucd.ie/global/t4media/UCD%20International%20Prospectus%202026.pdf",
+      "status": 403,
+      "result": "access limited; manual check"
+    },
+    {
       "url": "https://www.uni-corvinus.hu/post/landing-page/application/admissions-requirements/bsc-in-data-science-in-business-admissions-requirements/?lang=en",
       "status": 200,
       "result": "reachable"
@@ -2780,6 +3932,16 @@
     },
     {
       "url": "https://www.uni-corvinus.hu/post/landing-page/start-here/?lang=en",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.uni-saarland.de/en/study/organisation/fees.html",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.uni-saarland.de/en/study/programmes/bachelor/computer-science.html",
       "status": 200,
       "result": "reachable"
     },
@@ -2824,6 +3986,26 @@
       "result": "reachable"
     },
     {
+      "url": "https://www.universityadmissions.se/en/entry-requirements/english-language-requirements/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.unsw.edu.au/study/how-to-apply/english-language-requirements",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.unsw.edu.au/study/how-to-apply/international",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-computer-science",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
       "url": "https://www.usf.edu/admissions/international/admission-information/cost-of-attendance/scholarships.aspx",
       "status": 200,
       "result": "reachable"
@@ -2855,6 +4037,11 @@
     },
     {
       "url": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/enrolment/admission/",
+      "status": 200,
+      "result": "reachable"
+    },
+    {
+      "url": "https://www.utwente.nl/en/education/bachelor/programmes/technical-computer-science/enrolment/tuition-fees/",
       "status": 200,
       "result": "reachable"
     },
@@ -2965,28 +4152,28 @@
     },
     {
       "url": "https://www.wlu.edu/academics/areas-of-study",
-      "status": 200,
-      "result": "reachable"
+      "status": null,
+      "result": "request failed or timed out; manual check"
     },
     {
       "url": "https://www.wlu.edu/admissions/apply",
-      "status": 200,
-      "result": "reachable"
+      "status": null,
+      "result": "request failed or timed out; manual check"
     },
     {
       "url": "https://www.wlu.edu/admissions/apply/for-international-applicants/english-proficiency-policy",
-      "status": 200,
-      "result": "reachable"
+      "status": null,
+      "result": "request failed or timed out; manual check"
     },
     {
       "url": "https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid",
-      "status": 200,
-      "result": "reachable"
+      "status": null,
+      "result": "request failed or timed out; manual check"
     },
     {
       "url": "https://www.wlu.edu/admissions/the-johnson-scholarship",
-      "status": 200,
-      "result": "reachable"
+      "status": null,
+      "result": "request failed or timed out; manual check"
     },
     {
       "url": "https://www2.lehigh.edu/admissions/international-students",

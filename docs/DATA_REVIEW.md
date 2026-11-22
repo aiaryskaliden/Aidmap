@@ -1,14 +1,14 @@
 # AidMap data coverage review
 
-Generated 2026-11-14. A researched profile does not mean every field is complete or Fall 2027-confirmed. International funding evidence includes restricted scholarships and explicit no-aid policies; it does not establish an applicant's eligibility.
+Generated 2026-11-22. A researched profile does not mean every field is complete or Fall 2027-confirmed. International funding evidence includes restricted scholarships and explicit no-aid policies; it does not establish an applicant's eligibility.
 
 ```json
 {
-  "reviewDate": "2026-11-14",
-  "previousUniversityCount": 34,
-  "universityCount": 70,
+  "reviewDate": "2026-11-22",
+  "previousUniversityCount": 70,
+  "universityCount": 100,
   "us": 44,
-  "europe": 14,
+  "europe": 30,
   "countries": [
     "United States",
     "Italy",
@@ -23,17 +23,30 @@ Generated 2026-11-14. A researched profile does not mean every field is complete
     "Canada",
     "South Korea",
     "Qatar",
-    "Finland"
+    "Finland",
+    "Singapore",
+    "Japan",
+    "Australia",
+    "New Zealand",
+    "United Kingdom",
+    "Ireland",
+    "Sweden",
+    "Denmark",
+    "Estonia",
+    "Türkiye",
+    "Belgium",
+    "Austria",
+    "Spain"
   ],
-  "withInternationalFundingEvidence": 66,
+  "withInternationalFundingEvidence": 80,
   "withInternationalNeedBasedAid": 37,
-  "withVerifiedUndergraduatePrograms": 70,
-  "withCurrentAdmissionInformation": 27,
-  "withPreviousCycleReferences": 25,
-  "withDatedCostBaselines": 9,
-  "withCurrentDatedDeadlines": 20,
-  "fieldEvidenceRecords": 829,
-  "fundingOpportunities": 75
+  "withVerifiedUndergraduatePrograms": 100,
+  "withCurrentAdmissionInformation": 44,
+  "withPreviousCycleReferences": 35,
+  "withDatedCostBaselines": 10,
+  "withCurrentDatedDeadlines": 37,
+  "fieldEvidenceRecords": 1105,
+  "fundingOpportunities": 89
 }
 ```
 
@@ -54,7 +67,7 @@ Generated 2026-11-14. A researched profile does not mean every field is complete
 | University of Chicago | United States | Not confirmed | Unknown | English admission evidence, annual cost, Fall 2027 deadlines, application documents |
 | Duke University | United States | Some fields | Unknown | English admission evidence, annual cost, Fall 2027 deadlines, application documents |
 | Vanderbilt University | United States | Some fields | Unknown | English admission evidence, annual cost, application documents |
-| Rice University | United States | Not confirmed | Unknown | annual cost, Fall 2027 deadlines, application documents |
+| Rice University | United States | Not confirmed | 2026–27 | Fall 2027 deadlines, application documents |
 | Northwestern University | United States | Some fields | Unknown | English admission evidence, annual cost, Fall 2027 deadlines, application documents |
 | University of Notre Dame | United States | Some fields | Unknown | annual cost, Fall 2027 deadlines, application documents |
 | Berea College | United States | Not confirmed | Unknown | annual cost, Fall 2027 deadlines, application documents, merit eligibility |
@@ -72,7 +85,7 @@ Generated 2026-11-14. A researched profile does not mean every field is complete
 | The Chinese University of Hong Kong, Shenzhen | China | Some fields | Unknown | annual cost, application documents |
 | Mohamed bin Zayed University of Artificial Intelligence | United Arab Emirates | Some fields | Unknown | annual cost, application documents |
 | Nazarbayev University | Kazakhstan | Some fields | Unknown | SAT policy, English admission evidence, annual cost, application documents, merit eligibility |
-| The University of Hong Kong | Hong Kong | Some fields | Unknown | SAT policy, English admission evidence, annual cost, Fall 2027 deadlines, application documents |
+| The University of Hong Kong | Hong Kong | Some fields | Unknown | SAT policy, English admission evidence, annual cost, application documents |
 | Carleton College | United States | Not confirmed | 2026–27 | SAT policy, Fall 2027 deadlines, application documents, merit eligibility |
 | Grinnell College | United States | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines, application documents |
 | Macalester College | United States | Not confirmed | Unknown | annual cost, Fall 2027 deadlines, merit eligibility |
@@ -98,10 +111,10 @@ Generated 2026-11-14. A researched profile does not mean every field is complete
 | Denison University | United States | Not confirmed | Unknown | English admission evidence, annual cost, Fall 2027 deadlines |
 | Gettysburg College | United States | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines, merit eligibility |
 | University of British Columbia | Canada | Some fields | Unknown | SAT policy, English admission evidence, annual cost, application documents |
-| University of Toronto | Canada | Not confirmed | Unknown | SAT policy, English admission evidence, annual cost, Fall 2027 deadlines, application documents |
+| University of Toronto | Canada | Some fields | Unknown | SAT policy, English admission evidence, annual cost, application documents |
 | University of Alberta | Canada | Not confirmed | Unknown | SAT policy, English admission evidence, annual cost, Fall 2027 deadlines, application documents |
 | University of Waterloo | Canada | Some fields | Unknown | SAT policy, English admission evidence, annual cost, application documents |
-| Hong Kong University of Science and Technology | Hong Kong | Not confirmed | Unknown | SAT policy, English admission evidence, annual cost, Fall 2027 deadlines, application documents |
+| Hong Kong University of Science and Technology | Hong Kong | Some fields | Unknown | SAT policy, English admission evidence, annual cost, application documents |
 | City University of Hong Kong | Hong Kong | Not confirmed | Unknown | SAT policy, English admission evidence, annual cost, Fall 2027 deadlines, application documents |
 | KAIST | South Korea | Some fields | Unknown | SAT policy, English admission evidence, annual cost, application documents, merit eligibility |
 | Qatar University | Qatar | Not confirmed | Unknown | SAT policy, English admission evidence, annual cost, Fall 2027 deadlines, application documents |
@@ -109,18 +122,50 @@ Generated 2026-11-14. A researched profile does not mean every field is complete
 | Tampere University | Finland | Some fields | Unknown | SAT policy, English admission evidence, annual cost, application documents, merit eligibility |
 | University of Oulu | Finland | Some fields | Unknown | SAT policy, English admission evidence, annual cost, application documents, merit eligibility |
 | University of Twente | Netherlands | Not confirmed | Unknown | SAT policy, English admission evidence, annual cost, Fall 2027 deadlines, application documents, merit eligibility |
+| National University of Singapore | Singapore | Some fields | Unknown | SAT policy, English admission evidence, annual cost |
+| Nanyang Technological University | Singapore | Some fields | Unknown | SAT policy, annual cost |
+| Singapore University of Technology and Design | Singapore | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines |
+| University of Aizu | Japan | Some fields | Unknown | SAT policy, annual cost, merit eligibility |
+| Ritsumeikan University | Japan | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines, merit eligibility |
+| Kyushu University | Japan | Some fields | Unknown | SAT policy, annual cost, merit eligibility |
+| UNSW Sydney | Australia | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines |
+| Monash University | Australia | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines |
+| Australian National University | Australia | Not confirmed | Unknown | SAT policy, English admission evidence, annual cost, Fall 2027 deadlines |
+| University of Auckland | New Zealand | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines |
+| University of Canterbury | New Zealand | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines |
+| University of Edinburgh | United Kingdom | Some fields | Unknown | SAT policy, English admission evidence, annual cost, merit eligibility |
+| University of Manchester | United Kingdom | Some fields | Unknown | SAT policy, annual cost |
+| University of Bristol | United Kingdom | Some fields | Unknown | SAT policy, annual cost |
+| Trinity College Dublin | Ireland | Some fields | Unknown | SAT policy, annual cost, merit eligibility |
+| University College Dublin | Ireland | Some fields | Unknown | SAT policy, annual cost, Fall 2027 deadlines, application documents, merit eligibility |
+| KTH Royal Institute of Technology | Sweden | Some fields | Unknown | SAT policy, annual cost |
+| Linnaeus University | Sweden | Some fields | Unknown | SAT policy, annual cost, merit eligibility |
+| Technical University of Denmark | Denmark | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines |
+| University of Southern Denmark | Denmark | Not confirmed | Unknown | SAT policy, English admission evidence, annual cost, Fall 2027 deadlines, merit eligibility |
+| University of Tartu | Estonia | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines, merit eligibility |
+| Tallinn University of Technology | Estonia | Some fields | Unknown | SAT policy, annual cost, merit eligibility |
+| Bilkent University | Türkiye | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines |
+| Sabancı University | Türkiye | Not confirmed | Unknown | SAT policy, English admission evidence, annual cost, Fall 2027 deadlines |
+| KU Leuven | Belgium | Some fields | Unknown | SAT policy, annual cost |
+| Johannes Kepler University Linz | Austria | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines, merit eligibility |
+| Politecnico di Torino | Italy | Not confirmed | Unknown | SAT policy, English admission evidence, annual cost, Fall 2027 deadlines, merit eligibility |
+| Saarland University | Germany | Not confirmed | Unknown | SAT policy, annual cost, Fall 2027 deadlines, merit eligibility |
+| Universidad Carlos III de Madrid | Spain | Some fields | Unknown | SAT policy, English admission evidence, annual cost, merit eligibility |
+| Ulsan National Institute of Science and Technology | South Korea | Some fields | Unknown | annual cost, merit eligibility |
 
 ## Source link checks
 
-297/335 URLs returned successful responses. HTTP access limitations do not prove a link is broken. Review these URLs manually:
+409/461 checked URLs returned successful responses on 2026-11-22. The catalogue includes 461 distinct source URLs. HTTP access limitations require manual review:
 
 - [Source](https://admission.kaist.ac.kr/intl-undergraduate/application/ApplicationGuide/ApplicationTimeline): 400 — manual check
 - [Source](https://admission.kaist.ac.kr/intl-undergraduate/support/scholarships/kaist/): 400 — manual check
 - [Source](https://afa.colby.edu/apply/requirements/international-applicants/): 403 — access limited; manual check
+- [Source](https://financialaid.rice.edu/cost-attendance): 406 — manual check
 - [Source](https://hub.williams.edu/institutional-research/files/2026/04/Williams-CDS-2025-2026-V2.pdf): 403 — access limited; manual check
 - [Source](https://hub.williams.edu/sfs/glossary/): 403 — access limited; manual check
-- [Source](https://intladmissions.cuhk.edu.cn/en/): no status — request failed or timed out; manual check
 - [Source](https://mbzuai.ac.ae/admissions/undergraduate-admissions): 403 — access limited; manual check
+- [Source](https://uc3m.es/bachelor-degree/admission/application/international-students/early-admission/application): no status — request failed or timed out; manual check
+- [Source](https://uc3m.es/bachelor-degree/computer-science): no status — request failed or timed out; manual check
 - [Source](https://www.amherst.edu/academiclife/departments): 405 — manual check
 - [Source](https://www.amherst.edu/admission/applicants): 405 — manual check
 - [Source](https://www.amherst.edu/admission/apply/firstyear): 405 — manual check
@@ -139,16 +184,28 @@ Generated 2026-11-14. A researched profile does not mean every field is complete
 - [Source](https://www.cityu.edu.hk/admo/entrance-scholarship-international-students): no status — request failed or timed out; manual check
 - [Source](https://www.haverford.edu/admission/applying/international-students): 403 — access limited; manual check
 - [Source](https://www.haverford.edu/financial-aid/international-applicants): 403 — access limited; manual check
-- [Source](https://www.oulu.fi/en/apply/bachelors-computer-science-and-engineering): no status — request failed or timed out; manual check
-- [Source](https://www.oulu.fi/en/apply/how-apply/university-oulu-tuition-fees-and-scholarships-for-international-applicants): no status — request failed or timed out; manual check
-- [Source](https://www.oulu.fi/en/bachelors-admissions-deadlines): no status — request failed or timed out; manual check
+- [Source](https://www.monash.edu/admissions/apply/international-ug): 403 — access limited; manual check
+- [Source](https://www.monash.edu/admissions/entry-requirements/english-language): 403 — access limited; manual check
+- [Source](https://www.monash.edu/study/courses/find-a-course/computer-science-c2001?international=true): 403 — access limited; manual check
+- [Source](https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/monash-international-leadership-scholarship-5571Z): 403 — access limited; manual check
+- [Source](https://www.nus.edu.sg/oam/admissions/important-dates): no status — request failed or timed out; manual check
+- [Source](https://www.nus.edu.sg/oam/admissions/international-qualifications-for-foreigners/international-qualifications/other-high-school-qualifications): no status — request failed or timed out; manual check
+- [Source](https://www.nus.edu.sg/oam/scholarships/scholarships-for-freshmen-international-students/nus-international-undergraduate-scholarship): no status — request failed or timed out; manual check
 - [Source](https://www.qu.edu.qa/en-us/Colleges/engineering/academics/computer/cs): no status — request failed or timed out; manual check
 - [Source](https://www.qu.edu.qa/en-us/students/admission/scholarships#scholarships-types): no status — request failed or timed out; manual check
 - [Source](https://www.ualberta.ca/en/admissions/how-to-apply/dates-deadlines/index.html): 403 — access limited; manual check
 - [Source](https://www.ualberta.ca/en/admissions/tuition-and-scholarships/international-entrance-scholarships/index.html): 403 — access limited; manual check
 - [Source](https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-computing-science.html): 403 — access limited; manual check
+- [Source](https://www.uc3m.es/bachelor-degree/admission/application/enrollment/prices/non-eu): no status — request failed or timed out; manual check
+- [Source](https://www.uc3m.es/bachelor-degree/admission/application/international-students/early-admission/deadline): no status — request failed or timed out; manual check
+- [Source](https://www.ucd.ie/global/t4media/UCD%20International%20Prospectus%202026.pdf): 403 — access limited; manual check
 - [Source](https://www.williams.edu/academics/areas-of-study/): 403 — access limited; manual check
 - [Source](https://www.williams.edu/admission-aid/how-to-apply/additional-applicant-information/international/): 403 — access limited; manual check
 - [Source](https://www.williams.edu/admission-aid/how-to-apply/first-year/): 403 — access limited; manual check
 - [Source](https://www.williams.edu/admission-aid/tuition-aid/): 403 — access limited; manual check
+- [Source](https://www.wlu.edu/academics/areas-of-study): no status — request failed or timed out; manual check
+- [Source](https://www.wlu.edu/admissions/apply): no status — request failed or timed out; manual check
+- [Source](https://www.wlu.edu/admissions/apply/for-international-applicants/english-proficiency-policy): no status — request failed or timed out; manual check
+- [Source](https://www.wlu.edu/admissions/financial-aid/types-of-aid/international-student-aid): no status — request failed or timed out; manual check
+- [Source](https://www.wlu.edu/admissions/the-johnson-scholarship): no status — request failed or timed out; manual check
 - [Source](https://www3.nd.edu/~instres/CDS/2024-2025/CDS_2024-2025.pdf): 403 — access limited; manual check

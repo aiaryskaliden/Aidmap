@@ -12,7 +12,11 @@ AidMap was created to make researching universities less fragmented: discover an
 
 ## Published catalogue
 
-The published catalogue contains **70 universities across 14 countries and territories**, **75 funding options**, and **829 source-linked evidence records**. Run `pnpm validate:data` to reproduce the evidence count. See the [release review](docs/CATALOGUE_RELEASE.md) for admissions coverage, cost gaps and browser checks.
+The public Preview currently serves **70 universities across 14 countries and territories**, **75 funding options**, and **829 source-linked evidence records**. See the [published release review](docs/CATALOGUE_RELEASE.md) for coverage and verification.
+
+## Catalogue in this checkout
+
+This update expands the catalogue to **100 universities across 27 countries and territories**, with **89 funding options** and **1,105 source-linked evidence records**. Run `pnpm validate:data` to verify the current source. The [catalogue update](docs/research/CATALOGUE_100.md) lists the 30 additions, the five existing profiles reviewed, and evidence gaps.
 
 ## Run locally
 
@@ -55,7 +59,7 @@ Playwright starts the development server if needed, or reuses port 3000 locally.
 | `/match`               | Explanatory profile-fit checklist, evidence coverage, university ranking and local shortlist saving; never admission probability |
 | `/improve`             | Private, persistent application preparation checklist for tests, CV, essays, references, school-specific guidance; optional opt-in AI Advisor when configured |
 | `/explore`             | Search, combined URL-backed filters, sorting, grid/list views, save and comparison actions, honest empty states                         |
-| `/universities/[slug]` | 70 undergraduate profiles, program-specific requirements, admissions/funding policies, dated costs, evidence and confirmed deadline imports |
+| `/universities/[slug]` | Undergraduate profiles, program-specific requirements, admissions/funding policies, dated costs, evidence and confirmed deadline imports |
 | `/start`               | Optional four-step onboarding, skippable academic/funding preferences, explained research matches                                       |
 | `/compare`             | Up to four persistent selections, replacement/removal, optional differences-only view, horizontally scrollable table                    |
 | `/funding`             | Searchable/filterable institutional aid policies, save actions, eligibility/source links, separate aid deadlines                        |

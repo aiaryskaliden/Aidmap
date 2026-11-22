@@ -56,7 +56,7 @@ export function DeadlineTable({ university: u }: { university: University }) {
                         {current
                           ? `Verified for ${intake}`
                           : d.date && d.cycle
-                            ? d.cycle < intake
+                            ? Number(d.cycle.match(/20\d{2}/)?.[0]) < Number(intake.match(/20\d{2}/)?.[0])
                               ? "Previous-cycle reference"
                               : "Different intake — verify applicability"
                             : "Needs intake verification"}

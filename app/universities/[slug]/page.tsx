@@ -111,6 +111,9 @@ export default async function UniversityPage({
   const displayedSources = u.sources.filter(
     (s) => currentSourceIds.has(s.id) || u.costSourceIds.includes(s.id),
   );
+  const tuitionSources = u.sources.filter(
+    (s) => u.costSourceIds.includes(s.id) && s.fields.includes("tuition"),
+  );
   const admissionsUrl =
     u.sources.find((s) =>
       [
@@ -245,7 +248,7 @@ export default async function UniversityPage({
                 field={u.admissionEligibility}
                 label="Applicant and curriculum conditions"
               />
-              <FactRow u={u} field={u.testPolicy} label="SAT / ACT policy" />
+              <FactRow u={u} field={u.testPolicy} label="Admissions tests" />
               <FactRow
                 u={u}
                 field={u.englishPolicy}
@@ -485,6 +488,20 @@ export default async function UniversityPage({
                 </div>
               </div>
             )}
+            {tuitionSources.map((source) => (
+              <div className="notice" key={source.id}>
+                <div>
+                  <strong>
+                    Tuition {u.costs.tuition === null
+                      ? "rates and conditions"
+                      : money(u.costs.tuition, u.costCurrency)}
+                  </strong>
+                  {source.note && <p>{source.note}</p>}
+                  <p>{source.cycle ?? "Intake not specified"} · Checked {dateLabel(source.checkedAt)}</p>
+                  <ExternalLink href={source.url}>Official tuition information</ExternalLink>
+                </div>
+              </div>
+            ))}
             <details>
               <summary>Cost categories and missing expenses</summary>
               <div className="cost-table">
