@@ -55,7 +55,7 @@ Playwright starts the development server if needed, or reuses port 3000 locally.
 | `/match`               | Explanatory profile-fit checklist, evidence coverage, university ranking and local shortlist saving; never admission probability |
 | `/improve`             | Private, persistent application preparation checklist for tests, CV, essays, references, school-specific guidance; optional opt-in AI Advisor when configured |
 | `/explore`             | Search, combined URL-backed filters, sorting, grid/list views, save and comparison actions, honest empty states                         |
-| `/universities/[slug]` | 70 undergraduate profiles, program-specific requirements, admissions/funding policies, dated costs, evidence and confirmed deadline imports |
+| `/universities/[slug]` | Undergraduate profiles, program-specific requirements, admissions/funding policies, dated costs, evidence and confirmed deadline imports |
 | `/start`               | Optional four-step onboarding, skippable academic/funding preferences, explained research matches                                       |
 | `/compare`             | Up to four persistent selections, replacement/removal, optional differences-only view, horizontally scrollable table                    |
 | `/funding`             | Searchable/filterable institutional aid policies, save actions, eligibility/source links, separate aid deadlines                        |

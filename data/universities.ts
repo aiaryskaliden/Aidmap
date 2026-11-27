@@ -8,6 +8,7 @@ import asiaExpansion from "./research-asia-v1.json";
 import needExpansion from "./research-expansion-need.json";
 import meritExpansion from "./research-expansion-merit.json";
 import internationalExpansion from "./research-expansion-international.json";
+import ukExpansion from "./research-uk-2027.json";
 import {
   emptyCosts,
   type EvidenceSource,
@@ -82,6 +83,7 @@ const research: Research[] = (
     ...(needExpansion as Research[]),
     ...(meritExpansion as Research[]),
     ...(internationalExpansion as Research[]),
+    ...(ukExpansion as Research[]),
   ] as Research[]
 ).map((r) => ({
   ...r,
@@ -295,6 +297,7 @@ const baseUniversities = research.map((r): University => {
       costSourceIds: tuition.sourceIds,
       sources,
       unknowns: [
+        ...(r.unknowns ?? []),
         ...(get("requirements").value === null
           ? [
               "Application documents and program-specific requirements need checking.",
