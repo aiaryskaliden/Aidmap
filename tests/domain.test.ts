@@ -159,7 +159,7 @@ describe("discovery and explainable research matches", () => {
   it("searches names, cities and subjects case-insensitively", () => {
     expect(
       searchUniversities(universities, { q: "CAMBRIDGE" }).map((u) => u.id),
-    ).toEqual(["harvard", "mit"]);
+    ).toEqual(["harvard", "mit", "cambridge"]);
     expect(
       searchUniversities(universities, { q: "computer science" }).length,
     ).toBeGreaterThan(0);
@@ -214,7 +214,7 @@ describe("discovery and explainable research matches", () => {
   });
   it("honors Europe with researched undergraduate records", () => {
     expect(searchUniversities(universities, { region: "Europe" })).toHaveLength(
-      14,
+      39,
     );
   });
   it("explains country, interest, policy, and affordability limitations", () => {
@@ -333,7 +333,7 @@ describe("local persistence and application workflow", () => {
 });
 describe("source-backed data integrity and profile validation", () => {
   it("validates the expanded catalogue with traceable evidence", () => {
-    expect(validateUniversities(universities)).toHaveLength(70);
+    expect(validateUniversities(universities)).toHaveLength(95);
   });
   it.each(universities)("supports discovery, private planning and budgets for $name", (u) => {
     const subject = u.programs.value![0];
