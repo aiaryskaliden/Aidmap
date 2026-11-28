@@ -20,7 +20,7 @@ AidMap helps international undergraduate applicants find universities, research 
 | [Ask Maple AI Advisor](https://aidmap-aiaryskaliden.vercel.app/advisor)   | Ask about programmes, costs, funding, or next steps in English, Russian, or Kazakh. The public advisor answers from the AidMap catalogue and links to official sources.                                                                   |
 | [University Fit](https://aidmap-aiaryskaliden.vercel.app/studio?view=fit) | Check an applicant profile against published programme, test, budget, and application evidence. Results explain which criteria match and which details need review.                                                                       |
 | [Compare](https://aidmap-aiaryskaliden.vercel.app/compare)                | Compare up to four universities side by side across costs, funding, eligibility, and application requirements. Select differences-only to focus on where they diverge.                                                                    |
-| [Deadline Planner](https://aidmap-aiaryskaliden.vercel.app/planner)       | Track saved applications through tasks, notes, dates, and statuses. Switch among the timeline, status board, requirements matrix, and deadline calendar.                                                                                  |
+| [Deadline Planner](https://aidmap-aiaryskaliden.vercel.app/planner)       | Track tasks, notes, dates, and statuses. Use the timeline, status board, requirements matrix, or calendar, and export selected dates as an iCalendar file.                                                                                |
 | [Cost Calculator](https://aidmap-aiaryskaliden.vercel.app/calculator)     | Estimate annual cost and the remaining funding gap in one currency. Model hypothetical aid separately from confirmed awards.                                                                                                              |
 
 The screenshot examples use a disposable browser workspace and synthetic applicant inputs.
@@ -43,8 +43,8 @@ The screenshot examples use a disposable browser workspace and synthetic applica
 Use Node.js **24.x** with pnpm **11.25.0**. If pnpm is missing, install the pinned version with `npm install --global pnpm@11.25.0`.
 
 ```sh
-git clone https://github.com/AiarysKaliden/AidMap.git
-cd AidMap
+git clone https://github.com/aiaryskaliden/Aidmap.git
+cd Aidmap
 pnpm install --frozen-lockfile
 pnpm dev --webpack
 ```
@@ -105,6 +105,6 @@ Vitest covers catalogue rules, funding arithmetic, fit checks, advisor logic, an
 
 - Verify more Fall 2027 admissions and aid deadlines, applicant-specific requirements, and dated cost breakdowns.
 - Improve the editorial workflow for refreshing sources and broadening coverage of affordable programmes.
-- Expand real-device and assistive-technology testing, and evaluate calendar export and reminders.
+- Expand real-device and assistive-technology testing, and evaluate opt-in deadline reminders.
 
-See [the roadmap](docs/ROADMAP.md) for research priorities and [CONTRIBUTING.md](CONTRIBUTING.md) for contribution instructions.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution instructions.
