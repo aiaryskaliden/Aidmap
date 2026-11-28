@@ -179,11 +179,11 @@ The script uses an isolated browser context and synthetic calculator inputs. Set
 
 ## Vercel deployment preparation
 
-The [public AidMap site](https://aidmap-aiaryskaliden.vercel.app) points to the November 27, 2026 Preview. Anyone can open Explore and browse the 100-university catalogue. Each library includes two free reading guides.
+The [public AidMap site](https://aidmap-aiaryskaliden.vercel.app) points to the November 28, 2026 Preview. Anyone can open Explore and browse the 150-university catalogue. Each library includes two free reading guides.
 
 The deployment uses Vercel Preview and the public domain is assigned as an alias. `scripts/require-preview.mjs` checks the deployment target before installation and build. `.vercelignore` limits CLI uploads to application files, public images and build inputs. The release was built from the local working tree.
 
-The [verified Preview](https://aidmap-eud43b0vx-musorlegend-1144.vercel.app/) and [deployment record](docs/VERCEL_PREVIEW.md) show the published version and validation history.
+The [verified Preview](https://aidmap-d05ie9ynh-musorlegend-1144.vercel.app/) and [deployment record](docs/VERCEL_PREVIEW.md) show the published version and validation history.
 
 For subsequent Preview deployments:
 

@@ -1,6 +1,10 @@
 # AidMap Preview access
 
-## Current public release — November 27, 2026
+## Current public release — November 28, 2026
+
+The [public site](https://aidmap-aiaryskaliden.vercel.app/) points to [Vercel Preview](https://aidmap-d05ie9ynh-musorlegend-1144.vercel.app/) deployment `dpl_Cvg54gyR5bja9MktwAjxFpGXcsYE`. The build used the source published in commit `aaaaf45`. Explore shows 150 universities with locally served university marks. The data validator counts 1,325 source-linked field records and the test suite passed 303 tests. The [catalogue expansion record](research/CATALOGUE_150.md) lists the new profiles.
+
+## Previous release — November 27, 2026
 
 Vercel built the local AidMap working tree as [Preview](https://aidmap-eud43b0vx-musorlegend-1144.vercel.app/) and marked deployment `dpl_7J1unxMABDuGJmFVgevPrv9LNb3o` Ready. The [public address](https://aidmap-aiaryskaliden.vercel.app/) points to that deployment. Anonymous requests returned HTTP 200 for the home page, Explore, the profile and essay libraries, Pricing and Maple. Explore shows 100 universities, and all four application banners match the local assets. The data validator confirmed 1,105 source-linked records.
 

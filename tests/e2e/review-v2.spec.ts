@@ -47,16 +47,19 @@ test("filters persist in URL, unknowns stay distinct, reset and mobile focus wor
   await expect(page.locator(".university-card")).toHaveCount(0);
   await page
     .getByLabel("Include universities with unknown requirements")
+    .filter({ visible: true })
     .check();
-  await expect(page.locator(".university-card")).toHaveCount(3);
+  await expect(page.locator(".university-card")).toHaveCount(7);
   await expect(page.locator(".unknown-match").first()).toContainText(
     "SAT policy",
   );
   await page.reload();
   await expect(
-    page.getByLabel("Include universities with unknown requirements"),
+    page
+      .getByLabel("Include universities with unknown requirements")
+      .filter({ visible: true }),
   ).toBeChecked();
-  await expect(page.locator(".university-card")).toHaveCount(3);
+  await expect(page.locator(".university-card")).toHaveCount(7);
   await page.getByRole("button", { name: "Remove SAT: required" }).click();
   await expect(page).not.toHaveURL(/test=/);
   await page
@@ -79,7 +82,7 @@ test("filters persist in URL, unknowns stay distinct, reset and mobile focus wor
   await closeFilters(page);
   await expect(
     page.getByRole("link", {
-      name: "Massachusetts Institute of Technology",
+      name: "View Massachusetts Institute of Technology profile",
       exact: true,
     }),
   ).toBeVisible();
@@ -95,7 +98,7 @@ test("filters persist in URL, unknowns stay distinct, reset and mobile focus wor
   await closeFilters(page);
   await expect(page).toHaveURL(/major=/);
   await expect(
-    page.getByRole("link", { name: "Harvard University", exact: true }),
+    page.getByRole("link", { name: "View Harvard University profile", exact: true }),
   ).toHaveCount(0);
   await filters(page);
   await page
