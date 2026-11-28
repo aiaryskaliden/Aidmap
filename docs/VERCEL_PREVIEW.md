@@ -1,8 +1,21 @@
-# AidMap Preview access
+# AidMap public releases on Vercel Preview
 
 ## Current public release — November 28, 2026
 
 The [public site](https://aidmap-aiaryskaliden.vercel.app/) points to [Vercel Preview](https://aidmap-d05ie9ynh-musorlegend-1144.vercel.app/) deployment `dpl_Cvg54gyR5bja9MktwAjxFpGXcsYE`. The build used the source published in commit `aaaaf45`. Explore shows 150 universities with locally served university marks. The data validator counts 1,325 source-linked field records and the test suite passed 303 tests. The [catalogue expansion record](research/CATALOGUE_150.md) lists the new profiles.
+
+## Release procedure
+
+GitHub Actions verifies changes to `main`. The repository disables automatic Vercel deployments from `main` in [vercel.json](../vercel.json). Previously, Vercel tried to build a Production deployment for the README update, and the install guard rejected it as designed. [Vercel Git configuration](https://vercel.com/docs/project-configuration/git-configuration).
+
+1. Run the [local verification commands](../README.md#testing). Confirm the working tree and existing AidMap project linkage before uploading.
+2. Run `vercel deploy --target preview`. The install and build guard requires Vercel to identify the deployment as Preview.
+3. Wait for Ready and check the exact deployment URL. Verify the home page, Explore, and the routes changed by the release.
+4. For an approved public release, run `vercel alias set <verified-preview-url> aidmap-aiaryskaliden.vercel.app`. Check the public alias without credentials and record the deployment ID, commit and results here.
+
+Keep local credentials outside Git. The [upload allowlist](../.vercelignore) excludes local environment files and test artifacts. Public access to the site and visibility of deployment source and logs are separate settings.
+
+## Release history
 
 ## Previous release — November 27, 2026
 
@@ -51,7 +64,7 @@ The protected-deployment details below are the **October 18 history**, supersede
 - Authenticated Vercel CLI request to `/`: HTTP 200. The CLI generated its standard automation bypass credential; it was not printed or uploaded with application files.
 - Exactly one Ready Preview deployment remains, now with the owner-requested `aidmap-aiaryskaliden.vercel.app` alias. Vercel Authentication protects all URLs (`ssoProtection.deploymentType = all`). Both the aborted first attempt and the explicitly authorized temporary Production placeholder were removed.
 
-## Local preparation
+## Initial local preparation — October 2026
 
 - `pnpm build` completed successfully on October 18, 2026, including strict TypeScript checks and 20 generated pages.
 - Node.js is pinned to the supported `24.x` major version.
@@ -61,7 +74,7 @@ The protected-deployment details below are the **October 18 history**, supersede
 - `.vercel/`, `.vercel-tools/` and `.vercel-bootstrap/` are ignored by Git and excluded from application uploads.
 - The Preview guard was checked against four environments: Preview allowed; Production, missing metadata and a conflicting target blocked. ESLint passed for the guard script.
 
-## Privacy review
+## Initial privacy review — October 2026
 
 The reviewed upload set contains application code, package/build configuration and the public university evidence dataset. The source scan found no credential patterns, personal applicant records or local Windows profile paths. Demo profile values are synthetic and explicitly labelled.
 
@@ -69,7 +82,7 @@ Applicant profiles, saved universities, budgets and tasks are initialized empty 
 
 This is a scoped source and build-output review, not a guarantee against every possible vulnerability. Recheck the upload set whenever files are added.
 
-## Deployment procedure
+## Initial protected deployment procedure — October 2026
 
 1. Sign in to the Vercel CLI personally; do not paste credentials into the repository or chat.
 2. Create or select only the intended AidMap project and confirm its team scope.

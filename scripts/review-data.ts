@@ -47,7 +47,6 @@ async function main() {
   }));
   const summary = {
     reviewDate,
-    previousUniversityCount: 70,
     universityCount: universities.length,
     us: universities.filter((u) => u.region === "United States").length,
     europe: universities.filter((u) => u.region === "Europe").length,
@@ -140,7 +139,7 @@ async function main() {
     "docs/DATA_REVIEW.json",
     JSON.stringify(report, null, 2) + "\n",
   );
-  const markdown = `# AidMap data coverage review\n\nGenerated ${reviewDate}. A researched profile does not mean every field is complete or Fall 2027-confirmed. International funding evidence includes restricted scholarships and explicit no-aid policies; it does not establish an applicant's eligibility.\n\n\`\`\`json\n${JSON.stringify(summary, null, 2)}\n\`\`\`\n\n| Institution | Country | Current admission info | Cost year | Details to review |\n|---|---|---|---|---|\n${rows.map((r) => `| ${r.name} | ${r.country} | ${r.currentAdmission ? "Some fields" : "Not confirmed"} | ${r.costYear ?? "Unknown"} | ${r.review.join(", ") || "Individual conditions and renewal"} |`).join("\n")}\n\n## Source link checks\n\n${
+  const markdown = `# AidMap data coverage review\n\nSnapshot of ${summary.universityCount} university profiles generated on ${reviewDate}. A researched profile does not mean every field is complete or Fall 2027-confirmed. International funding evidence includes restricted scholarships and explicit no-aid policies; it does not establish an applicant's eligibility.\n\n\`\`\`json\n${JSON.stringify(summary, null, 2)}\n\`\`\`\n\n| Institution | Country | Current admission info | Cost year | Details to review |\n|---|---|---|---|---|\n${rows.map((r) => `| ${r.name} | ${r.country} | ${r.currentAdmission ? "Some fields" : "Not confirmed"} | ${r.costYear ?? "Unknown"} | ${r.review.join(", ") || "Individual conditions and renewal"} |`).join("\n")}\n\n## Source link checks\n\n${
     links.length
       ? `${links.filter((l) => l.result === "reachable").length}/${links.length} checked URLs returned successful responses on ${linkCheckDate}. The catalogue includes ${urls.length} distinct source URLs. HTTP access limitations require manual review:\n\n${links
           .filter((l) => l.result !== "reachable")

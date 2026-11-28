@@ -1,5 +1,7 @@
 # Undergraduate catalogue and discovery
 
+This page records the November 2026 release with 70 universities. See the [current catalogue](research/CATALOGUE_150.md), [verification commands](../README.md#testing), and [public release record](VERCEL_PREVIEW.md) for the newer release.
+
 ## Scope and release status
 
 The November 14 public deployment was built from `e5aa73b` on `codex/catalogue-and-discovery`, which includes the November 10 admissions release. The three catalogue checkpoints are `c3264f8` (46), `97ba831` (58) and `75a6cd4` (70). The final review adds requirements, fees, score conditions and replacement source URLs.
@@ -49,7 +51,7 @@ At 375 px, the first Explore keystroke to two animation frames fell from 304 ms 
 
 On November 14, 2026 the production build, standalone data validation, lint and TypeScript checks passed. All 167 Vitest cases and all 45 Playwright cases passed. Browser tests used Microsoft Edge on desktop, tablet and mobile layouts, with keyboard and double-zoom checks. Direct local HTTP checks found the correct name and source section on all 70 profile routes. The host shell reported Node 26.13.0 and pnpm 11.25.0. The repository declares Node 24.x for deployment. The subsequent Vercel Preview build completed successfully and the public routes passed anonymous verification.
 
-Run `pnpm validate:data`, `pnpm lint`, `pnpm typecheck`, `pnpm test` and `pnpm build`. Start the production build with `pnpm start`. In a second terminal run `pnpm test:e2e` and `node scripts/measure-catalogue.mjs after`. On this Windows host set `PLAYWRIGHT_CHANNEL=msedge` for the browser tests. Measurement uses disposable profiles without applicant information. The [raw baseline](research/performance/before.json) and [final run](research/performance/after.json) include navigation, main-thread work, the hydration proxy and transferred JavaScript for each route.
+Follow the [current test setup](../README.md#testing) for Playwright. For performance measurements, run `pnpm build` and `pnpm start`, then run `node scripts/measure-catalogue.mjs after` in a second terminal. Measurement uses disposable profiles without applicant information. The [raw baseline](research/performance/before.json) and [final run](research/performance/after.json) include navigation, main-thread work, the hydration proxy and transferred JavaScript for each route.
 
 Local verification routes include [Explore](http://127.0.0.1:3000/explore), [a shared Canadian search](http://127.0.0.1:3000/explore?country=Canada), [KAIST](http://127.0.0.1:3000/universities/kaist), [Funding](http://127.0.0.1:3000/funding), and [Calculator](http://127.0.0.1:3000/calculator).
 

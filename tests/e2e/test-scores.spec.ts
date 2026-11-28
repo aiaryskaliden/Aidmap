@@ -1,28 +1,33 @@
 import { test, expect } from "@playwright/test";
 
-test("test scores are visible on discovery cards and linked profiles", async ({
+test("discovery exposes the test policy and the linked profile shows score evidence", async ({
   page,
 }, testInfo) => {
   await page.goto("/explore?q=MIT");
   const card = page
     .locator(".university-card")
     .filter({ hasText: "Massachusetts Institute of Technology" });
-  await expect(card).toContainText("1550");
-  await expect(card).toContainText("7.0");
-  await expect(card).toContainText("7.5");
-  await expect(card).toContainText("recommended");
-  await card.screenshot({ path: testInfo.outputPath("scores-card.png") });
   await card
-    .getByRole("link", { name: "Score context, conditions & sources" })
+    .getByRole("button", {
+      name: "Details for Massachusetts Institute of Technology",
+    })
     .click();
+  await expect(
+    card.getByText("SAT / ACT required", { exact: true }),
+  ).toBeVisible();
+  await card.screenshot({ path: testInfo.outputPath("scores-card.png") });
+  await card.getByRole("link", { name: "Requirements and sources" }).click();
   const scores = page.getByRole("region", { name: "SAT and IELTS scores" });
   await expect(scores).toBeVisible();
   await scores.screenshot({ path: testInfo.outputPath("scores-profile.png") });
+  await expect(scores).toContainText("1550");
+  await expect(scores).toContainText("7.0");
+  await expect(scores).toContainText("7.5");
   await expect(scores).toContainText("Median · 50th percentile");
   await expect(scores).toContainText("English evidence: Recommended");
   await expect(
-    scores.getByRole("link", { name: /Official score data/ }),
-  ).toHaveAttribute("href", /mit\.edu/);
+    scores.getByRole("link", { name: /View original institutional data/ }),
+  ).toHaveAttribute("href", /^https:\/\/ir\.mit\.edu\//);
   await expect(page.locator("body")).toHaveJSProperty(
     "scrollWidth",
     await page.evaluate(() => document.body.clientWidth),

@@ -13,5 +13,8 @@ export default defineConfig([
     ".vercel-bootstrap/**",
     "test-results/**",
     "playwright-report/**",
+    "tmp/**",
+    "out/**",
+    "coverage/**",
   ]),
 ]);

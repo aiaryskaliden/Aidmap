@@ -1,6 +1,6 @@
 # AidMap validation record
 
-The [November branch review](CATALOGUE_RELEASE.md) records current checks, performance evidence and deployment status.
+Use the [current verification commands](../README.md#testing) and [release notes](VERCEL_PREVIEW.md) for today's workflow. The November [70-university review](CATALOGUE_RELEASE.md) and the October snapshot below preserve earlier results.
 
 ## October 2026 snapshot
 
@@ -15,7 +15,7 @@ Local verification: **October 20, 2026**. Node 24.19.0, pnpm 11.25.0, Next.js 16
 | `pnpm build` | Passed with Webpack; 43 generated pages, including 30 university profiles |
 | `pnpm start` | Production server ran on http://127.0.0.1:3000 |
 | `$env:PLAYWRIGHT_CHANNEL = 'msedge'; pnpm test:e2e` | 27 passed against the production build in 2.4 minutes: 9 scenarios at each of 3 sizes |
-| `$env:PLAYWRIGHT_CHANNEL = 'msedge'; node scripts/capture-preview.mjs` | 8 updated curated screenshots; no uncaught page exceptions |
+| [Historical screenshot capture script](https://github.com/aiaryskaliden/Aidmap/blob/0642c04/scripts/capture-preview.mjs) | 8 updated curated screenshots; no uncaught page exceptions |
 | `pnpm exec tsx scripts/review-data.ts --check-links` | 152 URLs checked: 129 successful HTTP responses, 1 HTTP 404, 22 access-limited/failed/manual checks |
 | `pnpm exec tsx scripts/review-data.ts --keep-link-results` | Coverage refreshed after the source-status correction; retained the October 20 HTTP results |
 | `git diff --check` | Passed |
@@ -44,7 +44,7 @@ One development run captured a Next Fast Refresh router initialization error whi
 
 ## Visual and privacy checks
 
-Reviewed desktop/tablet/mobile explorer and calculator captures. Improved secondary text sizes and removed an empty error banner. Updated curated home, explorer, profile, calculator and dark-theme images in `docs/screenshots/`; all use empty or explicitly synthetic test workspaces.
+Reviewed desktop/tablet/mobile explorer and calculator captures. Improved secondary text sizes and removed an empty error banner. The [archived captures](https://github.com/aiaryskaliden/Aidmap/tree/0642c04/docs/screenshots) use empty or explicitly synthetic test workspaces. Current screenshots are in the [README](../README.md).
 
 Scoped source review found no applicant-upload endpoint, analytics integration, outbound application fetch, embedded private key, common API token pattern or personal applicant data. Runtime applicant information remains browser-local. `.vercelignore` continues to exclude local credentials, exports, screenshots, documentation and caches. This is a scoped review, not a comprehensive penetration test or dependency vulnerability audit.
 

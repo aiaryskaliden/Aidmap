@@ -72,7 +72,7 @@ Economics не автоматически становится Business. В ка
 - `pnpm lint` и `pnpm typecheck`: прошли.
 - `pnpm build`: production-сборка Webpack прошла, 43 страницы.
 - `pnpm start`, затем `$env:PLAYWRIGHT_CHANNEL = 'msedge'; pnpm test:e2e`: 27 сценариев прошли на production-сборке, desktop/tablet/mobile.
-- `$env:PLAYWRIGHT_CHANNEL = 'msedge'; node scripts/capture-preview.mjs`: 8 обновлённых снимков; только изолированные пустые или синтетические данные.
+- [Исторический скрипт снимков](https://github.com/aiaryskaliden/Aidmap/blob/0642c04/scripts/capture-preview.mjs) создал восемь снимков с пустыми или синтетическими данными.
 - `pnpm exec tsx scripts/review-data.ts --check-links`: результаты доступности приведены выше. Последующий `--keep-link-results` сохранил дату сетевой проверки при пересчёте покрытия.
 - `git diff --check`: прошёл.
 

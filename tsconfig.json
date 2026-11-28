@@ -27,6 +27,12 @@
     "node_modules",
     ".pnpm-store",
     "playwright-report",
-    "test-results"
+    "test-results",
+    "tmp",
+    "out",
+    "coverage",
+    ".vercel",
+    ".vercel-tools",
+    ".vercel-bootstrap"
   ]
 }

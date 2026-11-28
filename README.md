@@ -90,9 +90,12 @@ pnpm validate:data
 pnpm test
 pnpm exec playwright install chromium
 pnpm test:e2e
+pnpm build
 ```
 
-Vitest covers catalogue rules, funding arithmetic, fit checks, advisor logic, and workspace state. Playwright exercises student journeys at desktop, tablet, and mobile widths in Chromium. It starts a local server when port 3000 is free. With Edge already installed on Windows, set `$env:PLAYWRIGHT_CHANNEL = 'msedge'` before running `pnpm test:e2e` to use Edge.
+Vitest covers catalogue rules, funding arithmetic, fit checks, advisor logic, and workspace state. Playwright starts its own development server on port 3100 and exercises desktop, tablet, and mobile layouts in Chromium. It uses the public catalogue and no-charge billing preview. To use Edge on Windows, set `$env:PLAYWRIGHT_CHANNEL = 'msedge'` before running `pnpm test:e2e`.
+
+GitHub Actions runs these checks on pushes and pull requests to `main`. Public releases use the separate [Vercel Preview procedure](docs/VERCEL_PREVIEW.md).
 
 ## Limitations
 

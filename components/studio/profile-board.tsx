@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useRef, useState } from "react";
 import {
   ArrowRight, ArrowUpRight, Award, BookOpen, Compass, FileText, Globe2, GraduationCap,
-  Landmark, Medal, Pencil, Plus, School, UserRound, UsersRound, Wallet, X,
+  Landmark, Pencil, Plus, School, UserRound, UsersRound, Wallet, X,
 } from "lucide-react";
 import { useApp } from "@/components/providers";
 import { emptyStudio, type ApplicantStudio } from "@/types/studio";

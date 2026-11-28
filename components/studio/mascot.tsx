@@ -8,18 +8,3 @@ export function MascotMark({ size = 19 }: { size?: number }) {
     </span>
   );
 }
-
-export function Mascot() {
-  return (
-    <div className={styles.artwork} aria-hidden="true">
-      <Image
-        src="/brand/wayfinder.webp"
-        alt=""
-        width={900}
-        height={600}
-        loading="eager"
-        unoptimized
-      />
-    </div>
-  );
-}

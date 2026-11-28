@@ -1,5 +1,7 @@
 # AidMap data coverage review
 
+This snapshot covers the 100-university catalogue. See the [150-university research record](research/CATALOGUE_150.md) for later additions and verification.
+
 Generated 2026-11-22. A researched profile does not mean every field is complete or Fall 2027-confirmed. International funding evidence includes restricted scholarships and explicit no-aid policies; it does not establish an applicant's eligibility.
 
 ```json

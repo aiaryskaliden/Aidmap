@@ -13,6 +13,8 @@ playwright-report/
 !.env.example
 *.log
 tmp/
+__pycache__/
+.pytest_cache/
 .DS_Store
 desktop.ini
 Thumbs.db
@@ -22,7 +24,3 @@ Thumbs.db
 *.pfx
 *workspace-export*.json
 *workspace-backup*.json
-
-.vercel
-.env*
-!.env.example

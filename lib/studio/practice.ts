@@ -1,4 +1,4 @@
-/** Original writing exercises and fictional applicants for the public library. */
+/** Original writing exercises retained for Studio links that predate the essay library. */
 export const essayExercises = [
   {
     id: "translation-on-a-bus",
@@ -71,53 +71,3 @@ export const essayExercises = [
   },
 ] as const;
 export type EssayExercise = (typeof essayExercises)[number];
-
-export const exampleProfiles = [
-  {
-    id: "amina",
-    title: "Amina",
-    category: "Computer Science",
-    place: "Kazakhstan",
-    academics: "4.6 / 5 GPA · IELTS 7.0",
-    description:
-      "Documented a school coding club and built a checklist app for classmates.",
-    activity:
-      "Amina tracks weekly usage and invites learners to report the steps that confuse them.",
-    next: "Check submission rules for her qualification and record the scholarship deadlines separately.",
-  },
-  {
-    id: "leo",
-    title: "Leo",
-    category: "Engineering",
-    place: "Vietnam",
-    academics: "IB Diploma · SAT 1460",
-    description:
-      "Works on a robotics team and helps maintain equipment after school.",
-    activity:
-      "Leo shows how he replaced a fragile mount and how the team tested the new design.",
-    next: "Verify whether each programme requires higher-level mathematics or physics.",
-  },
-  {
-    id: "zahra",
-    title: "Zahra",
-    category: "Data Science",
-    place: "Jordan",
-    academics: "3.7 / 4 GPA · IELTS 7.5",
-    description: "Analyses local transport data with a community group.",
-    activity:
-      "Zahra describes how missing records changed what she could conclude and how the group checked the results.",
-    next: "Compare tuition and funding in the same currency before narrowing her list.",
-  },
-  {
-    id: "niko",
-    title: "Niko",
-    category: "Engineering",
-    place: "Georgia",
-    academics: "4.7 / 5 GPA · IELTS 6.5",
-    description:
-      "Volunteers in a repair workshop and started a guide to common faults.",
-    activity:
-      "Niko records which parts of the guide new volunteers can follow independently.",
-    next: "Check the accepted English test format and whether official results must arrive with the application.",
-  },
-] as const;

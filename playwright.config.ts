@@ -1,4 +1,8 @@
 import { defineConfig, devices } from "@playwright/test";
+
+const port = 3100;
+const baseURL = `http://127.0.0.1:${port}`;
+
 export default defineConfig({
   testDir: "./tests/e2e",
   fullyParallel: false,
@@ -7,7 +11,7 @@ export default defineConfig({
   expect: { timeout: 15000 },
   reporter: [["list"], ["html", { open: "never" }]],
   use: {
-    baseURL: "http://127.0.0.1:3000",
+    baseURL,
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
   },
@@ -38,9 +42,21 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: "pnpm dev --webpack",
-    url: "http://127.0.0.1:3000",
-    reuseExistingServer: !process.env.CI,
+    command: `pnpm dev --port ${port}`,
+    url: baseURL,
+    reuseExistingServer: false,
+    env: {
+      ADVISOR_AI_MODE: "catalogue",
+      GROQ_API_KEY: "",
+      ADVISOR_DEMO_TOKEN: "",
+      ADVISOR_REDIS_REST_URL: "",
+      ADVISOR_REDIS_REST_TOKEN: "",
+      BILLING_APP_ORIGIN: "",
+      BILLING_COOKIE_SECRET: "",
+      BILLING_STRIPE_SECRET_KEY: "",
+      BILLING_STRIPE_MONTHLY_PRICE_ID: "",
+      BILLING_STRIPE_YEARLY_PRICE_ID: "",
+    },
     timeout: 180000,
   },
 });

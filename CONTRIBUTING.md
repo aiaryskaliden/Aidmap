@@ -10,15 +10,16 @@ Keep the product trustworthy before expanding its directory.
 - Add tests for meaningful domain changes, especially monetary calculations and imported data. Do not duplicate purely presentational implementation in tests.
 - Verify the core journey at desktop and mobile widths. Keep no-op controls out of the UI.
 
-Before submitting a change, run:
+Install dependencies with `pnpm install --frozen-lockfile` and run the checks used by [GitHub Actions](.github/workflows/verify.yml):
 
 ```sh
 pnpm lint
 pnpm typecheck
 pnpm validate:data
 pnpm test
+pnpm exec playwright install chromium
 pnpm test:e2e
 pnpm build
 ```
 
-Use `pnpm format` for code formatting. Review generated changes and never commit browser storage exports, applicant data, `node_modules`, `.next`, screenshots containing private data, or temporary test traces. No project license has been selected.
+Format changed files with `pnpm exec prettier --write <files>`. Keep local secrets in an ignored `.env.local` file and use [.env.example](.env.example) for variable names. Review generated changes and never commit browser storage exports, applicant data, screenshots containing private data, or temporary test traces. No project license has been selected.

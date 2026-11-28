@@ -237,6 +237,7 @@ test("calculator keeps independent results and compares currencies without conve
 });
 
 test("funding URL state, researched profiles, keyboard and reflow remain usable", async ({
+  baseURL,
   page,
 }, info) => {
   const errors: string[] = [];
@@ -245,7 +246,7 @@ test("funding URL state, researched profiles, keyboard and reflow remain usable"
   page.on("request", (r) => {
     if (
       /^https?:/.test(r.url()) &&
-      !r.url().startsWith("http://127.0.0.1:3000")
+      new URL(r.url()).origin !== baseURL
     )
       remote.push(new URL(r.url()).origin);
   });
@@ -282,8 +283,11 @@ test("funding URL state, researched profiles, keyboard and reflow remain usable"
     ).toBe(true);
   }
   await page.emulateMedia({ reducedMotion: "reduce" });
+  const menu = page.getByRole("button", { name: "Open menu", exact: true });
+  if (await menu.isVisible()) await menu.click();
   await page.getByRole("button", { name: "Switch to dark theme" }).click();
   await page.goto("/universities/mit");
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
   await page
     .getByRole("button", { name: "Explain SAT and ACT policies" })
     .focus();
@@ -294,8 +298,8 @@ test("funding URL state, researched profiles, keyboard and reflow remain usable"
     path: `test-results/${info.project.name}-core-dark.png`,
     fullPage: false,
   });
-  await page.setViewportSize({ width: 780, height: 844 });
-  await page.evaluate(() => (document.body.style.zoom = "2"));
+  // Browser zoom halves the CSS viewport and reevaluates responsive breakpoints.
+  await page.setViewportSize({ width: 390, height: 422 });
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,
