@@ -1,35 +1,87 @@
 # AidMap
 
-**Find universities. Understand funding. Plan your future.**
+AidMap helps international undergraduate applicants find universities, research funding, and prepare applications. It connects published admissions and aid sources with a browser-local workspace for shortlists, comparisons, essays, tasks, and deadlines.
 
-[Explore AidMap](https://aidmap-aiaryskaliden.vercel.app/) · [Source code](https://github.com/aiaryskaliden/Aidmap) · [Developer profile](https://github.com/aiaryskaliden)
+**150 universities · 27 countries and territories · 110 funding options · 1,325 source-linked evidence records**
 
-AidMap is a local-first university research and application-planning product for international undergraduate applicants. The public Preview connects 70 source-backed undergraduate profiles across 14 destinations with funding research, a whole-cost calculator, and a private applicant workspace. Target planning cycle: **Fall 2027**; general policies, historical references and cost years are labeled separately.
+## Live Demo
 
-There are no accounts, paid APIs, applicant uploads, analytics, or required environment variables. The applicant advice is rule-based and private; optional generative-AI review is not yet connected. AidMap does not submit applications or predict admissions decisions.
+[Open AidMap](https://aidmap-aiaryskaliden.vercel.app/) to explore the public Vercel preview. Start in [University Explorer](https://aidmap-aiaryskaliden.vercel.app/explore), save a university, then open [Deadline Planner](https://aidmap-aiaryskaliden.vercel.app/planner) to organize its application. The core workspace requires no account.
 
-AidMap was created to make researching universities less fragmented: discover and compare options, understand funding, and organize an application shortlist. The live website and this repository include the core planning upgrade and the SAT/IELTS score summaries. The website is public; each visitor's applicant workspace stays in their own browser. The new application roadmaps, researched SAT percentiles and MBZUAI waiver guidance are designed for student self-service; the optional AI Advisor is not active until the owner sets up a provider and spending limits.
+![Application Studio overview with UCAS, University of California, Common App, and MIT preparation cards](docs/screenshots/workspace/application-studio.png)
 
-## Published catalogue
+## Features
 
-The public Preview currently serves **70 universities across 14 countries and territories**, **75 funding options**, and **829 source-linked evidence records**. See the [published release review](docs/CATALOGUE_RELEASE.md) for coverage and verification.
+| Tool                                                                      | What you can do                                                                                                                                                                                                                           |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Application Studio](https://aidmap-aiaryskaliden.vercel.app/studio)      | Build an applicant profile, prepare essays and activities, record honors, and track preparation for UCAS, the University of California, Common App, and MIT. Import résumé or essay text from PDF, DOCX, TXT, or Markdown in the browser. |
+| [University Explorer](https://aidmap-aiaryskaliden.vercel.app/explore)    | Search by university and filter by destination, subject, funding, testing, intake, and published acceptance rate. Open a profile for the scope, cycle, and sources behind its admissions and cost figures.                                |
+| [Scholarship Explorer](https://aidmap-aiaryskaliden.vercel.app/funding)   | Search and save institutional aid policies, competitive scholarships, government awards, and fee reductions. Review eligibility, coverage, and separate aid deadlines where documented.                                                   |
+| [Ask Maple AI Advisor](https://aidmap-aiaryskaliden.vercel.app/advisor)   | Ask about programmes, costs, funding, or next steps in English, Russian, or Kazakh. The public advisor answers from the AidMap catalogue and links to official sources.                                                                   |
+| [University Fit](https://aidmap-aiaryskaliden.vercel.app/studio?view=fit) | Check an applicant profile against published programme, test, budget, and application evidence. Results explain which criteria match and which details need review.                                                                       |
+| [Compare](https://aidmap-aiaryskaliden.vercel.app/compare)                | Compare up to four universities side by side across costs, funding, eligibility, and application requirements. Select differences-only to focus on where they diverge.                                                                    |
+| [Deadline Planner](https://aidmap-aiaryskaliden.vercel.app/planner)       | Track saved applications through tasks, notes, dates, and statuses. Switch among the timeline, status board, requirements matrix, and deadline calendar.                                                                                  |
+| [Cost Calculator](https://aidmap-aiaryskaliden.vercel.app/calculator)     | Estimate annual cost and the remaining funding gap in one currency. Model hypothetical aid separately from confirmed awards.                                                                                                              |
 
-## Catalogue in this checkout
+The screenshot examples use a disposable browser workspace and synthetic applicant inputs.
 
-The catalogue contains **150 universities across 27 countries and territories**, with **110 funding options** and **1,325 source-linked evidence records**. Run `pnpm validate:data` to verify the current source. The [expansion record](docs/research/CATALOGUE_150.md) lists all 50 additions and their programme sources.
+|                                                                                                                           |                                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| ![University Explorer showing catalogue filters and university cards](docs/screenshots/workspace/university-explorer.png) | ![Scholarship Explorer showing eligibility and aid deadlines](docs/screenshots/workspace/scholarship-explorer.png)            |
+| ![Ask Maple answering a question about undergraduate financial aid](docs/screenshots/workspace/ask-maple.png)             | ![University Fit showing an evidence-based readiness review for MIT](docs/screenshots/workspace/university-fit.png)           |
+| ![Compare showing funding policy differences across three universities](docs/screenshots/workspace/compare.png)           | ![Deadline Planner showing saved universities and a sample application task](docs/screenshots/workspace/deadline-planner.png) |
 
-## Run locally
+<details>
+<summary>Application Studio on mobile</summary>
 
-Use Node.js 24 and pnpm 11.25.0.
+![Application Studio on a 390-pixel-wide mobile viewport](docs/screenshots/workspace/application-studio-mobile.png)
+
+</details>
+
+## Run Locally
+
+Use Node.js **24.x** with pnpm **11.25.0**. If pnpm is missing, install the pinned version with `npm install --global pnpm@11.25.0`.
 
 ```sh
-corepack enable
-corepack prepare pnpm@11.25.0 --activate
+git clone https://github.com/AiarysKaliden/AidMap.git
+cd AidMap
 pnpm install --frozen-lockfile
 pnpm dev --webpack
 ```
 
-Open **http://127.0.0.1:3000**. If Corepack is unavailable, install pnpm using its official installation instructions. On the original Codex workstation, pnpm is already available.
+Open <http://127.0.0.1:3000>. The catalogue, workspace, and public Maple mode run with no environment variables. Optional services are described in the [Advisor guide](docs/AI_ADVISOR.md) and [.env.example](.env.example).
+
+To run the production build locally, stop the development server and run `pnpm build` followed by `pnpm start`.
+
+## Architecture
+
+| Layer                                                                                           | Responsibility                                                                                                                                         |
+| ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`app/`](app) and [`components/`](components)                                                   | Next.js App Router pages and responsive workspaces. Discovery filters use shareable URL parameters.                                                    |
+| [`data/`](data), [`types/`](types), and [`lib/validation/`](lib/validation)                     | Checked-in research, typed domain records, and schema, cycle, and source-reference validation.                                                         |
+| [`lib/funding/`](lib/funding), [`lib/matching/`](lib/matching), and [`lib/studio/`](lib/studio) | Cost calculations, explainable fit checks, application checklists, and draft reviews.                                                                  |
+| [`lib/storage/`](lib/storage)                                                                   | Versioned browser storage for the applicant workspace, with JSON backup and restore plus CSV shortlist export.                                         |
+| [`app/api/advisor/`](app/api/advisor) and [`lib/advisor/`](lib/advisor)                         | Public catalogue-backed responses. An optional Groq coaching mode requires separate configuration and explicit consent for authorized synthetic demos. |
+
+The optional Pro workspace adds a university-specific checklist, funding and deadline views, and essay drafts. The repository includes Stripe checkout and customer portal integration for configured deployments, plus a no-charge local preview. See [.env.example](.env.example).
+
+## Technology Stack
+
+- **Application** — Next.js 16, React 19, TypeScript, Tailwind CSS 4, and Zod
+- **Verification** — ESLint, Vitest, and Playwright
+- **Hosting** — Vercel Preview
+
+See [package.json](package.json) and the [lockfile](pnpm-lock.yaml) for dependencies.
+
+## Data Sources
+
+The catalogue draws on official university admissions, programme, tuition, and financial aid pages, institutional Common Data Sets, and official government scholarship pages where applicable. The [methodology](docs/DATA_METHODOLOGY.md) explains attribution and evidence labels. The [150-university research record](docs/research/CATALOGUE_150.md) lists the latest additions and their programme sources.
+
+- University records carry source URLs, review dates, and intake or cohort labels where available. Historical SAT distributions and admission rates describe specific cohorts. Current entry requirements are recorded separately.
+- The 110 funding entries comprise 45 institutional policies, 56 competitive scholarships, 5 government scholarships, and 4 fee reductions. Full tuition and full cost of attendance are distinct. Individual awards and affordability depend on the institution’s assessment and the applicant’s circumstances.
+- The evidence total counts field-level records in the [normalized catalogue](data/universities.ts), including entries that refer to the same source URL. The data validator reports that total. The live [university catalogue](https://aidmap-aiaryskaliden.vercel.app/explore) and [funding catalogue](https://aidmap-aiaryskaliden.vercel.app/funding) display their respective record counts.
+
+## Testing
 
 ```sh
 pnpm lint
@@ -38,182 +90,21 @@ pnpm validate:data
 pnpm test
 pnpm exec playwright install chromium
 pnpm test:e2e
-pnpm build
-pnpm start
 ```
 
-For an installed Microsoft Edge browser on Windows, no browser download is needed:
+Vitest covers catalogue rules, funding arithmetic, fit checks, advisor logic, and workspace state. Playwright exercises student journeys at desktop, tablet, and mobile widths in Chromium. It starts a local server when port 3000 is free. With Edge already installed on Windows, set `$env:PLAYWRIGHT_CHANNEL = 'msedge'` before running `pnpm test:e2e` to use Edge.
 
-```powershell
-$env:PLAYWRIGHT_CHANNEL = 'msedge'
-pnpm test:e2e
-```
+## Limitations
 
-Playwright starts the development server if needed, or reuses port 3000 locally. It covers desktop, tablet and mobile viewports in Chromium; this is not a Safari compatibility claim. To test the production build, run `pnpm build` and `pnpm start` before the browser tests. Some managed Windows sandboxes block loopback and child-process IPC: run preview/browser tests in a terminal permitted to use loopback. Production builds use Next.js's supported Webpack bundler because a Turbopack CSS worker failed on the development host. No application code depends on Windows paths.
+- Coverage varies by institution and intake. Some Fall 2027 costs, deadlines, eligibility rules, and requirements remain incomplete. Check the linked official sources before making decisions.
+- Fit checks and essay feedback are preparation aids. AidMap provides no admissions probability, award decision, or guarantee of affordability.
+- AidMap does not submit applications, send reminders, or sync across devices. Clearing site data removes the local workspace. Use JSON export to keep a backup.
+- The public Maple mode uses catalogue logic. External model coaching requires a configured, authorized demo.
 
-## What is implemented
+## Roadmap
 
-| Route                  | Working behavior                                                                                                                        |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| `/`                    | Application overview, saved universities, setup progress, and shortcuts to profile, essays, fit and Maple |
-| `/studio`              | Applicant profile, essay review, activity tiers, honors and achievements, university fit and final review |
-| `/my-list`             | Saved universities grouped into Reach, Target, Safety and Unsure, with evidence-based cues and persistent manual grouping |
-| `/pricing`             | Standalone plan comparison, monthly and annual prices, and return to the selected reading guide or university workspace |
-| `/universities/[slug]/apply` | Pro workspace for that university's fit review, document checklist, funding and deadlines, and school-specific essay drafts |
-| `/advisor`             | Maple chat in English, Russian and Kazakh, with catalogue results and one expandable source per reply |
-| `/essays`              | Published admissions essays with reading guides, original-source links and filters for situation, theme and university |
-| `/profiles`            | Published student profiles with reading guides and filters for subject, situation and university |
-| `/match`               | Explanatory profile-fit checklist, evidence coverage, university ranking and local shortlist saving; never admission probability |
-| `/improve`             | Private, persistent application preparation checklist for tests, CV, essays, references, school-specific guidance; optional opt-in AI Advisor when configured |
-| `/explore`             | Search, combined URL-backed filters, sorting, grid/list views, save and comparison actions, honest empty states                         |
-| `/universities/[slug]` | Undergraduate profiles, program-specific requirements, admissions/funding policies, dated costs, evidence and confirmed deadline imports |
-| `/start`               | Optional four-step onboarding, skippable academic/funding preferences, explained research matches                                       |
-| `/compare`             | Up to four persistent selections, replacement/removal, optional differences-only view, horizontally scrollable table                    |
-| `/funding`             | Searchable/filterable institutional aid policies, save actions, eligibility/source links, separate aid deadlines                        |
-| `/calculator`          | Seven cost categories, unknown handling, confirmed-award base case, separate hypothetical result, currency isolation, saved scenarios   |
-| `/dashboard`           | Real saved universities, task counts, custom dates, scenarios, saved funding policies and explainable subject matches                   |
-| `/planner`             | Status updates, personal dates, notes, task creation/edit/delete/complete, deadline-sorted cards and a status board                     |
-| `/profile`             | Optional validated preferences, explicit synthetic demo, JSON export/import preview, CSV shortlist export, local reset                  |
-| `/about`               | Dataset, funding, matching and privacy methodology                                                                                      |
+- Verify more Fall 2027 admissions and aid deadlines, applicant-specific requirements, and dated cost breakdowns.
+- Improve the editorial workflow for refreshing sources and broadening coverage of affordable programmes.
+- Expand real-device and assistive-technology testing, and evaluate calendar export and reminders.
 
-Light/dark themes, responsive navigation, reduced-motion support, keyboard-accessible native controls, safe external links, loading/error/empty states, custom favicon and route metadata are included. Shared button composition follows the shadcn/ui approach with Radix Slot and class-variance-authority; no full component library is required.
-
-## Data and evidence
-
-The November release added 36 undergraduate universities to the original 34. Eight detailed dossiers include 180 sourced requirement records and 77 dated, recurring or relative events. These are researched profiles, not a claim that every field or Fall 2027 deadline is verified. See [the coverage report](docs/DATA_REVIEW.md), [the core upgrade report](docs/MVP_UPGRADE_REPORT.md), and [SAT/IELTS coverage](docs/TEST_SCORE_BENCHMARKS.md) for institution-level gaps and source checks.
-
-- Raw findings: `research-universities.json`, `data/research-*-v2.json`, `data/research-asia-v1.json`, `data/research-expansion-*.json`, `data/core-research-*.json`, and `data/research-testing.json`.
-- Normalized typed records and policy opportunities: `data/universities.ts`.
-- See the [admissions figures and university marks guide](docs/research/ADMISSION_RATES.md) for recent rates, year and scope labels, and official-source attribution.
-- Zod schemas and nullable facts: `types/domain.ts`.
-- Consistency checks: `lib/validation/universities.ts` and `scripts/validate-data.ts`.
-- Research policy and source index: [docs/DATA_METHODOLOGY.md](docs/DATA_METHODOLOGY.md).
-
-**Source-checked is not the same as cycle-confirmed.** General policies retain a null/general cycle. Aid deadlines are distinct from admission deadlines. The UI links claims to exact source entries, including notes and check dates. Unknowns are stored as null, never zero. No live scraper updates the data automatically; maintenance requires editorial review.
-
-The November expansion adds universities in Canada, Finland, Qatar and South Korea, alongside new profiles in existing destinations. The catalogue includes actual undergraduate Business, European and full-tuition options. Its US coverage remains weighted toward selective institutions. Scholarship restrictions, personal expenses, partial stipends and historical award calls remain visible; none is an individual award or a guarantee of affordability.
-
-Filters use AND between groups and OR within a group. Unknown requirements have a separate result count and an explicit inclusion switch; known mismatches stay excluded. Test score statistics are not admission cutoffs. Program-specific and scholarship-only language evidence cannot silently become university-wide admission requirements.
-
-Maintenance commands:
-
-```sh
-pnpm validate:data
-pnpm exec tsx scripts/review-data.ts --check-links
-```
-
-The report checks link reachability, not content correctness. A timeout, HTTP 403 or rate limit requires a manual review, not an invented verification result.
-
-## Financial logic
-
-Pure TypeScript functions in `lib/funding/calculate.ts` implement:
-
-1. Sum every cost category only when all are known. Otherwise return a known subtotal and unknown total/gap.
-2. Subtract only an explicitly self-reported confirmed award in the same currency, with a zero floor.
-3. Compare remaining cost with the applicant's annual contribution. A blank contribution means unknown, while an explicit zero means no contribution. Invalid contributions keep valid expense totals visible and block saving.
-4. Calculate hypothetical total-award scenarios separately; they never modify the base case.
-
-Amounts use integer minor units for arithmetic, with two decimal places, to avoid floating-point rounding gaps. Inputs reject negative, nonfinite, or oversized amounts.
-
-A full tuition award does not eliminate housing, meals, insurance and other costs. A full-need policy does not establish an applicant's personal award. Student employment and loans are not counted as confirmed grants. UI-entered costs are assumptions, even when a user has consulted an official page. AidMap does not validate award documents.
-
-USD, EUR, GBP and KZT are supported as separate scenario currencies. Switching currency clears amounts. There are no exchange-rate conversions or implied parity between currencies.
-
-## Local data and privacy
-
-`aidmap:v1` in browser local storage contains a versioned Zod-validated workspace. The storage layer is independent of UI components; a future account/sync adapter can replace it.
-
-- No profile, budget, notes or financial amounts appear in shareable search URLs.
-- Corrupted or unsupported stored data is retained and blocks overwriting until the user exports the original and resets/imports.
-- Storage-access/quota failures show an explicit warning; in-memory changes may last only for the current session.
-- JSON imports are size-limited and validated; the user reviews counts before replacing the workspace.
-- CSV cells escape quotes/newlines and guard formula prefixes.
-- Clearing browser data deletes the workspace. Export backups to keep it. A shared browser profile is not an encrypted vault.
-
-## Architecture
-
-```text
-app/                    App Router routes, metadata and global styles
-components/
-  layout/               Header, footer and workspace navigation
-  ui/                   Buttons, evidence labels, states and notices
-  universities/         Explorer, cards, profiles and comparison
-  funding/              Calculator and funding explorer
-  workspace/            Profile, dashboard and planner
-data/                   Validated university/policy records
-lib/
-  funding/              Pure financial calculations
-  matching/             Explainable deterministic research rules
-  storage/              Pure state transitions and export handling
-  validation/           Source/data consistency validation
-types/                  TypeScript and Zod domain contracts
-tests/                  Vitest rules and Playwright student journeys
-docs/                   Research, design and roadmap documentation
-```
-
-Stack: Next.js App Router, React, strict TypeScript, Tailwind CSS 4, self-hosted Inter and Manrope, shadcn-style/Radix button primitives, Lucide, Zod, Recharts, Vitest and Playwright. Dependency versions are locked by `pnpm-lock.yaml`. Recharts is used only for actual user-entered cost composition.
-
-## Free and Pro
-
-Free includes the full university and funding directories, sources, saved universities, comparisons, and the standalone application tools. Pro adds one workspace per university with profile checks, document progress, intake-specific deadlines and funding, and essay drafts assigned to that university. Checklist progress and drafts use the existing browser data and are included in its backup.
-
-With the development server running and all billing variables unset, open `/pricing` and choose **Try Pro preview**. The preview uses a server-set cookie and makes no payment requests. An incomplete Stripe configuration keeps paid features locked. In production the Pro route checks active subscription status through Stripe. Configure the server-only billing settings from `.env.example`, matching the displayed $12 monthly or $84 yearly USD price, and enable the hosted customer portal. Use Stripe test mode to verify checkout, renewal, cancellation, and portal access before enabling live payments. Subscription access currently follows the purchasing browser, which stores the signed cookie. Account recovery and cross-device billing access require an account system.
-
-## Tests and screenshots
-
-Unit tests cover funding arithmetic, full tuition vs total costs, unknowns, currencies, combined filters, program conditions, date/cycle safety, transparent matching, local round-trips, comparison limits, task updates, corrupt data and evidence validation failures. Playwright covers the complete research-to-planning journey, actual JSON/CSV download contents, restore after reset in isolated test contexts, date persistence, mobile filter focus, onboarding, theme persistence and page overflow at desktop/tablet/mobile widths.
-
-Playwright produces screenshots in `test-results/` and a local HTML report in `playwright-report/` (both ignored by Git). See [docs/VALIDATION.md](docs/VALIDATION.md) for the actual validation status and any limitations. Do not infer successful verification merely from the presence of a test file.
-
-![AidMap desktop homepage](docs/screenshots/home-desktop.png)
-
-View the [filtered explorer](docs/screenshots/explore-desktop.png), [university profile](docs/screenshots/university-desktop.png), [financial calculator](docs/screenshots/calculator-desktop.png), [mobile homepage](docs/screenshots/home-mobile-first-screen.png), and [dark theme](docs/screenshots/preferences-dark.png).
-
-To recreate the curated screenshots against a running local server:
-
-```sh
-node scripts/capture-preview.mjs
-```
-
-The script uses an isolated browser context and synthetic calculator inputs. Set `PLAYWRIGHT_CHANNEL=msedge` to use installed Edge, or install Playwright Chromium first. Set `AIDMAP_PREVIEW_URL` to target a different local port.
-
-## Vercel deployment preparation
-
-The [public AidMap site](https://aidmap-aiaryskaliden.vercel.app) points to the November 28, 2026 Preview. Anyone can open Explore and browse the 150-university catalogue. Each library includes two free reading guides.
-
-The deployment uses Vercel Preview and the public domain is assigned as an alias. `scripts/require-preview.mjs` checks the deployment target before installation and build. `.vercelignore` limits CLI uploads to application files, public images and build inputs. The release was built from the local working tree.
-
-The [verified Preview](https://aidmap-d05ie9ynh-musorlegend-1144.vercel.app/) and [deployment record](docs/VERCEL_PREVIEW.md) show the published version and validation history.
-
-For subsequent Preview deployments:
-
-1. Use Node.js 24, matching `engines.node`, and Vercel CLI.
-2. Sign in yourself with `vercel login` and link to the existing AidMap project.
-3. Review the intended website audience; the current AidMap project is public.
-4. Run `vercel deploy --dry --json` and review the upload manifest.
-5. Run `vercel deploy --target preview`. Keep the commands in `vercel.json`: they enforce Preview before installation and build.
-6. Confirm Ready status and Preview classification, then update the personalized alias and verify anonymous access to the intended version.
-
-No application environment variables, external services or applicant-data backend are required. Do not delete the last remaining deployment and blindly retry: a new/empty project's first deployment can be assigned to Production even with an explicit Preview target. See the deployment record for the initialization workaround and authorization history. Production deployment has not been authorized for the application. GitHub pushes are not configured to trigger automatic Vercel deployments.
-
-The core product has no runtime API/backend dependency after pages and client assets load. An optional AI Advisor API route is disabled until model credentials and abuse/spend controls are configured; the main site needs no AI account. The default distribution still needs a Next.js host to serve routes; it is not a fully offline PWA.
-
-## Current limits and next steps
-
-- 27 institutions have some current-cycle admission information, and nine have dated annual cost baselines. Complete Fall 2027 costs and many application documents, language conditions and dates remain unverified. Check the per-institution coverage report.
-- Aid dates and forms have differing cycle coverage. Princeton's aid deadline table needs confirmation; Bowdoin and Yale have country/process-specific caveats. See the source notes.
-- Competitive awards and European fee support have program, citizenship, income, renewal and cycle restrictions. Full-need policies are not labeled as full tuition or full-ride awards.
-- Matching currently uses documented interests, destinations and funding policies. Citizenship restrictions, test thresholds and deadline compatibility require individual review; there are no admission probabilities.
-- The planner sorts cards by custom date and offers a status board. It does not send reminders, submit applications, or sync with Common App.
-- The Application Studio and Advisor offer English, Russian and Kazakh. Official catalogue excerpts may retain their source language.
-- No cloud sync, multi-device identity or conflict-resolved concurrent editing; latest browser storage writes win.
-
-See [docs/ROADMAP.md](docs/ROADMAP.md) and [CONTRIBUTING.md](CONTRIBUTING.md). No project license has been selected; dependency licenses remain their own.
-
-> AidMap is an independent university research and planning tool. Admissions and financial aid decisions are made by the institutions. Always verify requirements with official sources.
-
-## Latest admissions guidance upgrade
-
-The [Admissions Advisor](docs/AI_ADVISOR.md) at /advisor compares universities and plans applications from the AidMap catalogue. The public Advisor works without API credentials. The guide covers the optional authorized Groq demo, quotas and Vercel setup. For SAT data, MBZUAI screening and checklist changes, see the [admissions guidance upgrade](docs/ADMISSIONS_GUIDANCE_UPGRADE.md).
-
-The Application Studio at /studio brings together the applicant profile, local résumé and essay import, draft feedback, activity review and university readiness checks. See the [Studio guide](docs/APPLICATION_STUDIO.md).
+See [the roadmap](docs/ROADMAP.md) for research priorities and [CONTRIBUTING.md](CONTRIBUTING.md) for contribution instructions.
