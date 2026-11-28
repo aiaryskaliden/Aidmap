@@ -1,0 +1,123 @@
+{
+  "berea": {
+    "year": 2024,
+    "scope": "first-year undergraduate · all applicants",
+    "stage": "cohort-summary",
+    "checkedAt": "2026-11-23",
+    "sourceUrl": "https://nces.ed.gov/ipeds/dfr/2025/ReportHTML.aspx?unitId=156295#Fig1",
+    "sourceTitle": "Berea College · IPEDS Fall 2024 admissions",
+    "kind": "counts",
+    "applicants": 3857,
+    "admitted": 746
+  },
+  "carleton-college": {
+    "year": 2025,
+    "scope": "first-year undergraduate · all applicants",
+    "stage": "cohort-summary",
+    "checkedAt": "2026-11-23",
+    "sourceUrl": "https://carleton-wp-production.s3.amazonaws.com/uploads/sites/292/2026/06/CDS-PDF-2025-2026_PDF_Carleton_06242026.pdf#page=14",
+    "sourceTitle": "Carleton College · Common Data Set 2025–26, C1",
+    "kind": "counts",
+    "applicants": 6796,
+    "admitted": 1480
+  },
+  "gettysburg-college": {
+    "year": 2024,
+    "scope": "first-year undergraduate · all applicants",
+    "stage": "cohort-summary",
+    "checkedAt": "2026-11-23",
+    "sourceUrl": "https://nces.ed.gov/ipeds/dfr/2025/ReportHTML.aspx?unitId=212674#Fig1",
+    "sourceTitle": "Gettysburg College · IPEDS Fall 2024 admissions",
+    "kind": "counts",
+    "applicants": 8366,
+    "admitted": 3254
+  },
+  "pomona-college": {
+    "year": 2024,
+    "scope": "first-year undergraduate · all applicants",
+    "stage": "cohort-summary",
+    "checkedAt": "2026-11-23",
+    "sourceUrl": "https://nces.ed.gov/ipeds/dfr/2025/ReportHTML.aspx?unitId=121345#Fig1",
+    "sourceTitle": "Pomona College · IPEDS Fall 2024 admissions",
+    "kind": "counts",
+    "applicants": 12249,
+    "admitted": 868
+  },
+  "swarthmore": {
+    "year": 2025,
+    "scope": "first-year undergraduate · all applicants",
+    "stage": "decision-release",
+    "checkedAt": "2026-11-23",
+    "sourceUrl": "https://www.swarthmore.edu/sites/default/files/assets/documents/admissions-aid/5.2025_FactSheet-Domestic_Final.pdf",
+    "sourceTitle": "Swarthmore College · Class of 2029 fact sheet",
+    "kind": "counts",
+    "applicants": 12995,
+    "admitted": 965
+  },
+  "university-of-mississippi": {
+    "year": 2025,
+    "scope": "first-year undergraduate · all applicants",
+    "stage": "cohort-summary",
+    "checkedAt": "2026-11-23",
+    "sourceUrl": "https://olemiss.box.com/shared/static/6bzcp3bynrhjvncy710c5n4ia9206jd7.pdf#page=14",
+    "sourceTitle": "University of Mississippi · Common Data Set 2025–26, C1",
+    "kind": "counts",
+    "applicants": 37621,
+    "admitted": 36635
+  },
+  "university-of-southern-mississippi": {
+    "year": 2025,
+    "scope": "first-year undergraduate · all applicants",
+    "stage": "cohort-summary",
+    "checkedAt": "2026-11-23",
+    "sourceUrl": "https://www.usm.edu/institutional-research/commondatasets2025_26final.pdf#page=13",
+    "sourceTitle": "University of Southern Mississippi · Common Data Set 2025–26, C1",
+    "kind": "counts",
+    "applicants": 7308,
+    "admitted": 6767
+  },
+  "amherst": {
+    "year": 2025,
+    "scope": "first-year undergraduate · all applicants",
+    "stage": "cohort-summary",
+    "checkedAt": "2026-11-23",
+    "sourceUrl": "https://www.amherst.edu/system/files/C.%20First-Time%20First-Year%20Admission%202025-26_0.pdf#page=1",
+    "sourceTitle": "Amherst College · Common Data Set 2025–26, C1",
+    "kind": "counts",
+    "applicants": 15819,
+    "admitted": 1222
+  },
+  "clark-university": {
+    "year": 2024,
+    "scope": "first-year undergraduate · all applicants",
+    "stage": "cohort-summary",
+    "checkedAt": "2026-11-23",
+    "sourceUrl": "https://www.clarku.edu/saair/wp-content/uploads/sites/95/Clark-CDS-2024-25.pdf",
+    "sourceTitle": "Clark University · Common Data Set 2024–25, C1",
+    "kind": "counts",
+    "applicants": 11452,
+    "admitted": 4528
+  },
+  "uchicago": {
+    "year": 2024,
+    "scope": "first-year undergraduate · all applicants",
+    "stage": "cohort-summary",
+    "checkedAt": "2026-11-23",
+    "sourceUrl": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/8/2077/files/2025/08/CDS_2024-2025_to_publish.pdf#page=7",
+    "sourceTitle": "University of Chicago · Common Data Set 2024–25, C1",
+    "kind": "counts",
+    "applicants": 43612,
+    "admitted": 1955
+  },
+  "university-of-richmond": {
+    "year": 2026,
+    "scope": "first-year undergraduate · all applicants",
+    "stage": "cohort-summary",
+    "checkedAt": "2026-11-23",
+    "sourceUrl": "https://admission.richmond.edu/studentprofile/",
+    "sourceTitle": "University of Richmond · Class of 2030 Student Profile",
+    "kind": "counts",
+    "applicants": 18420,
+    "admitted": 3841
+  }
+}

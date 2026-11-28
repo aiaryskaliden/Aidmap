@@ -10,6 +10,10 @@ import {
   X,
   ArrowRight,
   Columns3,
+  GraduationCap,
+  HeartHandshake,
+  MessageCircle,
+  Target,
 } from "lucide-react";
 import { universities, academicFields } from "@/data/universities";
 import {
@@ -17,7 +21,7 @@ import {
   selectedValues,
   type Filters,
 } from "@/lib/search";
-import { PageHeading, PolicyNote } from "@/components/ui/shared";
+import { PolicyNote } from "@/components/ui/shared";
 import { Help } from "@/components/ui/help";
 import { UniversityCard } from "./card";
 import { Button } from "@/components/ui/button";
@@ -41,8 +45,29 @@ const testOptions = [
   ["flexible", "Other testing alternatives"],
   ["unknown", "Not yet verified"],
 ];
+const quickFilters = [
+  {
+    key: "major",
+    value: "Computer Science",
+    label: "Computer Science",
+    icon: GraduationCap,
+  },
+  {
+    key: "aid",
+    value: "international",
+    label: "Need-based aid",
+    icon: HeartHandshake,
+  },
+  {
+    key: "maxAdmitRate",
+    value: "known",
+    label: "Published rates",
+    icon: Target,
+  },
+] as const;
 const labels: Record<string, string> = {
   q: "Search",
+  maxAdmitRate: "Acceptance rate",
   region: "Region",
   country: "Country",
   major: "Subject",
@@ -136,27 +161,30 @@ function FiltersPanel({
   return (
     <>
       <div className="filter-title">
-        <strong>Refine your search</strong>
+        <strong>
+          <SlidersHorizontal size={15} aria-hidden /> Filters
+        </strong>
         <button disabled={!ready} onClick={reset}>
           Reset all
         </button>
       </div>
-      <p className="tiny-note">
-        Select any options in a group. Results must match at least one choice in each selected group.
-      </p>
       <div className="filter-group">
-        <h3>Quick filters</h3>
-        <p>Bachelor’s / undergraduate only</p>
-        {select(
-          "country",
-          "Country",
-          countries,
-        )}
+        {select("country", "Country", countries)}
         {select("major", "Subject", academicFields)}
+        {select("maxAdmitRate", "Acceptance rate", [
+          ["known", "Verified rate available"],
+          ["10", "10% or lower"],
+          ["25", "25% or lower"],
+          ["50", "50% or lower"],
+          ["75", "75% or lower"],
+        ])}
         {select("intake", "Application intake", ["Fall 2027", "Fall 2028"])}
+      </div>
+      <details className="filter-group" open={filters.aid ? true : undefined}>
+        <summary>Funding</summary>
         {checks("aid", "Funding type", aidOptions)}
         <Help term="fullNeed" />
-      </div>
+      </details>
       <details className="filter-group">
         <summary>Testing & English requirements</summary>
         {checks("test", "SAT policy", testOptions)}
@@ -229,11 +257,7 @@ function FiltersPanel({
       <details className="filter-group">
         <summary>Location, costs & source coverage</summary>
         {select("region", "Region", regions)}
-        {select(
-          "type",
-          "Institution type",
-          institutionTypes,
-        )}
+        {select("type", "Institution type", institutionTypes)}
         {select("currency", "Cost currency", currencySchema.options)}
         <label className="field-label">
           Maximum published gross annual cost
@@ -280,12 +304,19 @@ export default function Explorer({ initialSearch }: { initialSearch: string }) {
     getFilterSnapshot,
     () => initialSearch,
   );
-  const filters = useMemo(() => Object.fromEntries(new URLSearchParams(search)), [search]);
-  const found = useMemo(() => discoverUniversities(universities, filters), [filters]);
+  const filters = useMemo(
+    () => Object.fromEntries(new URLSearchParams(search)),
+    [search],
+  );
+  const found = useMemo(
+    () => discoverUniversities(universities, filters),
+    [filters],
+  );
   const [page, setPage] = useState({ search, limit: pageSize });
   const limit = page.search === search ? page.limit : pageSize;
-  const [view, setView] = useState("grid");
+  const [view, setView] = useState("list");
   const drawer = useRef<HTMLDialogElement>(null);
+  const searchInput = useRef<HTMLInputElement>(null);
   function setFilter(key: string, value: string) {
     const next = new URLSearchParams(window.location.search);
     if (value) next.set(key, value);
@@ -314,29 +345,121 @@ export default function Explorer({ initialSearch }: { initialSearch: string }) {
   const panel = (
     <FiltersPanel filters={filters} setFilter={setFilter} reset={reset} />
   );
+  const sortSelect = (
+    <select
+      aria-label="Sort universities"
+      disabled={!ready}
+      value={filters.sort || "name"}
+      onChange={(e) => setFilter("sort", e.target.value)}
+    >
+      <option value="name">Name (A–Z)</option>
+      <option value="name-desc">Name (Z–A)</option>
+      <option value="deadline">Next admission deadline</option>
+      <option value="acceptance">Lowest published rate</option>
+    </select>
+  );
+  const layoutToggle = (
+    <div className="view-toggle" role="group" aria-label="Results layout">
+      <button
+        type="button"
+        aria-label="Grid view"
+        aria-pressed={view === "grid"}
+        onClick={() => setView("grid")}
+      >
+        <LayoutGrid size={16} aria-hidden />
+      </button>
+      <button
+        type="button"
+        aria-label="List view"
+        aria-pressed={view === "list"}
+        onClick={() => setView("list")}
+      >
+        <List size={17} aria-hidden />
+      </button>
+    </div>
+  );
   return (
     <div className="page-container explore-page">
-      <PageHeading
-        eyebrow="UNIVERSITY CATALOGUE"
-        title="Find undergraduate universities"
-        description="Find undergraduate programs and funding options. Review requirements, then save universities to plan your next steps."
+      <header className="catalogue-heading">
+        <div>
+          <h1>Universities</h1>
+          <p>Explore undergraduate programs, admission rates and funding.</p>
+        </div>
+        <span className="cycle-label">{countries.length} countries</span>
+      </header>
+      <div className="catalogue-tools">
+        <div className="explore-search">
+          <Search size={19} aria-hidden />
+          <input
+            ref={searchInput}
+            type="text"
+            aria-label="Search universities"
+            disabled={!ready}
+            placeholder="Search universities, cities or subjects"
+            value={filters.q || ""}
+            onChange={(e) => setFilter("q", e.target.value)}
+          />
+          {filters.q && (
+            <button
+              className="catalogue-clear-search"
+              aria-label="Clear university search"
+              onClick={() => {
+                setFilter("q", "");
+                searchInput.current?.focus();
+              }}
+            >
+              <X size={16} aria-hidden />
+            </button>
+          )}
+        </div>
+        <div className="catalogue-tool-links">
+          <Button asChild size="sm">
+            <Link href="/match" prefetch={false}>
+              Find my fit <ArrowRight size={15} aria-hidden />
+            </Link>
+          </Button>
+          <Button asChild size="sm" variant="outline">
+            <Link
+              prefetch={false}
+              href="/advisor?question=Help%20me%20find%20universities%20for%20my%20major"
+            >
+              <MessageCircle size={16} aria-hidden /> Ask Maple
+            </Link>
+          </Button>
+        </div>
+      </div>
+      <div
+        className="catalogue-quick-filters"
+        role="group"
+        aria-label="Quick filters"
       >
-        <span className="cycle-label">
-          {filters.intake || "Fall 2027"} · Undergraduate
-        </span>
-      </PageHeading>
-      <div className="explore-search">
-        <Search size={20} />
-        <input
-          aria-label="Search universities"
-          disabled={!ready}
-          placeholder="University, city, country, or subject…"
-          value={filters.q || ""}
-          onChange={(e) => setFilter("q", e.target.value)}
-        />
-        <span className="search-hint">
-          {universities.length} researched institutions
-        </span>
+        {quickFilters.map(({ key, value, label, icon: Icon }) => {
+          const current = selectedValues(filters[key]);
+          const selected = current.includes(value);
+          return (
+            <button
+              key={key}
+              type="button"
+              disabled={!ready}
+              aria-pressed={selected}
+              onClick={() =>
+                setFilter(
+                  key,
+                  key === "aid"
+                    ? (selected
+                        ? current.filter((item) => item !== value)
+                        : [...current, value]
+                      ).join("|")
+                    : selected
+                      ? ""
+                      : value,
+                )
+              }
+            >
+              <Icon size={15} aria-hidden /> {label}
+            </button>
+          );
+        })}
       </div>
       <div className="explorer-layout">
         <aside className="filter-sidebar" aria-label="University filters">
@@ -357,6 +480,10 @@ export default function Explorer({ initialSearch }: { initialSearch: string }) {
               <X />
             </button>
           </div>
+          <label className="field-label catalogue-drawer-sort">
+            Sort by {sortSelect}
+          </label>
+          {layoutToggle}
           {panel}
           <Button
             className="full-width"
@@ -372,7 +499,6 @@ export default function Explorer({ initialSearch }: { initialSearch: string }) {
                 {found.results.length}{" "}
                 {found.results.length === 1 ? "university" : "universities"}
               </strong>
-              <span> to explore</span>
             </div>
             <div className="results-controls">
               <button
@@ -383,32 +509,8 @@ export default function Explorer({ initialSearch }: { initialSearch: string }) {
                 <SlidersHorizontal size={16} />
                 Filters
               </button>
-              <select
-                aria-label="Sort universities"
-                disabled={!ready}
-                value={filters.sort || "name"}
-                onChange={(e) => setFilter("sort", e.target.value)}
-              >
-                <option value="name">Name: A–Z</option>
-                <option value="name-desc">Name: Z–A</option>
-                <option value="deadline">Verified admission deadline</option>
-              </select>
-              <div className="view-toggle">
-                <button
-                  aria-label="Grid view"
-                  aria-pressed={view === "grid"}
-                  onClick={() => setView("grid")}
-                >
-                  <LayoutGrid size={16} />
-                </button>
-                <button
-                  aria-label="List view"
-                  aria-pressed={view === "list"}
-                  onClick={() => setView("list")}
-                >
-                  <List size={17} />
-                </button>
-              </div>
+              {sortSelect}
+              {layoutToggle}
             </div>
           </div>
           {active.length > 0 && (
@@ -441,33 +543,30 @@ export default function Explorer({ initialSearch }: { initialSearch: string }) {
               and a date range whose start is before its end.
             </p>
           )}
-          <div className="uncertainty-panel">
-            <p aria-live="polite">
-              {found.matches.length}{" "}
-              {found.matches.length === 1 ? "matches" : "match"} the verified
-              filters. {found.unknown.length} additional{" "}
-              {found.unknown.length === 1
-                ? "university has"
-                : "universities have"}{" "}
-              unverified details.
-            </p>
-            <label className="check-label">
-              <input
-                type="checkbox"
-                disabled={!ready}
-                checked={filters.includeUnknown === "yes"}
-                onChange={(e) =>
-                  setFilter("includeUnknown", e.target.checked ? "yes" : "")
-                }
-              />
-              Include universities with unknown requirements
-            </label>
-            <p className="tiny-note">
-              Unknown means more research is needed, not that you are
-              ineligible. Known mismatches are still excluded.
-            </p>
-          </div>
-          <PolicyNote />
+          {(found.unknown.length > 0 || filters.includeUnknown === "yes") && (
+            <div className="uncertainty-panel">
+              <p aria-live="polite">
+                {found.matches.length}{" "}
+                {found.matches.length === 1 ? "matches" : "match"} the verified
+                filters. {found.unknown.length} additional{" "}
+                {found.unknown.length === 1
+                  ? "university has"
+                  : "universities have"}{" "}
+                unverified details.
+              </p>
+              <label className="check-label">
+                <input
+                  type="checkbox"
+                  disabled={!ready}
+                  checked={filters.includeUnknown === "yes"}
+                  onChange={(e) =>
+                    setFilter("includeUnknown", e.target.checked ? "yes" : "")
+                  }
+                />
+                Include universities with unknown requirements
+              </label>
+            </div>
+          )}
           {found.results.length ? (
             <div
               className={
@@ -500,16 +599,23 @@ export default function Explorer({ initialSearch }: { initialSearch: string }) {
             </div>
           )}
           {found.results.length > limit && (
-            <Button onClick={() => setPage({ search, limit: limit + pageSize })}>
-              Show {Math.min(pageSize, found.results.length - limit)} more universities
+            <Button
+              onClick={() => setPage({ search, limit: limit + pageSize })}
+            >
+              Show {Math.min(pageSize, found.results.length - limit)} more
+              universities
             </Button>
           )}
           <p className="section-footnote">
             {universities.length} institutions across{" "}
             {[...new Set(universities.map((u) => u.country))].length} countries
-            · Check the source and year of each policy · No admission
-            predictions
+            · Select a university to see the admissions figure’s source and
+            scope.
           </p>
+          <details className="catalogue-note">
+            <summary>How to read funding information</summary>
+            <PolicyNote />
+          </details>
         </section>
       </div>
       {state.compare.length > 0 && (

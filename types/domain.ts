@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { ieltsGuidanceSchema } from "./test-scores";
+import { applicantStudioSchema } from "./studio";
 
 export const currencySchema = z.enum([
   "USD",
@@ -322,8 +323,11 @@ export const statuses = [
   "Submitted",
   "Decision received",
 ] as const;
+export const shortlistGroups = ["reach", "target", "safety", "unsure"] as const;
+export type ShortlistGroup = (typeof shortlistGroups)[number];
 export const savedUniversitySchema = z.object({
   universityId: z.string(),
+  shortlistGroup: z.enum(shortlistGroups).optional(),
   status: z.enum(statuses),
   deadline: z.iso.date().nullable(),
   deadlineSource: z
@@ -397,11 +401,13 @@ export const storageSchema = z
   .object({
     version: z.union([z.literal(1), z.literal(2)]).transform(() => 2 as const),
     profile: profileSchema.nullable(),
-    saved: z.array(savedUniversitySchema).max(100),
+    saved: z.array(savedUniversitySchema).max(150),
     compare: z.array(z.string()).max(4),
     scenarios: z.array(scenarioSchema).max(100),
     savedFunding: z.array(z.string()).max(100),
+    libraryBookmarks: z.array(z.string().regex(/^\/(?:profiles|essays)\/[a-z0-9-]+$/).max(140)).max(500).optional(),
     theme: z.enum(["light", "dark"]),
+    studio: applicantStudioSchema.optional(),
     preparation: z.record(z.string(), z.boolean()).optional(),
   })
   .superRefine((s, ctx) => {
@@ -410,6 +416,7 @@ export const storageSchema = z
       ["compare", s.compare],
       ["scenarios", s.scenarios.map((v) => v.id)],
       ["savedFunding", s.savedFunding],
+      ["libraryBookmarks", s.libraryBookmarks ?? []],
     ] as const) {
       if (new Set(ids).size !== ids.length)
         ctx.addIssue({

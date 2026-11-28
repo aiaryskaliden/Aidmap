@@ -1,0 +1,1906 @@
+[
+  {
+    "slug": "mcgill-university",
+    "name": "McGill University",
+    "initials": "McGill",
+    "city": "Montreal",
+    "state": "Quebec",
+    "country": "Canada",
+    "region": "Canada",
+    "costCurrency": "CAD",
+    "type": "University",
+    "website": "https://www.mcgill.ca/",
+    "color": "#275675",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.mcgill.ca/undergraduate-admissions/program/computer-science-faculty-science",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "BSc Computer Science in the Faculty of Science",
+        "scope": {
+          "program": "BSc Computer Science in the Faculty of Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Check the secondary-school credential and Science prerequisites for your country.",
+        "sourceUrl": "https://www.mcgill.ca/undergraduate-admissions/apply/requirements/international/other",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "BSc Computer Science in the Faculty of Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.mcgill.ca/student-accounts/tuition-fees/general-tuition-and-fees-information/tuition-fees-2026-27",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "BSc Computer Science in the Faculty of Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "university-of-manitoba",
+    "name": "University of Manitoba",
+    "initials": "UM",
+    "city": "Winnipeg",
+    "state": "Manitoba",
+    "country": "Canada",
+    "region": "Canada",
+    "costCurrency": "CAD",
+    "type": "University",
+    "website": "https://www.umanitoba.ca/",
+    "color": "#275675",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.umanitoba.ca/explore/programs-of-study/computer-science-bsc",
+        "title": "Bachelor of Computer Science",
+        "note": "The Faculty of Science offers a Computer Science bachelor's degree with several program options.",
+        "cycle": null,
+        "checkedAt": "2026-11-28"
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "International applicants need English proficiency and the general country or curriculum requirement, along with any Faculty of Science prerequisites.",
+        "sourceUrl": "https://umanitoba.ca/explore/undergraduate-admissions/requirements/international-admission-requirements",
+        "title": "International admission requirements",
+        "cycle": null,
+        "checkedAt": "2026-11-28"
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://umanitoba.ca/registrar/tuition-fees/undergraduate",
+        "title": "Undergraduate tuition and fees",
+        "note": "Use the international fee schedule for your faculty, intake and course load.",
+        "cycle": null,
+        "checkedAt": "2026-11-28"
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.umanitoba.ca/financial-aid-and-awards/international",
+        "title": "International student awards",
+        "note": "International students paying international tuition can be considered for the General Entrance Scholarship.",
+        "cycle": null,
+        "checkedAt": "2026-11-28"
+      },
+      {
+        "field": "aidForms",
+        "value": "For automatic entrance-award consideration, the university asks applicants to submit their admission application by March 1. Check which other awards need an application.",
+        "sourceUrl": "https://www.umanitoba.ca/financial-aid-and-awards",
+        "title": "Entrance scholarship process",
+        "cycle": null,
+        "checkedAt": "2026-11-28"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "International Undergraduate Student Entrance Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": [
+          "Qualifying international high-school entrants who pay international tuition"
+        ],
+        "coverage": "The university sets the award amount each year. Eligibility starts at an 85% average or the corresponding standard for the applicant's school system.",
+        "amount": null,
+        "currency": "CAD",
+        "renewal": null,
+        "separateApplication": "General entrance scholarship consideration is automatic for eligible admissions applicants.",
+        "sourceUrl": "https://www.umanitoba.ca/financial-aid-and-awards/international",
+        "title": "International student awards",
+        "cycle": null,
+        "note": "The university gives March 1 as the recurring admissions date for consideration. Confirm the upcoming intake calendar and applicable enrollment rules.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-28"
+      }
+    ]
+  },
+  {
+    "slug": "simon-fraser-university",
+    "name": "Simon Fraser University",
+    "initials": "SFU",
+    "city": "Burnaby",
+    "state": "British Columbia",
+    "country": "Canada",
+    "region": "Canada",
+    "costCurrency": "CAD",
+    "type": "University",
+    "website": "https://www.sfu.ca/",
+    "color": "#275675",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.sfu.ca/students/calendar/2026/fall/programs/computing-science/major/bachelor-of-science-or-bachelor-of-arts/",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Computing Science major, BSc or BA",
+        "scope": {
+          "program": "Computing Science major, BSc or BA",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Select the school curriculum or country and check program-specific prerequisites.",
+        "sourceUrl": "https://www.sfu.ca/students/admission/admission-requirements/international-highschool/",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Computing Science major, BSc or BA",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.sfu.ca/students/admission/fees-scholarships/",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Computing Science major, BSc or BA",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "university-of-victoria",
+    "name": "University of Victoria",
+    "initials": "UVic",
+    "city": "Victoria",
+    "state": "British Columbia",
+    "country": "Canada",
+    "region": "Canada",
+    "costCurrency": "CAD",
+    "type": "University",
+    "website": "https://www.uvic.ca/",
+    "color": "#275675",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.uvic.ca/undergraduate/programs/undergraduate-programs/pages/computer-science.php",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "BSc Computer Science with co-op available",
+        "scope": {
+          "program": "BSc Computer Science with co-op available",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Select your academic background on the program page to see prerequisites and English proficiency conditions.",
+        "sourceUrl": "https://www.uvic.ca/undergraduate/info-for/international-students/index.php",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "BSc Computer Science with co-op available",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.uvic.ca/undergraduate/finances/tuition-costs/tuition-fee-estimate.php",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "BSc Computer Science with co-op available",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "university-of-calgary",
+    "name": "University of Calgary",
+    "initials": "UCalgary",
+    "city": "Calgary",
+    "state": "Alberta",
+    "country": "Canada",
+    "region": "Canada",
+    "costCurrency": "CAD",
+    "type": "University",
+    "website": "https://www.ucalgary.ca/",
+    "color": "#275675",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Engineering"
+        ],
+        "sourceUrl": "https://schulich.ucalgary.ca/future-students/undergraduate/programs/bsc-software-engineering",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "BSc Software Engineering through the Schulich School of Engineering",
+        "scope": {
+          "program": "BSc Software Engineering through the Schulich School of Engineering",
+          "subjects": [
+            "Engineering"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "International applicants should follow Schulich's guidance and check requirements for first-year engineering entry.",
+        "sourceUrl": "https://schulich.ucalgary.ca/future-students/undergraduate/admissions/international-students",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "BSc Software Engineering through the Schulich School of Engineering",
+          "subjects": [
+            "Engineering"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://ucalgary.ca/registrar/finances/understanding-your-fees/undergraduate-student-cost-estimator",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "BSc Software Engineering through the Schulich School of Engineering",
+          "subjects": [
+            "Engineering"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "university-of-ottawa",
+    "name": "University of Ottawa",
+    "initials": "uOttawa",
+    "city": "Ottawa",
+    "state": "Ontario",
+    "country": "Canada",
+    "region": "Canada",
+    "costCurrency": "CAD",
+    "type": "University",
+    "website": "https://www.uottawa.ca/",
+    "color": "#275675",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Data Science"
+        ],
+        "sourceUrl": "https://www.uottawa.ca/faculty-engineering/undergraduate-studies/programs/computer-science",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Honours BSc Computer Science with a Data Science option; compulsory courses are offered in English and French",
+        "scope": {
+          "program": "Honours BSc Computer Science with a Data Science option; compulsory courses are offered in English and French",
+          "subjects": [
+            "Computer Science",
+            "Data Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Select the country or curriculum for international entry and check the language requirements for your chosen stream.",
+        "sourceUrl": "https://www.uottawa.ca/study/undergraduate-studies/international-applicants",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Honours BSc Computer Science with a Data Science option; compulsory courses are offered in English and French",
+          "subjects": [
+            "Computer Science",
+            "Data Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/university-fees/tuition-international",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Honours BSc Computer Science with a Data Science option; compulsory courses are offered in English and French",
+          "subjects": [
+            "Computer Science",
+            "Data Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "checkedAt": "2026-11-28",
+        "cycle": null,
+        "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/international-english-scholarship",
+        "title": "International English Admission Scholarship",
+        "note": "Published policy applies to eligible entrants from winter 2026 onward. Confirm faculty, programme and study-language eligibility."
+      },
+      {
+        "field": "aidForms",
+        "value": "Automatic consideration upon admission to an eligible English-language programme.",
+        "checkedAt": "2026-11-28",
+        "cycle": null,
+        "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/international-english-scholarship",
+        "title": "International English Admission Scholarship"
+      }
+    ],
+    "scholarships": [
+      {
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "currency": "CAD",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-28",
+        "cycle": null,
+        "name": "International English Admission Scholarship",
+        "eligibleCitizenships": [
+          "Eligible international fee-paying entrants in selected English-language programmes"
+        ],
+        "coverage": "CAD 7,500 per eligible term. The university advertises CAD 60,000 across a four-year degree.",
+        "amount": 7500,
+        "renewal": "Continued payment depends on the enrolment and eligibility rules published by the university.",
+        "separateApplication": "Automatic consideration upon admission to an eligible English-language programme.",
+        "sourceUrl": "https://www.uottawa.ca/study/fees-financial-support/international-english-scholarship",
+        "title": "International English Admission Scholarship",
+        "note": "Published policy applies to eligible entrants from winter 2026 onward. Confirm faculty, programme and study-language eligibility."
+      }
+    ]
+  },
+  {
+    "slug": "carleton-university",
+    "name": "Carleton University",
+    "initials": "CU",
+    "city": "Ottawa",
+    "state": "Ontario",
+    "country": "Canada",
+    "region": "Canada",
+    "costCurrency": "CAD",
+    "type": "University",
+    "website": "https://carleton.ca/",
+    "color": "#275675",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://calendar.carleton.ca/undergrad/regulations/admissions/programs/computerscience/",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor of Computer Science with program-specific prerequisite rules",
+        "scope": {
+          "program": "Bachelor of Computer Science with program-specific prerequisite rules",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Follow the international undergraduate application instructions and match the program's subjects to your qualification.",
+        "sourceUrl": "https://admissions.carleton.ca/apply-now-international-students/",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor of Computer Science with program-specific prerequisite rules",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://admissions.carleton.ca/scholarships/usa-and-international-costs/",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Bachelor of Computer Science with program-specific prerequisite rules",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "york-university",
+    "name": "York University",
+    "initials": "York",
+    "city": "Toronto",
+    "state": "Ontario",
+    "country": "Canada",
+    "region": "Canada",
+    "costCurrency": "CAD",
+    "type": "University",
+    "website": "https://www.yorku.ca/",
+    "color": "#275675",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://futurestudents.yorku.ca/program/computer-science",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Undergraduate Computer Science in the Lassonde School of Engineering",
+        "scope": {
+          "program": "Undergraduate Computer Science in the Lassonde School of Engineering",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Use York's international instructions and the program's school-system-specific admission requirements.",
+        "sourceUrl": "https://www.futurestudents.yorku.ca/your-application/how-apply/international-student",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Undergraduate Computer Science in the Lassonde School of Engineering",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://students.yorku.ca/sfs/fees/courses/2026-2027/fall-winter/lassonde/computer-science",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Undergraduate Computer Science in the Lassonde School of Engineering",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "concordia-university",
+    "name": "Concordia University",
+    "initials": "CU",
+    "city": "Montreal",
+    "state": "Quebec",
+    "country": "Canada",
+    "region": "Canada",
+    "costCurrency": "CAD",
+    "type": "University",
+    "website": "https://www.concordia.ca/",
+    "color": "#275675",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.concordia.ca/academics/undergraduate/computer-science.html",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor of Computer Science at the Gina Cody School of Engineering and Computer Science",
+        "scope": {
+          "program": "Bachelor of Computer Science at the Gina Cody School of Engineering and Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Check the international high-school qualification and mathematics prerequisites for the program.",
+        "sourceUrl": "https://www.concordia.ca/admissions/undergraduate/requirements/international.html",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor of Computer Science at the Gina Cody School of Engineering and Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.concordia.ca/students/financial/tuition-fees/rates/undergrad.html",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Bachelor of Computer Science at the Gina Cody School of Engineering and Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "dalhousie-university",
+    "name": "Dalhousie University",
+    "initials": "Dal",
+    "city": "Halifax",
+    "state": "Nova Scotia",
+    "country": "Canada",
+    "region": "Canada",
+    "costCurrency": "CAD",
+    "type": "University",
+    "website": "https://www.dal.ca/",
+    "color": "#275675",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.dal.ca/study/programs/undergraduate/computer-science-bcs.html",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor of Computer Science covering software and computing foundations",
+        "scope": {
+          "program": "Bachelor of Computer Science covering software and computing foundations",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Follow the international applicant route and check the BCS prerequisites as well as English proficiency rules.",
+        "sourceUrl": "https://www.dal.ca/admissions/how-to-apply/undergraduate-admissions/international-applicants.html",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor of Computer Science covering software and computing foundations",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.dal.ca/admissions/cost-and-payment/tuition/undergraduate-program-tuition.html",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Bachelor of Computer Science covering software and computing foundations",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "university-of-melbourne",
+    "name": "University of Melbourne",
+    "initials": "UniMelb",
+    "city": "Melbourne",
+    "state": "Victoria",
+    "country": "Australia",
+    "region": "Oceania",
+    "costCurrency": "AUD",
+    "type": "University",
+    "website": "https://www.unimelb.edu.au/",
+    "color": "#224b75",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://study.unimelb.edu.au/find/courses/major/computing-and-software-systems/",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Computing and Software Systems major within the Bachelor of Science",
+        "scope": {
+          "program": "Computing and Software Systems major within the Bachelor of Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Apply to the Bachelor of Science and use the international qualification and prerequisite tables for entry.",
+        "sourceUrl": "https://study.unimelb.edu.au/how-to-apply/undergraduate-study/international-applications/entry-requirements",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Computing and Software Systems major within the Bachelor of Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://study.unimelb.edu.au/find/courses/undergraduate/bachelor-of-science/fees/",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Computing and Software Systems major within the Bachelor of Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "university-of-sydney",
+    "name": "University of Sydney",
+    "initials": "USYD",
+    "city": "Sydney",
+    "state": "New South Wales",
+    "country": "Australia",
+    "region": "Oceania",
+    "costCurrency": "AUD",
+    "type": "University",
+    "website": "https://www.sydney.edu.au/",
+    "color": "#224b75",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.sydney.edu.au/content/courses/courses/uc/bachelor-of-advanced-computing.html",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor of Advanced Computing with Computer Science among the available majors",
+        "scope": {
+          "program": "Bachelor of Advanced Computing with Computer Science among the available majors",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Use the international application route appropriate to your secondary qualification and check the course's prerequisites.",
+        "sourceUrl": "https://www.sydney.edu.au/study/applying/how-to-apply/international-students.html",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor of Advanced Computing with Computer Science among the available majors",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.sydney.edu.au/study/fees-and-loans/international-student-tuition-fees.html",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Bachelor of Advanced Computing with Computer Science among the available majors",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "university-of-queensland",
+    "name": "University of Queensland",
+    "initials": "UQ",
+    "city": "Brisbane",
+    "state": "Queensland",
+    "country": "Australia",
+    "region": "Oceania",
+    "costCurrency": "AUD",
+    "type": "University",
+    "website": "https://uq.edu.au/",
+    "color": "#224b75",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://study.uq.edu.au/study-options/programs/bachelor-computer-science-2559?student_type=international",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor of Computer Science at St Lucia",
+        "scope": {
+          "program": "Bachelor of Computer Science at St Lucia",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "The international course page gives qualification, mathematics and English entry rules. Use the admissions route that applies to you.",
+        "sourceUrl": "https://study.uq.edu.au/admissions/undergraduate/submit-your-application?studentType=international",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor of Computer Science at St Lucia",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": 60952,
+        "sourceUrl": "https://study.uq.edu.au/study-options/programs/bachelor-computer-science-2559?student_type=international",
+        "title": "International tuition and fees",
+        "cycle": "2027",
+        "checkedAt": "2026-11-28",
+        "note": "Indicative international annual tuition for the Bachelor of Computer Science at a standard full-time load.",
+        "scope": {
+          "program": "Bachelor of Computer Science at St Lucia",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "rmit-university",
+    "name": "RMIT University",
+    "initials": "RMIT",
+    "city": "Melbourne",
+    "state": "Victoria",
+    "country": "Australia",
+    "region": "Oceania",
+    "costCurrency": "AUD",
+    "type": "University",
+    "website": "https://www.rmit.edu.au/",
+    "color": "#224b75",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-computer-science-bp094",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor of Computer Science at the Melbourne City campus",
+        "scope": {
+          "program": "Bachelor of Computer Science at the Melbourne City campus",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Follow the international application route and check the program entry and English requirements.",
+        "sourceUrl": "https://www.rmit.edu.au/study-with-us/international-students/apply-to-rmit-international-students",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor of Computer Science at the Melbourne City campus",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": 45120,
+        "sourceUrl": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bachelor-of-computer-science-bp094",
+        "title": "International tuition and fees",
+        "cycle": "2027",
+        "checkedAt": "2026-11-28",
+        "note": "Published international annual tuition for 2027 commencement. The full course has a separate total tuition estimate.",
+        "scope": {
+          "program": "Bachelor of Computer Science at the Melbourne City campus",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "university-of-technology-sydney",
+    "name": "University of Technology Sydney",
+    "initials": "UTS",
+    "city": "Sydney",
+    "state": "New South Wales",
+    "country": "Australia",
+    "region": "Oceania",
+    "costCurrency": "AUD",
+    "type": "University",
+    "website": "https://www.uts.edu.au/",
+    "color": "#224b75",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.uts.edu.au/courses/bachelor-of-computing-science",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor of Computing Science",
+        "scope": {
+          "program": "Bachelor of Computing Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Use the international applicant instructions for your qualification and check program availability.",
+        "sourceUrl": "https://www.uts.edu.au/for-students/admissions-entry/how-to-apply/international-applicants",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor of Computing Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.uts.edu.au/courses/bachelor-of-computing-science",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Bachelor of Computing Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "queensland-university-of-technology",
+    "name": "Queensland University of Technology",
+    "initials": "QUT",
+    "city": "Brisbane",
+    "state": "Queensland",
+    "country": "Australia",
+    "region": "Oceania",
+    "costCurrency": "AUD",
+    "type": "University",
+    "website": "https://www.qut.edu.au/",
+    "color": "#224b75",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.qut.edu.au/courses/bachelor-of-information-technology-computer-science",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Computer Science major within the Bachelor of Information Technology",
+        "scope": {
+          "program": "Computer Science major within the Bachelor of Information Technology",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Follow QUT international application instructions and use the international view of the course's entry criteria.",
+        "sourceUrl": "https://www.qut.edu.au/study/applying/international-applying",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Computer Science major within the Bachelor of Information Technology",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": 46700,
+        "sourceUrl": "https://www.qut.edu.au/courses/bachelor-of-information-technology-computer-science",
+        "title": "International tuition and fees",
+        "cycle": "2027",
+        "checkedAt": "2026-11-28",
+        "note": "International tuition for one standard full-time year of 96 credit points.",
+        "scope": {
+          "program": "Computer Science major within the Bachelor of Information Technology",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "curtin-university",
+    "name": "Curtin University",
+    "initials": "Curtin",
+    "city": "Perth",
+    "state": "Western Australia",
+    "country": "Australia",
+    "region": "Oceania",
+    "costCurrency": "AUD",
+    "type": "University",
+    "website": "https://www.curtin.edu.au/",
+    "color": "#224b75",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.curtin.edu.au/study/offering/course-ug-bachelor-of-computing--b-comp/?region=int",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor of Computing with a Computer Science major",
+        "scope": {
+          "program": "Bachelor of Computing with a Computer Science major",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Select international on the course page and check the published qualification and English entry criteria for your major.",
+        "sourceUrl": "https://www.curtin.edu.au/study/offering/course-ug-bachelor-of-computing--b-comp/?region=int",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor of Computing with a Computer Science major",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": 45112,
+        "sourceUrl": "https://www.curtin.edu.au/study/offering/course-ug-bachelor-of-computing--b-comp/?region=int",
+        "title": "International tuition and fees",
+        "cycle": "2027",
+        "checkedAt": "2026-11-28",
+        "note": "Indicative international tuition for year one. Includes tuition only.",
+        "scope": {
+          "program": "Bachelor of Computing with a Computer Science major",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "deakin-university",
+    "name": "Deakin University",
+    "initials": "Deakin",
+    "city": "Melbourne",
+    "state": "Victoria",
+    "country": "Australia",
+    "region": "Oceania",
+    "costCurrency": "AUD",
+    "type": "University",
+    "website": "https://www.deakin.edu.au/",
+    "color": "#224b75",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.deakin.edu.au/course/bachelor-computer-science-international",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor of Computer Science, international course page",
+        "scope": {
+          "program": "Bachelor of Computer Science, international course page",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "The international course page sets out entry requirements, English evidence and how to apply.",
+        "sourceUrl": "https://www.deakin.edu.au/course/bachelor-computer-science-international",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor of Computer Science, international course page",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.deakin.edu.au/students/enrolment-and-fees/fees/international-students/international-student-fees",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Bachelor of Computer Science, international course page",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "griffith-university",
+    "name": "Griffith University",
+    "initials": "GU",
+    "city": "Gold Coast",
+    "state": "Queensland",
+    "country": "Australia",
+    "region": "Oceania",
+    "costCurrency": "AUD",
+    "type": "University",
+    "website": "https://www.griffith.edu.au/",
+    "color": "#224b75",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.griffith.edu.au/study/degrees/bachelor-of-computer-science-1534",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor of Computer Science, course code 1534",
+        "scope": {
+          "program": "Bachelor of Computer Science, course code 1534",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Check the course page for entry and intake requirements and follow Griffith's international application route.",
+        "sourceUrl": "https://www.griffith.edu.au/apply/international",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor of Computer Science, course code 1534",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.griffith.edu.au/apply/international/fees",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Bachelor of Computer Science, course code 1534",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "swinburne-university-of-technology",
+    "name": "Swinburne University of Technology",
+    "initials": "Swin",
+    "city": "Melbourne",
+    "state": "Victoria",
+    "country": "Australia",
+    "region": "Oceania",
+    "costCurrency": "AUD",
+    "type": "University",
+    "website": "https://www.swinburne.edu.au/",
+    "color": "#224b75",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.swinburne.edu.au/course/undergraduate/bachelor-of-computer-science.html",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor of Computer Science at Hawthorn",
+        "scope": {
+          "program": "Bachelor of Computer Science at Hawthorn",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Check academic and English entry requirements for international undergraduate students and the course's specific conditions.",
+        "sourceUrl": "https://www.swinburne.edu.au/courses/applying/how-to-apply-international/entry-requirements-for-international-students/",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor of Computer Science at Hawthorn",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.swinburne.edu.au/courses/fees/fees-for-international-students/",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Bachelor of Computer Science at Hawthorn",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "delft-university-of-technology",
+    "name": "Delft University of Technology",
+    "initials": "TU Delft",
+    "city": "Delft",
+    "state": "",
+    "country": "Netherlands",
+    "region": "Europe",
+    "costCurrency": "EUR",
+    "type": "University",
+    "website": "https://www.tudelft.nl/",
+    "color": "#23566a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Engineering"
+        ],
+        "sourceUrl": "https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering/faq",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "BSc Computer Science and Engineering with selection and track-specific entry rules",
+        "scope": {
+          "program": "BSc Computer Science and Engineering with selection and track-specific entry rules",
+          "subjects": [
+            "Computer Science",
+            "Engineering"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Check the diploma, mathematics and English requirements for your chosen track and the separate selection procedure.",
+        "sourceUrl": "https://www.tudelft.nl/en/onderwijs/opleidingen/bachelors/computer-science-and-engineering/bachelor-of-computer-science-and-engineering/from-application-to-enrollment/admission-requirements",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "BSc Computer Science and Engineering with selection and track-specific entry rules",
+          "subjects": [
+            "Computer Science",
+            "Engineering"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "BSc Computer Science and Engineering with selection and track-specific entry rules",
+          "subjects": [
+            "Computer Science",
+            "Engineering"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "eindhoven-university-of-technology",
+    "name": "Eindhoven University of Technology",
+    "initials": "TU/e",
+    "city": "Eindhoven",
+    "state": "",
+    "country": "Netherlands",
+    "region": "Europe",
+    "costCurrency": "EUR",
+    "type": "University",
+    "website": "https://www.tue.nl/",
+    "color": "#23566a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Engineering"
+        ],
+        "sourceUrl": "https://www.studyinnl.org/dutch-education/studies/computer-science-and-engineering-10735-eindhoven-university-of-technology",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor in Computer Science and Engineering",
+        "scope": {
+          "program": "Bachelor in Computer Science and Engineering",
+          "subjects": [
+            "Computer Science",
+            "Engineering"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "The Dutch public Study in NL listing identifies the program language and admission route. Check individual diploma and selection requirements with TU/e.",
+        "sourceUrl": "https://www.studyinnl.org/dutch-education/studies/computer-science-and-engineering-10735-eindhoven-university-of-technology",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor in Computer Science and Engineering",
+          "subjects": [
+            "Computer Science",
+            "Engineering"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.studyinnl.org/dutch-education/studies/computer-science-and-engineering-10735-eindhoven-university-of-technology",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Bachelor in Computer Science and Engineering",
+          "subjects": [
+            "Computer Science",
+            "Engineering"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "maastricht-university",
+    "name": "Maastricht University",
+    "initials": "UM",
+    "city": "Maastricht",
+    "state": "",
+    "country": "Netherlands",
+    "region": "Europe",
+    "costCurrency": "EUR",
+    "type": "University",
+    "website": "https://www.maastrichtuniversity.nl/",
+    "color": "#23566a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/computer-science/admission-requirements",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor in Computer Science",
+        "scope": {
+          "program": "Bachelor in Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Check the diploma equivalence and mathematics requirements for your entry year in the international diploma section.",
+        "sourceUrl": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/computer-science/admission-requirements",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor in Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": 18400,
+        "sourceUrl": "https://www.maastrichtuniversity.nl/education/bachelor/programmes/computer-science/tuition-fees",
+        "title": "International tuition and fees",
+        "cycle": "2026–27",
+        "checkedAt": "2026-11-28",
+        "note": "Published 2026–27 institutional tuition for non-EU/EEA applicants. Check the incoming year's tariff.",
+        "scope": {
+          "program": "Bachelor in Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "university-of-groningen",
+    "name": "University of Groningen",
+    "initials": "RUG",
+    "city": "Groningen",
+    "state": "",
+    "country": "Netherlands",
+    "region": "Europe",
+    "costCurrency": "EUR",
+    "type": "University",
+    "website": "https://www.rug.nl/",
+    "color": "#23566a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.rug.nl/bachelors/computing-science/?lang=en",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "BSc Computing Science",
+        "scope": {
+          "program": "BSc Computing Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Use the program's international diploma section and check mathematics and English requirements.",
+        "sourceUrl": "https://www.rug.nl/bachelors/computing-science/?lang=en",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "BSc Computing Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": 19800,
+        "sourceUrl": "https://www.rug.nl/bachelors/computing-science/?lang=en",
+        "title": "International tuition and fees",
+        "cycle": "2027–28",
+        "checkedAt": "2026-11-28",
+        "note": "Full-time institutional tuition for non-EU/EEA students on this Computing Science programme.",
+        "scope": {
+          "program": "BSc Computing Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-management-university",
+    "name": "Singapore Management University",
+    "initials": "SMU",
+    "city": "Singapore",
+    "state": "",
+    "country": "Singapore",
+    "region": "Asia",
+    "costCurrency": "SGD",
+    "type": "University",
+    "website": "https://www.smu.edu.sg/",
+    "color": "#454f86",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://computing.smu.edu.sg/bsc-computer-science",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Bachelor of Science in Computer Science",
+        "scope": {
+          "program": "Bachelor of Science in Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Apply using SMU's international qualification route, with tests and documents determined by the qualification.",
+        "sourceUrl": "https://admissions.smu.edu.sg/admissions-requirements/international-and-other-qualifications",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Bachelor of Science in Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://admissions.smu.edu.sg/financial-matters/tuition-fees-grant",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Bachelor of Science in Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "singapore-institute-of-technology",
+    "name": "Singapore Institute of Technology",
+    "initials": "SIT",
+    "city": "Singapore",
+    "state": "",
+    "country": "Singapore",
+    "region": "Asia",
+    "costCurrency": "SGD",
+    "type": "University",
+    "website": "https://www.singaporetech.edu.sg/",
+    "color": "#454f86",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.singaporetech.edu.sg/undergraduate-programmes/applied-computing-fintech",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Applied Computing (Fintech) undergraduate degree",
+        "scope": {
+          "program": "Applied Computing (Fintech) undergraduate degree",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Use the international qualification route and check the program requirements for the applicable school credential.",
+        "sourceUrl": "https://www.singaporetech.edu.sg/admissions/undergraduate/requirements/international-qualifications",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "Applied Computing (Fintech) undergraduate degree",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": null,
+        "sourceUrl": "https://www.singaporetech.edu.sg/admissions/undergraduate/tuition-fees",
+        "title": "International tuition and fees",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "Use the official fee page to check your applicable program, credit load and intake.",
+        "scope": {
+          "program": "Applied Computing (Fintech) undergraduate degree",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "hong-kong-polytechnic-university",
+    "name": "The Hong Kong Polytechnic University",
+    "initials": "PolyU",
+    "city": "Hong Kong",
+    "state": "",
+    "country": "Hong Kong",
+    "region": "Asia",
+    "costCurrency": "HKD",
+    "type": "University",
+    "website": "https://www.polyu.edu.hk/",
+    "color": "#89353f",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science",
+          "Artificial Intelligence"
+        ],
+        "sourceUrl": "https://www.polyu.edu.hk/comp/study/ug-programmes/scheme-in-computing-and-ai/",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "BSc (Hons) Scheme in Computing and AI, with Computer Science and Enterprise Information Systems pathways",
+        "scope": {
+          "program": "BSc (Hons) Scheme in Computing and AI, with Computer Science and Enterprise Information Systems pathways",
+          "subjects": [
+            "Computer Science",
+            "Artificial Intelligence"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Use the International / Other Qualifications route and check the program's preferred subjects and English entry requirements.",
+        "sourceUrl": "https://www.polyu.edu.hk/study/ug/admissions/international-other-qualifications/international-other-qualifications-general",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "BSc (Hons) Scheme in Computing and AI, with Computer Science and Enterprise Information Systems pathways",
+          "subjects": [
+            "Computer Science",
+            "Artificial Intelligence"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": 240000,
+        "sourceUrl": "https://www.polyu.edu.hk/study/ug/admissions/international-other-qualifications/international-other-qualifications-tuition-fees",
+        "title": "International tuition and fees",
+        "cycle": "2027–28",
+        "checkedAt": "2026-11-28",
+        "note": "Annual non-local tuition for full-time government-funded bachelor’s programmes.",
+        "scope": {
+          "program": "BSc (Hons) Scheme in Computing and AI, with Computer Science and Enterprise Information Systems pathways",
+          "subjects": [
+            "Computer Science",
+            "Artificial Intelligence"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ]
+  },
+  {
+    "slug": "hong-kong-baptist-university",
+    "name": "Hong Kong Baptist University",
+    "initials": "HKBU",
+    "city": "Hong Kong",
+    "state": "",
+    "country": "Hong Kong",
+    "region": "Asia",
+    "costCurrency": "HKD",
+    "type": "University",
+    "website": "https://www.hkbu.edu.hk/",
+    "color": "#89353f",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.comp.hkbu.edu.hk/ug/cs/adm-admission",
+        "title": "Undergraduate program",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "note": "BSc (Hons) Computer Science major through the Faculty of Science undergraduate scheme",
+        "scope": {
+          "program": "BSc (Hons) Computer Science major through the Faculty of Science undergraduate scheme",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Apply using the international qualification route and check the Faculty of Science entry and subsequent major-selection process.",
+        "sourceUrl": "https://admissions.hkbu.edu.hk/admissions/international-qualifications.html",
+        "title": "International undergraduate entry",
+        "cycle": null,
+        "checkedAt": "2026-11-28",
+        "scope": {
+          "program": "BSc (Hons) Computer Science major through the Faculty of Science undergraduate scheme",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "tuition",
+        "value": 240000,
+        "sourceUrl": "https://admissions.hkbu.edu.hk/fees-and-scholarships.html",
+        "title": "International tuition and fees",
+        "cycle": "2027–28",
+        "checkedAt": "2026-11-28",
+        "note": "Annual tuition for non-local students. Housing and other expenses are separate.",
+        "scope": {
+          "program": "BSc (Hons) Computer Science major through the Faculty of Science undergraduate scheme",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "checkedAt": "2026-11-28",
+        "cycle": null,
+        "sourceUrl": "https://admissions.hkbu.edu.hk/fees-and-scholarships.html",
+        "title": "HKBU fees and admission scholarships",
+        "note": "The admissions page lists scholarship coverage separately from its 2027/28 tuition table."
+      },
+      {
+        "field": "aidForms",
+        "value": "HKBU assesses eligible non-local applicants at admission, with no separate scholarship application.",
+        "checkedAt": "2026-11-28",
+        "cycle": null,
+        "sourceUrl": "https://admissions.hkbu.edu.hk/fees-and-scholarships.html",
+        "title": "HKBU fees and admission scholarships"
+      }
+    ],
+    "scholarships": [
+      {
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "currency": "HKD",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-28",
+        "cycle": null,
+        "name": "Non-local Admission Scholarships",
+        "eligibleCitizenships": [
+          "Eligible non-local undergraduate entrants"
+        ],
+        "coverage": "HKBU describes full-tuition, tuition-plus-living-support and partial tuition awards. Confirm the amount for your intake.",
+        "amount": null,
+        "renewal": "Renewable for the normal study period subject to satisfactory academic results.",
+        "separateApplication": "HKBU assesses eligible non-local applicants at admission, with no separate scholarship application.",
+        "sourceUrl": "https://admissions.hkbu.edu.hk/fees-and-scholarships.html",
+        "title": "HKBU fees and admission scholarships",
+        "note": "The admissions page lists scholarship coverage separately from its 2027/28 tuition table."
+      }
+    ]
+  }
+]

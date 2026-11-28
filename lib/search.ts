@@ -1,4 +1,5 @@
 import type { University } from "@/types/domain";
+import { getAdmissionRate, ratePercentage } from "@/lib/admission-rates";
 import {
   currentDeadlines,
   fieldStatus,
@@ -51,6 +52,11 @@ export function evaluateUniversity(u: University, f: Filters) {
   group("city", "City", (v) => is(u.city, v));
   group("type", "Institution type", (v) => is(u.type, v));
   group("degree", "Degree", (v) => is(u.degree, v));
+  group("maxAdmitRate", "Acceptance rate", (value) => {
+    const rate = getAdmissionRate(u.id);
+    if (!rate) return "unknown";
+    return value === "known" ? "match" : is(ratePercentage(rate) <= Number(value), true);
+  });
   group("major", "Subject", (v) =>
     u.programs.value === null
       ? "unknown"
@@ -213,6 +219,10 @@ export function evaluateUniversity(u: University, f: Filters) {
   };
 }
 export function discoverUniversities(universities: University[], f: Filters) {
+  const admitRate = (id: string) => {
+    const record = getAdmissionRate(id);
+    return record ? ratePercentage(record) : Infinity;
+  };
   const order = (
     a: ReturnType<typeof evaluateUniversity>,
     b: ReturnType<typeof evaluateUniversity>,
@@ -227,7 +237,8 @@ export function discoverUniversities(universities: University[], f: Filters) {
             nextAdmissionDeadline(b.university, f.intake || TARGET_INTAKE)
               ?.date ?? "9999",
           )
-        : a.university.name.localeCompare(b.university.name);
+        : (f.sort === "acceptance" ? admitRate(a.university.id) - admitRate(b.university.id) : 0) ||
+          a.university.name.localeCompare(b.university.name);
   const evaluated = universities.map((u) => evaluateUniversity(u, f));
   const matches = evaluated.filter((x) => x.state === "match").sort(order);
   const unknown = evaluated.filter((x) => x.state === "unknown").sort(order);

@@ -9,6 +9,8 @@ import needExpansion from "./research-expansion-need.json";
 import meritExpansion from "./research-expansion-merit.json";
 import internationalExpansion from "./research-expansion-international.json";
 import catalogueExpansion from "./research-expansion-100.json";
+import ukExpansion from "./research-uk-2027.json";
+import additionalInternationalExpansion from "./research-expansion-150.json";
 import profileRechecks from "./research-rechecked-2026-11.json";
 import {
   emptyCosts,
@@ -69,7 +71,7 @@ type Research = {
   unknowns?: string[];
 };
 const researchedUnknowns = new Map(
-  [...catalogueExpansion, ...profileRechecks].map((r) => [r.slug, r.unknowns]),
+  [...catalogueExpansion, ...ukExpansion, ...profileRechecks].map((r) => [r.slug, r.unknowns]),
 );
 const research: Research[] = (
   [
@@ -88,6 +90,8 @@ const research: Research[] = (
     ...(meritExpansion as Research[]),
     ...(internationalExpansion as Research[]),
     ...(catalogueExpansion as Research[]),
+    ...(ukExpansion as Research[]),
+    ...(additionalInternationalExpansion as Research[]),
   ] as Research[]
 ).map((r) => ({
   ...r,

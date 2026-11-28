@@ -1,0 +1,602 @@
+{
+  "aalto-university": {
+    "source": "https://www.aalto.fi/sites/default/files/favicons/apple-touch-icon.png",
+    "officialPage": "https://www.aalto.fi/fi"
+  },
+  "amherst": {
+    "source": "https://www.google.com/s2/favicons?domain=www.amherst.edu&sz=128",
+    "officialPage": "https://www.amherst.edu/"
+  },
+  "amsterdam": {
+    "source": "https://www.uva.nl/favicon-32x32.png",
+    "officialPage": "https://www.uva.nl/en"
+  },
+  "australian-national-university": {
+    "source": "https://d1zkbwgd2iyy9p.cloudfront.net/themes/custom/webstyle/favicon.ico",
+    "officialPage": "https://www.anu.edu.au/"
+  },
+  "bath": {
+    "source": "https://www.bath.ac.uk/assembly/1/assets/university-of-bath/images/favicon/favicon.svg",
+    "officialPage": "https://www.bath.ac.uk/"
+  },
+  "berea": {
+    "source": "https://www.berea.edu/apple-touch-icon.png",
+    "officialPage": "https://www.berea.edu/"
+  },
+  "bilkent-university": {
+    "source": "https://w3.bilkent.edu.tr/en/wp-content/uploads/2026/10/ing-amblemP-300x300.jpg",
+    "officialPage": "https://w3.bilkent.edu.tr/en/"
+  },
+  "birmingham": {
+    "source": "https://www.google.com/s2/favicons?domain=birmingham.ac.uk&sz=128",
+    "officialPage": "https://www.birmingham.ac.uk/"
+  },
+  "bocconi": {
+    "source": "https://www.unibocconi.it/themes/contrib/bocconi_ds/favicon/apple-touch-icon.png",
+    "officialPage": "https://www.unibocconi.it/en"
+  },
+  "bologna": {
+    "source": "https://www.unibo.it/apple-touch-icon.png",
+    "officialPage": "https://www.unibo.it/en"
+  },
+  "bowdoin": {
+    "source": "https://www.bowdoin.edu/_files/img/favicon.ico",
+    "officialPage": "https://www.bowdoin.edu/"
+  },
+  "brown": {
+    "source": "https://admission.brown.edu/themes/custom/brown/static/apple-touch-icon.png",
+    "officialPage": "https://admission.brown.edu/"
+  },
+  "cambridge": {
+    "source": "https://www.google.com/s2/favicons?domain=cam.ac.uk&sz=128",
+    "officialPage": "https://www.cam.ac.uk/"
+  },
+  "cardiff": {
+    "source": "https://www.google.com/s2/favicons?domain=cardiff.ac.uk&sz=128",
+    "officialPage": "https://cardiff.ac.uk/"
+  },
+  "carleton-college": {
+    "source": "https://www.carleton.edu/favicon.ico",
+    "officialPage": "https://www.carleton.edu/"
+  },
+  "carleton-university": {
+    "source": "https://www.google.com/s2/favicons?domain=www.carleton.ca&sz=128",
+    "officialPage": "https://carleton.ca/"
+  },
+  "city-university-of-hong-kong": {
+    "source": "https://www.cityu.edu.hk/apple-touch-icon.png",
+    "officialPage": "https://www.cityu.edu.hk/"
+  },
+  "clark-university": {
+    "source": "https://cdn.clarku.edu/wp-content/uploads/2023/10/clarku_logo.png",
+    "officialPage": "https://www.clarku.edu/"
+  },
+  "colby-college": {
+    "source": "https://www.google.com/s2/favicons?domain=www.colby.edu&sz=128",
+    "officialPage": "https://www.colby.edu/"
+  },
+  "colgate-university": {
+    "source": "https://www.colgate.edu/themes/custom/colgate/favicons/apple-touch-icon-152x152.png",
+    "officialPage": "https://www.colgate.edu/"
+  },
+  "concordia-university": {
+    "source": "https://www.google.com/s2/favicons?domain=concordia.ca&sz=128",
+    "officialPage": "https://www.concordia.ca/"
+  },
+  "corvinus-budapest": {
+    "source": "https://www.uni-corvinus.hu/contents/uploads/2022/04/favicon-rebrand.svg",
+    "officialPage": "https://www.uni-corvinus.hu/?lang=en"
+  },
+  "cuhk-shenzhen": {
+    "source": "https://intladmissions.cuhk.edu.cn/themes/custom/cuhk_ui/favicon.ico",
+    "officialPage": "https://intladmissions.cuhk.edu.cn/"
+  },
+  "curtin-university": {
+    "source": "https://s30991.pcdn.co/wp-content/themes/mimas/dist/images/icons/apple-touch-icon-152x152.png.webp",
+    "officialPage": "https://www.curtin.edu.au/"
+  },
+  "dalhousie-university": {
+    "source": "https://www.google.com/s2/favicons?domain=dal.ca&sz=128",
+    "officialPage": "https://www.dal.ca/"
+  },
+  "dartmouth": {
+    "source": "https://admissions.dartmouth.edu/sites/all/themes/dartmouth_base/favicon.ico",
+    "officialPage": "https://admissions.dartmouth.edu/"
+  },
+  "davidson-college": {
+    "source": "https://www.davidson.edu/themes/custom/davidson_2024/assets/favicons/apple-touch-icon.png",
+    "officialPage": "https://www.davidson.edu/"
+  },
+  "deakin-university": {
+    "source": "https://www.google.com/s2/favicons?domain=deakin.edu.au&sz=128",
+    "officialPage": "https://www.deakin.edu.au/"
+  },
+  "debrecen": {
+    "source": "https://edu.unideb.hu/favicon.ico",
+    "officialPage": "https://edu.unideb.hu/"
+  },
+  "delft-university-of-technology": {
+    "source": "https://www.google.com/s2/favicons?domain=www.tudelft.nl&sz=128",
+    "officialPage": "https://www.tudelft.nl/"
+  },
+  "denison-university": {
+    "source": "https://denison.edu/themes/images/apple-touch-icon.png",
+    "officialPage": "https://denison.edu/"
+  },
+  "duke": {
+    "source": "https://www.duke.edu/wp-content/uploads/2025/12/cropped-dfavicon-1-192x192.png",
+    "officialPage": "https://www.duke.edu/"
+  },
+  "durham": {
+    "source": "https://www.google.com/s2/favicons?domain=durham.ac.uk&sz=128",
+    "officialPage": "https://durham.ac.uk/"
+  },
+  "eindhoven-university-of-technology": {
+    "source": "https://www.google.com/s2/favicons?domain=www.tue.nl&sz=128",
+    "officialPage": "https://www.tue.nl/"
+  },
+  "erasmus-rotterdam": {
+    "source": "https://www.eur.nl/apple-touch-icon.png",
+    "officialPage": "https://www.eur.nl/en"
+  },
+  "exeter": {
+    "source": "https://www.google.com/s2/favicons?domain=exeter.ac.uk&sz=128",
+    "officialPage": "https://exeter.ac.uk/"
+  },
+  "gettysburg-college": {
+    "source": "https://www.gettysburg.edu/sites/default/files/media/logo/Frame%20457%20%282%29.png",
+    "officialPage": "https://www.gettysburg.edu/"
+  },
+  "glasgow": {
+    "source": "https://www.gla.ac.uk/3t4/img/hd_hi.png",
+    "officialPage": "https://www.gla.ac.uk/"
+  },
+  "griffith-university": {
+    "source": "https://www.google.com/s2/favicons?domain=www.griffith.edu.au&sz=128",
+    "officialPage": "https://www.griffith.edu.au/"
+  },
+  "grinnell-college": {
+    "source": "https://www.grinnell.edu/themes/custom/grinnell_theme/assets/favicon/safari-pinned-tab.svg",
+    "officialPage": "https://www.grinnell.edu/"
+  },
+  "harvard": {
+    "source": "https://college.harvard.edu/themes/custom/harvard_college/assets/dependencies/favicon/apple-touch-icon.png",
+    "officialPage": "https://college.harvard.edu/"
+  },
+  "haverford-college": {
+    "source": "https://www.google.com/s2/favicons?domain=www.haverford.edu&sz=128",
+    "officialPage": "https://www.haverford.edu/"
+  },
+  "hong-kong-baptist-university": {
+    "source": "https://www.google.com/s2/favicons?domain=www.hkbu.edu.hk&sz=128",
+    "officialPage": "https://www.hkbu.edu.hk/"
+  },
+  "hong-kong-polytechnic-university": {
+    "source": "https://www.google.com/s2/favicons?domain=www.polyu.edu.hk&sz=128",
+    "officialPage": "https://www.polyu.edu.hk/"
+  },
+  "hong-kong-university-of-science-and-technology": {
+    "source": "https://hkust.edu.hk/themes/custom/hkust/favicon.ico",
+    "officialPage": "https://hkust.edu.hk/"
+  },
+  "imperial": {
+    "source": "https://www.imperial.ac.uk/assets/website/images/favicon/favicon-180.png",
+    "officialPage": "https://www.imperial.ac.uk/"
+  },
+  "iowa-state-university": {
+    "source": "https://cdn.theme.iastate.edu/favicon/apple-touch-icon.png",
+    "officialPage": "https://www.iastate.edu/"
+  },
+  "johannes-kepler-university-linz": {
+    "source": "https://www.jku.at/apple-touch-icon.png",
+    "officialPage": "https://www.jku.at/en/"
+  },
+  "kaist": {
+    "source": "https://www.kaist.ac.kr/favicon.ico",
+    "officialPage": "https://www.kaist.ac.kr/"
+  },
+  "kth-royal-institute-of-technology": {
+    "source": "https://www.kth.se/polopoly_fs/1.1273722.1793020234!/image/apple-touch-icon-KTH-logo-180x180.png",
+    "officialPage": "https://www.kth.se/en"
+  },
+  "ku-leuven": {
+    "source": "https://stijl.kuleuven.be/releases/latest/img/favicon.png",
+    "officialPage": "https://www.kuleuven.be/english/kuleuven/"
+  },
+  "kyushu-university": {
+    "source": "https://www.kyushu-u.ac.jp/apple-touch-icon.png",
+    "officialPage": "https://www.kyushu-u.ac.jp/en/"
+  },
+  "lafayette-college": {
+    "source": "https://cdn.lafayette.edu/marquis-base/3.17.20/images/favicons/apple-touch-icon-152x152.png",
+    "officialPage": "https://www.lafayette.edu/"
+  },
+  "lancaster": {
+    "source": "https://www.google.com/s2/favicons?domain=lancaster.ac.uk&sz=128",
+    "officialPage": "https://lancaster.ac.uk/"
+  },
+  "leeds": {
+    "source": "https://jaducdn.leeds.ac.uk/uol-ds/1.0.22/favicons/apple-touch-icon.png",
+    "officialPage": "https://www.leeds.ac.uk/"
+  },
+  "lehigh-university": {
+    "source": "https://www2.lehigh.edu/sites/www2/files/favicons/favicon180.png",
+    "officialPage": "https://www2.lehigh.edu/"
+  },
+  "linnaeus-university": {
+    "source": "https://www.lnu.se/favicon.ico",
+    "officialPage": "https://www.lnu.se/en/"
+  },
+  "liverpool": {
+    "source": "https://www.google.com/s2/favicons?domain=liverpool.ac.uk&sz=128",
+    "officialPage": "https://liverpool.ac.uk/"
+  },
+  "loughborough": {
+    "source": "https://www.google.com/s2/favicons?domain=lboro.ac.uk&sz=128",
+    "officialPage": "https://lboro.ac.uk/"
+  },
+  "luiss": {
+    "source": "https://www.luiss.it/themes/custom/luiss_ds/favicon/apple-icon-180x180.png",
+    "officialPage": "https://www.luiss.it/en"
+  },
+  "maastricht-university": {
+    "source": "https://www.google.com/s2/favicons?domain=www.maastrichtuniversity.nl&sz=128",
+    "officialPage": "https://www.maastrichtuniversity.nl/"
+  },
+  "macalester-college": {
+    "source": "https://www.macalester.edu/wp-content/themes/macalester-2020/dist/images/favicons/apple-touch-icon.png",
+    "officialPage": "https://www.macalester.edu/"
+  },
+  "mbzuai": {
+    "source": "https://www.google.com/s2/favicons?domain=mbzuai.ac.ae&sz=128",
+    "officialPage": "https://mbzuai.ac.ae/"
+  },
+  "mcgill-university": {
+    "source": "https://www.google.com/s2/favicons?domain=mcgill.ca&sz=128",
+    "officialPage": "https://www.mcgill.ca/"
+  },
+  "michigan-state-university": {
+    "source": "https://msu.edu/favicon.ico",
+    "officialPage": "https://www.msu.edu/"
+  },
+  "mit": {
+    "source": "https://mitadmissions.org/wp-content/themes/mit-admissions-theme/static/img/favicon/apple-icon-180x180.png?v=1.3.8",
+    "officialPage": "https://mitadmissions.org/"
+  },
+  "monash-university": {
+    "source": "https://www.google.com/s2/favicons?domain=www.monash.edu&sz=128",
+    "officialPage": "https://www.monash.edu/"
+  },
+  "nanyang-technological-university": {
+    "source": "https://www.ntu.edu.sg/ResourcePackages/NTU/assets/images/favicon.png",
+    "officialPage": "https://www.ntu.edu.sg/"
+  },
+  "national-university-of-singapore": {
+    "source": "https://www.comp.nus.edu.sg/wp-content/uploads/2023/09/cropped-favicon-192x192.png",
+    "officialPage": "https://www.comp.nus.edu.sg/"
+  },
+  "nazarbayev-university": {
+    "source": "https://nu.edu.kz/wp-content/uploads/2025/11/cropped-nu-1-192x192.png",
+    "officialPage": "https://nu.edu.kz/"
+  },
+  "newcastle": {
+    "source": "https://www.google.com/s2/favicons?domain=ncl.ac.uk&sz=128",
+    "officialPage": "https://ncl.ac.uk/"
+  },
+  "northwestern": {
+    "source": "https://common.northwestern.edu/v8/icons/favicon-180.png",
+    "officialPage": "https://www.northwestern.edu/"
+  },
+  "notre-dame": {
+    "source": "https://static.nd.edu/images/webclips/default/webclip-512.png",
+    "officialPage": "https://www.nd.edu/"
+  },
+  "nottingham": {
+    "source": "https://www.google.com/s2/favicons?domain=nottingham.ac.uk&sz=128",
+    "officialPage": "https://nottingham.ac.uk/"
+  },
+  "oxford": {
+    "source": "https://www.google.com/s2/favicons?domain=ox.ac.uk&sz=128",
+    "officialPage": "https://ox.ac.uk/"
+  },
+  "politecnico-di-torino": {
+    "source": "https://www.polito.it/themes/custom/polito_customizations/favicon.ico",
+    "officialPage": "https://www.polito.it/en"
+  },
+  "pomona-college": {
+    "source": "https://www.pomona.edu/themes/custom/pomona/images/favicon-152.png",
+    "officialPage": "https://www.pomona.edu/"
+  },
+  "princeton": {
+    "source": "https://admission.princeton.edu/themes/custom/princeton/assets/images/HeaderLogo.svg",
+    "officialPage": "https://admission.princeton.edu/"
+  },
+  "qatar-university": {
+    "source": "https://www.google.com/s2/favicons?domain=www.qu.edu.qa&sz=128",
+    "officialPage": "https://www.qu.edu.qa/"
+  },
+  "queens-belfast": {
+    "source": "https://www.google.com/s2/favicons?domain=www.qub.ac.uk&sz=128",
+    "officialPage": "https://qub.ac.uk/"
+  },
+  "queensland-university-of-technology": {
+    "source": "https://www.google.com/s2/favicons?domain=www.qut.edu.au&sz=128",
+    "officialPage": "https://www.qut.edu.au/"
+  },
+  "rhine-waal": {
+    "source": "https://www.hochschule-rhein-waal.de/_assets/1b3912148daf116798541c5520df0353/frontend/assets/favicons/apple-touch-icon.png?1794918086",
+    "officialPage": "https://www.hochschule-rhein-waal.de/en/"
+  },
+  "rice": {
+    "source": "https://www.rice.edu/sites/g/files/bxs2566/files/favicon.ico",
+    "officialPage": "https://www.rice.edu/"
+  },
+  "ritsumeikan-university": {
+    "source": "https://en.ritsumei.ac.jp/favicon.ico",
+    "officialPage": "https://en.ritsumei.ac.jp/"
+  },
+  "rmit-university": {
+    "source": "https://www.rmit.edu.au/apple-touch-icon.png",
+    "officialPage": "https://www.rmit.edu.au/"
+  },
+  "saarland-university": {
+    "source": "https://www.uni-saarland.de/typo3conf/ext/uni_saarland/Resources/Public/Icons/Favicon/apple-icon-180x180.png",
+    "officialPage": "https://www.uni-saarland.de/en/home.html"
+  },
+  "sabanci-university": {
+    "source": "https://www.sabanciuniv.edu/themes/custom/su/favicon.ico",
+    "officialPage": "https://www.sabanciuniv.edu/en"
+  },
+  "sciences-po": {
+    "source": "https://www.sciencespo.fr/en/icons/icon-512x512.png?v=8ed289013da1e087023b4502658079f5",
+    "officialPage": "https://www.sciencespo.fr/en/"
+  },
+  "sheffield": {
+    "source": "https://sheffield.ac.uk/favicon.ico",
+    "officialPage": "https://sheffield.ac.uk/"
+  },
+  "simon-fraser-university": {
+    "source": "https://www.google.com/s2/favicons?domain=sfu.ca&sz=128",
+    "officialPage": "https://www.sfu.ca/"
+  },
+  "singapore-institute-of-technology": {
+    "source": "https://www.google.com/s2/favicons?domain=www.singaporetech.edu.sg&sz=128",
+    "officialPage": "https://www.singaporetech.edu.sg/"
+  },
+  "singapore-management-university": {
+    "source": "https://www.google.com/s2/favicons?domain=www.smu.edu.sg&sz=128",
+    "officialPage": "https://www.smu.edu.sg/"
+  },
+  "singapore-university-of-technology-and-design": {
+    "source": "https://www.sutd.edu.sg/wp-content/uploads/2026/10/cropped-favicon.png?w=192",
+    "officialPage": "https://www.sutd.edu.sg/"
+  },
+  "southampton": {
+    "source": "https://www.google.com/s2/favicons?domain=southampton.ac.uk&sz=128",
+    "officialPage": "https://southampton.ac.uk/"
+  },
+  "st-andrews": {
+    "source": "https://www.google.com/s2/favicons?domain=www.st-andrews.ac.uk&sz=128",
+    "officialPage": "https://st-andrews.ac.uk/"
+  },
+  "st-olaf-college": {
+    "source": "https://www.stolaf.edu/favicon.ico",
+    "officialPage": "https://www.stolaf.edu/"
+  },
+  "swarthmore": {
+    "source": "https://www.swarthmore.edu/themes/custom/swarthmore_theme/images/icons/favicons/apple-touch-icon.png",
+    "officialPage": "https://www.swarthmore.edu/"
+  },
+  "swinburne-university-of-technology": {
+    "source": "https://www.swinburne.edu.au/content/dam/media/brand/logo-small.svg",
+    "officialPage": "https://www.swinburne.edu.au/"
+  },
+  "szeged": {
+    "source": "https://u-szeged.hu/site/img/design/favicon.ico",
+    "officialPage": "https://u-szeged.hu/english"
+  },
+  "tallinn-university-of-technology": {
+    "source": "https://taltech.ee/static/favicon.ico",
+    "officialPage": "https://taltech.ee/en"
+  },
+  "tampere-university": {
+    "source": "https://www.tuni.fi/shared/apple-touch-icon.png",
+    "officialPage": "https://www.tuni.fi/fi"
+  },
+  "technical-university-of-denmark": {
+    "source": "https://www.dtu.dk/favicon.ico",
+    "officialPage": "https://www.dtu.dk/english"
+  },
+  "trinity-college-dublin": {
+    "source": "https://www.tcd.ie/favicon.ico?v=3",
+    "officialPage": "https://www.tcd.ie/"
+  },
+  "uchicago": {
+    "source": "https://www.uchicago.edu/dist/intranet/favicon.ico",
+    "officialPage": "https://www.uchicago.edu/"
+  },
+  "ucl": {
+    "source": "https://www.google.com/s2/favicons?domain=ucl.ac.uk&sz=128",
+    "officialPage": "https://ucl.ac.uk/"
+  },
+  "ulsan-national-institute-of-science-and-technology": {
+    "source": "https://www.unist.ac.kr/_res/unist/unist/img/common/img-logo-new-b.png",
+    "officialPage": "https://www.unist.ac.kr/unist/introduction/download.do"
+  },
+  "universidad-carlos-iii-de-madrid": {
+    "source": "https://www.uc3m.es/base/media/base/img/decorativa/img_comunes_favicon/favicon.ico?blobheader=image/x-icon",
+    "officialPage": "https://www.uc3m.es/home"
+  },
+  "university-college-dublin": {
+    "source": "https://www.google.com/s2/favicons?domain=www.ucd.ie&sz=128",
+    "officialPage": "https://www.ucd.ie/"
+  },
+  "university-of-aizu": {
+    "source": "https://u-aizu.ac.jp/img/favicons/apple-touch-icon.png",
+    "officialPage": "https://u-aizu.ac.jp/"
+  },
+  "university-of-alabama": {
+    "source": "https://www.ua.edu/wp-content/themes/ua-theme/assets/images/icon.svg",
+    "officialPage": "https://www.ua.edu/"
+  },
+  "university-of-alberta": {
+    "source": "https://www.google.com/s2/favicons?domain=www.ualberta.ca&sz=128",
+    "officialPage": "https://www.ualberta.ca/"
+  },
+  "university-of-arizona": {
+    "source": "https://www.arizona.edu/themes/custom/www_barrio/favicon.ico",
+    "officialPage": "https://www.arizona.edu/"
+  },
+  "university-of-auckland": {
+    "source": "https://www.auckland.ac.nz/etc.clientlibs/uoa-digital/clientlibs/resources/svg/favicon.svg",
+    "officialPage": "https://www.auckland.ac.nz/en.html"
+  },
+  "university-of-bristol": {
+    "source": "https://www.bristol.ac.uk/assets/responsive-web-project/2.7.8/favicons/apple-touch-icon.png",
+    "officialPage": "https://www.bristol.ac.uk/"
+  },
+  "university-of-british-columbia": {
+    "source": "https://cdn.ubc.ca/clf/7.0.5/img/touch-icon-iphone-retina.png",
+    "officialPage": "https://www.ubc.ca/"
+  },
+  "university-of-calgary": {
+    "source": "https://www.google.com/s2/favicons?domain=ucalgary.ca&sz=128",
+    "officialPage": "https://www.ucalgary.ca/"
+  },
+  "university-of-canterbury": {
+    "source": "https://www.canterbury.ac.nz/content/dam/uoc-restricted/icons/apple-icon-180x180.png",
+    "officialPage": "https://www.canterbury.ac.nz/"
+  },
+  "university-of-edinburgh": {
+    "source": "https://www.ed.ac.uk/themes/upstream/wpp_theme/images/uoe-logo-centred-black.png",
+    "officialPage": "https://www.ed.ac.uk/"
+  },
+  "university-of-groningen": {
+    "source": "https://www.google.com/s2/favicons?domain=www.rug.nl&sz=128",
+    "officialPage": "https://www.rug.nl/"
+  },
+  "university-of-hong-kong": {
+    "source": "https://www.hku.hk/etc.clientlibs/hkucms/clientlibs/clientlib-site/resources/apple-touch-icon-180x180.png",
+    "officialPage": "https://www.hku.hk/"
+  },
+  "university-of-kansas": {
+    "source": "https://www.ku.edu/themes/contrib/borzoi/favicon.ico",
+    "officialPage": "https://www.ku.edu/"
+  },
+  "university-of-manchester": {
+    "source": "https://www.manchester.ac.uk/medialibrary/assets/corporate/images/design/favicon.ico",
+    "officialPage": "https://www.manchester.ac.uk/"
+  },
+  "university-of-manitoba": {
+    "source": "https://www.google.com/s2/favicons?domain=www.umanitoba.ca&sz=128",
+    "officialPage": "https://www.umanitoba.ca/"
+  },
+  "university-of-melbourne": {
+    "source": "https://www.google.com/s2/favicons?domain=unimelb.edu.au&sz=128",
+    "officialPage": "https://www.unimelb.edu.au/"
+  },
+  "university-of-mississippi": {
+    "source": "https://olemiss.edu/assets/favicons/2026/apple_touch_icon.png",
+    "officialPage": "https://olemiss.edu/"
+  },
+  "university-of-ottawa": {
+    "source": "https://www.google.com/s2/favicons?domain=uottawa.ca&sz=128",
+    "officialPage": "https://www.uottawa.ca/"
+  },
+  "university-of-oulu": {
+    "source": "https://www.oulu.fi/sites/default/files/favicons/apple-touch-icon.png",
+    "officialPage": "https://www.oulu.fi/fi"
+  },
+  "university-of-queensland": {
+    "source": "https://www.google.com/s2/favicons?domain=uq.edu.au&sz=128",
+    "officialPage": "https://uq.edu.au/"
+  },
+  "university-of-richmond": {
+    "source": "https://d2n43swdo6jzfk.cloudfront.net/dist/img/png/apple-touch-icon-ipad-76x76.png",
+    "officialPage": "https://www.richmond.edu/"
+  },
+  "university-of-rochester": {
+    "source": "https://www.rochester.edu/assets/images/brand/favicon/favicon-96x96.png?v=3",
+    "officialPage": "https://www.rochester.edu/"
+  },
+  "university-of-south-florida": {
+    "source": "https://www.usf.edu/favicon.ico",
+    "officialPage": "https://www.usf.edu/"
+  },
+  "university-of-southern-denmark": {
+    "source": "https://www.sdu.dk/resources/images/sdu/icon152.png",
+    "officialPage": "https://www.sdu.dk/en"
+  },
+  "university-of-southern-mississippi": {
+    "source": "https://www.usm.edu/_resources/favicons/apple-icon-180x180.png",
+    "officialPage": "https://www.usm.edu/"
+  },
+  "university-of-sydney": {
+    "source": "https://www.google.com/s2/favicons?domain=sydney.edu.au&sz=128",
+    "officialPage": "https://www.sydney.edu.au/"
+  },
+  "university-of-tartu": {
+    "source": "https://ut.ee/themes/utheme/favicon.svg",
+    "officialPage": "https://ut.ee/en"
+  },
+  "university-of-technology-sydney": {
+    "source": "https://www.google.com/s2/favicons?domain=www.uts.edu.au&sz=128",
+    "officialPage": "https://www.uts.edu.au/"
+  },
+  "university-of-toronto": {
+    "source": "https://www.google.com/s2/favicons?domain=www.utoronto.ca&sz=128",
+    "officialPage": "https://www.utoronto.ca/"
+  },
+  "university-of-twente": {
+    "source": "https://www.utwente.nl/favicon.ico",
+    "officialPage": "https://www.utwente.nl/"
+  },
+  "university-of-victoria": {
+    "source": "https://www.google.com/s2/favicons?domain=uvic.ca&sz=128",
+    "officialPage": "https://www.uvic.ca/"
+  },
+  "university-of-waterloo": {
+    "source": "https://uwaterloo.ca/profiles/uw_base_profile/themes/uw_fdsu_theme_resp/icon.svg",
+    "officialPage": "https://uwaterloo.ca/"
+  },
+  "unsw-sydney": {
+    "source": "https://www.unsw.edu.au/etc.clientlibs/unsw-common/clientlibs/clientlib-unsw-web-resources/resources/apple-touch-icon-180x180.png",
+    "officialPage": "https://www.unsw.edu.au/"
+  },
+  "vanderbilt": {
+    "source": "https://cdn.vanderbilt.edu/vu-futurevu/static/img/favicons/favicon-on-light.png",
+    "officialPage": "https://www.vanderbilt.edu/"
+  },
+  "warwick": {
+    "source": "https://d36jn9qou1tztq.cloudfront.net/static_war/render/id7/images/apple-touch-icon-180x180.png.265479534550",
+    "officialPage": "https://warwick.ac.uk/"
+  },
+  "washington-and-lee": {
+    "source": "https://www.wlu.edu/Global/favicon.ico",
+    "officialPage": "https://www.wlu.edu/"
+  },
+  "wellesley": {
+    "source": "https://www.wellesley.edu/frontend/static-html/favicons/apple-touch-icon.png?v=2.0.0",
+    "officialPage": "https://www.wellesley.edu/"
+  },
+  "wesleyan": {
+    "source": "https://www.wesleyan.edu/global/images/favicon.ico",
+    "officialPage": "https://www.wesleyan.edu/"
+  },
+  "williams": {
+    "source": "https://www.google.com/s2/favicons?domain=www.williams.edu&sz=128",
+    "officialPage": "https://www.williams.edu/"
+  },
+  "yale": {
+    "source": "https://www.yale.edu/sites/all/themes/yale_blue/images/favicons/android-chrome-192x192.png",
+    "officialPage": "https://www.yale.edu/"
+  },
+  "york": {
+    "source": "https://www.york.ac.uk/static/2/images/favicons/favicon.svg",
+    "officialPage": "https://www.york.ac.uk/"
+  },
+  "york-university": {
+    "source": "https://www.google.com/s2/favicons?domain=yorku.ca&sz=128",
+    "officialPage": "https://www.yorku.ca/"
+  }
+}

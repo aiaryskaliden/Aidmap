@@ -8,6 +8,7 @@ import {
   ArrowUpRight,
   ShieldCheck,
   Search,
+  MessageCircle,
   ArrowRight,
 } from "lucide-react";
 import { opportunities, findUniversity } from "@/data/universities";
@@ -16,12 +17,19 @@ import { Button } from "@/components/ui/button";
 import { PageHeading, PolicyNote, ExternalLink } from "@/components/ui/shared";
 import { dateLabel, money } from "@/lib/utils";
 import { Help } from "@/components/ui/help";
+import { UniversityMark } from "@/components/universities/university-mark";
+const countries = [...new Set(opportunities.flatMap((award) => {
+  const university = findUniversity(award.universityId);
+  return university ? [university.country] : [];
+}))].sort();
+
 export default function FundingExplorer() {
   const { state, update, ready } = useApp();
   const { params, set, reset } = useURLFilters();
   const query = params.get("q") ?? "",
     kind = params.get("kind") ?? "",
     type = params.get("type") ?? "",
+    country = params.get("country") ?? "",
     onlySaved = params.get("saved") === "1",
     eligibility = params.get("eligibility") ?? "";
   const setQuery = (v: string) => set("q", v),
@@ -34,10 +42,11 @@ export default function FundingExplorer() {
   const limit = page.search === search ? page.limit : 12;
   const results = opportunities.filter(
     (o) =>
-      (!query ||
-        `${o.name} ${o.provider}`
+      (!query.trim() ||
+        `${o.name} ${o.provider} ${findUniversity(o.universityId)?.name ?? ""}`
           .toLowerCase()
-          .includes(query.toLowerCase())) &&
+          .includes(query.trim().toLowerCase())) &&
+      (!country || findUniversity(o.universityId)?.country === country) &&
       (!kind || o.kind === kind) &&
       (!type || o.fundingType === type) &&
       (!onlySaved || state.savedFunding.includes(o.id)) &&
@@ -47,50 +56,33 @@ export default function FundingExplorer() {
           : o.eligibilityUnknown)),
   );
   return (
-    <div className="page-container">
+    <div className="page-container funding-page">
       <PageHeading
-        eyebrow="FUNDING / KNOW YOUR OPTIONS"
-        title="Find undergraduate funding"
-        description="Understand international funding policies before you build them into your plans."
-      />
-      <Help term="fullNeed" />
-      <Help term="priority" />
-      <div className="funding-intro-grid">
-        {[
-          {
-            n: "01",
-            title: "Need-based aid",
-            text: "Your institution assesses financial need. Your budget and its calculated contribution may differ.",
-          },
-          {
-            n: "02",
-            title: "Merit scholarships",
-            text: "Competitive awards with specific criteria. Amounts, eligibility, and renewal conditions need checking.",
-          },
-          {
-            n: "03",
-            title: "Full tuition ≠ full cost",
-            text: "A tuition award can leave housing, food, health insurance and travel for you to fund.",
-          },
-        ].map((x) => (
-          <div className="funding-intro" key={x.n}>
-            <span>{x.n}</span>
-            <h3>{x.title}</h3>
-            <p>{x.text}</p>
-          </div>
-        ))}
-      </div>
+        eyebrow=""
+        title="Scholarships and financial aid"
+        description="Search undergraduate awards, check coverage and save options."
+      >
+        <Button asChild variant="outline" size="sm">
+          <Link prefetch={false} href="/advisor?question=Which%20universities%20offer%20full%20tuition%20scholarships%20to%20international%20students%3F">
+            <MessageCircle size={16} /> Ask Maple about funding
+          </Link>
+        </Button>
+      </PageHeading>
       <div className="funding-filters">
         <div className="search-field">
           <Search size={17} />
           <input
             aria-label="Search funding"
             disabled={!ready}
-            placeholder="Search aid programs or providers…"
+            placeholder="Search by award or university…"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
         </div>
+        <select aria-label="Funding country" disabled={!ready} value={country} onChange={(e) => set("country", e.target.value)}>
+          <option value="">All countries</option>
+          {countries.map((name) => <option key={name}>{name}</option>)}
+        </select>
         <select
           aria-label="Opportunity kind"
           disabled={!ready}
@@ -147,7 +139,6 @@ export default function FundingExplorer() {
           conditions
         </span>
       </div>
-      <PolicyNote />
       {results.length ? (
         <div className="funding-grid">
           {results.slice(0, limit).map((o) => {
@@ -156,15 +147,11 @@ export default function FundingExplorer() {
             return (
               <article className="funding-card" key={o.id}>
                 <div className="funding-card-header">
-                  <span
-                    className="university-monogram"
-                    style={{ color: u.color, background: `${u.color}10` }}
-                  >
-                    {u.initials}
-                  </span>
+                  <UniversityMark university={u} />
                   <div>
                     <span className="eyebrow">{o.kind}</span>
                     <h3>{o.name}</h3>
+                    <small>{u.name}</small>
                   </div>
                   <Button
                     size="icon"
@@ -221,23 +208,20 @@ export default function FundingExplorer() {
                       </small>
                     )}
                   </div>
-                  <div>
-                    <span>Renewal conditions / major restrictions</span>
-                    <strong>{o.renewal ?? "Renewal not yet verified"}</strong>
-                  </div>
                 </div>
-                <p className="award-conditions">{o.source.note}</p>
                 <details>
                   <summary>Application process & conditions</summary>
+                  <p className="award-conditions">{o.source.note}</p>
                   <p>{o.separateApplication || "Not yet verified"}</p>
                   <p>{u.aidForms.note}</p>
                   <p>{o.deadline.note}</p>
-                </details>
-                <div className="funding-card-footer">
+                  <p><strong>Renewal</strong> · {o.renewal ?? "Not yet verified"}</p>
                   <ExternalLink href={o.source.url}>
                     <ShieldCheck size={14} />
                     Official eligibility
                   </ExternalLink>
+                </details>
+                <div className="funding-card-footer">
                   <Link prefetch={false}
                     className="text-link"
                     href={`/universities/${u.id}#financial-aid`}
@@ -261,15 +245,7 @@ export default function FundingExplorer() {
             Try a broader funding type or remove the saved-only filter.
             Restricted citizenship and program conditions still apply.
           </p>
-          <Button
-            onClick={() => {
-              setQuery("");
-              setKind("");
-              setType("");
-              setOnlySaved(false);
-              setEligibility("");
-            }}
-          >
+          <Button onClick={reset}>
             Clear filters
             <ArrowRight size={16} />
           </Button>
@@ -280,6 +256,12 @@ export default function FundingExplorer() {
           Show {Math.min(12, results.length - limit)} more funding options
         </Button>
       )}
+      <details className="catalogue-note">
+        <summary>Funding terms</summary>
+        <Help term="fullNeed" />
+        <Help term="priority" />
+        <PolicyNote />
+      </details>
       <div className="bottom-callout">
         <div>
           <h3>Estimate the costs an award leaves uncovered</h3>

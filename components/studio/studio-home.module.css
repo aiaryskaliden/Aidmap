@@ -1,0 +1,639 @@
+.paper {
+  --home-ink: #172a38;
+  --home-muted: #566673;
+  --home-line: #dce3e7;
+  --home-subtle: #eaf0f3;
+  --home-blue: #087393;
+  --home-surface: #fff;
+  position: relative;
+  isolation: isolate;
+  min-height: 100svh;
+  padding: 15px clamp(18px, 4vw, 62px) 64px;
+  background: var(--home-surface);
+  color: var(--home-ink);
+}
+.paper::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0 0 auto;
+  height: 125px;
+  pointer-events: none;
+  background:
+    radial-gradient(95% 108% at 61% -86%, #c2e3eb 99%, transparent 100%),
+    radial-gradient(105% 122% at 17% -74%, #d9edf2 99%, transparent 100%),
+    linear-gradient(#edf7fa, transparent);
+}
+:global(html[data-theme="dark"]) .paper {
+  --home-ink: #edf4f6;
+  --home-muted: #b7c8d1;
+  --home-line: #374a58;
+  --home-subtle: #324453;
+  --home-surface: #192533;
+  --home-blue: #76d9ef;
+}
+:global(html[data-theme="dark"]) .paper::before {
+  opacity: 0.12;
+}
+.workspace {
+  max-width: 990px;
+  margin: 0 auto;
+}
+.paper .topbar {
+  min-height: 30px;
+  margin-bottom: 26px;
+  font-size: 12px;
+  font-weight: 550;
+  color: var(--home-muted);
+}
+.paper .topbar label {
+  min-height: 29px;
+  background: var(--home-surface);
+  border-color: var(--home-line);
+}
+.dashboard {
+  display: grid;
+  grid-template-columns: minmax(0, 1.94fr) minmax(245px, 1fr);
+  grid-template-areas: "welcome rail" "applications rail" "planner rail" "saved rail";
+  gap: 27px clamp(18px, 2.5vw, 34px);
+  align-items: start;
+}
+.welcome {
+  grid-area: welcome;
+  min-width: 0;
+}
+.welcome h1 {
+  margin: 0;
+  font-size: clamp(25px, 2.4vw, 35px);
+  line-height: 1.2;
+  letter-spacing: -0.045em;
+  font-weight: 680;
+  overflow-wrap: anywhere;
+}
+.welcome h1 span {
+  color: var(--home-muted);
+  font-weight: 500;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 17px;
+  margin-top: 16px;
+}
+.primary,
+.quietLink,
+.smallLink,
+.openCard,
+.schoolEnd a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: fit-content;
+  line-height: 1.2;
+}
+.primary {
+  min-height: 35px;
+  padding: 8px 13px;
+  border-radius: 8px;
+  background: #126f87;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 650;
+}
+.primary:hover {
+  background: #10576b;
+}
+.quietLink {
+  color: var(--home-muted);
+  font-size: 13px;
+  min-height: 35px;
+}
+.quietLink:hover,
+.schoolTitle a:hover,
+.dates a:hover,
+.schoolEnd a:hover {
+  text-decoration: underline;
+}
+.applications {
+  grid-area: applications;
+  min-width: 0;
+}
+.planner {
+  grid-area: planner;
+  min-width: 0;
+}
+.saved {
+  grid-area: saved;
+  min-width: 0;
+}
+.heading {
+  display: flex;
+  gap: 7px 12px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 11px;
+}
+.heading h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 17px;
+  line-height: 1.3;
+  letter-spacing: -0.027em;
+  font-weight: 640;
+}
+.heading h2 svg {
+  width: 18px;
+  height: 18px;
+  color: var(--home-muted);
+  stroke-width: 1.8;
+}
+.smallLink {
+  border: 1px solid var(--home-line);
+  border-radius: 8px;
+  padding: 5px 9px;
+  color: var(--home-muted);
+  font-size: 12px;
+  font-weight: 550;
+  min-height: 29px;
+}
+.smallLink:hover {
+  background: var(--home-subtle);
+  color: var(--home-ink);
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 11px;
+}
+.card {
+  isolation: isolate;
+  overflow: hidden;
+  position: relative;
+  min-width: 0;
+  min-height: clamp(147px, 11vw, 169px);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 16px 17px 15px;
+  border-radius: 12px;
+  background: linear-gradient(
+    109deg,
+    var(--tile-base) 2%,
+    var(--tile-end) 100%
+  );
+  box-shadow: inset 0 0 0 1px #ffffff19;
+  color: #fff;
+}
+.card[data-route="ucas"] {
+  --tile-base: #116651;
+  --tile-end: #208d72;
+}
+.card[data-route="uc"] {
+  --tile-base: #a04608;
+  --tile-end: #e69328;
+}
+.card[data-route="common-app"] {
+  --tile-base: #066881;
+  --tile-end: #149baf;
+}
+.card[data-route="mit"] {
+  --tile-base: #822644;
+  --tile-end: #bb4761;
+}
+.cardArt {
+  position: absolute;
+  z-index: -1;
+  right: -4%;
+  bottom: -10%;
+  width: 51%;
+  height: 100%;
+  object-fit: contain;
+  object-position: bottom right;
+  pointer-events: none;
+}
+.card h3 {
+  max-width: 68%;
+  margin: 0 auto auto 0;
+  color: inherit;
+  font-size: clamp(16px, 1.25vw, 20px);
+  letter-spacing: -0.035em;
+  font-weight: 660;
+  line-height: 1.13;
+  text-wrap: balance;
+}
+.card h3 a::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  border-radius: inherit;
+}
+.card:has(a:focus-visible) {
+  outline: 2px solid var(--home-blue);
+  outline-offset: 3px;
+}
+.card h3 a:focus-visible {
+  outline: 0;
+}
+.card h3 a:hover {
+  text-decoration: underline;
+}
+.cardProgress {
+  width: 56%;
+  max-width: 146px;
+  margin: 12px 0 10px;
+  line-height: 1.3;
+}
+.cardProgress div {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  font-size: 11px;
+  font-weight: 540;
+  margin-bottom: 5px;
+}
+.cardProgress strong {
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+}
+.cardProgress progress,
+.schoolProgress progress {
+  appearance: none;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: 5px;
+  color: var(--bar-fill);
+  background: var(--bar-track);
+  border: 0;
+  border-radius: 99px;
+}
+.cardProgress {
+  --bar-track: #ffffff49;
+  --bar-fill: #fff;
+}
+.cardProgress progress::-webkit-progress-bar,
+.schoolProgress progress::-webkit-progress-bar {
+  background: var(--bar-track);
+  border-radius: inherit;
+}
+.cardProgress progress::-webkit-progress-value,
+.schoolProgress progress::-webkit-progress-value {
+  background: var(--bar-fill);
+  border-radius: inherit;
+}
+.cardProgress progress::-moz-progress-bar,
+.schoolProgress progress::-moz-progress-bar {
+  background: var(--bar-fill);
+  border-radius: inherit;
+}
+.openCard {
+  position: relative;
+  min-height: 27px;
+  font-size: 12px;
+  font-weight: 650;
+  border-radius: 20px;
+  padding: 5px 10px;
+  color: #20313b;
+  background: #fff;
+}
+.openCard:hover {
+  box-shadow: 0 1px 6px #03242a33;
+}
+.rail {
+  grid-area: rail;
+  display: grid;
+  gap: 17px;
+  align-content: start;
+  min-width: 0;
+}
+.setup,
+.tools,
+.empty,
+.dates,
+.schoolList {
+  background: var(--home-surface);
+  border: 1px solid var(--home-line);
+  border-radius: 13px;
+}
+.setup {
+  padding: 15px;
+}
+.setupHeading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.setupHeading h2 {
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: -0.025em;
+  font-weight: 650;
+}
+.setupHeading > span:last-child {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--home-muted);
+  font-variant-numeric: tabular-nums;
+}
+.ring {
+  position: relative;
+  width: 17px;
+  height: 17px;
+  flex: none;
+  border-radius: 100%;
+}
+.ring::after {
+  position: absolute;
+  content: "";
+  inset: 2px;
+  background: var(--home-surface);
+  border-radius: inherit;
+}
+.setup ul,
+.dates {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.setup ul {
+  margin-top: 9px;
+}
+.setup li a {
+  display: grid;
+  grid-template-columns: 17px minmax(0, 1fr) 13px;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 0;
+  font-size: 12px;
+  line-height: 1.35;
+}
+.setup li a > svg {
+  color: var(--home-muted);
+  opacity: 0;
+}
+.setup li a:hover > svg,
+.setup li a:focus-visible > svg {
+  opacity: 1;
+}
+.setup li a:hover span {
+  text-decoration: underline;
+}
+.setup li i {
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  border: 1.5px solid var(--home-line);
+  border-radius: 5px;
+}
+.setup li [data-done="true"] i {
+  background: var(--home-blue);
+  border-color: transparent;
+  color: var(--home-surface);
+}
+.setup li [data-done="true"] span {
+  text-decoration: line-through;
+  color: var(--home-muted);
+}
+.tools {
+  padding: 0 13px;
+}
+.tools a {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 9px;
+  min-height: 40px;
+  font-size: 12px;
+  font-weight: 550;
+}
+.tools a + a,
+.dates li + li,
+.schoolRow + .schoolRow {
+  border-top: 1px solid var(--home-line);
+}
+.tools svg {
+  color: var(--home-muted);
+}
+.tools a:hover {
+  color: var(--home-blue);
+}
+.empty {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 10px;
+  color: var(--home-muted);
+  padding: 14px;
+  font-size: 13px;
+}
+.empty:hover {
+  border-color: var(--home-muted);
+  color: var(--home-ink);
+}
+.dates,
+.schoolList {
+  padding: 0 13px;
+}
+.dates li,
+.schoolRow {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 11px;
+  min-width: 0;
+  padding: 11px 0;
+  line-height: 1.3;
+}
+.dates li > :first-child,
+.schoolRow > :first-child {
+  width: 29px;
+  height: 29px;
+  font-size: 10px;
+}
+.dates a,
+.schoolTitle h3 {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.35;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.dates small,
+.schoolTitle small {
+  display: block;
+  color: var(--home-muted);
+  font-size: 11px;
+  margin-top: 3px;
+}
+.dates time,
+.overdue time {
+  font-size: 11px;
+  color: var(--home-muted);
+  font-variant-numeric: tabular-nums;
+  text-align: end;
+}
+.overdue {
+  font-size: 12px;
+  border-bottom: 1px solid var(--home-line);
+  padding: 10px 0;
+}
+.overdue summary {
+  cursor: pointer;
+  color: var(--home-muted);
+}
+.overdue summary span {
+  margin-left: 4px;
+}
+.overdue > a {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 9px;
+}
+.schoolTitle {
+  min-width: 0;
+}
+.source {
+  display: inline;
+  color: var(--home-muted);
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+.source svg {
+  display: inline;
+  margin-left: 2px;
+}
+.schoolEnd {
+  display: grid;
+  justify-items: end;
+  gap: 6px;
+}
+.schoolEnd a,
+.schoolProgress {
+  font-size: 11px;
+  color: var(--home-muted);
+}
+.schoolProgress {
+  --bar-fill: var(--home-blue);
+  --bar-track: var(--home-subtle);
+  width: 60px;
+  text-align: end;
+  font-variant-numeric: tabular-nums;
+}
+.schoolProgress progress {
+  margin-top: 3px;
+}
+@media (max-width: 1150px) {
+  .dashboard {
+    grid-template-columns: minmax(0, 1.85fr) minmax(218px, 1fr);
+    column-gap: 16px;
+  }
+  .paper {
+    padding-inline: 22px;
+  }
+  .card {
+    padding-inline: 12px;
+  }
+  .cardProgress {
+    width: 62%;
+  }
+}
+@media (max-width: 940px) {
+  .dashboard {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "welcome" "applications" "rail" "planner" "saved";
+    row-gap: 23px;
+  }
+  .rail {
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    align-items: start;
+  }
+  .workspace {
+    max-width: 670px;
+  }
+}
+@media (max-width: 600px) {
+  .paper {
+    padding: 10px 14px 35px;
+  }
+  .paper .topbar {
+    margin-bottom: 19px;
+  }
+  .dashboard {
+    row-gap: 21px;
+  }
+  .welcome h1 {
+    font-size: 26px;
+  }
+  .actions {
+    margin-top: 11px;
+  }
+  .cards {
+    gap: 8px;
+  }
+  .card {
+    min-height: 147px;
+    padding: 13px 11px;
+    border-radius: 10px;
+  }
+  .card h3 {
+    max-width: 92%;
+    font-size: 16px;
+  }
+  .cardProgress {
+    width: 72%;
+    max-width: 125px;
+  }
+  .cardProgress div {
+    font-size: 10.5px;
+  }
+  .cardArt {
+    width: 50%;
+    height: 83%;
+    right: -10%;
+    bottom: -9%;
+  }
+  .rail {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 9px;
+  }
+  .tools {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 12px;
+    padding: 0;
+    border: 0;
+  }
+  .tools a {
+    display: inline-flex;
+    gap: 4px;
+    min-height: 33px;
+    font-size: 11px;
+  }
+  .tools a + a {
+    border-top: 0;
+  }
+  .tools a svg:last-child {
+    display: none;
+  }
+  .setup li a {
+    min-height: 34px;
+  }
+  .dates time {
+    max-width: 9ch;
+  }
+}
+@media (max-width: 340px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    min-height: 128px;
+  }
+}

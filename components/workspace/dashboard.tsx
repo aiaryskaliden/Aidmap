@@ -20,7 +20,6 @@ import {
   universities,
 } from "@/data/universities";
 import { PageHeading, EmptyState, LocalNote } from "@/components/ui/shared";
-import { WorkspaceNav } from "@/components/layout/shell";
 import { UniversityCard } from "@/components/universities/card";
 import { dateLabel } from "@/lib/utils";
 import { matchUniversity } from "@/lib/matching/match";
@@ -61,13 +60,17 @@ export default function Dashboard() {
     : [];
   return (
     <div className="page-container workspace-page">
-      <WorkspaceNav />
       <PageHeading
         eyebrow={`YOUR WORKSPACE / FALL ${state.profile?.entryYear ?? 2027}`}
         title="Your application dashboard"
         description="Review your shortlist, unfinished tasks and verified dates. Choose one next step to move your application forward."
       >
-        <LocalNote />
+        <div className="dashboard-heading-actions">
+          <Link className="button button-outline" prefetch={false} href="/my-list">
+            <Bookmark size={16} /> My List <ArrowRight size={16} />
+          </Link>
+          <LocalNote />
+        </div>
       </PageHeading>
       {state.profile?.isDemo && (
         <div className="notice amber-notice">

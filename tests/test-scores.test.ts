@@ -75,7 +75,7 @@ describe("sourced test benchmarks", () => {
     ).toBe("match");
   });
   it("provides honest unknowns for unverified guidance across the catalogue", () => {
-    expect(universities).toHaveLength(100);
+    expect(universities).toHaveLength(150);
     for (const u of universities) {
       expect(satBenchmark(u).value).toBeTruthy();
       expect(ieltsSummary(u)).toBeTruthy();

@@ -23,7 +23,7 @@ export function PageHeading({
   return (
     <div className="page-heading">
       <div>
-        <div className="eyebrow">{eyebrow}</div>
+        {eyebrow && <div className="eyebrow">{eyebrow}</div>}
         <h1>{title}</h1>
         <p>{description}</p>
       </div>
@@ -101,17 +101,13 @@ export function Evidence({
       </span>
     );
   return (
-    <a
+    <span
       className={`evidence ${fieldStatus(field, university) === "verified_current" ? "verified" : "pending"}`}
-      href={source.url}
-      target="_blank"
-      rel="noopener noreferrer"
       title={`${source.title}; checked ${source.checkedAt}. ${field.cycle || "General policy; recheck for Fall 2027."}`}
     >
       <ShieldCheck size={13} />
       {label || cycleLabel(field, university)}
-      <span className="sr-only"> (official source, opens in a new tab)</span>
-    </a>
+    </span>
   );
 }
 export function PolicyNote() {

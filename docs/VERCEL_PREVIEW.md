@@ -1,6 +1,10 @@
 # AidMap Preview access
 
-## Current public release — November 14, 2026
+## Current public release — November 27, 2026
+
+Vercel built the local AidMap working tree as [Preview](https://aidmap-eud43b0vx-musorlegend-1144.vercel.app/) and marked deployment `dpl_7J1unxMABDuGJmFVgevPrv9LNb3o` Ready. The [public address](https://aidmap-aiaryskaliden.vercel.app/) points to that deployment. Anonymous requests returned HTTP 200 for the home page, Explore, the profile and essay libraries, Pricing and Maple. Explore shows 100 universities, and all four application banners match the local assets. The data validator confirmed 1,105 source-linked records.
+
+## Previous release — November 14, 2026
 
 The owner published the catalogue from commit `e5aa73b` to the existing [public address](https://aidmap-aiaryskaliden.vercel.app/explore). Vercel built the [exact Preview](https://aidmap-m2rhk00jd-musorlegend-1144.vercel.app/explore) and reported Ready. Anonymous checks passed on all 70 named university profiles, Explore, the Canadian search, Funding and Calculator on both addresses. The catalogue includes 75 funding options.
 

@@ -6,9 +6,11 @@ import { Button } from "@/components/ui/button";
 export function UniversityActions({
   id,
   compact = false,
+  iconCompare = false,
 }: {
   id: string;
   compact?: boolean;
+  iconCompare?: boolean;
 }) {
   const { state, update, toast, ready, blocked } = useApp();
   const saved = state.saved.find((u) => u.universityId === id);
@@ -44,7 +46,9 @@ export function UniversityActions({
       <Button
         disabled={!ready || blocked}
         variant={compared ? "secondary" : "outline"}
-        size="sm"
+        size={iconCompare ? "icon" : "sm"}
+        aria-label={compared ? "Added" : "Compare"}
+        title={iconCompare ? "Compare university" : undefined}
         aria-pressed={compared}
         onClick={() => {
           if (!compared && state.compare.length >= 4) {
@@ -57,7 +61,7 @@ export function UniversityActions({
         }}
       >
         {compared ? <Check size={16} /> : <Columns3 size={16} />}{" "}
-        {compared ? "Added" : "Compare"}
+        {!iconCompare && (compared ? "Added" : "Compare")}
       </Button>
     </div>
   );

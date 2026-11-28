@@ -9,16 +9,9 @@
 - **Matching**: score is now aligned evidence points from 100 possible criteria points; unverified items earn no points and no 100% scores from partial evidence. Evidence coverage remains separate. Neither measure predicts admission.
 - **Advice**: saved-school SAT comparison, exam waiver route, and next verified admission deadline added to generic CV/essay/recommender preparation checklists.
 
-## AI Advisor: code staged but NOT activated
+## Admissions Advisor
 
-- UI lives inside `/improve` and each university profile.
-- `GET /api/advisor` returns whether a model and key are configured, without exposing credentials.
-- `POST /api/advisor` requires the student to explicitly opt in and sends **only the text they type and selected institution's public research**.
-- No passport, transcript, profile, SAT/IELTS result, notes or applicant documents are sent automatically. Do not enter sensitive information into the question.
-- External model must stick to supplied official links, mark uncertainty, provide concrete action steps, and never produce an unsupported chance-of-admission percentage.
-- Auth uses server-only `AI_GATEWAY_API_KEY`; provider/model selection uses `AI_GATEWAY_MODEL`. Neither should be added to Git or pasted into chat.
-- There is a small in-memory rate limiter, but it **does not work reliably across distributed serverless instances**. Before public activation, configure a proper shared rate limiter or Vercel Firewall, AI Gateway team/project spend cap, and abuse monitoring.
-- To activate: owner chooses a current text model after reviewing official Gateway model catalog and data handling, creates a restricted key in Vercel, sets `AI_GATEWAY_API_KEY` and `AI_GATEWAY_MODEL` in Vercel project environment settings and configures spending limits. Then test in protected Preview and monitor costs. **Do not enable a paid service without approval.**
+The Advisor workspace at /advisor is linked from Improve and university profiles. Public answers use the catalogue. See the [Advisor guide](AI_ADVISOR.md) for the authorized Groq demo and current environment variables.
 
 ## Source records
 

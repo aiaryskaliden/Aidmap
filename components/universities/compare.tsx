@@ -11,6 +11,7 @@ import { nextAdmissionDeadline, cycleLabel } from "@/lib/admissions";
 import type { University } from "@/types/domain";
 import { findDossier } from "@/data/core-admissions";
 import { satComparison, ieltsComparison } from "@/lib/test-scores";
+import { formatAdmissionCycle, formatAdmissionRate, getAdmissionRate } from "@/lib/admission-rates";
 const unknown = "Not yet verified";
 const rows: {
   label: string;
@@ -19,6 +20,13 @@ const rows: {
   key?: (u: University) => string;
 }[] = [
   { label: "Country", value: (u) => u.country, section: "THE BASICS" },
+  {
+    label: "Published admissions rate",
+    value: (u) => {
+      const rate = getAdmissionRate(u.id);
+      return rate ? `${formatAdmissionRate(rate)} · ${rate.metric === "offer" ? "offer rate · " : ""}${formatAdmissionCycle(rate)}` : "—";
+    },
+  },
   {
     label: "Selected academic fields",
     value: (u) => u.programs.value?.join(", ") ?? unknown,

@@ -1,0 +1,289 @@
+.sidebar {
+  --rail-ink: #f3fbff;
+  --rail-muted: #d1e2ef;
+  --rail-label: #a2bed3;
+  --rail-line: #385c74;
+  --rail-hover: #274f68;
+  position: sticky;
+  top: 0;
+  height: 100dvh;
+  min-width: 0;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  background: #193f58;
+  color: var(--rail-ink);
+  border-right: 1px solid #18394f;
+}
+.sidebarTop {
+  padding: 20px 16px 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  line-height: 1;
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -0.055em;
+}
+.brand img {
+  flex: none;
+}
+.navBody {
+  flex: 1;
+  min-height: 0;
+  padding: 0 11px;
+  display: flex;
+  flex-direction: column;
+}
+.menu {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #53648b transparent;
+}
+.group {
+  margin: 8px 0;
+  display: grid;
+  gap: 2px;
+}
+.groupLabel {
+  color: var(--rail-label);
+  font-size: 10px;
+  line-height: 1.3;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.095em;
+  padding: 1px 9px 4px;
+}
+.navLink {
+  position: relative;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 5px 9px;
+  border-radius: 8px;
+  color: var(--rail-muted);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.22;
+}
+.navLink svg {
+  flex: none;
+  color: #a9cbdf;
+}
+.navLink:hover {
+  background: var(--rail-hover);
+  color: var(--rail-ink);
+}
+.navLink[aria-current="page"] {
+  background: #f4fbff;
+  color: #123f5b;
+  font-weight: 700;
+}
+.navLink[aria-current="page"] svg {
+  color: currentColor;
+}
+.sidebar :is(a, button):focus-visible {
+  outline-color: #adddff;
+  outline-offset: -2px;
+}
+.secondary {
+  padding: 7px 0;
+  border-top: 1px solid var(--rail-line);
+}
+.plans {
+  margin: 8px 0;
+  min-height: 38px;
+  flex: none;
+  border: 1px solid #52778b;
+  background: #27536c;
+  color: #eefff9;
+  font-weight: 740;
+}
+.plans:hover,
+.plans[aria-current="page"] {
+  background: #376780;
+  color: #fff;
+}
+.planArrow {
+  margin-left: auto;
+}
+.schoolName {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.count {
+  margin-left: auto;
+  background: #3d4e80;
+  color: #fff;
+  border-radius: 6px;
+  padding: 2px 5px;
+  font-size: 11px;
+}
+.tools {
+  border-top: 1px solid var(--rail-line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px;
+  flex: none;
+  padding: 8px 0 10px;
+}
+.themeButton,
+.menuButton {
+  display: grid;
+  place-items: center;
+  align-self: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  color: var(--rail-muted);
+  background: transparent;
+}
+.sidebar :is(.themeButton, .menuButton):hover {
+  background: var(--rail-hover);
+  color: var(--rail-ink);
+}
+button.menuButton {
+  display: none;
+}
+.footer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 19px 20px;
+  font-size: 12px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+}
+.footer a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.canvas {
+  position: relative;
+  isolation: isolate;
+}
+.canvasContent {
+  position: relative;
+}
+.canvas:has(.foldBanner) .canvasContent > :first-child {
+  background-color: transparent;
+}
+.foldBanner {
+  --fold-sky: #e5ebff;
+  --fold-edge: #8496ec;
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: -1;
+  height: clamp(145px, 18vw, 240px);
+  overflow: hidden;
+  pointer-events: none;
+  background: linear-gradient(180deg, var(--fold-sky), transparent 94%);
+}
+.foldBanner[data-tone="discover"] {
+  --fold-sky: #e3f0fb;
+  --fold-edge: #71abcf;
+}
+.foldBanner[data-tone="plan"] {
+  --fold-sky: #e2f3ee;
+  --fold-edge: #6db9a3;
+}
+.foldBanner[data-tone="funding"] {
+  --fold-sky: #e9eefb;
+  --fold-edge: #9c89d8;
+}
+.foldArt {
+  position: absolute;
+  width: min(62%, 740px);
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+.foldArt::before,
+.foldArt::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+.foldArt::before {
+  background: linear-gradient(136deg, transparent 30%, var(--fold-edge) 94%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 73% 56%, 46% 71%);
+  opacity: 0.32;
+}
+.foldArt::after {
+  background: repeating-linear-gradient(
+    151deg,
+    transparent 0 22px,
+    var(--fold-edge) 22px 23px,
+    transparent 23px 48px
+  );
+  clip-path: polygon(22% 0, 100% 0, 100% 100%, 74% 56%, 37% 72%);
+  mask-image: linear-gradient(100deg, transparent 8%, #000 82%);
+  opacity: 0.25;
+}
+:global([data-theme="dark"]) .foldBanner {
+  --fold-sky: #273456;
+  --fold-edge: #7b92e3;
+}
+:global([data-theme="dark"]) .foldBanner[data-tone="discover"] {
+  --fold-sky: #233a52;
+  --fold-edge: #689fcd;
+}
+:global([data-theme="dark"]) .foldBanner[data-tone="plan"] {
+  --fold-sky: #203d42;
+  --fold-edge: #6bbbaa;
+}
+@media (max-width: 760px) {
+  .sidebar {
+    height: auto;
+    border-right: 0;
+    border-bottom: 1px solid #34436c;
+  }
+  .sidebarTop {
+    min-height: 57px;
+    padding: 8px 16px;
+  }
+  .brand img {
+    width: 32px;
+    height: 32px;
+  }
+  .navBody {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: min(100%, 340px);
+    border: 1px solid var(--rail-line);
+    border-radius: 0 0 14px 0;
+    max-height: calc(100dvh - 58px);
+    background: #193f58;
+    box-shadow: var(--shadow);
+  }
+  .sidebar[data-open="true"] .navBody {
+    display: flex;
+  }
+  button.menuButton {
+    display: grid;
+    width: 42px;
+    height: 40px;
+  }
+  .navLink {
+    min-height: 40px;
+    font-size: 14px;
+  }
+  .foldBanner {
+    height: 145px;
+  }
+}

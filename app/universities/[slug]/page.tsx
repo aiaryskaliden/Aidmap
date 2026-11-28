@@ -30,7 +30,11 @@ import {
   type University,
 } from "@/types/domain";
 import { Evidence, ExternalLink, PolicyNote } from "@/components/ui/shared";
+import { AdmissionRateStat } from "@/components/universities/admission-rate";
+import { SourceDetails } from "@/components/universities/source-details";
+import { UniversityMark } from "@/components/universities/university-mark";
 import { UniversityActions } from "@/components/universities/actions";
+import { ApplicationWorkspaceLink } from "@/components/universities/application-workspace-link";
 import {
   MatchPanel,
   AddChecklist,
@@ -130,12 +134,7 @@ export default async function UniversityPage({
         Back to universities
       </Link>
       <div className="university-hero">
-        <span
-          className="university-monogram large"
-          style={{ color: u.color, background: `${u.color}12` }}
-        >
-          {u.initials}
-        </span>
+        <UniversityMark university={u} large />
         <div>
           <div className="eyebrow">{u.type} · UNDERGRADUATE</div>
           <h1>{u.name}</h1>
@@ -144,8 +143,12 @@ export default async function UniversityPage({
             {u.city}
             {u.state ? `, ${u.state}` : ""} · {u.country}
           </p>
+          <AdmissionRateStat id={u.id} profile />
         </div>
-        <UniversityActions id={u.id} />
+        <div className="university-hero-actions">
+          <ApplicationWorkspaceLink id={u.id} />
+          <UniversityActions id={u.id} />
+        </div>
       </div>
       <div className="detail-quick-stats">
         <div>
@@ -498,7 +501,6 @@ export default async function UniversityPage({
                   </strong>
                   {source.note && <p>{source.note}</p>}
                   <p>{source.cycle ?? "Intake not specified"} · Checked {dateLabel(source.checkedAt)}</p>
-                  <ExternalLink href={source.url}>Official tuition information</ExternalLink>
                 </div>
               </div>
             ))}
@@ -583,31 +585,13 @@ export default async function UniversityPage({
                 ))}
               </ul>
             </div>
-            <details>
-              <summary>
-                Sources and verification ({displayedSources.length})
-              </summary>
-              <div className="source-list">
-                {displayedSources.map((s) => (
-                  <article id={`source-${s.id}`} key={s.id}>
-                    <div>
-                      <span className="tag neutral">
-                        {s.status === "verified"
-                          ? "Official source"
-                          : "Needs rechecking"}
-                      </span>
-                      <span>Checked {dateLabel(s.checkedAt)}</span>
-                    </div>
-                    <ExternalLink href={s.url}>{s.title}</ExternalLink>
-                    <p>{s.note}</p>
-                    <small>
-                      {s.cycle ||
-                        "General official policy; intake not specified"}
-                    </small>
-                  </article>
-                ))}
-              </div>
-            </details>
+            <SourceDetails entries={displayedSources.map((source) => ({
+              ...source,
+              details: [
+                source.cycle ?? "General official policy; intake not specified",
+                source.note ?? "",
+              ],
+            }))} />
           </section>
         </div>
         <aside className="detail-aside">

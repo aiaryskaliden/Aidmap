@@ -1,0 +1,229 @@
+.page {
+  --route: #07755e;
+  --route-light: #12866c;
+  max-width: 940px;
+  margin-inline: auto;
+  padding: 35px clamp(18px, 3vw, 42px) 72px;
+  color: var(--text);
+}
+.page[data-route-art="uc"] {
+  --route: #8d480b;
+  --route-light: #b4660b;
+}
+.page[data-route-art="common-app"] {
+  --route: #00697c;
+  --route-light: #097f93;
+}
+.page[data-route-art="mit"] {
+  --route: #892442;
+  --route-light: #a73053;
+}
+.back,
+.portal {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.back {
+  min-height: 40px;
+  margin-bottom: 8px;
+  color: var(--muted);
+}
+.back:hover {
+  color: var(--text);
+}
+.banner {
+  isolation: isolate;
+  position: relative;
+  overflow: hidden;
+  padding: 30px 34px;
+  border-radius: 16px;
+  background: linear-gradient(100deg, var(--route) 20%, var(--route-light));
+  color: white;
+}
+.banner > div {
+  position: relative;
+  z-index: 1;
+  width: 74%;
+}
+.banner p {
+  margin: 0 0 8px;
+  font-size: 0.82rem;
+  font-weight: 550;
+}
+.banner h1 {
+  margin: 0;
+  color: white;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  line-height: 1.08;
+  letter-spacing: -0.045em;
+}
+.art {
+  position: absolute;
+  right: 0;
+  bottom: -7%;
+  width: 33%;
+  height: 112%;
+  object-fit: contain;
+  pointer-events: none;
+}
+.portal {
+  min-height: 38px;
+  margin-top: 19px;
+  padding: 6px 15px;
+  border-radius: 24px;
+  background: #fff;
+  color: #182322;
+}
+.portal:hover {
+  background: #eef7f7;
+}
+.columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1.85fr) minmax(190px, 1fr);
+  gap: 22px;
+  align-items: start;
+  margin-top: 24px;
+}
+.checklist,
+.resources {
+  border: 1px solid var(--border);
+  border-radius: 13px;
+  background: var(--surface);
+}
+.checklist header,
+.resources {
+  padding: 19px 21px;
+}
+.page h2 {
+  margin: 0;
+  font-size: 1.04rem;
+  line-height: 1.35;
+  letter-spacing: -0.025em;
+}
+.progressTitle {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+.progressTitle strong {
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.checklist progress {
+  display: block;
+  width: 100%;
+  height: 6px;
+  margin: 13px 0 8px;
+  appearance: none;
+  overflow: hidden;
+  border: 0;
+  border-radius: 6px;
+  background: var(--surface-alt);
+  color: var(--route-light);
+}
+.checklist progress::-webkit-progress-bar {
+  background: var(--surface-alt);
+}
+.checklist progress::-webkit-progress-value {
+  border-radius: inherit;
+}
+.checklist progress::-webkit-progress-value {
+  background: var(--route-light);
+}
+.checklist progress::-moz-progress-bar {
+  background: var(--route-light);
+}
+.checklist p,
+.resources p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.79rem;
+  line-height: 1.55;
+}
+.checklist ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.checklist li {
+  border-top: 1px solid var(--border);
+}
+.step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 21px;
+  cursor: pointer;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+.step:hover {
+  background: var(--surface-alt);
+}
+.checklist li:last-child .step {
+  border-radius: 0 0 12px 12px;
+}
+.step[data-done="true"] {
+  color: var(--muted);
+}
+.step[data-done="true"] > span:last-child {
+  text-decoration: line-through;
+}
+.step input[type="checkbox"] {
+  width: 19px;
+  height: 19px;
+  flex: none;
+  margin: 0;
+  accent-color: var(--route);
+  cursor: pointer;
+}
+.step input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.resources h2 {
+  margin-bottom: 11px;
+}
+.resources > a {
+  display: grid;
+  align-items: center;
+  grid-template-columns: auto 1fr auto;
+  gap: 9px;
+  min-height: 42px;
+  font-size: 0.83rem;
+  font-weight: 550;
+}
+.resources a:hover {
+  color: var(--accent);
+}
+.resources > p {
+  margin-top: 12px;
+  padding-top: 13px;
+  border-top: 1px solid var(--border);
+}
+@media (max-width: 760px) {
+  .page {
+    padding-top: 14px;
+  }
+  .columns {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-top: 16px;
+  }
+  .banner {
+    padding: 24px;
+  }
+  .banner > div {
+    width: 72%;
+  }
+  .art {
+    height: 82%;
+    width: 38%;
+    bottom: 0;
+    right: -4%;
+  }
+}

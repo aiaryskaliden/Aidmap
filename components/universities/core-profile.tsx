@@ -4,6 +4,7 @@ import type { AdmissionsDossier } from "@/types/admissions";
 import type { University } from "@/types/domain";
 import { money, dateLabel } from "@/lib/utils";
 import { UniversityActions } from "@/components/universities/actions";
+import { ApplicationWorkspaceLink } from "@/components/universities/application-workspace-link";
 import { MatchPanel } from "@/components/universities/detail-actions";
 import { AIAdvisor } from "@/components/matching/ai-advisor";
 import { RequirementWorkspace } from "@/components/workspace/requirements";
@@ -12,6 +13,8 @@ import { ResearchEvidence } from "./research-evidence";
 import { DeadlineTable } from "./deadlines";
 import { Help } from "@/components/ui/help";
 import { TestScoreSection } from "./test-scores";
+import { AdmissionRateStat } from "./admission-rate";
+import { UniversityMark } from "./university-mark";
 export function CoreProfile({
   university: u,
   dossier: d,
@@ -41,20 +44,19 @@ export function CoreProfile({
         ← Back to universities
       </Link>
       <div className="university-hero">
-        <span
-          className="university-monogram large"
-          style={{ color: u.color, background: `${u.color}12` }}
-        >
-          {u.initials}
-        </span>
+        <UniversityMark university={u} large />
         <div>
           <div className="eyebrow">FIRST-YEAR INTERNATIONAL · FALL 2027</div>
           <h1>{u.name}</h1>
           <p>
             {u.city}, {u.country}
           </p>
+          <AdmissionRateStat id={u.id} profile />
         </div>
-        <UniversityActions id={u.id} />
+        <div className="university-hero-actions">
+          <ApplicationWorkspaceLink id={u.id} />
+          <UniversityActions id={u.id} />
+        </div>
       </div>
       <TestScoreSection university={u} />
       <ApplicationRoadmap university={u} />

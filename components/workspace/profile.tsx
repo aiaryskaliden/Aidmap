@@ -28,7 +28,6 @@ import {
 } from "@/data/universities";
 import { emptyState, shortlistCSV, STORAGE_KEY } from "@/lib/storage/state";
 import { PageHeading, LocalNote } from "@/components/ui/shared";
-import { WorkspaceNav } from "@/components/layout/shell";
 import { Button } from "@/components/ui/button";
 const countries = [
   "Kazakhstan",
@@ -645,13 +644,15 @@ export default function Profile() {
   const { ready, state } = useApp();
   return (
     <div className="page-container workspace-page">
-      <WorkspaceNav />
       <PageHeading
         eyebrow="YOUR WORKSPACE / APPLICANT PREFERENCES"
         title="Your applicant preferences"
         description="Tell us what matters. Get research matches you can understand."
       >
         <LocalNote />
+        <Link href="/studio?view=profile" className="text-link">
+          My applicant profile <ArrowRight size={15} />
+        </Link>
       </PageHeading>
       <div className="profile-layout">
         <div>

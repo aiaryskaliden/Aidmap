@@ -1,0 +1,30 @@
+.mark {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+}
+
+.artwork {
+  position: absolute;
+  inset: 0 -1% 0 54%;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+
+.artwork img {
+  width: 94%;
+  height: auto;
+  max-height: 86%;
+  object-fit: contain;
+  transform: rotate(-7deg);
+}
+
+@media (max-width: 620px) {
+  .artwork {
+    position: relative;
+    inset: auto;
+    margin: -10px 2% -14px auto;
+    width: min(76%, 285px);
+  }
+}

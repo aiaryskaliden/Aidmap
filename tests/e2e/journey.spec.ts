@@ -10,10 +10,10 @@ test("student can discover, save, compare, calculate and plan", async ({
   });
   await page.goto("/");
   await expect(
-    page.getByRole("button", { name: "Save university", exact: true }).first(),
+    page.getByRole("link", { name: "Build my profile", exact: true }),
   ).toBeEnabled();
   await expect(
-    page.getByRole("heading", { name: "Find universities and funding." }),
+    page.getByRole("heading", { name: "Your application studio" }),
   ).toBeVisible();
   await page.evaluate(() => window.scrollTo({ top: 0, behavior: "instant" }));
   await page.screenshot({
@@ -26,7 +26,7 @@ test("student can discover, save, compare, calculate and plan", async ({
     .first()
     .click();
   await expect(
-    page.getByRole("heading", { name: "Find undergraduate universities" }),
+    page.getByRole("heading", { name: "Universities", exact: true }),
   ).toBeVisible();
   if (testInfo.project.name !== "desktop")
     await page.getByRole("button", { name: "Filters", exact: true }).click();
@@ -192,7 +192,11 @@ test("preferences, local backups, comparison limits and theme survive reloads", 
   await expect(page.getByLabel("SAT score", { exact: true })).toHaveValue(
     "1450",
   );
-  await page.getByRole("button", { name: "Switch to dark theme" }).click();
+  const theme = page.getByRole("button", { name: "Switch to dark theme" });
+  if (!(await theme.isVisible())) {
+    await page.getByRole("button", { name: "Open menu", exact: true }).click();
+  }
+  await theme.click();
   await page.reload();
   await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
   await page.goto("/compare");

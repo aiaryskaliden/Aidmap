@@ -1,0 +1,12 @@
+.tile.tile {
+  background: #fff;
+  border-color: #e1e6e2;
+}
+
+.monogram.monogram {
+  border-color: transparent;
+  background: #294339;
+  color: #fff;
+  line-height: 1;
+  text-shadow: none;
+}

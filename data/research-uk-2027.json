@@ -1,0 +1,2443 @@
+[
+  {
+    "slug": "oxford",
+    "name": "University of Oxford",
+    "initials": "OX",
+    "city": "Oxford",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://ox.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science",
+        "title": "University of Oxford — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BA / MCompSci Computer Science."
+      },
+      {
+        "field": "tuition",
+        "value": 66580,
+        "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science",
+        "title": "University of Oxford — overseas course tuition",
+        "checkedAt": "2026-11-27",
+        "cycle": "2027/28",
+        "note": "Published annual tuition for this course; excludes living and other expenses."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "A*AA, including A*A in Mathematics and Further Mathematics if available.",
+        "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science",
+        "title": "University of Oxford — course entry requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "Applies to the cited qualification route only. Check published equivalencies for your country.",
+        "scope": {
+          "program": "BA / MCompSci Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "testPolicy",
+        "value": "TMUA required.",
+        "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science",
+        "title": "University of Oxford — course admissions test",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "scope": {
+          "program": "BA / MCompSci Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "officialScoreReports",
+        "value": "UAT-UK sends results automatically to relevant participating courses on the UCAS application.",
+        "sourceUrl": "https://esat-tmua.ac.uk/test-results/",
+        "title": "UAT-UK — official test result delivery",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "Check IELTS or other official score-report procedure separately."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS",
+        "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/applying/guide-for-applicants",
+        "title": "University of Oxford — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Standard UCAS deadline",
+            "category": "admission",
+            "date": "2026-10-15",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "18:00 UK time, standard programme route."
+          }
+        ],
+        "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/applying/guide-for-applicants",
+        "title": "University of Oxford — Standard UCAS deadline",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "TMUA booking deadline",
+            "category": "testing",
+            "date": "2026-09-28",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "18:00 UK time, for October 2026 sitting."
+          }
+        ],
+        "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/courses/course-listing/computer-science",
+        "title": "University of Oxford — TMUA booking deadline",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "aidForms",
+        "value": "Reach Oxford Scholarship. Separate funding application after an offer; instructions due in January 2027.",
+        "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
+        "title": "Reach Oxford Scholarship — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Reach Oxford Scholarship",
+            "category": "aid",
+            "date": "2027-01-26",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Separate funding application after an offer; instructions due in January 2027."
+          }
+        ],
+        "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
+        "title": "University of Oxford — Reach Oxford Scholarship",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
+        "title": "Reach Oxford Scholarship — funding eligibility",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "A restricted need-based award exists. Eligibility and coverage vary; no promise of meeting full need."
+      },
+      {
+        "field": "englishMinimums",
+        "value": [
+          {
+            "test": "IELTS",
+            "score": 7.5,
+            "kind": "minimum",
+            "condition": "Academic IELTS; 7.0 per component. Applies to offer holders who need to demonstrate proficiency."
+          }
+        ],
+        "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/applying/for-international-students/english-language-requirements-visas",
+        "title": "Oxford undergraduate English requirements",
+        "cycle": null,
+        "checkedAt": "2026-11-27",
+        "note": "Official general policy. An exemption may apply."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Reach Oxford Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Need-based",
+        "eligibleCitizenships": null,
+        "coverage": "Course fees, living-cost grant and one return flight per year. Published country and need restrictions apply.",
+        "amount": null,
+        "currency": "GBP",
+        "renewal": "Satisfactory academic progress.",
+        "separateApplication": "Separate funding application after an offer; instructions due in January 2027.",
+        "sourceUrl": "https://www.ox.ac.uk/admissions/undergraduate/fees-and-funding/oxford-bursaries-and-scholarships/reach-oxford",
+        "title": "Reach Oxford Scholarship — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": "2027-01-26",
+        "deadlineCycle": "Fall 2027",
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "cambridge",
+    "name": "University of Cambridge",
+    "initials": "CAM",
+    "city": "Cambridge",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://cam.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.queens.cam.ac.uk/applying-here/subjects/computer-science/",
+        "title": "University of Cambridge — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BA (Hons) / MEng Computer Science."
+      },
+      {
+        "field": "testPolicy",
+        "value": "TMUA for Computer Science. College-specific assessments may also apply.",
+        "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/apply/how/maths-admission-test",
+        "title": "University of Cambridge — course admissions test",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "scope": {
+          "program": "BA (Hons) / MEng Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "officialScoreReports",
+        "value": "UAT-UK sends results automatically to relevant participating courses on the UCAS application.",
+        "sourceUrl": "https://esat-tmua.ac.uk/test-results/",
+        "title": "UAT-UK — official test result delivery",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "Check IELTS or other official score-report procedure separately."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS",
+        "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/apply/application-dates-deadlines",
+        "title": "University of Cambridge — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Standard UCAS deadline",
+            "category": "admission",
+            "date": "2026-10-15",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Standard round, 18:00 UK time. Some mature applicants use a different round."
+          }
+        ],
+        "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/apply/application-dates-deadlines",
+        "title": "University of Cambridge — Standard UCAS deadline",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "My Cambridge Application",
+            "category": "supplement",
+            "date": "2026-10-22",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Standard round: supplementary application after UCAS."
+          }
+        ],
+        "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/apply/application-dates-deadlines",
+        "title": "University of Cambridge — My Cambridge Application",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "aidForms",
+        "value": "Cambridge lists limited support from colleges, the Cambridge Trust and country-specific awards. Cycle-specific coverage for this programme is unconfirmed.",
+        "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/international-students/financial-support",
+        "title": "University of Cambridge — funding information",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "tuition",
+        "value": 46872,
+        "sourceUrl": "https://www.undergraduate.study.cam.ac.uk/international-students/international-fees-and-costs",
+        "title": "Annual overseas tuition — official course fees",
+        "cycle": "2027/28",
+        "checkedAt": "2026-11-27",
+        "note": "Computer Science tuition only. Overseas students generally pay a separate College fee; verify the amount with the College."
+      }
+    ],
+    "unknowns": [
+      "Programme-specific English test minimums are unverified.",
+      "Current award coverage, continuation, application and deadline need confirmation.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "imperial",
+    "name": "Imperial College London",
+    "initials": "ICL",
+    "city": "London",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://imperial.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "title": "Imperial College London — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BEng Computing."
+      },
+      {
+        "field": "testPolicy",
+        "value": "TMUA required.",
+        "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "title": "Imperial College London — course admissions test",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "scope": {
+          "program": "BEng Computing",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "officialScoreReports",
+        "value": "UAT-UK sends results automatically to relevant participating courses on the UCAS application.",
+        "sourceUrl": "https://esat-tmua.ac.uk/test-results/",
+        "title": "UAT-UK — official test result delivery",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "Check IELTS or other official score-report procedure separately."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS",
+        "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "title": "Imperial College London — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "UCAS equal consideration",
+            "category": "admission",
+            "date": "2027-01-13",
+            "cycle": "Fall 2027",
+            "kind": "priority",
+            "note": "18:00 UK time, standard programme route."
+          }
+        ],
+        "sourceUrl": "https://www.imperial.ac.uk/study/courses/undergraduate/computing-beng/",
+        "title": "Imperial College London — UCAS equal consideration",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "aidForms",
+        "value": "Imperial Inspires Scholarships. Separate application by invitation after applying via UCAS; see course and eligibility rules.",
+        "sourceUrl": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/imperial-inspires-scholarships-undergraduate-20272028.php",
+        "title": "Imperial Inspires Scholarships — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Imperial Inspires Scholarship",
+            "category": "aid",
+            "date": "2027-02-05",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "23:59 UK time. Separate application by invitation."
+          }
+        ],
+        "sourceUrl": "https://www.imperial.ac.uk/study/fees-and-funding/imperial-inspires-scholarships/apply/",
+        "title": "Imperial Inspires — how to apply",
+        "cycle": "Fall 2027",
+        "checkedAt": "2026-11-27",
+        "note": ""
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Imperial Inspires Scholarships",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "£15,000 per year for eligible overseas fee payers under the published scheme.",
+        "amount": 15000,
+        "currency": "GBP",
+        "renewal": "£15,000 per course year under the award terms; check continuation requirements.",
+        "separateApplication": "Separate application by invitation after applying via UCAS; see course and eligibility rules.",
+        "sourceUrl": "https://www.imperial.ac.uk/study/fees-and-funding/scholarships-search/imperial-inspires-scholarships-undergraduate-20272028.php",
+        "title": "Imperial Inspires Scholarships — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": "2027-02-05",
+        "deadlineCycle": "Fall 2027",
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Programme-specific overseas tuition for 2027/28 is unverified.",
+      "Programme-specific English test minimums are unverified.",
+      "Check the scholarship continuation conditions.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "ucl",
+    "name": "University College London",
+    "initials": "UCL",
+    "city": "London",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://ucl.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc",
+        "title": "University College London — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc Computer Science."
+      },
+      {
+        "field": "tuition",
+        "value": 48600,
+        "sourceUrl": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc",
+        "title": "University College London — overseas course tuition",
+        "checkedAt": "2026-11-27",
+        "cycle": "2027/28",
+        "note": "Published annual tuition for this course; excludes living and other expenses."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Standard A-level offer A*A*A.",
+        "sourceUrl": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc",
+        "title": "University College London — course entry requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "Applies to the cited qualification route only. Check published equivalencies for your country.",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "testPolicy",
+        "value": "TARA required for 2027/28.",
+        "sourceUrl": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc",
+        "title": "University College London — course admissions test",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "officialScoreReports",
+        "value": "UAT-UK sends results automatically to relevant participating courses on the UCAS application.",
+        "sourceUrl": "https://esat-tmua.ac.uk/test-results/",
+        "title": "UAT-UK — official test result delivery",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "Check IELTS or other official score-report procedure separately."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS",
+        "sourceUrl": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc",
+        "title": "University College London — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "UCAS equal consideration",
+            "category": "admission",
+            "date": "2027-01-13",
+            "cycle": "Fall 2027",
+            "kind": "priority",
+            "note": "18:00 UK time, standard programme route."
+          }
+        ],
+        "sourceUrl": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/computer-science-bsc",
+        "title": "University College London — UCAS equal consideration",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "aidForms",
+        "value": "The published Global Undergraduate Scholarship page reviewed covers 2026/27. Fall 2027 award amounts, eligibility and application dates need a fresh source.",
+        "sourceUrl": "https://www.ucl.ac.uk/scholarships/ucl-global-undergraduate-scholarship",
+        "title": "University College London — funding information",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      }
+    ],
+    "unknowns": [
+      "Programme-specific English test minimums are unverified.",
+      "Current award coverage, continuation, application and deadline need confirmation.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "warwick",
+    "name": "University of Warwick",
+    "initials": "WAR",
+    "city": "Coventry",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://warwick.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "title": "University of Warwick — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc Computer Science."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "A*A*A including A* in Mathematics.",
+        "sourceUrl": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "title": "University of Warwick — course entry requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "Applies to the cited qualification route only. Check published equivalencies for your country.",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "testPolicy",
+        "value": "TMUA required except for eligible contextual applicants. No published threshold on the course page.",
+        "sourceUrl": "https://warwick.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "title": "University of Warwick — course admissions test",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "officialScoreReports",
+        "value": "UAT-UK sends results automatically to relevant participating courses on the UCAS application.",
+        "sourceUrl": "https://esat-tmua.ac.uk/test-results/",
+        "title": "UAT-UK — official test result delivery",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "Check IELTS or other official score-report procedure separately."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS",
+        "sourceUrl": "https://warwick.ac.uk/study/undergraduate/applying/dates/",
+        "title": "University of Warwick — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "UCAS equal consideration",
+            "category": "admission",
+            "date": "2027-01-13",
+            "cycle": "Fall 2027",
+            "kind": "priority",
+            "note": "18:00 UK time, standard programme route."
+          }
+        ],
+        "sourceUrl": "https://warwick.ac.uk/study/undergraduate/applying/dates/",
+        "title": "University of Warwick — UCAS equal consideration",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "aidForms",
+        "value": "Undergraduate Global Excellence exists; no 2027 undergraduate terms were established in this review.",
+        "sourceUrl": "https://warwick.ac.uk/fac/sci/eng/undergraduate/scholarships/",
+        "title": "University of Warwick — funding information",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      }
+    ],
+    "unknowns": [
+      "Programme-specific overseas tuition for 2027/28 is unverified.",
+      "Programme-specific English test minimums are unverified.",
+      "Current award coverage, continuation, application and deadline need confirmation.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "bath",
+    "name": "University of Bath",
+    "initials": "BATH",
+    "city": "Bath",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://bath.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.bath.ac.uk/courses/undergraduate-2027/computer-science/bsc-computer-science/",
+        "title": "University of Bath — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc (Hons) Computer Science."
+      },
+      {
+        "field": "englishMinimums",
+        "value": [
+          {
+            "test": "IELTS",
+            "score": 6.5,
+            "kind": "minimum",
+            "condition": "Overall, with at least 6.0 in each component for this course's published route."
+          }
+        ],
+        "sourceUrl": "https://www.bath.ac.uk/courses/undergraduate-2027/computer-science/bsc-computer-science/",
+        "title": "University of Bath — course English requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "scope": {
+          "program": "BSc (Hons) Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "aidForms",
+        "value": "Bath International Excellence Scholarship. Separate application in Bath Application Tracker after an offer; round 1 closes 14 February.",
+        "sourceUrl": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/",
+        "title": "Bath International Excellence Scholarship — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Bath International Excellence Scholarship round 2",
+            "category": "aid",
+            "date": "2027-03-31",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Separate application in Bath Application Tracker after an offer; round 1 closes 14 February."
+          }
+        ],
+        "sourceUrl": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/",
+        "title": "University of Bath — Bath International Excellence Scholarship round 2",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Bath International Excellence Scholarship round 1",
+            "category": "aid",
+            "date": "2027-02-14",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "First application round."
+          }
+        ],
+        "sourceUrl": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/",
+        "title": "University of Bath — Bath International Excellence Scholarship round 1",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Bath International Excellence Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "£8,000 tuition discount per eligible full-time year, up to £24,000 over three years.",
+        "amount": 8000,
+        "currency": "GBP",
+        "renewal": "Up to three full-time years, subject to published conditions.",
+        "separateApplication": "Separate application in Bath Application Tracker after an offer; round 1 closes 14 February.",
+        "sourceUrl": "https://www.bath.ac.uk/guides/bath-international-excellence-scholarship/",
+        "title": "Bath International Excellence Scholarship — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": "2027-03-31",
+        "deadlineCycle": "Fall 2027",
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Programme-specific overseas tuition for 2027/28 is unverified.",
+      "Check the application route and/or intake deadline on the official course page.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "southampton",
+    "name": "University of Southampton",
+    "initials": "SOT",
+    "city": "Southampton",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://southampton.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "title": "University of Southampton — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc (Hons) Computer Science."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "AAB including at least A in Mathematics.",
+        "sourceUrl": "https://www.southampton.ac.uk/courses/computer-science-degree-bsc",
+        "title": "University of Southampton — course entry requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "Applies to the cited qualification route only. Check published equivalencies for your country.",
+        "scope": {
+          "program": "BSc (Hons) Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "aidForms",
+        "value": "Use the international award finder to check 2027 eligibility and the applicable award.",
+        "sourceUrl": "https://www.southampton.ac.uk/study/fees-funding/international/scholarships/",
+        "title": "University of Southampton — funding information",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      }
+    ],
+    "unknowns": [
+      "Programme-specific overseas tuition for 2027/28 is unverified.",
+      "Programme-specific English test minimums are unverified.",
+      "Check the application route and/or intake deadline on the official course page.",
+      "Current award coverage, continuation, application and deadline need confirmation.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "nottingham",
+    "name": "University of Nottingham",
+    "initials": "NOT",
+    "city": "Nottingham",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://nottingham.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://cdn-uon-live.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Computer-Science-BSc-Hons.html",
+        "title": "University of Nottingham — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc (Hons) Computer Science."
+      },
+      {
+        "field": "tuition",
+        "value": 33500,
+        "sourceUrl": "https://cdn-uon-live.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Computer-Science-BSc-Hons.html",
+        "title": "University of Nottingham — overseas course tuition",
+        "checkedAt": "2026-11-27",
+        "cycle": "2027/28",
+        "note": "Published annual tuition for this course; excludes living and other expenses."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "AAA, or AAB including A in Computer Science.",
+        "sourceUrl": "https://cdn-uon-live.nottingham.ac.uk/studywithus/ugstudy/courses/UG/Computer-Science-BSc-Hons.html",
+        "title": "University of Nottingham — course entry requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "Applies to the cited qualification route only. Check published equivalencies for your country.",
+        "scope": {
+          "program": "BSc (Hons) Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      }
+    ],
+    "unknowns": [
+      "Programme-specific English test minimums are unverified.",
+      "Check the application route and/or intake deadline on the official course page.",
+      "Current award coverage, continuation, application and deadline need confirmation.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "leeds",
+    "name": "University of Leeds",
+    "initials": "LDS",
+    "city": "Leeds",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://leeds.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://courses.leeds.ac.uk/3260/computer-science-bsc",
+        "title": "University of Leeds — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc Computer Science."
+      },
+      {
+        "field": "tuition",
+        "value": 33700,
+        "sourceUrl": "https://courses.leeds.ac.uk/3260/computer-science-bsc",
+        "title": "University of Leeds — overseas course tuition",
+        "checkedAt": "2026-11-27",
+        "cycle": "2027/28",
+        "note": "Published annual tuition for this course; excludes living and other expenses."
+      },
+      {
+        "field": "englishMinimums",
+        "value": [
+          {
+            "test": "IELTS",
+            "score": 6,
+            "kind": "minimum",
+            "condition": "Overall, with at least 5.5 in each component for this course's published route."
+          }
+        ],
+        "sourceUrl": "https://courses.leeds.ac.uk/3260/computer-science-bsc",
+        "title": "University of Leeds — course English requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "aidForms",
+        "value": "Undergraduate International Excellence Scholarships. Separate form for standard applicants; certain foundation routes have separate rules.",
+        "sourceUrl": "https://www.leeds.ac.uk/scholarship/15/undergraduate-international-excellence-scholarships-2027",
+        "title": "Undergraduate International Excellence Scholarships — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Undergraduate International Excellence Scholarships",
+            "category": "aid",
+            "date": "2027-04-11",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Separate form for standard applicants; certain foundation routes have separate rules."
+          }
+        ],
+        "sourceUrl": "https://www.leeds.ac.uk/scholarship/15/undergraduate-international-excellence-scholarships-2027",
+        "title": "University of Leeds — Undergraduate International Excellence Scholarships",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Undergraduate International Excellence Scholarships",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "First-year tuition reductions of £3,000, £6,000 or £16,000, or a three-year award of up to £8,000 per year.",
+        "amount": null,
+        "currency": "GBP",
+        "renewal": "Duration depends on award tier; check published conditions.",
+        "separateApplication": "Separate form for standard applicants; certain foundation routes have separate rules.",
+        "sourceUrl": "https://www.leeds.ac.uk/scholarship/15/undergraduate-international-excellence-scholarships-2027",
+        "title": "Undergraduate International Excellence Scholarships — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": "2027-04-11",
+        "deadlineCycle": "Fall 2027",
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Check the application route and/or intake deadline on the official course page.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "sheffield",
+    "name": "University of Sheffield",
+    "initials": "SHF",
+    "city": "Sheffield",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://sheffield.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "title": "University of Sheffield — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc Computer Science."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "AAA including Mathematics, or AAB including A in Mathematics and B in Computer Science.",
+        "sourceUrl": "https://sheffield.ac.uk/undergraduate/courses/2027/computer-science-bsc",
+        "title": "University of Sheffield — course entry requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "Applies to the cited qualification route only. Check published equivalencies for your country.",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "aidForms",
+        "value": "International Undergraduate Scholarship. Application method not yet verified.",
+        "sourceUrl": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/undergraduate",
+        "title": "International Undergraduate Scholarship — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "International Undergraduate Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Fee reduction",
+        "eligibleCitizenships": null,
+        "coverage": "£2,500 per year, up to £10,000 for a four-year degree.",
+        "amount": 2500,
+        "currency": "GBP",
+        "renewal": "60% average required for continued award.",
+        "separateApplication": null,
+        "sourceUrl": "https://sheffield.ac.uk/international/fees-and-funding/scholarships/undergraduate",
+        "title": "International Undergraduate Scholarship — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Programme-specific overseas tuition for 2027/28 is unverified.",
+      "Programme-specific English test minimums are unverified.",
+      "Check the application route and/or intake deadline on the official course page.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "birmingham",
+    "name": "University of Birmingham",
+    "initials": "BHM",
+    "city": "Birmingham",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://birmingham.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-bsc?location=USA",
+        "title": "University of Birmingham — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc Computer Science."
+      },
+      {
+        "field": "tuition",
+        "value": 33300,
+        "sourceUrl": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-bsc?location=USA",
+        "title": "University of Birmingham — overseas course tuition",
+        "checkedAt": "2026-11-27",
+        "cycle": "2027/28",
+        "note": "Published annual tuition for this course; excludes living and other expenses."
+      },
+      {
+        "field": "englishMinimums",
+        "value": [
+          {
+            "test": "IELTS",
+            "score": 6,
+            "kind": "minimum",
+            "condition": "Overall, with at least 5.5 in each component for this course's published route."
+          }
+        ],
+        "sourceUrl": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-bsc?location=USA",
+        "title": "University of Birmingham — course English requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS",
+        "sourceUrl": "https://www.birmingham.ac.uk/study/undergraduate/subjects/computer-science-courses/computer-science-bsc?location=USA",
+        "title": "University of Birmingham — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      },
+      {
+        "field": "aidForms",
+        "value": "The university provides a funding database with award-specific rules. Current eligibility and coverage for this course need checking.",
+        "sourceUrl": "https://www.birmingham.ac.uk/study/undergraduate/fees-funding/search-funding",
+        "title": "University of Birmingham — funding information",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      }
+    ],
+    "unknowns": [
+      "Check the application route and/or intake deadline on the official course page.",
+      "Current award coverage, continuation, application and deadline need confirmation.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "glasgow",
+    "name": "University of Glasgow",
+    "initials": "GLA",
+    "city": "Glasgow",
+    "state": "Scotland",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://gla.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.gla.ac.uk/undergraduate/degrees/computingscience/",
+        "title": "University of Glasgow — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc Computing Science."
+      },
+      {
+        "field": "englishMinimums",
+        "value": [
+          {
+            "test": "IELTS",
+            "score": 6.5,
+            "kind": "minimum",
+            "condition": "Overall, with at least 6.0 in each component for this course's published route."
+          }
+        ],
+        "sourceUrl": "https://www.gla.ac.uk/undergraduate/degrees/computingscience/",
+        "title": "University of Glasgow — course English requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS; Common Application also possible for eligible international routes.",
+        "sourceUrl": "https://www.gla.ac.uk/undergraduate/degrees/computingscience/",
+        "title": "University of Glasgow — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      },
+      {
+        "field": "aidForms",
+        "value": "World Changers Global Excellence Scholarship. Automatic assessment for offer holders; no separate form.",
+        "sourceUrl": "https://www.gla.ac.uk/scholarships/worldchangersglobalexcellencescholarship/",
+        "title": "World Changers Global Excellence Scholarship — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "World Changers Global Excellence Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "Annual tuition discount with amount set by the academic college.",
+        "amount": null,
+        "currency": "GBP",
+        "renewal": "Renewable each year subject to satisfactory academic progress.",
+        "separateApplication": "Automatic assessment for offer holders; no separate form.",
+        "sourceUrl": "https://www.gla.ac.uk/scholarships/worldchangersglobalexcellencescholarship/",
+        "title": "World Changers Global Excellence Scholarship — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Programme-specific overseas tuition for 2027/28 is unverified.",
+      "Check the application route and/or intake deadline on the official course page.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "st-andrews",
+    "name": "University of St Andrews",
+    "initials": "STA",
+    "city": "St Andrews",
+    "state": "Scotland",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://st-andrews.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.st-andrews.ac.uk/subjects/computer-science/computer-science-bsc/",
+        "title": "University of St Andrews — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc (Hons) Computer Science."
+      },
+      {
+        "field": "tuition",
+        "value": 34910,
+        "sourceUrl": "https://www.st-andrews.ac.uk/subjects/computer-science/computer-science-bsc/",
+        "title": "University of St Andrews — overseas course tuition",
+        "checkedAt": "2026-11-27",
+        "cycle": "2027/28",
+        "note": "Published annual tuition for this course; excludes living and other expenses."
+      },
+      {
+        "field": "aidForms",
+        "value": "International Undergraduate Scholarship. Separate portal application after submitting the degree application; offer not required to submit.",
+        "sourceUrl": "https://www.st-andrews.ac.uk/study/scholarships/scholarships-catalogue/undergraduate-scholarships/international-undergraduate-scholarship/",
+        "title": "International Undergraduate Scholarship — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "International Undergraduate Scholarship",
+            "category": "aid",
+            "date": "2027-01-27",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Separate portal application after submitting the degree application; offer not required to submit."
+          }
+        ],
+        "sourceUrl": "https://www.st-andrews.ac.uk/study/scholarships/scholarships-catalogue/undergraduate-scholarships/international-undergraduate-scholarship/",
+        "title": "University of St Andrews — International Undergraduate Scholarship",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "internationalAid",
+        "value": true,
+        "sourceUrl": "https://www.st-andrews.ac.uk/study/scholarships/scholarships-catalogue/undergraduate-scholarships/international-undergraduate-scholarship/",
+        "title": "International Undergraduate Scholarship — funding eligibility",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "A restricted need-based award exists. Eligibility and coverage vary; no promise of meeting full need."
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "International Undergraduate Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Need-based",
+        "eligibleCitizenships": null,
+        "coverage": "Need-based reduction of overseas tuition each year.",
+        "amount": null,
+        "currency": "GBP",
+        "renewal": null,
+        "separateApplication": "Separate portal application after submitting the degree application; offer not required to submit.",
+        "sourceUrl": "https://www.st-andrews.ac.uk/study/scholarships/scholarships-catalogue/undergraduate-scholarships/international-undergraduate-scholarship/",
+        "title": "International Undergraduate Scholarship — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": "2027-01-27",
+        "deadlineCycle": "Fall 2027",
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Programme-specific English test minimums are unverified.",
+      "Check the application route and/or intake deadline on the official course page.",
+      "Check the scholarship continuation conditions.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "durham",
+    "name": "Durham University",
+    "initials": "DUR",
+    "city": "Durham",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://durham.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.ucas.com/explore/courses/19ccd561-21a5-f2a8-4715-587989fbbe43/course?studyYear=2027",
+        "title": "Durham University — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc (Hons) Computer Science."
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS",
+        "sourceUrl": "https://www.durham.ac.uk/study/courses/g400/",
+        "title": "Durham University — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      }
+    ],
+    "unknowns": [
+      "Programme-specific overseas tuition for 2027/28 is unverified.",
+      "Programme-specific English test minimums are unverified.",
+      "Check the application route and/or intake deadline on the official course page.",
+      "Current award coverage, continuation, application and deadline need confirmation.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "lancaster",
+    "name": "Lancaster University",
+    "initials": "LAN",
+    "city": "Lancaster",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://lancaster.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/2027/",
+        "title": "Lancaster University — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc (Hons) Computer Science."
+      },
+      {
+        "field": "tuition",
+        "value": 31700,
+        "sourceUrl": "https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/2027/",
+        "title": "Lancaster University — overseas course tuition",
+        "checkedAt": "2026-11-27",
+        "cycle": "2027/28",
+        "note": "Published annual tuition for this course; excludes living and other expenses."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "AAB. Certain relevant subjects are preferred in offer-making but are not mandatory.",
+        "sourceUrl": "https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/2027/",
+        "title": "Lancaster University — course entry requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "Applies to the cited qualification route only. Check published equivalencies for your country.",
+        "scope": {
+          "program": "BSc (Hons) Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "englishMinimums",
+        "value": [
+          {
+            "test": "IELTS",
+            "score": 6,
+            "kind": "minimum",
+            "condition": "Overall, with at least 5.5 in each component for this course's published route."
+          }
+        ],
+        "sourceUrl": "https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/2027/",
+        "title": "Lancaster University — course English requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "scope": {
+          "program": "BSc (Hons) Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS",
+        "sourceUrl": "https://www.lancaster.ac.uk/study/undergraduate/courses/computer-science-bsc-hons-g400/2027/",
+        "title": "Lancaster University — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      },
+      {
+        "field": "aidForms",
+        "value": "Undergraduate International Excellence Scholarship. Automatic consideration; no separate form.",
+        "sourceUrl": "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/undergraduate-international-excellence-scholarship/",
+        "title": "Undergraduate International Excellence Scholarship — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Undergraduate International Excellence Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "£3,000 tuition discount per year of study for eligible applicants who make Lancaster their firm choice.",
+        "amount": 3000,
+        "currency": "GBP",
+        "renewal": null,
+        "separateApplication": "Automatic consideration; no separate form.",
+        "sourceUrl": "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/undergraduate-international-excellence-scholarship/",
+        "title": "Undergraduate International Excellence Scholarship — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Check the application route and/or intake deadline on the official course page.",
+      "Check the scholarship continuation conditions.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "york",
+    "name": "University of York",
+    "initials": "YRK",
+    "city": "York",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://york.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "title": "University of York — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc (Hons) Computer Science."
+      },
+      {
+        "field": "aidForms",
+        "value": "York lists an international undergraduate scholarship. This review did not establish a current amount or deadline.",
+        "sourceUrl": "https://www.york.ac.uk/study/undergraduate/fees-funding/international/scholarships/york-international-ug-scholarship/",
+        "title": "University of York — funding information",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "tuition",
+        "value": 33500,
+        "sourceUrl": "https://www.york.ac.uk/study/undergraduate/courses/bsc-computer-science/",
+        "title": "Annual overseas tuition — official course fees",
+        "cycle": "2027/28",
+        "checkedAt": "2026-11-27",
+        "note": "Annual overseas course tuition for the specified year, excluding living expenses."
+      }
+    ],
+    "unknowns": [
+      "Programme-specific English test minimums are unverified.",
+      "Check the application route and/or intake deadline on the official course page.",
+      "Current award coverage, continuation, application and deadline need confirmation.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "exeter",
+    "name": "University of Exeter",
+    "initials": "EXE",
+    "city": "Exeter",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://exeter.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.exeter.ac.uk/undergraduate-degrees/bsc-computer-science/",
+        "title": "University of Exeter — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc Computer Science."
+      },
+      {
+        "field": "tuition",
+        "value": 31500,
+        "sourceUrl": "https://www.exeter.ac.uk/undergraduate-degrees/bsc-computer-science/",
+        "title": "University of Exeter — overseas course tuition",
+        "checkedAt": "2026-11-27",
+        "cycle": "2027/28",
+        "note": "Published annual tuition for this course; excludes living and other expenses."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Typical A-level offer AAA–AAB; published course Mathematics requirement applies.",
+        "sourceUrl": "https://www.exeter.ac.uk/undergraduate-degrees/bsc-computer-science/",
+        "title": "University of Exeter — course entry requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "Applies to the cited qualification route only. Check published equivalencies for your country.",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "aidForms",
+        "value": "Exeter Excellence Undergraduate Scholarship. Separate round 1 application by eligible offer holders.",
+        "sourceUrl": "https://www.exeter.ac.uk/study/funding/award/?id=5910",
+        "title": "Exeter Excellence Undergraduate Scholarship — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Exeter Excellence Undergraduate Scholarship",
+            "category": "aid",
+            "date": "2027-03-04",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Separate round 1 application by eligible offer holders."
+          }
+        ],
+        "sourceUrl": "https://www.exeter.ac.uk/study/funding/award/?id=5910",
+        "title": "University of Exeter — Exeter Excellence Undergraduate Scholarship",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Exeter Excellence Undergraduate Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "£15,000 recurring reduction of international tuition for eligible years.",
+        "amount": 15000,
+        "currency": "GBP",
+        "renewal": "Subject to eligible years of study; cannot be combined with another Exeter scholarship.",
+        "separateApplication": "Separate round 1 application by eligible offer holders.",
+        "sourceUrl": "https://www.exeter.ac.uk/study/funding/award/?id=5910",
+        "title": "Exeter Excellence Undergraduate Scholarship — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": "2027-03-04",
+        "deadlineCycle": "Fall 2027",
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Programme-specific English test minimums are unverified.",
+      "Check the application route and/or intake deadline on the official course page.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "newcastle",
+    "name": "Newcastle University",
+    "initials": "NCL",
+    "city": "Newcastle upon Tyne",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://ncl.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.ncl.ac.uk/undergraduate/degrees/g400/",
+        "title": "Newcastle University — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc (Hons) Computer Science."
+      },
+      {
+        "field": "tuition",
+        "value": 31500,
+        "sourceUrl": "https://www.ncl.ac.uk/undergraduate/degrees/g400/",
+        "title": "Newcastle University — overseas course tuition",
+        "checkedAt": "2026-11-27",
+        "cycle": "2027/28",
+        "note": "Published annual tuition for this course; excludes living and other expenses."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "Typical A-level offer AAB.",
+        "sourceUrl": "https://www.ncl.ac.uk/undergraduate/degrees/g400/",
+        "title": "Newcastle University — course entry requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "Applies to the cited qualification route only. Check published equivalencies for your country.",
+        "scope": {
+          "program": "BSc (Hons) Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS",
+        "sourceUrl": "https://www.ncl.ac.uk/undergraduate/degrees/g400/",
+        "title": "Newcastle University — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      },
+      {
+        "field": "aidForms",
+        "value": "Vice-Chancellor’s International Scholarships. Automatic assessment as part of course application.",
+        "sourceUrl": "https://www.ncl.ac.uk/undergraduate/fees-funding/scholarships-bursaries/vc-international/",
+        "title": "Vice-Chancellor’s International Scholarships — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Vice-Chancellor’s International Scholarships",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "£7,000 towards tuition per academic year; published residence and eligibility restrictions apply.",
+        "amount": 7000,
+        "currency": "GBP",
+        "renewal": null,
+        "separateApplication": "Automatic assessment as part of course application.",
+        "sourceUrl": "https://www.ncl.ac.uk/undergraduate/fees-funding/scholarships-bursaries/vc-international/",
+        "title": "Vice-Chancellor’s International Scholarships — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Programme-specific English test minimums are unverified.",
+      "Check the application route and/or intake deadline on the official course page.",
+      "Check the scholarship continuation conditions.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "cardiff",
+    "name": "Cardiff University",
+    "initials": "CDF",
+    "city": "Cardiff",
+    "state": "Wales",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://cardiff.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/computer-science-bsc?entryyear=2027",
+        "title": "Cardiff University — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc Computer Science."
+      },
+      {
+        "field": "tuition",
+        "value": 31700,
+        "sourceUrl": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/computer-science-bsc?entryyear=2027",
+        "title": "Cardiff University — overseas course tuition",
+        "checkedAt": "2026-11-27",
+        "cycle": "2027/28",
+        "note": "Published annual tuition for this course; excludes living and other expenses."
+      },
+      {
+        "field": "englishMinimums",
+        "value": [
+          {
+            "test": "IELTS",
+            "score": 6.5,
+            "kind": "minimum",
+            "condition": "Overall, with at least 5.5 in each component for this course's published route."
+          }
+        ],
+        "sourceUrl": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/computer-science-bsc?entryyear=2027",
+        "title": "Cardiff University — course English requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS",
+        "sourceUrl": "https://www.cardiff.ac.uk/study/undergraduate/courses/course/computer-science-bsc?entryyear=2027",
+        "title": "Cardiff University — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      },
+      {
+        "field": "aidForms",
+        "value": "Undergraduate International Excellence Scholarship. Separate form by email invitation after qualifying offer.",
+        "sourceUrl": "https://www.cardiff.ac.uk/study/international/funding-and-fees/international-scholarships/undergraduate-excellence-scholarships",
+        "title": "Undergraduate International Excellence Scholarship — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Undergraduate International Excellence Scholarship",
+            "category": "aid",
+            "date": "2027-04-02",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Separate form by email invitation after qualifying offer."
+          }
+        ],
+        "sourceUrl": "https://www.cardiff.ac.uk/study/international/funding-and-fees/international-scholarships/undergraduate-excellence-scholarships",
+        "title": "Cardiff University — Undergraduate International Excellence Scholarship",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Undergraduate International Excellence Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "£10,000 award for eligible overseas undergraduate entrants.",
+        "amount": 10000,
+        "currency": "GBP",
+        "renewal": null,
+        "separateApplication": "Separate form by email invitation after qualifying offer.",
+        "sourceUrl": "https://www.cardiff.ac.uk/study/international/funding-and-fees/international-scholarships/undergraduate-excellence-scholarships",
+        "title": "Undergraduate International Excellence Scholarship — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": "2027-04-02",
+        "deadlineCycle": "Fall 2027",
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Check the application route and/or intake deadline on the official course page.",
+      "Check the scholarship continuation conditions.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "liverpool",
+    "name": "University of Liverpool",
+    "initials": "LIV",
+    "city": "Liverpool",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://liverpool.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/2027",
+        "title": "University of Liverpool — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc (Hons) Computer Science."
+      },
+      {
+        "field": "tuition",
+        "value": 33000,
+        "sourceUrl": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/2027",
+        "title": "University of Liverpool — overseas course tuition",
+        "checkedAt": "2026-11-27",
+        "cycle": "2027/28",
+        "note": "Published annual tuition for this course; excludes living and other expenses."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "AAB including Mathematics or Computer Science.",
+        "sourceUrl": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/2027",
+        "title": "University of Liverpool — course entry requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "Applies to the cited qualification route only. Check published equivalencies for your country.",
+        "scope": {
+          "program": "BSc (Hons) Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "englishMinimums",
+        "value": [
+          {
+            "test": "IELTS",
+            "score": 6,
+            "kind": "minimum",
+            "condition": "Overall, with at least 5.5 in each component for this course's published route."
+          }
+        ],
+        "sourceUrl": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/2027",
+        "title": "University of Liverpool — course English requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "scope": {
+          "program": "BSc (Hons) Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS",
+        "sourceUrl": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/2027",
+        "title": "University of Liverpool — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "International application deadline",
+            "category": "admission",
+            "date": "2027-06-30",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Published deadline for international applicants to this programme."
+          }
+        ],
+        "sourceUrl": "https://www.liverpool.ac.uk/courses/computer-science-bsc-hons/2027",
+        "title": "University of Liverpool — International application deadline",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "aidForms",
+        "value": "Consult the international funding directory. Check direct-entry eligibility and cycle before using an award amount.",
+        "sourceUrl": "https://www.liverpool.ac.uk/international/scholarships-and-fees/scholarships-and-bursaries/",
+        "title": "University of Liverpool — funding information",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      }
+    ],
+    "unknowns": [
+      "Current award coverage, continuation, application and deadline need confirmation.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "loughborough",
+    "name": "Loughborough University",
+    "initials": "LBO",
+    "city": "Loughborough",
+    "state": "England",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://lboro.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.lboro.ac.uk/study/undergraduate/courses/computer-science-bsc/",
+        "title": "Loughborough University — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BSc Computer Science."
+      },
+      {
+        "field": "tuition",
+        "value": 31500,
+        "sourceUrl": "https://www.lboro.ac.uk/study/undergraduate/courses/computer-science-bsc/",
+        "title": "Loughborough University — overseas course tuition",
+        "checkedAt": "2026-11-27",
+        "cycle": "2027/28",
+        "note": "Published annual tuition for this course; excludes living and other expenses."
+      },
+      {
+        "field": "admissionEligibility",
+        "value": "AAA including Mathematics, or AAB including Mathematics and Computer Science.",
+        "sourceUrl": "https://www.lboro.ac.uk/study/undergraduate/courses/computer-science-bsc/",
+        "title": "Loughborough University — course entry requirements",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "Applies to the cited qualification route only. Check published equivalencies for your country.",
+        "scope": {
+          "program": "BSc Computer Science",
+          "subjects": [
+            "Computer Science"
+          ],
+          "purpose": "admission"
+        }
+      },
+      {
+        "field": "applicationPlatform",
+        "value": "UCAS",
+        "sourceUrl": "https://www.lboro.ac.uk/study/undergraduate/courses/computer-science-bsc/",
+        "title": "Loughborough University — course application",
+        "checkedAt": "2026-11-27",
+        "cycle": null
+      },
+      {
+        "field": "requirements",
+        "value": [
+          {
+            "label": "Education and qualifications",
+            "status": "Required",
+            "condition": "On the UCAS route, enter achieved and pending qualifications."
+          },
+          {
+            "label": "Personal statement",
+            "status": "Required",
+            "condition": "Complete the UCAS statement questions."
+          },
+          {
+            "label": "Academic reference",
+            "status": "Required",
+            "condition": "Arrange a referee and submit with the UCAS application."
+          }
+        ],
+        "sourceUrl": "https://www.ucas.com/applying/applying-to-university/filling-in-your-ucas-application",
+        "title": "UCAS — filling in the undergraduate application",
+        "checkedAt": "2026-11-27",
+        "cycle": null,
+        "note": "General UCAS requirements only. Institution-specific uploads, official transcripts and translations may differ."
+      },
+      {
+        "field": "aidForms",
+        "value": "International Excellence Scholarship. Automatic consideration from the degree application.",
+        "sourceUrl": "https://www.lboro.ac.uk/study/undergraduate/fees-funding/scholarships/excellence-scholarships/",
+        "title": "International Excellence Scholarship — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "International Excellence Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "Award up to £3,000 for eligible new international undergraduate entrants.",
+        "amount": null,
+        "currency": "GBP",
+        "renewal": null,
+        "separateApplication": "Automatic consideration from the degree application.",
+        "sourceUrl": "https://www.lboro.ac.uk/study/undergraduate/fees-funding/scholarships/excellence-scholarships/",
+        "title": "International Excellence Scholarship — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": null,
+        "deadlineCycle": null,
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Programme-specific English test minimums are unverified.",
+      "Check the application route and/or intake deadline on the official course page.",
+      "Check the scholarship continuation conditions.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  },
+  {
+    "slug": "queens-belfast",
+    "name": "Queen’s University Belfast",
+    "initials": "QUB",
+    "city": "Belfast",
+    "state": "Northern Ireland",
+    "country": "United Kingdom",
+    "region": "Europe",
+    "costCurrency": "GBP",
+    "type": "University",
+    "website": "https://qub.ac.uk",
+    "color": "#28527a",
+    "findings": [
+      {
+        "field": "programs",
+        "value": [
+          "Computer Science"
+        ],
+        "sourceUrl": "https://www.qub.ac.uk/courses/undergraduate/computer-science-beng-g403/",
+        "title": "Queen’s University Belfast — degree listing",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027",
+        "note": "BEng Computer Science."
+      },
+      {
+        "field": "aidForms",
+        "value": "Vice Chancellor’s International Attainment Scholarship. Application method not yet verified.",
+        "sourceUrl": "https://www.qub.ac.uk/Study/funding-scholarships/Non-facultydepartments/international-office/vice-chancellors-international-attainment-undergraduate-scholarship.html",
+        "title": "Vice Chancellor’s International Attainment Scholarship — application route",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      },
+      {
+        "field": "deadlines",
+        "value": [
+          {
+            "label": "Vice Chancellor’s International Attainment Scholarship",
+            "category": "aid",
+            "date": "2027-06-03",
+            "cycle": "Fall 2027",
+            "kind": "fixed",
+            "note": "Check the official eligibility and application instructions."
+          }
+        ],
+        "sourceUrl": "https://www.qub.ac.uk/Study/funding-scholarships/Non-facultydepartments/international-office/vice-chancellors-international-attainment-undergraduate-scholarship.html",
+        "title": "Queen’s University Belfast — Vice Chancellor’s International Attainment Scholarship",
+        "checkedAt": "2026-11-27",
+        "cycle": "Fall 2027"
+      }
+    ],
+    "scholarships": [
+      {
+        "name": "Vice Chancellor’s International Attainment Scholarship",
+        "kind": "Competitive scholarship",
+        "fundingType": "Merit",
+        "eligibleCitizenships": null,
+        "coverage": "Four awards of 50% tuition reduction for eligible students, for up to four years.",
+        "amount": null,
+        "currency": "GBP",
+        "renewal": null,
+        "separateApplication": null,
+        "sourceUrl": "https://www.qub.ac.uk/Study/funding-scholarships/Non-facultydepartments/international-office/vice-chancellors-international-attainment-undergraduate-scholarship.html",
+        "title": "Vice Chancellor’s International Attainment Scholarship — official terms",
+        "cycle": "Fall 2027",
+        "note": "Check course, fee status and other eligibility conditions on the source page.",
+        "deadline": "2027-06-03",
+        "deadlineCycle": "Fall 2027",
+        "checkedAt": "2026-11-27"
+      }
+    ],
+    "unknowns": [
+      "Programme-specific overseas tuition for 2027/28 is unverified.",
+      "Programme-specific English test minimums are unverified.",
+      "Check the application route and/or intake deadline on the official course page.",
+      "Check the scholarship continuation conditions.",
+      "Country-specific document, transcript and official English/SAT score-report rules have not been verified."
+    ]
+  }
+]

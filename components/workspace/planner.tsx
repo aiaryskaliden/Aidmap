@@ -17,7 +17,6 @@ import { findUniversity } from "@/data/universities";
 import { statuses, type SavedUniversity } from "@/types/domain";
 import { updateSaved } from "@/lib/storage/state";
 import { PageHeading, EmptyState, LocalNote } from "@/components/ui/shared";
-import { WorkspaceNav } from "@/components/layout/shell";
 import { Button } from "@/components/ui/button";
 import { dateLabel } from "@/lib/utils";
 import { nextAdmissionDeadline } from "@/lib/admissions";
@@ -290,7 +289,6 @@ export default function Planner() {
   );
   return (
     <div className="page-container workspace-page">
-      <WorkspaceNav />
       <PageHeading
         eyebrow="YOUR WORKSPACE / APPLICATION PLANNER"
         title="Plan your applications"

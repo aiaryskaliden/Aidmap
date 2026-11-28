@@ -38,7 +38,7 @@ export type FieldStatus =
   | "unverified";
 export function fieldStatus(
   field: Fact<unknown>,
-  u: University,
+  u: Pick<University, "sources">,
   intake = TARGET_INTAKE,
 ): FieldStatus {
   if (
